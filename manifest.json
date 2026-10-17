@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Engineering 2027 Study OS",
+  "short_name": "Study OS",
+  "description": "Offline study operating system for MHT-CET, JEE Main and Maharashtra HSC 2027.",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#F5F4FB",
+  "background_color": "#F5F4FB",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Focus timer", "short_name": "Focus", "url": "./index.html#/focus", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Planner", "short_name": "Planner", "url": "./index.html#/planner", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Error notebook", "short_name": "Errors", "url": "./index.html#/errors", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

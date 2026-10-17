@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Study OS</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Offline study operating system for MHT-CET, JEE Main and Maharashtra HSC 2027.">
+<meta name="theme-color" content="#F5F4FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12111F" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Study OS">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h5v-6h4v6h5V10"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6.5C10.5 5 8 4.5 4 4.5v13c4 0 6.5.5 8 2 1.5-1.5 4-2 8-2v-13c-4 0-6.5.5-8 2z"/><path d="M12 6.5v13"/></symbol>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="3"/><path d="M9.5 3h5v3h-5zM9 13.5l2 2 4-4.5"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1-4 4-6 7.5-6s6.5 2 7.5 6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .3 1.5 1 2.2 2 2.5C11 9 11 6 12 3z"/></symbol>
+  <symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 9.5v4l2.5 1.5M9.5 3h5"/></symbol>
+  <symbol id="i-sigma" viewBox="0 0 24 24"><path d="M18 5H6l6 7-6 7h12"/></symbol>
+  <symbol id="i-cards" viewBox="0 0 24 24"><rect x="3.5" y="7" width="13" height="13" rx="2.5"/><path d="M7.5 4h11a2 2 0 0 1 2 2v11"/></symbol>
+  <symbol id="i-notebook" viewBox="0 0 24 24"><rect x="5" y="3.5" width="14" height="17" rx="2.5"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.5-4M4 4v4h4M4 13a8 8 0 0 0 14.5 4M20 20v-4h-4"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.5 2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-3-5.4 3 1.1-6-4.5-4.2 6.1-.8z"/></symbol>
+  <symbol id="i-star-f" viewBox="0 0 24 24"><path fill="currentColor" d="m12 3.5 2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-3-5.4 3 1.1-6-4.5-4.2 6.1-.8z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-check-c" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 3 3 5-6"/></symbol>
+  <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+  <symbol id="i-chev-d" viewBox="0 0 24 24"><path d="m5 9 7 7 7-7"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4.5c0 3 1.5 4.5 3.5 4.5M16 6h3.5c0 3-1.5 4.5-3.5 4.5M12 13v4M8.5 20h7M10 17h4"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M8 5.5v13l11-6.5z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8.5 5v14M15.5 5v14" style="stroke-width:3"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4.5 7h15M9.5 7V4.5h5V7M6.5 7l1 13h9l1-13"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="3"/><circle cx="9" cy="10" r="1.5"/><path d="m4 17 5-4.5 4 3.5 3-2.5 4.5 3.5"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3 7h3.5c5 0 5 10 10 10H21M3 17h3.5c1.7 0 3-.8 4-2M14 8c.8-.6 1.7-1 2.5-1H21M18.5 4 21 7l-2.5 3M18.5 14 21 17l-2.5 3"/></symbol>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M6 3.5h9l4 4v13H6z"/><path d="M14.5 3.5V8H19M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24"><path d="M7 9V3.5h10V9M7 17H4.5v-7h15v7H17"/><rect x="7" y="14" width="10" height="6.5" rx="1"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V5m0 0-4 4m4-4 4 4M5 20h14"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16M8 16v-5M13 16V8M18 16v-3"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-atom" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1.5" fill="currentColor"/><ellipse cx="12" cy="12" rx="9" ry="3.8"/><ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(120 12 12)"/></symbol>
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9.5 3.5h5M10.5 3.5v6L5 19a1.5 1.5 0 0 0 1.3 2.2h11.4A1.5 1.5 0 0 0 19 19l-5.5-9.5v-6M7.5 15h9"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5m0 0 6-6m-6 6 6 6"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></symbol>
+  <symbol id="i-settings" viewBox="0 0 24 24"><path d="M5 7h9M18 7h1M5 17h1M10 17h9"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3 5 13.5h6L10 21l8-10.5h-6z"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<aside class="sidebar" id="sidebar" aria-label="Main navigation">
+  <a class="sb-brand" href="#/home"><svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><g fill="none" stroke-width="4.5" stroke-linecap="round"><path d="M16 4.5a11.5 11.5 0 0 1 11.2 8.6" stroke="var(--phy)"/><path d="M27.5 18.4A11.5 11.5 0 0 1 19 27.2" stroke="var(--chem)"/><path d="M13 27.2A11.5 11.5 0 0 1 4.6 18.4" stroke="var(--mth)"/><path d="M4.8 13.1A11.5 11.5 0 0 1 13 4.8" stroke="var(--cs)"/></g></svg><span>Study OS</span></a>
+  <nav class="sb-nav" aria-label="Sections">
+    <p class="sb-label">Study</p>
+    <button class="sb-item rip" data-act="tab" data-tab="home" data-nav="home"><svg class="i" aria-hidden="true"><use href="#i-home"/></svg><span>Home</span></button>
+    <button class="sb-item rip" data-act="tab" data-tab="subjects" data-nav="subjects"><svg class="i" aria-hidden="true"><use href="#i-book"/></svg><span>Subjects</span></button>
+    <button class="sb-item rip" data-act="tab" data-tab="continue" data-nav="continue"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg><span>Continue</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/flashcards" data-nav="flashcards"><svg class="i" aria-hidden="true"><use href="#i-cards"/></svg><span>Flashcards</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/formulas" data-nav="formulas"><svg class="i" aria-hidden="true"><use href="#i-sigma"/></svg><span>Formula vault</span></button>
+    <p class="sb-label">Practice</p>
+    <button class="sb-item rip" data-act="tab" data-tab="tests" data-nav="tests"><svg class="i" aria-hidden="true"><use href="#i-clipboard"/></svg><span>Tests</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/pyq" data-nav="pyq"><svg class="i" aria-hidden="true"><use href="#i-note"/></svg><span>Past papers</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/errors" data-nav="errors"><svg class="i" aria-hidden="true"><use href="#i-notebook"/></svg><span>My mistakes</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/revision" data-nav="revision"><svg class="i" aria-hidden="true"><use href="#i-refresh"/></svg><span>Revision</span></button>
+    <p class="sb-label">Track</p>
+    <button class="sb-item rip" data-act="go" data-to="#/planner" data-nav="planner"><svg class="i" aria-hidden="true"><use href="#i-calendar"/></svg><span>Planner</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/focus" data-nav="focus"><svg class="i" aria-hidden="true"><use href="#i-timer"/></svg><span>Focus timer</span></button>
+    <button class="sb-item rip" data-act="go" data-to="#/analytics" data-nav="analytics"><svg class="i" aria-hidden="true"><use href="#i-chart"/></svg><span>Progress</span></button>
+    <button class="sb-item rip" data-act="tab" data-tab="more" data-nav="more"><svg class="i" aria-hidden="true"><use href="#i-grid"/></svg><span>More</span></button>
+  </nav>
+</aside>
+
+<header class="appbar" id="appbar">
+  <button class="icon-btn rip" id="bar-back" data-act="back" aria-label="Back" hidden><svg class="i" aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+  <span class="brand" id="bar-brand" aria-hidden="true">
+    <svg viewBox="0 0 32 32" width="28" height="28"><g fill="none" stroke-width="4.5" stroke-linecap="round">
+      <path d="M16 4.5a11.5 11.5 0 0 1 11.2 8.6" stroke="var(--phy)"/><path d="M27.5 18.4A11.5 11.5 0 0 1 19 27.2" stroke="var(--chem)"/>
+      <path d="M13 27.2A11.5 11.5 0 0 1 4.6 18.4" stroke="var(--mth)"/><path d="M4.8 13.1A11.5 11.5 0 0 1 13 4.8" stroke="var(--cs)"/></g></svg>
+  </span>
+  <div class="bar-ttl"><small class="bar-kick" id="bar-kick" hidden></small><h1 class="bar-title" id="bar-title">Study OS</h1></div>
+  <button class="pill rip" id="timer-chip" data-act="go" data-to="#/focus" hidden aria-label="Open running timer"></button>
+  <button class="pill streak rip" id="streak" data-act="go" data-to="#/badges" aria-label="Study streak"><svg class="i" aria-hidden="true"><use href="#i-flame"/></svg><b id="streak-n">0</b></button>
+  <button class="icon-btn rip" id="theme-btn" data-act="theme" aria-label="Switch light or dark theme"><svg class="i" aria-hidden="true"><use href="#i-moon"/></svg></button>
+</header>
+
+<div class="coach-banner" id="coach-banner" role="status" hidden></div>
+
+<main id="main" tabindex="-1">
+  <div class="skel-wrap page" aria-hidden="true"><div class="skel" style="height:64px"></div><div class="skel" style="height:190px"></div><div class="skel" style="height:96px"></div><div class="skel" style="height:88px"></div></div>
+  <noscript><p class="page">Study OS needs JavaScript. Turn it on in your browser settings.</p></noscript>
+</main>
+
+<button class="fab rip" id="fab" data-act="fab" aria-label="Quick add"><svg class="i" aria-hidden="true"><use href="#i-plus"/></svg></button>
+
+<nav class="tabbar" aria-label="Main">
+  <button class="tab rip" data-act="tab" data-tab="home"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-home"/></svg></span><span class="tab-l">Home</span></button>
+  <button class="tab rip" data-act="tab" data-tab="subjects"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-book"/></svg></span><span class="tab-l">Subjects</span></button>
+  <button class="tab rip" data-act="tab" data-tab="continue"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg></span><span class="tab-l">Continue</span></button>
+  <button class="tab rip" data-act="tab" data-tab="tests"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-clipboard"/></svg></span><span class="tab-l">Tests</span></button>
+  <button class="tab rip" data-act="tab" data-tab="more"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-grid"/></svg></span><span class="tab-l">More</span></button>
+</nav>
+
+<div class="sheet-wrap" id="sheet" hidden>
+  <div class="sheet-backdrop" data-act="sheet-close"></div>
+  <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" tabindex="-1">
+    <div class="sheet-grab" aria-hidden="true"></div>
+    <header class="sheet-head"><h2 id="sheet-title"></h2><button class="icon-btn rip" data-act="sheet-close" aria-label="Close"><svg class="i" aria-hidden="true"><use href="#i-x"/></svg></button></header>
+    <div class="sheet-body"></div>
+  </section>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script src="js/util.js"></script>
+<script src="js/store.js"></script>
+<script src="js/data-plan.js"></script>
+<script src="js/data-syllabus.js"></script>
+<script src="js/data-questions.js"></script>
+<script src="js/data-pyq.js"></script>
+<script src="data/learn.js"></script>
+<script src="js/data.js"></script>
+<script src="js/data-formulas.js"></script>
+<script src="js/data-cards.js"></script>
+<script src="js/migrate.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/exams.js"></script>
+<script src="js/testcenter.js"></script>
+<script src="js/practice.js"></script>
+<script src="js/learn.js"></script>
+<script src="js/pyq.js"></script>
+<script src="js/today.js"></script>
+<script src="js/summary.js"></script>
+<script src="js/formula.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/views-home.js"></script>
+<script src="js/views-planner.js"></script>
+<script src="js/views-subjects.js"></script>
+<script src="js/views-tests.js"></script>
+<script src="js/views-testcenter.js"></script>
+<script src="js/views-practice.js"></script>
+<script src="js/views-learn.js"></script>
+<script src="js/views-watch.js"></script>
+<script src="js/views-pyq.js"></script>
+<script src="js/views-formulas.js"></script>
+<script src="js/views-cards.js"></script>
+<script src="js/views-focus.js"></script>
+<script src="js/views-revision.js"></script>
+<script src="js/views-me.js"></script>
+<script src="js/views-more.js"></script>
+<script src="js/build-id.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
