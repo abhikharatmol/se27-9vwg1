@@ -13,13 +13,9 @@
 
   const NAMES = { phy: 'Physics', chem: 'Chemistry', mth: 'Maths' };
   const DIFF = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
-  const form = { ch: '', n: 20, mix: new Set(), mixN: 20, jeeCh: false, jeeMix: false };
+  const form = { kind: 'chapters', subj: 'all', sel: new Set(), n: 20, jee: false };
   let shownSec = null; // exam: section index last drawn, to announce a lock
 
-  const isDone = (id) => ['done', 'mastered'].indexOf(E.chap(id).s) >= 0;
-  function doneWithQuestions() {
-    return TC.chaptersWithQuestions().filter(isDone);
-  }
   function fmtClock(ms) {
     const s = Math.ceil(ms / 1000);
     const h = Math.floor(s / 3600);
@@ -45,52 +41,104 @@
     );
   }
 
-  function chapterOpts(ids) {
-    return ids.map((id) => ({ v: id, t: D.CH[id].name + (TC.chapterHasSample(id) ? ' (sample)' : '') }));
+  /* ---------- the builder: what do you want to take? ---------- */
+  const SUBJ_PILLS = [['all', 'All'], ['phy', 'Physics'], ['chem', 'Chemistry'], ['mth', 'Maths']];
+  const COUNT_CHIPS = [10, 20, 30, 50];
+
+  // Questions per chapter that a test with this marking can draw on (CET marking is MCQ only).
+  function countsFor(jee) {
+    const m = {};
+    (S.QUESTIONS || []).forEach((q) => {
+      if (jee || q.type === 'mcq') m[q.ch] = (m[q.ch] || 0) + 1;
+    });
+    return m;
+  }
+  function builderChapters(counts) {
+    return D.CHAPTERS.filter((c) => c.subj !== 'cs' && (form.subj === 'all' || c.subj === form.subj))
+      .slice()
+      // Chapters that have questions come first, so the list is useful while the bank is still growing.
+      .sort((a, b) => (counts[b.id] ? 1 : 0) - (counts[a.id] ? 1 : 0) || D.SUBJECT_ORDER.indexOf(a.subj) - D.SUBJECT_ORDER.indexOf(b.subj) || a.std - b.std || a.idx - b.idx);
+  }
+  const markingText = (jee) => (jee ? 'JEE marking: +4 for a correct answer, −1 for a wrong one.' : 'CET marking: +1 Physics and Chemistry, +2 Maths, no negative marks.');
+
+  function chaptersPanel() {
+    const jee = form.jee;
+    const counts = countsFor(jee);
+    Array.from(form.sel).forEach((id) => !counts[id] && form.sel.delete(id));
+    const list = builderChapters(counts);
+    const pill = (act, on, label, data) => '<button type="button" class="chip sm rip" aria-pressed="' + on + '" data-act="' + act + '" ' + data + '>' + label + '</button>';
+    const rows = list.map((c) => {
+      const n = counts[c.id] || 0;
+      const on = form.sel.has(c.id);
+      return '<li><button type="button" class="tcb-ch rip" aria-pressed="' + on + '" data-act="tc-pick" data-id="' + c.id + '"' + (n ? '' : ' disabled') + ' data-testid="tcb-ch">' +
+        '<span class="tcb-tick" aria-hidden="true">' + (on ? u.icon('check') : '') + '</span>' +
+        '<span class="tcb-name"><b>' + u.esc(c.name) + '</b><small>' + NAMES[c.subj] + ' · Class ' + c.std + '</small></span>' +
+        '<span class="tcb-n">' + (n ? n + ' Q' : 'Questions coming') + '</span></button></li>';
+    }).join('');
+    const ids = Array.from(form.sel);
+    const avail = ids.reduce((t, id) => t + (counts[id] || 0), 0);
+    const n = Math.min(form.n, avail);
+    let mins = 0;
+    if (avail) {
+      const pace = ids.reduce((t, id) => t + (counts[id] || 0) * (jee ? TC.PACE.jee : TC.PACE.cet[D.CH[id].subj] || 0.9), 0) / avail;
+      mins = Math.max(1, Math.round(n * pace));
+    }
+    const summary = ids.length
+      ? '<p class="tcb-sum" data-testid="tcb-sum"><b>' + u.plural(n, 'question') + ' · ' + mins + ' min</b> from ' + u.plural(ids.length, 'chapter') + (n < form.n ? ' (all that are available)' : '') + '. ' + markingText(jee) + '</p>'
+      : '<p class="tcb-sum muted" data-testid="tcb-sum">Tap one chapter, or several, to build your test.</p>';
+    return (
+      '<div class="chips tcb-pills" role="group" aria-label="Subject">' + SUBJ_PILLS.map((p) => pill('tc-subj', form.subj === p[0], p[1], 'data-subj="' + p[0] + '"')).join('') + '</div>' +
+      '<div class="chips tcb-pills" role="group" aria-label="Marking">' + pill('tc-marking', !jee, 'CET marking', 'data-m="cet"') + pill('tc-marking', jee, 'JEE marking', 'data-m="jee"') + '</div>' +
+      '<ul class="tcb-list" data-testid="tcb-list">' + (rows || '<li class="muted small">No chapters here.</li>') + '</ul>' +
+      '<div class="chips tcb-pills" role="group" aria-label="How many questions"><span class="small muted">Questions</span>' + COUNT_CHIPS.map((k) => pill('tc-n', form.n === k, String(k), 'data-n="' + k + '"')).join('') + '</div>' +
+      summary +
+      '<button class="btn primary block rip" data-act="tc-start" data-mode="builder" data-testid="tcb-start"' + (ids.length ? '' : ' disabled') + '>' + u.icon('timer') + 'Start test</button>' +
+      '<div class="row gap tcb-extra">' + (ids.length ? '<button class="link" data-act="tc-clear">Clear selection</button>' : '') +
+      '<button class="link" data-act="tc-start" data-mode="quick" data-testid="tcb-quick"' + (Object.keys(counts).length ? '' : ' disabled') + '>Quick 10: random, 10 minutes</button></div>'
+    );
+  }
+
+  function paperPanel(kind) {
+    const all = TC.chaptersWithQuestions();
+    if (kind === 'cet') {
+      const have = TC.cetCount(all);
+      return (
+        '<ul class="tcb-facts"><li><b>150 questions, 200 marks, 180 minutes</b></li>' +
+        '<li>Section 1: Physics + Chemistry, 100 questions (1 mark each), 90 minutes.</li>' +
+        '<li>Section 2: Maths, 50 questions (2 marks each), 90 minutes.</li>' +
+        '<li>No negative marking. Once Maths starts you cannot go back to Section 1.</li>' +
+        '<li>About 20% of questions come from Class 11, 80% from Class 12.</li></ul>' +
+        '<p class="small muted">Pattern as in the 2025 and 2026 papers. The CET Cell has not published 2027 yet. Check cetcell.mahacet.org.</p>' +
+        (have < 150 ? '<p class="small tc-short">' + (have ? 'Only ' + have + ' of 150 questions are in the bank yet: this will be a short paper.' : 'No questions yet.') + '</p>' : '') +
+        '<button class="btn primary block rip" data-act="tc-start" data-mode="cet" data-testid="tcb-cet"' + (have ? '' : ' disabled') + '>' + u.icon('timer') + 'Start CET paper</button>'
+      );
+    }
+    const have = TC.jeeCount(all);
+    return (
+      '<ul class="tcb-facts"><li><b>75 questions, 300 marks, 180 minutes</b></li>' +
+      '<li>Physics, Chemistry, Maths: 20 MCQ + 5 numerical each. All are compulsory. One clock; you can move freely.</li>' +
+      '<li>+4 for a correct answer, −1 for a wrong one (MCQ and numerical).</li></ul>' +
+      '<p class="small muted">Pattern as in the 2026 papers. Check the NTA bulletin for 2027 at jeemain.nta.nic.in.</p>' +
+      (have < 75 ? '<p class="small tc-short">' + (have ? 'Only ' + have + ' of 75 questions are in the bank yet: this will be a short paper.' : 'No questions yet.') + '</p>' : '') +
+      '<button class="btn primary block rip" data-act="tc-start" data-mode="jee" data-testid="tcb-jee"' + (have ? '' : ' disabled') + '>' + u.icon('timer') + 'Start JEE paper</button>'
+    );
+  }
+
+  // The one place a test is started: three choices, then one button. Used on the Tests tab and on #/testcenter.
+  function starterHtml() {
+    const kinds = [['chapters', 'Chapters', 'One or many'], ['cet', 'CET paper', '150 Q · 200 marks'], ['jee', 'JEE paper', '75 Q · 300 marks']];
+    return (
+      '<section class="card stack tcb" data-testid="tc-builder"><h2 class="h3">Take a test</h2>' +
+      '<div class="tcb-kinds" role="group" aria-label="Kind of test">' + kinds.map((k) =>
+        '<button type="button" class="tcb-kind rip" aria-pressed="' + (form.kind === k[0]) + '" data-act="tc-kind" data-kind="' + k[0] + '" data-testid="tcb-kind-' + k[0] + '"><b>' + k[1] + '</b><small>' + k[2] + '</small></button>').join('') + '</div>' +
+      (form.kind === 'chapters' ? chaptersPanel() : paperPanel(form.kind)) +
+      '<button class="btn tonal block rip" data-act="go" data-to="#/pyq" data-testid="tests-pyq">' + u.icon('clipboard') + 'Past papers: timed answer sheet</button>' +
+      '</section>'
+    );
   }
 
   function modeCards() {
-    const done = doneWithQuestions();
-    const all = TC.chaptersWithQuestions();
-    const doneAll = D.CHAPTERS.filter((c) => c.subj !== 'cs' && isDone(c.id)).length;
-    const missing = doneAll - done.length;
-    if (!form.ch || done.indexOf(form.ch) < 0) form.ch = done[0] || '';
-    Array.from(form.mix).forEach((id) => done.indexOf(id) < 0 && form.mix.delete(id));
-    const toggle = (act, on, label) => '<button type="button" class="chip sm rip" role="switch" aria-checked="' + on + '" aria-pressed="' + on + '" data-act="' + act + '">' + label + '</button>';
-    const cetHave = TC.cetCount(all);
-    const jeeHave = TC.jeeCount(all);
-    const none = !done.length
-      ? '<p class="muted small">None of your done chapters has questions yet. Mark a chapter Done in Subjects, or wait for the question bank.</p>'
-      : '';
-    return (
-      '<section class="card stack"><h2 class="h3">Chapter test</h2>' + none +
-      (done.length
-        ? ui.field('Chapter', ui.select('tc-ch', chapterOpts(done), form.ch).replace('<select ', '<select data-change="tc-ch" ')) +
-          ui.field('Questions', '<input type="number" inputmode="numeric" min="1" max="200" value="' + form.n + '" data-change="tc-n">', 'Up to the questions available · ' + TC.PRACTICE_MIN_PER_Q + ' min each') +
-          '<div class="chips">' + toggle('tc-jee-ch', form.jeeCh, 'JEE practice marking (+4 / −1)') + '</div>' +
-          '<button class="btn primary block rip" data-act="tc-start" data-mode="chapter">Start chapter test</button>'
-        : '') +
-      '</section>' +
-      '<section class="card stack"><h2 class="h3">Custom mix</h2>' +
-      (done.length >= 2
-        ? '<div class="chips">' + done.map((id) => '<button type="button" class="chip sm rip" aria-pressed="' + form.mix.has(id) + '" data-act="tc-mix" data-id="' + id + '">' + u.esc(D.CH[id].name) + '</button>').join('') + '</div>' +
-          ui.field('Questions', '<input type="number" inputmode="numeric" min="2" max="200" value="' + form.mixN + '" data-change="tc-mixn">', 'Split by chapter weight · ' + TC.PRACTICE_MIN_PER_Q + ' min each') +
-          '<div class="chips">' + toggle('tc-jee-mix', form.jeeMix, 'JEE practice marking (+4 / −1)') + '</div>' +
-          '<button class="btn primary block rip" data-act="tc-start" data-mode="mix"' + (form.mix.size < 2 ? ' disabled' : '') + '>Start custom mix</button>'
-        : '<p class="muted small">Needs at least two done chapters with questions.</p>') +
-      '</section>' +
-      '<section class="card stack"><h2 class="h3">Quick 10</h2><p class="muted small">10 questions from your done chapters, 10 minutes, CET marking.</p>' +
-      '<button class="btn tonal block rip" data-act="tc-start" data-mode="quick"' + (done.length ? '' : ' disabled') + '>Start Quick 10</button></section>' +
-      '<section class="card stack"><h2 class="h3">CET-pattern mock</h2><p class="muted small">Section 1: Physics + Chemistry, 100 questions, 90 min. Section 2: Maths, 50 questions, 90 min, 2 marks each. No negative marking. Section 1 locks at 90:00 and Maths opens then — you cannot move early or go back.</p>' +
-      (cetHave < 150 && cetHave > 0 ? '<p class="small tc-short">Only ' + cetHave + ' of 150 questions in the bank yet: this will be a short mock.</p>' : '') +
-      '<button class="btn tonal block rip" data-act="tc-start" data-mode="cet"' + (cetHave ? '' : ' disabled') + '>Start CET mock</button></section>' +
-      '<section class="card stack"><h2 class="h3">JEE-pattern mock</h2><p class="muted small">Physics, Chemistry, Maths: 20 MCQ + 5 numerical each, one 180-minute clock, move freely. MCQ +4 / −1. Numerical +4, and ' + (store.get('profile').testCenter.jeeNumNeg ? '−1' : 'no penalty') + ' when wrong (setting below).</p>' +
-      (jeeHave < 75 && jeeHave > 0 ? '<p class="small tc-short">Only ' + jeeHave + ' of 75 questions in the bank yet: this will be a short mock.</p>' : '') +
-      '<button class="btn tonal block rip" data-act="tc-start" data-mode="jee"' + (jeeHave ? '' : ' disabled') + '>Start JEE mock</button>' +
-      '<div class="chips">' + toggle('tc-numneg', !!store.get('profile').testCenter.jeeNumNeg, 'Wrong JEE numerical loses 1 mark') + '</div>' +
-      '<p class="muted small">NTA hasn’t published the 2027 rules yet. Each test keeps the setting it started with.</p></section>' +
-      (missing > 0 ? '<p class="muted small note-line">' + u.plural(missing, 'done chapter') + ' ha' + (missing === 1 ? 's' : 've') + ' no questions yet. Computer Science is not part of the Test Center.</p>' : '')
-    );
+    return starterHtml();
   }
 
   function attemptsHtml() {
@@ -124,9 +172,14 @@
 
   async function startMode(mode) {
     const opts = {};
-    if (mode === 'chapter') Object.assign(opts, { chapters: [form.ch], n: form.n, marking: form.jeeCh ? 'jee' : 'cet' });
-    if (mode === 'mix') Object.assign(opts, { chapters: Array.from(form.mix), n: form.mixN, marking: form.jeeMix ? 'jee' : 'cet' });
-    if (mode === 'quick') opts.chapters = doneWithQuestions();
+    if (mode === 'builder') {
+      // One chapter is a chapter test, two or more are a mix; the engine modes stay as they were.
+      const ids = Array.from(form.sel);
+      if (!ids.length) return ui.toast('Pick at least one chapter.');
+      mode = ids.length === 1 ? 'chapter' : 'mix';
+      Object.assign(opts, { chapters: ids, n: form.n, marking: form.jee ? 'jee' : 'cet' });
+    }
+    if (mode === 'quick') opts.chapters = TC.chaptersWithQuestions();
     await launch(() => TC.start(mode, opts));
   }
 
@@ -156,18 +209,19 @@
   }
 
   ui.actions['tc-start'] = (el) => startMode(el.dataset.mode);
-  ui.actions['tc-mix'] = (el) => {
+  const redraw = () => S.app.refresh(true);
+  ui.actions['tc-kind'] = (el) => { form.kind = el.dataset.kind; redraw(); };
+  ui.actions['tc-subj'] = (el) => { form.subj = el.dataset.subj; redraw(); };
+  ui.actions['tc-marking'] = (el) => { form.jee = el.dataset.m === 'jee'; redraw(); };
+  ui.actions['tc-n'] = (el) => { form.n = Number(el.dataset.n) || 20; redraw(); };
+  ui.actions['tc-pick'] = (el) => {
     const id = el.dataset.id;
-    if (form.mix.has(id)) form.mix.delete(id);
-    else form.mix.add(id);
-    S.app.refresh(true);
+    if (form.sel.has(id)) form.sel.delete(id);
+    else form.sel.add(id);
+    redraw();
   };
-  ui.actions['tc-jee-ch'] = () => { form.jeeCh = !form.jeeCh; S.app.refresh(true); };
-  ui.actions['tc-jee-mix'] = () => { form.jeeMix = !form.jeeMix; S.app.refresh(true); };
+  ui.actions['tc-clear'] = () => { form.sel.clear(); redraw(); };
   ui.actions['tc-numneg'] = () => store.mutate('profile', (p) => (p.testCenter.jeeNumNeg = !p.testCenter.jeeNumNeg));
-  ui.changes['tc-ch'] = (el) => (form.ch = el.value);
-  ui.changes['tc-n'] = (el) => (form.n = u.clamp(Math.round(u.num(el.value, 20)), 1, 200));
-  ui.changes['tc-mixn'] = (el) => (form.mixN = u.clamp(Math.round(u.num(el.value, 20)), 2, 200));
   ui.actions['tc-discard'] = async () => {
     const a = TC.active();
     if (!a) return;
@@ -435,12 +489,13 @@
   // Starts the standard chapter test (CET marking, default length) for one chapter; used by the
   // chapter sheet. Also preselects that chapter in the Test Center form.
   function startChapterTest(id) {
-    form.ch = id;
+    form.kind = 'chapters';
+    form.sel = new Set([id]);
     return launch(() => TC.start('chapter', { chapters: [id], marking: 'cet' }));
   }
   // Learn hub "Checkpoint": a 10-question chapter test (fewer if the chapter has fewer MCQs).
   function startCheckpoint(id) {
     return launch(() => TC.start('chapter', { chapters: [id], marking: 'cet', n: 10, checkpoint: true }));
   }
-  S.tcUI = { goAfterSheet: goAfterSheet, startChapterTest: startChapterTest, startCheckpoint: startCheckpoint };
+  S.tcUI = { goAfterSheet: goAfterSheet, startChapterTest: startChapterTest, startCheckpoint: startCheckpoint, starterHtml: starterHtml, activeCard: activeCard, attemptsHtml: attemptsHtml };
 })((window.SOS = window.SOS || {}));

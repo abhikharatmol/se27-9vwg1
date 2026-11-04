@@ -784,6 +784,25 @@ main { padding-bottom: calc(var(--nav-h) + 6rem + var(--safe-b)); }
 .cr-hy { display: inline-block; margin-left: .25rem; padding: .05rem .5rem; border-radius: 999px; background: var(--warm-t); color: var(--warm-i); font-size: .7rem; font-weight: 800; }
 .cr-play { flex: none; display: grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--sc); color: #fff; }
 .cr-play .i { width: 1.1rem; height: 1.1rem; }
+/* Test builder (Tests tab): three choices, then one button. */
+.tcb-kinds { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s2); }
+.tcb-kind { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 3.5rem; padding: var(--s2); border-radius: 16px; background: var(--surface-2, rgba(0, 0, 0, .04)); border: 2px solid transparent; text-align: center; }
+.tcb-kind small { color: var(--text-3); font-size: .72rem; }
+.tcb-kind[aria-pressed="true"] { border-color: var(--brand); background: var(--brand-t, rgba(91, 70, 230, .1)); }
+.tcb-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; max-height: 22rem; overflow-y: auto; }
+.tcb-ch { width: 100%; display: flex; align-items: center; gap: var(--s3); min-height: 3rem; padding: .4rem var(--s2); border-radius: 14px; text-align: left; border: 2px solid transparent; }
+.tcb-ch[aria-pressed="true"] { border-color: var(--brand); background: var(--brand-t, rgba(91, 70, 230, .08)); }
+.tcb-ch:disabled { opacity: .5; }
+.tcb-tick { flex: none; display: grid; place-items: center; width: 1.5rem; height: 1.5rem; border-radius: 8px; border: 2px solid var(--line, rgba(0, 0, 0, .25)); }
+.tcb-ch[aria-pressed="true"] .tcb-tick { background: var(--brand); border-color: var(--brand); color: #fff; }
+.tcb-tick .i { width: 1rem; height: 1rem; }
+.tcb-name { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.25; }
+.tcb-name small { color: var(--text-3); }
+.tcb-n { flex: none; font-size: .8rem; color: var(--text-3); }
+.tcb-sum { margin: 0; line-height: 1.4; }
+.tcb-facts { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 6px; }
+.tcb-pills { align-items: center; }
+.tcb-log > summary { cursor: pointer; }
 .cr { flex-wrap: wrap; }
 .cr-chev { flex: none; display: grid; place-items: center; color: var(--text-3); }
 .cr-chev .i { width: 1.2rem; height: 1.2rem; transition: transform .2s; }

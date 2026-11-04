@@ -76,15 +76,17 @@
   // Primary entry to the Test Center (timed tests on the built-in question bank).
   function startCard() {
     const TC = S.tc;
-    const total = TC ? (S.QUESTIONS || []).length : 0;
-    const sub = total ? u.plural(total, 'question') + ' · ' + u.plural(TC.chaptersWithQuestions().length, 'chapter') + ' · timed, scored, with an answer key' : 'No questions yet';
+    const a = TC && TC.active();
     return (
-      '<section class="card stack" aria-label="Start a test"><button class="btn primary block rip" data-act="go" data-to="#/testcenter" data-testid="tests-start">' + u.icon('timer') + 'Start a test</button>' +
-      '<button class="btn tonal block rip" data-act="go" data-to="#/practice" data-testid="tests-practice">' + u.icon('target') + 'Practice (untimed)</button>' +
-      '<button class="btn tonal block rip" data-act="go" data-to="#/pyq" data-testid="tests-pyq">' + u.icon('clipboard') + 'Past papers: timed answer sheet</button>' +
-      '<p class="small muted center">' + sub + '</p></section>'
+      (a ? S.tcUI.activeCard(a) : '') + S.tcUI.starterHtml() +
+      '<button class="btn tonal block rip" data-act="go" data-to="#/practice" data-testid="tests-practice">' + u.icon('target') + 'Practice without a timer</button>'
     );
   }
+
+  // Keep the "log a score" box open across redraws (it redraws on every store change).
+  document.addEventListener('toggle', (e) => {
+    if (e.target && e.target.classList && e.target.classList.contains('tcb-log')) view.logOpen = e.target.open;
+  }, true);
 
   S.views.tests = {
     title: 'Tests',
@@ -105,12 +107,13 @@
         '<div class="page"><header class="page-h"><div><h1 class="h1">Tests</h1><p class="muted">' + items().length + ' logged · ' + u.plural(E.dueCounts().overdue + E.dueCounts().today, 'revision') + ' due</p></div>' +
         '<div class="row gap"><button class="btn tonal sm rip" data-act="go" data-to="#/errors">' + u.icon('notebook') + 'Errors</button></div></header>' +
         startCard() +
-        '<div><h2 class="h3">Log a book mock (type in your score)</h2>' +
-        '<p class="small muted">Test Center attempts appear under &ldquo;Previous attempts&rdquo;, not in these boxes.</p></div>' +
+        (S.tcUI.attemptsHtml ? S.tcUI.attemptsHtml() : '') +
+        '<details class="card stack tcb-log"' + (view.logOpen ? ' open' : '') + ' data-testid="tests-log"><summary class="h3">Log a score from a book or outside test</summary>' +
+        '<p class="small muted">Type in your score after a test taken outside the app. Tests taken in the app are saved by themselves.</p>' +
         ui.seg('mk-seg', [{ v: 'cet', t: 'CET (12)' }, { v: 'jee', t: 'JEE (8)' }, { v: 'sub', t: 'Subjects' }], view.seg) +
         main +
-        (list.length ? summary(list) : ui.empty('clipboard', 'No attempts yet', view.seg === 'sub' ? 'Add your first ' + D.MOCKS[type].short + ' test to see your trend.' : 'Tap a test above and enter your score after each attempt.')) +
-        (recent.length ? '<section class="card list-card"><h2 class="h3">Previous attempts</h2><ul class="atts">' + recent.map(attemptRow).join('') + '</ul></section>' : '') +
+        (list.length ? summary(list) : ui.empty('clipboard', 'No scores yet', view.seg === 'sub' ? 'Add your first ' + D.MOCKS[type].short + ' test to see your trend.' : 'Tap a test above and enter your score after each attempt.')) +
+        (recent.length ? '<h3 class="h4">Logged scores</h3><ul class="atts">' + recent.map(attemptRow).join('') + '</ul>' : '') + '</details>' +
         weakTags() + '</div>';
     },
   };

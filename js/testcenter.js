@@ -24,7 +24,14 @@
   const E = S.engine;
 
   const MIN = 60000;
-  const PRACTICE_MIN_PER_Q = 1.5;
+  const PRACTICE_MIN_PER_Q = 1.5; // kept for old callers; practice sets now use the official pace below
+  // Practice sets run at the pace of the real paper: CET gives 90 min for 100 Physics+Chemistry questions and
+  // 90 min for 50 Maths questions; JEE Main gives 180 min for 75 questions.
+  const PACE = { cet: { phy: 0.9, chem: 0.9, mth: 1.8 }, jee: 2.4 };
+  function practiceMins(qs, marking) {
+    const m = qs.reduce((n, q) => n + (marking === 'jee' ? PACE.jee : PACE.cet[D.CH[q.ch].subj] || 0.9), 0);
+    return Math.max(1, Math.round(m));
+  }
 
   // Section 1 of the CET mock runs its full 90 minutes whatever her progress: there is no
   // "finish section early", and Maths only opens at 90:00. ASSUMPTION from research into the
@@ -218,7 +225,8 @@
       a = newAttempt(mode, D.CH[id].name + (opts.checkpoint ? ' · checkpoint' : ' · chapter test'), [id], practiceRules(), now);
       // Learn hub "Checkpoint" step: a short chapter test, told apart from the full one by this flag.
       if (opts.checkpoint) a.checkpoint = true;
-      practiceSection(a, take(p, n, rng), now, n * PRACTICE_MIN_PER_Q, rng);
+      const picked = take(p, n, rng);
+      practiceSection(a, picked, now, practiceMins(picked, opts.marking), rng);
     } else if (mode === 'mix') {
       const ids = (opts.chapters || []).filter((id) => D.CH[id]);
       if (ids.length < 2) throw fail('Pick at least two chapters for a custom mix.');
@@ -235,7 +243,7 @@
       ids.forEach((id) => take(chapterPool(id), alloc[id], rng).forEach((q) => qs.push(q)));
       if (!qs.length) throw fail('None of those chapters has questions yet.');
       a = newAttempt(mode, 'Custom mix · ' + ids.length + ' chapters', ids, practiceRules(), now);
-      practiceSection(a, shuffle(qs, rng), now, qs.length * PRACTICE_MIN_PER_Q, rng);
+      practiceSection(a, shuffle(qs, rng), now, practiceMins(qs, opts.marking), rng);
     } else if (mode === 'quick') {
       // Quick 10 always uses CET marking (mcq only); the JEE practice toggle is only on chapter/mix.
       const ids = (opts.chapters || []).filter((id) => D.CH[id]);
@@ -288,7 +296,7 @@
       const rules = clone(src.rules);
       a = newAttempt(mode, 'Retry: ' + src.title, Array.from(new Set(qs.map((q) => q.ch))), rules, now);
       a.retryOf = src.id;
-      practiceSection(a, qs, now, qs.length * PRACTICE_MIN_PER_Q, rng);
+      practiceSection(a, qs, now, practiceMins(qs, rules.phy && rules.phy.mcq[0] === 4 ? 'jee' : 'cet'), rng);
     } else {
       throw fail('Unknown test mode "' + mode + '".');
     }
@@ -689,7 +697,7 @@
   }
 
   S.tc = {
-    MODES: MODES, CET: CET, JEE: JEE, PRACTICE_MIN_PER_Q: PRACTICE_MIN_PER_Q,
+    MODES: MODES, CET: CET, JEE: JEE, PRACTICE_MIN_PER_Q: PRACTICE_MIN_PER_Q, PACE: PACE, practiceMins: practiceMins,
     // pure
     cetRules: cetRules, jeeRules: jeeRules, apportion: apportion, build: build, catchUp: catchUp,
     timeLeft: timeLeft, section: section, canOpen: canOpen, visit: visit, pause: pause, resumeQ: resumeQ,

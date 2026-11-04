@@ -5,7 +5,7 @@
  * run `py tools/build.py`, which stamps VERSION with a hash of every asset. Users see a
  * "new version ready" toast and the update applies when they tap Refresh.
  */
-const VERSION = 'sos-e4c7b85efa';
+const VERSION = 'sos-25c47fc03b';
 const CACHE = 'study-os-' + VERSION;
 const ASSETS = [
   './',
