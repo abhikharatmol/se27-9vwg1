@@ -8,7 +8,7 @@
   "start_url": "./index.html#/home",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "theme_color": "#F5F4FB",
   "background_color": "#F5F4FB",
   "categories": ["education", "productivity"],

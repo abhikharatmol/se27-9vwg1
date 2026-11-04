@@ -128,7 +128,45 @@
     store.flush();
   }
 
+  // Leaving a running test: ask first. The attempt is kept and its clock keeps running (as in the real exam),
+  // so "Leave" is safe, but a stray tap on a tab should not end a sitting by accident.
+  let leaveExamOk = false;
+  function runningExam() {
+    const a = S.tc && S.tc.active();
+    return a && a.mode !== 'pyq' ? a : null;
+  }
+  function guardExamLeave() {
+    const ok = leaveExamOk;
+    leaveExamOk = false;
+    if (ok || current.name !== 'exam' || !runningExam()) return false;
+    const next = parse();
+    if (next.name === 'exam') return false;
+    history.replaceState(null, '', current.hash); // stay on the test while she decides
+    ui.confirm({
+      title: 'Leave this test?',
+      text: 'Your answers are saved and the timer keeps running while you are away. Open Tests to come back.',
+      ok: 'Leave the test',
+      cancel: 'Stay in the test',
+      danger: true,
+    }).then((yes) => {
+      if (!yes) return;
+      // The sheet is still closing (it uses history); navigate after it has settled.
+      setTimeout(() => {
+        leaveExamOk = true;
+        S.app.go(next.hash);
+      }, 80);
+    });
+    return true;
+  }
+  window.addEventListener('beforeunload', (e) => {
+    if (current.name === 'exam' && runningExam()) {
+      e.preventDefault();
+      e.returnValue = '';
+    }
+  });
+
   function route() {
+    if (guardExamLeave()) return;
     if (lastRenderedHash) scrollMemo[lastRenderedHash] = window.scrollY;
     const prevName = current.name;
     const next = parse();

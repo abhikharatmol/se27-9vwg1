@@ -12,6 +12,7 @@
   const NAMES = { phy: 'Physics', chem: 'Chemistry', mth: 'Mathematics', cs: 'Computer Science' };
   const view = { std: 12, filter: 'all', hy: false, sort: 'order', pyqSubj: 'all', sheetCh: '', cls: 'all', exam: 'all' };
   const PRI = ['', 'Low', 'Med', 'High'];
+  const openCh = {}; // chapter id -> true while its topic list is open (kept while the app runs)
   const JEE_NOTE = { partial: 'Only part of this chapter is in the JEE Main syllabus.', verify: 'Recheck this chapter against the current NTA syllabus — the source was unclear.' };
 
   function examBadges(c) {
@@ -111,11 +112,25 @@
       const sub = wc.total ? wc.watched + ' of ' + wc.total + ' lectures' : 'Videos coming';
       const pct = wc.total ? wc.watched / wc.total : 0;
       const now = x.at && i === 0;
+      const cd = L.chData(c.id);
+      const topics = cd.topics || [];
+      const open = topics.length > 0 && !!openCh[c.id];
+      // With topics: tapping the row opens its topic list; the play button still goes straight to the lectures.
+      const main = topics.length
+        ? '<button class="cr-main rip" data-act="cr-toggle" data-id="' + c.id + '" aria-expanded="' + open + '" data-testid="cr-open">'
+        : '<button class="cr-main rip" data-act="go" data-to="#/watch/' + c.id + '" data-id="' + c.id + '" data-testid="cr-open">';
+      const topicList = topics.length
+        ? '<ul class="cr-topics" data-testid="cr-topics"' + (open ? '' : ' hidden') + '>' + topics.map((t) =>
+          '<li><button class="cr-topic rip" data-act="go" data-to="#/watch/' + c.id + '?t=' + encodeURIComponent(t.no) + '" data-testid="cr-topic"><span>' +
+          u.esc((cd.lst ? '' : t.no + ' ') + t.t) + '</span>' + u.icon('chev-r') + '</button></li>').join('') + '</ul>'
+        : '';
       return (
-        '<li class="cr' + (now ? ' is-now' : '') + '" data-s="' + s + '"><button class="cr-main rip" data-act="go" data-to="#/watch/' + c.id + '" data-id="' + c.id + '" data-testid="cr-open">' +
+        '<li class="cr' + (now ? ' is-now' : '') + '" data-s="' + s + '">' + main +
         '<span class="cr-n">' + (c.tb || c.idx + 1) + '</span><span class="cr-b"><b>' + u.esc(c.name) + '</b><small>' + sub +
-        (c.hy ? ' <span class="cr-hy">High weightage</span>' : '') + '</small>' + (wc.total ? bar(pct) : '') + '</span></button>' +
-        '<button class="cr-play rip" data-act="go" data-to="#/watch/' + c.id + '" aria-label="' + (wc.total ? 'Watch ' : 'Open ') + u.esc(c.name) + '">' + u.icon('play') + '</button></li>'
+        (topics.length ? ' · ' + u.plural(topics.length, 'topic') : '') +
+        (c.hy ? ' <span class="cr-hy">High weightage</span>' : '') + '</small>' + (wc.total ? bar(pct) : '') + '</span>' +
+        (topics.length ? '<span class="cr-chev" aria-hidden="true">' + u.icon('chev-d') + '</span>' : '') + '</button>' +
+        '<button class="cr-play rip" data-act="go" data-to="#/watch/' + c.id + '" aria-label="' + (wc.total ? 'Watch ' : 'Open ') + u.esc(c.name) + '">' + u.icon('play') + '</button>' + topicList + '</li>'
       );
     }).join('');
     return (
@@ -125,6 +140,14 @@
       '<p class="muted small note-line">Tap a chapter to watch its lectures. Weightage is a planning estimate from typical CET and JEE papers.</p></div>'
     );
   }
+
+  ui.actions['cr-toggle'] = (el) => {
+    const id = el.dataset.id;
+    openCh[id] = !openCh[id];
+    el.setAttribute('aria-expanded', String(!!openCh[id]));
+    const list = el.closest('.cr').querySelector('.cr-topics');
+    if (list) list.hidden = !openCh[id];
+  };
 
   S.views.subjects = {
     title: 'Subjects',

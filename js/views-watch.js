@@ -146,6 +146,16 @@
     );
   }
 
+  // "Learn more": a search box that opens Google or YouTube in a new tab, pre-filled with this topic. Links only; the app sends nothing.
+  function searchHtml(chId, t) {
+    const c = D.CH[chId];
+    const q = (t ? t.t + ' ' : '') + c.name + ' class ' + c.std;
+    return '<div class="lw-search card stack" data-testid="lw-search" role="search"><label class="tiny muted" for="lw-q">Learn more about this topic</label>' +
+      '<input id="lw-q" class="input" type="search" value="' + u.esc(q) + '" enterkeyhint="search" autocomplete="off" data-testid="lw-q">' +
+      '<div class="row gap"><button type="button" class="btn tonal rip grow" data-act="lw-search" data-where="google" data-testid="lw-google">' + u.icon('search') + 'Google</button>' +
+      '<button type="button" class="btn tonal rip grow" data-act="lw-search" data-where="youtube" data-testid="lw-youtube">' + u.icon('play') + 'YouTube</button></div></div>';
+  }
+
   function summaryHtml(chId) {
     const cd = L.chData(chId);
     const t = currentTopic(chId);
@@ -160,7 +170,7 @@
         : '<p class="small muted">No summary for this topic yet. Read it in your book.</p>') +
       (t.w && t.w.length ? '<h3 class="h4">Watch out</h3><ul class="lv-sub small">' + t.w.map((x) => '<li>' + u.esc(x) + '</li>').join('') + '</ul>' : '') +
       '<p class="tiny muted lv-ref">' + u.esc(L.bookRef(chId, t)) + '</p>' +
-      (t.sub && t.sub.length ? '<ul class="lv-sub small">' + t.sub.map((x) => '<li>' + u.esc(x) + '</li>').join('') + '</ul>' : '') + '</section>'
+      (t.sub && t.sub.length ? '<ul class="lv-sub small">' + t.sub.map((x) => '<li>' + u.esc(x) + '</li>').join('') + '</ul>' : '') + '</section>' + searchHtml(chId, t)
     );
   }
 
@@ -455,6 +465,8 @@
         root.innerHTML = emptyPage('book', 'Chapter not found', 'This chapter is not in the syllabus.', '<button class="btn tonal rip" data-act="go" data-to="#/learn">All chapters</button>');
         return;
       }
+      const want = (ctx.query || {}).t; // from the chapter's topic list: open this topic's notes
+      if (want && ctx.first) picked[chId] = want;
       const v = vid ? find(chId, vid) : null;
       if (v) X.ensureNotes(chId); // starts loading this chapter's notes (data/learn-c); the screen redraws when they arrive
       if (!v) {
@@ -558,6 +570,20 @@
     L.markWatched(el.dataset.id, el.dataset.ch, !L.isWatched(el.dataset.id));
     u.haptic('ok');
   };
+  const SEARCH_URL = { google: 'https://www.google.com/search?q=', youtube: 'https://www.youtube.com/results?search_query=' };
+  function openSearch(where) {
+    const input = u.$('#lw-q');
+    const q = input ? input.value.trim() : '';
+    if (!q || !SEARCH_URL[where]) return;
+    window.open(SEARCH_URL[where] + encodeURIComponent(q), '_blank', 'noopener,noreferrer');
+  }
+  ui.actions['lw-search'] = (el) => openSearch(el.dataset.where);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && e.target && e.target.id === 'lw-q') {
+      e.preventDefault();
+      openSearch('google');
+    }
+  });
   ui.actions['lw-retry'] = (el) => {
     L.clearEmbedFailed(el.dataset.id);
     S.app.refresh(true);
