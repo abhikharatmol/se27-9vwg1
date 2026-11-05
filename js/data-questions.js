@@ -10474,6 +10474,1333 @@
     ]
   },
   {
+    "id": "chem-12-08-m01",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A transition element is defined as an element that has:",
+    "options": [
+      "an incompletely filled s subshell in its atoms",
+      "a completely filled d subshell in its atoms and in all its ions",
+      "only one electron in its outermost s orbital",
+      "an incompletely filled d subshell in its atoms or in any of its common ions"
+    ],
+    "ans": 3,
+    "solution": "On this definition, Zn, Cd and Hg (with d¹⁰ in the atom and in the +2 ion) are not transition elements, although they are d-block elements.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m02",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Zinc, cadmium and mercury are usually not counted among the transition elements because:",
+    "options": [
+      "they are liquids or gases at room temperature",
+      "they have no d electrons at all in their atoms",
+      "their atoms and their common +2 ions have a full d¹⁰ configuration",
+      "they do not form any compounds with other elements"
+    ],
+    "ans": 2,
+    "solution": "Their d subshell is complete in the ground state and in the +2 state, so they do not show the typical properties (colour, paramagnetism, variable oxidation states).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m03",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The electronic configurations of chromium (Z = 24) and copper (Z = 29) in the ground state are:",
+    "options": [
+      "[Ar]3d⁵ 4s¹ and [Ar]3d¹⁰ 4s¹",
+      "[Ar]3d⁴ 4s² and [Ar]3d¹⁰ 4s¹",
+      "[Ar]3d⁵ 4s¹ and [Ar]3d⁹ 4s²",
+      "[Ar]3d⁴ 4s² and [Ar]3d⁹ 4s²"
+    ],
+    "ans": 0,
+    "solution": "A half-filled (d⁵) or fully filled (d¹⁰) subshell is especially stable, so one 4s electron moves to 3d in Cr and in Cu.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m04",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When the atoms of the first-row transition metals form positive ions, the electrons are lost first from:",
+    "options": [
+      "the 3p orbitals",
+      "the 4s orbital, before the 3d orbitals",
+      "the 3d and 4s orbitals in equal numbers",
+      "the 3d orbitals, before the 4s orbital"
+    ],
+    "ans": 1,
+    "solution": "Once the 3d orbitals are being filled, they have lower energy than 4s. In Fe²⁺, the configuration is [Ar]3d⁶, as the two 4s electrons go first.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m05",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Transition elements show a variety of oxidation states because:",
+    "options": [
+      "they have no empty orbitals",
+      "the d electrons are held very strongly by the nucleus",
+      "they have a very large number of electrons in the outermost shell",
+      "the (n−1)d and ns electrons have nearly the same energy, so both can take part in bonding"
+    ],
+    "ans": 3,
+    "solution": "After losing the ns electrons (+2), one or more d electrons can also be used, so oxidation states differing by one unit are common (for Mn: +2 to +7).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m06",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The highest oxidation state shown by a 3d transition element is +7, shown by:",
+    "options": [
+      "manganese, in MnO₄⁻",
+      "chromium, in CrO₄²⁻",
+      "copper, in CuO",
+      "iron, in FeO₄²⁻ only"
+    ],
+    "ans": 0,
+    "solution": "Mn has seven electrons outside the argon core (3d⁵ 4s²), and it can use all of them. Cr reaches +6. The highest state among all elements of the d-block is +8 (Ru and Os).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m07",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Cr²⁺ is a strong reducing agent, but Mn³⁺ is a strong oxidising agent. The reason is that:",
+    "options": [
+      "Cr²⁺ and Mn³⁺ are the most stable ions of the metals",
+      "Cr³⁺ (d³) and Mn²⁺ (d⁵) are especially stable configurations",
+      "chromium and manganese have the same atomic size",
+      "Cr³⁺ and Mn²⁺ have an empty d subshell"
+    ],
+    "ans": 1,
+    "solution": "Cr²⁺ (d⁴) readily loses an electron to become Cr³⁺ (stable t₂g³). Mn³⁺ (d⁴) readily gains one to become Mn²⁺ (stable half-filled d⁵).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m08",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Most compounds of the transition metals are coloured, but those of Sc³⁺ and Zn²⁺ are colourless because these ions have:",
+    "options": [
+      "all their d orbitals half filled",
+      "a very high ionisation energy",
+      "a d⁰ and a d¹⁰ configuration, with no possible d–d transition",
+      "no electrons at all in any of their orbitals"
+    ],
+    "ans": 2,
+    "solution": "Colour arises when a d electron absorbs visible light and moves to a higher d orbital. A d⁰ ion has no electron to move, and a d¹⁰ ion has no empty d orbital.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m09",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among the ions Ti³⁺, Mn²⁺, Cu⁺ and Zn²⁺, the one with the highest magnetic moment is:",
+    "options": [
+      "Zn²⁺, which has 2 unpaired electrons",
+      "Mn²⁺, which has 5 unpaired electrons",
+      "Ti³⁺, which has 3 unpaired electrons",
+      "Cu⁺, which has 1 unpaired electron"
+    ],
+    "ans": 1,
+    "solution": "Mn²⁺ is d⁵ (5 unpaired electrons, μ = 5.92 BM). Ti³⁺ is d¹ (1 unpaired). Cu⁺ and Zn²⁺ are d¹⁰ (none).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m10",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Iron is used as a catalyst in the Haber process, V₂O₅ in the contact process and finely divided nickel in the hydrogenation of oils. Transition metals make good catalysts because they:",
+    "options": [
+      "show variable oxidation states and can form intermediate compounds",
+      "have a very high melting point",
+      "are good conductors of electricity",
+      "are completely inert and do not take part in the reaction"
+    ],
+    "ans": 0,
+    "solution": "They can change oxidation state easily, and their vacant d orbitals bind reactant molecules on the surface. This gives a path with a lower activation energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m11",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Interstitial compounds of transition metals, such as TiC and Fe₃H, are formed when:",
+    "options": [
+      "two metals of the same size form a solid solution",
+      "the metal atoms replace some of the atoms in a non-metallic lattice",
+      "small atoms such as H, C or N occupy the voids of the metal lattice",
+      "the metal reacts with an acid to give a salt and hydrogen"
+    ],
+    "ans": 2,
+    "solution": "Such compounds are hard, have high melting points and remain good conductors. They are chemically inert and do not have a fixed formula.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m12",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Brass is an alloy of:",
+    "options": [
+      "copper and nickel only",
+      "iron and carbon",
+      "copper and tin",
+      "copper and zinc"
+    ],
+    "ans": 3,
+    "solution": "Brass is Cu with 20–40% Zn. Bronze is Cu and Sn. Alloys form among transition metals because their atoms are of similar size and can replace one another in the lattice.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m13",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The melting points of the transition metals are generally high, because:",
+    "options": [
+      "the atoms are held together by ionic bonds between the layers",
+      "only the ns electrons take part in the metallic bonding",
+      "the atoms are held together by weak van der Waals forces only",
+      "both the ns and the (n−1)d electrons take part in strong metallic bonding"
+    ],
+    "ans": 3,
+    "solution": "More electrons are shared in the metallic bond, so the metals are hard with high melting and boiling points. Tungsten has the highest melting point of all metals, about 3400 °C. Zn, Cd and Hg, with filled d orbitals, melt low.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m14",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Across the first transition series from Sc to Zn, the atomic radii:",
+    "options": [
+      "increase steadily from Sc to Zn, since more electrons are added to the atoms",
+      "remain exactly constant throughout, since the same shell is being filled",
+      "fall at first and then stay nearly constant, as d electrons shield the nucleus",
+      "decrease steadily all the way to zinc, as the nuclear charge increases"
+    ],
+    "ans": 2,
+    "solution": "The nuclear charge increases and pulls the outer electrons in, but the extra d electrons added in the inner shell shield the outer ones, and the two effects nearly cancel in the middle of the series.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m15",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The lanthanoid contraction is the:",
+    "options": [
+      "decrease in the oxidation state of lanthanoids from left to right",
+      "steady decrease in the size of the lanthanoid atoms and ions with increasing atomic number",
+      "steady increase in the size of the lanthanoid ions with increasing atomic number",
+      "contraction of the lanthanoid crystals when they are heated"
+    ],
+    "ans": 1,
+    "solution": "As the 4f electrons are added, they shield the nuclear charge poorly, so the effective nuclear charge grows and the ionic radius falls from La³⁺ (106 pm) to Lu³⁺ (85 pm).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m16",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An effect of the lanthanoid contraction is that:",
+    "options": [
+      "zirconium and hafnium have almost the same atomic radius and very similar properties",
+      "zirconium and hafnium have very different radii",
+      "the 3d series elements are larger than the 4d series elements",
+      "the lanthanoids have different oxidation states"
+    ],
+    "ans": 0,
+    "solution": "The contraction nearly cancels the normal increase in size between the 4d series and the 5d series. Zr (160 pm) and Hf (159 pm) are so alike that they are very hard to separate.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m17",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the dichromate–chromate equilibrium, when an alkali is added to an orange solution of potassium dichromate, the solution turns:",
+    "options": [
+      "purple, as permanganate ions form",
+      "colourless, as chromium is precipitated",
+      "green, as Cr³⁺ ions form",
+      "yellow, as chromate ions form"
+    ],
+    "ans": 3,
+    "solution": "Cr₂O₇²⁻ + 2OH⁻ ⇌ 2CrO₄²⁻ + H₂O. Adding an acid reverses it and the colour returns to orange. The oxidation state of chromium is +6 in both.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m18",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In acidic solution, the dichromate ion acts as an oxidising agent and is reduced to:",
+    "options": [
+      "Cr₂O₃, which is black",
+      "CrO₄²⁻, which is yellow",
+      "Cr³⁺, which is green",
+      "Cr²⁺, which is blue"
+    ],
+    "ans": 2,
+    "solution": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O. The orange solution turns green. This is the basis of the breathalyser test for alcohol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m19",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In acidic solution, permanganate ion is reduced to:",
+    "options": [
+      "Mn²⁺, which is nearly colourless",
+      "Mn³⁺, which is a red ion",
+      "MnO₄²⁻, which is a green ion",
+      "MnO₂, which is a brown solid"
+    ],
+    "ans": 0,
+    "solution": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. The purple colour disappears, and this is why KMnO₄ is its own indicator in a titration.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m20",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a neutral or weakly alkaline solution, permanganate ion is reduced to:",
+    "options": [
+      "MnO₄²⁻, which is green only",
+      "MnO₂, a brown precipitate",
+      "Mn metal",
+      "Mn²⁺, which is nearly colourless"
+    ],
+    "ans": 1,
+    "solution": "MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻. The oxidation state falls from +7 to +4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m21",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Potassium permanganate is prepared from pyrolusite (MnO₂) by fusing it with KOH in air, which gives:",
+    "options": [
+      "green potassium manganate, K₂MnO₄, later oxidised to permanganate",
+      "brown manganese dioxide again, with no change at all",
+      "purple potassium permanganate directly, in one single step",
+      "colourless manganese(II) sulphate, which is a salt"
+    ],
+    "ans": 0,
+    "solution": "2MnO₂ + 4KOH + O₂ → 2K₂MnO₄ + 2H₂O. The green manganate (+6) is then oxidised (by electrolysis, or by chlorine or ozone) to the purple permanganate (+7).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m22",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The most common oxidation state of the lanthanoids is:",
+    "options": [
+      "+5",
+      "+4",
+      "+2",
+      "+3"
+    ],
+    "ans": 3,
+    "solution": "All the lanthanoids form Ln³⁺ ions. Ce also shows +4 (to reach the empty f⁰ state) and Eu shows +2 (half-filled f⁷).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m23",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these is true of all the actinoids?",
+    "options": [
+      "they show only the +3 oxidation state",
+      "they are stable and non-radioactive",
+      "they are radioactive",
+      "they are all found in large quantities in nature"
+    ],
+    "ans": 2,
+    "solution": "Every actinoid is radioactive. Only thorium and uranium occur in appreciable amounts in nature, and the elements beyond uranium are made artificially.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m24",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The oxidation states shown by the actinoids vary much more than those of the lanthanoids because:",
+    "options": [
+      "the actinoids are much smaller in size than the lanthanoids",
+      "the 5f, 6d and 7s orbitals are close in energy, so more electrons can bond",
+      "the actinoids have no f electrons in their atoms at all",
+      "the 5f orbitals are very far in energy from the 7s orbital"
+    ],
+    "ans": 1,
+    "solution": "Uranium, for instance, shows +3, +4, +5 and +6, while the lanthanoids are almost all +3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m25",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of these uses a lanthanoid alloy?",
+    "options": [
+      "brass in lighter flints, with 95% zinc",
+      "stainless steel in lighter flints with chromium",
+      "mischmetall (about 95% lanthanoids and 5% iron) in lighter flints",
+      "solder, which contains 95% lead"
+    ],
+    "ans": 2,
+    "solution": "Mischmetall gives sparks when struck, and is also used in some steels to remove oxygen and sulphur and to improve the properties of the steel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-m26",
+    "ch": "chem-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the blast furnace for iron, limestone is added to:",
+    "options": [
+      "remove silica as slag, which is calcium silicate",
+      "dissolve the iron to give pig iron",
+      "raise the oxygen content of the furnace",
+      "reduce iron oxide to iron"
+    ],
+    "ans": 0,
+    "solution": "CaCO₃ → CaO + CO₂, and CaO + SiO₂ → CaSiO₃ (slag). The slag floats on the molten iron and can be run off separately. Carbon monoxide, formed from coke, is the reducing agent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-08-n01",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the spin-only magnetic moment, in Bohr magnetons, of Mn²⁺ (d⁵, with 5 unpaired electrons). Give your answer to 2 decimal places.",
+    "ans": 5.92,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ = √(n(n + 2)) = √(5 × 7) = √35 = 5.92 BM.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n02",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the spin-only magnetic moment, in Bohr magnetons, of Cu²⁺ (d⁹, with 1 unpaired electron). Give your answer to 2 decimal places.",
+    "ans": 1.73,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ = √(1 × 3) = √3 = 1.73 BM.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n03",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "How many electrons are there in the 3d subshell of Fe³⁺? (Atomic number of Fe = 26; the atom is [Ar]3d⁶ 4s².) Give your answer as a whole number.",
+    "ans": 5,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Fe loses its two 4s electrons first, and then one 3d electron: 3d⁶ → 3d⁵, which is a half-filled and stable configuration.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n04",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the equivalent mass of KMnO₄ as an oxidising agent in acidic solution (molar mass = 158 g/mol; Mn changes from +7 to +2). Give your answer to 1 decimal place.",
+    "ans": 31.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Each MnO₄⁻ takes 5 electrons. Equivalent mass = 158/5 = 31.6 g/equiv.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n05",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "How many millimoles of Fe²⁺ are oxidised in acidic solution by 20 mL of 0.02 M KMnO₄? (MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O) Give your answer to 2 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Moles of KMnO₄ = 0.02 × 0.020 = 4.0 × 10⁻⁴ mol. Each takes 5 Fe²⁺, so 2.0 × 10⁻³ mol = 2.00 mmol of Fe²⁺.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n06",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the equivalent mass of K₂Cr₂O₇ as an oxidising agent in acidic solution (molar mass = 294 g/mol; each Cr changes from +6 to +3). Give your answer to 1 decimal place.",
+    "ans": 49.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Two Cr atoms each take 3 electrons, so 6 electrons per formula unit. Equivalent mass = 294/6 = 49.0 g/equiv.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n07",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "How many moles of KMnO₄ are needed in acidic solution to oxidise 0.5 mol of oxalate ions? (2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O) Give your answer to 2 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The mole ratio is 2 MnO₄⁻ : 5 C₂O₄²⁻, so moles of KMnO₄ = 0.5 × 2/5 = 0.20 mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n08",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the oxidation number of chromium in K₂Cr₂O₇. Give your answer as a whole number.",
+    "ans": 6.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "2(+1) + 2x + 7(−2) = 0, so 2x = 12 and x = +6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n09",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the percentage of iron by mass in Fe₂O₃ (Fe = 55.85, O = 16). Give your answer to 2 decimal places.",
+    "ans": 69.94,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Molar mass of Fe₂O₃ = 111.7 + 48 = 159.7 g/mol. Percentage of Fe = 111.7/159.7 × 100 = 69.94%.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-08-n10",
+    "ch": "chem-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "How many electrons are there in the 4f subshell of the Gd³⁺ ion? (Gd atom: [Xe]4f⁷ 5d¹ 6s².) Give your answer as a whole number.",
+    "ans": 7,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Gd³⁺ is formed by the loss of the 5d electron and the two 6s electrons, which leaves 4f⁷: a half-filled, stable subshell.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-m01",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In a coordination compound, a ligand is a species that:",
+    "options": [
+      "gives up electrons completely to form an ionic bond",
+      "is always a negatively charged ion",
+      "accepts a pair of electrons from the central metal atom or ion",
+      "donates a lone pair of electrons to the central metal atom or ion"
+    ],
+    "ans": 3,
+    "solution": "A ligand acts as a Lewis base and forms a coordinate bond with the metal. It may be an anion (Cl⁻, CN⁻) or a neutral molecule (H₂O, NH₃).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m02",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Ethylenediamine (en), H₂NCH₂CH₂NH₂, is a ligand that is described as:",
+    "options": [
+      "monodentate, since it has one donor nitrogen atom",
+      "bidentate, since it has two donor nitrogen atoms",
+      "hexadentate, since it has six donor atoms",
+      "ambidentate, since it can bind through N or O"
+    ],
+    "ans": 1,
+    "solution": "Each of the two nitrogen atoms has a lone pair, so en attaches at two positions and forms a five-membered chelate ring with the metal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m03",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these ligands is ambidentate?",
+    "options": [
+      "H₂O, which binds only through the oxygen atom",
+      "NH₃, which binds only through the nitrogen atom",
+      "NO₂⁻, which can bind through N or through O",
+      "Cl⁻, which binds only through the chlorine atom"
+    ],
+    "ans": 2,
+    "solution": "An ambidentate ligand has two different donor atoms but binds through only one at a time. Nitrite binds as nitro (–NO₂) or nitrito (–ONO), and thiocyanate as SCN⁻ or NCS⁻.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m04",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The ligand EDTA, which binds a metal ion through six donor atoms, is called:",
+    "options": [
+      "hexadentate",
+      "bidentate",
+      "tridentate",
+      "ambidentate"
+    ],
+    "ans": 0,
+    "solution": "Two nitrogen atoms and four carboxylate oxygen atoms each give a lone pair. EDTA wraps around the metal ion and forms very stable chelates, so it is used in the treatment of heavy-metal poisoning and in water analysis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m05",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The coordination number of the central metal in a complex is:",
+    "options": [
+      "the charge on the complex ion",
+      "the oxidation state of the metal in the complex",
+      "the number of ligand molecules, whatever their denticity",
+      "the number of donor atoms of the ligands attached directly to the metal"
+    ],
+    "ans": 3,
+    "solution": "In [Fe(C₂O₄)₃]³⁻ the three bidentate oxalate ions give 3 × 2 = 6 donor atoms, so the coordination number is 6, not 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m06",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The oxidation state of iron in K₃[Fe(CN)₆] is:",
+    "options": [
+      "+2",
+      "+3",
+      "+6",
+      "+4"
+    ],
+    "ans": 1,
+    "solution": "Three Ka ions give +3, so the complex ion [Fe(CN)₆]³⁻ has charge −3. With six CN⁻ (−6), the metal is +3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m07",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The charge on the complex ion in [Cr(H₂O)₄Cl₂], in which chromium is in the +3 state, is:",
+    "options": [
+      "−1",
+      "0",
+      "+1",
+      "+3"
+    ],
+    "ans": 2,
+    "solution": "Charge = Cr (+3) + 4 × H₂O (0) + 2 × Cl⁻ (−2) = +1. The ion is [Cr(H₂O)₄Cl₂]⁺.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m08",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The IUPAC name of [Co(NH₃)₆]Cl₃ is:",
+    "options": [
+      "hexaamminecobalt(III) chloride",
+      "hexaaminecobalt(III) trichloride",
+      "cobalt(III) hexaammine chloride",
+      "hexaamminecobalt(II) chloride"
+    ],
+    "ans": 0,
+    "solution": "Name the ligands first, in alphabetical order, with a prefix for the number (hexa-), then the metal with its oxidation state in Roman numerals. The anion outside is named last. Ammonia as a ligand is written 'ammine'.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m09",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The IUPAC name of K₄[Fe(CN)₆] is:",
+    "options": [
+      "tetrapotassium hexacyanidoiron(II)",
+      "potassium hexacyanidoferrate(IV)",
+      "potassium hexacyanidoferrate(II)",
+      "potassium hexacyanidoferrate(III)"
+    ],
+    "ans": 2,
+    "solution": "In an anionic complex the metal name ends in -ate, from the Latin (ferrate for iron). With four K⁺ (+4), the complex has charge −4, so Fe is +2. The older spelling is hexacyanoferrate(II).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m10",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The IUPAC name of [Cu(NH₃)₄]SO₄ is:",
+    "options": [
+      "tetraamminecopper(II) sulphate",
+      "tetraaminecopper(II) sulphide",
+      "tetraamminecopper(IV) sulphate",
+      "copper(II) tetraammine sulphate"
+    ],
+    "ans": 0,
+    "solution": "Four NH₃ (0) and the SO₄²⁻ outside (−2) means the complex cation has charge +2, so copper is +2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m11",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The effective atomic number (EAN) of the central metal in a complex is the:",
+    "options": [
+      "number of unpaired electrons in the metal ion",
+      "number of electrons in the outermost shell of the free atom",
+      "atomic number of the metal minus the number of ligands",
+      "total number of electrons around the metal, counting those donated by the ligands"
+    ],
+    "ans": 3,
+    "solution": "EAN = atomic number − oxidation number + 2 × (number of ligands attached). Complexes often have an EAN equal to that of the next noble gas, as in [Fe(CN)₆]⁴⁻ where it is 36, the number for krypton.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m12",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "[Co(NH₃)₅NO₂]Cl₂ and [Co(NH₃)₅ONO]Cl₂ are examples of:",
+    "options": [
+      "geometrical isomers",
+      "linkage isomers",
+      "optical isomers",
+      "ionisation isomers"
+    ],
+    "ans": 1,
+    "solution": "The same ambidentate ligand, nitrite, is bound through N in the first and through O in the second.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m13",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "[Co(NH₃)₅Br]SO₄ and [Co(NH₃)₅SO₄]Br are:",
+    "options": [
+      "linkage isomers, since the ligand binds through different atoms",
+      "coordination isomers, since the metal ions exchange ligands",
+      "geometrical isomers, since the ligands are arranged differently in space",
+      "ionisation isomers, since they give different ions in solution"
+    ],
+    "ans": 3,
+    "solution": "The first gives SO₄²⁻ ions in solution (so BaCl₂ gives a precipitate), and the second gives Br⁻ ions (so AgNO₃ gives a precipitate).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m14",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The square planar complex [Pt(NH₃)₂Cl₂] shows:",
+    "options": [
+      "geometrical isomerism, with cis and trans forms",
+      "no isomerism at all",
+      "ionisation isomerism, with chloride outside the complex",
+      "optical isomerism only, with two mirror-image forms"
+    ],
+    "ans": 0,
+    "solution": "In the cis form the two Cl are next to each other (the anticancer drug cisplatin), and in the trans form they are opposite.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m15",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A tetrahedral complex of the type [MA₂B₂] (M = metal, A and B = monodentate ligands) shows:",
+    "options": [
+      "cis and trans geometrical isomers, as in a square planar one",
+      "no geometrical isomerism, since all the positions are equivalent",
+      "optical isomerism only, with no geometrical isomers",
+      "fac and mer geometrical isomers, as in an octahedral one"
+    ],
+    "ans": 1,
+    "solution": "In a tetrahedron each of the four corners is next to the other three, so there is no cis/trans distinction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m16",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The complex ion [Co(en)₃]³⁺ shows optical isomerism because:",
+    "options": [
+      "it is a square planar complex with two different ligands",
+      "it contains ethylenediamine, which is itself optically active",
+      "it has no plane of symmetry, so it exists as a pair of mirror images",
+      "it has a plane of symmetry through the metal ion"
+    ],
+    "ans": 2,
+    "solution": "Three bidentate rings arranged around an octahedral metal ion give a propeller-like shape that cannot be superimposed on its mirror image (d and l forms).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m17",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "According to valence bond theory, the hybridisation of cobalt in the inner-orbital complex [Co(NH₃)₆]³⁺ is:",
+    "options": [
+      "dsp², and the complex is diamagnetic",
+      "d²sp³, and the complex is diamagnetic",
+      "sp³, and the complex is paramagnetic",
+      "sp³d², and the complex is paramagnetic"
+    ],
+    "ans": 1,
+    "solution": "Strong-field NH₃ pairs up the six 3d electrons of Co³⁺, leaving two 3d orbitals empty for d²sp³ (inner orbital, low spin). With no unpaired electron it is diamagnetic.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m18",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "[Ni(CN)₄]²⁻ is diamagnetic and square planar, while [NiCl₄]²⁻ is paramagnetic and tetrahedral. The reason is that:",
+    "options": [
+      "nickel is in a different oxidation state in the two complexes",
+      "Cl⁻ is a strong-field ligand, which pairs the d electrons of Ni²⁺, but CN⁻ is a weak-field ligand",
+      "both ligands are weak-field, but they have different charges",
+      "CN⁻ is a strong-field ligand, which pairs the d electrons of Ni²⁺, but Cl⁻ is a weak-field ligand"
+    ],
+    "ans": 3,
+    "solution": "Both have Ni²⁺ (d⁸). Strong-field cyanide forces pairing and dsp² hybridisation (square planar, no unpaired electrons). Weak-field chloride leaves two unpaired electrons and gives sp³ (tetrahedral).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m19",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In crystal field theory, an octahedral field splits the five d orbitals of the metal ion into:",
+    "options": [
+      "a lower set of four orbitals and a higher set of one orbital",
+      "five orbitals of equal energy, which are not split",
+      "a lower set t₂g (three orbitals) and a higher set e_g (two orbitals)",
+      "a lower set e_g (two orbitals) and a higher set t₂g (three orbitals)"
+    ],
+    "ans": 2,
+    "solution": "The e_g orbitals (d_z², d_x²−y²) point towards the ligands and are raised in energy. The t₂g orbitals point between them and are lowered. The gap is Δ₀.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m20",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Compared with the crystal field splitting in an octahedral complex (Δ₀), the splitting in a tetrahedral complex with the same metal and ligands (Δ_t) is:",
+    "options": [
+      "smaller, about 4/9 of Δ₀",
+      "equal to Δ₀",
+      "larger, about 9/4 of Δ₀",
+      "zero, since there is no splitting"
+    ],
+    "ans": 0,
+    "solution": "Only four ligands, and none points straight at an orbital, so the splitting is small. That is why tetrahedral complexes are nearly always high spin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m21",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the spectrochemical series, the correct order of increasing field strength is:",
+    "options": [
+      "H₂O < I⁻ < Cl⁻ < CN⁻ < NH₃",
+      "Cl⁻ < I⁻ < NH₃ < H₂O < CN⁻",
+      "CN⁻ < NH₃ < H₂O < Cl⁻ < I⁻",
+      "I⁻ < Cl⁻ < H₂O < NH₃ < CN⁻"
+    ],
+    "ans": 3,
+    "solution": "Strong-field ligands (CN⁻, CO) give a large Δ₀ and low-spin complexes. Weak-field ligands (I⁻, Br⁻, Cl⁻) give a small Δ₀ and high-spin complexes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m22",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Most transition metal complexes are coloured because:",
+    "options": [
+      "the ligands reflect all the visible light that falls on them",
+      "an electron absorbs visible light and jumps between the split d orbitals",
+      "the metal ion emits light when it is heated",
+      "the electrons jump from the metal to the nucleus"
+    ],
+    "ans": 1,
+    "solution": "The d–d transition takes energy Δ₀, which falls in the visible region. The complex absorbs one colour and shows the complementary colour. Ions with a d⁰ or d¹⁰ configuration cannot make such a jump, so they are colourless.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m23",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A chelate complex is more stable than a similar complex with monodentate ligands because:",
+    "options": [
+      "the ring structure makes it harder for the ligand to come off and the entropy increases",
+      "the ring structure makes the ligand lighter and so more mobile",
+      "chelates always have a higher coordination number",
+      "a chelating ligand has a lower charge than a monodentate ligand"
+    ],
+    "ans": 0,
+    "solution": "A chelating ligand has to break two or more bonds at once to leave, and replacing several small ligands with one bigger one frees more molecules, which raises the entropy. This is the chelate effect.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m24",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The complex ion [Fe(CN)₆]³⁻ is a low-spin complex. The number of unpaired electrons in it is:",
+    "options": [
+      "0",
+      "3",
+      "1",
+      "5"
+    ],
+    "ans": 2,
+    "solution": "Fe³⁺ is d⁵. Strong-field CN⁻ forces the electrons to pair as t₂g⁵ e_g⁰, leaving a single unpaired electron.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m25",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these ions forms a colourless complex?",
+    "options": [
+      "Zn²⁺, as in [Zn(NH₃)₄]²⁺",
+      "Ni²⁺, as in [Ni(H₂O)₆]²⁺",
+      "Cu²⁺, as in [Cu(NH₃)₄]²⁺",
+      "Co²⁺, as in [Co(H₂O)₆]²⁺"
+    ],
+    "ans": 0,
+    "solution": "Zn²⁺ is d¹⁰, with all the d orbitals full, so there is no d–d transition. The other three have partly filled d orbitals and are blue, green and pink respectively.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m26",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In Werner's theory, the primary valence of a metal and its secondary valence correspond to:",
+    "options": [
+      "the number of anions and the number of cations",
+      "the coordination number (ionisable) and the oxidation state (non-ionisable)",
+      "the atomic number and the mass number",
+      "the oxidation state (ionisable) and the coordination number (non-ionisable)"
+    ],
+    "ans": 3,
+    "solution": "The primary valence is satisfied by negative ions, which can be precipitated by a reagent such as AgNO₃, and the secondary valence is satisfied by ligands attached directly to the metal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-m27",
+    "ch": "chem-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Chlorophyll, haemoglobin and vitamin B₁₂ are examples of coordination compounds, with the central metal being respectively:",
+    "options": [
+      "iron, magnesium and cobalt",
+      "magnesium, iron and cobalt",
+      "magnesium, cobalt and iron",
+      "cobalt, iron and magnesium"
+    ],
+    "ans": 1,
+    "solution": "Chlorophyll contains Mg²⁺, haemoglobin Fe²⁺ and vitamin B₁₂ Co³⁺, each in a porphyrin-type or corrin ring.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-09-n01",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the spin-only magnetic moment, in Bohr magnetons, of an ion with 5 unpaired electrons. Use μ = √(n(n + 2)). Give your answer to 2 decimal places.",
+    "ans": 5.92,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ = √(5 × 7) = √35 = 5.92 BM, as in high-spin Mn²⁺ or Fe³⁺.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n02",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the effective atomic number (EAN) of iron in [Fe(CN)₆]⁴⁻ (atomic number of Fe = 26). Give your answer as a whole number.",
+    "ans": 36,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Fe²⁺ has 26 − 2 = 24 electrons. Six CN⁻ ligands add 6 × 2 = 12, so EAN = 36, the same as krypton.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n03",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the oxidation number of cobalt in [Co(NH₃)₅Cl]²⁺. Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Charge of the ion = oxidation number of Co + 5 × 0 + 1 × (−1) = +2, so Co = +3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n04",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the spin-only magnetic moment, in Bohr magnetons, of the high-spin complex [Fe(H₂O)₆]²⁺, in which Fe²⁺ (d⁶) has 4 unpaired electrons. Give your answer to 2 decimal places.",
+    "ans": 4.9,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ = √(n(n + 2)) = √(4 × 6) = √24 = 4.90 BM.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n05",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "How many ions are produced in solution by one formula unit of [Co(NH₃)₆]Cl₃? Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "One complex cation [Co(NH₃)₆]³⁺ and three chloride ions: 1 + 3 = 4 ions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n06",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Excess AgNO₃ solution is added to a solution that contains 0.1 mol of [Co(NH₃)₅Cl]Cl₂. Find the moles of AgCl precipitated. Give your answer to 2 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Only the two Cl⁻ ions outside the complex are free (the inner Cl is bound to cobalt). Moles of AgCl = 0.1 × 2 = 0.20 mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n07",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the crystal field stabilisation energy, in units of Δ₀, of a high-spin octahedral d⁴ ion (t₂g³ e_g¹). Each t₂g electron contributes −0.4Δ₀ and each e_g electron +0.6Δ₀. Give your answer to 1 decimal place.",
+    "ans": -0.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "CFSE = 3 × (−0.4) + 1 × (+0.6) = −1.2 + 0.6 = −0.6Δ₀.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n08",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "How many geometrical isomers are possible for an octahedral complex of the type [Ma₂b₂c₂]? Give your answer as a whole number.",
+    "ans": 5,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The five arrangements are: all three pairs trans (1 isomer); exactly one pair trans with the other two pairs cis (3 isomers, depending on which pair is trans); and all three pairs cis (1 isomer). That gives 5 geometrical isomers. The all-cis form is chiral and exists as a pair of mirror images, so there are 6 stereoisomers in all.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n09",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the coordination number of iron in [Fe(C₂O₄)₃]³⁻, where oxalate is a bidentate ligand. Give your answer as a whole number.",
+    "ans": 6,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Three oxalate ions, each attached through two oxygen atoms: 3 × 2 = 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-09-n10",
+    "ch": "chem-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the spin-only magnetic moment, in Bohr magnetons, of a complex with 3 unpaired electrons. Give your answer to 2 decimal places.",
+    "ans": 3.87,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ = √(n(n + 2)) = √(3 × 5) = √15 = 3.87 BM, as in Cr³⁺ complexes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-12-11-b01",
     "ch": "chem-12-11",
     "type": "mcq",
@@ -15608,6 +16935,679 @@
     ]
   },
   {
+    "id": "phy-12-07-m01",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A wavefront is the locus of all the points of a medium that:",
+    "options": [
+      "are vibrating in the same phase at a given instant",
+      "have the maximum displacement at any instant",
+      "are moving with the same speed in all directions",
+      "are at the same distance from the observer"
+    ],
+    "ans": 0,
+    "solution": "Along a wavefront the disturbance has the same phase everywhere. The rays are lines perpendicular to the wavefront, showing the direction in which the wave travels.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m02",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The shape of the wavefront from a point source in a uniform medium, and from a very distant source such as the Sun, is respectively:",
+    "options": [
+      "plane, and spherical over a small region",
+      "spherical in both of the two cases",
+      "cylindrical, and plane over a small region",
+      "spherical, and plane over a small region"
+    ],
+    "ans": 3,
+    "solution": "Waves from a point source spread equally in all directions, so the fronts are spheres. Far away, a small part of a huge sphere looks flat. A line source gives cylindrical fronts.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m03",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to Huygens' principle, every point on a wavefront acts as:",
+    "options": [
+      "an absorber of the primary wave",
+      "a source of secondary wavelets that spread in the forward direction",
+      "a mirror that reflects the wave in all directions",
+      "a source of secondary wavelets that spread backwards only"
+    ],
+    "ans": 1,
+    "solution": "The new wavefront after a time t is the envelope (the common tangent surface) of the secondary wavelets from all points of the old front, each with radius vt.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m04",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When light passes from air into glass, which of its properties does NOT change?",
+    "options": [
+      "its wavelength",
+      "its direction, always",
+      "its frequency",
+      "its speed"
+    ],
+    "ans": 2,
+    "solution": "The frequency is set by the source and stays the same. The speed becomes c/n and the wavelength λ/n, which is shorter in glass.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m05",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The speed of light in a medium of refractive index n is:",
+    "options": [
+      "c/n",
+      "c/n²",
+      "c − n",
+      "nc"
+    ],
+    "ans": 0,
+    "solution": "n = c/v by definition, so v = c/n. In glass (n = 1.5) light travels at 2 × 10⁸ m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m06",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Snell's law of refraction at a boundary between two media is:",
+    "options": [
+      "n₁ cos θ₁ = n₂ cos θ₂",
+      "n₁ sin θ₁ = n₂ sin θ₂",
+      "n₁ sin θ₂ = n₂ sin θ₁",
+      "n₁ tan θ₁ = n₂ tan θ₂"
+    ],
+    "ans": 1,
+    "solution": "The angles are measured from the normal. Light bends towards the normal when it enters a medium with a higher refractive index. Huygens' construction gives the same law: sin θ₁/sin θ₂ = v₁/v₂.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m07",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The law of reflection says that:",
+    "options": [
+      "the angle of incidence equals the angle of refraction, in one plane",
+      "the reflected ray always travels along the normal to the surface",
+      "the angle of incidence is half the angle of reflection, in any plane",
+      "angle of incidence = angle of reflection, and both rays lie in one plane with the normal"
+    ],
+    "ans": 3,
+    "solution": "This follows from Huygens' principle, where the wavefront reaching the mirror produces secondary wavelets in step, so that the reflected front makes the same angle with the surface.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m08",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two sources of light can produce a sustained interference pattern only if they are:",
+    "options": [
+      "two separate ordinary bulbs shining on a screen",
+      "of different amplitudes, with a changing phase",
+      "coherent, with a constant phase difference and the same frequency",
+      "of different frequencies, such as red and blue"
+    ],
+    "ans": 2,
+    "solution": "Two separate bulbs emit waves with random, rapidly changing phases, so the pattern shifts too quickly to be seen. In Young's experiment a single source lights two slits, which gives two coherent sources.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m09",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In Young's double-slit experiment, the width of a dark or bright fringe is:",
+    "options": [
+      "β = D/(λd), where d is the slit separation and D the distance to the screen",
+      "β = λd/D, where d is the slit separation and D the distance to the screen",
+      "β = λ/(Dd), where d is the slit separation and D the distance to the screen",
+      "β = λD/d, where d is the slit separation and D the distance to the screen"
+    ],
+    "ans": 3,
+    "solution": "Fringes are wider for a longer wavelength and a greater screen distance, and narrower when the slits are farther apart.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m10",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a double-slit experiment the slit separation is doubled and the screen distance is also doubled, with the same light. The fringe width becomes:",
+    "options": [
+      "twice as large",
+      "four times as large",
+      "the same as before",
+      "half as large"
+    ],
+    "ans": 2,
+    "solution": "β = λD/d. Doubling both D and d leaves the ratio D/d and the fringe width unchanged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m11",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a double-slit experiment, the fringes become narrower when the light used is changed from red to blue because:",
+    "options": [
+      "blue light has a higher speed in air than red light",
+      "blue light has a shorter wavelength, and the fringe width is proportional to λ",
+      "blue light has a longer wavelength, and the fringe width is proportional to 1/λ",
+      "blue light is not coherent in the two slits"
+    ],
+    "ans": 1,
+    "solution": "Blue light has λ of about 450 nm against about 650 nm for red, so the fringe width β = λD/d is smaller.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m12",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In an interference pattern, a point is bright when the path difference between the two waves is:",
+    "options": [
+      "a whole number of wavelengths, nλ",
+      "a whole number of quarter wavelengths",
+      "always zero",
+      "an odd number of half wavelengths, (n + ½)λ"
+    ],
+    "ans": 0,
+    "solution": "At path difference nλ the waves arrive in phase and reinforce. At (n + ½)λ they arrive in opposite phase and cancel, giving a dark fringe.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m13",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two coherent sources with the same amplitude, each giving intensity I₀ on its own, interfere. The maximum and minimum intensities are:",
+    "options": [
+      "2I₀ and I₀",
+      "4I₀ and I₀",
+      "2I₀ and 0",
+      "4I₀ and 0"
+    ],
+    "ans": 3,
+    "solution": "The amplitudes add: A = a + a = 2a at a maximum, so I is proportional to 4a², which is 4I₀. At a minimum they cancel, giving zero. The average intensity is 2I₀, as expected from conservation of energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m14",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When white light is used in Young's double-slit experiment, the central fringe is:",
+    "options": [
+      "violet, with white fringes on both sides",
+      "white, with coloured fringes on both sides",
+      "red, with coloured fringes on both sides",
+      "dark, with coloured fringes on both sides"
+    ],
+    "ans": 1,
+    "solution": "At the centre the path difference is zero for every colour, so all colours are bright there and add to white. The other fringes are at different places for different colours.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m15",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Diffraction of light is the:",
+    "options": [
+      "change of speed of light in glass",
+      "vibration of light in only one plane",
+      "bending of light around the edges of an obstacle or an aperture",
+      "splitting of white light into its colours by a prism"
+    ],
+    "ans": 2,
+    "solution": "The effect is strong only when the size of the opening or obstacle is comparable to the wavelength of the light. That is why sound, with a long wavelength, bends around doors easily but light does not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m16",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In single-slit diffraction, the condition for the minima is:",
+    "options": [
+      "a sin θ = nλ, with n = 1, 2, 3, ...",
+      "a sin θ = nλ/2, with n = 1, 2, 3, ...",
+      "a cos θ = nλ, with n = 1, 2, 3, ...",
+      "a sin θ = (n + ½)λ, with n = 0, 1, 2, ..."
+    ],
+    "ans": 0,
+    "solution": "For a slit of width a, each time the path difference across the slit is a whole number of wavelengths, the contributions pair off and cancel. The central maximum lies between the first minima on either side.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m17",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In single-slit diffraction, as the slit is made narrower, the central bright band becomes:",
+    "options": [
+      "narrower",
+      "brighter but the same width",
+      "wider",
+      "unchanged in width and brightness"
+    ],
+    "ans": 2,
+    "solution": "The angular half-width is sin θ = λ/a, so a smaller slit width a gives a larger angle and a wider pattern. A narrow opening gives more spreading.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m18",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "What is the main difference between a double-slit interference pattern and a single-slit diffraction pattern?",
+    "options": [
+      "interference needs one slit, and diffraction needs two slits",
+      "interference fringes are of equal width, but in diffraction the central band is widest",
+      "diffraction fringes are all of equal width, but interference fringes are not",
+      "both patterns have fringes of equal width and equal brightness"
+    ],
+    "ans": 1,
+    "solution": "In a double-slit pattern the fringes are evenly spaced and of similar brightness. In a single-slit pattern the central maximum is twice as wide as the others, and the brightness falls quickly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m19",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The phenomenon of polarisation of light shows that light waves are:",
+    "options": [
+      "transverse",
+      "stationary",
+      "longitudinal",
+      "both longitudinal and transverse"
+    ],
+    "ans": 0,
+    "solution": "Only transverse waves can be polarised, because only they have vibrations at right angles to the direction of travel, which can be confined to one plane. Sound waves in air cannot be polarised.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m20",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Malus's law gives the intensity of plane-polarised light, of intensity I₀, passing through a polaroid whose axis makes an angle θ with the plane of polarisation, as:",
+    "options": [
+      "I = I₀ sin²θ",
+      "I = I₀ sinθ",
+      "I = I₀ cosθ",
+      "I = I₀ cos²θ"
+    ],
+    "ans": 3,
+    "solution": "The amplitude passing through is A cosθ, and the intensity is proportional to the square of the amplitude. At θ = 90° (crossed polaroids), no light passes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m21",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Unpolarised light of intensity I₀ passes through a polaroid. The intensity of the transmitted light is:",
+    "options": [
+      "I₀/4",
+      "I₀",
+      "I₀/2",
+      "zero"
+    ],
+    "ans": 2,
+    "solution": "Unpolarised light has vibrations in all directions with equal chance. On average half of the intensity passes, and the light is then plane polarised.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m22",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Brewster's law states that, when light is incident on a transparent surface at the polarising angle i_p, the reflected light is completely plane polarised and:",
+    "options": [
+      "i_p is always 45° for every material",
+      "tan i_p = n, where n is the refractive index of the surface",
+      "cos i_p = n, where n is the refractive index of the surface",
+      "sin i_p = n, where n is the refractive index of the surface"
+    ],
+    "ans": 1,
+    "solution": "At this angle the reflected and the refracted rays are at 90° to each other. The reflected light is polarised in the plane parallel to the surface.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m23",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Polaroid sunglasses reduce the glare from a road or from water because the glare is:",
+    "options": [
+      "longitudinal, and the polaroid absorbs it",
+      "of a different frequency from normal light",
+      "unpolarised, and the polaroid reduces its intensity by a quarter",
+      "partially polarised, mostly in the horizontal plane, and the polaroid blocks it"
+    ],
+    "ans": 3,
+    "solution": "Light reflected from a horizontal surface is mostly polarised horizontally. Polaroid lenses with a vertical axis block most of it, but let through the useful light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m24",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The resolving power of a telescope can be increased by:",
+    "options": [
+      "increasing the diameter of its objective lens or mirror",
+      "decreasing the diameter of its objective",
+      "increasing the wavelength of the light used",
+      "increasing the focal length of the eyepiece"
+    ],
+    "ans": 0,
+    "solution": "The smallest angle that a telescope can resolve is θ = 1.22λ/D, so a bigger objective D gives a smaller angle, and better detail.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m25",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A microscope can resolve finer detail when it uses:",
+    "options": [
+      "light of a shorter wavelength",
+      "an eyepiece of a longer focal length",
+      "light of a longer wavelength",
+      "an objective of a smaller aperture"
+    ],
+    "ans": 0,
+    "solution": "The resolving power of a microscope is 2n sinθ/λ, which grows as λ falls. That is why electron microscopes, with very short wavelengths, show far finer details than optical ones.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m26",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A beam of light of wavelength 600 nm in air enters glass of refractive index 1.5. The wavelength in the glass is:",
+    "options": [
+      "900 nm",
+      "400 nm",
+      "600 nm",
+      "300 nm"
+    ],
+    "ans": 1,
+    "solution": "λ in the medium = λ/n = 600/1.5 = 400 nm. The frequency stays the same, and the speed falls to c/1.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-m27",
+    "ch": "phy-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Interference and diffraction are phenomena that:",
+    "options": [
+      "both can only be shown by transverse waves",
+      "both are explained by the ray model",
+      "both show that light is made of particles only",
+      "both show that light has wave properties"
+    ],
+    "ans": 3,
+    "solution": "Neither can be explained by straight-line rays. They show that light behaves as a wave, although interference and diffraction also occur for longitudinal waves such as sound, so they do not tell us whether waves are transverse. That information comes from polarisation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-07-n01",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "In a double-slit experiment the slits are 0.3 mm apart and the screen is 1.5 m away. Light of wavelength 600 nm is used. Find the fringe width in millimetres. Give your answer to 1 decimal place.",
+    "ans": 3.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "β = λD/d = 600 × 10⁻⁹ × 1.5/(0.3 × 10⁻³) = 3.0 × 10⁻³ m = 3.0 mm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n02",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "With the same arrangement (fringe width 3.0 mm), find the distance, in millimetres, of the 10th bright fringe from the central maximum. Give your answer to 1 decimal place.",
+    "ans": 30.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The nth bright fringe is at y = nβ = 10 × 3.0 = 30.0 mm from the centre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n03",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "In a double-slit experiment the fringe width is 2.0 mm, the slit separation is 0.25 mm and the screen is 1.0 m away. Find the wavelength of the light in nanometres. Give your answer as a whole number.",
+    "ans": 500.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "λ = βd/D = 2.0 × 10⁻³ × 0.25 × 10⁻³/1.0 = 5.0 × 10⁻⁷ m = 500 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n04",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Unpolarised light of intensity I₀ passes through a first polaroid and then through a second polaroid whose axis is at 60° to the first. Find the final intensity as a fraction of I₀. Give your answer to 3 decimal places.",
+    "ans": 0.125,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "After the first polaroid the intensity is I₀/2. By Malus's law the second gives (I₀/2) cos²60° = (I₀/2)(1/4) = I₀/8 = 0.125I₀.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n05",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the Brewster (polarising) angle, in degrees, for light incident from air on glass of refractive index 1.5. Give your answer to 2 decimal places.",
+    "ans": 56.31,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "tan i_p = n = 1.5, so i_p = tan⁻¹(1.5) = 56.31°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n06",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Light of wavelength 600 nm in air enters water of refractive index 1.33. Find its wavelength in the water, in nanometres. Give your answer to 1 decimal place.",
+    "ans": 451.1,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "λ(water) = λ(air)/n = 600/1.33 = 451.1 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n07",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A single slit of width 0.2 mm is illuminated by light of wavelength 500 nm, and the pattern is seen on a screen 1.0 m away. Find the width of the central maximum in millimetres. Give your answer to 1 decimal place.",
+    "ans": 5.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The central maximum is between the two first minima: width = 2λD/a = 2 × 500 × 10⁻⁹ × 1.0/(0.2 × 10⁻³) = 5.0 × 10⁻³ m = 5.0 mm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n08",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the smallest angle, in microradians, that a telescope with an objective of diameter 10 cm can resolve for light of wavelength 550 nm. Use θ = 1.22λ/D. Give your answer to 2 decimal places.",
+    "ans": 6.71,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "θ = 1.22λ/D = 1.22 × 550 × 10⁻⁹/0.10 = 6.71 × 10⁻⁶ rad = 6.71 μrad.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n09",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "At a certain point on the screen the path difference of the two interfering beams is 1.5 wavelengths for light of wavelength 500 nm. Find the path difference in nanometres. Give your answer as a whole number.",
+    "ans": 750.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Path difference = 1.5 × 500 = 750 nm. This is (n + ½)λ with n = 1, so the point is dark.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-07-n10",
+    "ch": "phy-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the speed of light in glass of refractive index 1.5, in units of 10⁸ m/s (c = 3.0 × 10⁸ m/s). Give your answer to 2 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "v = c/n = 3.0 × 10⁸/1.5 = 2.00 × 10⁸ m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "phy-12-08-m01",
     "ch": "phy-12-08",
     "type": "mcq",
@@ -17160,6 +19160,1333 @@
     "decimalPlaces": 1,
     "tol": 0.05,
     "solution": "By Kirchhoff's loop rule, 12 − 6 − I × 3 = 0, so I = 2 A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-m01",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A charge q moving with velocity v in a magnetic field B, at an angle θ to it, feels a force of magnitude:",
+    "options": [
+      "qvB sinθ",
+      "qvB",
+      "qvB cosθ",
+      "qv/B sinθ"
+    ],
+    "ans": 0,
+    "solution": "F = q v × B. The force is zero when the charge moves along the field (θ = 0), and is largest when it moves at right angles to it. Its direction is perpendicular to both v and B.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m02",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic force on a moving charge does no work, since:",
+    "options": [
+      "it acts only on a charge that is at rest in the field",
+      "its magnitude is zero for every charge in every field",
+      "it is always perpendicular to the velocity, so it changes only the direction",
+      "it is always parallel to the velocity, so it changes the speed"
+    ],
+    "ans": 2,
+    "solution": "Work = F · v Δt = 0 when F is perpendicular to v. The speed and the kinetic energy of the charge do not change in a magnetic field alone.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m03",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A charged particle enters a uniform magnetic field with its velocity at right angles to the field. It moves in:",
+    "options": [
+      "a parabola, with increasing speed",
+      "a circle, with radius r = mv/(qB)",
+      "a spiral that grows larger with time",
+      "a straight line, with constant speed"
+    ],
+    "ans": 1,
+    "solution": "The force qvB is perpendicular to v and has a constant size, so it is a centripetal force: qvB = mv²/r. A faster or heavier particle makes a bigger circle, and a stronger field a smaller one.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m04",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a charged particle in a circle in a uniform magnetic field, the time period of one revolution is:",
+    "options": [
+      "T = 2πr/B, which depends on the charge only",
+      "T = qB/(2πm), which does not depend on the speed",
+      "T = 2πmv/(qB), which is proportional to the speed",
+      "T = 2πm/(qB), which does not depend on the speed"
+    ],
+    "ans": 3,
+    "solution": "T = 2πr/v = 2πm/(qB). A faster particle goes on a bigger circle, in the same time. This is the principle of the cyclotron.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m05",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A charged particle enters a uniform magnetic field with its velocity at an angle (not 0° or 90°) to the field. Its path is:",
+    "options": [
+      "a parabola in the plane of v and B",
+      "a circle in a plane perpendicular to the field",
+      "a helix, along the direction of the field",
+      "a straight line along the velocity"
+    ],
+    "ans": 2,
+    "solution": "The component of velocity perpendicular to B makes it go round in a circle, and the component along B is not changed, so it moves steadily forward. The result is a spiral, or helical path.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m06",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A charged particle moves parallel to a uniform magnetic field. The magnetic force on it is:",
+    "options": [
+      "directed along the field, and it speeds up",
+      "maximum, and it moves in a circle",
+      "half the maximum, and it moves in a helix",
+      "zero, and it continues in a straight line"
+    ],
+    "ans": 3,
+    "solution": "F = qvB sinθ with θ = 0, so F = 0. Its velocity is not changed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m07",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of magnetic field B is the tesla (T), and 1 tesla is equal to:",
+    "options": [
+      "1 N m/A², or 1 Wb/m",
+      "1 N/(A m), or 1 Wb/m²",
+      "1 N A m, or 1 Wb m²",
+      "1 A/(N m), or 1 m²/Wb"
+    ],
+    "ans": 1,
+    "solution": "From F = BIL, B = F/(IL) with the unit N/(A m). Also 1 T = 1 Wb/m² = 10⁴ gauss.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m08",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A straight wire of length L, carrying a current I, is placed in a magnetic field B at an angle θ to the field. The force on it is:",
+    "options": [
+      "BIL sinθ",
+      "BIL",
+      "BIL cosθ",
+      "BI sinθ/L"
+    ],
+    "ans": 0,
+    "solution": "The force on a wire is the sum of the forces on the moving charges inside it. It is largest when the wire is at right angles to the field, and zero when it is parallel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m09",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The net force on a closed current-carrying loop in a uniform magnetic field is:",
+    "options": [
+      "zero, though there may be a torque",
+      "equal to BIA, in the direction of the field",
+      "maximum when the plane of the loop is parallel to the field",
+      "always non-zero, directed along the normal to the loop"
+    ],
+    "ans": 0,
+    "solution": "The forces on opposite sides are equal and opposite, so they cancel, but they may not act along the same line, which gives a couple (a torque) that turns the loop.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m10",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A coil of N turns, area A, carrying a current I, is in a uniform magnetic field B. The torque on it is largest when:",
+    "options": [
+      "the plane of the coil is perpendicular to the field",
+      "the current is zero",
+      "the plane of the coil makes an angle of 45° with the field",
+      "the plane of the coil is parallel to the field"
+    ],
+    "ans": 3,
+    "solution": "τ = NIAB sinθ, where θ is the angle between the normal to the coil and B. It is largest at θ = 90°, which means that the plane of the coil is parallel to the field. It is zero when the plane is perpendicular to the field.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m11",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic dipole moment of a current loop of N turns, area A and current I has magnitude:",
+    "options": [
+      "NIA², along the normal to the loop",
+      "IA/N, along the normal to the loop",
+      "NIA, along the normal to the loop",
+      "NI/A, along the plane of the loop"
+    ],
+    "ans": 2,
+    "solution": "m = NIA, in A m². The direction is found with the right-hand rule: curl the fingers along the current, and the thumb gives the direction of m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m12",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The potential energy of a magnetic dipole m in a field B is U = −mB cosθ. It is a minimum, which means stable equilibrium, when:",
+    "options": [
+      "m is at 45° to B",
+      "m is parallel to B (θ = 0)",
+      "m is perpendicular to B (θ = 90°)",
+      "m is antiparallel to B (θ = 180°)"
+    ],
+    "ans": 1,
+    "solution": "At θ = 0, U = −mB, the lowest value. Like a compass needle, the dipole turns until it lines up with the field. At θ = 180°, U = +mB is an unstable equilibrium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m13",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Biot–Savart law gives the magnetic field dB due to a small current element I dl at a distance r as:",
+    "options": [
+      "dB = (μ₀/4π) I sinθ/(dl r²)",
+      "dB = (μ₀/4π) I dl cosθ/r²",
+      "dB = (μ₀/4π) I dl sinθ/r",
+      "dB = (μ₀/4π) I dl sinθ/r²"
+    ],
+    "ans": 3,
+    "solution": "The field is proportional to the current and the length of the element, falls as 1/r², and is perpendicular to the plane containing dl and r. It is the magnetic version of Coulomb's law.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m14",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic field at a distance r from a very long straight wire carrying a current I is:",
+    "options": [
+      "μ₀I/(2r), and falls off as 1/r",
+      "μ₀I/(2πr), and falls off as 1/r",
+      "μ₀I/(2πr²), and falls off as 1/r²",
+      "μ₀I r/(2π), and increases with r"
+    ],
+    "ans": 1,
+    "solution": "Integrating the Biot–Savart law along an infinite wire (or using Ampere's law) gives this result. The field lines are circles around the wire, in the sense given by the right-hand thumb rule.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m15",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic field at the centre of a circular coil of N turns, radius R, carrying a current I is:",
+    "options": [
+      "μ₀NI/(2R)",
+      "μ₀NIR/2",
+      "μ₀NI/(4πR)",
+      "μ₀NI/(2πR)"
+    ],
+    "ans": 0,
+    "solution": "Every element of the loop is at the same distance R from the centre and perpendicular to it, so the contributions add up: B = (μ₀/4π)(NI · 2πR)/R² = μ₀NI/2R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m16",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The magnetic field at the centre of a semicircular wire of radius R carrying a current I is:",
+    "options": [
+      "μ₀I/(2R)",
+      "μ₀I/(8R)",
+      "μ₀I/(4R)",
+      "μ₀I/(2πR)"
+    ],
+    "ans": 2,
+    "solution": "A full circle gives μ₀I/2R. A semicircle is half the circle, so it gives half that value: μ₀I/4R. In general, an arc of angle θ gives μ₀Iθ/(4πR).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m17",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two long parallel wires carry currents in the same direction. The force between them is:",
+    "options": [
+      "attractive, and equal to μ₀I₁I₂/(2πd) per unit length",
+      "zero, since the fields cancel each other",
+      "repulsive, and equal to μ₀I₁I₂/(2πd) per unit length",
+      "attractive, and equal to μ₀I₁I₂/(2πd²) per unit length"
+    ],
+    "ans": 0,
+    "solution": "Each wire is in the field of the other and feels a force. For parallel currents the force is attractive, and for opposite currents it is repulsive (opposite to the electric force between like charges).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m18",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The SI unit of current, the ampere, is defined as the current that, when it flows in each of two long parallel wires 1 m apart in vacuum, produces a force per metre of length of:",
+    "options": [
+      "4π × 10⁻⁷ N/m",
+      "2 × 10⁻⁷ N/m",
+      "1 N/m",
+      "9 × 10⁹ N/m"
+    ],
+    "ans": 1,
+    "solution": "Putting I₁ = I₂ = 1 A and d = 1 m in μ₀I₁I₂/(2πd) gives (4π × 10⁻⁷/2π) = 2 × 10⁻⁷ N/m. (Since 2019 the ampere is defined using the fixed value of the elementary charge, which gives the same result for practical purposes.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m19",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Ampere's circuital law states that the line integral of the magnetic field around any closed path is equal to:",
+    "options": [
+      "1/μ₀ times the total current passing through the path",
+      "the magnetic flux through the path",
+      "μ₀ times the total charge inside the path",
+      "μ₀ times the total current passing through the path"
+    ],
+    "ans": 3,
+    "solution": "∮B·dl = μ₀I_enclosed. It is used to find B for a symmetric current: a long wire, a solenoid or a toroid.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m20",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic field inside a long solenoid carrying a current I, with n turns per unit length, is:",
+    "options": [
+      "μ₀nI/2, uniform and along the axis",
+      "μ₀nI/r, increasing towards the axis",
+      "μ₀nI, uniform and along the axis",
+      "zero everywhere, as the fields of the turns cancel"
+    ],
+    "ans": 2,
+    "solution": "Inside, the fields of the turns add, and they are nearly uniform. Outside a long solenoid the field is very small. A solenoid is a convenient way to get a strong, uniform field.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m21",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A toroid with N turns and mean radius r carries a current I. The magnetic field inside the toroid and outside it (in the hole and in the surrounding space) is, respectively:",
+    "options": [
+      "zero, and μ₀NI/(2πr)",
+      "μ₀NI/(2πr) both inside and outside",
+      "μ₀NI/(2r), and zero",
+      "μ₀NI/(2πr), and zero"
+    ],
+    "ans": 3,
+    "solution": "A toroid is a solenoid bent into a ring. By Ampere's law with a circular path inside, B × 2πr = μ₀NI. For paths in the hole or outside, the total current enclosed is zero, so B = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m22",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A velocity selector has an electric field E and a magnetic field B at right angles to each other and to the velocity of the beam. The ions that pass through undeflected have speed:",
+    "options": [
+      "v = EB",
+      "v = E/B",
+      "v = E/B²",
+      "v = B/E"
+    ],
+    "ans": 1,
+    "solution": "The ions are in a straight line when the electric force qE and the magnetic force qvB are equal and opposite. Then v = E/B, whatever the charge and the mass of the ion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m23",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A cyclotron is used to accelerate charged particles. The frequency of the alternating voltage that is applied has to be:",
+    "options": [
+      "equal to the cyclotron frequency qB/(2πm), which does not depend on the radius of the orbit",
+      "equal to twice the cyclotron frequency, and it increases with the radius",
+      "equal to the speed of the particle divided by the radius of the dees",
+      "zero, since a magnetic field alone accelerates the particles"
+    ],
+    "ans": 0,
+    "solution": "The magnetic field makes the particles go round, and the alternating electric field in the gap between the dees gives them a kick every half-turn. The time for half a turn does not depend on speed, so a fixed frequency can be used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m24",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a moving-coil galvanometer, a radial magnetic field is used so that:",
+    "options": [
+      "the field is zero along the plane of the coil in all positions",
+      "the coil does not experience any torque in the field at all",
+      "the torque on the coil is the same for every angle of deflection, and the scale is linear",
+      "the deflection depends on the square of the current instead"
+    ],
+    "ans": 2,
+    "solution": "In a radial field, the plane of the coil is always parallel to B, so τ = NIAB for every position. It is balanced by the spring torque cθ, so θ = (NAB/c)I, proportional to the current.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m25",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The direction of the magnetic field of a straight wire carrying a current is given by:",
+    "options": [
+      "the left-hand thumb rule, with the thumb along the direction of the field",
+      "the direction of the electric field of the wire at that point",
+      "the direction of the current itself in the wire at that point",
+      "the right-hand thumb rule, with the thumb along the current and the fingers curling along the field"
+    ],
+    "ans": 3,
+    "solution": "The field lines are closed circles in a plane at right angles to the wire. If the thumb of your right hand points along the current, your fingers curl in the direction of B.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m26",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An electric field acts on a charge, whether it is moving or at rest. A magnetic field acts on:",
+    "options": [
+      "both a moving and a stationary charge equally",
+      "a moving charge only, and not on a stationary one",
+      "neither of them, but only on a magnet",
+      "a stationary charge only, and not on a moving one"
+    ],
+    "ans": 1,
+    "solution": "F = qv × B is zero for v = 0. A stationary charge is not affected by a magnetic field.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-m27",
+    "ch": "phy-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solenoid has its length doubled, with the same number of turns and the same current. The magnetic field inside becomes:",
+    "options": [
+      "four times as large",
+      "twice as large",
+      "half as large",
+      "unchanged"
+    ],
+    "ans": 2,
+    "solution": "B = μ₀nI, with n = N/L. Doubling L halves n, and so halves B.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-10-n01",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A charge of 2 μC moves at 5 × 10⁵ m/s at right angles to a magnetic field of 0.4 T. Find the force on it in newtons. Give your answer to 2 decimal places.",
+    "ans": 0.4,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "F = qvB sin 90° = 2 × 10⁻⁶ × 5 × 10⁵ × 0.4 = 0.40 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n02",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "A proton (mass 1.67 × 10⁻²⁷ kg, charge 1.6 × 10⁻¹⁹ C) moves at 3.0 × 10⁶ m/s at right angles to a field of 0.5 T. Find the radius of its circular path in centimetres. Give your answer to 2 decimal places.",
+    "ans": 6.26,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "r = mv/(qB) = 1.67 × 10⁻²⁷ × 3.0 × 10⁶/(1.6 × 10⁻¹⁹ × 0.5) = 0.0626 m = 6.26 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n03",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the cyclotron frequency, in MHz, of a proton in a magnetic field of 1.0 T (m = 1.67 × 10⁻²⁷ kg, q = 1.6 × 10⁻¹⁹ C). Give your answer to 2 decimal places.",
+    "ans": 15.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "f = qB/(2πm) = 1.6 × 10⁻¹⁹ × 1.0/(2π × 1.67 × 10⁻²⁷) = 1.525 × 10⁷ Hz = 15.25 MHz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n04",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A straight wire 0.2 m long carries a current of 5 A in a field of 0.3 T, at an angle of 30° to the field. Find the force on the wire in newtons. Give your answer to 2 decimal places.",
+    "ans": 0.15,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "F = BIL sinθ = 0.3 × 5 × 0.2 × 0.5 = 0.15 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n05",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A coil of 100 turns and area 0.01 m² carries 2.0 A in a field of 0.5 T. Find the maximum torque on it in N m. Give your answer to 2 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The maximum torque is when sinθ = 1: τ = NIAB = 100 × 2.0 × 0.01 × 0.5 = 1.00 N m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n06",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the magnetic field, in microtesla, at 5 cm from a long straight wire carrying 10 A. Give your answer to 1 decimal place.",
+    "ans": 40.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "B = μ₀I/(2πr) = 2 × 10⁻⁷ × 10/0.05 = 4.0 × 10⁻⁵ T = 40.0 μT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n07",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the magnetic field, in millitesla, at the centre of a circular coil of 50 turns, radius 0.1 m, carrying 2.0 A. Give your answer to 3 decimal places.",
+    "ans": 0.628,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "B = μ₀NI/(2R) = 4π × 10⁻⁷ × 50 × 2.0/(2 × 0.1) = 6.28 × 10⁻⁴ T = 0.628 mT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n08",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "Two long parallel wires 0.1 m apart carry currents of 10 A and 20 A in the same direction. Find the force per unit length between them in millinewtons per metre. Give your answer to 2 decimal places.",
+    "ans": 0.4,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "F/L = μ₀I₁I₂/(2πd) = 2 × 10⁻⁷ × 10 × 20/0.1 = 4.0 × 10⁻⁴ N/m = 0.40 mN/m, attractive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n09",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A long solenoid has 1000 turns per metre and carries a current of 2.0 A. Find the magnetic field inside it, in millitesla. Give your answer to 2 decimal places.",
+    "ans": 2.51,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "B = μ₀nI = 4π × 10⁻⁷ × 1000 × 2.0 = 2.51 × 10⁻³ T = 2.51 mT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-10-n10",
+    "ch": "phy-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "In a velocity selector, the electric field is 2.0 × 10⁴ V/m and the magnetic field is 0.1 T. Find the speed of the ions that pass undeflected, in m/s. Give your answer as a whole number.",
+    "ans": 200000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "qE = qvB, so v = E/B = 2.0 × 10⁴/0.1 = 2.0 × 10⁵ m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-m01",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The magnetic flux through a plane surface of area A in a uniform field B, with the normal to the surface at an angle θ to the field, is:",
+    "options": [
+      "Φ = B/A cosθ, with the unit tesla (T)",
+      "Φ = BA tanθ, with the unit weber (Wb)",
+      "Φ = BA cosθ, with the unit weber (Wb)",
+      "Φ = BA sinθ, with the unit weber (Wb)"
+    ],
+    "ans": 2,
+    "solution": "Flux measures how many field lines pass through the surface. It is largest when the surface is at right angles to the field (θ = 0) and zero when the field is parallel to the surface. 1 Wb = 1 T m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m02",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Faraday's law of electromagnetic induction states that the emf induced in a coil is:",
+    "options": [
+      "proportional to the magnetic flux through the coil",
+      "proportional to the rate of change of magnetic flux through the coil",
+      "independent of the number of turns of the coil",
+      "proportional to the resistance of the coil"
+    ],
+    "ans": 1,
+    "solution": "ε = −N dΦ/dt. A larger or quicker change of flux gives a larger emf, and a coil with N turns gives N times the emf of a single turn.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m03",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Lenz's law states that the direction of the induced current is such that it:",
+    "options": [
+      "is always along the direction of the magnetic field",
+      "helps the change in flux that produced it",
+      "is always clockwise as seen from the magnet",
+      "opposes the change in flux that produced it"
+    ],
+    "ans": 3,
+    "solution": "The minus sign in Faraday's law expresses this. If the induced current helped the change, the effect would grow without limit, and energy would be created from nothing. So Lenz's law is the conservation of energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m04",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The north pole of a bar magnet is moved towards a coil. The face of the coil nearer the magnet becomes:",
+    "options": [
+      "a north pole, as the induced current opposes the approach",
+      "a south pole at first and then a north pole",
+      "neutral, as there is no induced current",
+      "a south pole, as the induced current pulls the magnet in"
+    ],
+    "ans": 0,
+    "solution": "The flux through the coil is increasing, so the induced current makes a field that opposes it, which means a north face pointing at the approaching north pole. It repels the magnet, so you must do work to push it in.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m05",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An emf is induced in a coil only when:",
+    "options": [
+      "the coil is in a strong magnetic field",
+      "the coil is at rest in a steady magnetic field",
+      "the magnetic flux through the coil is changing with time",
+      "there is a large flux through the coil, steady in time"
+    ],
+    "ans": 2,
+    "solution": "A steady flux, however large, gives no emf. The flux can change if B changes, if the area changes, or if the angle θ between B and the normal changes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m06",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A straight conductor of length L moves with velocity v at right angles to a uniform magnetic field B (and at right angles to its own length). The emf induced in it is:",
+    "options": [
+      "BLv²",
+      "BLv",
+      "Bv/L",
+      "BL/v"
+    ],
+    "ans": 1,
+    "solution": "The free charges in the rod feel a magnetic force qvB that moves them to one end. The emf is the work per unit charge, ε = BLv. The direction is given by Fleming's right-hand rule or by Lenz's law.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m07",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A metal rod of length L rotates with angular speed ω about one end in a uniform field B perpendicular to its plane of rotation. The emf between its ends is:",
+    "options": [
+      "½BωL²",
+      "½BωL",
+      "BωL²",
+      "BωL"
+    ],
+    "ans": 0,
+    "solution": "The speed of a point of the rod grows from 0 at the pivot to ωL at the free end, so the average speed is ωL/2. ε = BL × (ωL/2) = ½BωL².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m08",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An AC generator works on the principle that:",
+    "options": [
+      "a magnet attracts iron when it is near it",
+      "a current flows in a coil placed in a steady magnetic field",
+      "a coil gets magnetised when a current flows in it",
+      "an emf is induced in a coil which rotates in a magnetic field, as the flux changes"
+    ],
+    "ans": 3,
+    "solution": "A coil of N turns and area A rotating at angular speed ω in a field B has the flux Φ = NBA cosωt, so the emf is ε = NBAω sinωt, which is a sine wave.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m09",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In an AC generator, the induced emf has its maximum value when the plane of the coil is:",
+    "options": [
+      "parallel to the magnetic field, when the flux is zero",
+      "perpendicular to the magnetic field, when the flux is maximum",
+      "stationary and the field is zero",
+      "at 45° to the magnetic field"
+    ],
+    "ans": 0,
+    "solution": "ε = −N dΦ/dt depends on the rate of change of flux, not on the flux itself. The flux is zero, but changing fastest, when the plane of the coil is parallel to B. The emf is zero when the plane is perpendicular to B.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m10",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The frequency of alternating current supplied to homes in India is:",
+    "options": [
+      "25 Hz",
+      "100 Hz",
+      "60 Hz",
+      "50 Hz"
+    ],
+    "ans": 3,
+    "solution": "The coils of the generators in power stations rotate 50 times a second (or the equivalent for multi-pole machines). In the USA the frequency is 60 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m11",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When a DC motor is running, the back emf in its armature:",
+    "options": [
+      "is zero while the motor is running steadily",
+      "adds to the applied voltage and decreases with the speed of the motor",
+      "opposes the applied voltage and increases with the speed of the motor",
+      "is the same as the applied voltage at all times"
+    ],
+    "ans": 2,
+    "solution": "The rotating armature is itself a coil that cuts field lines, so an emf is induced in it, and by Lenz's law it opposes the supply. The current is I = (V − E)/R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m12",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At the instant a DC motor is switched on, the current in the armature is large because:",
+    "options": [
+      "the supply voltage is greater than normal",
+      "the armature is at rest, so there is no back emf to oppose the supply",
+      "the resistance of the armature is at its maximum",
+      "the back emf is at its maximum value"
+    ],
+    "ans": 1,
+    "solution": "At the start E = 0 so I = V/R, which is large, since R is small. As the motor speeds up, E grows and the current falls. This is why a starter resistance is used for large motors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m13",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Eddy currents are:",
+    "options": [
+      "currents that flow only along the surface of water",
+      "currents in a wire that is connected to a battery",
+      "currents that flow only in insulators in a magnetic field",
+      "circulating currents induced in a piece of metal by a changing magnetic flux"
+    ],
+    "ans": 3,
+    "solution": "The induced currents flow in closed loops in the bulk of the conductor and by Lenz's law oppose the change that produced them. They produce heat, and a braking force.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m14",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The cores of transformers and motors are made of thin laminated sheets, insulated from each other, in order to:",
+    "options": [
+      "prevent the core from getting magnetised",
+      "increase the resistance of the windings",
+      "reduce the eddy currents and the heat loss",
+      "increase the eddy currents and so the heating"
+    ],
+    "ans": 2,
+    "solution": "Lamination cuts the paths for the currents in the bulk of the core, so the eddy current losses fall a lot. Eddy currents are put to use in induction furnaces, magnetic braking of trains and in electric meters.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m15",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The self-inductance L of a coil is defined by the relation:",
+    "options": [
+      "Φ = LI, or ε = −L dI/dt",
+      "Φ = L/I, or ε = −L I",
+      "Φ = L²I, or ε = −L/dt",
+      "Φ = LI², or ε = L dt/dI"
+    ],
+    "ans": 0,
+    "solution": "The flux through a coil due to its own current is proportional to the current. The proportionality constant is L, in henry (H = Wb/A = V s/A). A changing current induces an emf in the coil itself, which opposes the change.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m16",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The self-induced emf in a coil:",
+    "options": [
+      "is present only when the current is steady and large",
+      "opposes the change in the current, and so acts like inertia for the current",
+      "helps the change in the current in the coil",
+      "opposes the current itself, even if it is steady"
+    ],
+    "ans": 1,
+    "solution": "When the current is rising, the induced emf is opposite to it and slows the rise. When it is falling, the emf is in the same direction and slows the fall. L plays the role that mass plays in mechanics.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m17",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The self-inductance of a long air-core solenoid of N turns, length l and cross-sectional area A is:",
+    "options": [
+      "μ₀N²A/l",
+      "μ₀N²l/A",
+      "μ₀NA²/l",
+      "μ₀NA/l"
+    ],
+    "ans": 0,
+    "solution": "B = μ₀NI/l, so the flux linked is N × BA = μ₀N²AI/l, and L = Φ/I = μ₀N²A/l. It depends on the geometry and the core material, and not on the current. An iron core increases L a great deal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m18",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The energy stored in the magnetic field of a coil of inductance L carrying a current I is:",
+    "options": [
+      "L²I/2",
+      "½LI²",
+      "½LI",
+      "LI²"
+    ],
+    "ans": 1,
+    "solution": "To build up the current against the induced emf, work is done, and this is stored in the field. It is the magnetic counterpart of ½CV² for a capacitor, or of ½mv² for kinetic energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m19",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The energy stored per unit volume in a magnetic field B in vacuum is:",
+    "options": [
+      "B²/μ₀",
+      "B/(2μ₀)",
+      "B²/(2μ₀)",
+      "μ₀B²/2"
+    ],
+    "ans": 2,
+    "solution": "For a solenoid, U/volume = ½LI²/(Al) with B = μ₀nI gives B²/(2μ₀). Compare with the energy density of an electric field, ½ε₀E².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m20",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Mutual induction is the phenomenon in which:",
+    "options": [
+      "a magnet induces a current in a coil at rest and a steady field",
+      "a changing current in a coil induces an emf in the same coil",
+      "a steady current in one coil induces an emf in another",
+      "a changing current in one coil induces an emf in a nearby coil"
+    ],
+    "ans": 3,
+    "solution": "The flux of the first coil passes through the second. The emf in the second coil is ε₂ = −M dI₁/dt, where M is the mutual inductance, in henry.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m21",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The mutual inductance of two coils does NOT depend on:",
+    "options": [
+      "the distance between the coils",
+      "the number of turns in each coil",
+      "the current flowing in either coil",
+      "the material of the core between the coils"
+    ],
+    "ans": 2,
+    "solution": "M depends on the geometry (the size, shape, number of turns and relative position of the coils) and on the medium. It does not depend on the current.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m22",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A transformer works on the principle of:",
+    "options": [
+      "self induction, and it works with a direct current too",
+      "the heating effect of an electric current",
+      "the magnetic effect of a current, with a direct current only",
+      "mutual induction, and it needs an alternating current to work"
+    ],
+    "ans": 3,
+    "solution": "The alternating current in the primary produces a changing flux in the core, which links the secondary and induces an emf in it. A steady direct current gives a steady flux and no emf in the secondary.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m23",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For an ideal transformer with N_p turns in the primary and N_s in the secondary, the voltages and currents are related by:",
+    "options": [
+      "V_s/V_p = N_s/N_p = I_p/I_s",
+      "V_s/V_p = N_s/N_p = I_s/I_p",
+      "V_s/V_p = N_p/N_s = I_p/I_s",
+      "V_s/V_p = I_p/I_s = N_p/N_s"
+    ],
+    "ans": 0,
+    "solution": "A step-up transformer (N_s greater than N_p) raises the voltage and lowers the current in the same ratio, so that the power V_pI_p = V_sI_s is the same on both sides.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m24",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of these is NOT a source of energy loss in a real transformer?",
+    "options": [
+      "the leakage of magnetic flux from the core",
+      "conversion of the alternating current into direct current in the core",
+      "the heating of the copper windings by their resistance",
+      "the eddy currents in the iron core"
+    ],
+    "ans": 1,
+    "solution": "The real losses are the copper loss (I²R), the iron loss (eddy currents and hysteresis in the core), and flux leakage. There is no conversion of AC to DC in the core. Well-designed transformers are more than 95% efficient.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m25",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Alternating voltage is stepped up to a very high value for the long-distance transmission of electric power, because:",
+    "options": [
+      "the high voltage increases the power that the lines can carry without loss",
+      "for the same power, a higher voltage means a lower current and so a smaller I²R loss in the lines",
+      "the resistance of the lines is lower at a high voltage",
+      "a higher voltage means a higher current and a smaller loss in the lines"
+    ],
+    "ans": 1,
+    "solution": "P = VI, so for a given power, I = P/V falls as V rises, and the power wasted as heat in the lines, I²R, falls with the square of the current. That is why power is sent at 132 kV or more, and then stepped down.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-m26",
+    "ch": "phy-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of inductance, the henry, is equivalent to:",
+    "options": [
+      "volt per ampere (V/A)",
+      "volt ampere per second (V A/s)",
+      "volt second per ampere (V s/A)",
+      "ampere second per volt (A s/V)"
+    ],
+    "ans": 2,
+    "solution": "From ε = L dI/dt, L = ε/(dI/dt), with the unit V/(A/s) = V s/A. Also 1 H = 1 Wb/A = 1 Ω s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-12-n01",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "The magnetic flux through a coil of 100 turns changes from 0.05 Wb to 0.01 Wb in 0.2 s. Find the magnitude of the induced emf in volts. Give your answer to 1 decimal place.",
+    "ans": 20.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ε = N|ΔΦ|/Δt = 100 × 0.04/0.2 = 20 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n02",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 1,
+    "q": "A conducting rod 0.4 m long moves at 5 m/s at right angles to a magnetic field of 0.5 T. Find the emf induced between its ends in volts. Give your answer to 2 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ε = BLv = 0.5 × 0.4 × 5 = 1.00 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n03",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "A generator has a coil of 200 turns and area 0.05 m² rotating at 50 revolutions per second in a field of 0.2 T. Find the peak emf in volts. Give your answer to 1 decimal place.",
+    "ans": 628.3,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ω = 2πf = 314.2 rad/s. ε₀ = NBAω = 200 × 0.2 × 0.05 × 314.2 = 628.3 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n04",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "The current in a coil of self-inductance 0.5 H changes by 2.0 A in 0.1 s. Find the average induced emf in volts. Give your answer to 1 decimal place.",
+    "ans": 10.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ε = L ΔI/Δt = 0.5 × 2.0/0.1 = 10 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n05",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the energy stored, in joules, in the magnetic field of a coil of inductance 2 H carrying 3 A. Give your answer to 1 decimal place.",
+    "ans": 9.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "U = ½LI² = ½ × 2 × 9 = 9.0 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n06",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "A long solenoid has 1000 turns per metre, a cross-sectional area of 2 × 10⁻⁴ m² and a length of 0.5 m. Find its inductance in microhenry. (μ₀ = 4π × 10⁻⁷ T m/A) Give your answer to 1 decimal place.",
+    "ans": 125.7,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "L = μ₀n²Al = 4π × 10⁻⁷ × (1000)² × 2 × 10⁻⁴ × 0.5 = 1.257 × 10⁻⁴ H = 125.7 μH.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n07",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "When the current in one coil changes at 3 A/s, an emf of 6 V is induced in a nearby coil. Find the mutual inductance in henry. Give your answer to 1 decimal place.",
+    "ans": 2.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "|ε₂| = M dI₁/dt, so M = 6/3 = 2.0 H.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n08",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "A transformer has 500 turns in the primary and 50 turns in the secondary. The primary is connected to a 220 V AC supply. Find the secondary voltage in volts (ideal transformer). Give your answer to 1 decimal place.",
+    "ans": 22.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "V_s/V_p = N_s/N_p, so V_s = 220 × 50/500 = 22.0 V (a step-down transformer).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n09",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "An ideal step-down transformer delivers 10 A at 22 V from a 220 V supply. Find the current drawn from the supply in amperes. Give your answer to 1 decimal place.",
+    "ans": 1.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Input power = output power: V_pI_p = V_sI_s, so I_p = 22 × 10/220 = 1.0 A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-12-n10",
+    "ch": "phy-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "A DC motor on a 220 V supply has an armature resistance of 2 Ω and draws 10 A while running. Find the back emf in volts. Give your answer as a whole number.",
+    "ans": 200.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "I = (V − E)/R, so E = V − IR = 220 − 10 × 2 = 200 V.",
     "sample": false,
     "verifiedBy": [
       "derivation",
