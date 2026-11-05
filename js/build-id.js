@@ -2,5 +2,5 @@
  * stamped with. Shown in Profile so a stale copy is easy to spot. */
 (function (S) {
   'use strict';
-  S.BUILD = 'd2d9762ad6';
+  S.BUILD = '56f6640047';
 })((window.SOS = window.SOS || {}));

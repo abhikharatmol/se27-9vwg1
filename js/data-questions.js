@@ -9454,6 +9454,4158 @@
       "derivation",
       "script"
     ]
+  },
+  {
+    "id": "phy-12-01-m01",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The moment of inertia of a thin uniform ring of mass M and radius R about an axis through its centre, perpendicular to its plane, is:",
+    "options": [
+      "2MR²/5",
+      "MR²",
+      "MR²/4",
+      "MR²/2"
+    ],
+    "ans": 1,
+    "solution": "All the mass of a thin ring sits at distance R from the axis, so I = Σmr² = MR².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m02",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The moment of inertia of a uniform solid disc of mass M and radius R about an axis through its centre, perpendicular to its plane, is:",
+    "options": [
+      "MR²/2",
+      "2MR²/5",
+      "MR²",
+      "MR²/4"
+    ],
+    "ans": 0,
+    "solution": "Adding up thin rings across the disc gives I = ½MR². This is half the value for a ring of the same mass and radius.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m03",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The moment of inertia of a uniform solid sphere of mass M and radius R about a diameter is:",
+    "options": [
+      "7MR²/5",
+      "MR²/2",
+      "2MR²/3",
+      "2MR²/5"
+    ],
+    "ans": 3,
+    "solution": "For a solid sphere about a diameter, I = (2/5)MR². The value 2MR²/3 belongs to a thin hollow sphere, and 7MR²/5 is the solid sphere about a tangent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m04",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The moment of inertia of a thin uniform hollow sphere of mass M and radius R about a diameter is:",
+    "options": [
+      "MR²/2",
+      "MR²",
+      "2MR²/3",
+      "2MR²/5"
+    ],
+    "ans": 2,
+    "solution": "For a thin spherical shell, I = (2/3)MR². It is larger than the solid sphere's (2/5)MR² because all its mass lies at the full radius.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m05",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A thin uniform rod of mass M and length L is rotated about an axis through its centre, perpendicular to the rod. Its moment of inertia is:",
+    "options": [
+      "ML²/2",
+      "ML²/3",
+      "ML²/6",
+      "ML²/12"
+    ],
+    "ans": 3,
+    "solution": "About the centre, I = ML²/12. About one end (parallel axis theorem: ML²/12 + M(L/2)²) it is ML²/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m06",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The parallel axis theorem relates the moment of inertia I about any axis to the moment of inertia I_cm about a parallel axis through the centre of mass. If the axes are a distance d apart and the body has mass M, then:",
+    "options": [
+      "I = I_cm + Md²",
+      "I = I_cm − Md²",
+      "I = I_cm + Md",
+      "I = I_cm + ½Md²"
+    ],
+    "ans": 0,
+    "solution": "The theorem says I = I_cm + Md². The extra term is always positive, so the centre-of-mass axis gives the smallest moment of inertia of all parallel axes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m07",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The perpendicular axis theorem, I_z = I_x + I_y, can be applied only to:",
+    "options": [
+      "a body rotating at constant angular speed",
+      "a flat (laminar) body, with x and y axes in its plane",
+      "a solid sphere only",
+      "any three-dimensional body"
+    ],
+    "ans": 1,
+    "solution": "The theorem needs a plane body, with the x and y axes lying in the plane and meeting at a point, and the z axis perpendicular to the plane through that point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m08",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The moment of inertia of a body depends on:",
+    "options": [
+      "its angular velocity at the instant it is measured",
+      "the torque applied to it and how long the torque acts",
+      "the distribution of its mass and the position of the axis",
+      "its angular momentum about the same axis"
+    ],
+    "ans": 2,
+    "solution": "I = Σmr² depends only on how the mass is spread about the chosen axis. It does not change with how fast the body turns or with the torque applied.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m09",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The radius of gyration of a solid sphere of radius R about a diameter is:",
+    "options": [
+      "R√(2/3)",
+      "R√(3/5)",
+      "R/√2",
+      "R√(2/5)"
+    ],
+    "ans": 3,
+    "solution": "I = Mk² and I = (2/5)MR², so k² = (2/5)R² and k = R√(2/5) ≈ 0.63R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m10",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The moment of inertia of a thin hollow sphere about a diameter is 2MR²/3. Its radius of gyration is:",
+    "options": [
+      "R/√3",
+      "R√(2/5)",
+      "R√(2/3)",
+      "R√(3/2)"
+    ],
+    "ans": 2,
+    "solution": "From Mk² = (2/3)MR², k = R√(2/3) ≈ 0.82R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m11",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of torque is:",
+    "options": [
+      "newton metre (N m)",
+      "kilogram metre per second (kg m/s)",
+      "watt (W)",
+      "newton second (N s)"
+    ],
+    "ans": 0,
+    "solution": "Torque = force × perpendicular distance, so its unit is N m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m12",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The angular momentum of a rigid body of moment of inertia I rotating with angular velocity ω about a fixed axis is:",
+    "options": [
+      "L = I/ω",
+      "L = Iω",
+      "L = ½Iω²",
+      "L = Iω²"
+    ],
+    "ans": 1,
+    "solution": "Angular momentum is the rotational counterpart of mass × velocity: L = Iω. The expression ½Iω² is the rotational kinetic energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m13",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A body of moment of inertia I has an angular acceleration α under a net torque τ. These are related by:",
+    "options": [
+      "τ = I/α",
+      "τ = Iα",
+      "τ = α/I",
+      "τ = Iα²"
+    ],
+    "ans": 1,
+    "solution": "τ = Iα is Newton's second law for rotation (compare F = ma).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m14",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The rate of change of angular momentum of a body equals:",
+    "options": [
+      "the net external torque on it",
+      "its rotational kinetic energy",
+      "its moment of inertia",
+      "its angular velocity"
+    ],
+    "ans": 0,
+    "solution": "τ = dL/dt. When the net external torque is zero, L stays constant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m15",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The angular momentum of a system stays constant when:",
+    "options": [
+      "its kinetic energy is constant",
+      "its moment of inertia is constant",
+      "its angular velocity is constant",
+      "the net external torque on it is zero"
+    ],
+    "ans": 3,
+    "solution": "The condition is zero net external torque. Kinetic energy, ω and I can all change while L stays fixed, as when a skater pulls in her arms.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m16",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A skater spinning on ice pulls her arms close to her body. Her angular velocity:",
+    "options": [
+      "decreases, because her moment of inertia decreases",
+      "increases, because L increases",
+      "increases, because her moment of inertia decreases and L is constant",
+      "stays the same, because L is constant"
+    ],
+    "ans": 2,
+    "solution": "No external torque acts, so L = Iω is constant. A smaller I therefore gives a larger ω. Her kinetic energy rises too, since the work is done by her muscles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m17",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A horizontal disc spins freely about its vertical axis. A small lump of clay is dropped gently onto its rim and sticks there. The angular velocity of the disc:",
+    "options": [
+      "decreases, because L is conserved while I increases",
+      "becomes zero at once",
+      "stays the same, because the clay has no velocity",
+      "increases, because the clay adds mass"
+    ],
+    "ans": 0,
+    "solution": "No external torque about the axis, so Iω is constant. The clay adds to I, so ω must fall.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m18",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two identical discs share one axis. One spins at ω, and the other is at rest. They are brought together and stick. The final angular velocity is:",
+    "options": [
+      "ω/4",
+      "ω",
+      "ω/2",
+      "2ω"
+    ],
+    "ans": 2,
+    "solution": "Iω = (I + I)ω', so ω' = ω/2. The final kinetic energy is half the initial one, and the missing half is lost as heat in the friction that makes them stick.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m19",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A particle moves in a circle at constant speed. Its angular momentum about the centre of the circle is:",
+    "options": [
+      "constant in magnitude but changing in direction",
+      "zero",
+      "changing in magnitude",
+      "constant in magnitude and in direction"
+    ],
+    "ans": 3,
+    "solution": "L = mvr, with v and r constant, and L points along the axis of the circle all the time. The centripetal force passes through the centre, so it exerts no torque.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m20",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A force of 10 N acts at the end of a 2 m long spanner, at 30° to the spanner. The torque about the other end is:",
+    "options": [
+      "20 N m",
+      "10 N m",
+      "17.32 N m",
+      "5 N m"
+    ],
+    "ans": 1,
+    "solution": "τ = rF sinθ = 2 × 10 × sin 30° = 10 N m. Using the full 20 would be right only for a force at 90° to the spanner.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m21",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The rotational kinetic energy of a rigid body of moment of inertia I rotating at angular velocity ω is:",
+    "options": [
+      "Iω",
+      "½Iω",
+      "½Iω²",
+      "Iω²"
+    ],
+    "ans": 2,
+    "solution": "The rotational analogue of ½mv² is ½Iω².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m22",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The power delivered by a torque τ to a body turning at angular velocity ω is:",
+    "options": [
+      "τ/ω",
+      "τω",
+      "τω²",
+      "ω/τ"
+    ],
+    "ans": 1,
+    "solution": "P = dW/dt = τ(dθ/dt) = τω, the rotational counterpart of P = Fv.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m23",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solid sphere rolls without slipping on a horizontal surface. The fraction of its total kinetic energy that is rotational is:",
+    "options": [
+      "5/7",
+      "1/2",
+      "2/5",
+      "2/7"
+    ],
+    "ans": 3,
+    "solution": "For a sphere I = (2/5)MR² and ω = v/R. Rotational KE = ½(2/5)MR²(v/R)² = (1/5)Mv², and total KE = ½Mv² + (1/5)Mv² = (7/10)Mv². The ratio is (1/5)/(7/10) = 2/7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m24",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A ring rolls without slipping with its centre moving at speed v. Its total kinetic energy is:",
+    "options": [
+      "Mv²",
+      "(3/4)Mv²",
+      "(7/10)Mv²",
+      "½Mv²"
+    ],
+    "ans": 0,
+    "solution": "For a ring I = MR², so rotational KE = ½MR²(v/R)² = ½Mv². Adding ½Mv² of translation gives Mv².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m25",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A ring, a solid disc, a solid sphere and a thin hollow sphere, all of the same mass and radius, are released together from rest at the top of a rough incline and roll down without slipping. The first to reach the bottom is the:",
+    "options": [
+      "thin hollow sphere",
+      "solid disc",
+      "ring",
+      "solid sphere"
+    ],
+    "ans": 3,
+    "solution": "a = g sinθ / (1 + k²/R²). The smaller k²/R² is, the larger a is. k²/R² is 2/5 for the solid sphere, 1/2 for the disc, 2/3 for the hollow sphere and 1 for the ring, so the solid sphere wins and the ring comes last.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m26",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solid cylinder and a thin hollow cylinder of the same mass and radius roll without slipping down the same incline. The ratio of the accelerations of their centres, solid : hollow, is:",
+    "options": [
+      "2 : 1",
+      "1 : 1",
+      "4 : 3",
+      "3 : 4"
+    ],
+    "ans": 2,
+    "solution": "a ∝ 1/(1 + k²/R²). Solid cylinder: 1/(1 + 1/2) = 2/3. Hollow cylinder: 1/(1 + 1) = 1/2. The ratio is (2/3)/(1/2) = 4/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m27",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In uniform circular motion, the net force on the particle is directed:",
+    "options": [
+      "towards the centre of the circle",
+      "along the tangent, in the direction of motion",
+      "away from the centre of the circle",
+      "along the tangent, opposite to the motion"
+    ],
+    "ans": 0,
+    "solution": "The velocity changes direction but not size, so the acceleration v²/r points to the centre, and so does the net force that causes it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m28",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "On a frictionless banked road of radius r and banking angle θ, the safe speed of a car is v = √(rg tanθ). This speed depends on:",
+    "options": [
+      "θ and the mass of the car, but not r",
+      "r, θ and g, but not on the mass of the car",
+      "r and the mass of the car, but not θ",
+      "the mass of the car only"
+    ],
+    "ans": 1,
+    "solution": "The horizontal part of the normal force provides mv²/r and the vertical part balances mg. Dividing the two equations cancels m, leaving tanθ = v²/(rg).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m29",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A stone is whirled in a vertical circle of radius r on a light string. The least speed it must have at the lowest point to complete the circle is:",
+    "options": [
+      "√(3gr)",
+      "√(2gr)",
+      "√(gr)",
+      "√(5gr)"
+    ],
+    "ans": 3,
+    "solution": "At the top the string just stays taut when v² = gr. Energy conservation from bottom to top gives v_bottom² = v_top² + 4gr = 5gr.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-m30",
+    "ch": "phy-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A conical pendulum has a string of length L making angle θ with the vertical. Its time period is:",
+    "options": [
+      "2π√(L cosθ / g)",
+      "2π√(L / g)",
+      "2π√(L sinθ / g)",
+      "2π√(g / L cosθ)"
+    ],
+    "ans": 0,
+    "solution": "T cosθ = mg and T sinθ = mω²(L sinθ), so ω² = g/(L cosθ). Then T = 2π/ω = 2π√(L cosθ/g).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-01-n01",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 1,
+    "q": "A thin ring of mass 2 kg and radius 0.5 m rotates about an axis through its centre, perpendicular to its plane. Find its moment of inertia in kg m². Give your answer to 2 decimal places.",
+    "ans": 0.5,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "I = MR² = 2 × 0.5² = 0.5 kg m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n02",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A uniform disc of mass 4 kg and radius 0.3 m spins at 20 rad/s about its axis (through the centre, perpendicular to its plane). Find its rotational kinetic energy in joules. Give your answer to 1 decimal place.",
+    "ans": 36.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "I = ½MR² = ½ × 4 × 0.09 = 0.18 kg m². KE = ½Iω² = ½ × 0.18 × 400 = 36 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n03",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A constant torque of 12 N m acts on a flywheel of moment of inertia 3 kg m², starting from rest. Find its angular velocity after 5 s, in rad/s. Give your answer to 1 decimal place.",
+    "ans": 20.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "α = τ/I = 12/3 = 4 rad/s². ω = αt = 4 × 5 = 20 rad/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n04",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A skater has moment of inertia 4 kg m² and spins at 2 rad/s. She pulls in her arms so that her moment of inertia becomes 1.6 kg m². Find her new angular velocity in rad/s. Give your answer to 1 decimal place.",
+    "ans": 5.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "No external torque, so I₁ω₁ = I₂ω₂. ω₂ = 4 × 2 / 1.6 = 5 rad/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n05",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A uniform rod of mass 3 kg and length 1.2 m is rotated about an axis through one end, perpendicular to the rod. Find its moment of inertia in kg m². Give your answer to 2 decimal places.",
+    "ans": 1.44,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Parallel axis theorem: I = ML²/12 + M(L/2)² = ML²/3 = 3 × 1.44 / 3 = 1.44 kg m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n06",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "A uniform disc of mass 2 kg and radius 0.2 m rotates about an axis through a point on its rim, perpendicular to its plane. Find its moment of inertia in kg m². Give your answer to 2 decimal places.",
+    "ans": 0.12,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Parallel axis theorem with d = R: I = ½MR² + MR² = (3/2)MR² = 1.5 × 2 × 0.04 = 0.12 kg m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n07",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "A solid sphere rolls without slipping down a rough incline of angle 30°. Take g = 10 m/s². Find the acceleration of its centre in m/s². Give your answer to 2 decimal places.",
+    "ans": 3.57,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "a = g sinθ / (1 + k²/R²) with k²/R² = 2/5, so a = (5/7) g sinθ = (5/7) × 10 × 0.5 = 3.57 m/s².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n08",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A motor delivers a steady torque of 50 N m while turning at 120 revolutions per minute. Find the power in watts. Give your answer to 1 decimal place.",
+    "ans": 628.3,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ω = 2π × 120/60 = 4π rad/s = 12.566 rad/s. P = τω = 50 × 12.566 = 628.3 W.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n09",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A car moves at 20 m/s on a frictionless banked circular road of radius 40 m, taking g = 10 m/s². Find the banking angle in degrees for which this is the safe speed. Give your answer as a whole number.",
+    "ans": 45.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "tanθ = v²/(rg) = 400/(40 × 10) = 1, so θ = 45°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-01-n10",
+    "ch": "phy-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A stone on a light string of length 0.9 m moves in a vertical circle. Taking g = 10 m/s², find the minimum speed at the lowest point for it to complete the circle, in m/s. Give your answer to 2 decimal places.",
+    "ans": 6.71,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Minimum speed at the top: v² = gr. Energy conservation: v_bottom² = gr + 4gr = 5gr = 5 × 10 × 0.9 = 45, so v = 6.71 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-m01",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The pressure at a depth h below the free surface of a liquid of density ρ, open to the atmosphere at pressure P₀, is:",
+    "options": [
+      "ρgh only, whatever the atmosphere",
+      "P₀ − ρgh",
+      "P₀ + ρgh",
+      "P₀ + ρh/g"
+    ],
+    "ans": 2,
+    "solution": "Each extra metre of liquid adds the weight of a column, ρgh, to the surface pressure P₀. The part ρgh alone is the gauge pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m02",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Pascal's law states that a pressure change applied to an enclosed incompressible fluid at rest is:",
+    "options": [
+      "felt only at the walls of the container",
+      "transmitted undiminished to every part of the fluid and to the walls",
+      "reduced with the distance from the point of application",
+      "felt only in the direction of the applied force"
+    ],
+    "ans": 1,
+    "solution": "The pressure rise is the same everywhere in the fluid. This is why a small force on a small piston can lift a large load on a large piston.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m03",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The buoyant force on a body fully or partly immersed in a fluid equals:",
+    "options": [
+      "the weight of the body",
+      "the density of the fluid",
+      "the weight of the fluid in the container",
+      "the weight of the fluid it displaces"
+    ],
+    "ans": 3,
+    "solution": "This is Archimedes' principle. The force acts upwards through the centre of buoyancy, the centre of mass of the displaced fluid.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m04",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A solid body floats in a liquid when:",
+    "options": [
+      "the weight of the liquid it displaces equals its own weight",
+      "the liquid is at rest and the body is hollow",
+      "its density is greater than that of the liquid",
+      "the upthrust is greater than the weight of the whole body"
+    ],
+    "ans": 0,
+    "solution": "At equilibrium the buoyant force equals the weight. For a uniform body that happens only when its density is less than the liquid's, or equal to it for complete immersion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m05",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For steady flow of an incompressible liquid in a pipe whose cross-section changes from A₁ to A₂, the speeds v₁ and v₂ satisfy:",
+    "options": [
+      "A₁v₂ = A₂v₁",
+      "A₁v₁ = A₂v₂",
+      "A₁/v₁ = A₂/v₂",
+      "A₁ + v₁ = A₂ + v₂"
+    ],
+    "ans": 1,
+    "solution": "This is the equation of continuity: the volume of liquid passing each cross-section per second is the same, so the speed is larger where the pipe is narrower.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m06",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Bernoulli's equation for steady, incompressible, non-viscous flow states that along a streamline:",
+    "options": [
+      "P + ρv + ρgh is constant",
+      "P − ½ρv² + ρgh is constant",
+      "P + ½ρv² − ρgh is constant",
+      "P + ½ρv² + ρgh is constant"
+    ],
+    "ans": 3,
+    "solution": "It is the work–energy theorem for a moving fluid: pressure energy, kinetic energy and potential energy per unit volume add up to a constant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m07",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Water flows steadily through a horizontal pipe that narrows. In the narrow part:",
+    "options": [
+      "the speed is lower and the pressure is higher",
+      "the speed and the pressure are both unchanged",
+      "the speed is higher and the pressure is lower",
+      "the speed is higher and the pressure is higher"
+    ],
+    "ans": 2,
+    "solution": "Continuity makes the speed larger in the narrow part. With no height change, Bernoulli's equation then gives a lower pressure there.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m08",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of the coefficient of viscosity η is:",
+    "options": [
+      "pascal second (Pa s)",
+      "newton per metre (N/m)",
+      "pascal per second (Pa/s)",
+      "newton second per second"
+    ],
+    "ans": 0,
+    "solution": "From F = ηA(dv/dx), η = F·dx/(A·dv), with unit N s/m² = Pa s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m09",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The viscous drag on a small sphere of radius r moving at speed v through a fluid of viscosity η, according to Stokes' law, is:",
+    "options": [
+      "6πηrv",
+      "4πηrv",
+      "6πηr²v",
+      "πηrv²"
+    ],
+    "ans": 0,
+    "solution": "Stokes' law: F = 6πηrv, valid for slow, smooth (laminar) flow around the sphere.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m10",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two identical spheres, except that the radius of the second is double that of the first, fall in the same viscous liquid and reach terminal velocity. The ratio of the terminal speeds (second : first) is:",
+    "options": [
+      "8 : 1",
+      "2 : 1",
+      "1 : 2",
+      "4 : 1"
+    ],
+    "ans": 3,
+    "solution": "v_t = 2r²(ρ − σ)g/(9η) is proportional to r². Doubling r gives four times the speed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m11",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A sphere falling through a viscous liquid reaches terminal velocity when:",
+    "options": [
+      "the upthrust is greater than the weight",
+      "the speed becomes zero",
+      "weight = upthrust + viscous drag, so the net force is zero",
+      "the viscous drag is zero"
+    ],
+    "ans": 2,
+    "solution": "As the speed grows, the drag grows until the three forces balance. The acceleration is then zero and the speed stays constant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m12",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of surface tension is:",
+    "options": [
+      "joule per second (J/s)",
+      "newton per metre (N/m)",
+      "newton per square metre (N/m²)",
+      "newton metre (N m)"
+    ],
+    "ans": 1,
+    "solution": "Surface tension is force per unit length acting along a line on the surface. It is also the energy per unit area, in J/m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m13",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The excess pressure inside a soap bubble of radius R and surface tension T (the film has two surfaces) is:",
+    "options": [
+      "T/R",
+      "4T/R",
+      "2T/R",
+      "8T/R"
+    ],
+    "ans": 1,
+    "solution": "A single surface gives 2T/R, as for a liquid drop. A soap film has an inner and an outer surface, so the excess pressure doubles to 4T/R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m14",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The excess pressure inside a liquid drop of radius R and surface tension T is:",
+    "options": [
+      "2T/R",
+      "4T/R",
+      "2TR",
+      "T/(2R)"
+    ],
+    "ans": 0,
+    "solution": "A drop has one free surface, so P_in − P_out = 2T/R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m15",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Water rises in a thin glass capillary tube, but mercury is depressed in it. The reason is that:",
+    "options": [
+      "water is more viscous than mercury",
+      "water has a higher density than mercury",
+      "mercury has a smaller surface tension than water",
+      "the angle of contact is acute for water and obtuse for mercury"
+    ],
+    "ans": 3,
+    "solution": "With an acute contact angle the meniscus curves upwards and the liquid is pulled up. With an obtuse angle the meniscus curves downwards and the liquid is pushed down.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m16",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The height of capillary rise in a tube of radius r is h = 2T cosθ/(ρgr). If a second tube has twice the radius, the rise in it is:",
+    "options": [
+      "the same",
+      "twice as much",
+      "half as much",
+      "four times as much"
+    ],
+    "ans": 2,
+    "solution": "h is inversely proportional to r, so a tube twice as wide gives half the rise.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m17",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Reynolds number of a flow of a liquid of density ρ and viscosity η, with speed v through a pipe of diameter D, is:",
+    "options": [
+      "ηvD/ρ",
+      "ρv/(ηD)",
+      "ρvD/η",
+      "ρD/(ηv)"
+    ],
+    "ans": 2,
+    "solution": "Re = ρvD/η. Low values (below about 2000 in a pipe) mean smooth laminar flow, and high values mean turbulence.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m18",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "As the temperature rises, the viscosity of a liquid and the viscosity of a gas change as follows:",
+    "options": [
+      "the liquid's decreases and the gas's increases",
+      "the liquid's increases and the gas's decreases",
+      "both decrease",
+      "both increase"
+    ],
+    "ans": 0,
+    "solution": "In liquids, molecules slip past each other more easily when warm. In gases, faster molecules exchange more momentum between layers, so the viscosity grows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m19",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Torricelli's theorem gives the speed of efflux of a liquid from a small hole at depth h below the free surface of a wide open tank as:",
+    "options": [
+      "gh",
+      "√(gh)",
+      "2√(gh)",
+      "√(2gh)"
+    ],
+    "ans": 3,
+    "solution": "Bernoulli's equation between the surface (speed about zero) and the hole gives ½v² = gh. This is the speed of a body freely falling through height h.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m20",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a hydraulic lift the small piston has area A₁ and the large one has area A₂. A force F₁ on the small piston gives a force on the large piston of:",
+    "options": [
+      "F₁(A₂ − A₁)",
+      "F₁A₂/A₁",
+      "F₁",
+      "F₁A₁/A₂"
+    ],
+    "ans": 1,
+    "solution": "The pressure is the same: F₁/A₁ = F₂/A₂. The force is multiplied by A₂/A₁, while the small piston moves by the same factor further.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m21",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The lift on an aircraft wing arises mainly because, in the air flow past the wing:",
+    "options": [
+      "the air above is faster and at higher pressure than the air below",
+      "the pressure above and below is equal but the density differs",
+      "the air above is faster and at lower pressure than the air below",
+      "the air above is slower and at lower pressure than the air below"
+    ],
+    "ans": 2,
+    "solution": "The wing shape makes the air above move faster. Bernoulli's equation then gives a lower pressure on top, so the net pressure force on the wing points upwards.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m22",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Ice of density 900 kg/m³ floats in water of density 1000 kg/m³. The fraction of its volume below the water surface is:",
+    "options": [
+      "81%",
+      "90%",
+      "10%",
+      "100%"
+    ],
+    "ans": 1,
+    "solution": "Weight = upthrust gives ρ_ice V g = ρ_water V_sub g, so V_sub/V = 900/1000 = 0.9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m23",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work done in increasing the area of a liquid surface by ΔA, at constant temperature, is:",
+    "options": [
+      "TΔA",
+      "ΔA/T",
+      "T/ΔA",
+      "TΔA²"
+    ],
+    "ans": 0,
+    "solution": "Surface tension is also surface energy per unit area, so the work stored is T times the extra area.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m24",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A soap bubble's radius is doubled by blowing more air in slowly. Compared with before, the excess pressure inside it:",
+    "options": [
+      "stays the same",
+      "becomes double",
+      "becomes four times",
+      "becomes half"
+    ],
+    "ans": 3,
+    "solution": "ΔP = 4T/R. With the same film (same T) and R doubled, ΔP is halved.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m25",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Eight identical small liquid drops, each of radius r, merge into one big drop. The radius of the big drop is:",
+    "options": [
+      "2r",
+      "r√2",
+      "8r",
+      "4r"
+    ],
+    "ans": 0,
+    "solution": "The volume is conserved: (4/3)πR³ = 8 × (4/3)πr³, so R³ = 8r³ and R = 2r.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m26",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The weight of a body, when it is fully immersed in a liquid, appears to be:",
+    "options": [
+      "equal to its true weight",
+      "less than its true weight by the buoyant force",
+      "more than its true weight by the buoyant force",
+      "equal to the buoyant force alone"
+    ],
+    "ans": 1,
+    "solution": "Apparent weight = true weight − upthrust. The scale reading drops by the weight of the displaced liquid.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m27",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Pressure is a:",
+    "options": [
+      "vector quantity, directed upwards in liquids",
+      "vector quantity, directed along the force",
+      "scalar quantity, because it has no direction of its own",
+      "tensor quantity with six independent components in a fluid at rest"
+    ],
+    "ans": 2,
+    "solution": "At a point inside a fluid at rest, the pressure is the same in all directions, so it is a scalar. The force it produces on a surface is a vector perpendicular to that surface.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-m28",
+    "ch": "phy-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Detergent added to water reduces its surface tension. This helps in washing because:",
+    "options": [
+      "the density of the water falls when the detergent is added",
+      "the boiling point of the water falls a great deal",
+      "the water becomes more viscous and flows slowly",
+      "the water can wet the fabric and enter small pores more easily"
+    ],
+    "ans": 3,
+    "solution": "A lower surface tension makes the liquid spread and penetrate small spaces, which lifts the dirt from them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-02-n01",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the gauge pressure at a depth of 20 m in fresh water (ρ = 1000 kg/m³, g = 10 m/s²), in kPa. Give your answer to 1 decimal place.",
+    "ans": 200.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P = ρgh = 1000 × 10 × 20 = 2 × 10⁵ Pa = 200 kPa (gauge, that is, without the atmosphere).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n02",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "In a hydraulic press the small piston has area 0.005 m² and the large piston has area 0.2 m². A force of 100 N acts on the small piston. Find the force on the large piston in newtons. Give your answer as a whole number.",
+    "ans": 4000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Pressure is transmitted equally: F₂ = F₁(A₂/A₁) = 100 × 0.2/0.005 = 4000 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n03",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 1,
+    "q": "A solid of volume 0.002 m³ is fully immersed in water (ρ = 1000 kg/m³, g = 10 m/s²). Find the buoyant force on it in newtons. Give your answer to 1 decimal place.",
+    "ans": 20.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Buoyant force = weight of the water displaced = ρVg = 1000 × 0.002 × 10 = 20 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n04",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Water flows at 2 m/s through a pipe of diameter 4 cm that narrows to a diameter of 2 cm. Find the speed in the narrow part in m/s. Give your answer to 1 decimal place.",
+    "ans": 8.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "A₁v₁ = A₂v₂ and A ∝ d², so v₂ = 2 × (4/2)² = 8 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n05",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "A wide open tank has a small hole 5 m below the water surface. Taking g = 10 m/s², find the speed at which water leaves the hole, in m/s. Give your answer to 1 decimal place.",
+    "ans": 10.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Torricelli: v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n06",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "A small sphere of radius 1.0 mm and density 2500 kg/m³ falls through a liquid of density 1000 kg/m³ and viscosity 0.1 Pa s. Taking g = 10 m/s², find its terminal speed in m/s. Give your answer to 3 decimal places.",
+    "ans": 0.033,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "At terminal speed, weight − upthrust = Stokes drag: (4/3)πr³(ρ − σ)g = 6πηrv. So v = 2r²(ρ − σ)g/(9η) = 2 × 10⁻⁶ × 1500 × 10 / 0.9 = 0.0333 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n07",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Water of surface tension 0.072 N/m rises in a clean glass capillary of radius 0.5 mm (angle of contact 0°, ρ = 1000 kg/m³, g = 10 m/s²). Find the height of rise in millimetres. Give your answer to 1 decimal place.",
+    "ans": 28.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "h = 2T cosθ/(ρgr) = 2 × 0.072/(1000 × 10 × 0.0005) = 0.0288 m = 28.8 mm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n08",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "A soap bubble of radius 1 cm is made from a film of surface tension 0.03 N/m. Find the excess pressure inside it in pascals. Give your answer to 1 decimal place.",
+    "ans": 12.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The film has two surfaces: ΔP = 4T/R = 4 × 0.03/0.01 = 12 Pa.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n09",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the work done, in microjoules, in blowing a soap bubble of radius 2 cm out of a solution of surface tension 0.03 N/m. (The film has two surfaces.) Give your answer to 1 decimal place.",
+    "ans": 301.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Increase in area = 2 × 4πR². W = TΔA = 0.03 × 8π × (0.02)² = 3.016 × 10⁻⁴ J = 301.6 μJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-02-n10",
+    "ch": "phy-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Water (ρ = 1000 kg/m³, viscosity 1.0 × 10⁻³ Pa s) flows at 0.5 m/s through a pipe of diameter 2 cm. Find the Reynolds number. Give your answer as a whole number.",
+    "ans": 10000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Re = ρvD/η = 1000 × 0.5 × 0.02 / 0.001 = 10000, so the flow is turbulent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-m01",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The equation of state of n moles of an ideal gas is:",
+    "options": [
+      "PV = nR/T",
+      "PV = nRT",
+      "P/V = nRT",
+      "PT = nRV"
+    ],
+    "ans": 1,
+    "solution": "PV = nRT combines Boyle's, Charles's and Avogadro's laws. R = 8.314 J/(mol K) is the universal gas constant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m02",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to kinetic theory, the pressure of an ideal gas of density ρ whose molecules have root-mean-square speed v_rms is:",
+    "options": [
+      "½ρv_rms²",
+      "⅓ρv_rms",
+      "ρv_rms²",
+      "⅓ρv_rms²"
+    ],
+    "ans": 3,
+    "solution": "Counting the momentum given to the walls by random molecular motion in three directions gives P = ⅓ρ⟨v²⟩.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m03",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The average translational kinetic energy of a molecule of an ideal gas at absolute temperature T is:",
+    "options": [
+      "(3/2)kT",
+      "(1/2)kT",
+      "3kT",
+      "(3/2)RT"
+    ],
+    "ans": 0,
+    "solution": "Each of the three translational degrees of freedom gets ½kT. The expression (3/2)RT is the energy of one mole, not of one molecule.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m04",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The absolute temperature of an ideal gas is made four times larger. The rms speed of its molecules becomes:",
+    "options": [
+      "four times as large",
+      "sixteen times as large",
+      "twice as large",
+      "half as large"
+    ],
+    "ans": 2,
+    "solution": "v_rms = √(3kT/m) is proportional to √T, and √4 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m05",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Hydrogen (molar mass 2 g/mol) and oxygen (32 g/mol) gases are at the same temperature. The ratio of the rms speed of hydrogen molecules to that of oxygen molecules is:",
+    "options": [
+      "2 : 1",
+      "4 : 1",
+      "1 : 4",
+      "16 : 1"
+    ],
+    "ans": 1,
+    "solution": "v_rms is proportional to 1/√M. The ratio is √(32/2) = √16 = 4, so the lighter gas moves four times faster on average.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m06",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A rigid diatomic molecule, at moderate temperatures, has how many degrees of freedom, and how many for a monatomic molecule?",
+    "options": [
+      "7 for diatomic and 5 for monatomic",
+      "3 for diatomic and 5 for monatomic",
+      "6 for diatomic and 3 for monatomic",
+      "5 for diatomic and 3 for monatomic"
+    ],
+    "ans": 3,
+    "solution": "A monatomic molecule can only translate in 3 directions. A rigid diatomic molecule adds 2 rotations (about axes perpendicular to the bond), giving 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m07",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The law of equipartition of energy states that, for a gas in thermal equilibrium at temperature T, each degree of freedom has an average energy of:",
+    "options": [
+      "(3/2)kT per molecule",
+      "kT per molecule",
+      "(1/2)kT per molecule",
+      "(1/2)RT per molecule"
+    ],
+    "ans": 2,
+    "solution": "Each independent quadratic term in the energy gets ½kT per molecule, which is ½RT per mole.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m08",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For an ideal gas the molar heat capacities at constant pressure and at constant volume are related by:",
+    "options": [
+      "C_p − C_v = R",
+      "C_p/C_v = R",
+      "C_p + C_v = R",
+      "C_p − C_v = R/2"
+    ],
+    "ans": 0,
+    "solution": "At constant pressure the gas does extra work on expansion, RΔT per mole, so C_p exceeds C_v by exactly R (Mayer's relation).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m09",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The ratio γ = C_p/C_v for a monatomic ideal gas and for a rigid diatomic ideal gas, in that order, is:",
+    "options": [
+      "5/3 and 7/5",
+      "3/2 and 7/5",
+      "4/3 and 5/3",
+      "7/5 and 5/3"
+    ],
+    "ans": 0,
+    "solution": "γ = 1 + 2/f, with f = 3 giving 5/3 and f = 5 giving 7/5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m10",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The internal energy of a given mass of an ideal gas depends only on:",
+    "options": [
+      "its volume",
+      "its pressure and its volume together, independent of its temperature",
+      "its temperature",
+      "its pressure"
+    ],
+    "ans": 2,
+    "solution": "There are no forces between the molecules of an ideal gas, so the internal energy is the kinetic energy alone, which is fixed by T.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m11",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Boyle's law states that, for a fixed mass of gas at constant temperature:",
+    "options": [
+      "the pressure is directly proportional to the volume",
+      "the pressure is inversely proportional to the volume",
+      "the volume is directly proportional to the temperature",
+      "the pressure is independent of the volume"
+    ],
+    "ans": 1,
+    "solution": "PV = constant. Halving the volume doubles the pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m12",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Charles's law states that, for a fixed mass of gas at constant pressure:",
+    "options": [
+      "the volume is proportional to the temperature in °C",
+      "the pressure is proportional to the volume",
+      "the volume is inversely proportional to the absolute temperature",
+      "the volume is proportional to the absolute temperature"
+    ],
+    "ans": 3,
+    "solution": "V/T = constant, with T in kelvin. It does not apply to a Celsius scale because volume does not go to zero at 0 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m13",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Absolute zero, 0 K, is equal to:",
+    "options": [
+      "−373.15 °C",
+      "−100 °C",
+      "−273.15 °C",
+      "0 °C"
+    ],
+    "ans": 2,
+    "solution": "T(K) = t(°C) + 273.15, so 0 K is −273.15 °C, where ideal-gas pressure and volume would extrapolate to zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m14",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The mean free path of the molecules of a gas, when the gas is pumped out so that the number of molecules per unit volume falls:",
+    "options": [
+      "becomes zero",
+      "increases",
+      "decreases",
+      "stays the same"
+    ],
+    "ans": 1,
+    "solution": "λ = 1/(√2πd²n) is inversely proportional to n. With fewer molecules in each cubic metre, a molecule travels farther between collisions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m15",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Avogadro's law says that equal volumes of all ideal gases, at the same temperature and pressure, contain:",
+    "options": [
+      "molecules with the same speed",
+      "the same mass of gas",
+      "the same number of atoms",
+      "the same number of molecules"
+    ],
+    "ans": 3,
+    "solution": "From PV = NkT, N depends only on P, V and T, and not on the gas.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m16",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The temperature of a fixed mass of gas in a rigid container is doubled (in kelvin). The pressure of the gas becomes:",
+    "options": [
+      "twice as large",
+      "half as large",
+      "unchanged",
+      "four times as large"
+    ],
+    "ans": 0,
+    "solution": "At constant volume, P/T = constant, so doubling T doubles P (Gay-Lussac's law).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m17",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two different ideal gases are at the same temperature. Their molecules have:",
+    "options": [
+      "different average kinetic energies, in proportion to the mass",
+      "the same average speed, but not the same kinetic energy",
+      "the same average translational kinetic energy, but not the same average speed",
+      "the same average speed and the same kinetic energy"
+    ],
+    "ans": 2,
+    "solution": "The average kinetic energy is (3/2)kT for every ideal gas. The lighter molecules therefore move faster.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m18",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The pressure that a gas exerts on the walls of its container is due to:",
+    "options": [
+      "the attraction of the walls for the molecules",
+      "the weight of the gas",
+      "the repulsion between its molecules",
+      "the collisions of its molecules with the walls"
+    ],
+    "ans": 3,
+    "solution": "Each collision changes the molecule's momentum, and the average force of the vast number of collisions per second is the pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m19",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A real gas behaves most nearly like an ideal gas at:",
+    "options": [
+      "high temperature and high pressure",
+      "high temperature and low pressure",
+      "low temperature and low pressure",
+      "low temperature and high pressure"
+    ],
+    "ans": 1,
+    "solution": "At low pressure the molecules are far apart and the forces between them matter less. At high temperature their fast motion beats the weak attractions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m20",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A black body is one that:",
+    "options": [
+      "absorbs all the radiation that falls on it",
+      "reflects all the radiation that falls on it",
+      "absorbs only visible light",
+      "emits radiation only in black colour"
+    ],
+    "ans": 0,
+    "solution": "A perfect black body has absorptivity 1 at all wavelengths. It is also the best possible emitter at every temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m21",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The temperature of a black body is doubled (in kelvin). The total power it radiates becomes:",
+    "options": [
+      "4 times as large",
+      "2 times as large",
+      "8 times as large",
+      "16 times as large"
+    ],
+    "ans": 3,
+    "solution": "Stefan's law: E = σT⁴. Doubling T gives 2⁴ = 16 times the power.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m22",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "As the temperature of a black body rises, the wavelength at which it emits most strongly:",
+    "options": [
+      "becomes longer",
+      "becomes zero at a finite temperature",
+      "becomes shorter",
+      "stays the same"
+    ],
+    "ans": 2,
+    "solution": "Wien's displacement law: λ_m T = constant, so a hotter body peaks at a shorter wavelength.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m23",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Kirchhoff's law of heat radiation states that, at a given temperature and wavelength:",
+    "options": [
+      "a good absorber is also a good emitter",
+      "a good absorber is a poor emitter",
+      "reflectivity is equal to emissivity",
+      "emission does not depend on absorption"
+    ],
+    "ans": 0,
+    "solution": "The ratio of emissive power to absorptive power is the same for all bodies at one temperature, and equals the emissive power of a black body.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m24",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Newton's law of cooling states that, for a small temperature difference, the rate at which a body loses heat is proportional to:",
+    "options": [
+      "the fourth power of the absolute temperature of the body alone",
+      "the difference between the temperature of the body and that of its surroundings",
+      "the mass of the surroundings that the body is placed in",
+      "the temperature of the body alone, whatever its surroundings"
+    ],
+    "ans": 1,
+    "solution": "dT/dt = −k(T − Tₛ). As the body cools, the rate of cooling falls.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m25",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of these modes of heat transfer does not need a material medium?",
+    "options": [
+      "convection",
+      "conduction",
+      "radiation",
+      "conduction and convection together"
+    ],
+    "ans": 2,
+    "solution": "Radiation is carried by electromagnetic waves, which travel through vacuum. The Sun's heat reaches the Earth in this way.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m26",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For heat radiation, which surface is both the better absorber and the better emitter?",
+    "options": [
+      "a polished surface of gold",
+      "a dull black surface",
+      "a polished silver surface",
+      "a white painted surface"
+    ],
+    "ans": 1,
+    "solution": "Dull black surfaces absorb most of the radiation that falls on them. By Kirchhoff's law, they also emit well, whereas polished metal is a poor absorber and a poor emitter.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-m27",
+    "ch": "phy-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of these is the largest for a gas of identical molecules at a given temperature?",
+    "options": [
+      "the root-mean-square speed",
+      "the average speed",
+      "they are all equal",
+      "the most probable speed"
+    ],
+    "ans": 0,
+    "solution": "v_mp < v_avg < v_rms, with v_mp = √(2kT/m), v_avg = √(8kT/πm) and v_rms = √(3kT/m).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-03-n01",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Two moles of an ideal gas occupy 0.05 m³ at 300 K. Taking R = 8.314 J/(mol K), find the pressure in kPa. Give your answer to 1 decimal place.",
+    "ans": 99.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P = nRT/V = 2 × 8.314 × 300/0.05 = 99768 Pa = 99.8 kPa.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n02",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the rms speed of oxygen molecules (molar mass 32 g/mol) at 300 K, taking R = 8.314 J/(mol K), in m/s. Give your answer as a whole number.",
+    "ans": 484.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v_rms = √(3RT/M) = √(3 × 8.314 × 300/0.032) = √(2.338 × 10⁵) = 484 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n03",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the average translational kinetic energy of a gas molecule at 300 K, in units of 10⁻²¹ J (k = 1.38 × 10⁻²³ J/K). Give your answer to 2 decimal places.",
+    "ans": 6.21,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "KE = (3/2)kT = 1.5 × 1.38 × 10⁻²³ × 300 = 6.21 × 10⁻²¹ J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n04",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "The rms speed of the molecules of a gas at 300 K is doubled by heating it. Find the new temperature in kelvin. Give your answer as a whole number.",
+    "ans": 1200.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v_rms is proportional to √T, so T is proportional to v². T₂ = 300 × 2² = 1200 K.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n05",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "A gas of density 1.2 kg/m³ has molecules with an rms speed of 500 m/s. Using kinetic theory, find its pressure in kPa. Give your answer to 1 decimal place.",
+    "ans": 100.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P = (1/3)ρv² = (1/3) × 1.2 × 500² = 1.0 × 10⁵ Pa = 100 kPa.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n06",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the internal energy, in joules, of 2 moles of a monatomic ideal gas at 300 K (R = 8.314 J/(mol K)). Give your answer to 1 decimal place.",
+    "ans": 7482.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "U = (3/2)nRT = 1.5 × 2 × 8.314 × 300 = 7482.6 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n07",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the molar heat capacity at constant pressure, C_p, of a rigid diatomic ideal gas, in J/(mol K) (R = 8.314 J/(mol K)). Give your answer to 2 decimal places.",
+    "ans": 29.1,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "C_v = (5/2)R for five degrees of freedom, and C_p = C_v + R = (7/2)R = 29.10 J/(mol K).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n08",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A black body with a surface area of 0.5 m² is at 1000 K. Taking σ = 5.67 × 10⁻⁸ W/(m² K⁴), find the power it radiates in watts. Give your answer as a whole number.",
+    "ans": 28350.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P = σAT⁴ = 5.67 × 10⁻⁸ × 0.5 × 10¹² = 28350 W.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n09",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "The surface of the Sun is at about 5800 K. Using Wien's constant 2.898 × 10⁻³ m K, find the wavelength of peak emission in nanometres. Give your answer to 1 decimal place.",
+    "ans": 499.7,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "λ_m = b/T = 2.898 × 10⁻³/5800 = 4.997 × 10⁻⁷ m = 499.7 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-03-n10",
+    "ch": "phy-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "The temperature of a black body is raised from 300 K to 600 K. By what factor does the power it radiates increase? Give your answer as a whole number.",
+    "ans": 16.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P is proportional to T⁴, so the factor is (600/300)⁴ = 2⁴ = 16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-m01",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A particle is in simple harmonic motion when its acceleration is:",
+    "options": [
+      "proportional to its speed and directed along the velocity",
+      "constant in size and directed towards the mean position",
+      "proportional to its displacement and directed away from the mean position",
+      "proportional to its displacement from the mean position and directed towards it"
+    ],
+    "ans": 3,
+    "solution": "The defining relation is a = −ω²x. The minus sign means the acceleration always points back to the mean position.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m02",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of these is a possible equation of simple harmonic motion?",
+    "options": [
+      "x = A e^(ωt)",
+      "x = Aωt",
+      "x = A sin(ωt + φ)",
+      "x = A sin(ωt²)"
+    ],
+    "ans": 2,
+    "solution": "A sine or cosine of a term linear in time satisfies a = −ω²x. The other forms give uniform motion, a chirp, or exponential growth.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m03",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The time period T and the angular frequency ω of a simple harmonic motion are related by:",
+    "options": [
+      "T = ω/2π",
+      "T = 2π/ω",
+      "T = ω²/2π",
+      "T = 2πω"
+    ],
+    "ans": 1,
+    "solution": "In one period the phase ωt advances by 2π, so T = 2π/ω, and the frequency is f = 1/T = ω/2π.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m04",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The maximum speed of a particle in simple harmonic motion of amplitude A and angular frequency ω is:",
+    "options": [
+      "Aω, at the mean position",
+      "Aω², at the mean position",
+      "Aω, at the extreme position",
+      "A/ω, at the extreme position"
+    ],
+    "ans": 0,
+    "solution": "From v = ω√(A² − x²), the speed is largest when x = 0, and then v = Aω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m05",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The maximum acceleration of a particle in simple harmonic motion of amplitude A and angular frequency ω is:",
+    "options": [
+      "Aω², at the extreme positions",
+      "Aω, at the extreme positions",
+      "Aω, at the mean position",
+      "Aω², at the mean position"
+    ],
+    "ans": 0,
+    "solution": "a = −ω²x is largest in size when |x| = A. At the mean position the acceleration is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m06",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A particle in simple harmonic motion has amplitude A and angular frequency ω. Its speed when its displacement is A/2 is:",
+    "options": [
+      "(3/4) Aω",
+      "Aω/2",
+      "(√3/2) Aω",
+      "Aω/√2"
+    ],
+    "ans": 2,
+    "solution": "v = ω√(A² − A²/4) = ωA√(3/4) = (√3/2)Aω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m07",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The total mechanical energy of a particle of mass m in simple harmonic motion of amplitude A and angular frequency ω is:",
+    "options": [
+      "½mω²x², depending on the position x",
+      "mω²A², the same at every position",
+      "½mωA², the same at every position",
+      "½mω²A², the same at every position"
+    ],
+    "ans": 3,
+    "solution": "At an extreme position all the energy is potential, ½kA² with k = mω². At every other position the kinetic and potential parts add up to the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m08",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "At the mean position of a simple harmonic oscillator:",
+    "options": [
+      "both kinetic and potential energy are maximum",
+      "the kinetic energy is maximum and the potential energy is minimum",
+      "the kinetic energy is zero and the potential energy is maximum",
+      "both kinetic and potential energy are zero"
+    ],
+    "ans": 1,
+    "solution": "At x = 0 the speed is greatest and the restoring force energy ½kx² is zero. The total energy is then all kinetic.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m09",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In simple harmonic motion of amplitude A, the kinetic energy equals the potential energy when the displacement is:",
+    "options": [
+      "zero",
+      "±A/√2",
+      "±A/√3",
+      "±A/2"
+    ],
+    "ans": 1,
+    "solution": "½k(A² − x²) = ½kx² gives x² = A²/2, so x = ±A/√2, about 0.707A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m10",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A mass m attached to a spring of force constant k oscillates with time period:",
+    "options": [
+      "2π√(m/k)",
+      "2π√(mk)",
+      "√(m/k)/2π",
+      "2π√(k/m)"
+    ],
+    "ans": 0,
+    "solution": "The restoring force −kx gives ω² = k/m, and T = 2π/ω = 2π√(m/k).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m11",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The mass on a spring is made four times larger, with the same spring. The time period becomes:",
+    "options": [
+      "unchanged",
+      "half as long",
+      "twice as long",
+      "four times as long"
+    ],
+    "ans": 2,
+    "solution": "T is proportional to √m, and √4 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m12",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A simple pendulum of length L in a place where the acceleration due to gravity is g has a time period (for small swings):",
+    "options": [
+      "2π√(Lg)",
+      "√(L/g)/2π",
+      "2π√(g/L)",
+      "2π√(L/g)"
+    ],
+    "ans": 3,
+    "solution": "The restoring force is about mgθ and θ = x/L, so ω² = g/L and T = 2π√(L/g). The mass and the amplitude (when small) do not appear.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m13",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The length of a simple pendulum is made four times larger. Its time period becomes:",
+    "options": [
+      "four times as long",
+      "twice as long",
+      "sixteen times as long",
+      "half as long"
+    ],
+    "ans": 1,
+    "solution": "T is proportional to √L, so four times the length gives twice the period.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m14",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A second's pendulum has a time period of 2 s. At a place where g = 9.8 m/s², its length is close to:",
+    "options": [
+      "2 m",
+      "4 m",
+      "0.25 m",
+      "1 m"
+    ],
+    "ans": 3,
+    "solution": "L = gT²/(4π²) = 9.8 × 4/39.5 = 0.993 m, close to 1 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m15",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A simple pendulum hangs in a lift that is accelerating upwards. Compared with its period in a lift at rest, the period is:",
+    "options": [
+      "shorter, because the effective gravity is larger",
+      "longer, because the effective gravity is larger",
+      "longer, because the effective gravity is smaller",
+      "the same, because the mass is unchanged"
+    ],
+    "ans": 0,
+    "solution": "In the lift's frame, g becomes g + a. Since T = 2π√(L/g_eff), a larger g_eff means a shorter period.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m16",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A pendulum clock that keeps correct time on Earth is taken to the Moon, where g is smaller. On the Moon it will:",
+    "options": [
+      "run fast, because the period of the pendulum is longer",
+      "keep correct time, because the mass is unchanged",
+      "run slow, because the period of the pendulum is longer",
+      "run fast, because the period of the pendulum is shorter"
+    ],
+    "ans": 2,
+    "solution": "T = 2π√(L/g) grows when g falls. Each swing takes longer, so fewer swings are counted per hour.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m17",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A mass m is hung from two identical springs, each of force constant k, joined side by side (in parallel). Compared with the period with one spring, the period of oscillation is:",
+    "options": [
+      "twice as long",
+      "√2 times as long",
+      "half as long",
+      "1/√2 times as long"
+    ],
+    "ans": 3,
+    "solution": "Parallel springs add: k_eff = 2k. T = 2π√(m/2k) = T₁/√2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m18",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a damped oscillation, the amplitude of the oscillation:",
+    "options": [
+      "increases with time",
+      "decreases with time, as energy is lost to the surroundings",
+      "stays constant",
+      "first stays constant and then suddenly becomes zero"
+    ],
+    "ans": 1,
+    "solution": "A resistive force does negative work on the oscillator, so its energy and its amplitude decay, often exponentially.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m19",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Resonance occurs in a forced oscillation when:",
+    "options": [
+      "the driving frequency equals the natural frequency of the system",
+      "the driving force is the largest possible",
+      "the driving frequency is twice the natural frequency",
+      "the damping is the largest possible"
+    ],
+    "ans": 0,
+    "solution": "When the driving frequency matches the natural frequency, energy is fed in at the best rate and the amplitude is largest, limited only by damping.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m20",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In simple harmonic motion, the phase difference between the displacement and the velocity is:",
+    "options": [
+      "π",
+      "0",
+      "π/2",
+      "π/4"
+    ],
+    "ans": 2,
+    "solution": "If x = A sinωt, then v = Aω cosωt. The velocity leads the displacement by 90°, or π/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m21",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In simple harmonic motion, the phase difference between the displacement and the acceleration is:",
+    "options": [
+      "π/2",
+      "0",
+      "π",
+      "3π/2"
+    ],
+    "ans": 2,
+    "solution": "a = −ω²x, so the acceleration is exactly opposite to the displacement, a phase difference of π.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m22",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The projection of the position of a particle moving in a uniform circle, on a diameter of the circle, executes:",
+    "options": [
+      "uniform motion along the diameter",
+      "simple harmonic motion with the radius as the amplitude",
+      "uniformly accelerated motion along the diameter",
+      "simple harmonic motion with the diameter as the amplitude"
+    ],
+    "ans": 1,
+    "solution": "The projection is x = R cos(ωt + φ), which is SHM with amplitude R and the same angular frequency ω as the circular motion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m23",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A particle moves according to x = 5 sin(4πt + π/6), with x in cm and t in s. The frequency of the motion is:",
+    "options": [
+      "13 Hz",
+      "1 Hz",
+      "8 Hz",
+      "2 Hz"
+    ],
+    "ans": 3,
+    "solution": "Comparing with x = A sin(ωt + φ), ω = 4π rad/s, so f = ω/2π = 2 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m24",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A particle in simple harmonic motion of amplitude A completes one full oscillation. The total distance it travels is:",
+    "options": [
+      "4A",
+      "A",
+      "2A",
+      "zero"
+    ],
+    "ans": 0,
+    "solution": "In one oscillation it goes from the mean position to +A and back (2A), then to −A and back (2A). The path length is 4A, though the displacement is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m25",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "At the extreme position of a simple harmonic oscillator:",
+    "options": [
+      "both the speed and the acceleration are maximum",
+      "the speed is maximum and the acceleration is zero",
+      "the speed is zero and the acceleration is maximum",
+      "both the speed and the acceleration are zero"
+    ],
+    "ans": 2,
+    "solution": "At |x| = A the particle momentarily stops, and the restoring force and the acceleration are at their largest.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m26",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A mass oscillating on a vertical spring is taken to the Moon, where g is smaller, and oscillates there. Its time period on the Moon is:",
+    "options": [
+      "shorter than on Earth",
+      "the same as on Earth",
+      "zero",
+      "longer than on Earth"
+    ],
+    "ans": 1,
+    "solution": "T = 2π√(m/k) does not contain g. Gravity only shifts the equilibrium position, not the period.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m27",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a simple pendulum with small swings, the restoring force on the bob is approximately:",
+    "options": [
+      "−mgθ, where θ is the angle in radians",
+      "−mgθ², where θ is the angle in radians",
+      "−mg cosθ, where θ is the angle with the vertical",
+      "−mg, whatever the angle of the string"
+    ],
+    "ans": 0,
+    "solution": "The component of weight along the arc is −mg sinθ. For small θ, sinθ ≈ θ, so the force is proportional to the displacement, which is the condition for SHM.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-m28",
+    "ch": "phy-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of the force constant k of a spring is:",
+    "options": [
+      "kilogram per second (kg/s)",
+      "newton metre (N m)",
+      "newton per second (N/s)",
+      "newton per metre (N/m)"
+    ],
+    "ans": 3,
+    "solution": "From F = kx, k = F/x, with unit N/m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-05-n01",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 1,
+    "q": "A body oscillates with a time period of 0.5 s. Find its angular frequency in rad/s. Give your answer to 2 decimal places.",
+    "ans": 12.57,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ω = 2π/T = 2π/0.5 = 4π = 12.57 rad/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n02",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A particle performs simple harmonic motion with amplitude 0.05 m and frequency 5 Hz. Find its maximum speed in m/s. Give your answer to 2 decimal places.",
+    "ans": 1.57,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ω = 2πf = 10π rad/s. v_max = Aω = 0.05 × 10π = 1.57 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n03",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 1,
+    "q": "A particle in simple harmonic motion has amplitude 0.02 m and angular frequency 10 rad/s. Find its maximum acceleration in m/s². Give your answer to 1 decimal place.",
+    "ans": 2.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "a_max = Aω² = 0.02 × 100 = 2 m/s².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n04",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A mass of 0.5 kg hangs on a spring of force constant 200 N/m. Find the time period of its oscillations in seconds. Give your answer to 3 decimal places.",
+    "ans": 0.314,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "T = 2π√(m/k) = 2π√(0.5/200) = 2π × 0.05 = 0.314 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n05",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the time period of a simple pendulum of length 0.64 m, taking g = 10 m/s², in seconds. Give your answer to 2 decimal places.",
+    "ans": 1.59,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "T = 2π√(L/g) = 2π√0.064 = 2π × 0.2530 = 1.59 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n06",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A block on a spring of force constant 100 N/m oscillates with amplitude 0.1 m. Find its total energy in joules. Give your answer to 2 decimal places.",
+    "ans": 0.5,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E = ½kA² = ½ × 100 × 0.01 = 0.5 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n07",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A particle in simple harmonic motion has amplitude 0.1 m and angular frequency 10 rad/s. Find its speed when its displacement is 0.06 m, in m/s. Give your answer to 1 decimal place.",
+    "ans": 0.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v = ω√(A² − x²) = 10 × √(0.01 − 0.0036) = 10 × 0.08 = 0.8 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n08",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A mass of 1 kg is attached to two springs of force constants 100 N/m and 300 N/m joined side by side (in parallel). Find the time period of oscillation in seconds. Give your answer to 3 decimal places.",
+    "ans": 0.314,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Parallel springs: k = 100 + 300 = 400 N/m. T = 2π√(1/400) = 2π/20 = 0.314 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n09",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the length of a second's pendulum (time period 2 s) where g = 9.8 m/s², in metres. Give your answer to 3 decimal places.",
+    "ans": 0.993,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "T = 2π√(L/g), so L = gT²/(4π²) = 9.8 × 4/39.478 = 0.993 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-05-n10",
+    "ch": "phy-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A simple pendulum of length 1 m hangs in a lift that accelerates upwards at 2.5 m/s². Taking g = 10 m/s², find its time period in seconds. Give your answer to 2 decimal places.",
+    "ans": 1.78,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "In the lift, g_eff = g + a = 12.5 m/s². T = 2π√(1/12.5) = 2π × 0.2828 = 1.78 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-m01",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The magnitude of the electrostatic force between two point charges q₁ and q₂ at distance r apart in vacuum is:",
+    "options": [
+      "kq₁q₂/r²",
+      "kq₁q₂/r",
+      "kq₁q₂r²",
+      "k(q₁ + q₂)/r²"
+    ],
+    "ans": 0,
+    "solution": "Coulomb's law: F = kq₁q₂/r², an inverse-square law along the line joining the charges.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m02",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which of these is a unit of electric field strength?",
+    "options": [
+      "volt metre (V m)",
+      "joule per coulomb (J/C)",
+      "newton coulomb (N C)",
+      "volt per metre (V/m)"
+    ],
+    "ans": 3,
+    "solution": "E = F/q has the unit N/C, which equals V/m. J/C is the unit of potential, not field.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m03",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The distance between two point charges is doubled. The force between them becomes:",
+    "options": [
+      "four times as large",
+      "one quarter",
+      "one half",
+      "twice as large"
+    ],
+    "ans": 1,
+    "solution": "F is proportional to 1/r², so a distance twice as large gives a quarter of the force.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m04",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Each of two point charges is doubled and the distance between them is kept the same. The force between them becomes:",
+    "options": [
+      "twice as large",
+      "eight times as large",
+      "four times as large",
+      "the same"
+    ],
+    "ans": 2,
+    "solution": "F is proportional to q₁q₂, so doubling both multiplies the force by 2 × 2 = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m05",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Electric field lines:",
+    "options": [
+      "begin on positive charges, end on negative charges and never cross",
+      "are closed loops, like magnetic field lines",
+      "can cross where the field is strong",
+      "begin on negative charges and end on positive charges"
+    ],
+    "ans": 0,
+    "solution": "Field lines of static charges start on positive charge and end on negative charge. Two lines cannot cross, since the field would then have two directions at one point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m06",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Inside a conductor in electrostatic equilibrium, the electric field is:",
+    "options": [
+      "uniform and non-zero",
+      "zero",
+      "directed towards the surface",
+      "equal to the field just outside the surface"
+    ],
+    "ans": 1,
+    "solution": "If there were a field, free charges would move. They rearrange on the surface until the field inside cancels exactly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m07",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to Gauss's law, the electric flux through a closed surface is:",
+    "options": [
+      "q_enclosed/(4πε₀ r²)",
+      "zero, always",
+      "q_enclosed/ε₀",
+      "q_enclosed × ε₀"
+    ],
+    "ans": 2,
+    "solution": "Φ = q_enc/ε₀. Only the charge inside matters, and not the shape of the surface or where the charge sits within it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m08",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The electric field near a very large uniformly charged flat sheet, with surface charge density σ, is:",
+    "options": [
+      "σ/ε₀, independent of the distance",
+      "σ/(4πε₀ r²), inversely proportional to the distance squared",
+      "σ/(2ε₀), inversely proportional to the distance",
+      "σ/(2ε₀), independent of the distance from the sheet"
+    ],
+    "ans": 3,
+    "solution": "Gauss's law with a pillbox gives 2EA = σA/ε₀, so E = σ/2ε₀. For a large sheet the field is uniform on each side.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m09",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A thin spherical shell of radius R carries charge Q. The electric field inside the shell (r < R) and at a point outside it (r > R) is:",
+    "options": [
+      "zero inside, and kQ/r² outside",
+      "kQ/r² inside, and zero outside",
+      "zero inside, and kQ/R² outside",
+      "kQ/R² inside, and kQ/r² outside"
+    ],
+    "ans": 0,
+    "solution": "A Gaussian surface inside encloses no charge. Outside, the shell acts like a point charge Q at its centre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m10",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The electric potential at a distance r from a point charge q in vacuum is:",
+    "options": [
+      "kq/(2r)",
+      "kq r",
+      "kq/r²",
+      "kq/r"
+    ],
+    "ans": 3,
+    "solution": "V = kq/r, the work done per unit charge in bringing a test charge from infinity. It is a scalar and falls as 1/r.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m11",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Electric potential is:",
+    "options": [
+      "a scalar, with the unit newton per coulomb",
+      "a vector, with the unit newton per coulomb",
+      "a scalar, with the unit joule per coulomb",
+      "a vector, with the unit joule per coulomb"
+    ],
+    "ans": 2,
+    "solution": "Potential is energy per unit charge, so its unit is J/C = volt. It has no direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m12",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An electric dipole consists of charges +q and −q separated by a distance 2a. Its dipole moment has magnitude:",
+    "options": [
+      "2aq, directed from +q to −q",
+      "2aq, directed from −q to +q",
+      "2aq/r², directed from −q to +q",
+      "aq, directed from −q to +q"
+    ],
+    "ans": 1,
+    "solution": "p = q × (separation) = 2aq. By convention the vector points from the negative charge to the positive charge.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m13",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The torque on an electric dipole of moment p in a uniform field E, when p makes an angle θ with E, has magnitude:",
+    "options": [
+      "pE",
+      "pE cosθ",
+      "pE sinθ",
+      "p sinθ/E"
+    ],
+    "ans": 2,
+    "solution": "τ = p × E, with magnitude pE sinθ. It tries to turn the dipole towards the field.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m14",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The potential energy of an electric dipole in a uniform field is U = −pE cosθ. Its position of stable equilibrium is when:",
+    "options": [
+      "θ = 45°, the dipole halfway between those",
+      "θ = 0°, the dipole along the field",
+      "θ = 180°, the dipole opposite to the field",
+      "θ = 90°, the dipole at right angles to the field"
+    ],
+    "ans": 1,
+    "solution": "At θ = 0 the energy is a minimum (−pE), so small displacements are restored. At 180° it is a maximum, an unstable equilibrium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m15",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The net force on an electric dipole in a uniform electric field is:",
+    "options": [
+      "qE",
+      "2pE",
+      "pE",
+      "zero"
+    ],
+    "ans": 3,
+    "solution": "The two charges feel equal and opposite forces, so the net force is zero. They do form a couple, which gives a torque.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m16",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work done in moving a charge q between two points that differ in potential by V depends on:",
+    "options": [
+      "only q and V, and not on the path taken",
+      "the speed at which the charge is moved",
+      "the mass of the charge",
+      "the length of the path taken"
+    ],
+    "ans": 0,
+    "solution": "The electrostatic force is conservative, so W = qV for any path between the same two points.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m17",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Along an equipotential surface:",
+    "options": [
+      "work is done only when the charge moves against the field",
+      "no work is done in moving a charge, and the field is perpendicular to the surface",
+      "the field is zero everywhere on the surface and so is the potential",
+      "the field is tangent to the surface along its whole area"
+    ],
+    "ans": 1,
+    "solution": "Along the surface ΔV = 0, so W = 0. This is possible only if the force, and so the field, has no component along the surface.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m18",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The capacitance of a parallel-plate capacitor with plate area A and separation d, with vacuum between the plates, is:",
+    "options": [
+      "ε₀Ad",
+      "ε₀d/A",
+      "ε₀A/d",
+      "A/(ε₀d)"
+    ],
+    "ans": 2,
+    "solution": "C = ε₀A/d: a larger area stores more charge for the same voltage, and a larger gap reduces the capacitance.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m19",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The separation between the plates of a parallel-plate capacitor is doubled. Its capacitance becomes:",
+    "options": [
+      "four times",
+      "double",
+      "unchanged",
+      "half"
+    ],
+    "ans": 3,
+    "solution": "C is inversely proportional to d, so doubling d halves C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m20",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A parallel-plate capacitor is charged and disconnected from the battery. A dielectric slab of constant K is then inserted to fill the gap. The charge, the capacitance and the potential difference change as follows:",
+    "options": [
+      "the charge stays, the capacitance rises K times and the potential difference falls K times",
+      "the charge stays, the capacitance falls and the potential difference rises",
+      "the charge stays, the capacitance rises K times and the potential difference rises K times",
+      "the charge rises, the capacitance rises K times and the potential difference stays"
+    ],
+    "ans": 0,
+    "solution": "With the battery off, Q cannot change. C becomes KC, so V = Q/C falls by a factor K, and the stored energy Q²/2C falls too.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m21",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Capacitors C₁ and C₂ are joined in series. The equivalent capacitance C satisfies:",
+    "options": [
+      "C = C₁ + C₂",
+      "1/C = 1/C₁ + 1/C₂",
+      "1/C = C₁ + C₂",
+      "C = 1/C₁ + 1/C₂"
+    ],
+    "ans": 1,
+    "solution": "In series each capacitor holds the same charge and the voltages add: Q/C = Q/C₁ + Q/C₂. In parallel the capacitances add instead.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m22",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The energy stored in a capacitor of capacitance C charged to a potential difference V is:",
+    "options": [
+      "½CV",
+      "CV",
+      "½CV²",
+      "CV²"
+    ],
+    "ans": 2,
+    "solution": "U = ½CV² = ½QV = Q²/2C. The factor ½ arises because the voltage rises from zero as the charge is built up.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m23",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Capacitors of 6 μF and 3 μF are joined in series. The equivalent capacitance is:",
+    "options": [
+      "2 μF",
+      "4.5 μF",
+      "9 μF",
+      "18 μF"
+    ],
+    "ans": 0,
+    "solution": "1/C = 1/6 + 1/3 = 1/2, so C = 2 μF. The result in series is always smaller than the smallest capacitor.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m24",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two equal positive point charges are placed a distance apart. The electric field at the midpoint of the line joining them is:",
+    "options": [
+      "directed along the line towards one of the charges",
+      "equal to the field of one charge",
+      "twice the field of one charge",
+      "zero"
+    ],
+    "ans": 3,
+    "solution": "At the midpoint the two fields have equal size and opposite directions, so they cancel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m25",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The charge on any body is always an integer multiple of e = 1.6 × 10⁻¹⁹ C. This is called:",
+    "options": [
+      "continuity of charge",
+      "conservation of charge",
+      "additivity of charge",
+      "quantisation of charge"
+    ],
+    "ans": 3,
+    "solution": "Q = ne with n an integer: charge comes in discrete units. Conservation is a different law: the net charge of an isolated system does not change.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m26",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A glass rod rubbed with silk becomes positively charged because:",
+    "options": [
+      "it loses electrons to the silk",
+      "it loses protons to the silk",
+      "it gains protons from the silk",
+      "it gains electrons from the silk"
+    ],
+    "ans": 0,
+    "solution": "Only electrons move between solids. The glass loses electrons and is left with a net positive charge; the silk gains the same number and becomes negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m27",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The unit of surface charge density is:",
+    "options": [
+      "coulomb per metre (C/m)",
+      "coulomb per square metre (C/m²)",
+      "coulomb per cubic metre (C/m³)",
+      "coulomb metre (C m)"
+    ],
+    "ans": 1,
+    "solution": "σ = charge/area, so its unit is C/m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-m28",
+    "ch": "phy-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The dielectric constant K of a material is defined as:",
+    "options": [
+      "the ratio of the plate area to the plate separation",
+      "the product of the capacitance and the voltage",
+      "the ratio of the capacitance with the material between the plates to that with vacuum",
+      "the ratio of the charge with the material to that with vacuum"
+    ],
+    "ans": 2,
+    "solution": "K = C/C₀ ≥ 1. The polarised dielectric reduces the electric field inside, so the same charge needs a smaller potential difference.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-08-n01",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Two point charges of 2 μC and 3 μC are 0.3 m apart in vacuum. Taking k = 9 × 10⁹ N m²/C², find the force between them in newtons. Give your answer to 1 decimal place.",
+    "ans": 0.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "F = kq₁q₂/r² = 9 × 10⁹ × 2 × 10⁻⁶ × 3 × 10⁻⁶/(0.3)² = 0.054/0.09 = 0.6 N, repulsive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n02",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the electric field, in units of 10⁵ N/C, at a distance of 0.2 m from a point charge of 4 μC in vacuum (k = 9 × 10⁹ N m²/C²). Give your answer to 1 decimal place.",
+    "ans": 9.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "E = kq/r² = 9 × 10⁹ × 4 × 10⁻⁶/0.04 = 9 × 10⁵ N/C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n03",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the electric potential, in volts, at a distance of 0.1 m from a point charge of 5 nC in vacuum (k = 9 × 10⁹ N m²/C²). Give your answer as a whole number.",
+    "ans": 450.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "V = kq/r = 9 × 10⁹ × 5 × 10⁻⁹/0.1 = 450 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n04",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the work done, in microjoules, in moving a charge of 2 μC through a potential difference of 100 V. Give your answer as a whole number.",
+    "ans": 200.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "W = qV = 2 × 10⁻⁶ × 100 = 2 × 10⁻⁴ J = 200 μJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n05",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "An electric dipole of moment 3.0 × 10⁻⁸ C m is placed in a uniform field of 5.0 × 10⁴ N/C, at 30° to the field. Find the torque on it, in units of 10⁻⁴ N m. Give your answer to 1 decimal place.",
+    "ans": 7.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "τ = pE sinθ = 3.0 × 10⁻⁸ × 5.0 × 10⁴ × 0.5 = 7.5 × 10⁻⁴ N m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n06",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "A parallel-plate capacitor has plates of area 0.02 m² separated by 1 mm of vacuum. Taking ε₀ = 8.85 × 10⁻¹² F/m, find its capacitance in picofarads. Give your answer as a whole number.",
+    "ans": 177.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "C = ε₀A/d = 8.85 × 10⁻¹² × 0.02/0.001 = 1.77 × 10⁻¹⁰ F = 177 pF.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n07",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Capacitors of 6 μF and 3 μF are joined in series. Find the equivalent capacitance in microfarads. Give your answer to 1 decimal place.",
+    "ans": 2.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "1/C = 1/6 + 1/3 = 1/2, so C = 2.0 μF. Equivalently, C = (6 × 3)/(6 + 3) = 2 μF.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n08",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the energy stored, in joules, in a 10 μF capacitor charged to 200 V. Give your answer to 2 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "U = ½CV² = ½ × 10 × 10⁻⁶ × 200² = 0.20 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n09",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the charge, in microcoulombs, on a 5 μF capacitor connected across a 12 V battery. Give your answer as a whole number.",
+    "ans": 60.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Q = CV = 5 μF × 12 V = 60 μC.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-08-n10",
+    "ch": "phy-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the electric flux, in N m²/C, through a closed surface that encloses a charge of 8.85 nC in vacuum (ε₀ = 8.85 × 10⁻¹² F/m). Give your answer as a whole number.",
+    "ans": 1000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Gauss's law: Φ = q/ε₀ = 8.85 × 10⁻⁹/8.85 × 10⁻¹² = 1000 N m²/C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-m01",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Ohm's law states that, for a conductor at constant temperature:",
+    "options": [
+      "the potential difference across it is proportional to the current through it",
+      "the current is independent of the potential difference",
+      "the potential difference is inversely proportional to the current",
+      "the resistance is proportional to the current"
+    ],
+    "ans": 0,
+    "solution": "V = IR with R constant. A graph of V against I is a straight line through the origin. Many devices (diodes, filament lamps) do not follow it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m02",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of resistivity is:",
+    "options": [
+      "ohm (Ω)",
+      "ohm metre (Ω m)",
+      "siemens metre (S m)",
+      "ohm per metre (Ω/m)"
+    ],
+    "ans": 1,
+    "solution": "From R = ρL/A, ρ = RA/L, which has the unit Ω m²/m = Ω m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m03",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The resistance of a uniform wire of length L, cross-section A and resistivity ρ is:",
+    "options": [
+      "ρA/L",
+      "ρLA",
+      "ρL/A",
+      "L/(ρA)"
+    ],
+    "ans": 2,
+    "solution": "A longer wire has more resistance, and a thicker wire has less, so R = ρL/A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m04",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A wire is stretched uniformly until its length is doubled. Its volume stays the same. Its resistance becomes:",
+    "options": [
+      "unchanged",
+      "twice",
+      "half",
+      "four times"
+    ],
+    "ans": 3,
+    "solution": "Length doubles and, as the volume is fixed, the area halves. R = ρL/A becomes ρ(2L)/(A/2) = 4R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m05",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The resistivity of a given metal wire depends on:",
+    "options": [
+      "the material and the temperature, but not on its length or thickness",
+      "its length and thickness only, and not the material",
+      "its length, thickness and the material, but not the temperature",
+      "the current through it only, and not the material"
+    ],
+    "ans": 0,
+    "solution": "ρ is a property of the material at a given temperature. The resistance R depends also on the shape.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m06",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The drift velocity of electrons in a conductor of cross-section A, with n free electrons per unit volume, carrying current I, is:",
+    "options": [
+      "InAe",
+      "I/(nA)",
+      "I/(nAe)",
+      "nAe/I"
+    ],
+    "ans": 2,
+    "solution": "I = nAev_d, since in one second the charge in a length v_d of wire crosses a section.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m07",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When the temperature of a metallic conductor rises, its resistance:",
+    "options": [
+      "decreases, because the ions vibrate less",
+      "stays constant, because the number of electrons is constant",
+      "decreases, because there are more free electrons",
+      "increases, because the ions vibrate more and collide with the electrons more often"
+    ],
+    "ans": 3,
+    "solution": "In a metal, the number of free electrons hardly changes, while the thermal vibration of the lattice grows. A semiconductor behaves the other way, as many more carriers are freed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m08",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Resistors R₁ and R₂ are connected in series. The equivalent resistance is:",
+    "options": [
+      "1/R₁ + 1/R₂",
+      "R₁ + R₂",
+      "R₁R₂",
+      "R₁R₂/(R₁ + R₂)"
+    ],
+    "ans": 1,
+    "solution": "In series the same current passes through both and the voltages add, so the resistances add.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m09",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two identical resistors, each of resistance R, are connected in parallel. The equivalent resistance is:",
+    "options": [
+      "R²",
+      "2R",
+      "R/2",
+      "R/4"
+    ],
+    "ans": 2,
+    "solution": "1/R_eq = 1/R + 1/R = 2/R, so R_eq = R/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m10",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A cell of emf E and internal resistance r drives a current I through an external circuit. The potential difference between its terminals is:",
+    "options": [
+      "V = E + Ir",
+      "V = E/r",
+      "V = Ir",
+      "V = E − Ir"
+    ],
+    "ans": 3,
+    "solution": "Part of the emf is lost as Ir inside the cell, so the terminal voltage is lower than E while current flows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m11",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The terminal potential difference of a cell can exceed its emf when:",
+    "options": [
+      "the cell is being charged by a current in the opposite direction",
+      "the cell is in open circuit and no current flows",
+      "the internal resistance of the cell is exactly zero",
+      "the cell is supplying a large current to a load"
+    ],
+    "ans": 0,
+    "solution": "While charging, V = E + Ir. During discharge V = E − Ir, and in open circuit V = E.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m12",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Kirchhoff's junction rule is based on the:",
+    "options": [
+      "law of gravitation",
+      "conservation of charge",
+      "conservation of energy",
+      "conservation of momentum"
+    ],
+    "ans": 1,
+    "solution": "The total current entering a junction equals the total current leaving, since charge cannot pile up at a point in steady flow.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m13",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Kirchhoff's loop rule is based on the:",
+    "options": [
+      "conservation of angular momentum",
+      "conservation of charge",
+      "conservation of mass",
+      "conservation of energy"
+    ],
+    "ans": 3,
+    "solution": "Around any closed loop the sum of the emfs equals the sum of the potential drops, since a charge returning to its start has the same potential energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m14",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A Wheatstone bridge with resistances P, Q in one arm pair and R, S in the other is balanced (no current in the galvanometer) when:",
+    "options": [
+      "PQ = R + S",
+      "P/Q = R/S",
+      "P/Q = S/R",
+      "P + Q = R + S"
+    ],
+    "ans": 1,
+    "solution": "At balance the two junctions are at the same potential. This gives P/Q = R/S.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m15",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a metre bridge the unknown resistance X is in the left gap and a known resistance S is in the right gap. The balance point is at l cm from the left end. Then X is:",
+    "options": [
+      "S × l/(100 − l)",
+      "S × (100 − l)/l",
+      "S × 100/l",
+      "S × l/100"
+    ],
+    "ans": 0,
+    "solution": "The wire resistance is proportional to its length, so X/S = l/(100 − l).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m16",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A potentiometer is better than a voltmeter for measuring the emf of a cell because:",
+    "options": [
+      "it gives the terminal voltage, not the emf",
+      "it has a very low resistance",
+      "at balance it draws no current from the cell",
+      "it uses a higher voltage than the cell"
+    ],
+    "ans": 2,
+    "solution": "At the null point no current flows through the cell being tested, so there is no Ir drop, and the reading equals the true emf.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m17",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The power dissipated in a resistor R carrying current I with potential difference V across it is not equal to:",
+    "options": [
+      "V²/R",
+      "I²R",
+      "VI",
+      "V²R"
+    ],
+    "ans": 3,
+    "solution": "P = VI = I²R = V²/R. The expression V²R has the wrong dimensions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m18",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A bulb is marked 100 W, 220 V. Its resistance when it works at its rated values is:",
+    "options": [
+      "484 Ω",
+      "111 Ω",
+      "550 Ω",
+      "455 Ω"
+    ],
+    "ans": 0,
+    "solution": "R = V²/P = 220²/100 = 484 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m19",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The heat produced in a resistor R carrying a steady current I for a time t is:",
+    "options": [
+      "I R²t",
+      "I²Rt",
+      "I²R/t",
+      "IRt"
+    ],
+    "ans": 1,
+    "solution": "This is Joule's law: the electrical energy delivered per second is I²R, so over time t it is I²Rt.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m20",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The kilowatt hour is a unit of:",
+    "options": [
+      "power, equal to 3.6 × 10⁶ W",
+      "charge, equal to 3.6 × 10³ C",
+      "energy, equal to 3.6 × 10⁶ J",
+      "energy, equal to 3.6 × 10³ J"
+    ],
+    "ans": 2,
+    "solution": "1 kW h = 1000 W × 3600 s = 3.6 × 10⁶ J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m21",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A carbon resistor has colour bands brown, black and red (in that order), followed by a gold tolerance band. Its resistance is:",
+    "options": [
+      "102 Ω, with ±5% tolerance",
+      "10 Ω, with ±5% tolerance",
+      "1200 Ω, with ±5% tolerance",
+      "1000 Ω (1 kΩ), with ±5% tolerance"
+    ],
+    "ans": 3,
+    "solution": "Brown = 1, black = 0, red = multiplier 10². So the value is 10 × 100 = 1000 Ω. Gold means ±5%.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m22",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Alloys such as manganin and constantan are used for standard resistors because they have:",
+    "options": [
+      "a very large resistivity at all temperatures",
+      "a very small temperature coefficient of resistance",
+      "a negative temperature coefficient of resistance",
+      "zero resistivity at room temperature"
+    ],
+    "ans": 1,
+    "solution": "Their resistance hardly changes with temperature, so a standard resistor keeps its value as it warms up.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m23",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An ammeter and a voltmeter are connected in a circuit as follows:",
+    "options": [
+      "both in parallel",
+      "the ammeter in parallel and the voltmeter in series",
+      "the ammeter in series and the voltmeter in parallel with the part measured",
+      "both in series"
+    ],
+    "ans": 2,
+    "solution": "The ammeter must carry the circuit's current, so it is in series. The voltmeter measures the potential difference across a part, so it is in parallel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m24",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An ideal voltmeter should have:",
+    "options": [
+      "a very high resistance, so that it draws almost no current",
+      "a resistance equal to that of the circuit",
+      "zero resistance",
+      "a very low resistance, so that it draws a large current"
+    ],
+    "ans": 0,
+    "solution": "A high resistance means that connecting it in parallel changes the current and the voltage being measured as little as possible.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m25",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The current in a uniform wire is doubled, and nothing else is changed. The drift velocity of the electrons:",
+    "options": [
+      "does not change",
+      "becomes four times",
+      "is halved",
+      "doubles"
+    ],
+    "ans": 3,
+    "solution": "From I = nAev_d, the drift velocity is proportional to I when n, A and e are fixed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m26",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "n identical cells, each of emf E and internal resistance r, are connected in parallel. The equivalent emf and internal resistance are:",
+    "options": [
+      "nE and nr",
+      "nE and r/n",
+      "E and r/n",
+      "E and nr"
+    ],
+    "ans": 2,
+    "solution": "In parallel the emf stays at E, and the internal resistances combine like parallel resistors: r/n. In series the emf is nE and the internal resistance is nr.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m27",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The potential difference between the terminals of a cell in open circuit (no current drawn) is:",
+    "options": [
+      "greater than its emf",
+      "equal to its emf",
+      "zero",
+      "less than its emf by Ir"
+    ],
+    "ans": 1,
+    "solution": "With I = 0 there is no drop across the internal resistance, so V = E.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-n01",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 1,
+    "q": "A potential difference of 20 V is applied across a 10 Ω resistor. Find the current in amperes. Give your answer to 1 decimal place.",
+    "ans": 2.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "By Ohm's law, I = V/R = 20/10 = 2 A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n02",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "A copper wire is 100 m long and has a cross-sectional area of 1 mm². The resistivity of copper is 1.7 × 10⁻⁸ Ω m. Find the resistance of the wire in ohms. Give your answer to 2 decimal places.",
+    "ans": 1.7,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "R = ρL/A = 1.7 × 10⁻⁸ × 100/10⁻⁶ = 1.7 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n03",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Resistors of 12 Ω and 4 Ω are connected in parallel. Find the equivalent resistance in ohms. Give your answer to 1 decimal place.",
+    "ans": 3.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "1/R = 1/12 + 1/4 = 4/12, so R = 3 Ω. (Product over sum: 48/16 = 3 Ω.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n04",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A cell of emf 12 V and internal resistance 0.5 Ω is connected to an external resistance of 5.5 Ω. Find the potential difference across the terminals of the cell, in volts. Give your answer to 1 decimal place.",
+    "ans": 11.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "I = E/(R + r) = 12/6 = 2 A. V = E − Ir = 12 − 2 × 0.5 = 11 V. (Check: IR = 2 × 5.5 = 11 V.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n05",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "An electric heater element has a resistance of 484 Ω and is connected to a 220 V supply. Find the power it consumes, in watts. Give your answer as a whole number.",
+    "ans": 100.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P = V²/R = 220²/484 = 100 W.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n06",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 1,
+    "q": "A 2 kW heater runs for 90 minutes. Find the electrical energy used, in kilowatt hours. Give your answer to 1 decimal place.",
+    "ans": 3.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "E = Pt = 2 kW × 1.5 h = 3 kW h.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n07",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A copper wire of cross-sectional area 1 mm² carries a current of 2 A. There are 8.5 × 10²⁸ free electrons per m³ and e = 1.6 × 10⁻¹⁹ C. Find the drift speed of the electrons in mm/s. Give your answer to 3 decimal places.",
+    "ans": 0.147,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "v_d = I/(nAe) = 2/(8.5 × 10²⁸ × 10⁻⁶ × 1.6 × 10⁻¹⁹) = 1.47 × 10⁻⁴ m/s = 0.147 mm/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n08",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "A Wheatstone bridge has P = 10 Ω, Q = 20 Ω and R = 15 Ω in three arms. Find the fourth resistance S, in ohms, for the bridge to be balanced (P/Q = R/S). Give your answer to 1 decimal place.",
+    "ans": 30.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P/Q = R/S gives S = RQ/P = 15 × 20/10 = 30 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n09",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "In a metre bridge, an unknown resistance X is in the left gap and a 10 Ω resistance is in the right gap. The balance point is 40 cm from the left end. Find X in ohms. Give your answer to 2 decimal places.",
+    "ans": 6.67,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "X/S = l/(100 − l) = 40/60, so X = 10 × 2/3 = 6.67 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n10",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Four cells, each of emf 1.5 V and internal resistance 0.2 Ω, are joined in series to an external resistance of 5.2 Ω. Find the current in amperes. Give your answer to 1 decimal place.",
+    "ans": 1.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Total emf = 4 × 1.5 = 6 V. Total resistance = 5.2 + 4 × 0.2 = 6.0 Ω. I = 6/6 = 1.0 A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
   }
 ];
 })((window.SOS = window.SOS || {}));
