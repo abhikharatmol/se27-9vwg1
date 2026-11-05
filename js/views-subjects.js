@@ -128,7 +128,7 @@
         '<li class="cr' + (now ? ' is-now' : '') + '" data-s="' + s + '">' + main +
         '<span class="cr-n">' + (c.tb || c.idx + 1) + '</span><span class="cr-b"><b>' + u.esc(c.name) + '</b><small>' + sub +
         (topics.length ? ' · ' + u.plural(topics.length, 'topic') : '') +
-        (c.hy ? ' <span class="cr-hy">High weightage</span>' : '') + '</small>' + (wc.total ? bar(pct) : '') + '</span>' +
+        (c.cetTier ? ' <span class="cr-tier t-' + c.cetTier + '" title="' + S.plan.TIER_LABEL[c.cetTier] + ' for the CET (estimate from past papers)">CET ' + c.cetTier + ' · ' + c.cetMarks + (c.cetMarks === 1 ? ' mark' : ' marks') + '</span>' : c.hy ? ' <span class="cr-hy">High weightage</span>' : '') + '</small>' + (wc.total ? bar(pct) : '') + '</span>' +
         (topics.length ? '<span class="cr-chev" aria-hidden="true">' + u.icon('chev-d') + '</span>' : '') + '</button>' +
         '<button class="cr-play rip" data-act="go" data-to="#/watch/' + c.id + '" data-id="' + c.id + '" data-testid="cr-play" aria-label="' + (wc.total ? 'Watch ' : 'Open ') + u.esc(c.name) + '">' + u.icon('play') + '</button>' + topicList + '</li>'
       );

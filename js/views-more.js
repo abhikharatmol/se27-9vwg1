@@ -6,6 +6,7 @@
   const ui = S.ui;
 
   const TILES = [
+    ['plan', 'target', 'v', 'Exam plan', 'Dates, targets, study order'],
     ['planner', 'calendar', 'v', 'Planner', 'Timetable, habits, targets'],
     ['pyq', 'note', 'b', 'Past papers', 'Links and an answer sheet'],
     ['formulas', 'sigma', 'o', 'Formula vault', 'Search every formula'],

@@ -352,7 +352,8 @@
       if (old.target === '' || real(old.target)) base.target = old.target;
       base.list.forEach((e) => {
         const v = old[e.id];
-        if (real(v) && v !== e.date) {
+        // 2027-01-22 is the JEE date the app itself used to ship with, so it is not "hers" (v9 moves the default to the NTA bulletin date).
+        if (real(v) && v !== e.date && !(e.id === 'jee' && v === '2027-01-22')) {
           e.date = v;
           e.windowText = '';
           e.note = e.id === 'cet' ? 'You set this date. It is not official yet (as of 9 Oct 2026): check the CET Cell notice.' : 'You set this date. Check the official notice.';
@@ -360,6 +361,35 @@
       });
       base.seededFromProfile = true;
       all.exams = base;
+    },
+    // v8 -> v9: additive only. Adds the exam entries the app did not have (JEE Session 2, CET attempt 2, HSC practicals)
+    // to `exams.list`, keeping every entry and edit she already has, and replaces the old default goal texts (and only
+    // those: a goal she typed herself stays) with the 2027 targets.
+    9: (all) => {
+      if (isObj(all.exams) && Array.isArray(all.exams.list)) {
+        const have = new Set(all.exams.list.map((e) => e && e.id));
+        const defaults = S.store.defaultOf('exams').list;
+        defaults.forEach((e) => {
+          if (!have.has(e.id)) all.exams.list.push(e);
+        });
+        // The JEE Session 1 entry the app shipped with (the tentative 22 Jan, still marked expected) becomes the official
+        // window from the NTA bulletin. One she changed herself (another date, or marked official) is left alone.
+        const jee = all.exams.list.filter((e) => e && e.id === 'jee')[0];
+        if (jee && jee.date === '2027-01-22' && jee.status === 'expected') {
+          const d = defaults.filter((e) => e.id === 'jee')[0];
+          jee.date = d.date;
+          jee.status = d.status;
+          jee.note = d.note;
+        }
+      }
+      const p = all.profile;
+      if (isObj(p) && isObj(p.goals)) {
+        const OLD = { cet: '170+ (99+ percentile)', jee: '180+ (98-99 percentile)', hsc: '90%+' };
+        const NEW = { cet: '170-180 of 200', jee: '250+ of 300', hsc: '75%+' };
+        Object.keys(OLD).forEach((k) => {
+          if (p.goals[k] === OLD[k]) p.goals[k] = NEW[k];
+        });
+      }
     },
   };
 

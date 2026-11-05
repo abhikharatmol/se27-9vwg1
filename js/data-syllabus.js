@@ -1325,7 +1325,10 @@
   S.SYLLABUS_VERSION = 1;
   S.ESTIMATES = {
   "chem-11-01": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 2,
@@ -1336,7 +1339,10 @@
     "w": 1.9
   },
   "chem-11-02": {
+    "cetMarks": 1,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-01"
@@ -1349,7 +1355,10 @@
     "w": 2.5
   },
   "chem-11-03": {
+    "cetMarks": 1,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-02"
@@ -1362,7 +1371,10 @@
     "w": 3.1
   },
   "chem-11-04": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-01"
@@ -1375,7 +1387,10 @@
     "w": 1.2
   },
   "chem-11-05": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-02"
@@ -1388,7 +1403,10 @@
     "w": 1.2
   },
   "chem-11-06": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-01"
@@ -1401,7 +1419,10 @@
     "w": 1.2
   },
   "chem-11-07": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 1,
@@ -1412,7 +1433,10 @@
     "w": 1.2
   },
   "chem-11-08": {
+    "cetMarks": 1,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-03"
@@ -1425,7 +1449,10 @@
     "w": 4.0
   },
   "chem-11-09": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "chem-11-08"
@@ -1438,7 +1465,10 @@
     "w": 3.1
   },
   "chem-11-10": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 1,
@@ -1449,7 +1479,10 @@
     "w": 0.6
   },
   "chem-12-01": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [],
     "diff": 2,
@@ -1460,7 +1493,10 @@
     "w": 3.5
   },
   "chem-12-02": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-11-01"
@@ -1473,7 +1509,10 @@
     "w": 5.8
   },
   "chem-12-03": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "chem-12-04"
@@ -1486,7 +1525,10 @@
     "w": 6.8
   },
   "chem-12-04": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-11-01"
@@ -1499,7 +1541,10 @@
     "w": 4.6
   },
   "chem-12-05": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-11-04",
@@ -1513,7 +1558,10 @@
     "w": 7.0
   },
   "chem-12-06": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1524,7 +1572,10 @@
     "w": 7.0
   },
   "chem-12-07": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-11-03"
@@ -1537,7 +1588,10 @@
     "w": 5.8
   },
   "chem-12-08": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-11-02"
@@ -1550,7 +1604,10 @@
     "w": 3.5
   },
   "chem-12-09": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-11-02",
@@ -1564,7 +1621,10 @@
     "w": 5.8
   },
   "chem-12-10": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "chem-11-08"
@@ -1577,7 +1637,10 @@
     "w": 5.8
   },
   "chem-12-11": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "chem-12-10"
@@ -1590,7 +1653,10 @@
     "w": 4.6
   },
   "chem-12-12": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "chem-12-11"
@@ -1603,7 +1669,10 @@
     "w": 7.0
   },
   "chem-12-13": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "chem-12-12"
@@ -1616,7 +1685,10 @@
     "w": 3.5
   },
   "chem-12-14": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "chem-12-12"
@@ -1629,7 +1701,10 @@
     "w": 3.5
   },
   "chem-12-15": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [],
     "diff": 1,
@@ -1640,7 +1715,10 @@
     "w": 2.3
   },
   "chem-12-16": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -1750,7 +1828,10 @@
     "w": 25.6
   },
   "mth-11-01": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -1761,7 +1842,10 @@
     "w": 1.5
   },
   "mth-11-02": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -1772,7 +1856,10 @@
     "w": 1.5
   },
   "mth-11-03": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1783,7 +1870,10 @@
     "w": 2.1
   },
   "mth-11-04": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "mth-11-03"
@@ -1796,7 +1886,10 @@
     "w": 3.5
   },
   "mth-11-05": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "mth-11-07"
@@ -1809,7 +1902,10 @@
     "w": 2.1
   },
   "mth-11-06": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1820,7 +1916,10 @@
     "w": 2.1
   },
   "mth-11-07": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1831,7 +1930,10 @@
     "w": 2.1
   },
   "mth-11-08": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 2,
@@ -1842,7 +1944,10 @@
     "w": 1.5
   },
   "mth-11-09": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "mth-11-08"
@@ -1855,7 +1960,10 @@
     "w": 2.1
   },
   "mth-11-10": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "mth-11-09"
@@ -1868,7 +1976,10 @@
     "w": 1.5
   },
   "mth-12-01": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [],
     "diff": 1,
@@ -1879,7 +1990,10 @@
     "w": 3.7
   },
   "mth-12-02": {
+    "cetMarks": 4,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1890,7 +2004,10 @@
     "w": 9.6
   },
   "mth-12-03": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-11-08"
@@ -1903,7 +2020,10 @@
     "w": 9.8
   },
   "mth-12-04": {
+    "cetMarks": 4,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1914,7 +2034,10 @@
     "w": 2.5
   },
   "mth-12-05": {
+    "cetMarks": 8,
     "cetPri": 3,
+    "cetQ": 4,
+    "cetTier": "A",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -1925,7 +2048,10 @@
     "w": 4.9
   },
   "mth-12-06": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-12-05"
@@ -1938,7 +2064,10 @@
     "w": 6.2
   },
   "mth-12-07": {
+    "cetMarks": 4,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [],
     "diff": 2,
@@ -1949,7 +2078,10 @@
     "w": 2.5
   },
   "mth-12-08": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-11-10"
@@ -1962,7 +2094,10 @@
     "w": 6.2
   },
   "mth-12-09": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-12-08"
@@ -1975,7 +2110,10 @@
     "w": 7.4
   },
   "mth-12-10": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-12-08"
@@ -1988,7 +2126,10 @@
     "w": 6.2
   },
   "mth-12-11": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-12-10"
@@ -2001,7 +2142,10 @@
     "w": 6.2
   },
   "mth-12-12": {
+    "cetMarks": 4,
     "cetPri": 2,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2012,7 +2156,10 @@
     "w": 3.7
   },
   "mth-12-13": {
+    "cetMarks": 6,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "mth-12-10"
@@ -2025,7 +2172,10 @@
     "w": 4.9
   },
   "mth-12-14": {
+    "cetMarks": 4,
     "cetPri": 2,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2036,7 +2186,10 @@
     "w": 3.7
   },
   "mth-12-15": {
+    "cetMarks": 4,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "mth-11-05"
@@ -2049,7 +2202,10 @@
     "w": 2.5
   },
   "phy-11-01": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2060,7 +2216,10 @@
     "w": 1.3
   },
   "phy-11-02": {
+    "cetMarks": 1,
     "cetPri": 1,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 1,
@@ -2071,7 +2230,10 @@
     "w": 0.9
   },
   "phy-11-03": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "phy-11-02"
@@ -2084,7 +2246,10 @@
     "w": 2.6
   },
   "phy-11-04": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "phy-11-03"
@@ -2097,7 +2262,10 @@
     "w": 4.8
   },
   "phy-11-05": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [
       "phy-11-04"
@@ -2110,7 +2278,10 @@
     "w": 1.7
   },
   "phy-11-06": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 2,
@@ -2121,7 +2292,10 @@
     "w": 2.2
   },
   "phy-11-07": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2132,7 +2306,10 @@
     "w": 1.3
   },
   "phy-11-08": {
+    "cetMarks": 1,
     "cetPri": 3,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -2143,7 +2320,10 @@
     "w": 2.6
   },
   "phy-11-09": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2154,7 +2334,10 @@
     "w": 1.3
   },
   "phy-11-10": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2165,7 +2348,10 @@
     "w": 1.3
   },
   "phy-12-01": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-11-04"
@@ -2178,7 +2364,10 @@
     "w": 6.2
   },
   "phy-12-02": {
+    "cetMarks": 3,
     "cetPri": 2,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-11-04"
@@ -2191,7 +2380,10 @@
     "w": 4.1
   },
   "phy-12-03": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-11-06"
@@ -2204,7 +2396,10 @@
     "w": 4.1
   },
   "phy-12-04": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "phy-12-03"
@@ -2217,7 +2412,10 @@
     "w": 6.2
   },
   "phy-12-05": {
+    "cetMarks": 3,
     "cetPri": 2,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2228,7 +2426,10 @@
     "w": 3.1
   },
   "phy-12-06": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2239,7 +2440,10 @@
     "w": 3.1
   },
   "phy-12-07": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-11-08"
@@ -2252,7 +2456,10 @@
     "w": 4.1
   },
   "phy-12-08": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [],
     "diff": 4,
@@ -2263,7 +2470,10 @@
     "w": 9.0
   },
   "phy-12-09": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-12-08"
@@ -2276,7 +2486,10 @@
     "w": 8.2
   },
   "phy-12-10": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-12-09"
@@ -2289,7 +2502,10 @@
     "w": 7.2
   },
   "phy-12-11": {
+    "cetMarks": 1,
     "cetPri": 2,
+    "cetQ": 1,
+    "cetTier": "C",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2300,7 +2516,10 @@
     "w": 3.1
   },
   "phy-12-12": {
+    "cetMarks": 3,
     "cetPri": 3,
+    "cetQ": 3,
+    "cetTier": "A",
     "default": false,
     "deps": [
       "phy-12-10"
@@ -2313,7 +2532,10 @@
     "w": 5.1
   },
   "phy-12-13": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [
       "phy-12-12"
@@ -2326,7 +2548,10 @@
     "w": 4.1
   },
   "phy-12-14": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [],
     "diff": 3,
@@ -2337,7 +2562,10 @@
     "w": 6.2
   },
   "phy-12-15": {
+    "cetMarks": 2,
     "cetPri": 2,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": true,
     "deps": [],
     "diff": 2,
@@ -2348,7 +2576,10 @@
     "w": 3.1
   },
   "phy-12-16": {
+    "cetMarks": 2,
     "cetPri": 3,
+    "cetQ": 2,
+    "cetTier": "B",
     "default": false,
     "deps": [],
     "diff": 2,

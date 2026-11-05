@@ -1,11 +1,12 @@
 /* service-worker.js — offline support.
  *
- * Strategy: cache-first for the app shell (every file below is stored on install), so the app
- * opens instantly with no network. A new version is picked up when this file changes:
- * run `py tools/build.py`, which stamps VERSION with a hash of every asset. Users see a
- * "new version ready" toast and the update applies when they tap Refresh.
+ * Strategy (changed 2026-11-04, owner's call: the app needs the internet for YouTube anyway): NETWORK-FIRST.
+ * Every request asks the server first, so a new release shows on the next open and nobody sees an old copy.
+ * The files below are still stored, only as a fallback for a dropped connection. A new version is picked up
+ * when this file changes (`py tools/build.py` stamps VERSION with a hash of every asset) and takes over at
+ * once: install calls skipWaiting, and app.js reloads the page when the new worker takes control.
  */
-const VERSION = 'sos-25c47fc03b';
+const VERSION = 'sos-d2d9762ad6';
 const CACHE = 'study-os-' + VERSION;
 const ASSETS = [
   './',
@@ -106,6 +107,7 @@ const ASSETS = [
   './js/migrate.js',
   './js/engine.js',
   './js/exams.js',
+  './js/plan.js',
   './js/testcenter.js',
   './js/practice.js',
   './js/learn.js',
@@ -130,6 +132,7 @@ const ASSETS = [
   './js/views-revision.js',
   './js/views-me.js',
   './js/views-more.js',
+  './js/views-plan.js',
   './js/app.js',
   './fonts/bricolage.woff2',
   './fonts/figtree.woff2',
@@ -143,7 +146,12 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
+  // cache: 'reload' skips the browser's HTTP cache (GitHub Pages sends max-age=600), so the fallback copy is this release.
+  event.waitUntil(
+    caches.open(CACHE)
+      .then((cache) => Promise.all(ASSETS.map((a) => cache.add(new Request(a, { cache: 'reload' })))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', (event) => {
@@ -164,17 +172,18 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
+  // Network first, revalidated every time (a 304 is cheap). Only if the network fails do we answer from the stored copy.
   event.respondWith(
-    caches.match(req, { ignoreSearch: true }).then((hit) => {
-      if (hit) return hit;
-      if (req.mode === 'navigate') return caches.match('./index.html');
-      return fetch(req).then((res) => {
+    fetch(req, { cache: 'no-cache' })
+      .then((res) => {
         if (res && res.ok) {
           const copy = res.clone();
           caches.open(CACHE).then((c) => c.put(req, copy));
         }
         return res;
-      });
-    })
+      })
+      .catch(() =>
+        caches.match(req, { ignoreSearch: true }).then((hit) => hit || (req.mode === 'navigate' ? caches.match('./index.html') : Response.error()))
+      )
   );
 });

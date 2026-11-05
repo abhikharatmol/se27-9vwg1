@@ -118,7 +118,7 @@
       '<ul class="tcb-facts"><li><b>75 questions, 300 marks, 180 minutes</b></li>' +
       '<li>Physics, Chemistry, Maths: 20 MCQ + 5 numerical each. All are compulsory. One clock; you can move freely.</li>' +
       '<li>+4 for a correct answer, −1 for a wrong one (MCQ and numerical).</li></ul>' +
-      '<p class="small muted">Pattern as in the 2026 papers. Check the NTA bulletin for 2027 at jeemain.nta.nic.in.</p>' +
+      '<p class="small muted">Official pattern from the JEE Main 2027 information bulletin (NTA, 24 Oct 2026). The real paper runs 9:00 to 12:00 or 3:00 to 6:00.</p>' +
       (have < 75 ? '<p class="small tc-short">' + (have ? 'Only ' + have + ' of 75 questions are in the bank yet: this will be a short paper.' : 'No questions yet.') + '</p>' : '') +
       '<button class="btn primary block rip" data-act="tc-start" data-mode="jee" data-testid="tcb-jee"' + (have ? '' : ' disabled') + '>' + u.icon('timer') + 'Start JEE paper</button>'
     );

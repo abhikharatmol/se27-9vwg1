@@ -19,7 +19,7 @@
   function countdowns() {
     const t = u.today();
     const X = S.exams;
-    const list = X.list().slice().sort((a, b) => (EXAM_ORDER.indexOf(a.id) + 1 || 9) - (EXAM_ORDER.indexOf(b.id) + 1 || 9));
+    const list = X.list().filter((e) => EXAM_ORDER.indexOf(e.id) >= 0).sort((a, b) => (EXAM_ORDER.indexOf(a.id) + 1 || 9) - (EXAM_ORDER.indexOf(b.id) + 1 || 9));
     const out = list.map((raw) => {
       const e = Object.assign({}, raw, { id: u.esc(raw.id), status: u.esc(raw.status) }); // already cleaned; escaped again for the attributes
       const c = X.countdown(e, t);
@@ -34,7 +34,7 @@
       return '<div class="cd" data-testid="cd-' + e.id + '"><span class="cd-n">' + big + (c.kind === 'days' ? '<small>' + (c.n === 1 ? 'day' : 'days') + '</small>' : '') + '</span>' +
         '<span class="cd-l">' + u.esc(label) + '</span><span class="cd-d">' + u.esc(u.dateShort(e.date)) + ' ' + tag + '</span></div>';
     }).join('');
-    return out ? '<section class="cds" aria-label="Exam countdowns">' + out + '</section>' : '';
+    return out ? '<section class="cds" aria-label="Exam countdowns">' + out + '</section><button class="link" data-act="go" data-to="#/plan" data-testid="home-plan">Exam plan and targets</button>' : '';
   }
 
   // Her own syllabus goal (a date in Profile), shown on the Planner.

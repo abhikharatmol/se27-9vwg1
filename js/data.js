@@ -50,6 +50,9 @@
         hours: est.hours,
         deps: est.deps,
         hy: est.hy,
+        cetQ: est.cetQ || 0, // expected questions per CET paper (owner's tracker; an estimate, not official)
+        cetMarks: est.cetMarks || 0,
+        cetTier: est.cetTier || '', // A (must do) | B | C, from the tracker; '' for Computer Science
         est: !!est.est,
         estDefault: !!est.default,
         seedDone: c.status === 'done', // she reported this chapter finished when the syllabus was captured

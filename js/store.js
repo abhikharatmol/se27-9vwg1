@@ -18,7 +18,7 @@
   'use strict';
   const PREFIX = 'sos.v2.';
   const META_KEY = 'sos.meta';
-  const VERSION = 8;
+  const VERSION = 9;
 
   const DEFAULTS = {
     profile: () => ({
@@ -31,7 +31,7 @@
       mcq: 90, // daily questions target
       planStart: '2026-09-21',
       // (Exam dates moved to the `exams` domain in v8. An older stored profile keeps its `exams` field untouched.)
-      goals: { cet: '170+ (99+ percentile)', jee: '180+ (98-99 percentile)', hsc: '90%+' },
+      goals: { cet: '170-180 of 200', jee: '250+ of 300', hsc: '75%+' },
       // Test Center: do wrong JEE numerical answers lose 1 mark? NTA's 2027 bulletin isn't out yet,
       // so this is a setting, not a rule. Each attempt snapshots it at start.
       testCenter: { jeeNumNeg: true },
@@ -62,17 +62,21 @@
     learn: () => ({ prefs: { langs: ['hi', 'hinglish', 'mr', 'en'], speed: 1, autoNext: true }, videos: {}, steps: {}, time: {}, last: null, noEmbed: {} }),
     // Exam dates (js/exams.js), v8. target = her own goal date for finishing the syllabus. list[] = { id, name, date,
     // windowText, status ('expected' | 'official'), note }. No MHT-CET date is fixed: the CET Cell has not published
-    // one (news of 9 Oct 2026: not official). The JEE Main and HSC dates are the ones the app already had.
+    // one (news of 9 Oct 2026: not official). JEE Main dates come from the NTA bulletin of 24 Oct 2026 (v9); the HSC date is the one the app already had.
     exams: () => ({
       seededFromProfile: false, // set by the v8 migration once it copied the old profile dates (it never runs twice)
       target: '2026-12-15',
       list: [
-        { id: 'jee', name: 'JEE Main 2027 (Session 1)', date: '2027-01-22', windowText: '', status: 'expected', note: 'NTA tentative date. Check the official notice.' },
+        { id: 'jee', name: 'JEE Main 2027 (Session 1)', date: '2027-01-20', windowText: '', status: 'official', note: 'NTA information bulletin (24 Oct 2026): Session 1 is 20 to 24 and 28 Jan 2027. Your own date and shift are on the admit card (13 Jan). The count goes to the first day: change it in Profile when you know yours.' },
         { id: 'hsc', name: 'HSC Board 2027', date: '2027-02-08', windowText: '', status: 'expected', note: 'Check the official notice.' },
         {
           id: 'cet', name: 'MHT-CET 2027', date: '', windowText: 'Expected March to May 2027 (not official yet, as of 9 Oct 2026)', status: 'expected',
           note: 'Reports (9 Oct 2026, not official): the CET Cell dropped the December attempt and both attempts come after the Class 12 boards. Sources disagree on the windows. Wait for the CET Cell timetable.',
         },
+        // v9: the second attempts and the Board practicals (all expected, none official; see PROGRESS.md for the sources).
+        { id: 'jee2', name: 'JEE Main 2027 (Session 2)', date: '2027-04-02', windowText: '', status: 'official', note: 'NTA information bulletin (24 Oct 2026): Session 2 is 2 to 7 April 2027. Applications open 5 Jan to 3 Feb 2027. Your own date comes with the admit card.' },
+        { id: 'cet2', name: 'MHT-CET 2027 (Attempt 2)', date: '', windowText: 'Not announced', status: 'expected', note: 'Some reports expect a second CET attempt. Wait for the CET Cell timetable.' },
+        { id: 'hscp', name: 'HSC practicals and internal marks', date: '2027-01-20', windowText: '', status: 'expected', note: 'Reported window 20 Jan to 6 Feb 2027. The board timetable is the official source (mahahsscboard.in).' },
       ],
     }),
   };

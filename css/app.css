@@ -872,3 +872,23 @@ main { padding-bottom: calc(var(--nav-h) + 6rem + var(--safe-b)); }
 .mt-tile.mt-wide b { margin-top: 0; }
 .mt-dot { position: absolute; top: var(--s3); right: var(--s3); width: .8rem; height: .8rem; border-radius: 50%; background: var(--warm); box-shadow: 0 0 0 3px var(--warm-t); }
 .send-summary { white-space: pre-wrap; font: inherit; font-size: .85rem; padding: var(--s3); border-radius: var(--r-md); background: var(--surface-2); margin: var(--s3) 0; max-height: 40vh; overflow: auto; }
+
+/* Exam plan and CET tiers */
+.cr-tier { display: inline-block; margin-left: .25rem; padding: .05rem .5rem; border-radius: 999px; font-size: .7rem; font-weight: 800; background: var(--sct); color: var(--sci); }
+.cr-tier.t-A { background: var(--warm-t); color: var(--warm-i); }
+.pl-exams { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--s3); }
+.pl-exam { display: flex; justify-content: space-between; gap: var(--s3); align-items: flex-start; padding-bottom: var(--s3); border-bottom: 1px solid var(--line, rgba(0, 0, 0, .08)); }
+.pl-exam:last-child { border-bottom: 0; padding-bottom: 0; }
+.pl-exam-b { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.pl-exam-b small { line-height: 1.35; }
+.pl-exam-r { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; }
+.pl-goals { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s2); }
+.pl-goals > div { display: flex; flex-direction: column; gap: 2px; padding: var(--s2); border-radius: 14px; background: var(--surface-2, rgba(0, 0, 0, .04)); }
+.pl-goals small { color: var(--text-3); }
+.pl-table { width: 100%; border-collapse: collapse; text-align: center; }
+.pl-table th, .pl-table td { padding: .4rem .25rem; }
+.pl-table th[scope="row"] { text-align: left; font-weight: 700; }
+.pl-table td b { display: block; }
+.pl-table td small { color: var(--text-3); font-size: .7rem; }
+.pl-tier { flex: none; display: grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; font-weight: 800; font-size: .8rem; background: var(--sct); color: var(--sci); }
+.pl-tier.t-A { background: var(--warm-t); color: var(--warm-i); }
