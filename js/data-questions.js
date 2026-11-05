@@ -7109,6 +7109,3371 @@
     ]
   },
   {
+    "id": "chem-12-01-m01",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which of these statements describes an amorphous solid?",
+    "options": [
+      "it has the same properties in all directions because of its crystal lattice",
+      "its particles have only short-range order, and it softens over a range of temperature",
+      "it melts sharply at one fixed temperature",
+      "its particles are arranged in a regular pattern over long distances"
+    ],
+    "ans": 1,
+    "solution": "An amorphous solid, such as glass or rubber, has no long-range order. It has no sharp melting point and is called a supercooled liquid. Crystalline solids have a regular lattice and melt sharply.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m02",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Crystalline solids are anisotropic. This means that:",
+    "options": [
+      "some physical properties, such as refractive index, differ in different directions",
+      "all their properties are the same in every direction",
+      "they melt at different temperatures in different directions",
+      "they have no regular arrangement of particles"
+    ],
+    "ans": 0,
+    "solution": "In a crystal the particles are arranged differently along different directions, so properties like electrical conductivity or refractive index can depend on the direction. Amorphous solids are isotropic.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m03",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A solid is hard and brittle, does not conduct as a solid, but conducts electricity when it melts. It is most likely:",
+    "options": [
+      "a covalent network solid",
+      "a molecular solid",
+      "a metallic solid",
+      "an ionic solid"
+    ],
+    "ans": 3,
+    "solution": "In an ionic solid the strong electrostatic forces between ions make it hard and brittle. The ions are fixed in the solid, but they are free to move in the molten state, so the melt conducts.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m04",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Diamond is a very hard solid with a very high melting point and does not conduct electricity. It is classified as:",
+    "options": [
+      "a molecular solid held by van der Waals forces",
+      "a metallic solid",
+      "a covalent (network) solid",
+      "an ionic solid"
+    ],
+    "ans": 2,
+    "solution": "Every carbon atom in diamond is bonded to four others by covalent bonds, throughout the whole crystal. Breaking it needs the breaking of these strong bonds.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m05",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Dry ice (solid carbon dioxide) is an example of:",
+    "options": [
+      "a metallic solid",
+      "an ionic solid",
+      "a covalent network solid",
+      "a molecular solid"
+    ],
+    "ans": 3,
+    "solution": "CO\u001082 molecules are held in the lattice only by weak van der Waals forces. That is why dry ice sublimes easily and is soft.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m06",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The high electrical conductivity and malleability of metals are explained by:",
+    "options": [
+      "a sea of mobile electrons shared by metal cations",
+      "strong ionic bonds between neighbouring atoms",
+      "directional covalent bonds that can rotate",
+      "weak van der Waals forces between atoms"
+    ],
+    "ans": 0,
+    "solution": "In a metal, the valence electrons are not fixed to any atom. They move through the lattice, carrying current, and the layers of atoms can slide over each other without breaking the bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m07",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A unit cell is:",
+    "options": [
+      "the empty space between two lattice planes",
+      "the smallest repeating unit that builds the whole crystal lattice",
+      "a single atom sitting at one lattice point only",
+      "the largest group of atoms that can be seen in a crystal"
+    ],
+    "ans": 1,
+    "solution": "The whole crystal is built by repeating the unit cell in all three directions with no gaps.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m08",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The number of atoms per unit cell in a simple cubic, a body-centred cubic and a face-centred cubic lattice is, respectively:",
+    "options": [
+      "1, 4 and 2",
+      "1, 2 and 6",
+      "1, 2 and 4",
+      "2, 1 and 4"
+    ],
+    "ans": 2,
+    "solution": "Corner atoms count 1/8 each, face atoms 1/2 each, and a body-centre atom 1. Simple cubic: 8 \u0000d7 1/8 = 1. BCC: 1 + 1 = 2. FCC: 1 + 6 \u0000d7 1/2 = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m09",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The coordination number of an atom in a face-centred cubic (cubic close packed) structure is:",
+    "options": [
+      "8 (the value in a body-centred cubic structure)",
+      "4 (the value in a diamond structure)",
+      "6 (the value in a simple cubic structure)",
+      "12 (the same as in hexagonal close packing)"
+    ],
+    "ans": 3,
+    "solution": "Each atom touches 12 neighbours: 4 in its own layer, 4 in the layer above and 4 in the layer below. The same value holds in hexagonal close packing.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m10",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The coordination number of an atom in a body-centred cubic structure is:",
+    "options": [
+      "6",
+      "12",
+      "8",
+      "4"
+    ],
+    "ans": 2,
+    "solution": "The atom at the centre touches the 8 corner atoms. In a simple cubic structure the value is 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m11",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The packing efficiency of a face-centred cubic (and hexagonal close packed) structure is about:",
+    "options": [
+      "74%",
+      "52.4%",
+      "90%",
+      "68%"
+    ],
+    "ans": 0,
+    "solution": "The atoms fill about 74% of the volume. The BCC structure fills 68%, and the simple cubic one 52.4%.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m12",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Arrange the structures in order of increasing packing efficiency:",
+    "options": [
+      "face-centred cubic, body-centred cubic, simple cubic",
+      "simple cubic, body-centred cubic, face-centred cubic",
+      "body-centred cubic, simple cubic, face-centred cubic",
+      "simple cubic, face-centred cubic, body-centred cubic"
+    ],
+    "ans": 1,
+    "solution": "The efficiencies are 52.4% for simple cubic, 68% for BCC and 74% for FCC, so the order is SC, then BCC, then FCC.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m13",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In hexagonal close packing and in cubic close packing the layers are stacked in the order:",
+    "options": [
+      "ABCABC... for hexagonal and ABAB... for cubic",
+      "ABAB... for hexagonal and ABCABC... for cubic",
+      "ABAB... for both",
+      "ABCABC... for both"
+    ],
+    "ans": 1,
+    "solution": "In hcp the third layer lies exactly over the first, which gives ABAB. In ccp (the fcc lattice) the third layer sits over the other set of hollows, giving ABCABC.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m14",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a crystal with N atoms in cubic close packing, the number of tetrahedral voids and octahedral voids is, respectively:",
+    "options": [
+      "2N and N",
+      "N and N",
+      "N and 2N",
+      "2N and 2N"
+    ],
+    "ans": 0,
+    "solution": "Each atom has two tetrahedral voids and one octahedral void associated with it. So the numbers are 2N and N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m15",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Of the two types of void in a close-packed structure, which one is larger?",
+    "options": [
+      "the tetrahedral void",
+      "neither: the voids are empty and have no size",
+      "they have the same size",
+      "the octahedral void"
+    ],
+    "ans": 3,
+    "solution": "An octahedral void is surrounded by six atoms and is bigger (radius about 0.414R) than a tetrahedral void, surrounded by four atoms (about 0.225R).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m16",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a face-centred cubic unit cell of edge a, atoms of radius r touch along the face diagonal. The relation between a and r is:",
+    "options": [
+      "a = 4r/a3",
+      "a = a2 r",
+      "a = 2a2 r",
+      "a = 2r"
+    ],
+    "ans": 2,
+    "solution": "Along the face diagonal, which has length aa2, the atoms cover a length r + 2r + r = 4r. So aa2 = 4r, which gives a = 2a2 r.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m17",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a body-centred cubic unit cell of edge a, atoms of radius r touch along the body diagonal. The relation is:",
+    "options": [
+      "a = 4r/a3",
+      "a = 4ra3",
+      "a = 2r",
+      "a = 2a2 r"
+    ],
+    "ans": 0,
+    "solution": "The body diagonal has length aa3 and contains 4r. So aa3 = 4r, which gives a = 4r/a3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m18",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A Schottky defect, in an ionic crystal such as NaCl, is the absence of:",
+    "options": [
+      "an electron which is trapped in an anionic vacancy",
+      "a cation from its site, which moves to an interstitial position",
+      "equal numbers of cations and anions from their lattice sites, which lowers the density",
+      "only cations from their lattice sites, which raises the density"
+    ],
+    "ans": 2,
+    "solution": "Pairs of oppositely charged ions leave the crystal, so the crystal stays electrically neutral, and the mass per unit volume falls. The defect is common when the ions are of similar size, as in NaCl and KCl.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m19",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A Frenkel defect is found in a crystal such as AgBr. In this defect:",
+    "options": [
+      "a cation and an anion are both missing, which lowers the density",
+      "extra cations are present in the interstitial spaces, which raises the density",
+      "an anion sits in an interstitial site, which lowers the density",
+      "a cation leaves its lattice site and sits in an interstitial position, with no change in density"
+    ],
+    "ans": 3,
+    "solution": "The small Aga ion moves into a gap, leaving a vacancy. The number of ions is the same, so the density does not change. The defect is found when there is a large difference between the sizes of the cation and the anion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m20",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Sodium chloride crystals heated in sodium vapour turn yellow. The colour is due to:",
+    "options": [
+      "Schottky defects, missing pairs of ions",
+      "F-centres, anionic vacancies occupied by trapped electrons",
+      "Frenkel defects, ions in interstitial sites",
+      "the presence of free sodium atoms between the layers"
+    ],
+    "ans": 1,
+    "solution": "Extra sodium goes in as Naa, and the Clb ions it leaves behind produce vacancies. The electrons left behind from the sodium atoms are trapped in these vacancies and absorb visible light, which gives the colour.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m21",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A semiconductor is made n-type by doping pure silicon with a small amount of:",
+    "options": [
+      "an element of group 18, such as argon",
+      "an element of group 14, such as carbon",
+      "an element of group 15, such as arsenic",
+      "an element of group 13, such as boron"
+    ],
+    "ans": 2,
+    "solution": "A group 15 atom has five valence electrons. Four of them bond with the neighbouring silicon atoms and the fifth is free to conduct, so the carriers are negative (n-type).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m22",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A semiconductor is made p-type by doping pure silicon with a small amount of:",
+    "options": [
+      "an element of group 15, such as phosphorus",
+      "an element of group 13, such as boron",
+      "an element of group 14, such as germanium",
+      "an element of group 17, such as chlorine"
+    ],
+    "ans": 1,
+    "solution": "A group 13 atom has only three valence electrons, so one bond is incomplete. This gap, called a hole, moves like a positive carrier (p-type).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m23",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "According to band theory, an insulator differs from a conductor because it has:",
+    "options": [
+      "an overlap of the valence band and the conduction band",
+      "no valence electrons",
+      "a partly filled valence band",
+      "a large energy gap between the filled valence band and the empty conduction band"
+    ],
+    "ans": 3,
+    "solution": "In an insulator, the electrons cannot reach the conduction band at ordinary temperatures because the gap is so large. In a metal, the bands overlap or the band is partly filled.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m24",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A substance that is attracted weakly by a magnetic field, because its atoms contain unpaired electrons, is called:",
+    "options": [
+      "paramagnetic",
+      "ferromagnetic",
+      "antiferromagnetic",
+      "diamagnetic"
+    ],
+    "ans": 0,
+    "solution": "The magnetic moments of unpaired electrons turn towards the field, so the substance is weakly attracted (for example O\u001082, Cu\u0000b2a). It loses its magnetism when the field is removed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m25",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Substances such as iron, cobalt and nickel are strongly attracted by a magnetic field and can be permanently magnetised. They are:",
+    "options": [
+      "antiferromagnetic",
+      "diamagnetic",
+      "paramagnetic",
+      "ferromagnetic"
+    ],
+    "ans": 3,
+    "solution": "In a ferromagnetic substance the magnetic moments of many atoms line up in the same direction in small regions called domains, which gives a strong attraction. Heating above a certain temperature (the Curie temperature) destroys this and makes it paramagnetic.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m26",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Substances with all their electrons paired, such as sodium chloride and water, are weakly repelled by a magnetic field. They are called:",
+    "options": [
+      "ferromagnetic",
+      "ferrimagnetic",
+      "diamagnetic",
+      "paramagnetic"
+    ],
+    "ans": 2,
+    "solution": "With no unpaired electrons, there is no permanent magnetic moment. The applied field induces a small opposing moment, so the substance is repelled weakly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-m27",
+    "ch": "chem-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The density of a crystal with Z atoms per unit cell, molar mass M, and edge length a is:",
+    "options": [
+      "ZM/(a\u0000b3 N_A)",
+      "ZM a\u0000b3/N_A",
+      "M/(Z a\u0000b3 N_A)",
+      "Z N_A/(M a\u0000b3)"
+    ],
+    "ans": 0,
+    "solution": "The mass of the unit cell is Z \u0000d7 (M/N_A) and its volume is a\u0000b3, so the density is \u0003c1 = ZM/(a\u0000b3N_A).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-01-n01",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Copper has a face-centred cubic structure with edge length 361 pm. Find the radius of a copper atom in picometres. Give your answer to 1 decimal place.",
+    "ans": 127.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "In FCC, atoms touch along the face diagonal: aa2 = 4r, so r = a/(2a2) = 361/2.828 = 127.6 pm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n02",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Iron (at room temperature) has a body-centred cubic structure with atomic radius 124 pm. Find the edge length of its unit cell in picometres. Give your answer to 1 decimal place.",
+    "ans": 286.4,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "In BCC, atoms touch along the body diagonal: aa3 = 4r, so a = 4 \u0000d7 124/1.732 = 286.4 pm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n03",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Copper (molar mass 63.5 g/mol) has an FCC structure with edge length 361 pm (1 pm = 10b\u0000b90 cm). Take N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol and find its density in g/cm\u0000b3. Give your answer to 2 decimal places.",
+    "ans": 8.97,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "\u0003c1 = ZM/(a\u0000b3N_A) = 4 \u0000d7 63.5/((3.61 \u0000d7 10b8)\u0000b3 \u0000d7 6.022 \u0000d7 10\u0000b2\u0000b3) = 8.97 g/cm\u0000b3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n04",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the packing efficiency, in per cent, of a face-centred cubic structure. Give your answer to 2 decimal places.",
+    "ans": 74.05,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Four atoms of volume (4/3)\u0003c0r\u0000b3 each fill a cell of volume a\u0000b3 = (2a2 r)\u0000b3 = 16a2 r\u0000b3. Efficiency = 16\u0003c0/(3 \u0000d7 16a2) = \u0003c0/(3a2) = 74.05%.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n05",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "How many face-centred cubic unit cells are there in 63.5 g of copper (molar mass 63.5 g/mol)? Give the answer in units of 10\u0000b2\u0000b3, taking N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol. Give your answer to 2 decimal places.",
+    "ans": 1.51,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "63.5 g is 1 mole, which is N_A atoms. Each FCC cell has 4 atoms, so the number of cells is N_A/4 = 1.5055 \u0000d7 10\u0000b2\u0000b3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n06",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Sodium chloride (molar mass 58.5 g/mol) has an FCC arrangement with 4 formula units per unit cell, and a density of 2.165 g/cm\u0000b3. Take N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol and find the edge length of the unit cell in picometres. Give your answer as a whole number.",
+    "ans": 564.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "a\u0000b3 = ZM/(\u0003c1N_A) = 4 \u0000d7 58.5/(2.165 \u0000d7 6.022 \u0000d7 10\u0000b2\u0000b3) = 1.795 \u0000d7 10b\u0000b2\u0000b2 cm\u0000b3, so a = 5.64 \u0000d7 10b8 cm = 564 pm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n07",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A crystal with 2.0 \u0000d7 10\u0000b2\u0000b2 atoms is cubic close packed. Find the number of tetrahedral voids in it, in units of 10\u0000b2\u0000b2. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "There are two tetrahedral voids per atom in close packing: 2 \u0000d7 2.0 \u0000d7 10\u0000b2\u0000b2 = 4.0 \u0000d7 10\u0000b2\u0000b2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n08",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Atoms of radius 100 pm form a simple cubic lattice. Find the volume of the unit cell in units of 10b\u0000b24 cm\u0000b3. Give your answer to 1 decimal place.",
+    "ans": 8.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "In simple cubic the atoms touch along the edge, so a = 2r = 200 pm = 2 \u0000d7 10b8 cm. V = a\u0000b3 = 8 \u0000d7 10b\u0000b24 cm\u0000b3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n09",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the mass of one face-centred cubic unit cell of copper (molar mass 63.5 g/mol), in units of 10b\u0000b2\u0000b2 g (N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol). Give your answer to 2 decimal places.",
+    "ans": 4.22,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Four atoms of mass 63.5/N_A each: m = 4 \u0000d7 63.5/6.022 \u0000d7 10\u0000b2\u0000b3 = 4.22 \u0000d7 10b\u0000b2\u0000b2 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-01-n10",
+    "ch": "chem-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "A metal of molar mass 50 g/mol has a body-centred cubic structure and a density of 5.96 g/cm\u0000b3. Take N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol and find the edge length of the unit cell in picometres. Give your answer to 1 decimal place.",
+    "ans": 303.2,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "a\u0000b3 = ZM/(\u0003c1N_A) = 2 \u0000d7 50/(5.96 \u0000d7 6.022 \u0000d7 10\u0000b2\u0000b3) = 2.786 \u0000d7 10b\u0000b2\u0000b3 cm\u0000b3, so a = 3.03 \u0000d7 10b8 cm = 303.2 pm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-m01",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Molality of a solution is defined as the number of moles of solute:",
+    "options": [
+      "per litre of solution, and it changes with temperature",
+      "per litre of solution, and it does not change with temperature",
+      "per kilogram of solvent, and it changes with temperature",
+      "per kilogram of solvent, and it does not change with temperature"
+    ],
+    "ans": 3,
+    "solution": "Molality m = moles of solute/mass of solvent in kg. Masses do not change when the temperature changes, but volumes do, so molarity (moles per litre of solution) varies slightly with temperature while molality does not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m02",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The molarity of a solution changes with temperature because:",
+    "options": [
+      "the volume of the solution changes with temperature",
+      "the number of moles of solute changes with temperature",
+      "the mass of the solute changes with temperature",
+      "the molar mass of the solute changes with temperature"
+    ],
+    "ans": 0,
+    "solution": "Molarity is moles per litre of solution. The moles of solute are fixed, but the volume expands or contracts as the temperature changes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m03",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In a solution with components A and B, the mole fractions x_A and x_B satisfy:",
+    "options": [
+      "x_A × x_B = 1",
+      "x_A + x_B = 1",
+      "x_A − x_B = 1",
+      "x_A + x_B = 100"
+    ],
+    "ans": 1,
+    "solution": "Mole fractions are fractions of the total number of moles, so they always add up to 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m04",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "At constant temperature, how does the amount of a gas that dissolves in a liquid depend on the pressure of that gas above the liquid (Henry's law)?",
+    "options": [
+      "it does not depend on the pressure at all",
+      "it is inversely proportional to the pressure",
+      "it is directly proportional to the pressure",
+      "it is directly proportional to the square of the pressure"
+    ],
+    "ans": 2,
+    "solution": "S = k_H p, where k_H is Henry's law constant for that gas and solvent. This is why soda is bottled under high pressure and fizzes when the cap is opened.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m05",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When the temperature of water is raised, the solubility of a gas such as oxygen in it:",
+    "options": [
+      "first increases and then decreases",
+      "decreases",
+      "increases",
+      "does not change"
+    ],
+    "ans": 1,
+    "solution": "Dissolving a gas in a liquid releases heat (it is exothermic), so by Le Chatelier's principle heating the liquid pushes the equilibrium the other way. Fish suffer in warm water because less oxygen dissolves.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m06",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Raoult's law for a solution of two volatile liquids says that the partial vapour pressure of component A is:",
+    "options": [
+      "p_A = x_A + p_A°, where p_A° is the vapour pressure of pure A",
+      "p_A = p_A°/x_A, where p_A° is the vapour pressure of pure A",
+      "p_A = x_A p_A°, where p_A° is the vapour pressure of pure A",
+      "p_A = x_B p_A°, where p_A° is the vapour pressure of pure A"
+    ],
+    "ans": 2,
+    "solution": "The vapour pressure of each component is proportional to its mole fraction in the liquid. The total vapour pressure is p = p_A + p_B.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m07",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a solution of a non-volatile solute in a volatile solvent, the relative lowering of vapour pressure (p° − p)/p° equals:",
+    "options": [
+      "the molality of the solute",
+      "the mole fraction of the solvent",
+      "the molarity of the solute",
+      "the mole fraction of the solute"
+    ],
+    "ans": 3,
+    "solution": "From Raoult's law, p = x_solvent p°, so (p° − p)/p° = 1 − x_solvent = x_solute.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m08",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An ideal solution is one that:",
+    "options": [
+      "obeys Raoult's law at all concentrations, with no heat change and no volume change on mixing",
+      "shows a large change of volume on mixing, but no heat change",
+      "obeys Raoult's law only at low concentrations, with a large heat change on mixing",
+      "obeys Henry's law at all concentrations, with no volume change on mixing"
+    ],
+    "ans": 0,
+    "solution": "In an ideal solution the forces between unlike molecules (A–B) are the same as between like ones (A–A and B–B). So ΔH_mix = 0 and ΔV_mix = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m09",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solution shows a positive deviation from Raoult's law when:",
+    "options": [
+      "the A–B attractions are the same as the A–A and B–B attractions",
+      "the A–B attractions are stronger than the A–A and B–B attractions",
+      "the A–B attractions are weaker than the A–A and B–B attractions",
+      "the solute is non-volatile and does not mix with the solvent"
+    ],
+    "ans": 2,
+    "solution": "Weaker A–B forces let the molecules escape more easily, so the vapour pressure is higher than predicted. The mixing is endothermic (ΔH positive), as in ethanol with water or with acetone.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m10",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A mixture of acetone and chloroform shows a negative deviation from Raoult's law because:",
+    "options": [
+      "hydrogen bonding between the two kinds of molecule makes A–B attractions stronger",
+      "the two liquids repel each other strongly when mixed",
+      "acetone and chloroform have identical vapour pressures",
+      "the mixing of the two liquids absorbs a large amount of heat"
+    ],
+    "ans": 0,
+    "solution": "The hydrogen atom of CHCl₃ bonds with the oxygen of acetone, so molecules are held more strongly and escape less. The vapour pressure is lower than predicted, and heat is given out when they mix.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m11",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An azeotropic mixture is a mixture of liquids that:",
+    "options": [
+      "can be completely separated by simple fractional distillation",
+      "freezes at a constant temperature but boils over a range",
+      "boils over a wide range of temperature, with the vapour richer in the more volatile liquid",
+      "boils at a constant temperature and gives a vapour of the same composition as the liquid"
+    ],
+    "ans": 3,
+    "solution": "At the azeotropic composition, the liquid and the vapour have the same composition, so distillation cannot separate the components any further.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m12",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Colligative properties of a solution depend on:",
+    "options": [
+      "the size of the solute particles only",
+      "the number of solute particles, and not on their nature",
+      "the colour and density of the solute",
+      "the chemical nature of the solute particles only"
+    ],
+    "ans": 1,
+    "solution": "Vapour pressure lowering, boiling point elevation, freezing point depression and osmotic pressure depend only on how many solute particles are dissolved in a given amount of solvent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m13",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The elevation of boiling point of a dilute solution of a non-volatile solute is related to the molality m by:",
+    "options": [
+      "ΔT_b = K_b/m",
+      "ΔT_b = K_b m²",
+      "ΔT_b = K_b m",
+      "ΔT_b = m/K_b"
+    ],
+    "ans": 2,
+    "solution": "The boiling point elevation is proportional to the molality. K_b is the molal elevation constant of the solvent (0.52 K kg/mol for water).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m14",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The depression of freezing point of a dilute solution is given by:",
+    "options": [
+      "ΔT_f = K_f m²",
+      "ΔT_f = K_f + m",
+      "ΔT_f = K_f/m",
+      "ΔT_f = K_f m"
+    ],
+    "ans": 3,
+    "solution": "ΔT_f is proportional to molality, with the molal depression constant K_f as the constant of proportionality (1.86 K kg/mol for water).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m15",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Salt is spread on icy roads in cold countries mainly because:",
+    "options": [
+      "it lowers the freezing point of water, so the ice melts",
+      "it reacts with the ice and gives out heat",
+      "it raises the boiling point of water, so the ice melts",
+      "it increases the vapour pressure of the ice"
+    ],
+    "ans": 0,
+    "solution": "A solution of salt in water freezes at a lower temperature than pure water. The ice dissolves some salt and melts, even though the air is below 0 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m16",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The osmotic pressure π of a dilute solution of concentration C (mol/L) at temperature T is:",
+    "options": [
+      "π = RT/C",
+      "π = CRT",
+      "π = C/RT",
+      "π = CR/T"
+    ],
+    "ans": 1,
+    "solution": "The van't Hoff equation π = CRT has the same form as the ideal gas law P = (n/V)RT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m17",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two solutions that have the same osmotic pressure at the same temperature are called:",
+    "options": [
+      "ideal solutions",
+      "hypotonic solutions",
+      "hypertonic solutions",
+      "isotonic solutions"
+    ],
+    "ans": 3,
+    "solution": "When two isotonic solutions are separated by a semipermeable membrane, there is no net flow of solvent between them. A 0.9% NaCl solution is isotonic with blood and is used as 'normal saline'.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m18",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Reverse osmosis is used for the desalination of sea water. In this process:",
+    "options": [
+      "a pressure is applied on the pure-solvent side",
+      "a pressure larger than the osmotic pressure is applied on the solution side",
+      "the temperature is raised above the boiling point of the water",
+      "a pressure smaller than the osmotic pressure is applied on the solution side"
+    ],
+    "ans": 1,
+    "solution": "If the applied pressure is greater than π, the solvent flows from the solution through the membrane to the pure-solvent side, and fresh water collects there.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m19",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The van't Hoff factor i for a solute that does not dissociate or associate in solution, such as glucose, is:",
+    "options": [
+      "0.5",
+      "0",
+      "1",
+      "2"
+    ],
+    "ans": 2,
+    "solution": "i = (observed colligative effect)/(calculated effect assuming no dissociation or association). If the molecules stay intact, i = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m20",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The van't Hoff factor of acetic acid dissolved in benzene, where the molecules form dimers, is close to:",
+    "options": [
+      "about 0.5",
+      "about 2",
+      "about 1",
+      "about 3"
+    ],
+    "ans": 0,
+    "solution": "Two molecules join into one dimer, so the number of particles falls to about half, and i is about 0.5. If a solute dissociates, i is greater than 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m21",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Assuming complete dissociation, which of these 0.1 molal aqueous solutions has the lowest freezing point?",
+    "options": [
+      "AlCl₃",
+      "K₂SO₄",
+      "glucose",
+      "NaCl"
+    ],
+    "ans": 0,
+    "solution": "ΔT_f = i K_f m. The values of i are 4 for AlCl₃, 3 for K₂SO₄, 2 for NaCl and 1 for glucose. The largest i gives the largest depression and so the lowest freezing point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m22",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At the same concentration and temperature, which solution has the higher osmotic pressure?",
+    "options": [
+      "0.1 M sucrose, because its molecules are larger",
+      "0.1 M sucrose, because it does not dissociate",
+      "they are equal, because the concentrations are equal",
+      "0.1 M NaCl, because it gives about twice as many particles"
+    ],
+    "ans": 3,
+    "solution": "Osmotic pressure depends on the number of particles. NaCl gives two ions per formula unit (i close to 2), while sucrose stays as one molecule (i = 1).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m23",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A semipermeable membrane is a membrane that allows:",
+    "options": [
+      "the solute molecules to pass through but not the solvent molecules",
+      "neither solvent nor solute molecules to pass through",
+      "the solvent molecules to pass through but not the solute molecules",
+      "both solvent and solute molecules to pass through freely"
+    ],
+    "ans": 2,
+    "solution": "Osmosis is the flow of solvent through such a membrane from the dilute solution to the concentrated one.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m24",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A red blood cell placed in a solution that is more concentrated than the fluid inside the cell will:",
+    "options": [
+      "swell, because salt flows into the cell",
+      "shrink, because water flows out of the cell",
+      "stay unchanged, because the membrane is closed",
+      "swell, because water flows into the cell"
+    ],
+    "ans": 1,
+    "solution": "The cell membrane is semipermeable. Water moves from the cell (less concentrated) to the surrounding (more concentrated) solution, so the cell shrinks.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m25",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of these is NOT a colligative property?",
+    "options": [
+      "the density of the solution",
+      "the osmotic pressure",
+      "the lowering of vapour pressure",
+      "the elevation of the boiling point"
+    ],
+    "ans": 0,
+    "solution": "The first three depend only on the number of solute particles. The density depends on the mass and nature of the solute.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m26",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The mass percentage of a solution made by dissolving 5 g of solute in 95 g of solvent is:",
+    "options": [
+      "95%",
+      "5.26%",
+      "19%",
+      "5%"
+    ],
+    "ans": 3,
+    "solution": "Mass % = mass of solute/mass of solution × 100 = 5/(5 + 95) × 100 = 5%. The value 5.26% comes from dividing by the mass of the solvent alone, which is wrong.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-m27",
+    "ch": "chem-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A solution contains 1 mole of a solute and 9 moles of a solvent. The mole fraction of the solute is:",
+    "options": [
+      "0.9",
+      "10",
+      "0.1",
+      "0.111111"
+    ],
+    "ans": 2,
+    "solution": "x = moles of solute/total moles = 1/(1 + 9) = 0.1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-02-n01",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "4 g of sodium hydroxide (molar mass 40 g/mol) is dissolved in water to make 500 mL of solution. Find the molarity in mol/L. Give your answer to 2 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Moles = 4/40 = 0.1 mol. Volume = 0.5 L. M = 0.1/0.5 = 0.20 mol/L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n02",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "18 g of glucose (molar mass 180 g/mol) is dissolved in 250 g of water. Find the molality in mol/kg. Give your answer to 2 decimal places.",
+    "ans": 0.4,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Moles = 18/180 = 0.1 mol. Mass of solvent = 0.25 kg. m = 0.1/0.25 = 0.40 mol/kg.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n03",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "A solution is made of 36 g of water (molar mass 18 g/mol) and 46 g of ethanol (molar mass 46 g/mol). Find the mole fraction of water. Give your answer to 3 decimal places.",
+    "ans": 0.667,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "n(water) = 36/18 = 2 mol, n(ethanol) = 46/46 = 1 mol. x(water) = 2/3 = 0.667.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n04",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "The vapour pressure of a pure solvent is 760 mmHg. A non-volatile solute of mole fraction 0.1 is dissolved in it. Find the vapour pressure of the solution in mmHg. Give your answer as a whole number.",
+    "ans": 684.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "p = x_solvent p° = 0.9 × 760 = 684 mmHg. (The lowering is 0.1 × 760 = 76 mmHg.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n05",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the elevation of boiling point, in kelvin, of a 0.5 molal aqueous solution of glucose (K_b of water = 0.52 K kg/mol). Give your answer to 2 decimal places.",
+    "ans": 0.26,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ΔT_b = K_b m = 0.52 × 0.5 = 0.26 K. The solution boils at 100.26 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n06",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "3.0 g of urea (molar mass 60 g/mol) is dissolved in 100 g of water. Find the depression of freezing point in kelvin (K_f of water = 1.86 K kg/mol). Give your answer to 2 decimal places.",
+    "ans": 0.93,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "m = (3/60)/0.1 = 0.5 mol/kg. ΔT_f = K_f m = 1.86 × 0.5 = 0.93 K.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n07",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the osmotic pressure, in atm, of a solution of concentration 0.01 mol/L at 300 K (R = 0.0821 L atm/(mol K)). Give your answer to 3 decimal places.",
+    "ans": 0.246,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "π = CRT = 0.01 × 0.0821 × 300 = 0.246 atm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n08",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "1.5 g of a non-electrolyte dissolved in 50 g of benzene lowers its freezing point by 0.64 K (K_f of benzene = 5.12 K kg/mol). Find the molar mass of the solute in g/mol. Give your answer as a whole number.",
+    "ans": 240.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "m = ΔT_f/K_f = 0.64/5.12 = 0.125 mol/kg. Moles = 0.125 × 0.05 = 0.00625. M = 1.5/0.00625 = 240 g/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n09",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the depression of freezing point, in kelvin, of a 0.1 molal aqueous solution of NaCl, assuming complete dissociation (K_f of water = 1.86 K kg/mol). Give your answer to 3 decimal places.",
+    "ans": 0.372,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "NaCl gives 2 ions, so i = 2. ΔT_f = i K_f m = 2 × 1.86 × 0.1 = 0.372 K.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-02-n10",
+    "ch": "chem-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "The solubility of a gas in water at 1 atm is 0.0014 mol/L at a certain temperature. Find its solubility, in mol/L, at the same temperature and a pressure of 3 atm. Give your answer to 4 decimal places.",
+    "ans": 0.0042,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "By Henry's law S is proportional to p, so S = 0.0014 × 3 = 0.0042 mol/L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-m01",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A thermos flask of hot tea with its lid tightly closed is best described as:",
+    "options": [
+      "a system that exchanges both matter and energy with the surroundings",
+      "a system that exchanges matter but not energy with the surroundings",
+      "a system that exchanges energy but not matter with the surroundings",
+      "a system that cannot exchange matter and, as an ideal case, no energy either"
+    ],
+    "ans": 3,
+    "solution": "An isolated system exchanges neither matter nor energy. The closed lid stops matter leaving, and the insulation (ideally) stops heat. A closed system exchanges energy but not matter, and an open system exchanges both.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m02",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A state function is a property whose value depends:",
+    "options": [
+      "on the amount of heat exchanged during the change",
+      "on the time taken to change from one state to another",
+      "only on the present state of the system, and not on how it reached that state",
+      "on the path followed between the initial and the final state"
+    ],
+    "ans": 2,
+    "solution": "Internal energy U, enthalpy H, entropy S and Gibbs energy G are state functions. Heat q and work w depend on the path, so they are not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m03",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these is an intensive property?",
+    "options": [
+      "mass",
+      "temperature",
+      "internal energy",
+      "volume"
+    ],
+    "ans": 1,
+    "solution": "An intensive property does not depend on the amount of matter. Temperature, pressure and density are intensive. Mass, volume and energy are extensive: they double when the amount doubles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m04",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The first law of thermodynamics, with the convention that work done on the system is positive, is written as:",
+    "options": [
+      "ΔU = q + w",
+      "ΔU = w − q",
+      "ΔU = q − w",
+      "ΔU = q/w"
+    ],
+    "ans": 0,
+    "solution": "The internal energy of a system rises when heat is absorbed (q positive) or when work is done on it (w positive). Energy is conserved.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m05",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A gas expands against a constant external pressure P_ext from volume V₁ to V₂. The work w (done on the system) is:",
+    "options": [
+      "−P_ext/(V₂ − V₁)",
+      "+P_ext(V₂ − V₁)",
+      "−(V₂ − V₁)/P_ext",
+      "−P_ext(V₂ − V₁)"
+    ],
+    "ans": 3,
+    "solution": "When the gas expands, it does work on the surroundings, so w is negative for the system. In SI units, P in pascal and V in m³ give w in joule.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m06",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work done when an ideal gas expands into a vacuum (free expansion) is:",
+    "options": [
+      "negative, because the volume increases",
+      "zero, because the external pressure is zero",
+      "equal to −PV, because the gas expands",
+      "positive, because the volume increases"
+    ],
+    "ans": 1,
+    "solution": "w = −P_extΔV. If P_ext = 0, then w = 0, however large the increase in volume.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m07",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An ideal gas expands isothermally. Which of these is true for the change?",
+    "options": [
+      "ΔU = 0, so the heat absorbed equals the work done by the gas",
+      "q = 0, so the work done equals the fall in internal energy",
+      "ΔU is positive, so the heat absorbed is more than the work done",
+      "ΔU is negative, so the gas gives out heat"
+    ],
+    "ans": 0,
+    "solution": "The internal energy of an ideal gas depends only on temperature. At constant temperature ΔU = 0, so q = −w. The heat taken in from the surroundings is all converted into work.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m08",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In an adiabatic change, for a closed system:",
+    "options": [
+      "ΔT = 0, so q = w",
+      "w = 0, so ΔU = q",
+      "q = 0, so ΔU = w",
+      "ΔU = 0, so q = −w"
+    ],
+    "ans": 2,
+    "solution": "Adiabatic means no heat is exchanged. Any change in internal energy is due to work alone. A gas that expands adiabatically does work on the surroundings and cools down.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m09",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The enthalpy of a system is defined as:",
+    "options": [
+      "H = U + P/V",
+      "H = U + PV",
+      "H = U − PV",
+      "H = U/PV"
+    ],
+    "ans": 1,
+    "solution": "H is a state function that includes the energy needed to make room for the system, PV. At constant pressure, the heat exchanged equals the change in enthalpy: q_p = ΔH.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m10",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The relation between the change of enthalpy and the change of internal energy of a reaction involving gases is:",
+    "options": [
+      "ΔH = ΔU + Δn_g RT",
+      "ΔH = ΔU − Δn_g RT",
+      "ΔH = ΔU + RT/Δn_g",
+      "ΔH = ΔU × Δn_g RT"
+    ],
+    "ans": 0,
+    "solution": "At constant pressure, Δ(PV) = Δn_g RT, where Δn_g is the moles of gaseous products minus the moles of gaseous reactants.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m11",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For which of these reactions is ΔH equal to ΔU?",
+    "options": [
+      "2SO₂(g) + O₂(g) → 2SO₃(g)",
+      "PCl₅(g) → PCl₃(g) + Cl₂(g)",
+      "H₂(g) + I₂(g) → 2HI(g)",
+      "N₂(g) + 3H₂(g) → 2NH₃(g)"
+    ],
+    "ans": 2,
+    "solution": "ΔH = ΔU + Δn_g RT, so they are equal only if Δn_g = 0. In the HI reaction 2 mol of gas give 2 mol of gas. The others change the number of gas moles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m12",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "For an exothermic reaction at constant pressure, the sign of ΔH is:",
+    "options": [
+      "positive, because the system takes in heat",
+      "zero, because the temperature is constant",
+      "positive, because the system gives out heat",
+      "negative, because the system gives out heat"
+    ],
+    "ans": 3,
+    "solution": "In an exothermic reaction, the enthalpy of the products is lower than that of the reactants, so ΔH = H_products − H_reactants is negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m13",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard enthalpy of formation of an element in its most stable state at 298 K and 1 bar is:",
+    "options": [
+      "equal to its enthalpy of combustion",
+      "equal to its enthalpy of atomisation",
+      "always positive",
+      "zero"
+    ],
+    "ans": 3,
+    "solution": "By definition, forming an element from itself involves no change. So Δ_fH° of O₂(g), C(graphite), H₂(g) and Hg(l) is zero. Diamond and ozone are not the most stable forms, so they have non-zero values.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m14",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Hess's law of constant heat summation states that:",
+    "options": [
+      "the enthalpy change of a reaction is larger when it takes place in more steps",
+      "the enthalpy change of a reaction depends on the catalyst used",
+      "the total enthalpy change of a reaction is the same whether it takes place in one step or in several steps",
+      "the enthalpy change of a reaction depends only on the speed of the reaction"
+    ],
+    "ans": 2,
+    "solution": "This follows because H is a state function. It allows us to calculate the enthalpy of a reaction that cannot be measured directly from those of other reactions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m15",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard enthalpy of combustion of a substance is:",
+    "options": [
+      "zero for all elements",
+      "always negative, as burning in oxygen gives out heat",
+      "always positive, as burning needs heat",
+      "positive for hydrocarbons and negative for metals"
+    ],
+    "ans": 1,
+    "solution": "Combustion in excess of oxygen is exothermic. The enthalpy of combustion of methane, −890 kJ/mol, is an example.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m16",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The enthalpy of neutralisation of a strong acid by a strong base in dilute solution is about:",
+    "options": [
+      "−57 kJ per mole of water formed",
+      "−285 kJ per mole of water formed",
+      "zero, because the solution does not change temperature",
+      "+57 kJ per mole of water formed"
+    ],
+    "ans": 0,
+    "solution": "Strong acids and bases are fully ionised, so the reaction is always H⁺ + OH⁻ → H₂O, with the same heat of about −57.1 kJ/mol, whatever the acid and base.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m17",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The enthalpies of fusion, vaporisation and sublimation of a substance are related by:",
+    "options": [
+      "Δ_subH = Δ_fusH + Δ_vapH",
+      "Δ_fusH = Δ_subH + Δ_vapH",
+      "Δ_subH = Δ_vapH − Δ_fusH",
+      "Δ_vapH = Δ_fusH + Δ_subH"
+    ],
+    "ans": 0,
+    "solution": "Going from solid to gas directly is the same overall change as going from solid to liquid and then liquid to gas, so the enthalpies add (Hess's law).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m18",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Entropy is a measure of:",
+    "options": [
+      "the work a system can do on the surroundings",
+      "the total heat content of a system",
+      "the disorder or randomness of a system",
+      "the total energy of its molecules"
+    ],
+    "ans": 2,
+    "solution": "A larger number of ways to arrange the particles and energy means a higher entropy. Entropy increases when a solid melts, a liquid vaporises, or a gas expands.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m19",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In which of these changes does the entropy of the system decrease?",
+    "options": [
+      "a gas expands into a larger container",
+      "a solid dissolves in water to form ions",
+      "ice melts to water at 0 °C",
+      "water vapour condenses to liquid water"
+    ],
+    "ans": 3,
+    "solution": "Condensation brings the molecules into a more ordered, closer arrangement, so the system's entropy falls. The other changes all increase disorder.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m20",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A process is spontaneous if:",
+    "options": [
+      "the process is exothermic, whatever the entropy change",
+      "the total entropy of the system and its surroundings increases",
+      "the enthalpy of the system always increases",
+      "the entropy of the system decreases and that of the surroundings is unchanged"
+    ],
+    "ans": 1,
+    "solution": "This is the second law of thermodynamics. Neither ΔH alone nor ΔS of the system alone decides spontaneity: the total entropy change does.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m21",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Gibbs energy change at constant temperature and pressure is given by:",
+    "options": [
+      "ΔG = ΔH + TΔS",
+      "ΔG = ΔH − TΔS",
+      "ΔG = TΔH − ΔS",
+      "ΔG = ΔS − TΔH"
+    ],
+    "ans": 1,
+    "solution": "ΔG combines the effects of heat and entropy. A process is spontaneous at constant T and P when ΔG is negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m22",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If ΔG = 0 for a reaction at constant temperature and pressure, then:",
+    "options": [
+      "the system is at equilibrium",
+      "the reaction is spontaneous in the forward direction",
+      "the reaction does not take place at any rate",
+      "the reaction is spontaneous in the reverse direction"
+    ],
+    "ans": 0,
+    "solution": "A negative ΔG means a spontaneous forward reaction and a positive ΔG a spontaneous reverse one. At ΔG = 0 there is no net tendency in either direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m23",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A reaction has positive ΔH and positive ΔS. It becomes spontaneous:",
+    "options": [
+      "at all temperatures, because ΔS is positive",
+      "at low temperature, when ΔH is large",
+      "at high temperature, when TΔS is larger than ΔH",
+      "at no temperature, because ΔH is positive"
+    ],
+    "ans": 2,
+    "solution": "ΔG = ΔH − TΔS becomes negative when T is large enough that TΔS beats ΔH. Many decomposition reactions, such as that of CaCO₃, behave this way.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m24",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these is NOT a state function?",
+    "options": [
+      "internal energy of the system",
+      "entropy of the system",
+      "enthalpy of the system",
+      "work done by the system"
+    ],
+    "ans": 3,
+    "solution": "The amount of work depends on how the change is carried out (reversibly or irreversibly), so it is path-dependent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m25",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A coffee-cup calorimeter and a bomb calorimeter are used to measure heat changes at, respectively:",
+    "options": [
+      "constant volume (ΔU) and constant pressure (ΔH)",
+      "constant temperature and constant volume",
+      "constant pressure (ΔH) and constant volume (ΔU)",
+      "constant pressure for both"
+    ],
+    "ans": 2,
+    "solution": "A cup open to the air stays at atmospheric pressure, so the heat measured is ΔH. A sealed steel bomb has a fixed volume, so no PV work is done and the heat measured is ΔU.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m26",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to the third law of thermodynamics, the entropy of a perfectly crystalline substance at absolute zero is:",
+    "options": [
+      "equal to its enthalpy of fusion",
+      "a negative value",
+      "a large positive value",
+      "zero"
+    ],
+    "ans": 3,
+    "solution": "At 0 K a perfect crystal has only one possible arrangement, so its entropy is zero. This lets us give absolute values of entropy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-m27",
+    "ch": "chem-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When ice melts at 0 °C and 1 atm, which of these is correct for the melting?",
+    "options": [
+      "ΔS is positive and ΔG = 0",
+      "ΔS is negative and ΔG = 0",
+      "ΔS is zero and ΔG is negative",
+      "ΔS is positive and ΔG is positive"
+    ],
+    "ans": 0,
+    "solution": "Melting increases the disorder, so ΔS is positive. At the melting point ice and water are in equilibrium, so ΔG = 0 and ΔH = TΔS.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-04-n01",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 1,
+    "q": "A gas absorbs 150 J of heat and does 60 J of work on the surroundings. Find the change in its internal energy in joules. Give your answer as a whole number.",
+    "ans": 90.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Work done by the gas is w = −60 J. ΔU = q + w = 150 − 60 = 90 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n02",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "A gas expands from 1.0 L to 3.0 L against a constant external pressure of 2.0 × 10⁵ Pa. Find the magnitude of the work done by the gas in joules. Give your answer as a whole number.",
+    "ans": 400.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "w = −P_extΔV = −2.0 × 10⁵ × 2.0 × 10⁻³ = −400 J. The gas does 400 J of work.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n03",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "For N₂(g) + 3H₂(g) → 2NH₃(g) at 300 K, ΔU = −91.0 kJ. Taking R = 8.314 J/(mol K), find ΔH in kJ. Give your answer to 1 decimal place.",
+    "ans": -96.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Δn_g = 2 − 4 = −2. ΔH = ΔU + Δn_g RT = −91.0 + (−2)(8.314 × 10⁻³)(300) = −91.0 − 4.99 = −96.0 kJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n04",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Given C(s) + O₂(g) → CO₂(g), ΔH = −393.5 kJ and CO(g) + ½O₂(g) → CO₂(g), ΔH = −283.0 kJ, find ΔH in kJ for C(s) + ½O₂(g) → CO(g). Give your answer to 1 decimal place.",
+    "ans": -110.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Subtract the second equation from the first (Hess's law): ΔH = −393.5 − (−283.0) = −110.5 kJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n05",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the heat, in kJ, needed to raise the temperature of 200 g of water from 25 °C to 75 °C (specific heat 4.18 J/(g K)). Give your answer to 1 decimal place.",
+    "ans": 41.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "q = mcΔT = 200 × 4.18 × 50 = 41 800 J = 41.8 kJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n06",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "For a reaction, ΔH = −40 kJ and ΔS = −100 J/K. Find ΔG in kJ at 300 K. Give your answer to 1 decimal place.",
+    "ans": -10.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ΔG = ΔH − TΔS = −40 − 300 × (−0.100) = −40 + 30 = −10 kJ, so the reaction is spontaneous at 300 K.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n07",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A reaction has ΔH = +30 kJ and ΔS = +100 J/K. Find the temperature in kelvin above which it is spontaneous. Give your answer as a whole number.",
+    "ans": 300.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "ΔG = 0 at equilibrium: T = ΔH/ΔS = 30 000/100 = 300 K. Above 300 K, ΔG is negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n08",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Using the bond enthalpies H–H = 436, Cl–Cl = 242 and H–Cl = 431 kJ/mol, find ΔH in kJ for H₂(g) + Cl₂(g) → 2HCl(g). Give your answer as a whole number.",
+    "ans": -184.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "ΔH = (energy to break bonds) − (energy given out on forming bonds) = (436 + 242) − 2 × 431 = 678 − 862 = −184 kJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n09",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "The enthalpy of combustion of methane is −890 kJ/mol. Find the heat released, in kJ, by burning 8.0 g of methane (molar mass 16 g/mol). Give your answer as a whole number.",
+    "ans": 445.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Moles of CH₄ = 8.0/16 = 0.5. Heat released = 0.5 × 890 = 445 kJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-04-n10",
+    "ch": "chem-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "The enthalpy of fusion of ice is 6010 J/mol at its melting point of 273 K. Find the entropy of fusion in J/(mol K). Give your answer to 1 decimal place.",
+    "ans": 22.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "At the melting point ΔG = 0, so ΔS = ΔH/T = 6010/273 = 22.0 J/(mol K).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-m01",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A metallic wire and an electrolyte solution both conduct electricity. The difference in the way they conduct is that:",
+    "options": [
+      "metals pass ions, and solutions pass electrons through the liquid",
+      "metals pass electrons with no chemical change; solutions pass ions with reactions at the electrodes",
+      "metallic conduction needs a chemical change at the ends of the wire",
+      "in both cases the current is carried by electrons through the solution"
+    ],
+    "ans": 1,
+    "solution": "Metallic conduction is the flow of free electrons and the metal is not changed. In an electrolyte the ions move to the electrodes, and chemical reactions (oxidation and reduction) take place there.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m02",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In every electrochemical cell, whether galvanic or electrolytic, oxidation takes place at:",
+    "options": [
+      "the cathode",
+      "the electrolyte only",
+      "the salt bridge",
+      "the anode"
+    ],
+    "ans": 3,
+    "solution": "By definition, the anode is the electrode where oxidation (loss of electrons) occurs, and the cathode is where reduction (gain of electrons) occurs.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m03",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a galvanic cell the polarity of the anode and of the cathode is, respectively:",
+    "options": [
+      "negative and negative",
+      "positive and negative",
+      "negative and positive",
+      "positive and positive"
+    ],
+    "ans": 2,
+    "solution": "In a galvanic cell the oxidation at the anode releases electrons, so it is the negative terminal. In an electrolytic cell the battery makes the anode positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m04",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The function of a salt bridge in a galvanic cell is to:",
+    "options": [
+      "complete the circuit by letting ions move, keeping both half-cells neutral",
+      "stop the two electrodes from ever dissolving",
+      "increase the voltage that the cell can deliver",
+      "supply the electrons needed by both half-cells of the cell"
+    ],
+    "ans": 0,
+    "solution": "Without it the half-cell solutions would soon become charged and the reaction would stop. The salt bridge lets ions flow so that the circuit is completed inside the cell. Its salt (for example KCl or KNO₃) has ions of similar mobility.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m05",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard hydrogen electrode (SHE) has:",
+    "options": [
+      "a platinum electrode in 1 M OH⁻ with oxygen gas, and its potential is taken as 1 V",
+      "a platinum electrode in 1 M H⁺ with hydrogen gas at 1 bar, and its potential is taken as zero",
+      "a zinc electrode in 1 M Zn²⁺, and its potential is taken as zero",
+      "a silver electrode in 1 M Ag⁺, and its potential is taken as zero"
+    ],
+    "ans": 1,
+    "solution": "Only a cell voltage can be measured, so one half-cell is chosen as a reference. By agreement, the SHE has E° = 0.00 V at all temperatures.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m06",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard EMF of a galvanic cell is calculated from the standard electrode potentials (written as reduction potentials) as:",
+    "options": [
+      "E°cell = E°cathode − E°anode",
+      "E°cell = E°anode − E°cathode",
+      "E°cell = E°cathode × E°anode",
+      "E°cell = E°cathode + E°anode"
+    ],
+    "ans": 0,
+    "solution": "The electrode with the higher reduction potential is the cathode (it is reduced). The difference of the two gives the voltage the cell can deliver, which is positive for a spontaneous reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m07",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the Daniell cell, with zinc and copper electrodes, the cathode and the anode are, respectively:",
+    "options": [
+      "zinc and copper",
+      "copper and copper",
+      "copper and zinc",
+      "zinc and zinc"
+    ],
+    "ans": 2,
+    "solution": "Zn (E° = −0.76 V) is a better reducing agent than Cu (E° = +0.34 V). Zinc is oxidised at the anode, and Cu²⁺ is reduced at the copper cathode. The EMF is 0.34 − (−0.76) = 1.10 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m08",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Standard reduction potentials are Zn²⁺/Zn = −0.76 V, Cu²⁺/Cu = +0.34 V and Ag⁺/Ag = +0.80 V. Which of these reactions will take place spontaneously?",
+    "options": [
+      "Cu + Zn²⁺ → Cu²⁺ + Zn",
+      "Ag + Cu²⁺ → Ag⁺ + Cu",
+      "Ag + Zn²⁺ → Ag⁺ + Zn",
+      "Zn + Cu²⁺ → Zn²⁺ + Cu"
+    ],
+    "ans": 3,
+    "solution": "A metal displaces from solution the ions of a metal with a higher reduction potential. Zn displaces Cu²⁺ (E°cell = +1.10 V), but Cu does not displace Zn²⁺ or Ag does not displace Cu²⁺.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m09",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the electrochemical series, the species with the largest positive standard reduction potential is:",
+    "options": [
+      "the strongest reducing agent",
+      "the most reactive metal",
+      "the strongest oxidising agent",
+      "the species that is oxidised most easily"
+    ],
+    "ans": 2,
+    "solution": "A large positive E° means that the species is reduced very easily, so it is a strong oxidising agent (fluorine, F₂, has +2.87 V). Lithium, with the most negative E°, is the strongest reducing agent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m10",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Nernst equation for a cell reaction at 298 K, with n electrons transferred and reaction quotient Q, is:",
+    "options": [
+      "E = E° − 0.0591 n log Q",
+      "E = E° − (0.0591/n) log Q",
+      "E = E° + (0.0591/n) log Q",
+      "E = E° − (n/0.0591) log Q"
+    ],
+    "ans": 1,
+    "solution": "As the reaction goes on, Q grows and E falls. When Q reaches the equilibrium constant K, E = 0 and the cell is dead.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m11",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The standard Gibbs energy change of a cell reaction and the standard cell potential are related by:",
+    "options": [
+      "ΔG° = −E°/nF",
+      "ΔG° = nFE°",
+      "ΔG° = −nF/E°",
+      "ΔG° = −nFE°"
+    ],
+    "ans": 3,
+    "solution": "The electrical work obtained from the cell is nFE, and this is equal to the decrease in Gibbs energy. A positive E° therefore means a negative ΔG° and a spontaneous reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m12",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When a galvanic cell has completely run down (it is 'dead'), its EMF is:",
+    "options": [
+      "zero, and the cell reaction is at equilibrium",
+      "equal to its standard EMF",
+      "negative, and the cell reaction is reversed",
+      "at its maximum value, as the products are at a maximum"
+    ],
+    "ans": 0,
+    "solution": "At equilibrium, Q = K and ΔG = 0, so E = 0. The cell can then do no more work.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m13",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Faraday's first law of electrolysis says that the mass of a substance deposited at an electrode is proportional to:",
+    "options": [
+      "the square of the current only, not the time",
+      "the volume of the electrolyte taken",
+      "the quantity of charge passed through the electrolyte",
+      "the temperature of the electrolyte used"
+    ],
+    "ans": 2,
+    "solution": "m = ZQ = ZIt, where Z is the electrochemical equivalent of the substance. Doubling the charge doubles the mass deposited.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m14",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Faraday's second law says that when the same charge is passed through different electrolytes, the masses of substances deposited are proportional to:",
+    "options": [
+      "their densities",
+      "their equivalent masses",
+      "their atomic numbers",
+      "their melting points"
+    ],
+    "ans": 1,
+    "solution": "The same charge moves the same number of electrons, which deposit the same number of equivalents. So the masses are in the ratio of the equivalent masses (molar mass divided by the number of electrons needed per ion).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m15",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The charge carried by one mole of electrons, called 1 faraday, is about:",
+    "options": [
+      "6.02 × 10²³ C",
+      "1.6 × 10⁻¹⁹ C",
+      "9650 C",
+      "96 500 C"
+    ],
+    "ans": 3,
+    "solution": "F = N_A × e = 6.022 × 10²³ × 1.602 × 10⁻¹⁹ = 96 485 C/mol, taken as 96 500 C/mol in calculations.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m16",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The unit of molar conductivity Λ_m is:",
+    "options": [
+      "S cm² mol⁻¹",
+      "ohm cm² mol⁻¹",
+      "S cm⁻¹",
+      "S mol cm⁻²"
+    ],
+    "ans": 0,
+    "solution": "Λ_m = κ × 1000/C with κ in S/cm and C in mol/L, giving S cm² mol⁻¹. Conductivity κ has the unit S/cm (or S/m in SI).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m17",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When an electrolyte solution is diluted, its molar conductivity:",
+    "options": [
+      "increases, as the ions become freer and a weak electrolyte ionises more",
+      "first increases and then falls to zero on dilution",
+      "decreases, as there are fewer ions in every litre of solution",
+      "stays the same, because molar conductivity is per mole of solute"
+    ],
+    "ans": 0,
+    "solution": "The conductivity κ falls with dilution, as there are fewer ions per unit volume, but Λ_m, which is per mole, rises. For a weak electrolyte the rise is steep because of the greater ionisation, and for a strong electrolyte it is gentle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m18",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Kohlrausch's law of independent migration of ions says that, at infinite dilution, the molar conductivity of an electrolyte is:",
+    "options": [
+      "the difference between the molar conductivities of its cation and anion",
+      "the sum of the molar conductivities of its cation and its anion",
+      "the product of the molar conductivities of its cation and anion",
+      "equal to the conductivity of the pure solvent"
+    ],
+    "ans": 1,
+    "solution": "Λ°_m = ν₊λ°₊ + ν₋λ°₋. It lets us find Λ° of weak electrolytes, such as acetic acid, which cannot be found by extrapolation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m19",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the electrolysis of molten sodium chloride, the products at the cathode and at the anode are, respectively:",
+    "options": [
+      "chlorine gas and sodium metal",
+      "sodium metal and oxygen gas",
+      "hydrogen gas and chlorine gas",
+      "sodium metal and chlorine gas"
+    ],
+    "ans": 3,
+    "solution": "Na⁺ is reduced at the cathode (Na⁺ + e⁻ → Na), and Cl⁻ is oxidised at the anode (2Cl⁻ → Cl₂ + 2e⁻). In molten NaCl there is no water to compete.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m20",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When a solution of copper sulphate is electrolysed using copper electrodes, the change at the electrodes is that:",
+    "options": [
+      "copper deposits at the anode and oxygen forms at the cathode",
+      "oxygen forms at the anode and copper deposits at the cathode",
+      "copper dissolves at the anode and deposits at the cathode",
+      "hydrogen forms at the cathode and copper dissolves at the cathode"
+    ],
+    "ans": 2,
+    "solution": "The copper anode is oxidised more easily than water or sulphate (Cu → Cu²⁺ + 2e⁻), and Cu²⁺ is reduced at the cathode. This is how copper is refined, and how electroplating works.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m21",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a dry (Leclanché) cell, the anode is made of:",
+    "options": [
+      "graphite",
+      "manganese dioxide",
+      "zinc",
+      "ammonium chloride"
+    ],
+    "ans": 2,
+    "solution": "The zinc container is the anode, and a graphite rod, surrounded by MnO₂, is the cathode. The paste of NH₄Cl and ZnCl₂ is the electrolyte. It is a primary cell and cannot be recharged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m22",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a lead storage battery, as it discharges, the density of the sulphuric acid:",
+    "options": [
+      "decreases, since sulphuric acid is used up and water forms",
+      "increases, since water is used up",
+      "remains unchanged, as the acid is only a catalyst",
+      "increases, since lead sulphate dissolves in it"
+    ],
+    "ans": 0,
+    "solution": "Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O. The acid is consumed and water is made, so the density falls (measured with a hydrometer to see the state of charge).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m23",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A hydrogen–oxygen fuel cell differs from a dry cell in that:",
+    "options": [
+      "the reactants are stored inside the cell, and the product is hydrogen peroxide",
+      "it has no electrodes, and the product is a salt",
+      "it can only be used once and then thrown away",
+      "the reactants are supplied continuously from outside, and the product is water"
+    ],
+    "ans": 3,
+    "solution": "The fuel (H₂) and the oxidant (O₂) are fed continuously to porous electrodes, so the cell can work as long as the supply lasts. It is clean and efficient, with about 60 to 70% of the energy converted into electricity, much more than a heat engine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m24",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Rusting of iron is an electrochemical process in which iron is:",
+    "options": [
+      "converted into iron(II) sulphide by the action of moisture",
+      "oxidised at the anodic regions, and oxygen is reduced at the cathodic regions in the presence of moisture",
+      "reduced at the anodic regions, and oxygen is oxidised at the cathodic regions",
+      "oxidised at both the anodic and cathodic regions in dry air"
+    ],
+    "ans": 1,
+    "solution": "A drop of water on the surface forms a tiny galvanic cell. Fe → Fe²⁺ + 2e⁻ at one place, and O₂ + 4H⁺ + 4e⁻ → 2H₂O at another. The Fe²⁺ is then oxidised to rust, Fe₂O₃·xH₂O.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m25",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Galvanisation, the coating of iron with zinc, protects the iron even when the coating is scratched because:",
+    "options": [
+      "zinc forms a strong alloy with the iron at the scratch",
+      "zinc is more easily oxidised than iron, so it corrodes in place of the iron",
+      "zinc is less easily oxidised than iron, and it covers the scratch with its oxide",
+      "zinc does not react with water at all"
+    ],
+    "ans": 1,
+    "solution": "E°(Zn²⁺/Zn) = −0.76 V is lower than E°(Fe²⁺/Fe) = −0.44 V. Zinc acts as the anode and is oxidised, and the iron stays as the cathode. This is sacrificial protection.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m26",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A galvanic cell has a positive value of E°cell. This indicates that, under standard conditions:",
+    "options": [
+      "the cell reaction is at equilibrium",
+      "the cell cannot deliver any current",
+      "the cell reaction is spontaneous as written",
+      "the cell reaction is not spontaneous as written"
+    ],
+    "ans": 2,
+    "solution": "A positive E° gives a negative ΔG° = −nFE°, so the reaction takes place by itself and the cell can deliver current.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-m27",
+    "ch": "chem-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An alternating current, in place of direct current, is used in the measurement of the conductivity of an electrolyte solution so that:",
+    "options": [
+      "no net electrolysis takes place at the electrodes",
+      "the solution is heated as little as possible",
+      "the voltage of the cell can be increased",
+      "the ions all move in the same direction"
+    ],
+    "ans": 0,
+    "solution": "With a direct current, the ions would be discharged at the electrodes and the composition near them would change, so the reading would drift. An alternating current reverses the direction quickly, and there is no net change.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-05-n01",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A current of 2.0 A is passed for 30 minutes through a copper(II) sulphate solution. Find the mass of copper deposited in grams (molar mass of Cu = 63.5 g/mol, F = 96500 C/mol). Give your answer to 2 decimal places.",
+    "ans": 1.18,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Q = It = 2.0 × 1800 = 3600 C. Moles of electrons = 3600/96500. Cu²⁺ + 2e⁻ → Cu, so mass = (3600/96500)/2 × 63.5 = 1.18 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n02",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "How long, in seconds, must a current of 5.0 A be passed through a silver nitrate solution to deposit 10.8 g of silver (molar mass 108 g/mol, F = 96500 C/mol)? Give your answer as a whole number.",
+    "ans": 1930.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Moles of Ag = 10.8/108 = 0.1, which needs 0.1 mol of electrons = 9650 C (Ag⁺ + e⁻ → Ag). t = Q/I = 9650/5.0 = 1930 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n03",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the standard EMF in volts of the cell Zn | Zn²⁺ || Cu²⁺ | Cu, given E°(Zn²⁺/Zn) = −0.76 V and E°(Cu²⁺/Cu) = +0.34 V. Give your answer to 2 decimal places.",
+    "ans": 1.1,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E°cell = E°cathode − E°anode = 0.34 − (−0.76) = 1.10 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n04",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the standard Gibbs energy change, in kJ, of the Daniell cell reaction for which E° = 1.10 V and n = 2 (F = 96500 C/mol). Give your answer to 1 decimal place.",
+    "ans": -212.3,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ΔG° = −nFE° = −2 × 96500 × 1.10 = −212 300 J = −212.3 kJ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n05",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the electrode potential in volts at 298 K of a copper electrode dipping in 0.01 M Cu²⁺ solution, given E°(Cu²⁺/Cu) = 0.34 V. Use 2.303RT/F = 0.0591 V. Give your answer to 3 decimal places.",
+    "ans": 0.281,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Cu²⁺ + 2e⁻ → Cu, so E = E° − (0.0591/2) log(1/[Cu²⁺]) = 0.34 − 0.02955 × 2 = 0.281 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n06",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A 0.1 M solution of an electrolyte has a conductivity of 1.5 × 10⁻³ S/cm. Find its molar conductivity in S cm²/mol. Give your answer to 1 decimal place.",
+    "ans": 15.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Λ_m = κ × 1000/C = 1.5 × 10⁻³ × 1000/0.1 = 15.0 S cm² mol⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n07",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "At infinite dilution the molar conductivities (in S cm²/mol) are 426 for HCl, 126 for NaCl and 91 for CH₃COONa. Find the value for CH₃COOH. Give your answer as a whole number.",
+    "ans": 391.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "By Kohlrausch's law: Λ°(CH₃COOH) = Λ°(HCl) + Λ°(CH₃COONa) − Λ°(NaCl) = 426 + 91 − 126 = 391 S cm²/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n08",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find log K for the Daniell cell reaction at 298 K, given E° = 1.10 V and n = 2. Use log K = nE°/0.0591. Give your answer to 2 decimal places.",
+    "ans": 37.23,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "log K = nE°/0.0591 = 2 × 1.10/0.0591 = 37.23, so K is about 10³⁷: the reaction goes almost to completion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n09",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A current of 0.5 A flows for one hour. Find the number of millimoles of electrons that have passed (F = 96500 C/mol). Give your answer to 2 decimal places.",
+    "ans": 18.65,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Q = 0.5 × 3600 = 1800 C. Moles of electrons = 1800/96500 = 0.01865 mol = 18.65 mmol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-05-n10",
+    "ch": "chem-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "In the electrolysis of water, 1930 C of charge is passed. Find the volume of hydrogen released at the cathode at STP, in mL (molar volume 22.4 L/mol, F = 96500 C/mol). Give your answer as a whole number.",
+    "ans": 224.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "2H⁺ + 2e⁻ → H₂. Moles of electrons = 1930/96500 = 0.02, so moles of H₂ = 0.01 and V = 0.01 × 22.4 = 0.224 L = 224 mL.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-m01",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The rate of a chemical reaction is defined as:",
+    "options": [
+      "the heat given out during the reaction per unit time",
+      "the time taken for the reaction to come to equilibrium",
+      "the total amount of product formed at the end of the reaction",
+      "the change in the concentration of a reactant or a product per unit time"
+    ],
+    "ans": 3,
+    "solution": "Rate = −Δ[reactant]/Δt = +Δ[product]/Δt. It is always positive, and its usual unit is mol L⁻¹ s⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m02",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the reaction 2A → B, the rate of reaction can be written as:",
+    "options": [
+      "d[A]/dt = d[B]/dt",
+      "−d[A]/dt = ½ d[B]/dt",
+      "−½ d[A]/dt = d[B]/dt",
+      "−d[A]/dt = −d[B]/dt"
+    ],
+    "ans": 2,
+    "solution": "A is used up twice as fast as B forms, and dividing each rate of change by its coefficient gives one common rate for the reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m03",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The rate law of a reaction can be found:",
+    "options": [
+      "only by experiment, not from the balanced chemical equation",
+      "from the coefficients of the balanced chemical equation",
+      "from the molar masses of the reactants",
+      "from the enthalpy change of the reaction"
+    ],
+    "ans": 0,
+    "solution": "For example, in 2N₂O₅ → 4NO₂ + O₂ the experimental rate law is rate = k[N₂O₅], first order, not second order as the coefficient 2 might suggest.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m04",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The order of a reaction is:",
+    "options": [
+      "the sum of the coefficients of the reactants in the balanced equation",
+      "the sum of the powers of the concentration terms in the experimental rate law",
+      "always equal to the molecularity of the reaction",
+      "the number of molecules that collide in the slowest step"
+    ],
+    "ans": 1,
+    "solution": "For rate = k[A]²[B], the order is 2 + 1 = 3. The order can be zero, a fraction or a whole number.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m05",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The unit of the rate constant k of a first-order reaction is:",
+    "options": [
+      "mol L⁻¹ s⁻¹",
+      "mol² L⁻² s⁻¹",
+      "s⁻¹",
+      "L mol⁻¹ s⁻¹"
+    ],
+    "ans": 2,
+    "solution": "Rate (mol L⁻¹ s⁻¹) = k × [A] (mol L⁻¹), so k has the unit s⁻¹. Zero order: mol L⁻¹ s⁻¹. Second order: L mol⁻¹ s⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m06",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The half-life of a first-order reaction:",
+    "options": [
+      "is equal to the time taken for the reaction to finish",
+      "is constant and independent of the initial concentration, t½ = 0.693/k",
+      "is inversely proportional to the initial concentration",
+      "is proportional to the initial concentration, t½ = [A]₀/2k"
+    ],
+    "ans": 1,
+    "solution": "For first order, the same fraction reacts in equal times. Whatever the starting concentration, half of it is left after 0.693/k. This is why radioactive decay (also first order) has a fixed half-life.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m07",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The half-life of a zero-order reaction is:",
+    "options": [
+      "equal to 0.693/k",
+      "independent of the initial concentration",
+      "inversely proportional to the initial concentration",
+      "proportional to the initial concentration, t½ = [A]₀/2k"
+    ],
+    "ans": 3,
+    "solution": "In zero order the concentration falls at a constant rate k, so to lose half of [A]₀ takes [A]₀/(2k). A bigger starting amount takes longer.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m08",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The molecularity of an elementary reaction:",
+    "options": [
+      "is the number of reactant particles that collide in that single step, and is a whole number",
+      "can be zero or a fraction, like the order",
+      "is found only from experiments on rates",
+      "is always equal to the sum of the coefficients in the equation"
+    ],
+    "ans": 0,
+    "solution": "Molecularity is a theoretical idea for an elementary (one-step) reaction: it is 1 (unimolecular), 2 (bimolecular) or, rarely, 3. It is never zero and never a fraction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m09",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of these statements about the order and the molecularity of a reaction is correct?",
+    "options": [
+      "both are found only from the balanced equation",
+      "the molecularity may be a fraction or zero, but the order cannot",
+      "both are always whole numbers equal to each other",
+      "the order may be a fraction or zero, but the molecularity cannot"
+    ],
+    "ans": 3,
+    "solution": "The order comes from experiment and can be 0, 1, 2, 1/2, 3/2 and so on. The molecularity is the count of particles in a step, so it is always a whole number of 1, 2 or 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m10",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a reaction that takes place in several steps, the rate of the overall reaction is controlled by:",
+    "options": [
+      "the slowest step, called the rate-determining step",
+      "the fastest step",
+      "the last step, whatever its speed",
+      "the first step, whatever its speed"
+    ],
+    "ans": 0,
+    "solution": "Like the narrowest part of a pipe, the slowest step limits how fast the products form. The rate law of the slow step gives the overall rate law.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m11",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a first-order reaction, the graph of ln[A] against time is:",
+    "options": [
+      "a straight line with slope +k",
+      "a horizontal straight line",
+      "a straight line with slope −k",
+      "a curve that falls with a decreasing slope"
+    ],
+    "ans": 2,
+    "solution": "ln[A] = ln[A]₀ − kt. It is a straight line with a negative slope of size k, and an intercept ln[A]₀.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m12",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a zero-order reaction, the graph of [A] against time is:",
+    "options": [
+      "a straight line with slope +k",
+      "a straight line with slope −k",
+      "a straight line parallel to the time axis",
+      "a curve with a decreasing slope"
+    ],
+    "ans": 1,
+    "solution": "[A] = [A]₀ − kt, which is linear, so the concentration falls by the same amount every second.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m13",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to the collision theory, a collision between reactant molecules leads to a reaction only if the molecules:",
+    "options": [
+      "collide with the threshold energy in any orientation",
+      "collide with any energy, as long as they have the proper orientation",
+      "are moving in the same direction at the same speed",
+      "have at least the threshold energy and collide with the proper orientation"
+    ],
+    "ans": 3,
+    "solution": "Most collisions are ineffective. Effective ones need enough energy (greater than or equal to the activation energy) to break bonds, and an orientation that brings the reacting atoms together.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m14",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The activation energy of a reaction is:",
+    "options": [
+      "the heat that is given out in the whole reaction",
+      "the minimum extra energy the reactants need for an effective collision",
+      "the total energy that the products have at the end",
+      "the energy that the catalyst takes from the mixture"
+    ],
+    "ans": 1,
+    "solution": "It is the height of the energy barrier between reactants and products. A large barrier means a slow reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m15",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Arrhenius equation for the rate constant is:",
+    "options": [
+      "k = A (−Ea/RT)",
+      "k = A e^(+Ea/RT)",
+      "k = A e^(−Ea/RT)",
+      "k = A e^(−RT/Ea)"
+    ],
+    "ans": 2,
+    "solution": "The exponential factor is the fraction of molecules with energy of at least Ea. A is the frequency factor, which depends on the collision rate and the orientation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m16",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A graph of ln k (on the y axis) against 1/T (on the x axis) is a straight line with a slope of:",
+    "options": [
+      "−Ea/R",
+      "−R/Ea",
+      "+Ea/R",
+      "Ea/RT"
+    ],
+    "ans": 0,
+    "solution": "Taking logs of the Arrhenius equation gives ln k = ln A − (Ea/R)(1/T). The slope is −Ea/R, so Ea can be found from the slope.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m17",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A catalyst increases the rate of a reaction because it:",
+    "options": [
+      "increases the energy of the reactant molecules",
+      "raises the temperature of the reaction mixture",
+      "makes the reaction more exothermic",
+      "provides a different path with a lower activation energy"
+    ],
+    "ans": 3,
+    "solution": "The catalyst is not used up. A lower barrier means that a larger fraction of the molecules can react at the same temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m18",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A catalyst, when added to a reaction at equilibrium, will:",
+    "options": [
+      "shift the equilibrium towards the products of the reaction",
+      "shift the equilibrium towards the reactants of the reaction",
+      "not change the position of equilibrium, but make it reached faster",
+      "change the value of ΔH of the reaction itself"
+    ],
+    "ans": 2,
+    "solution": "It lowers the barrier for the forward and the reverse reactions by the same amount, so both speed up equally. ΔH and the equilibrium constant are unchanged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m19",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For many reactions near room temperature, a rise of 10 °C in temperature makes the rate:",
+    "options": [
+      "unchanged",
+      "about double",
+      "about ten times larger",
+      "about half"
+    ],
+    "ans": 1,
+    "solution": "The temperature coefficient (k at T + 10 divided by k at T) is about 2 to 3. The number of molecules with sufficient energy increases greatly with temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m20",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The rate of reaction increases with temperature mainly because:",
+    "options": [
+      "a larger fraction of the molecules has energy equal to or greater than the activation energy",
+      "the concentration of the reactants rises",
+      "the collisions become much more frequent, by the same factor as the rate",
+      "the activation energy decreases as the temperature rises"
+    ],
+    "ans": 0,
+    "solution": "The collision rate grows only slightly with temperature (as the square root of T), but the fraction of molecules with enough energy rises exponentially, as the Arrhenius factor shows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m21",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a reaction with the rate law rate = k[A]²[B], doubling the concentration of A alone makes the rate:",
+    "options": [
+      "unchanged",
+      "four times as large",
+      "twice as large",
+      "eight times as large"
+    ],
+    "ans": 1,
+    "solution": "The rate is proportional to [A]², so doubling [A] gives 2² = 4 times the rate.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m22",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The hydrolysis of an ester in a large excess of water is a pseudo-first-order reaction because:",
+    "options": [
+      "the water hardly changes in amount, so the rate depends only on the ester",
+      "the reaction is catalysed by the ester itself, not the acid",
+      "the molecularity of the reaction is one, as for any first order",
+      "the water takes no part in the reaction at all, as a solvent"
+    ],
+    "ans": 0,
+    "solution": "The true rate law is rate = k[ester][water], but [water] is nearly constant, so it is included in the constant, rate = k'[ester].",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m23",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "After three half-lives of a first-order reaction, the fraction of the reactant that is left is:",
+    "options": [
+      "1/4",
+      "3/8",
+      "1/6",
+      "1/8"
+    ],
+    "ans": 3,
+    "solution": "Each half-life halves the amount: (1/2)³ = 1/8, which is 12.5% left. 87.5% has reacted.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m24",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these changes does NOT change the value of the rate constant of a reaction?",
+    "options": [
+      "changing the temperature of the reaction",
+      "adding a catalyst to the mixture",
+      "changing the concentration of a reactant",
+      "changing the solvent of the reaction"
+    ],
+    "ans": 2,
+    "solution": "The rate constant k depends only on the reaction, the temperature and the catalyst (and the medium). The rate depends on both k and the concentrations.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m25",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An intermediate and a catalyst differ in that:",
+    "options": [
+      "both appear in the overall balanced equation",
+      "a catalyst is formed and used up, but an intermediate is regained at the end",
+      "an intermediate is formed and then used up in the mechanism, but a catalyst is regained at the end",
+      "a catalyst changes ΔH, but an intermediate does not"
+    ],
+    "ans": 2,
+    "solution": "An intermediate appears only inside the mechanism: it is made in an early step and consumed in a later one. A catalyst is used in one step and regenerated in a later one, so it is not consumed overall.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m26",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the energy profile of a reaction, the highest point of the curve corresponds to:",
+    "options": [
+      "the transition state (activated complex)",
+      "the intermediate with the lowest energy",
+      "the products",
+      "the reactants"
+    ],
+    "ans": 0,
+    "solution": "At the peak, the old bonds are partly broken and the new ones are partly formed. The height from the reactants to the peak is the activation energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-m27",
+    "ch": "chem-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solid reactant is ground to a fine powder. The rate of its reaction with a gas or a liquid then:",
+    "options": [
+      "stays the same, because the amount is the same",
+      "increases, because the surface area exposed to the reaction is larger",
+      "decreases, because there is less solid",
+      "increases, because the activation energy is lowered"
+    ],
+    "ans": 1,
+    "solution": "Reactions happen at the surface, so a bigger surface means more collisions per second. This is why flour dust in air can explode, while a heap of flour only burns slowly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-06-n01",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "The concentration of a reactant falls from 0.80 mol/L to 0.50 mol/L in 30 s. Find the average rate of the reaction in mol L⁻¹ s⁻¹. Give your answer to 3 decimal places.",
+    "ans": 0.01,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Rate = −Δ[A]/Δt = (0.80 − 0.50)/30 = 0.010 mol L⁻¹ s⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n02",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A reaction has the rate law rate = k[A]²[B]. By what factor does the rate change when [A] is doubled and [B] is tripled? Give your answer as a whole number.",
+    "ans": 12.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The rate factor is 2² × 3 = 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n03",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A first-order reaction has a half-life of 20 minutes. Find the rate constant in min⁻¹. Give your answer to 4 decimal places.",
+    "ans": 0.0347,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "k = 0.693/t½ = 0.6931/20 = 0.0347 min⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n04",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A first-order reaction has k = 0.05 min⁻¹. Find the fraction of the reactant that remains after 30 minutes. Give your answer to 3 decimal places.",
+    "ans": 0.223,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "[A]/[A]₀ = e^(−kt) = e^(−1.5) = 0.223.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n05",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A first-order reaction has a half-life of 10 minutes. Find the time, in minutes, for 75% of the reactant to be used up. Give your answer as a whole number.",
+    "ans": 20.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "75% used up means 25% is left, which is two half-lives: t = 2 × 10 = 20 min.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n06",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "In a first-order reaction the concentration falls from 1.0 mol/L to 0.25 mol/L in 40 minutes. Find the rate constant in min⁻¹. Give your answer to 4 decimal places.",
+    "ans": 0.0347,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "k = (2.303/t) log([A]₀/[A]) = (2.303/40) × log 4 = 0.0576 × 0.602 = 0.0347 min⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n07",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A zero-order reaction has k = 0.01 mol L⁻¹ s⁻¹ and an initial concentration of 0.5 mol/L. Find the time, in seconds, for the reactant to be used up completely. Give your answer as a whole number.",
+    "ans": 50.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "[A] = [A]₀ − kt. It reaches zero when t = [A]₀/k = 0.5/0.01 = 50 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n08",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A reaction has an activation energy of 50 kJ/mol. By what factor does the rate constant increase when the temperature is raised from 300 K to 310 K? (R = 8.314 J/(mol K)) Give your answer to 2 decimal places.",
+    "ans": 1.91,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ln(k₂/k₁) = (Ea/R)(1/T₁ − 1/T₂) = (50 000/8.314)(1/300 − 1/310) = 0.647, so k₂/k₁ = 1.91.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n09",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "The rate constant of a reaction doubles when the temperature is raised from 300 K to 310 K. Find the activation energy in kJ/mol. (R = 8.314 J/(mol K)) Give your answer to 1 decimal place.",
+    "ans": 53.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "log(k₂/k₁) = (Ea/2.303R)(T₂ − T₁)/(T₁T₂). Ea = 2.303 × 8.314 × log 2 × (300 × 310/10) = 53.6 kJ/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-06-n10",
+    "ch": "chem-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A first-order reaction has a rate constant of 0.0231 min⁻¹. Find its half-life in minutes. Give your answer to 1 decimal place.",
+    "ans": 30.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "t½ = 0.693/k = 0.6931/0.0231 = 30.0 min.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-12-11-b01",
     "ch": "chem-12-11",
     "type": "mcq",
