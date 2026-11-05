@@ -892,3 +892,9 @@ main { padding-bottom: calc(var(--nav-h) + 6rem + var(--safe-b)); }
 .pl-table td small { color: var(--text-3); font-size: .7rem; }
 .pl-tier { flex: none; display: grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; font-weight: 800; font-size: .8rem; background: var(--sct); color: var(--sci); }
 .pl-tier.t-A { background: var(--warm-t); color: var(--warm-i); }
+
+/* Full explanation under a topic summary */
+.lv-detail { margin-top: var(--s2); border-top: 1px solid var(--line, rgba(0, 0, 0, .08)); padding-top: var(--s2); }
+.lv-detail > summary { cursor: pointer; font-weight: 750; color: var(--brand); min-height: 2.75rem; display: flex; align-items: center; }
+.lv-detail p { margin: var(--s2) 0 0; line-height: 1.55; }
+.lv-example { padding: var(--s2) var(--s3); border-radius: 14px; background: var(--surface-2, rgba(0, 0, 0, .04)); }

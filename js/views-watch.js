@@ -38,6 +38,7 @@
   const API_URL = 'https://www.youtube.com/iframe_api';
   const REPORT_EVERY_S = 5;
   const picked = {}; // chapter id -> topic number she tapped (this visit only)
+  const detailOpen = {}; // 'chapter:topic' -> true while its full explanation is open
   // The mounted player, if any: { player, hash, ch, vid, ready, lastT, lastPos, pending, blocks, sinceReport }
   let P = null;
 
@@ -168,6 +169,8 @@
       '<section class="card stack" data-testid="lw-summary" data-topic="' + u.esc(t.no) + '"><h2 class="h3">' + u.esc((cd.lst ? '' : t.no + ' ') + t.t) + '</h2>' +
       (waiting ? X.notesStateHtml(chId, 'lw-notes') : t.s ? '<p class="lv-sum" data-testid="lw-concept">' + u.esc(t.s) + '</p>' + (t.d === 0 ? '' : '<p class="small"><span class="chip-s warn" data-draft="1">Draft, check with your book</span></p>')
         : '<p class="small muted">No summary for this topic yet. Read it in your book.</p>') +
+      (t.x && t.x.length ? '<details class="lv-detail" data-testid="lw-detail"' + (detailOpen[chId + ':' + t.no] ? ' open' : '') + ' data-key="' + u.esc(chId + ':' + t.no) + '"><summary>Full explanation' + (t.e ? ' and example' : '') + '</summary>' +
+        t.x.map((p) => '<p>' + u.esc(p) + '</p>').join('') + (t.e ? '<p class="lv-example"><b>Example. </b>' + u.esc(t.e) + '</p>' : '') + '</details>' : '') +
       (t.w && t.w.length ? '<h3 class="h4">Watch out</h3><ul class="lv-sub small">' + t.w.map((x) => '<li>' + u.esc(x) + '</li>').join('') + '</ul>' : '') +
       '<p class="tiny muted lv-ref">' + u.esc(L.bookRef(chId, t)) + '</p>' +
       (t.sub && t.sub.length ? '<ul class="lv-sub small">' + t.sub.map((x) => '<li>' + u.esc(x) + '</li>').join('') + '</ul>' : '') + '</section>' + searchHtml(chId, t)
@@ -584,6 +587,11 @@
       openSearch('google');
     }
   });
+  // Remember which explanation is open: the summary box is redrawn when the page refreshes.
+  document.addEventListener('toggle', (e) => {
+    const d = e.target;
+    if (d && d.classList && d.classList.contains('lv-detail')) detailOpen[d.dataset.key] = d.open;
+  }, true);
   ui.actions['lw-retry'] = (el) => {
     L.clearEmbedFailed(el.dataset.id);
     S.app.refresh(true);

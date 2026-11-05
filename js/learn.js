@@ -49,6 +49,8 @@
       if (n.f) t.f = n.f;
       if (n.w) t.w = n.w;
       if (n.d === 0) t.d = 0;
+      if (n.x) t.x = n.x; // the long explanation (paragraphs)
+      if (n.e) t.e = n.e; // a worked example
     });
     delete notesLoad[chId];
     return true;

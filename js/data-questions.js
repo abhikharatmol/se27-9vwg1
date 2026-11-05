@@ -13606,6 +13606,200 @@
       "derivation",
       "script"
     ]
+  },
+  {
+    "id": "phy-12-09-m28",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A galvanometer of resistance G and full-scale current I_g is changed into an ammeter of range I by connecting a shunt resistance S:",
+    "options": [
+      "in parallel with the galvanometer, with S = I_g G/(I − I_g)",
+      "in series with the galvanometer, with S = I/I_g − G",
+      "in parallel with the galvanometer, with S = (I − I_g)G/I_g",
+      "in series with the galvanometer, with S = I_g G/(I − I_g)"
+    ],
+    "ans": 0,
+    "solution": "Most of the current must bypass the coil, so the shunt is in parallel and small. The voltage across both is the same: I_g G = (I − I_g)S.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m29",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A galvanometer of resistance G and full-scale current I_g is changed into a voltmeter of range V by connecting a resistance R:",
+    "options": [
+      "in parallel with the galvanometer, with R = I_g G/V",
+      "in series with the galvanometer, with R = V/I_g + G",
+      "in series with the galvanometer, with R = V/I_g − G",
+      "in parallel with the galvanometer, with R = V/I_g − G"
+    ],
+    "ans": 2,
+    "solution": "At full scale the whole voltage V is shared by G and R in series, so V = I_g(G + R). The result is a large total resistance, as a voltmeter should have.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m30",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The current sensitivity of a moving-coil galvanometer is defined as:",
+    "options": [
+      "the current needed for a full-scale deflection",
+      "the deflection produced per unit current",
+      "the potential difference needed for a full-scale deflection",
+      "the deflection produced per unit potential difference"
+    ],
+    "ans": 1,
+    "solution": "Current sensitivity = θ/I. Voltage sensitivity is the deflection per unit voltage, θ/V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m31",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The principle of a potentiometer is that, for a wire of uniform cross-section carrying a steady current, the potential difference between two points is:",
+    "options": [
+      "proportional to the length of wire between them",
+      "inversely proportional to the length of wire between them",
+      "proportional to the square of the length of wire between them",
+      "independent of the length of wire between them"
+    ],
+    "ans": 0,
+    "solution": "V = (IR/L) × l, where I and the resistance per unit length are fixed. So V is proportional to the length l.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m32",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two cells of emfs E₁ and E₂ are balanced on a potentiometer wire at lengths l₁ and l₂. The ratio of the emfs is:",
+    "options": [
+      "E₁/E₂ = (l₁/l₂)²",
+      "E₁/E₂ = l₂/l₁",
+      "E₁/E₂ = l₁ − l₂",
+      "E₁/E₂ = l₁/l₂"
+    ],
+    "ans": 3,
+    "solution": "At balance no current flows in the cell, so each emf equals the potential drop along its balancing length. The gradient is the same for both, so the emfs are in the ratio of the lengths.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-m33",
+    "ch": "phy-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The sensitivity of a potentiometer can be increased by:",
+    "options": [
+      "using a cell of lower internal resistance as the driver",
+      "using a shorter wire with the same current",
+      "decreasing the potential gradient along the wire",
+      "increasing the potential gradient along the wire"
+    ],
+    "ans": 2,
+    "solution": "A smaller gradient (volts per metre) means a given emf balances at a longer length, so the balance point can be read to a smaller fraction of the emf. A longer wire does the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-09-n11",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A galvanometer of resistance 50 Ω gives full-scale deflection for 1 mA. Find the shunt resistance, in ohms, needed to make it an ammeter of range 1 A. Give your answer to 3 decimal places.",
+    "ans": 0.05,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "S = I_g G/(I − I_g) = 0.001 × 50/0.999 = 0.0501 Ω, so about 0.050 Ω, in parallel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n12",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A galvanometer of resistance 50 Ω gives full-scale deflection for 1 mA. Find the resistance, in ohms, to be connected in series to make a voltmeter of range 10 V. Give your answer as a whole number.",
+    "ans": 9950.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "R = V/I_g − G = 10/0.001 − 50 = 9950 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n13",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "On a potentiometer, a standard cell of emf 1.02 V balances at 51 cm. A second cell balances at 75 cm with the same current in the wire. Find the emf of the second cell, in volts. Give your answer to 2 decimal places.",
+    "ans": 1.5,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E₂/E₁ = l₂/l₁, so E₂ = 1.02 × 75/51 = 1.50 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n14",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A cell balances at 80 cm on a potentiometer wire. When a 4 Ω resistor is connected across it, the balance point moves to 60 cm. Find the internal resistance of the cell in ohms. Give your answer to 2 decimal places.",
+    "ans": 1.33,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "r = R(l₁ − l₂)/l₂ = 4 × 20/60 = 1.33 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-09-n15",
+    "ch": "phy-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Two cells of emf 12 V and 6 V (negligible internal resistance) are connected in series in a loop with opposing polarities and a total resistance of 3 Ω. Find the current in amperes. Give your answer to 1 decimal place.",
+    "ans": 2.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "By Kirchhoff's loop rule, 12 − 6 − I × 3 = 0, so I = 2 A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
   }
 ];
 })((window.SOS = window.SOS || {}));
