@@ -10474,6 +10474,676 @@
     ]
   },
   {
+    "id": "chem-12-07-m01",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The elements of group 16 (O, S, Se, Te, Po) are known as the:",
+    "options": [
+      "chalcogens, which means ore formers",
+      "alkali metals, which means soda formers",
+      "noble gases, which means inert elements",
+      "halogens, which means salt formers"
+    ],
+    "ans": 0,
+    "solution": "Many metal ores are oxides or sulfides of these elements, so the group is called the chalcogens. Group 17 is the halogens, and group 18 is the noble gases.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m02",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The general outer electronic configuration of the halogens (group 17) is:",
+    "options": [
+      "ns²np⁴",
+      "ns²np⁶",
+      "ns²np³",
+      "ns²np⁵"
+    ],
+    "ans": 3,
+    "solution": "Halogens have seven electrons in the outer shell: two in s and five in p. They need only one more electron to complete an octet, which is why the usual oxidation state is −1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m03",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The most electronegative element in the periodic table is:",
+    "options": [
+      "oxygen",
+      "fluorine",
+      "nitrogen",
+      "chlorine"
+    ],
+    "ans": 1,
+    "solution": "Electronegativity increases across a period and decreases down a group. Fluorine is at the top right (leaving out the noble gases), so it attracts electrons most strongly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m04",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Among the halogens, the most negative electron gain enthalpy belongs to:",
+    "options": [
+      "bromine, because it is the largest of the four",
+      "iodine, because it has the lowest ionisation enthalpy",
+      "chlorine, not fluorine",
+      "fluorine, because it is the smallest"
+    ],
+    "ans": 2,
+    "solution": "Fluorine is so small that the added electron is repelled by the crowded 2p electrons, so its value is smaller than that of chlorine. Chlorine has the most negative value in the group.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m05",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Oxygen is a gas at room temperature but sulfur is a solid, because:",
+    "options": [
+      "oxygen exists as small O₂ molecules, while sulfur exists as large S₈ rings",
+      "sulfur forms strong hydrogen bonds but oxygen does not",
+      "oxygen exists as O₃ while sulfur exists as S₂ molecules",
+      "oxygen has a higher atomic mass than sulfur does"
+    ],
+    "ans": 0,
+    "solution": "Oxygen forms strong double bonds with itself and exists as diatomic O₂ with weak intermolecular forces. Sulfur forms single bonds in S₈ rings, and the larger molecules have much stronger van der Waals forces.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m06",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Water is a liquid at room temperature, but H₂S is a gas, because:",
+    "options": [
+      "water has a higher molecular mass than H₂S has",
+      "water molecules are linked by hydrogen bonds",
+      "H₂S molecules are linked by stronger hydrogen bonds",
+      "sulfur is more electronegative than oxygen is"
+    ],
+    "ans": 1,
+    "solution": "Oxygen is small and highly electronegative, so O–H···O hydrogen bonds hold water molecules together. Sulfur is much less electronegative, so H₂S has only weak forces and a low boiling point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m07",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The correct order of the acidic strength of the hydrogen halides is:",
+    "options": [
+      "HF < HI < HBr < HCl",
+      "HCl < HF < HBr < HI",
+      "HI < HBr < HCl < HF",
+      "HF < HCl < HBr < HI"
+    ],
+    "ans": 3,
+    "solution": "Down the group the H–X bond gets longer and weaker, so the acid gives up H⁺ more easily. HI is the strongest acid, and HF the weakest.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m08",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Apart from the elemental state, fluorine shows the oxidation state:",
+    "options": [
+      "−1, +1, +3 and +5",
+      "−1 and +3",
+      "−1 only",
+      "−1 and +1"
+    ],
+    "ans": 2,
+    "solution": "Fluorine is the most electronegative element and has no d orbitals, so it cannot expand its octet or lose electrons. The other halogens also show +1, +3, +5 and +7 in compounds with oxygen or other halogens.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m09",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The oxidation state of sulfur in H₂S₂O₇ (oleum) is:",
+    "options": [
+      "+7",
+      "+4",
+      "+2",
+      "+6"
+    ],
+    "ans": 3,
+    "solution": "Let the oxidation state of S be x: 2(+1) + 2x + 7(−2) = 0, so 2x = 12 and x = +6. Each sulfur atom is in the same state as in H₂SO₄.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m10",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Oxygen exists in two allotropic forms. They are:",
+    "options": [
+      "atomic O and O₂, both of them gases",
+      "O₂ and S₈, both of them ring molecules",
+      "dioxygen, O₂, and ozone, O₃",
+      "O₂ and O₄, the dimer of dioxygen"
+    ],
+    "ans": 2,
+    "solution": "Allotropes are different forms of the same element. Ozone is made when oxygen is passed through a silent electric discharge.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m11",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Sulfur exists in two crystalline forms, rhombic and monoclinic. The transition temperature, at which they are in equilibrium, is about:",
+    "options": [
+      "298 K",
+      "369 K",
+      "273 K",
+      "393 K"
+    ],
+    "ans": 1,
+    "solution": "Rhombic sulfur is the stable form below about 369 K, and monoclinic sulfur is the stable form above it. Both consist of puckered S₈ rings, packed in different ways.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m12",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among the oxoacids of chlorine, the strongest acid is:",
+    "options": [
+      "HClO₄",
+      "HClO₂",
+      "HClO₃",
+      "HOCl"
+    ],
+    "ans": 0,
+    "solution": "With more oxygen atoms on chlorine, the negative charge on the anion is spread out better, so the acid loses H⁺ more easily. The order is HOCl < HClO₂ < HClO₃ < HClO₄.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m13",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the laboratory preparation of oxygen by heating KClO₃, MnO₂ is added. It acts as:",
+    "options": [
+      "a dehydrating agent, which removes water",
+      "a reducing agent, which is oxidised to MnO₄⁻",
+      "an oxidising agent, which is reduced to Mn",
+      "a catalyst, which lowers the temperature needed"
+    ],
+    "ans": 3,
+    "solution": "MnO₂ is unchanged at the end. It speeds up the decomposition 2KClO₃ → 2KCl + 3O₂, which would otherwise need a much higher temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m14",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of the following oxides is amphoteric?",
+    "options": [
+      "CO, which reacts with neither",
+      "Al₂O₃, which reacts with both acids and bases",
+      "Na₂O, which reacts only with acids",
+      "SO₂, which reacts only with bases"
+    ],
+    "ans": 1,
+    "solution": "An amphoteric oxide reacts with both acids and bases. Na₂O is basic, SO₂ is acidic, and CO is neutral.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m15",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the contact process for sulfuric acid, the catalyst used for the oxidation 2SO₂ + O₂ ⇌ 2SO₃ is:",
+    "options": [
+      "nickel, Ni, as in hydrogenation",
+      "copper, Cu, as in the oxidation of methanol",
+      "vanadium(V) oxide, V₂O₅",
+      "iron, Fe, as in the Haber process"
+    ],
+    "ans": 2,
+    "solution": "V₂O₅ is cheap and is not poisoned as easily as platinum was. The conditions are about 700 K and 1–2 bar, a compromise between rate and equilibrium yield.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m16",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the contact process, SO₃ is absorbed in concentrated H₂SO₄ and not directly in water, because:",
+    "options": [
+      "water would give a fine mist of acid droplets which is hard to condense",
+      "the product would be sulfurous acid instead",
+      "SO₃ dissolves in water without releasing any heat",
+      "water does not react with SO₃ at all"
+    ],
+    "ans": 0,
+    "solution": "The reaction of SO₃ with water is very exothermic and produces a mist of H₂SO₄. SO₃ dissolves smoothly in conc. H₂SO₄ to give oleum (H₂S₂O₇), which is then diluted with water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m17",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Sulfur dioxide bleaches coloured materials by:",
+    "options": [
+      "oxidation, and the bleaching is permanent",
+      "hydrolysis, and the bleaching is permanent",
+      "reduction, and the colour slowly returns in air",
+      "adsorption, and the colour returns in water"
+    ],
+    "ans": 2,
+    "solution": "SO₂ reduces the dye to a colourless form. Air oxidises it back, so the colour returns. Chlorine bleaches by oxidation (in the presence of moisture), and its action is permanent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m18",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following is not a known interhalogen compound?",
+    "options": [
+      "IF₇",
+      "ClF₂",
+      "ClF₃",
+      "BrF₅"
+    ],
+    "ans": 1,
+    "solution": "Interhalogens have the formulae XX′, XX′₃, XX′₅ and XX′₇, with an odd number of the smaller atoms. XX′₂ is not of these types, so ClF₂ does not exist.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m19",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The shape of the IF₇ molecule is:",
+    "options": [
+      "pentagonal bipyramidal",
+      "trigonal bipyramidal",
+      "octahedral",
+      "square pyramidal"
+    ],
+    "ans": 0,
+    "solution": "Iodine has seven bonding pairs and no lone pair. Seven positions around the central atom form a pentagonal bipyramid: five fluorines in a plane, one above, and one below.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m20",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The shape of the XeF₄ molecule is:",
+    "options": [
+      "see-saw",
+      "square pyramidal",
+      "tetrahedral",
+      "square planar"
+    ],
+    "ans": 3,
+    "solution": "Xe has four bond pairs and two lone pairs, so six electron pairs form an octahedron. The two lone pairs sit opposite each other, which leaves the four F atoms in a flat square.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m21",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The shape of the XeO₃ molecule is:",
+    "options": [
+      "tetrahedral",
+      "planar triangular",
+      "pyramidal",
+      "linear"
+    ],
+    "ans": 2,
+    "solution": "Xe has three bond pairs and one lone pair. Four electron pairs form a tetrahedron, and the lone pair occupies one corner, so the molecule is a pyramid with Xe at the top.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m22",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Complete hydrolysis of XeF₆ gives:",
+    "options": [
+      "XeF₂ and O₂",
+      "XeO₃ and HF",
+      "Xe and HF",
+      "XeO₂ and HF"
+    ],
+    "ans": 1,
+    "solution": "XeF₆ + 3H₂O → XeO₃ + 6HF. Xenon stays in the +6 oxidation state, and fluorine leaves as hydrogen fluoride. Partial hydrolysis gives XeOF₄.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m23",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Xenon forms compounds with fluorine and oxygen, but helium and neon do not, because:",
+    "options": [
+      "xenon has an incomplete outer shell, unlike the other noble gases, so it forms bonds readily",
+      "helium and neon are radioactive and decay at once, so they cannot be studied in compounds",
+      "xenon has a higher ionisation enthalpy than helium and neon, so it reacts more easily",
+      "xenon has a lower ionisation enthalpy, and fluorine and oxygen are the most electronegative elements"
+    ],
+    "ans": 3,
+    "solution": "Ionisation enthalpy falls down group 18, so only the heavier gases can lose electron density to a very electronegative element. Xenon is the most common example, and krypton forms KrF₂.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m24",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The maximum covalency of oxygen is 4, but that of sulfur can be 6, because:",
+    "options": [
+      "oxygen has no vacant d orbitals in its valence shell",
+      "oxygen is much larger than sulfur is",
+      "oxygen has a much lower electronegativity",
+      "sulfur has fewer electrons in its outer shell"
+    ],
+    "ans": 0,
+    "solution": "Sulfur can promote electrons into empty 3d orbitals and form six bonds, as in SF₆. Oxygen's second shell has only 2s and 2p, so its covalency is limited to four, and it is usually two.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m25",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The noble gas whose outer electronic configuration is 1s² is:",
+    "options": [
+      "helium",
+      "xenon",
+      "neon",
+      "argon"
+    ],
+    "ans": 0,
+    "solution": "Helium has only two electrons, both in the 1s orbital. This is a full first shell, which makes it as stable as the other noble gases with a full octet.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-m26",
+    "ch": "chem-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among the hydrides H₂O, H₂S, H₂Se and H₂Te, the strongest reducing agent is:",
+    "options": [
+      "H₂O",
+      "H₂Te",
+      "H₂S",
+      "H₂Se"
+    ],
+    "ans": 1,
+    "solution": "The bond to hydrogen gets weaker down the group, so the heavier hydrides give up hydrogen more easily. The reducing power rises from H₂O to H₂Te.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-07-n01",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "What mass of oxygen is obtained when 12.25 g of KClO₃ (molar mass 122.5 g/mol) is heated completely? (2KClO₃ → 2KCl + 3O₂) Give your answer to 1 decimal place.",
+    "ans": 4.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "n(KClO₃) = 12.25/122.5 = 0.1 mol. 2 mol KClO₃ give 3 mol O₂, so 0.1 mol gives 0.15 mol O₂. Mass = 0.15 × 32 = 4.8 g. Check: all the oxygen in KClO₃ is released, and it is 48/122.5 of the mass.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n02",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "What volume of oxygen at 273 K and 1 atm (take 22.4 L per mole) is obtained by heating 24.5 g of KClO₃ completely? Give your answer to 2 decimal places.",
+    "ans": 6.72,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "n(KClO₃) = 24.5/122.5 = 0.2 mol. It gives 0.2 × 3/2 = 0.3 mol O₂. Volume = 0.3 × 22.4 = 6.72 L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n03",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the average oxidation number of sulfur in sodium tetrathionate, Na₂S₄O₆. Give your answer to 1 decimal place.",
+    "ans": 2.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Let the average oxidation state be x. The sum is zero: 2(+1) + 4x + 6(−2) = 0, so 4x = 10 and x = +2.5. (The two inner sulfur atoms are 0 and the two outer ones are +5.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n04",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "What mass of SO₂ is produced when 16 g of sulfur burns completely in oxygen? (S + O₂ → SO₂) Give your answer as a whole number.",
+    "ans": 32.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n(S) = 16/32 = 0.5 mol, which gives 0.5 mol SO₂. Mass = 0.5 × 64 = 32 g. Check: the mass is that of the sulfur plus the oxygen taken up, 16 + 16 = 32 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n05",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "What mass of SO₃ is formed when 64 g of SO₂ is oxidised completely in the contact process? (2SO₂ + O₂ → 2SO₃) Give your answer as a whole number.",
+    "ans": 80.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n(SO₂) = 64/64 = 1 mol, which gives 1 mol SO₃. Mass = 1 × 80 = 80 g. Check: 1 mol SO₂ takes up 0.5 mol O₂ (16 g), so the mass is 64 + 16 = 80 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n06",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Concentrated sulfuric acid is 98% H₂SO₄ by mass and has a density of 1.84 g/mL. Find its molarity (molar mass 98 g/mol). Give your answer to 1 decimal place.",
+    "ans": 18.4,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "In 1 L the mass of solution is 1840 g, and the mass of H₂SO₄ is 1840 × 0.98 = 1803.2 g. Moles = 1803.2/98 = 18.4. So the molarity is 18.4 M. Check: 100 g of solution holds 1 mol and has a volume of 54.35 mL, so 1 mol per 0.05435 L is 18.4 M.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n07",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the percentage by mass of xenon in XeF₂ (take Xe = 131 and F = 19), correct to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 77.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Molar mass of XeF₂ = 131 + 38 = 169. Percentage of Xe = (131/169) × 100 = 77.5%. Check: fluorine is 38/169 = 22.5%, and 100 − 22.5 = 77.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n08",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the sum of the oxidation numbers of chlorine in HOCl, HClO₂, HClO₃ and HClO₄. Give your answer as a whole number.",
+    "ans": 16,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "In HClO_n (n = 1 to 4): +1 + x − 2n = 0, so x = 2n − 1. The values are +1, +3, +5 and +7. The sum is 16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n09",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "How many lone pairs of electrons are on the central atom in XeF₆? Give your answer as a whole number.",
+    "ans": 1,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Xenon has 8 valence electrons, and each fluorine adds 1 for bonding: (8 + 6)/2 = 7 electron pairs around xenon. Six are bond pairs, so one lone pair is left. The shape is a distorted octahedron.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n10",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "What volume of oxygen at 273 K and 1 atm (22.4 L per mole) is formed when 48 g of ozone changes completely into oxygen? (2O₃ → 3O₂) Give your answer to 1 decimal place.",
+    "ans": 33.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "n(O₃) = 48/48 = 1 mol. 2 mol of ozone give 3 mol of O₂, so 1 mol gives 1.5 mol. Volume = 1.5 × 22.4 = 33.6 L. Check: 48 g of oxygen atoms is 3 mol of atoms, which makes 1.5 mol of O₂.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-07-n11",
+    "ch": "chem-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "What mass of chlorine is liberated when 87 g of MnO₂ (molar mass 87 g/mol) reacts with excess concentrated HCl? (MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O) Give your answer as a whole number.",
+    "ans": 71.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n(MnO₂) = 1 mol, and the equation gives 1 mol Cl₂, which is 71 g. Check by electrons: each MnO₂ gains 2 electrons (Mn from +4 to +2), and each Cl₂ needs 2 electrons removed from 2Cl⁻, so the ratio is 1 : 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-12-08-m01",
     "ch": "chem-12-08",
     "type": "mcq",
@@ -12988,6 +13658,695 @@
     ]
   },
   {
+    "id": "chem-12-12-m01",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The functional group present in an aldehyde is:",
+    "options": [
+      "–CO–, with the carbonyl carbon joined to two carbons",
+      "–OH, with the oxygen joined to hydrogen",
+      "–CHO, with the carbonyl carbon joined to one hydrogen",
+      "–COOH, with the carbonyl carbon joined to an OH"
+    ],
+    "ans": 2,
+    "solution": "In an aldehyde the carbonyl carbon (C=O) carries at least one hydrogen atom. In a ketone it is joined to two carbon groups, and in a carboxylic acid to an –OH group.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m02",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The general formula of a ketone is:",
+    "options": [
+      "R–CHO",
+      "R–CO–R′",
+      "R–O–R′",
+      "R–COOH"
+    ],
+    "ans": 1,
+    "solution": "The carbonyl group is between two alkyl or aryl groups, which may be the same or different. R–CHO is an aldehyde, R–COOH is an acid and R–O–R′ is an ether.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m03",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The IUPAC name of CH₃CH₂CHO is:",
+    "options": [
+      "propanoic acid",
+      "propanone",
+      "propan-1-al",
+      "propanal"
+    ],
+    "ans": 3,
+    "solution": "Three carbons give the parent propane. The ending -e is replaced by -al. The aldehyde carbon is always C-1, so no locant is written (propan-1-al is wrong).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m04",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The IUPAC name of CH₃COCH₃ (common name acetone) is:",
+    "options": [
+      "propanone",
+      "dimethyl ether",
+      "propan-1-one",
+      "propanal"
+    ],
+    "ans": 0,
+    "solution": "The ending -one marks a ketone. Here the C=O is on the middle carbon of three, so no locant is needed (it could only be at C-2). Propanal is the aldehyde with the same three carbons.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m05",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The IUPAC name of (CH₃)₂CHCOOH is:",
+    "options": [
+      "3-methylpropanoic acid",
+      "butanoic acid",
+      "2-methylpropanoic acid",
+      "2-methylpropanal"
+    ],
+    "ans": 2,
+    "solution": "The longest chain containing the –COOH carbon has three carbons, with the carboxyl carbon as C-1. The methyl group is on C-2. The ending -oic acid is used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m06",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Rosenmund reduction converts:",
+    "options": [
+      "an aldehyde into an alcohol",
+      "an acyl chloride into an aldehyde",
+      "a nitrile into a ketone",
+      "a carboxylic acid into a primary alcohol"
+    ],
+    "ans": 1,
+    "solution": "RCOCl is hydrogenated over palladium on barium sulphate to give RCHO. The reaction stops at the aldehyde stage.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m07",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the Rosenmund reduction, the palladium catalyst is poisoned with BaSO₄ in order to:",
+    "options": [
+      "stop the reduction at the aldehyde and prevent the formation of the alcohol",
+      "remove the hydrogen chloride that is formed in the reaction",
+      "speed up the reduction of the acyl chloride to the aldehyde",
+      "oxidise the aldehyde to the carboxylic acid in the same step"
+    ],
+    "ans": 0,
+    "solution": "An unpoisoned catalyst would go on to reduce the aldehyde to a primary alcohol. The poison makes the catalyst less active, so the product is the aldehyde.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m08",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Etard reaction converts toluene into benzaldehyde, using:",
+    "options": [
+      "acetyl chloride with anhydrous aluminium chloride",
+      "acidified potassium permanganate, in a strong oxidation",
+      "carbon monoxide and HCl with anhydrous aluminium chloride",
+      "chromyl chloride, CrO₂Cl₂, followed by hydrolysis"
+    ],
+    "ans": 3,
+    "solution": "Chromyl chloride in carbon disulphide oxidises the methyl group only as far as the aldehyde (through a chromium complex). Hot KMnO₄ would give benzoic acid. CO and HCl is the Gatterman–Koch reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m09",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Benzene reacts with CO and HCl in the presence of anhydrous AlCl₃ and CuCl to give:",
+    "options": [
+      "benzaldehyde",
+      "acetophenone",
+      "toluene",
+      "benzoic acid"
+    ],
+    "ans": 0,
+    "solution": "This is the Gatterman–Koch reaction, a formylation: an –CHO group is introduced on the ring. Acetophenone comes from Friedel–Crafts acylation with CH₃COCl.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m10",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Benzene reacts with acetyl chloride, CH₃COCl, in the presence of anhydrous AlCl₃ to give:",
+    "options": [
+      "benzoic acid",
+      "toluene",
+      "benzaldehyde",
+      "acetophenone"
+    ],
+    "ans": 3,
+    "solution": "This is a Friedel–Crafts acylation: the acyl group CH₃CO– replaces a hydrogen on the ring, giving an aromatic ketone, C₆H₅COCH₃.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m11",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Ozonolysis of propene, followed by treatment with zinc and water, gives:",
+    "options": [
+      "propanone and methanal",
+      "propanal and methanol",
+      "ethanal and methanal",
+      "ethanoic acid and methanal"
+    ],
+    "ans": 2,
+    "solution": "CH₃CH=CH₂ is cleaved at the double bond, and each carbon becomes a C=O. CH₃CH= gives CH₃CHO (ethanal), and =CH₂ gives HCHO (methanal). Zinc prevents further oxidation to acids.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m12",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Hydration of propyne with dilute sulphuric acid and mercury(II) sulphate gives:",
+    "options": [
+      "propanoic acid",
+      "propanone",
+      "propan-1-ol",
+      "propanal"
+    ],
+    "ans": 1,
+    "solution": "Water adds according to Markovnikov's rule, giving the enol CH₃C(OH)=CH₂. This changes at once into the ketone CH₃COCH₃. Only ethyne gives an aldehyde (ethanal) in this reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m13",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Among propanoic acid, butan-1-ol, butanone and diethyl ether (molar masses 72–74), the highest boiling point belongs to:",
+    "options": [
+      "diethyl ether, which has a polar C–O–C group",
+      "butanone, which has strong dipole–dipole forces",
+      "butan-1-ol, which forms hydrogen bonds with one neighbour",
+      "propanoic acid, which forms hydrogen-bonded dimers"
+    ],
+    "ans": 3,
+    "solution": "The order of boiling points at similar mass is acid, alcohol, ketone, ether. Carboxylic acids form dimers, with two hydrogen bonds between a pair of molecules, so they hold together most strongly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m14",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Carboxylic acids have higher boiling points than alcohols of similar mass because they:",
+    "options": [
+      "contain a C=O group that forms covalent links",
+      "are ionic compounds in the liquid state",
+      "form hydrogen-bonded dimers, even in the vapour phase",
+      "have a larger dipole moment than every alcohol has"
+    ],
+    "ans": 2,
+    "solution": "Two –COOH groups pair up with two hydrogen bonds, which doubles the effective size and strength of the attraction. Alcohols form only one hydrogen bond per pair.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m15",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Aldehydes are more reactive than ketones in nucleophilic addition, because ketones have:",
+    "options": [
+      "two electron-donating alkyl groups, and more steric crowding on the carbonyl carbon",
+      "two electron-withdrawing alkyl groups, which raise the positive charge",
+      "no polar carbonyl group, as the oxygen is not electronegative",
+      "a hydrogen on the carbonyl carbon, which blocks the nucleophile"
+    ],
+    "ans": 0,
+    "solution": "Alkyl groups push electrons toward the carbonyl carbon and reduce its partial positive charge. Two bulky groups also hinder the approach of the nucleophile.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m16",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which compound is the most reactive towards nucleophilic addition?",
+    "options": [
+      "C₆H₅CHO, benzaldehyde",
+      "HCHO, methanal",
+      "CH₃COCH₃, propanone",
+      "CH₃CHO, ethanal"
+    ],
+    "ans": 1,
+    "solution": "Methanal has two hydrogens on the carbonyl carbon, so it has the least crowding and no electron-donating alkyl group. The order is HCHO, other aliphatic aldehydes, aromatic aldehydes, ketones.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m17",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of the following gives a silver mirror with Tollens' reagent?",
+    "options": [
+      "ethanal",
+      "benzophenone",
+      "acetophenone",
+      "propanone"
+    ],
+    "ans": 0,
+    "solution": "Tollens' reagent (ammoniacal silver nitrate) is a mild oxidising agent. It oxidises aldehydes to acids and itself is reduced to silver metal. Ketones are not oxidised.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m18",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Benzaldehyde does not give:",
+    "options": [
+      "oxime formation with hydroxylamine",
+      "Fehling's test",
+      "Schiff's test",
+      "Tollens' test"
+    ],
+    "ans": 1,
+    "solution": "Aromatic aldehydes are not oxidised by the mild Fehling's reagent, though they do reduce Tollens' reagent. They still react with hydroxylamine, as any carbonyl compound does.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m19",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following compounds gives a positive iodoform test?",
+    "options": [
+      "methanal, HCHO",
+      "propanal, CH₃CH₂CHO",
+      "propanone, CH₃COCH₃",
+      "pentan-3-one, CH₃CH₂COCH₂CH₃"
+    ],
+    "ans": 2,
+    "solution": "The iodoform test needs a CH₃CO– group (or a CH₃CH(OH)– group). Propanone has it. Propanal and pentan-3-one have no CH₃–C=O unit, and methanal has no methyl group.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m20",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following undergoes aldol condensation?",
+    "options": [
+      "2,2-dimethylpropanal, which has no α-hydrogen atom",
+      "methanal, which has no carbon next to the carbonyl",
+      "benzaldehyde, which has no α-hydrogen atom",
+      "ethanal, which has α-hydrogen atoms"
+    ],
+    "ans": 3,
+    "solution": "Aldol condensation needs a hydrogen on the carbon next to C=O. Methanal, benzaldehyde and 2,2-dimethylpropanal have none, so they cannot form the enolate ion that does the attack.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m21",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following undergoes the Cannizzaro reaction with concentrated alkali?",
+    "options": [
+      "propanone, which has six α-hydrogens",
+      "ethanal, which has three α-hydrogens",
+      "benzaldehyde, which has no α-hydrogen",
+      "propanal, which has two α-hydrogens"
+    ],
+    "ans": 2,
+    "solution": "In the Cannizzaro reaction, one molecule is oxidised to the acid salt and another reduced to the alcohol. It needs an aldehyde without an α-hydrogen, such as HCHO or C₆H₅CHO. Others undergo the aldol reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m22",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Clemmensen reduction of a carbonyl compound to the CH₂ group uses:",
+    "options": [
+      "hydrazine and potassium hydroxide in ethylene glycol",
+      "hydrogen over palladium on barium sulphate",
+      "lithium aluminium hydride in dry ether",
+      "zinc amalgam and concentrated hydrochloric acid"
+    ],
+    "ans": 3,
+    "solution": "Clemmensen reduction (Zn–Hg, conc. HCl) works in acid. The Wolff–Kishner reduction (NH₂NH₂, KOH, glycol, heat) does the same job in basic conditions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m23",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Reduction of a ketone with sodium borohydride, NaBH₄, gives:",
+    "options": [
+      "a secondary alcohol",
+      "an alkane",
+      "a primary alcohol",
+      "a carboxylic acid"
+    ],
+    "ans": 0,
+    "solution": "The C=O group becomes CH–OH. A ketone R–CO–R′ gives R–CH(OH)–R′. An aldehyde gives a primary alcohol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m24",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Carboxylic acids are stronger acids than phenols, because:",
+    "options": [
+      "carboxylic acids have no hydrogen bonds to be broken",
+      "the carboxylate ion is stabilised by two equivalent resonance structures",
+      "the phenoxide ion is stabilised by two equivalent resonance structures",
+      "the O–H bond of a phenol is weaker than that of an acid"
+    ],
+    "ans": 1,
+    "solution": "In the carboxylate ion the negative charge is shared equally by two oxygen atoms. In the phenoxide ion the charge is spread over the ring, with less stabilisation, as the structures are not equivalent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m25",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among CH₃COOH, ClCH₂COOH, Cl₂CHCOOH and Cl₃CCOOH, the strongest acid is:",
+    "options": [
+      "ClCH₂COOH",
+      "Cl₃CCOOH",
+      "Cl₂CHCOOH",
+      "CH₃COOH"
+    ],
+    "ans": 1,
+    "solution": "Each chlorine withdraws electrons (the –I effect) and stabilises the carboxylate ion. Three chlorines have the largest effect. The pKa values are about 4.76, 2.86, 1.29 and 0.65, in the order given.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m26",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among HCOOH, CH₃COOH, C₆H₅COOH and ClCH₂COOH, the weakest acid is:",
+    "options": [
+      "ClCH₂COOH, with pKa 2.86",
+      "HCOOH, with pKa 3.75",
+      "CH₃COOH, with pKa 4.76",
+      "C₆H₅COOH, with pKa 4.20"
+    ],
+    "ans": 2,
+    "solution": "A higher pKa means a weaker acid. The methyl group donates electrons and destabilises the anion, so acetic acid is weaker than formic acid. The phenyl group is electron-withdrawing, and chlorine is more so.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-m27",
+    "ch": "chem-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which test is given by a carboxylic acid but not by a phenol?",
+    "options": [
+      "brisk effervescence of CO₂ with aqueous sodium bicarbonate",
+      "a violet colour with neutral ferric chloride",
+      "a red colour with sodium nitroprusside",
+      "a silver mirror with Tollens' reagent"
+    ],
+    "ans": 0,
+    "solution": "Carboxylic acids are strong enough to release CO₂ from NaHCO₃, and phenols are not. Neutral FeCl₃ gives a violet colour with phenols but not with acids, so that test is positive for the phenol, not for the acid.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-12-n01",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the molar mass of propanal, CH₃CH₂CHO (C = 12, H = 1, O = 16), in g/mol. Give your answer as a whole number.",
+    "ans": 58,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "C₃H₆O: 3 × 12 + 6 × 1 + 16 = 58 g/mol. Check: the aldehydes CₙH₂ₙO have a molar mass of 14n + 16, which is 58 for n = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n02",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the molar mass of benzoic acid, C₆H₅COOH (C = 12, H = 1, O = 16), in g/mol. Give your answer as a whole number.",
+    "ans": 122,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "C₇H₆O₂: 7 × 12 + 6 + 32 = 122 g/mol. By parts: ring C₆H₅ (77) plus COOH (45) is 122.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n03",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "What volume of CO₂ at 273 K and 1 atm (take 22.4 L per mole) is liberated when 6 g of ethanoic acid (molar mass 60) reacts with excess sodium bicarbonate? Give your answer to 2 decimal places.",
+    "ans": 2.24,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂. n(acid) = 6/60 = 0.1 mol, which gives 0.1 mol CO₂. Volume = 0.1 × 22.4 = 2.24 L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n04",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "What volume of 0.5 M NaOH is needed to neutralise 3 g of ethanoic acid (molar mass 60), in mL? Give your answer as a whole number.",
+    "ans": 100.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n(acid) = 3/60 = 0.05 mol. NaOH reacts 1 : 1, so 0.05 mol is needed. Volume = 0.05/0.5 = 0.1 L = 100 mL. Check by mass: 0.05 mol of NaOH is 2 g, and 0.5 M NaOH has 20 g per litre, so 2/20 L = 100 mL.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n05",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "1.22 g of a monobasic organic acid is neutralised exactly by 20 mL of 0.5 M NaOH. Find the molar mass of the acid, in g/mol. Give your answer as a whole number.",
+    "ans": 122.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n(NaOH) = 0.020 × 0.5 = 0.010 mol. A monobasic acid reacts 1 : 1, so 1.22 g is 0.010 mol. Molar mass = 1.22/0.010 = 122 g/mol (benzoic acid fits).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n06",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the percentage by mass of oxygen in propanone, CH₃COCH₃ (C = 12, H = 1, O = 16), correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 27.59,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Molar mass of C₃H₆O = 58. Oxygen is 16/58 × 100 = 27.59%. Check: carbon and hydrogen together are 42/58 = 72.41%, and 100 − 72.41 = 27.59.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n07",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "In an aldol reaction, 2CH₃CHO → CH₃CH(OH)CH₂CHO. Find the mass of aldol obtained from 4.4 g of ethanal (molar mass 44) if the yield is 80%, in g. Give your answer to 2 decimal places.",
+    "ans": 3.52,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "n(ethanal) = 0.1 mol, so 0.05 mol of aldol (molar mass 88) is possible, which is 4.4 g. At 80% yield, 4.4 × 0.8 = 3.52 g. Check: the aldol is an addition product, so its mass equals the mass of ethanal used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n08",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Ethanal reduces Tollens' reagent: RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O. What mass of silver (Ag = 108) is deposited by 2.2 g of ethanal (molar mass 44)? Give your answer to 1 decimal place.",
+    "ans": 10.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "n(ethanal) = 2.2/44 = 0.05 mol, and each mole gives 2 mol of Ag, so 0.1 mol of Ag = 0.1 × 108 = 10.8 g. Check by electrons: the aldehyde loses 2 electrons (it becomes the acid), and each Ag⁺ gains 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n09",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Propanone reacts in the iodoform reaction: CH₃COCH₃ + 3I₂ + 4NaOH → CHI₃ + CH₃COONa + 3NaI + 3H₂O. What mass of CHI₃ (I = 127) is obtained from 5.8 g of propanone (molar mass 58)? Give your answer to 1 decimal place.",
+    "ans": 39.4,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "n(propanone) = 0.1 mol, which gives 0.1 mol of CHI₃. Molar mass of CHI₃ = 12 + 1 + 381 = 394. Mass = 39.4 g. Check by iodine: 0.1 mol of propanone takes 0.3 mol of I₂, and half of the iodine atoms (0.3 mol) end up in 0.1 mol of CHI₃.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n10",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "How many open-chain aldehydes and ketones have the molecular formula C₄H₈O? Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Aldehydes: butanal and 2-methylpropanal (the propyl group can be straight or branched), so 2. Ketones: only butanone. The total is 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-12-n11",
+    "ch": "chem-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the degree of unsaturation (number of rings plus double bonds) of benzaldehyde, C₇H₆O. Give your answer as a whole number.",
+    "ans": 5,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Degree of unsaturation = (2C + 2 − H)/2 = (14 + 2 − 6)/2 = 5. Check: one ring, three C=C bonds in the ring, and one C=O make 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "mth-11-05-g01",
     "ch": "mth-11-05",
     "type": "mcq",
@@ -14141,6 +15500,7788 @@
     "decimalPlaces": 3,
     "tol": 0.0005,
     "solution": "By inclusion-exclusion, students studying French or German = 18+15-6 = 27. P = 27/40 = 0.675. Cross-check via Venn regions: French-only (12) + German-only (9) + both (6) = 27, the same count.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-m01",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which of the following is a statement in logic?",
+    "options": [
+      "Please draw a triangle with angles that sum to 180°",
+      "Is the sum of the angles of a triangle 180°?",
+      "x + 3 = 5, where x is some unknown number",
+      "The sum of the angles of a triangle is 180°"
+    ],
+    "ans": 3,
+    "solution": "A statement is a sentence that is either true or false, but not both. A question and a command are not statements. An open sentence such as x + 3 = 5 is true for some x and false for others, so it is not a statement until x is fixed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m02",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The compound statement p ∧ q is true only when:",
+    "options": [
+      "p is true and q is false",
+      "both p and q are true",
+      "both p and q are false",
+      "either p or q is true, but not both"
+    ],
+    "ans": 1,
+    "solution": "The conjunction 'p and q' needs both parts to hold. If even one of them is false, the whole statement is false.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m03",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The compound statement p ∨ q is false only when:",
+    "options": [
+      "p is false and q is true",
+      "either p or q is false, but not both",
+      "both p and q are false",
+      "both p and q are true"
+    ],
+    "ans": 2,
+    "solution": "The disjunction 'p or q' is true if at least one part is true. The only way to make it false is to make both parts false.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m04",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A truth table for a statement pattern with 3 simple statements has how many rows?",
+    "options": [
+      "8",
+      "6",
+      "3",
+      "9"
+    ],
+    "ans": 0,
+    "solution": "Each simple statement can be T or F, so there are 2 × 2 × 2 = 2³ = 8 rows. With n simple statements there are 2ⁿ rows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m05",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The negation of the statement 'All dogs are brown' is:",
+    "options": [
+      "Some dog is not brown",
+      "No dog is brown",
+      "All dogs are black",
+      "Some dogs are brown"
+    ],
+    "ans": 0,
+    "solution": "To deny 'for all', it is enough to find one exception. So the negation of 'all are' is 'at least one is not'. 'No dog is brown' is too strong: it is not the exact negation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m06",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The implication p → q is false only when:",
+    "options": [
+      "p is false and q is true",
+      "p and q are both true",
+      "p is true and q is false",
+      "p and q are both false"
+    ],
+    "ans": 2,
+    "solution": "A promise 'if p then q' is broken only if p happens and q does not. When p is false, the implication is true, whatever q is.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m07",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The statement pattern p ∨ ~p is:",
+    "options": [
+      "a contingency",
+      "neither true nor false",
+      "a contradiction",
+      "a tautology"
+    ],
+    "ans": 3,
+    "solution": "Either p is true, or ~p is true, so the disjunction is true in every row. A pattern that is true in every row is a tautology.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m08",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The negation of p ∧ q is:",
+    "options": [
+      "~p ∧ ~q",
+      "~p ∨ ~q",
+      "p ∧ ~q",
+      "p ∨ q"
+    ],
+    "ans": 1,
+    "solution": "By De Morgan's law, the negation of 'and' is 'or' with each part negated. The conjunction fails when at least one part fails.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m09",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The negation of p ∨ q is:",
+    "options": [
+      "~p ∧ q",
+      "~p ∧ ~q",
+      "p ∧ q",
+      "~p ∨ ~q"
+    ],
+    "ans": 1,
+    "solution": "By De Morgan's law, the negation of 'or' is 'and' with each part negated. The disjunction fails only when both parts fail.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m10",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The implication p → q is logically equivalent to:",
+    "options": [
+      "q → p",
+      "~p ∧ q",
+      "p ∨ ~q",
+      "~p ∨ q"
+    ],
+    "ans": 3,
+    "solution": "The implication is false only when p is true and q is false, and ~p ∨ q is false in exactly that row. The converse q → p is a different statement.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m11",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The contrapositive of p → q is:",
+    "options": [
+      "~q ∧ ~p",
+      "~p → ~q",
+      "~q → ~p",
+      "q → p"
+    ],
+    "ans": 2,
+    "solution": "The contrapositive reverses the two parts and negates both. It is logically equivalent to the original implication.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m12",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The inverse of p → q is:",
+    "options": [
+      "~p → ~q",
+      "p → ~q",
+      "~q → ~p",
+      "~q ∧ ~p"
+    ],
+    "ans": 0,
+    "solution": "The inverse negates both parts but keeps the order. It is not equivalent to the original statement p → q (it is equivalent to the converse, which swaps the parts without negating). The contrapositive ~q → ~p is the one that is equivalent to p → q.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m13",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If p is true and q is false, the truth value of (p → q) ↔ ~p is:",
+    "options": [
+      "false",
+      "both true and false",
+      "true",
+      "cannot be decided"
+    ],
+    "ans": 2,
+    "solution": "With p = T and q = F, p → q is F and ~p is F. A biconditional is true when both sides have the same truth value, so F ↔ F is T.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m14",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The biconditional p ↔ q is true when:",
+    "options": [
+      "p and q have the same truth value",
+      "p and q have different truth values",
+      "p and q are both true only",
+      "p is true, whatever q is"
+    ],
+    "ans": 0,
+    "solution": "p ↔ q means 'p if and only if q'. It is true in the rows TT and FF, and false in TF and FT. It is equivalent to (p → q) ∧ (q → p).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m15",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The negation of the statement 'If it rains, I stay at home' is:",
+    "options": [
+      "It does not rain or I stay at home",
+      "It rains and I do not stay at home",
+      "It does not rain and I stay at home",
+      "If it does not rain, I do not stay at home"
+    ],
+    "ans": 1,
+    "solution": "The negation of p → q is p ∧ ~q: the promise fails only when the condition holds and the result does not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m16",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The negation of the statement 'For every real number x, x² is at least 0' is:",
+    "options": [
+      "for no real number x is x² less than 0",
+      "for every real number x, x² is less than 0",
+      "there is a real number x such that x² is at least 0",
+      "there is a real number x such that x² is less than 0"
+    ],
+    "ans": 3,
+    "solution": "Negating 'for every' gives 'there exists', and the property is negated. (The original statement is true, so its negation is false.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m17",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a switching circuit, two switches p and q connected in series correspond to:",
+    "options": [
+      "~p ∨ ~q",
+      "p ∨ q",
+      "p ∧ q",
+      "p → q"
+    ],
+    "ans": 2,
+    "solution": "Current flows through a series connection only when both switches are closed, which is the 'and' operation. Parallel switches correspond to 'or'.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m18",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two switches p and q connected in parallel let the current flow when:",
+    "options": [
+      "at least one of the switches is closed",
+      "exactly one of the switches is open",
+      "both of the switches are open",
+      "both of the switches are closed"
+    ],
+    "ans": 0,
+    "solution": "In a parallel connection, the current has two paths. It flows if either path is closed, which is the 'or' operation, p ∨ q.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m19",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The dual of the statement p ∧ (q ∨ r) is:",
+    "options": [
+      "p ∧ (q ∧ r)",
+      "p ∨ (q ∧ r)",
+      "~p ∨ (~q ∧ ~r)",
+      "p ∨ (q ∨ r)"
+    ],
+    "ans": 1,
+    "solution": "To write the dual, interchange ∧ and ∨ (and also t and c). The letters themselves are not negated. So p ∧ (q ∨ r) has the dual p ∨ (q ∧ r).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m20",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The dual of (p ∨ ~q) ∧ t, where t is a tautology, is:",
+    "options": [
+      "(p ∧ ~q) ∨ t",
+      "(~p ∧ q) ∨ c",
+      "(p ∨ ~q) ∨ c",
+      "(p ∧ ~q) ∨ c"
+    ],
+    "ans": 3,
+    "solution": "Interchange ∨ with ∧, and also t (always true) with c (always false). The simple statements keep their signs. The dual is (p ∧ ~q) ∨ c, where c is a contradiction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m21",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A switch S and its complement S′ (open when S is closed) are connected in parallel. The circuit:",
+    "options": [
+      "never allows current to flow, like a contradiction",
+      "allows current only when S is open",
+      "allows current only when S is closed",
+      "always allows current to flow, like a tautology"
+    ],
+    "ans": 3,
+    "solution": "Exactly one of S and S′ is closed at any time, so the current always has a path. This is the circuit for S ∨ S′, which is true in every row.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m22",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The statement pattern p → q is:",
+    "options": [
+      "always equal to its converse",
+      "a contingency",
+      "a tautology",
+      "a contradiction"
+    ],
+    "ans": 1,
+    "solution": "It is false only in the row p = T, q = F and true in the other three rows. A pattern that is sometimes true and sometimes false is a contingency.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m23",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The statement pattern (p → q) ∧ p ∧ ~q is:",
+    "options": [
+      "a contingency, as it is true in one row",
+      "equivalent to p → q, as it contains p → q",
+      "a contradiction",
+      "a tautology, as every row gives T"
+    ],
+    "ans": 2,
+    "solution": "For the pattern to be true we need p true, and p → q true, so q true. But we also need ~q true. These cannot hold together, so it is false in every row.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m24",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The statement ~(p → q) is logically equivalent to:",
+    "options": [
+      "p ∧ ~q",
+      "~p ∨ q",
+      "~p ∧ q",
+      "p ∨ ~q"
+    ],
+    "ans": 0,
+    "solution": "p → q is equivalent to ~p ∨ q. By De Morgan's law, its negation is p ∧ ~q, which is true only in the row p = T, q = F.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m25",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The statement ~(p ↔ q) is logically equivalent to:",
+    "options": [
+      "(p ∧ ~q) ∨ (q ∧ ~p)",
+      "(p ∧ q) ∨ (~p ∧ ~q)",
+      "(p → q) ∧ (q → p)",
+      "(p ∨ ~q) ∧ (q ∨ ~p)"
+    ],
+    "ans": 0,
+    "solution": "p ↔ q is true when p and q agree, so its negation is true when they differ: p true and q false, or q true and p false. The other three options are all equivalent to p ↔ q itself.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-m26",
+    "ch": "mth-12-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The statement pattern p → (q → p) is:",
+    "options": [
+      "equivalent to q",
+      "a contradiction",
+      "a contingency",
+      "a tautology"
+    ],
+    "ans": 3,
+    "solution": "q → p is equivalent to ~q ∨ p, so p → (q → p) becomes ~p ∨ ~q ∨ p. Since ~p ∨ p is always true, the whole statement is true in every row.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-01-n01",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 1,
+    "q": "How many rows does the truth table of a statement pattern with 5 simple statements have? Give your answer as a whole number.",
+    "ans": 32,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each of the 5 statements has 2 possible truth values, so there are 2⁵ = 32 rows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n02",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "In the truth table of (p ∧ q) ∨ r, in how many rows is the statement true? Give your answer as a whole number.",
+    "ans": 5,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The statement is true when r is true: 4 of the 8 rows. When r is false, it needs p ∧ q, which gives 1 more row (p = T, q = T, r = F). The total is 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n03",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "In the truth table of (p → q) ∧ (q → r), in how many rows is the statement true? Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "List the 8 rows. The statement is true for TTT, FTT, FFT and FFF, which is 4 rows. In the other rows, either p is true and q false, or q is true and r false.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n04",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "In the truth table of (p ↔ q) ∨ r, in how many rows is the statement true? Give your answer as a whole number.",
+    "ans": 6,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "If r is true, all 4 such rows are true. If r is false, we need p ↔ q, which holds for TT and FF: 2 rows. The total is 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n05",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "In the truth table of (p ∨ q) → (p ∧ r), in how many rows is the statement true? Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "An implication is true if its first part is false or its second part is true. The first part is false when p and q are both false: 2 rows. The second part p ∧ r is true when p and r are both true: 2 rows. These sets do not overlap, so the total is 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n06",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "With four simple statements p, q, r, s, in how many of the 16 rows is (p ∧ q) ∨ (r ∧ s) true? Give your answer as a whole number.",
+    "ans": 7,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "p ∧ q is true in 4 rows (r and s are free). r ∧ s is true in 4 rows. Both are true in 1 row, which was counted twice. So the total is 4 + 4 − 1 = 7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n07",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Let p, q, r be true, false, true respectively. Of the six statements p ∧ q, p ∨ q, p → q, q → p, p ↔ q and ~p ∨ r, how many are true? Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "p ∧ q is F. p ∨ q is T. p → q is F. q → p is T (the first part is false). p ↔ q is F. ~p ∨ r is T, because r is T. Three are true.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n08",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "With p, q, r simple statements, in how many of the 8 rows is (p → q) ∧ (q → r) ∧ (r → p) true? Give your answer as a whole number.",
+    "ans": 2,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The three implications form a cycle: p gives q, q gives r, r gives p. So if one is true, all are true, and if one is false, all are false. Only TTT and FFF work, so the answer is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n09",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "A switch p is connected in series with a parallel pair of switches q and r. For how many of the 8 settings of the three switches does current flow? Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The circuit is p ∧ (q ∨ r). We need p closed (1 way) and at least one of q, r closed (3 of the 4 ways). So 1 × 3 = 3 settings.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-01-n10",
+    "ch": "mth-12-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Two parallel pairs, (p, q) and (r, s), are connected in series. For how many of the 16 settings of the four switches does current flow? Give your answer as a whole number.",
+    "ans": 9,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The circuit is (p ∨ q) ∧ (r ∨ s). Each pair has 3 settings out of 4 in which it conducts, and the two pairs are independent. So 3 × 3 = 9 settings.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-m01",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The general solution of sin θ = 0 is:",
+    "options": [
+      "θ = 2nπ, where n is any integer",
+      "θ = (2n + 1)π/2, where n is any integer",
+      "θ = nπ, where n is any integer",
+      "θ = nπ/2, where n is any integer"
+    ],
+    "ans": 2,
+    "solution": "Sine is zero at 0, π, 2π, −π and so on, which are all multiples of π. The set 2nπ gives only every second one, and (2n + 1)π/2 is where cosine is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m02",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The general solution of cos θ = 0 is:",
+    "options": [
+      "θ = 2nπ, where n is any integer",
+      "θ = (2n + 1)π/2, where n is any integer",
+      "θ = (2n + 1)π, where n is any integer",
+      "θ = nπ, where n is any integer"
+    ],
+    "ans": 1,
+    "solution": "Cosine is zero at π/2, 3π/2, 5π/2, −π/2 and so on, which are the odd multiples of π/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m03",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The principal solutions of sin θ = 1/2, that is, those in [0, 2π], are:",
+    "options": [
+      "π/3 and 2π/3",
+      "π/6 and 11π/6",
+      "π/6 and 7π/6",
+      "π/6 and 5π/6"
+    ],
+    "ans": 3,
+    "solution": "Sine is positive in the first and second quadrants. The first-quadrant angle is π/6, and the second-quadrant angle is π − π/6 = 5π/6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m04",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The general solution of cos θ = 1/2 is:",
+    "options": [
+      "θ = 2nπ ± π/3",
+      "θ = nπ + (−1)ⁿ π/3",
+      "θ = 2nπ ± π/6",
+      "θ = nπ ± π/3"
+    ],
+    "ans": 0,
+    "solution": "Since cos(π/3) = 1/2, we use cos θ = cos α, which gives θ = 2nπ ± α with α = π/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m05",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The general solution of tan θ = √3 is:",
+    "options": [
+      "θ = nπ + π/6",
+      "θ = 2nπ + π/3",
+      "θ = nπ + π/3",
+      "θ = nπ ± π/3"
+    ],
+    "ans": 2,
+    "solution": "Since tan(π/3) = √3, we use tan θ = tan α, which gives θ = nπ + α. Tangent repeats every π, and there is no ± sign in this formula.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m06",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If sin θ = sin α, the general solution is:",
+    "options": [
+      "θ = nπ + α",
+      "θ = nπ + (−1)ⁿ α",
+      "θ = nπ ± α",
+      "θ = 2nπ ± α"
+    ],
+    "ans": 1,
+    "solution": "For even n we get θ = nπ + α, and for odd n we get θ = nπ − α. So both α and π − α (and their repeats) are included. The form 2nπ ± α belongs to cosine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m07",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The general solution of sin²θ = 1/4 is:",
+    "options": [
+      "θ = nπ + (−1)ⁿ π/3",
+      "θ = 2nπ ± π/6",
+      "θ = nπ ± π/3",
+      "θ = nπ ± π/6"
+    ],
+    "ans": 3,
+    "solution": "Since sin²(π/6) = 1/4, we use sin²θ = sin²α, which gives θ = nπ ± α with α = π/6. This covers sin θ = 1/2 and sin θ = −1/2 together.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m08",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of solutions of 2sin²θ − 3 sin θ + 1 = 0 in the interval [0, 2π] is:",
+    "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "ans": 0,
+    "solution": "Factorise: (2 sin θ − 1)(sin θ − 1) = 0. So sin θ = 1/2, which gives π/6 and 5π/6, or sin θ = 1, which gives π/2 only. The total is 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m09",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The general solution of sin θ cos θ = sin θ is:",
+    "options": [
+      "θ = nπ, since sin θ = 0 also gives solutions",
+      "θ = 2nπ only, from cos θ = 1 after cancelling sin θ",
+      "θ = (2n + 1)π/2 only, from cos θ = 0",
+      "θ = nπ/2, where n is any integer"
+    ],
+    "ans": 0,
+    "solution": "Do not cancel sin θ. Write sin θ (cos θ − 1) = 0, so sin θ = 0 or cos θ = 1. The first gives θ = nπ, and the second gives θ = 2nπ, which is already included in nπ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m10",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The sine rule for a triangle ABC states that:",
+    "options": [
+      "a/cos A = b/cos B = c/cos C",
+      "a sin A = b sin B = c sin C",
+      "sin A/b = sin B/c = sin C/a",
+      "a/sin A = b/sin B = c/sin C"
+    ],
+    "ans": 3,
+    "solution": "Each side divided by the sine of the opposite angle gives the same number, 2R, where R is the circumradius.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m11",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a triangle ABC, cos A is equal to:",
+    "options": [
+      "(a² + b² − c²)/(2ab)",
+      "(b² + c² − a²)/(bc)",
+      "(b² + c² − a²)/(2bc)",
+      "(b² + c² + a²)/(2bc)"
+    ],
+    "ans": 2,
+    "solution": "Rearranging the cosine rule a² = b² + c² − 2bc cos A gives this. The last option is cos C, not cos A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m12",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Heron's formula gives the area of a triangle with sides a, b, c and semi-perimeter s as:",
+    "options": [
+      "s(s − a)(s − b)(s − c)",
+      "√(s(s − a)(s − b)(s − c))",
+      "√((s − a)(s − b)(s − c))",
+      "(1/2)√(s(s − a)(s − b)(s − c))"
+    ],
+    "ans": 1,
+    "solution": "Here s = (a + b + c)/2. The area is the square root of the product of s and the three differences. No extra factor of 1/2 is needed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m13",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The projection rule for a triangle ABC states that:",
+    "options": [
+      "a = c cos C + b cos B",
+      "a = b cos C + c cos B",
+      "a = b sin C + c sin B",
+      "a = b cos B + c cos C"
+    ],
+    "ans": 1,
+    "solution": "Side a is made up of the projections of the other two sides onto it. Side b has the angle C next to a, and side c has the angle B next to a.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m14",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A triangle has sides 3, 4 and 5. Its largest angle is:",
+    "options": [
+      "90°",
+      "45°",
+      "60°",
+      "120°"
+    ],
+    "ans": 0,
+    "solution": "The largest angle is opposite the longest side, 5. cos C = (3² + 4² − 5²)/(2 × 3 × 4) = 0, so C = 90°. The triangle is right-angled, since 3² + 4² = 5².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m15",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a triangle ABC, A = 30°, B = 45° and a = 2. Then b is:",
+    "options": [
+      "√2",
+      "2√3",
+      "2√2",
+      "4"
+    ],
+    "ans": 2,
+    "solution": "By the sine rule, b = a sin B/sin A = 2 × (√2/2)/(1/2) = 2√2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m16",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The half-angle formula for cos(A/2) in a triangle ABC, with s the semi-perimeter, is:",
+    "options": [
+      "√((s − b)(s − c)/(bc))",
+      "√(s(s − a)/(ab))",
+      "s(s − a)/(bc)",
+      "√(s(s − a)/(bc))"
+    ],
+    "ans": 3,
+    "solution": "The cosine uses s(s − a) on top, and sine uses (s − b)(s − c). Both have bc below, and both are under a square root.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m17",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The principal value branch of sin⁻¹ x has the range:",
+    "options": [
+      "(−π/2, π/2)",
+      "[−π, π]",
+      "[−π/2, π/2]",
+      "[0, π]"
+    ],
+    "ans": 2,
+    "solution": "Sine is one-one on [−π/2, π/2] and takes all values from −1 to 1 there. This interval is chosen so that sin⁻¹ is a function. The interval [0, π] is for cos⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m18",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The principal value branch of cos⁻¹ x has the range:",
+    "options": [
+      "[−π/2, π/2]",
+      "[0, π]",
+      "(0, π)",
+      "[0, 2π]"
+    ],
+    "ans": 1,
+    "solution": "Cosine is one-one on [0, π] and takes all values from 1 down to −1 there. So cos⁻¹ x always lies between 0 and π.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m19",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of sin⁻¹(sin 5π/6) is:",
+    "options": [
+      "−π/6",
+      "5π/6",
+      "π/3",
+      "π/6"
+    ],
+    "ans": 3,
+    "solution": "sin(5π/6) = 1/2, and sin⁻¹(1/2) must lie in [−π/2, π/2], so it is π/6. The answer is not 5π/6, because that is outside the principal range.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m20",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For −1 ≤ x ≤ 1, sin⁻¹ x + cos⁻¹ x is equal to:",
+    "options": [
+      "π/2",
+      "π",
+      "0",
+      "π/4"
+    ],
+    "ans": 0,
+    "solution": "The two angles are complementary. For example, for x = 1/2: π/6 + π/3 = π/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m21",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of cos⁻¹(−1/2) is:",
+    "options": [
+      "−π/3",
+      "5π/6",
+      "2π/3",
+      "π/3"
+    ],
+    "ans": 2,
+    "solution": "Use cos⁻¹(−x) = π − cos⁻¹ x. So cos⁻¹(−1/2) = π − π/3 = 2π/3, which lies in [0, π]. A negative angle is not possible for cos⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m22",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of tan⁻¹ 2 + tan⁻¹ 3 is:",
+    "options": [
+      "π/2",
+      "−π/4",
+      "π/4",
+      "3π/4"
+    ],
+    "ans": 3,
+    "solution": "The product of 2 and 3 is greater than 1, so tan⁻¹ 2 + tan⁻¹ 3 = π + tan⁻¹((2 + 3)/(1 − 6)) = π + tan⁻¹(−1) = π − π/4 = 3π/4. Using the formula without π would give −π/4, which is wrong because both angles are positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m23",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of tan⁻¹(1/2) + tan⁻¹(1/3) is:",
+    "options": [
+      "tan⁻¹(5/6)",
+      "π/4",
+      "π/6",
+      "π/2"
+    ],
+    "ans": 1,
+    "solution": "The product is 1/6, which is less than 1, so the sum is tan⁻¹((1/2 + 1/3)/(1 − 1/6)) = tan⁻¹((5/6)/(5/6)) = tan⁻¹ 1 = π/4. The expression tan⁻¹(5/6) forgets the denominator.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m24",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of sin(cos⁻¹(3/5)) is:",
+    "options": [
+      "4/5",
+      "5/4",
+      "3/5",
+      "3/4"
+    ],
+    "ans": 0,
+    "solution": "Let θ = cos⁻¹(3/5), an angle in the first quadrant with cos θ = 3/5. Then sin θ = √(1 − 9/25) = 4/5 (positive, since θ lies in [0, π/2]).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m25",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of cos(2 tan⁻¹(1/2)) is:",
+    "options": [
+      "3/5",
+      "4/5",
+      "3/4",
+      "1/2"
+    ],
+    "ans": 0,
+    "solution": "Let t = tan⁻¹(1/2), so tan t = 1/2. Then cos 2t = (1 − tan²t)/(1 + tan²t) = (1 − 1/4)/(1 + 1/4) = (3/4)/(5/4) = 3/5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m26",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The expression tan⁻¹ x means:",
+    "options": [
+      "the reciprocal 1/tan x, which is cot x",
+      "tan x raised to the power −1, at every x",
+      "the inverse function of tan, with values in (−π/2, π/2)",
+      "the angle whose cotangent is x, in [0, π]"
+    ],
+    "ans": 2,
+    "solution": "The index −1 on a function name means the inverse function, not the reciprocal. The reciprocal of tan x is written cot x, or (tan x)⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-m27",
+    "ch": "mth-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For −1 ≤ x ≤ 1, sin⁻¹(−x) is equal to:",
+    "options": [
+      "sin⁻¹ x",
+      "π/2 − sin⁻¹ x",
+      "π − sin⁻¹ x",
+      "−sin⁻¹ x"
+    ],
+    "ans": 3,
+    "solution": "Sine is an odd function, and so is its inverse. For example, sin⁻¹(−1/2) = −π/6. (The rule with π − is for cos⁻¹.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-03-n01",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "How many solutions does 2 cos θ = 1 have in the interval [0, 4π]? Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "cos θ = 1/2 gives θ = 2nπ ± π/3. In [0, 4π] these are π/3, 5π/3, 7π/3 and 11π/3: 4 solutions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n02",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the sum of all the solutions of tan θ = 1 in the interval [0, 2π], correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.712,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "tan θ = 1 gives θ = nπ + π/4. In [0, 2π]: π/4 and 5π/4. The sum is 6π/4 = 3π/2 = 4.712.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n03",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "How many solutions does 4 sin²θ − 1 = 0 have in the interval [0, 2π]? Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "sin θ = 1/2 or sin θ = −1/2. The first gives π/6 and 5π/6, and the second gives 7π/6 and 11π/6. Total 4 (the general solution is θ = nπ ± π/6).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n04",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "A triangle has sides 7, 8 and 13. Find its largest angle, in degrees. Give your answer as a whole number.",
+    "ans": 120.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The largest angle is opposite 13. cos C = (7² + 8² − 13²)/(2 × 7 × 8) = (49 + 64 − 169)/112 = −1/2, so C = 120°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n05",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the area of the triangle with sides 13, 14 and 15. Give your answer as a whole number.",
+    "ans": 84.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "s = 21. Area = √(21 × 8 × 7 × 6) = √7056 = 84.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n06",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the circumradius R of the triangle with sides 13, 14 and 15, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 8.125,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "R = abc/(4 × Area) = (13 × 14 × 15)/(4 × 84) = 2730/336 = 8.125. By the sine rule, R = a/(2 sin A) gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n07",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find tan⁻¹(1/2) + tan⁻¹(1/3), in degrees. Give your answer as a whole number.",
+    "ans": 45.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The product 1/6 is less than 1, so the sum is tan⁻¹((5/6)/(5/6)) = tan⁻¹ 1 = 45°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n08",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find tan⁻¹ 2 + tan⁻¹ 3, in radians, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.356,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The product 6 is greater than 1, so the sum is π + tan⁻¹((2 + 3)/(1 − 6)) = π − π/4 = 3π/4 = 2.356.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n09",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of cos(2 tan⁻¹(1/2)), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.6,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "cos 2t = (1 − tan²t)/(1 + tan²t) with tan t = 1/2: (3/4)/(5/4) = 3/5 = 0.600.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n10",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find sin(sin⁻¹(3/5) + cos⁻¹(5/13)), correct to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.9692,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "Let A = sin⁻¹(3/5): sin A = 3/5, cos A = 4/5. Let B = cos⁻¹(5/13): cos B = 5/13, sin B = 12/13. sin(A + B) = (3/5)(5/13) + (4/5)(12/13) = 63/65 = 0.9692.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-03-n11",
+    "ch": "mth-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of sin⁻¹(sin 2), in radians, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.142,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The angle 2 radians is in the second quadrant, outside [−π/2, π/2]. Use sin 2 = sin(π − 2), with π − 2 = 1.142 inside the range. So sin⁻¹(sin 2) = π − 2 = 1.142.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-m01",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The equation ax² + 2hxy + by² = 0, with h² ≥ ab, represents:",
+    "options": [
+      "a circle with its centre at the origin",
+      "a single straight line not through the origin",
+      "a parabola with its vertex at the origin",
+      "a pair of straight lines through the origin"
+    ],
+    "ans": 3,
+    "solution": "Every term is of degree two, and there is no linear or constant term. Dividing by x² gives a quadratic in y/x, which has the real roots m₁ and m₂ when h² ≥ ab. Each root is the slope of a line through the origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m02",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "An equation in which every term has degree two in x and y is called:",
+    "options": [
+      "a general equation of the second degree",
+      "a homogeneous equation of the second degree",
+      "a linear equation in two variables",
+      "an equation of a circle in standard form"
+    ],
+    "ans": 1,
+    "solution": "Terms such as x², xy and y² all have total degree 2. The general second degree equation has also linear terms and a constant, so it is not homogeneous.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m03",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The combined equation of the lines y = 2x and y = 3x is:",
+    "options": [
+      "6x² − 5xy + y² = 0",
+      "x² − 5xy + 6y² = 0",
+      "x² + 5xy + 6y² = 0",
+      "6x² + 5xy + y² = 0"
+    ],
+    "ans": 0,
+    "solution": "Write each line as an expression equal to zero, y − 2x = 0 and y − 3x = 0, and multiply: (y − 2x)(y − 3x) = y² − 5xy + 6x² = 0. Check: the slopes m are the roots of m² − 5m + 6 = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m04",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The combined equation of the coordinate axes is:",
+    "options": [
+      "x + y = 0",
+      "x² − y² = 0",
+      "xy = 0",
+      "x² + y² = 0"
+    ],
+    "ans": 2,
+    "solution": "The y-axis is x = 0 and the x-axis is y = 0. The product xy = 0 holds when x = 0 or y = 0. The equation x² − y² = 0 gives the lines y = x and y = −x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m05",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If m₁ and m₂ are the slopes of the lines ax² + 2hxy + by² = 0, the sum m₁ + m₂ is:",
+    "options": [
+      "−2h/a",
+      "−2h/b",
+      "2h/b",
+      "−h/b"
+    ],
+    "ans": 1,
+    "solution": "Put y = mx: a + 2hm + bm² = 0. For this quadratic in m, the sum of the roots is −(coefficient of m)/(coefficient of m²) = −2h/b.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m06",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If m₁ and m₂ are the slopes of the lines ax² + 2hxy + by² = 0, the product m₁m₂ is:",
+    "options": [
+      "a/b",
+      "b/a",
+      "2h/b",
+      "−a/b"
+    ],
+    "ans": 0,
+    "solution": "From b m² + 2h m + a = 0, the product of the roots is the constant term over the coefficient of m², which is a/b.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m07",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The lines represented by ax² + 2hxy + by² = 0 are perpendicular if:",
+    "options": [
+      "h² = ab",
+      "h = 0",
+      "a + b = 0",
+      "a = b"
+    ],
+    "ans": 2,
+    "solution": "The product of slopes is a/b. For perpendicular lines it must be −1, so a = −b. In this case, the coefficients of x² and y² add up to zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m08",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The lines represented by ax² + 2hxy + by² = 0 coincide if:",
+    "options": [
+      "h = 0",
+      "h² > ab",
+      "a + b = 0",
+      "h² = ab"
+    ],
+    "ans": 3,
+    "solution": "Then the two slopes are equal, as the discriminant of b m² + 2h m + a = 0 is 4(h² − ab) = 0. The equation is a perfect square, for example x² − 6xy + 9y² = (x − 3y)².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m09",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation x² + y² = 0 represents:",
+    "options": [
+      "the x-axis and the y-axis",
+      "a circle of radius 1",
+      "two perpendicular lines through the origin",
+      "only the origin, since there are no real lines"
+    ],
+    "ans": 3,
+    "solution": "The sum of two squares is zero only if both are zero, so the only real solution is (0, 0). Here h² − ab = −1, which is negative, so there are no real lines.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m10",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation x² − y² = 0 represents:",
+    "options": [
+      "the line x + y = 0 only",
+      "the lines y = x and y = −x",
+      "the lines x = 0 and y = 0",
+      "the line y = x only"
+    ],
+    "ans": 1,
+    "solution": "Factorise: (x − y)(x + y) = 0. Here a = 1 and b = −1, so a + b = 0, and the two lines are perpendicular.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m11",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the pair of lines 2x² + 5xy + 2y² = 0, the product of the slopes is:",
+    "options": [
+      "5/2",
+      "−1",
+      "1",
+      "2"
+    ],
+    "ans": 2,
+    "solution": "The product is a/b = 2/2 = 1. (The sum is −2h/b = −5/2, so the slopes are −2 and −1/2.) Since the product is not −1, the lines are not perpendicular.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m12",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The acute angle between the lines x² − 3xy + 2y² = 0 is:",
+    "options": [
+      "tan⁻¹(1/3)",
+      "tan⁻¹ 3",
+      "π/4",
+      "tan⁻¹(1/2)"
+    ],
+    "ans": 0,
+    "solution": "Here a = 1, 2h = −3 and b = 2, so h² − ab = 9/4 − 2 = 1/4. tan θ = |2√(h² − ab)/(a + b)| = |2 × (1/2)/3| = 1/3. Check: the lines are x = y and x = 2y, with slopes 1 and 1/2, and tan θ = (1 − 1/2)/(1 + 1/2) = 1/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m13",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The general equation ax² + 2hxy + by² + 2gx + 2fy + c = 0 represents a pair of straight lines if:",
+    "options": [
+      "abc − 2fgh + af² + bg² + ch² = 0",
+      "a + b = 0 only",
+      "abc + 2fgh − af² − bg² − ch² = 0",
+      "h² − ab = 0 only"
+    ],
+    "ans": 2,
+    "solution": "This is the condition that the determinant of the coefficients is zero. For real lines we also need h² ≥ ab. The condition is the same as the vanishing of the 3 × 3 determinant with rows (a, h, g), (h, b, f), (g, f, c).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m14",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The lines represented by x² − 5xy + 6y² = 0 are:",
+    "options": [
+      "x = 2y and x = 3y",
+      "x + 2y = 0 and x + 3y = 0",
+      "y = 2x and y = 3x",
+      "x = −2y and x = −3y"
+    ],
+    "ans": 0,
+    "solution": "Factorise: x² − 5xy + 6y² = (x − 2y)(x − 3y). So the lines are x = 2y and x = 3y. Take care: the slopes of these lines are 1/2 and 1/3, not 2 and 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m15",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The lines represented by 3x² + kxy − 3y² = 0 are perpendicular:",
+    "options": [
+      "only when k = 0",
+      "for every real value of k",
+      "only when k = 3",
+      "for no value of k"
+    ],
+    "ans": 1,
+    "solution": "Here a + b = 3 − 3 = 0, whatever k is. The lines are real, since h² − ab = k²/4 + 9, which is positive. So the lines are real and perpendicular for every k.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m16",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation x² − 6xy + 9y² = 0 represents:",
+    "options": [
+      "two perpendicular lines through the origin",
+      "two parallel lines, x = 3y and x = 3y + 1",
+      "no real lines, since h² is less than ab",
+      "two coincident lines, each x = 3y"
+    ],
+    "ans": 3,
+    "solution": "The left side is (x − 3y)². Here h = −3, so h² = 9 = ab, which is the condition for coincident lines. Both lines are the line x = 3y.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m17",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following equations represents a pair of perpendicular lines through the origin?",
+    "options": [
+      "x² + 3xy + 2y² = 0",
+      "2x² + 3xy − 2y² = 0",
+      "3x² + xy + y² = 0",
+      "x² − 3xy + y² = 0"
+    ],
+    "ans": 1,
+    "solution": "Perpendicular lines need a + b = 0. For the first equation, 2 + (−2) = 0. For the others, a + b is 3, 2 and 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m18",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The point of intersection of the lines represented by ax² + 2hxy + by² = 0 is:",
+    "options": [
+      "the origin",
+      "the point (h, h)",
+      "the point (a, b)",
+      "a point on the x-axis"
+    ],
+    "ans": 0,
+    "solution": "Both lines pass through the origin, since the equation has no terms of degree less than two, and (0, 0) satisfies it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m19",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "To find the point of intersection of the two lines given by ax² + 2hxy + by² + 2gx + 2fy + c = 0, we solve:",
+    "options": [
+      "ax + hy = 0 and hx + by = 0",
+      "ax² + g = 0 and by² + f = 0",
+      "x + y = 0 and g + f = 0",
+      "ax + hy + g = 0 and hx + by + f = 0"
+    ],
+    "ans": 3,
+    "solution": "The point where the two lines cross is the point where both partial derivatives of the expression are zero. This gives the two linear equations, which meet at ((hf − bg)/(ab − h²), (gh − af)/(ab − h²)).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m20",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation x² − y² + 2x + 1 = 0 represents:",
+    "options": [
+      "a hyperbola with its centre at (−1, 0)",
+      "a circle with its centre at (−1, 0)",
+      "two perpendicular lines that meet at (−1, 0)",
+      "two parallel lines"
+    ],
+    "ans": 2,
+    "solution": "x² + 2x + 1 = (x + 1)², so the equation is (x + 1)² − y² = 0, which factorises as (x + 1 − y)(x + 1 + y) = 0. These are the lines y = x + 1 and y = −(x + 1), meeting where x = −1 and y = 0, at right angles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m21",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The combined equation of the lines x + y = 1 and x − y = 1 is:",
+    "options": [
+      "x² − y² + 2x + 1 = 0",
+      "x² + y² − 2x + 1 = 0",
+      "x² − y² − 2x + 1 = 0",
+      "x² − y² − 1 = 0"
+    ],
+    "ans": 2,
+    "solution": "Multiply (x + y − 1)(x − y − 1) = (x − 1)² − y² = x² − 2x + 1 − y². So the equation is x² − y² − 2x + 1 = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m22",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The combined equation of two lines through the origin with slopes m and n is:",
+    "options": [
+      "y² − (m + n)xy = 0",
+      "(x − my)(x − ny) = 0",
+      "(y + mx)(y + nx) = 0",
+      "(y − mx)(y − nx) = 0"
+    ],
+    "ans": 3,
+    "solution": "The line of slope m through the origin is y = mx, so y − mx = 0. The product of the two such expressions gives the pair. Expanding: y² − (m + n)xy + mn x² = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m23",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If a + b = 0 in the equation ax² + 2hxy + by² = 0, the formula for tan θ has zero in the denominator. In this case, the angle between the lines is:",
+    "options": [
+      "45°, as the lines are symmetrical",
+      "90°, as the lines are perpendicular",
+      "not defined, as the lines do not exist",
+      "0°, as the lines coincide"
+    ],
+    "ans": 1,
+    "solution": "A zero denominator means that tan θ is infinite, so θ = 90°. This agrees with the condition a + b = 0 for perpendicular lines.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m24",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the homogeneous equation ax² + 2hxy + by² = 0, if h² < ab, then it represents:",
+    "options": [
+      "only the origin, since no real lines exist",
+      "two real and distinct lines through the origin",
+      "a pair of parallel lines",
+      "two coincident lines through the origin"
+    ],
+    "ans": 0,
+    "solution": "The quadratic b m² + 2h m + a = 0 has a negative discriminant, so it has no real slopes. The only real point on the graph is the origin. For example, x² + xy + y² = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m25",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The slopes of the lines represented by 6x² − 5xy + y² = 0 are:",
+    "options": [
+      "2 and 3",
+      "6 and 1",
+      "1/2 and 1/3",
+      "−2 and −3"
+    ],
+    "ans": 0,
+    "solution": "Put y = mx: 6 − 5m + m² = 0, so (m − 2)(m − 3) = 0 and m = 2 or 3. Check: the sum is 5 = −2h/b = −(−5)/1, and the product is 6 = a/b.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-m26",
+    "ch": "mth-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The homogeneous equation ax² + 2hxy + by² = 0 represents two real and distinct lines through the origin when:",
+    "options": [
+      "h² = ab",
+      "h² < ab",
+      "h² > ab",
+      "a + b = 0 only"
+    ],
+    "ans": 2,
+    "solution": "The slopes are real and different when the discriminant of b m² + 2h m + a = 0 is positive: 4h² − 4ab > 0. When h² = ab the lines coincide, and when h² < ab there are no real lines.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-04-n01",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the sum of the slopes of the lines 2x² + 7xy + 3y² = 0, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": -2.333,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Here 2h = 7, so h = 7/2, and b = 3. The sum is −2h/b = −7/3 = −2.333. Check: the equation factorises as (2x + y)(x + 3y) = 0, with slopes −2 and −1/3, and the sum is −7/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n02",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the larger of the two slopes of the lines 6x² − 5xy + y² = 0. Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Put y = mx: m² − 5m + 6 = 0, so m = 2 or 3. The larger slope is 3. The equation factorises as (y − 2x)(y − 3x) = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n03",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the acute angle, in degrees, between the lines x² − 3xy + 2y² = 0, correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 18.43,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "tan θ = |2√(h² − ab)/(a + b)| = |2 × (1/2)/3| = 1/3, so θ = 18.43°. Check: the lines x = y and x = 2y have slopes 1 and 1/2, so θ = 45° − 26.57° = 18.43°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n04",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the acute angle, in degrees, between the lines 3x² + 10xy + 3y² = 0, correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 53.13,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Here h = 5, a = b = 3. tan θ = |2√(25 − 9)/6| = 8/6 = 4/3, so θ = 53.13°. Check: the lines have slopes −3 and −1/3, and tan θ = |(−1/3 + 3)/(1 + 1)| = 4/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n05",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the value of k for which the lines kx² + 4xy − y² = 0 are perpendicular. Give your answer as a whole number.",
+    "ans": 1,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The lines are perpendicular if a + b = 0. Here a = k and b = −1, so k − 1 = 0 and k = 1. Check: the product of slopes is a/b = k/(−1) = −1, which gives k = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n06",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of k for which x² − y² + 2x + k = 0 represents a pair of straight lines. Give your answer as a whole number.",
+    "ans": 1,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Here a = 1, b = −1, h = 0, g = 1, f = 0 and c = k. The condition abc + 2fgh − af² − bg² − ch² = 0 becomes −k − 0 + 1 − 0 = 0, so k = 1. Check: x² + 2x + 1 − y² = (x + 1)² − y², which splits into two lines.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n07",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The equation x² − y² − 2x + 4y − 3 = 0 represents two straight lines. Find the sum of the coordinates of their point of intersection. Give your answer as a whole number.",
+    "ans": 3.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The equation is (x − 1)² − (y − 2)² = 0, because x² − 2x + 1 − y² + 4y − 4 = x² − y² − 2x + 4y − 3. The lines are y − 2 = ±(x − 1), and they meet at (1, 2). The sum of the coordinates is 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n08",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The lines x² − 4y² = 0 and the line x = 4 form a triangle. Find its area, in square units. Give your answer as a whole number.",
+    "ans": 8.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "x² − 4y² = (x − 2y)(x + 2y) = 0 gives the lines y = x/2 and y = −x/2. With x = 4, they meet it at (4, 2) and (4, −2). The triangle has base 4 (from y = −2 to 2) and height 4, so the area is (1/2) × 4 × 4 = 8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n09",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "For the lines 2x² + 5xy + 2y² = 0, find (m₁ − m₂)² where m₁ and m₂ are the slopes, correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "m₁ + m₂ = −2h/b = −5/2 and m₁m₂ = a/b = 1. (m₁ − m₂)² = (m₁ + m₂)² − 4m₁m₂ = 25/4 − 4 = 9/4 = 2.25. Check: the slopes are −2 and −1/2, which differ by 1.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-04-n10",
+    "ch": "mth-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "How many of these equations represent a pair of real lines through the origin? x² − 4y² = 0; x² + y² = 0; 2x² + 3xy + y² = 0; x² + xy + y² = 0. Give your answer as a whole number.",
+    "ans": 2,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "A pair of real lines needs h² ≥ ab. For x² − 4y²: 0 + 4 is positive (yes). For x² + y²: −1 (no). For 2x² + 3xy + y²: h = 3/2, so 9/4 − 2 = 1/4 (yes). For x² + xy + y²: 1/4 − 1 is negative (no). So 2 equations.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-m01",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The magnitude of the vector a = x i + y j + z k is:",
+    "options": [
+      "x + y + z",
+      "√(x² + y² + z²)",
+      "√(x + y + z)",
+      "x² + y² + z²"
+    ],
+    "ans": 1,
+    "solution": "By Pythagoras twice, the length of the diagonal of the box with sides x, y and z is the square root of the sum of the squares.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m02",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The unit vector in the direction of a vector a is:",
+    "options": [
+      "|a|/a",
+      "a + |a|",
+      "a × |a|",
+      "a/|a|"
+    ],
+    "ans": 3,
+    "solution": "Dividing a vector by its own length gives a vector of length 1 in the same direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m03",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two non-zero vectors a and b are collinear (parallel) if and only if:",
+    "options": [
+      "|a| = |b| in every possible case",
+      "a · b = 0, whatever the vectors are",
+      "a = λb for some non-zero scalar λ",
+      "a + b = 0 in every possible case"
+    ],
+    "ans": 2,
+    "solution": "Collinear vectors lie along the same line, so one is a scalar multiple of the other. Equal length is not needed, and a · b = 0 is the condition for perpendicular vectors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m04",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The position vector of the point that divides the line joining the points with position vectors a and b internally in the ratio m : n is:",
+    "options": [
+      "(mb + na)/(m + n)",
+      "(ma − nb)/(m − n)",
+      "(mb − na)/(m − n)",
+      "(ma + nb)/(m + n)"
+    ],
+    "ans": 0,
+    "solution": "The point is nearer to a when n is larger than m. Check with m = n: the formula gives (a + b)/2, the mid-point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m05",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The position vector of the mid-point of the line joining the points with position vectors a and b is:",
+    "options": [
+      "a + b",
+      "(a + b)/2",
+      "(a − b)/2",
+      "(a + b)/4"
+    ],
+    "ans": 1,
+    "solution": "Put m = n = 1 in the section formula: (b + a)/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m06",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If l, m and n are the direction cosines of a line, then:",
+    "options": [
+      "l² + m² + n² = 1",
+      "l + m + n = 1",
+      "l + m + n = 0",
+      "l² + m² + n² = 0"
+    ],
+    "ans": 0,
+    "solution": "The direction cosines are the components of the unit vector along the line, cosα i + cosβ j + cosγ k, whose length is 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m07",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The dot (scalar) product of two vectors a and b, with angle θ between them, is:",
+    "options": [
+      "|a||b| sinθ",
+      "|a||b|",
+      "|a||b| cosθ",
+      "|a| + |b| cosθ"
+    ],
+    "ans": 2,
+    "solution": "The result is a scalar. It is zero when the vectors are perpendicular, and is largest when they are parallel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m08",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two non-zero vectors are perpendicular to each other if:",
+    "options": [
+      "their cross product is zero",
+      "their magnitudes are equal",
+      "their sum is the zero vector",
+      "their dot product is zero"
+    ],
+    "ans": 3,
+    "solution": "a · b = |a||b| cosθ = 0 means cosθ = 0, so θ = 90°. The cross product is zero for parallel vectors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m09",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The projection (scalar component) of the vector a on the vector b is:",
+    "options": [
+      "(a · b)/|a|",
+      "(a × b)/|b|",
+      "(a · b)/|b|",
+      "|a||b|"
+    ],
+    "ans": 2,
+    "solution": "The projection is |a| cosθ = (a · b)/|b|. The vector projection is this times the unit vector along b.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m10",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For any vector a, the value of a · a is:",
+    "options": [
+      "0",
+      "|a|²",
+      "|a|",
+      "2|a|"
+    ],
+    "ans": 1,
+    "solution": "The angle between a vector and itself is 0°, so a · a = |a||a| cos 0° = |a|².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m11",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnitude of the cross (vector) product of a and b, with angle θ between them, is:",
+    "options": [
+      "|a||b|",
+      "|a||b| cosθ",
+      "|a| sinθ + |b| sinθ",
+      "|a||b| sinθ"
+    ],
+    "ans": 3,
+    "solution": "The result is a vector, perpendicular to both a and b, in the direction given by the right-hand rule. Its size is the area of the parallelogram with sides a and b.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m12",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of these statements about the cross product is correct?",
+    "options": [
+      "a × b = −(b × a), and a × a = 0",
+      "a × b = b × a, and a × a = |a|²",
+      "a × b = b × a, and a × a = 0",
+      "a × b = −(b × a), and a × a = |a|"
+    ],
+    "ans": 0,
+    "solution": "The cross product is anti-commutative: swapping the order reverses the direction. A vector is parallel to itself, so sinθ = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m13",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "What is the area of the parallelogram that has a and b as two neighbouring sides?",
+    "options": [
+      "|a · b|",
+      "|a| + |b|",
+      "|a × b|",
+      "½|a × b|"
+    ],
+    "ans": 2,
+    "solution": "Base |a|, height |b| sinθ, so area = |a||b| sinθ = |a × b|. A triangle with these two sides has half this area.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m14",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "For the unit vectors i, j and k, which of these is correct?",
+    "options": [
+      "i × j = k and j × i = k",
+      "i × j = k and j × i = −k",
+      "i × j = −k and j × i = k",
+      "i × j = 0 and j × k = 0"
+    ],
+    "ans": 1,
+    "solution": "Going round i, j, k in order gives a plus sign (i × j = k, j × k = i, k × i = j), and the reverse order gives a minus sign.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m15",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The scalar triple product a · (b × c) represents:",
+    "options": [
+      "the angle between the vectors a, b and c",
+      "a vector perpendicular to a, b and c",
+      "the area of the parallelogram with sides b and c",
+      "the volume of the parallelepiped with edges a, b and c (up to a sign)"
+    ],
+    "ans": 3,
+    "solution": "b × c has the size of the area of the base, and the dot product with a gives the base area times the height. The result is a scalar and its modulus is the volume.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m16",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The condition for the three vectors a, b and c to lie in a single plane is:",
+    "options": [
+      "a · (b × c) = 0",
+      "a + b + c = 0 only",
+      "a × (b × c) = 0",
+      "a · b = b · c = 0"
+    ],
+    "ans": 0,
+    "solution": "If they lie in one plane the parallelepiped is flat and has zero volume. (a + b + c = 0 is sufficient but not necessary.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m17",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The scalar triple product has the property that:",
+    "options": [
+      "a · (b × c) = b · (c × a) = c · (a × b)",
+      "a · (b × c) = |a||b||c|, always true",
+      "a · (b × c) = a · (c × b), always true",
+      "a · (b × c) = (a · b)(a · c), always true"
+    ],
+    "ans": 0,
+    "solution": "A cyclic change of the order does not change its value. Swapping two vectors changes the sign. The dot and the cross can also be interchanged: a · (b × c) = (a × b) · c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m18",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The vector triple product a × (b × c) equals:",
+    "options": [
+      "(a × b) × c",
+      "(a · c)b − (a · b)c",
+      "(a · b)c − (a · c)b",
+      "(a · b)(a · c)"
+    ],
+    "ans": 1,
+    "solution": "It lies in the plane of b and c. The easy way to remember: 'BAC minus CAB', a × (b × c) = b(a · c) − c(a · b). It is not the same as (a × b) × c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m19",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work done by a constant force F in displacing a body through d is:",
+    "options": [
+      "F × d",
+      "F/d",
+      "|F| + |d|",
+      "F · d"
+    ],
+    "ans": 3,
+    "solution": "Work is a scalar: W = |F||d| cosθ, only the component of the force along the displacement does work.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m20",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The moment (torque) of a force F acting at a point with position vector r about the origin is:",
+    "options": [
+      "r · F",
+      "F × r",
+      "r × F",
+      "r + F"
+    ],
+    "ans": 2,
+    "solution": "The torque is a vector, τ = r × F, with size rF sinθ. The order matters: F × r would give the opposite direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m21",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If |a + b| = |a − b| for two non-zero vectors a and b, then:",
+    "options": [
+      "a and b are parallel",
+      "a = b",
+      "a and b are perpendicular",
+      "a and b are equal in magnitude only"
+    ],
+    "ans": 2,
+    "solution": "Squaring, |a|² + |b|² + 2a · b = |a|² + |b|² − 2a · b, which gives a · b = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m22",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A unit vector perpendicular to both a and b is:",
+    "options": [
+      "±(a × b)/|a × b|",
+      "±a/|a| only",
+      "±(a + b)/|a + b|",
+      "±(a · b)/|a · b|"
+    ],
+    "ans": 0,
+    "solution": "The cross product a × b is perpendicular to both. Dividing by its length makes it a unit vector, and the two signs give the two opposite directions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m23",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two non-zero vectors a and b are parallel if and only if:",
+    "options": [
+      "a · b = 0",
+      "a · b = |a||b| sinθ",
+      "|a| = |b|",
+      "a × b = 0"
+    ],
+    "ans": 3,
+    "solution": "|a × b| = |a||b| sinθ = 0 for θ = 0 or 180°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m24",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For any two vectors a and b, the value of a · (a × b) is:",
+    "options": [
+      "|a × b|",
+      "0",
+      "|a|²|b|",
+      "|a||b|"
+    ],
+    "ans": 1,
+    "solution": "a × b is perpendicular to a, so the dot product with a is zero. This is also the scalar triple product of a, a and b, which has two equal vectors and so zero volume.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m25",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The volume of the tetrahedron with three edges a, b and c meeting at a vertex is:",
+    "options": [
+      "|a · (b × c)|",
+      "(1/6)|a · (b × c)|",
+      "(1/3)|a · (b × c)|",
+      "(1/2)|a · (b × c)|"
+    ],
+    "ans": 1,
+    "solution": "The parallelepiped is made of 6 such tetrahedra. Its volume is |a · (b × c)|.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-m26",
+    "ch": "mth-12-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The angle between the vectors i + j and j + k is:",
+    "options": [
+      "90°",
+      "180°",
+      "60°",
+      "30°"
+    ],
+    "ans": 2,
+    "solution": "cosθ = (a · b)/(|a||b|) = 1/(√2 × √2) = 1/2, so θ = 60°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-05-n01",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the magnitude of the vector 3i − 4j + 12k. Give your answer as a whole number.",
+    "ans": 13.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "|a| = √(3² + 4² + 12²) = √169 = 13.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n02",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 1,
+    "q": "Find the dot product of 2i + 3j − k and i − 2j + 4k. Give your answer as a whole number.",
+    "ans": -8,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "a · b = (2)(1) + (3)(−2) + (−1)(4) = 2 − 6 − 4 = −8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n03",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the angle, in degrees, between the vectors i + j and j + k. Give your answer to 1 decimal place.",
+    "ans": 60.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "cosθ = 1/(√2 × √2) = 1/2, so θ = 60°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n04",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the magnitude of the cross product of the vectors i + 2j + 3k and 3i − j + 2k. Give your answer to 2 decimal places.",
+    "ans": 12.12,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "a × b = (2·2 − 3·(−1), 3·3 − 1·2, 1·(−1) − 2·3) = (7, 7, −7), so |a × b| = 7√3 = 12.12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n05",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area of the triangle with vertices A(1, 0, 0), B(0, 2, 0) and C(0, 0, 3). Give your answer to 1 decimal place.",
+    "ans": 3.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "AB = (−1, 2, 0) and AC = (−1, 0, 3). AB × AC = (6, 3, 2), with magnitude 7. Area = ½ × 7 = 3.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n06",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the scalar triple product a · (b × c) for a = i + 2j + 3k, b = j + 4k and c = 5i + 6j. Give your answer as a whole number.",
+    "ans": 1,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "b × c = (−24, 20, −5). a · (b × c) = −24 + 40 − 15 = 1. (Check by cyclic order: c · (a × b) = 1.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n07",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the scalar projection of the vector 2i + 3j + 6k on the vector i + 2j + 2k. Give your answer to 2 decimal places.",
+    "ans": 6.67,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "a · b = 2 + 6 + 12 = 20 and |b| = 3, so the projection is 20/3 = 6.67.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n08",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A point P divides the line joining A(1, 2, 3) and B(7, 8, 9) internally in the ratio 1 : 2. Find the sum of the coordinates of P. Give your answer as a whole number.",
+    "ans": 12.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P = (2A + B)/3 = ((2 + 7)/3, (4 + 8)/3, (6 + 9)/3) = (3, 4, 5). The sum is 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n09",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "A force 2i − j + 3k newton moves a particle from (1, 1, 1) to (4, 3, 2). Find the work done in joules. Give your answer as a whole number.",
+    "ans": 7,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The displacement is (3, 2, 1). W = F · d = 6 − 2 + 3 = 7 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-05-n10",
+    "ch": "mth-12-05",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the value of λ for which the vectors i − 2j + λk and 3i + 4j − k are perpendicular. Give your answer as a whole number.",
+    "ans": -5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The dot product is 3 − 8 − λ = 0, so λ = −5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-m01",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The vector equation of a line through the point with position vector a and parallel to the vector b is:",
+    "options": [
+      "r = a × λb, where λ is a scalar",
+      "r = λa + b, where λ is a scalar",
+      "r = a · b, where λ is a scalar",
+      "r = a + λb, where λ is a scalar"
+    ],
+    "ans": 3,
+    "solution": "Starting from the point a, move any multiple λ of the direction b. Each value of λ gives a different point of the line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m02",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Cartesian equation of the line through (x₁, y₁, z₁) with direction ratios l, m and n is:",
+    "options": [
+      "x/l + y/m + z/n = 1",
+      "(x + x₁)/l = (y + y₁)/m = (z + z₁)/n",
+      "(x − x₁)/l = (y − y₁)/m = (z − z₁)/n",
+      "(x − x₁)l = (y − y₁)m = (z − z₁)n"
+    ],
+    "ans": 2,
+    "solution": "Eliminating λ from x = x₁ + λl, y = y₁ + λm, z = z₁ + λn gives the common ratio. A zero in a denominator means the numerator is also zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m03",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The direction ratios of the line through the points (x₁, y₁, z₁) and (x₂, y₂, z₂) are:",
+    "options": [
+      "x₂ − x₁, y₂ − y₁, z₂ − z₁",
+      "x₂ + x₁, y₂ + y₁, z₂ + z₁",
+      "(x₂ − x₁)², (y₂ − y₁)², (z₂ − z₁)²",
+      "x₁x₂, y₁y₂, z₁z₂"
+    ],
+    "ans": 0,
+    "solution": "The vector joining the two points is along the line. Any multiple of these three numbers is also a set of direction ratios.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m04",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If l, m and n are the direction ratios of a line, its direction cosines are:",
+    "options": [
+      "l/(l + m + n), m/(l + m + n), n/(l + m + n)",
+      "l/√(l² + m² + n²), m/√(l² + m² + n²), n/√(l² + m² + n²)",
+      "l/√(l + m + n), m/√(l + m + n), n/√(l + m + n)",
+      "l², m², n²"
+    ],
+    "ans": 1,
+    "solution": "Dividing the direction ratios by their root of sum of squares makes a unit vector, whose components are the direction cosines (with a choice of sign for the sense).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m05",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The angle θ between two lines with direction vectors b₁ and b₂ is given by:",
+    "options": [
+      "cosθ = |b₁ × b₂|/(|b₁||b₂|)",
+      "tanθ = |b₁ · b₂|",
+      "cosθ = |b₁ · b₂|/(|b₁||b₂|)",
+      "sinθ = |b₁ · b₂|/(|b₁||b₂|)"
+    ],
+    "ans": 2,
+    "solution": "The angle between two lines is taken as the acute angle, so the modulus is used. The lines are perpendicular if b₁ · b₂ = 0 and parallel if b₁ is a multiple of b₂.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m06",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Skew lines are lines in space that:",
+    "options": [
+      "lie in the same plane",
+      "are neither parallel nor intersecting",
+      "intersect at exactly one point",
+      "are parallel but do not intersect"
+    ],
+    "ans": 1,
+    "solution": "Skew lines lie in different planes and never meet. In a plane, two lines are always parallel or intersecting, but in three dimensions there is a third possibility.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m07",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The shortest distance between two skew lines r = a₁ + λb₁ and r = a₂ + μb₂ is:",
+    "options": [
+      "|a₂ − a₁|/|b₁ × b₂|",
+      "|(a₂ − a₁) × (b₁ × b₂)|/|b₁ · b₂|",
+      "|(a₂ − a₁) · (b₁ + b₂)|/|b₁ + b₂|",
+      "|(a₂ − a₁) · (b₁ × b₂)|/|b₁ × b₂|"
+    ],
+    "ans": 3,
+    "solution": "The common perpendicular is along b₁ × b₂. The distance is the component of the vector between two points of the lines, a₂ − a₁, along this direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m08",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two lines in space intersect (are coplanar and not parallel) when the shortest distance between them is:",
+    "options": [
+      "zero",
+      "equal to the distance between their direction vectors",
+      "infinite",
+      "equal to |b₁ × b₂|"
+    ],
+    "ans": 0,
+    "solution": "The numerator (a₂ − a₁) · (b₁ × b₂) is the scalar triple product of three vectors, and it is zero exactly when they are coplanar, which is the condition of coplanarity of the two lines.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m09",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance between two parallel lines r = a₁ + λb and r = a₂ + μb is:",
+    "options": [
+      "|a₂ − a₁||b|",
+      "|(a₂ − a₁) · b|/|b|",
+      "|(a₂ − a₁) × b|",
+      "|(a₂ − a₁) × b|/|b|"
+    ],
+    "ans": 3,
+    "solution": "The cross product (a₂ − a₁) × b has size |a₂ − a₁||b| sinθ, so dividing by |b| gives |a₂ − a₁| sinθ, the perpendicular distance.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m10",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the plane ax + by + cz = d, the direction ratios of its normal are:",
+    "options": [
+      "a, b, c",
+      "d, a, b",
+      "a², b², c²",
+      "1/a, 1/b, 1/c"
+    ],
+    "ans": 0,
+    "solution": "The plane is the set of points r with r · n = d, with n = ai + bj + ck. For example, the normal to 2x − 3y + 6z = 7 has direction ratios 2, −3, 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m11",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The vector equation of a plane that is at a distance d from the origin, with unit normal n̂, is:",
+    "options": [
+      "r × n̂ = d",
+      "r = d n̂ only",
+      "r · n̂ = d",
+      "r + n̂ = d"
+    ],
+    "ans": 2,
+    "solution": "Every point of the plane has the same component d along the unit normal. This is the normal form of the equation of a plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m12",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the plane through the point (x₁, y₁, z₁) with normal direction ratios a, b, c is:",
+    "options": [
+      "(x − x₁)/a = (y − y₁)/b = (z − z₁)/c",
+      "a(x − x₁) + b(y − y₁) + c(z − z₁) = 0",
+      "ax₁ + by₁ + cz₁ = 0",
+      "a(x + x₁) + b(y + y₁) + c(z + z₁) = 0"
+    ],
+    "ans": 1,
+    "solution": "The vector from the given point to any point of the plane is perpendicular to the normal, so their dot product is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m13",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation of the plane through three non-collinear points with position vectors a, b and c is:",
+    "options": [
+      "r · (a × b × c) = 0",
+      "(r − a) × [(b − a) · (c − a)] = 0",
+      "(r + a) · [(b + a) × (c + a)] = 0",
+      "(r − a) · [(b − a) × (c − a)] = 0"
+    ],
+    "ans": 3,
+    "solution": "(b − a) × (c − a) is a normal to the plane. The plane is the set of points r for which r − a is perpendicular to this normal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m14",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the plane that cuts off intercepts a, b and c on the x, y and z axes is:",
+    "options": [
+      "x/a + y/b + z/c = 0",
+      "x/a + y/b + z/c = 1",
+      "ax + by + cz = 1",
+      "a/x + b/y + c/z = 1"
+    ],
+    "ans": 1,
+    "solution": "Setting y = z = 0 gives x = a, and similarly for the other axes. This is the intercept form of the plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m15",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The angle between two planes is the angle between their normals. The planes a₁x + b₁y + c₁z + d₁ = 0 and a₂x + b₂y + c₂z + d₂ = 0 are perpendicular when:",
+    "options": [
+      "a₁ + b₁ + c₁ = a₂ + b₂ + c₂",
+      "a₁/a₂ = b₁/b₂ = c₁/c₂",
+      "a₁a₂ + b₁b₂ + c₁c₂ = 0",
+      "a₁a₂ + b₁b₂ + c₁c₂ = 1"
+    ],
+    "ans": 2,
+    "solution": "Perpendicular planes have perpendicular normals, so the dot product of the normals is zero. The condition with equal ratios is for parallel planes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m16",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The perpendicular distance of a point (x₁, y₁, z₁) from the plane ax + by + cz + d = 0 is:",
+    "options": [
+      "|ax₁ + by₁ + cz₁ + d|/√(a² + b² + c²)",
+      "|ax₁ + by₁ + cz₁ + d|/(a + b + c)",
+      "|ax₁ + by₁ + cz₁ + d|",
+      "(ax₁ + by₁ + cz₁ + d)/√(a + b + c)"
+    ],
+    "ans": 0,
+    "solution": "Substituting the point into the equation, and dividing by the length of the normal, gives the signed distance. The modulus gives the distance.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m17",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance of the origin from the plane 3x + 4y + 12z = 26 is:",
+    "options": [
+      "13",
+      "26",
+      "26/169",
+      "2"
+    ],
+    "ans": 3,
+    "solution": "Distance = |26|/√(9 + 16 + 144) = 26/13 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m18",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If θ is the angle between a line with direction vector b and a plane with normal n, then:",
+    "options": [
+      "cosθ = |b · n|/(|b||n|)",
+      "tanθ = |b · n|",
+      "sinθ = |b · n|/(|b||n|)",
+      "sinθ = |b × n|/(|b||n|)"
+    ],
+    "ans": 2,
+    "solution": "The angle between the line and the plane is 90° minus the angle between the line and the normal, so the sine and cosine are swapped.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m19",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A line with direction vector b is parallel to the plane with normal n if:",
+    "options": [
+      "b = n",
+      "b · n = 0",
+      "b · n = |b||n|",
+      "b × n = 0"
+    ],
+    "ans": 1,
+    "solution": "The line is perpendicular to the normal, which means that it is parallel to the plane. If b × n = 0 the line is perpendicular to the plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m20",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the x-axis in space can be written as:",
+    "options": [
+      "y = 0 and z = 0",
+      "x = y = z",
+      "x = 0 and z = 0",
+      "x = 0 and y = 0"
+    ],
+    "ans": 0,
+    "solution": "Points on the x-axis have both y and z equal to zero, with x free. Its direction ratios are 1, 0, 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m21",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance between the parallel planes ax + by + cz + d₁ = 0 and ax + by + cz + d₂ = 0 is:",
+    "options": [
+      "|d₁ − d₂|/(a + b + c)",
+      "|d₁ − d₂|/√(a² + b² + c²)",
+      "|d₁ − d₂|",
+      "|d₁ + d₂|/√(a² + b² + c²)"
+    ],
+    "ans": 1,
+    "solution": "Take any point of the first plane and use the formula for the distance of a point from a plane, which gives this result.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m22",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A line is perpendicular to a plane if its direction vector is:",
+    "options": [
+      "parallel to the normal of the plane",
+      "at 45° to the normal of the plane",
+      "equal to the position vector of a point of the plane",
+      "perpendicular to the normal of the plane"
+    ],
+    "ans": 0,
+    "solution": "The normal is the direction perpendicular to the plane, so a line along it is perpendicular to every line in the plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m23",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two lines (x − x₁)/l₁ = (y − y₁)/m₁ = (z − z₁)/n₁ and (x − x₂)/l₂ = (y − y₂)/m₂ = (z − z₂)/n₂ are coplanar if:",
+    "options": [
+      "the sum of the direction ratios of the two lines is equal",
+      "the two lines have the same direction ratios",
+      "the determinant with rows (l₁, m₁, n₁), (l₂, m₂, n₂) alone is zero",
+      "the determinant with rows (x₂ − x₁, y₂ − y₁, z₂ − z₁), (l₁, m₁, n₁), (l₂, m₂, n₂) is zero"
+    ],
+    "ans": 3,
+    "solution": "This is the scalar triple product of (a₂ − a₁), b₁ and b₂. If it is zero, the three vectors lie in one plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-m24",
+    "ch": "mth-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the parametric form x = x₁ + λl, y = y₁ + λm, z = z₁ + λn of a line, the value λ = 0 gives:",
+    "options": [
+      "the origin of the coordinates",
+      "the foot of the perpendicular from the origin",
+      "the given point (x₁, y₁, z₁)",
+      "a point at infinity"
+    ],
+    "ans": 2,
+    "solution": "With λ = 0 the coordinates reduce to (x₁, y₁, z₁). Other values of λ give other points on the same line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-06-n01",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the acute angle, in degrees, between the lines with direction vectors i + 2j + 2k and 2i − j + 2k. Give your answer to 1 decimal place.",
+    "ans": 63.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "cosθ = |1·2 + 2·(−1) + 2·2|/(3 × 3) = 4/9, so θ = 63.6°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n02",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the perpendicular distance of the point (1, 2, 3) from the plane 2x − 2y + z = 3. Give your answer to 3 decimal places.",
+    "ans": 0.667,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Distance = |2(1) − 2(2) + 1(3) − 3|/√(4 + 4 + 1) = |−2|/3 = 0.667.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n03",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the shortest distance between the skew lines r = (i + 2j + 3k) + λ(i − j + k) and r = (2i + 4j + 5k) + μ(2i + j + k). Give your answer to 3 decimal places.",
+    "ans": 1.604,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "b₁ × b₂ = (−2, 1, 3), with magnitude √14, and a₂ − a₁ = (1, 2, 2). The dot product is −2 + 2 + 6 = 6. Distance = 6/√14 = 1.604.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n04",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the distance between the parallel lines r = λ(i + 2j + 2k) and r = i + μ(i + 2j + 2k). Give your answer to 3 decimal places.",
+    "ans": 0.943,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "(a₂ − a₁) × b = (1, 0, 0) × (1, 2, 2) = (0, −2, 2), with magnitude 2√2. Distance = 2√2/3 = 0.943.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n05",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the acute angle, in degrees, between the planes x + y + z = 1 and x − y + z = 2. Give your answer to 2 decimal places.",
+    "ans": 70.53,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The normals are (1, 1, 1) and (1, −1, 1). cosθ = |1 − 1 + 1|/(√3 × √3) = 1/3, so θ = 70.53°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n06",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the angle, in degrees, between the line with direction vector i + 2j + 2k and the plane x = 5 (normal i). Give your answer to 2 decimal places.",
+    "ans": 19.47,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "sinθ = |b · n|/(|b||n|) = 1/(3 × 1) = 1/3, so θ = 19.47°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n07",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A plane passes through the point (1, 2, 3) and has normal direction (2, −1, 2). Written as 2x − y + 2z = d, find d. Give your answer as a whole number.",
+    "ans": 6,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "d = 2(1) − 1(2) + 2(3) = 2 − 2 + 6 = 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n08",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the sum of the intercepts that the plane 2x + 3y + 6z = 12 makes on the three coordinate axes. Give your answer as a whole number.",
+    "ans": 12.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Setting two variables zero gives x = 6, y = 4 and z = 2. The sum is 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n09",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the distance between the parallel planes 2x − 2y + z = 3 and 2x − 2y + z = 9. Give your answer as a whole number.",
+    "ans": 2.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Distance = |9 − 3|/√(4 + 4 + 1) = 6/3 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-06-n10",
+    "ch": "mth-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the distance of the origin from the plane 3x + 4y + 12z = 26. Give your answer as a whole number.",
+    "ans": 2.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Distance = 26/√169 = 26/13 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-m01",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The graph of the inequation ax + by ≤ c, in the XY plane, is:",
+    "options": [
+      "a straight line, which is ax + by = c itself",
+      "a half plane, bounded by the line ax + by = c",
+      "a strip between two parallel lines",
+      "a circle with its centre at the origin"
+    ],
+    "ans": 1,
+    "solution": "The line ax + by = c divides the plane into two halves. All the points of one half satisfy the inequation, and the points of the other half do not. The points on the line satisfy it, as the sign includes equality.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m02",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The conditions x ≥ 0 and y ≥ 0 limit the solution region to:",
+    "options": [
+      "the second quadrant, with its boundary axes",
+      "the part of the plane below the x-axis",
+      "the first quadrant, with its boundary axes",
+      "the whole plane, without any restriction"
+    ],
+    "ans": 2,
+    "solution": "Both coordinates must be zero or positive. These are called the non-negativity constraints, and they are present in every linear programming problem of this chapter.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m03",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In a linear programming problem, the objective function is:",
+    "options": [
+      "the point at which the feasible region ends",
+      "the set of linear inequations that the variables satisfy",
+      "a quadratic function of the two variables",
+      "the linear function which is to be maximised or minimised"
+    ],
+    "ans": 3,
+    "solution": "Examples are the profit Z = 20x + 30y to be maximised, or the cost to be minimised. The inequalities are the constraints, and they are a separate part of the problem.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m04",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The constraints of a linear programming problem are:",
+    "options": [
+      "linear inequations (or equations) which the variables must satisfy",
+      "the quantities that are to be maximised or minimised",
+      "the values of the objective function at the vertices",
+      "the corner points of the feasible region itself"
+    ],
+    "ans": 0,
+    "solution": "Constraints come from the limits on resources, time or materials. They are written as ≤ or ≥ relations in the variables, along with x ≥ 0 and y ≥ 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m05",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "To decide which side of the line ax + by = c to shade for ax + by ≤ c, when the line does not pass through the origin, we:",
+    "options": [
+      "test a point on the line itself",
+      "always shade the side that is away from the origin",
+      "test the origin, and shade its side if the inequality holds there",
+      "shade the side that has the larger value of x"
+    ],
+    "ans": 2,
+    "solution": "If (0, 0) satisfies the inequality, the origin side is the solution. If not, the other side is. A point on the line cannot decide, since it satisfies the equation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m06",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The feasible region of a linear programming problem is:",
+    "options": [
+      "the set of points where the objective function is largest",
+      "the set of corner points only",
+      "the set of points that satisfy at least one constraint",
+      "the set of all points that satisfy every constraint together"
+    ],
+    "ans": 3,
+    "solution": "It is the common part of all the shaded half-planes, together with the first quadrant. Only points inside it, or on its boundary, are allowed as solutions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m07",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "By the corner point method, if the feasible region is bounded, the maximum and the minimum values of the objective function Z occur:",
+    "options": [
+      "only at the origin",
+      "at corner points (vertices) of the feasible region",
+      "at an interior point of the region",
+      "at the middle of each boundary line"
+    ],
+    "ans": 1,
+    "solution": "The objective function is linear, so its value changes steadily across the region and the extreme values must be at the edge, at a vertex. Work out Z at every corner point and compare.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m08",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the inequation 2x + 3y ≤ 6, the region to be shaded is:",
+    "options": [
+      "the side that contains the origin",
+      "the region where x + y = 6",
+      "the line 2x + 3y = 6 alone",
+      "the side that does not contain the origin"
+    ],
+    "ans": 0,
+    "solution": "At the origin, 2(0) + 3(0) = 0, which is less than 6, so (0, 0) satisfies the inequation. The origin is not on the line, so its side is the solution.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m09",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A set of points is convex if:",
+    "options": [
+      "the line segment joining any two points of the set lies wholly in the set",
+      "it has a boundary made only of curved lines, with no edges",
+      "it contains the origin as one of its points, and no others",
+      "it has no corner points at all, as with a circle or a disc"
+    ],
+    "ans": 0,
+    "solution": "A triangle or a rectangle is convex. A star shape or a crescent is not, since a segment between two of its points can pass outside. The feasible region of a linear programming problem is always convex.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m10",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If the feasible region of a linear programming problem is bounded and is not empty, then the objective function:",
+    "options": [
+      "has neither a maximum nor a minimum value",
+      "has a maximum value but no minimum value",
+      "has both a maximum value and a minimum value",
+      "is constant over the whole region"
+    ],
+    "ans": 2,
+    "solution": "A bounded region is closed and has a finite number of corners. Z takes a value at each of them, so the largest and the smallest of these values are the maximum and the minimum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m11",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The feasible region defined by x + y ≤ 4, x ≥ 0 and y ≥ 0 is a triangle with the vertices:",
+    "options": [
+      "(0, 0), (4, 4) and (0, 4)",
+      "(0, 0), (4, 0) and (0, 4)",
+      "(4, 0), (0, 4) and (4, 4)",
+      "(0, 0), (1, 0) and (0, 1)"
+    ],
+    "ans": 1,
+    "solution": "The line x + y = 4 meets the axes at (4, 0) and (0, 4). With the two axes, it encloses a triangle that includes the origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m12",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The maximum value of Z = x + y over the triangle with vertices (0, 0), (4, 0) and (0, 4) is:",
+    "options": [
+      "2",
+      "8",
+      "0",
+      "4"
+    ],
+    "ans": 3,
+    "solution": "At the vertices, Z = 0, 4 and 4. The largest value is 4. It is reached at two corners, and so along the whole edge between them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m13",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The corner points of a feasible region are (0, 0), (3, 0), (3, 1) and (0, 4). The maximum of Z = 3x + 2y is:",
+    "options": [
+      "8",
+      "12",
+      "9",
+      "11"
+    ],
+    "ans": 3,
+    "solution": "At the corners Z = 0, 9, 11 and 8. The largest is 11, at (3, 1).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m14",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For Z = x + y over the region x + y ≤ 4, x ≥ 0, y ≥ 0, the maximum value 4 is reached:",
+    "options": [
+      "at every point of the segment joining (4, 0) and (0, 4)",
+      "only at the origin, where x and y are zero",
+      "only at the single point (2, 2), the middle one",
+      "at no point of the feasible region at all"
+    ],
+    "ans": 0,
+    "solution": "Z = x + y equals 4 along the whole edge x + y = 4. When two corner points give the same optimum value, every point on the segment between them also gives it. Such a problem has many optimal solutions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m15",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A machine is available for at most 40 hours. Each unit of product A needs 1 hour and each unit of product B needs 2 hours on the machine. The constraint is:",
+    "options": [
+      "2x + y ≤ 40",
+      "x + 2y = 40 only",
+      "x + 2y ≤ 40",
+      "x + 2y ≥ 40"
+    ],
+    "ans": 2,
+    "solution": "The total time used, x × 1 + y × 2, cannot exceed the 40 hours available, so the sign is ≤. Product A takes 1 hour, so its coefficient is 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m16",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A diet must give at least 8 units of a nutrient. Food P gives 1 unit and food Q gives 2 units per kg. The constraint for x kg of P and y kg of Q is:",
+    "options": [
+      "x + 2y = 0",
+      "x + 2y ≥ 8",
+      "2x + y ≥ 8",
+      "x + 2y ≤ 8"
+    ],
+    "ans": 1,
+    "solution": "A requirement of at least 8 units means that the amount supplied must be 8 or more. Use ≥ for a minimum requirement, and ≤ for a limit on a resource.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m17",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A feasible solution of a linear programming problem is:",
+    "options": [
+      "a point that satisfies only the non-negativity conditions",
+      "a point that is on the x-axis",
+      "any point that satisfies all the constraints",
+      "a point that gives the maximum value of Z"
+    ],
+    "ans": 2,
+    "solution": "A feasible solution need not be the best one. Every point of the feasible region is a feasible solution.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m18",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An optimal solution of a linear programming problem is:",
+    "options": [
+      "a point outside the feasible region that has a larger value of Z",
+      "a feasible solution that gives the best (largest or smallest) value of the objective function",
+      "any feasible solution at all, since every one of them is equally good",
+      "the origin, because the origin is always a feasible solution"
+    ],
+    "ans": 1,
+    "solution": "Among all feasible solutions, the optimal one gives the greatest value of Z (for a maximum problem) or the least (for a minimum). It is found at a corner point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m19",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the inequation x + y ≥ 3, the region to be shaded is:",
+    "options": [
+      "the side that contains the origin, since 0 ≥ 3 is true",
+      "the side that contains the origin, since 0 + 0 is less than 3",
+      "only the line x + y = 3",
+      "the side that does not contain the origin, since 0 ≥ 3 is false"
+    ],
+    "ans": 3,
+    "solution": "The origin gives 0 + 0 = 0, which is not greater than or equal to 3. So the origin is not in the solution, and the other side is shaded, along with the line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m20",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The feasible region of x + y ≤ 6, x ≤ 4, y ≤ 4, x ≥ 0, y ≥ 0 has how many corner points?",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "ans": 0,
+    "solution": "The corners are (0, 0), (4, 0), (4, 2), (2, 4) and (0, 4). The line x + y = 6 cuts off the corner (4, 4) of the square, and replaces it by the two points (4, 2) and (2, 4).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m21",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "To minimise Z = 2x + 3y over an unbounded feasible region in the first quadrant, for example x + y ≥ 3, the minimum value:",
+    "options": [
+      "is always zero, at the origin",
+      "exists, and it is found at a corner point of the region",
+      "does not exist, since the region has no end",
+      "exists only at a point far from the origin"
+    ],
+    "ans": 1,
+    "solution": "Z grows without limit as x or y grows, since the coefficients are positive. So the smallest value is at a corner. Here the corners are (3, 0) and (0, 3), which give 6 and 9, so the minimum is 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m22",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The line 2x + y = 10 meets the coordinate axes at:",
+    "options": [
+      "(2, 0) and (0, 1)",
+      "(10, 0) and (0, 5)",
+      "(5, 0) and (0, 10)",
+      "(5, 0) and (0, 5)"
+    ],
+    "ans": 2,
+    "solution": "Put y = 0: 2x = 10, so x = 5. Put x = 0: y = 10. These two points are enough to draw the line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m23",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A firm makes a profit of ₹20 per unit of product A and ₹30 per unit of product B. If x units of A and y units of B are made, the objective function is:",
+    "options": [
+      "Z = 50(x + y), to be maximised",
+      "Z = 30x + 20y, to be maximised",
+      "Z = 20x + 30y, to be minimised",
+      "Z = 20x + 30y, to be maximised"
+    ],
+    "ans": 3,
+    "solution": "Total profit is the sum of (profit per unit) × (number of units) for each product. A profit is to be made as large as possible, so it is a maximum problem.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m24",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A constraint of a linear programming problem is called redundant if:",
+    "options": [
+      "removing it does not change the feasible region",
+      "it is satisfied only by the origin",
+      "it is an equation and not an inequation",
+      "it makes the feasible region empty"
+    ],
+    "ans": 0,
+    "solution": "A redundant constraint is one that other constraints already imply, so the region is the same without it. For example, x ≤ 10 is redundant when x + y ≤ 4 and y ≥ 0 are present.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-m25",
+    "ch": "mth-12-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A point that lies on the boundary line ax + by = c of a constraint ax + by ≤ c:",
+    "options": [
+      "cannot be a corner point of the feasible region",
+      "satisfies it only if the point is the origin",
+      "does not satisfy the constraint, as the inequality is strict",
+      "satisfies the constraint, as the equality holds"
+    ],
+    "ans": 3,
+    "solution": "The sign ≤ includes equality, so the boundary line is part of the solution. Corner points are found where two boundary lines meet.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-07-n01",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Maximise Z = 3x + 2y subject to x + y ≤ 4, x ≤ 3, x ≥ 0, y ≥ 0. Give your answer as a whole number.",
+    "ans": 11,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The corners are (0, 0), (3, 0), (3, 1) and (0, 4). Z = 0, 9, 11 and 8. The maximum value is 11, at (3, 1).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n02",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Minimise Z = 5x + 4y subject to x + y ≥ 3, x ≥ 0, y ≥ 0. Give your answer as a whole number.",
+    "ans": 12,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The region is unbounded, but the coefficients are positive, so the minimum is at a corner. The corners are (3, 0) and (0, 3), where Z = 15 and 12. The minimum value is 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n03",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Maximise Z = 40x + 50y subject to 2x + y ≤ 10, x + 2y ≤ 8, x ≥ 0, y ≥ 0. Give your answer as a whole number.",
+    "ans": 260,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The lines meet at (4, 2). The corners are (0, 0), (5, 0), (4, 2) and (0, 4), where Z = 0, 200, 260 and 200. The maximum value is 260, at (4, 2).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n04",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Minimise C = 2x + 3y subject to x + 2y ≥ 8, 3x + y ≥ 9, x ≥ 0, y ≥ 0. Give your answer as a whole number.",
+    "ans": 13,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The lines meet where x = 2 and y = 3. The corners are (8, 0), (2, 3) and (0, 9), where C = 16, 13 and 27. The minimum value is 13, at (2, 3).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n05",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "How many corner points does the feasible region of x + y ≤ 6, x ≤ 4, y ≤ 4, x ≥ 0, y ≥ 0 have? Give your answer as a whole number.",
+    "ans": 5,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The corners are (0, 0), (4, 0), (4, 2), (2, 4) and (0, 4). The point (4, 4) is cut off by the line x + y = 6. So there are 5 corner points.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n06",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A factory makes products A and B with profits of ₹20 and ₹30 per unit. Machine 1 needs 1 hour per unit of A and 2 hours per unit of B, with 40 hours available. Machine 2 needs 3 hours per unit of A and 1 hour per unit of B, with 45 hours available. Find the maximum profit, in ₹. Give your answer as a whole number.",
+    "ans": 650,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Maximise Z = 20x + 30y subject to x + 2y ≤ 40 and 3x + y ≤ 45. The lines meet at (10, 15). The corners are (0, 0), (15, 0), (10, 15) and (0, 20), where Z = 0, 300, 650 and 600. The maximum profit is ₹650.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n07",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 2,
+    "q": "Maximise Z = 4x + y subject to x + y ≤ 5, x ≤ 4, x ≥ 0, y ≥ 0. Give your answer as a whole number.",
+    "ans": 17,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The corners are (0, 0), (4, 0), (4, 1) and (0, 5). Z = 0, 16, 17 and 5. The maximum value is 17, at (4, 1).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n08",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Minimise Z = 6x + 4y subject to 2x + y ≥ 10, x + 3y ≥ 15, x ≥ 0, y ≥ 0. Give your answer as a whole number.",
+    "ans": 34,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The lines meet where x = 3 and y = 4. The corners are (15, 0), (3, 4) and (0, 10), where Z = 90, 34 and 40. The minimum value is 34, at (3, 4).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-07-n09",
+    "ch": "mth-12-07",
+    "type": "num",
+    "diff": 3,
+    "q": "How many points (x, y) with whole-number coordinates satisfy x + y ≤ 4, x ≥ 0, y ≥ 0? Give your answer as a whole number.",
+    "ans": 15,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For x = 0, y can be 0 to 4 (5 points). For x = 1, y can be 0 to 3 (4 points). Continuing: 3, 2 and 1 points. The total is 5 + 4 + 3 + 2 + 1 = 15.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-m01",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "By the chain rule, the derivative of sin(x²) with respect to x is:",
+    "options": [
+      "2x sin(x²)",
+      "cos(x²)",
+      "−2x cos(x²)",
+      "2x cos(x²)"
+    ],
+    "ans": 3,
+    "solution": "Differentiate the outer function sin u to get cos u, and multiply by the derivative of the inner function u = x², which is 2x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m02",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The derivative of e^(3x) with respect to x is:",
+    "options": [
+      "3xe^(3x − 1)",
+      "e^(3x)",
+      "3e^(3x)",
+      "e^(3x)/3"
+    ],
+    "ans": 2,
+    "solution": "d/dx e^u = e^u × du/dx, with u = 3x, du/dx = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m03",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The derivative of ln x with respect to x (for x > 0) is:",
+    "options": [
+      "1/x",
+      "1/x²",
+      "ln x/x",
+      "x"
+    ],
+    "ans": 0,
+    "solution": "This is the basic result for the natural logarithm. By the chain rule d/dx ln f(x) = f'(x)/f(x).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m04",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of the function ln(sin x) with respect to x is:",
+    "options": [
+      "−cot x",
+      "cot x",
+      "cos x/ln x",
+      "tan x"
+    ],
+    "ans": 1,
+    "solution": "The derivative of ln f is f'/f = cos x/sin x = cot x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m05",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of tan⁻¹x with respect to x is:",
+    "options": [
+      "−1/(1 + x²)",
+      "1/√(1 − x²)",
+      "1/(1 − x²)",
+      "1/(1 + x²)"
+    ],
+    "ans": 3,
+    "solution": "If y = tan⁻¹x, then x = tan y, and dx/dy = sec²y = 1 + x². The derivative is the reciprocal of this.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m06",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of sin⁻¹x with respect to x, for −1 < x < 1, is:",
+    "options": [
+      "1/√(1 − x²)",
+      "−1/√(1 − x²)",
+      "1/√(1 + x²)",
+      "1/(1 + x²)"
+    ],
+    "ans": 0,
+    "solution": "With y = sin⁻¹x, x = sin y and dx/dy = cos y = √(1 − x²) (cos y is positive for y in (−π/2, π/2)). The derivative of cos⁻¹x is the negative of this.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m07",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of cos⁻¹x with respect to x, for −1 < x < 1, is:",
+    "options": [
+      "−1/(1 + x²)",
+      "−1/√(1 − x²)",
+      "−1/√(x² − 1)",
+      "1/√(1 − x²)"
+    ],
+    "ans": 1,
+    "solution": "Since sin⁻¹x + cos⁻¹x = π/2 is constant, their derivatives add up to zero, so one is the negative of the other.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m08",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of aˣ (with a > 0, a ≠ 1) with respect to x is:",
+    "options": [
+      "aˣ/ln a",
+      "aˣ",
+      "aˣ ln a",
+      "x aˣ⁻¹"
+    ],
+    "ans": 2,
+    "solution": "Write aˣ = e^(x ln a), then differentiate: e^(x ln a) × ln a. For a = e, ln e = 1 and the result is eˣ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m09",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of xⁿ (with n a constant) with respect to x is:",
+    "options": [
+      "xⁿ⁻¹/n",
+      "nxⁿ⁻¹",
+      "xⁿ⁺¹/(n + 1)",
+      "nxⁿ"
+    ],
+    "ans": 1,
+    "solution": "This is the power rule. The expression xⁿ⁺¹/(n + 1) is the integral, not the derivative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m10",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If y = uv, where u and v are functions of x, then dy/dx is:",
+    "options": [
+      "u dv/dx + v du/dx",
+      "u dv/dx − v du/dx",
+      "(v du/dx − u dv/dx)/v²",
+      "(du/dx)(dv/dx)"
+    ],
+    "ans": 0,
+    "solution": "This is the product rule. The derivative of the product is not the product of the derivatives.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m11",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If y = u/v, where u and v are functions of x and v is not zero, then dy/dx is:",
+    "options": [
+      "(du/dx)/(dv/dx)",
+      "(u dv/dx − v du/dx)/v²",
+      "(v du/dx − u dv/dx)/v²",
+      "(v du/dx + u dv/dx)/v²"
+    ],
+    "ans": 2,
+    "solution": "This is the quotient rule: low d-high minus high d-low, over low squared. Reversing the order of the numerator changes the sign.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m12",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The geometrical meaning of the derivative dy/dx at a point of the curve y = f(x) is:",
+    "options": [
+      "the value of y at that point",
+      "the length of the curve up to that point",
+      "the area under the curve up to that point",
+      "the slope of the tangent to the curve at that point"
+    ],
+    "ans": 3,
+    "solution": "The derivative is the limit of the slope of the chord, as the second point approaches the first. The tangent at (a, f(a)) is y − f(a) = f'(a)(x − a).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m13",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If the slope of the tangent to a curve at a point is m (non-zero), the slope of the normal at that point is:",
+    "options": [
+      "1/m",
+      "m",
+      "−m",
+      "−1/m"
+    ],
+    "ans": 3,
+    "solution": "The normal is perpendicular to the tangent, so the product of the slopes is −1. If the tangent is horizontal (m = 0), the normal is vertical.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m14",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The method of logarithmic differentiation is most useful for finding the derivative of:",
+    "options": [
+      "a polynomial such as x³ + 2x + 1, written as a plain sum of powers",
+      "a linear function such as 3x + 5, which has a constant slope",
+      "a function like xˣ or (sin x)^(cos x), in which both the base and the exponent change",
+      "a constant function such as f(x) = 7, which has zero slope"
+    ],
+    "ans": 2,
+    "solution": "Take the natural log of both sides, so that the power comes down as a product, differentiate implicitly, and multiply by y. It also helps with long products and quotients.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m15",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If y = xˣ (for x > 0), then dy/dx equals:",
+    "options": [
+      "xˣ(1 − ln x)",
+      "xˣ(1 + ln x)",
+      "x · xˣ⁻¹",
+      "xˣ ln x"
+    ],
+    "ans": 1,
+    "solution": "ln y = x ln x. Differentiating, (1/y) dy/dx = ln x + 1. So dy/dx = xˣ(1 + ln x). Using the power rule (x · xˣ⁻¹) would be wrong since the exponent is not constant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m16",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the circle x² + y² = 25, implicit differentiation gives dy/dx equal to:",
+    "options": [
+      "−x/y",
+      "x/y",
+      "y/x",
+      "−y/x"
+    ],
+    "ans": 0,
+    "solution": "Differentiate both sides: 2x + 2y dy/dx = 0, so dy/dx = −x/y. At (3, 4) the slope is −3/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m17",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In implicit differentiation, when we differentiate the term y³ with respect to x, we obtain:",
+    "options": [
+      "3x²",
+      "y³ dy/dx",
+      "3y²",
+      "3y² dy/dx"
+    ],
+    "ans": 3,
+    "solution": "Treat y as a function of x, so the chain rule applies: d/dx(y³) = 3y² × dy/dx.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m18",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If x = f(t) and y = g(t) are parametric equations of a curve, then dy/dx is:",
+    "options": [
+      "dy/dt − dx/dt, with no condition at all",
+      "(dy/dt) × (dx/dt), with no condition at all",
+      "(dy/dt)/(dx/dt), provided dx/dt is not zero",
+      "(dx/dt)/(dy/dt), provided dy/dt is not zero"
+    ],
+    "ans": 2,
+    "solution": "By the chain rule, dy/dt = (dy/dx)(dx/dt), and dividing by dx/dt gives the result.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m19",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For parametric equations x = a cosθ and y = a sinθ, dy/dx equals:",
+    "options": [
+      "−cotθ",
+      "cotθ",
+      "−tanθ",
+      "tanθ"
+    ],
+    "ans": 0,
+    "solution": "dy/dθ = a cosθ and dx/dθ = −a sinθ, so dy/dx = −cosθ/sinθ = −cotθ. This agrees with −x/y for the circle x² + y² = a².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m20",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The second order derivative d²y/dx² is:",
+    "options": [
+      "dy/dx multiplied by the variable x",
+      "the derivative of dy/dx with respect to x",
+      "the reciprocal of the first derivative",
+      "the square of the first derivative dy/dx"
+    ],
+    "ans": 1,
+    "solution": "It is written y'' or f''(x). It describes how the slope changes, which is the curvature, and in physics it is the acceleration if y is the position and x is the time.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m21",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If y = sin x, then d²y/dx² + y equals:",
+    "options": [
+      "0",
+      "sin x",
+      "2 sin x",
+      "cos x"
+    ],
+    "ans": 0,
+    "solution": "y' = cos x and y'' = −sin x, so y'' + y = −sin x + sin x = 0. The same holds for cos x: these are solutions of the equation of simple harmonic motion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m22",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of sec x with respect to x is:",
+    "options": [
+      "cosec x cot x",
+      "−sec x tan x",
+      "sec²x",
+      "sec x tan x"
+    ],
+    "ans": 3,
+    "solution": "sec x = 1/cos x, so its derivative is sin x/cos²x = sec x tan x. The derivative of tan x is sec²x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m23",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If a function is differentiable at a point, then at that point it is:",
+    "options": [
+      "continuous, and every continuous function is differentiable",
+      "not continuous, in general",
+      "continuous, but a continuous function need not be differentiable",
+      "discontinuous but with a tangent"
+    ],
+    "ans": 2,
+    "solution": "Differentiability implies continuity. The converse is false: f(x) = |x| is continuous at 0 but has a sharp corner there, so no derivative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m24",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of a constant function f(x) = 7 is:",
+    "options": [
+      "x",
+      "0",
+      "1",
+      "7"
+    ],
+    "ans": 1,
+    "solution": "A constant function has a graph that is a horizontal line, with slope zero everywhere.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-m25",
+    "ch": "mth-12-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The derivative of sin⁻¹(2x√(1 − x²)) with respect to x, for −1/√2 < x < 1/√2, is:",
+    "options": [
+      "1/√(1 − x²)",
+      "2/(1 + x²)",
+      "2/√(1 − x²)",
+      "−2/√(1 − x²)"
+    ],
+    "ans": 2,
+    "solution": "Put x = sinθ: then 2x√(1 − x²) = sin 2θ, so the function is 2θ = 2 sin⁻¹x, and its derivative is 2/√(1 − x²). Substitution simplifies many inverse trigonometric derivatives.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-08-n01",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the derivative of f(x) = sin(x²) at x = 1. Give your answer to 3 decimal places.",
+    "ans": 1.081,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "f'(x) = 2x cos(x²), so f'(1) = 2 cos 1 = 2 × 0.5403 = 1.081.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n02",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the derivative of f(x) = x e^x at x = 0. Give your answer to 1 decimal place.",
+    "ans": 1.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "By the product rule, f'(x) = e^x + x e^x = e^x(1 + x), so f'(0) = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n03",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the slope of the tangent to the curve y = x³ − 3x at the point where x = 2. Give your answer as a whole number.",
+    "ans": 9,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "dy/dx = 3x² − 3 = 12 − 3 = 9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n04",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the derivative of f(x) = ln(x² + 1) at x = 1. Give your answer to 1 decimal place.",
+    "ans": 1.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "f'(x) = 2x/(x² + 1), so f'(1) = 2/2 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n05",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the derivative of f(x) = tan⁻¹x at x = 2. Give your answer to 2 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "f'(x) = 1/(1 + x²) = 1/5 = 0.20.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n06",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A point on the circle x² + y² = 25 is (3, 4). Find dy/dx at this point. Give your answer to 2 decimal places.",
+    "ans": -0.75,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Implicit differentiation: 2x + 2y dy/dx = 0, so dy/dx = −x/y = −3/4 = −0.75.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n07",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A curve has the parametric equations x = t² and y = t³. Find dy/dx at t = 2. Give your answer to 1 decimal place.",
+    "ans": 3.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "dy/dt = 3t² = 12 and dx/dt = 2t = 4, so dy/dx = 12/4 = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n08",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the second derivative of y = x⁴ at x = 2. Give your answer as a whole number.",
+    "ans": 48,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "y' = 4x³, y'' = 12x². At x = 2, y'' = 48.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n09",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the derivative of y = xˣ at x = 2. Give your answer to 3 decimal places.",
+    "ans": 6.773,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By logarithmic differentiation, dy/dx = xˣ(1 + ln x) = 4(1 + 0.6931) = 6.773.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-08-n10",
+    "ch": "mth-12-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the y-intercept of the tangent to the parabola y = x² at the point where x = 3. Give your answer as a whole number.",
+    "ans": -9.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The slope at x = 3 is 6, and the point is (3, 9). The tangent is y − 9 = 6(x − 3), which is y = 6x − 9. The y-intercept is −9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-m01",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "If y = f(x), the derivative dy/dx represents:",
+    "options": [
+      "the area under the curve of y against x",
+      "the value of x for which y is zero",
+      "the total change in y over the whole interval",
+      "the rate of change of y with respect to x"
+    ],
+    "ans": 3,
+    "solution": "dy/dx measures how fast y changes when x changes slightly. If x is time, it is the speed at which y is changing.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m02",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The radius of a circular oil spill grows at a steady rate dr/dt. The rate of increase of its area A is:",
+    "options": [
+      "dA/dt = πr² (dr/dt)",
+      "dA/dt = 2πr (dr/dt)",
+      "dA/dt = 2π (dr/dt)",
+      "dA/dt = π dr/dt"
+    ],
+    "ans": 1,
+    "solution": "A = πr², so by the chain rule dA/dt = 2πr dr/dt. The area grows faster when the circle is larger, even at a constant rate of growth of the radius.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m03",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If the side of a cube increases at the rate ds/dt, the rate of increase of its volume V is:",
+    "options": [
+      "dV/dt = 6s (ds/dt)",
+      "dV/dt = 3s (ds/dt)",
+      "dV/dt = 3s² (ds/dt)",
+      "dV/dt = s³ (ds/dt)"
+    ],
+    "ans": 2,
+    "solution": "V = s³, so dV/dt = 3s² ds/dt. The surface area A = 6s² would have dA/dt = 12s ds/dt.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m04",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A differentiable function f is increasing on an interval if, throughout the interval:",
+    "options": [
+      "f'(x) is positive",
+      "f'(x) is negative",
+      "f''(x) is positive",
+      "f(x) is positive"
+    ],
+    "ans": 0,
+    "solution": "A positive slope means that the graph rises as x increases. If f'(x) is negative, it is decreasing. (f'' tells about concavity.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m05",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = x² − 4x is:",
+    "options": [
+      "decreasing for all x",
+      "increasing for all x",
+      "increasing for x less than 2, and decreasing for x greater than 2",
+      "decreasing for x less than 2, and increasing for x greater than 2"
+    ],
+    "ans": 3,
+    "solution": "f'(x) = 2x − 4 = 2(x − 2), which is negative before x = 2 and positive after it. The minimum is at x = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m06",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A critical point of a function f is a point where:",
+    "options": [
+      "f(x) = 0",
+      "f'(x) = 0 or f'(x) does not exist",
+      "f''(x) = 0 only",
+      "f(x) is the largest in the domain"
+    ],
+    "ans": 1,
+    "solution": "Local maxima and minima can occur only at critical points (or at the end points of the interval). A critical point is not necessarily an extremum, as f(x) = x³ at 0 shows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m07",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "By the first derivative test, a critical point c is a local maximum if f'(x) changes sign:",
+    "options": [
+      "from negative to negative as x passes through c",
+      "from positive to positive as x passes through c",
+      "from positive to negative as x passes through c",
+      "from negative to positive as x passes through c"
+    ],
+    "ans": 2,
+    "solution": "The function rises up to c and falls after it, so it has a peak there. If the sign changes from negative to positive it is a local minimum. If it does not change, it is neither.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m08",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The second derivative test says that, if f'(c) = 0, then c is a local maximum if:",
+    "options": [
+      "f''(c) is negative",
+      "f'''(c) is positive",
+      "f''(c) = 0",
+      "f''(c) is positive"
+    ],
+    "ans": 0,
+    "solution": "A negative second derivative means that the curve is concave down at c, like a cap, which gives a local maximum. A positive value gives a minimum. If f''(c) = 0, the test fails, and the first derivative test is used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m09",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A function that is continuous on a closed interval [a, b]:",
+    "options": [
+      "need not have any absolute extreme values",
+      "has its maximum only at an end point",
+      "has both an absolute maximum and an absolute minimum on the interval",
+      "has an absolute maximum but may not have an absolute minimum"
+    ],
+    "ans": 2,
+    "solution": "This is the extreme value theorem. To find them, compare the values of the function at the critical points and at the two end points. The largest is the absolute maximum, the smallest the absolute minimum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m10",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The tangent to the curve y = f(x) at a point is parallel to the x-axis when, at that point:",
+    "options": [
+      "f'(x) = 0",
+      "f'(x) does not exist",
+      "f'(x) = 1",
+      "f(x) = 0"
+    ],
+    "ans": 0,
+    "solution": "A horizontal line has zero slope. At the same point, the normal is vertical. If f'(x) does not exist because the slope is infinite, the tangent is vertical.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m11",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For small Δx, the change Δy in y = f(x) is approximately:",
+    "options": [
+      "Δx/f'(x), which is the change over the slope",
+      "f''(x) Δx, which uses the second derivative",
+      "f(x) Δx, which is the value times the change",
+      "f'(x) Δx, which is the differential dy"
+    ],
+    "ans": 3,
+    "solution": "The tangent line is a good approximation to the curve near the point of contact. So f(x + Δx) ≈ f(x) + f'(x)Δx, which is used to estimate values and errors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m12",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Using differentials, the approximate value of √(25.2) is:",
+    "options": [
+      "5.002",
+      "5.02",
+      "5.04",
+      "5.2"
+    ],
+    "ans": 1,
+    "solution": "Take f(x) = √x at x = 25 with Δx = 0.2: f'(25) = 1/(2√25) = 0.1. So √25.2 ≈ 5 + 0.1 × 0.2 = 5.02. The exact value is 5.01996.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m13",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Rolle's theorem states that, if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then:",
+    "options": [
+      "f'(x) = 0 for every x in (a, b)",
+      "f is a constant function on [a, b]",
+      "f(x) = 0 at some point in (a, b)",
+      "there is a point c in (a, b) with f'(c) = 0"
+    ],
+    "ans": 3,
+    "solution": "The graph starts and ends at the same height. Somewhere between, it must have a peak or a valley, where the tangent is horizontal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m14",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The mean value theorem says that, for f continuous on [a, b] and differentiable on (a, b), there is a c in (a, b) such that:",
+    "options": [
+      "f'(c) = (f(b) − f(a))/(b − a)",
+      "f'(c) = 0",
+      "f'(c) = (f(b) + f(a))/2",
+      "f'(c) = f(b) − f(a)"
+    ],
+    "ans": 0,
+    "solution": "Somewhere between a and b, the instantaneous rate of change equals the average rate. Geometrically, there is a tangent parallel to the chord joining the end points. Rolle's theorem is the special case with f(a) = f(b).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m15",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A point of inflection of a curve is a point where:",
+    "options": [
+      "the function has a local maximum",
+      "the concavity of the curve changes",
+      "the tangent is always horizontal",
+      "the function has a local minimum"
+    ],
+    "ans": 1,
+    "solution": "At an inflection point, f'' changes sign (and is zero or does not exist). The curve passes from bending one way to bending the other, as at x = 0 for y = x³.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m16",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among all rectangles with a given perimeter, the one with the largest area is:",
+    "options": [
+      "there is no rectangle of largest area",
+      "the one with length twice the width",
+      "the square",
+      "a very long and thin rectangle"
+    ],
+    "ans": 2,
+    "solution": "With the perimeter 2p, sides x and p − x give the area x(p − x), which is largest at x = p/2: both sides equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m17",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A function f(x) = x³ has f'(0) = 0, but at x = 0 the function has:",
+    "options": [
+      "a local minimum, because the slope is zero there",
+      "neither a maximum nor a minimum, but a point of inflection",
+      "an absolute minimum, because the slope is zero there",
+      "a local maximum, because the slope is zero there"
+    ],
+    "ans": 1,
+    "solution": "f' = 3x² is zero at 0, but does not change sign, as it is positive on both sides. The function is increasing throughout. Setting the derivative to zero only finds candidates.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m18",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If the position of a particle on a line is s(t), its velocity and acceleration are, respectively:",
+    "options": [
+      "ds/dt and (ds/dt)²",
+      "d²s/dt² and ds/dt",
+      "s/t and s/t²",
+      "ds/dt and d²s/dt²"
+    ],
+    "ans": 3,
+    "solution": "Velocity is the rate of change of position, and acceleration is the rate of change of velocity. The particle is momentarily at rest when v = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m19",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = 2x³ − 9x² + 12x is increasing in the intervals:",
+    "options": [
+      "the values of x less than 0 only",
+      "all real values of x, without a break",
+      "x less than 1, and x greater than 2",
+      "the interval between 1 and 2 only"
+    ],
+    "ans": 2,
+    "solution": "f'(x) = 6x² − 18x + 12 = 6(x − 1)(x − 2). This is positive when x is below 1 or above 2, and negative between 1 and 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m20",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A sphere is being inflated, with radius r. The rate of increase of its volume is:",
+    "options": [
+      "4πr² (dr/dt)",
+      "4πr (dr/dt)",
+      "(4/3)πr² (dr/dt)",
+      "(4/3)πr³ (dr/dt)"
+    ],
+    "ans": 0,
+    "solution": "V = (4/3)πr³, so dV/dt = 4πr² dr/dt, which is the surface area times the rate of growth of the radius.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m21",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A local maximum value of a function is:",
+    "options": [
+      "always the value where the function is zero",
+      "always the value at an end point of the domain",
+      "always the largest value of the function in its whole domain",
+      "the largest value near the point, but not necessarily the largest overall"
+    ],
+    "ans": 3,
+    "solution": "It only needs to beat the points close to it. A function can have several local maxima, with different heights, and the largest of them (or an end point) may be the absolute maximum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m22",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "To find the maximum volume of a box made by cutting equal squares from the corners of a square sheet of side a, and folding up the sides, we maximise:",
+    "options": [
+      "V(x) = (a − 2x)², where x is the side of the squares cut off",
+      "V(x) = x(a − 2x)², where x is the side of the squares cut off",
+      "V(x) = x(a − x)², where x is the side of the squares cut off",
+      "V(x) = x²(a − 2x), where x is the side of the squares cut off"
+    ],
+    "ans": 1,
+    "solution": "The base is a square of side a − 2x and the height is x. V' = 0 gives x = a/6 (the other root, x = a/2, gives zero volume), and the maximum volume is 2a³/27.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m23",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When the cost function C(x) of producing x items is given, the marginal cost is:",
+    "options": [
+      "dC/dx, the rate of change of cost with the number of items",
+      "C(x + 1) + C(x), the sum of two successive costs",
+      "x dC/dx, the number of items times the slope",
+      "C/x, the average cost per item"
+    ],
+    "ans": 0,
+    "solution": "Marginal cost approximates the cost of one more item. The average cost is the smallest where marginal cost equals average cost.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-m24",
+    "ch": "mth-12-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If a curve y = f(x) has f'(x) = 0 at x = a and f''(a) is positive, the point (a, f(a)) is:",
+    "options": [
+      "an end point",
+      "a point of inflection",
+      "a local minimum",
+      "a local maximum"
+    ],
+    "ans": 2,
+    "solution": "The positive second derivative shows the curve bends upward like a cup, so the stationary point is a local minimum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-09-n01",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "The radius of a circular ripple grows at 2 cm/s. Find the rate of increase of its area, in cm²/s, when the radius is 5 cm. Give your answer to 2 decimal places.",
+    "ans": 62.83,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "A = πr², so dA/dt = 2πr dr/dt = 2π × 5 × 2 = 62.83 cm²/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n02",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "The edge of a cube grows at 0.5 cm/s. Find the rate of increase of its volume, in cm³/s, when the edge is 4 cm. Give your answer to 1 decimal place.",
+    "ans": 24.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "V = s³, so dV/dt = 3s² ds/dt = 3 × 16 × 0.5 = 24 cm³/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n03",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the maximum value of f(x) = −x² + 4x + 5. Give your answer as a whole number.",
+    "ans": 9,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "f'(x) = −2x + 4 = 0 gives x = 2, and f''(x) = −2 is negative, so it is a maximum. f(2) = −4 + 8 + 5 = 9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n04",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the minimum value of f(x) = x² − 6x + 10. Give your answer as a whole number.",
+    "ans": 1,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "f'(x) = 2x − 6 = 0 gives x = 3, and f'' = 2 is positive, so it is a minimum. f(3) = 9 − 18 + 10 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n05",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Using differentials, find the approximate value of √25.2. Give your answer to 3 decimal places.",
+    "ans": 5.02,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "dy = f'(x)dx = (1/(2√25)) × 0.2 = 0.02, so √25.2 ≈ 5.02. The exact value is 5.01996.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n06",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the local minimum value of f(x) = x³ − 12x. Give your answer as a whole number.",
+    "ans": -16,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "f'(x) = 3x² − 12 = 0 gives x = ±2. f''(x) = 6x is positive at x = 2, so there is a local minimum there, f(2) = 8 − 24 = −16. (At x = −2 there is a local maximum, 16.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n07",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A rectangle has a perimeter of 40 cm. Find the largest area it can have, in cm². Give your answer as a whole number.",
+    "ans": 100,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "With sides x and 20 − x, the area is x(20 − x), which is largest at x = 10 (a square): 10 × 10 = 100.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n08",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "An open box is made from a square sheet of side 12 cm by cutting equal squares of side x from the corners and folding up the sides. Find the largest volume of the box, in cm³. Give your answer as a whole number.",
+    "ans": 128,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "V = x(12 − 2x)². V' = (12 − 2x)(12 − 6x) = 0 gives x = 2 (x = 6 gives zero volume). V(2) = 2 × 64 = 128 cm³.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n09",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of c given by the mean value theorem for f(x) = x² on the interval [1, 3]. Give your answer as a whole number.",
+    "ans": 2.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "f'(c) = 2c = (f(3) − f(1))/(3 − 1) = (9 − 1)/2 = 4, so c = 2. It lies in (1, 3).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-09-n10",
+    "ch": "mth-12-09",
+    "type": "num",
+    "diff": 2,
+    "q": "The position of a particle is s = t³ − 6t² + 9t (in metres, with t in seconds). Find its velocity at t = 2 s, in m/s. Give your answer as a whole number.",
+    "ans": -3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v = ds/dt = 3t² − 12t + 9. At t = 2, v = 12 − 24 + 9 = −3 m/s, so it moves backwards.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-m01",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "For n not equal to −1, the integral of xⁿ with respect to x is:",
+    "options": [
+      "x^(n+1) + c",
+      "x^(n+1)/(n+1) + c",
+      "n·x^(n−1) + c",
+      "x^(n−1)/(n−1) + c"
+    ],
+    "ans": 1,
+    "solution": "Raise the power by one and divide by the new power. Check by differentiating: d/dx [x^(n+1)/(n+1)] = xⁿ. The case n = −1 is different and gives log x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m02",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "For positive x, the integral of 1/x is:",
+    "options": [
+      "1/x² + c",
+      "−1/x² + c",
+      "log x + c",
+      "x log x + c"
+    ],
+    "ans": 2,
+    "solution": "The derivative of log x is 1/x, so log x is an antiderivative. For any x not equal to 0, the answer is log|x| + c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m03",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The integral of eˣ with respect to x is:",
+    "options": [
+      "eˣ log x + c",
+      "eˣ/(x + 1) + c",
+      "x eˣ + c",
+      "eˣ + c"
+    ],
+    "ans": 3,
+    "solution": "The function eˣ is its own derivative, so it is also its own antiderivative. The extra constant c is still needed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m04",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The integral of sin x with respect to x is:",
+    "options": [
+      "−cos x + c",
+      "cos x + c",
+      "−sin x + c",
+      "tan x + c"
+    ],
+    "ans": 0,
+    "solution": "The derivative of cos x is −sin x, so the derivative of −cos x is sin x. Watch the minus sign.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m05",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The integral of sec²x with respect to x is:",
+    "options": [
+      "−cot x + c",
+      "sec x tan x + c",
+      "tan x + c",
+      "sec x + c"
+    ],
+    "ans": 2,
+    "solution": "The derivative of tan x is sec²x. (The derivative of sec x is sec x tan x, a different function.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m06",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Every indefinite integral has an arbitrary constant + c because:",
+    "options": [
+      "constants have zero derivative, so any constant can be added to an antiderivative",
+      "the constant is added to make the answer come out positive for all x",
+      "integration can only give an approximate answer to the true function",
+      "the area under a curve always starts from some non-zero value at the left end"
+    ],
+    "ans": 0,
+    "solution": "If F′(x) = f(x), then (F + c)′ = f(x) for every constant c. So the integral is a family of curves, and each curve is a vertical shift of the others. A condition such as F(1) = 2 picks one member.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m07",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The integral of (3x² + 2x) with respect to x is:",
+    "options": [
+      "x³ + x + c",
+      "x³ + x² + c",
+      "6x + 2 + c",
+      "3x³ + 2x² + c"
+    ],
+    "ans": 1,
+    "solution": "Integrate each term: ∫3x² dx = x³ and ∫2x dx = x². The sum rule lets us integrate term by term. Differentiating the answer gives back 3x² + 2x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m08",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of 1/x² with respect to x is:",
+    "options": [
+      "1/x + c",
+      "log x² + c",
+      "−2/x³ + c",
+      "−1/x + c"
+    ],
+    "ans": 3,
+    "solution": "Write 1/x² as x⁻². Then ∫x⁻² dx = x⁻¹/(−1) = −1/x. Do not use the log rule: it works only for the power −1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m09",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of cos 3x with respect to x is:",
+    "options": [
+      "(1/3) sin 3x + c",
+      "sin 3x + c",
+      "3 sin 3x + c",
+      "−(1/3) sin 3x + c"
+    ],
+    "ans": 0,
+    "solution": "The derivative of sin 3x is 3 cos 3x, so we divide by 3. In general ∫f(ax + b) dx = F(ax + b)/a + c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m10",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of e^(2x) with respect to x is:",
+    "options": [
+      "e^(2x)/(2x) + c",
+      "2e^(2x) + c",
+      "e^(2x)/2 + c",
+      "e^(2x) + c"
+    ],
+    "ans": 2,
+    "solution": "Put t = 2x, so dx = dt/2. Then ∫e^t dt/2 = e^t/2 = e^(2x)/2. The divisor is the coefficient of x, not 2x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m11",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of 1/(2x + 3) with respect to x is:",
+    "options": [
+      "−1/(2x + 3)² + c",
+      "log|2x + 3| + c",
+      "2 log|2x + 3| + c",
+      "(1/2) log|2x + 3| + c"
+    ],
+    "ans": 3,
+    "solution": "Put t = 2x + 3, so dx = dt/2. Then ∫dt/(2t) = (1/2) log|t|. The factor 1/2 comes from the coefficient of x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m12",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of x·e^(x²) with respect to x is:",
+    "options": [
+      "2 e^(x²) + c",
+      "(1/2) e^(x²) + c",
+      "x² e^(x²)/2 + c",
+      "e^(x²) + c"
+    ],
+    "ans": 1,
+    "solution": "Put t = x², so 2x dx = dt and x dx = dt/2. Then ∫e^t dt/2 = e^t/2. The factor x is (half of) the derivative of the power, which is why substitution works.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m13",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of tan x with respect to x is:",
+    "options": [
+      "log|sec x| + c",
+      "−log|sec x| + c",
+      "sec²x + c",
+      "log|sin x| + c"
+    ],
+    "ans": 0,
+    "solution": "Write tan x = sin x/cos x and put t = cos x. Then ∫−dt/t = −log|cos x| = log|sec x|. The answer −log|cos x| is the same thing.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m14",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of 1/(x² + 9) with respect to x is:",
+    "options": [
+      "tan⁻¹(x/3) + c",
+      "3 tan⁻¹(x/3) + c",
+      "(1/9) tan⁻¹(x/9) + c",
+      "(1/3) tan⁻¹(x/3) + c"
+    ],
+    "ans": 3,
+    "solution": "Use ∫dx/(x² + a²) = (1/a) tan⁻¹(x/a) + c with a = 3. A quick check by differentiating: (1/3) × 1/(1 + x²/9) × (1/3) = 1/(9 + x²).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m15",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of 1/√(16 − x²) with respect to x is:",
+    "options": [
+      "cos⁻¹(x/4) + c",
+      "sin⁻¹(x/4) + c",
+      "sin⁻¹ x + c",
+      "(1/4) sin⁻¹(x/4) + c"
+    ],
+    "ans": 1,
+    "solution": "Use ∫dx/√(a² − x²) = sin⁻¹(x/a) + c with a = 4. There is no extra factor of 1/a here, unlike the tan⁻¹ formula.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m16",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which statement about integrals is false?",
+    "options": [
+      "two antiderivatives of one function differ by a constant",
+      "a constant factor can be taken outside the integral sign",
+      "the integral of a product is the product of the integrals",
+      "the integral of a sum is the sum of the integrals"
+    ],
+    "ans": 2,
+    "solution": "There is no product rule for integration. For example, ∫x·x dx = x³/3, but (∫x dx)(∫x dx) = x⁴/4. Products need substitution or integration by parts.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m17",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of 1/(x² − 4) with respect to x is:",
+    "options": [
+      "(1/4) tan⁻¹(x/2) + c",
+      "(1/4) log|(x − 2)/(x + 2)| + c",
+      "(1/4) log|(x + 2)/(x − 2)| + c",
+      "(1/2) log|(x − 2)/(x + 2)| + c"
+    ],
+    "ans": 1,
+    "solution": "Use ∫dx/(x² − a²) = (1/2a) log|(x − a)/(x + a)| + c with a = 2, so 1/(2a) = 1/4. Or use partial fractions: 1/(x² − 4) = (1/4)[1/(x − 2) − 1/(x + 2)].",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m18",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of x log x with respect to x is:",
+    "options": [
+      "(x²/2) log x − x²/2 + c",
+      "(x²/2) log x − x/2 + c",
+      "(x²/2) log x − x²/4 + c",
+      "(x²/2) log x + x²/4 + c"
+    ],
+    "ans": 2,
+    "solution": "By parts, with u = log x (it comes first in LIATE) and v = x: ∫x log x dx = (x²/2) log x − ∫(1/x)(x²/2) dx = (x²/2) log x − x²/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m19",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of x·eˣ with respect to x is:",
+    "options": [
+      "(x − 1)eˣ + c",
+      "(x + 1)eˣ + c",
+      "x eˣ + c",
+      "(x²/2) eˣ + c"
+    ],
+    "ans": 0,
+    "solution": "By parts, with u = x and v = eˣ: ∫x eˣ dx = x eˣ − ∫eˣ dx = x eˣ − eˣ = (x − 1)eˣ. Differentiate to check: (x − 1)eˣ + eˣ = x eˣ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m20",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of eˣ[f(x) + f′(x)] with respect to x is:",
+    "options": [
+      "eˣ f(x) f′(x) + c",
+      "eˣ[f(x) − f′(x)] + c",
+      "eˣ f′(x) + c",
+      "eˣ f(x) + c"
+    ],
+    "ans": 3,
+    "solution": "The derivative of eˣ f(x) is eˣ f(x) + eˣ f′(x), which is exactly the integrand. This is the standard result used when an eˣ is multiplied by a function plus its own derivative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m21",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of eˣ(sin x + cos x) with respect to x is:",
+    "options": [
+      "eˣ(sin x − cos x) + c",
+      "eˣ cos x + c",
+      "eˣ sin x + c",
+      "−eˣ sin x + c"
+    ],
+    "ans": 2,
+    "solution": "Here f(x) = sin x and f′(x) = cos x, so the integrand has the form eˣ[f + f′]. The answer is eˣ f(x) = eˣ sin x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m22",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of (2x + 3)/(x² + 3x + 5) with respect to x is:",
+    "options": [
+      "log(x² + 3x + 5) + c",
+      "tan⁻¹(x² + 3x + 5) + c",
+      "2 log(x² + 3x + 5) + c",
+      "log(2x + 3) + c"
+    ],
+    "ans": 0,
+    "solution": "The numerator is the derivative of the denominator. Put t = x² + 3x + 5, so dt = (2x + 3) dx, and ∫dt/t = log t. No modulus is needed, since the quadratic is always positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m23",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If 1/((x − 1)(x − 2)) = A/(x − 1) + B/(x − 2), then:",
+    "options": [
+      "A = −1 and B = −1",
+      "A = 1 and B = 1",
+      "A = 1 and B = −1",
+      "A = −1 and B = 1"
+    ],
+    "ans": 3,
+    "solution": "Multiply by (x − 1)(x − 2): 1 = A(x − 2) + B(x − 1). Put x = 1: 1 = −A, so A = −1. Put x = 2: 1 = B. This is the cover-up method.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m24",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of 1/(x(x + 1)) with respect to x is:",
+    "options": [
+      "−1/(x(x + 1)) + c",
+      "log|x/(x + 1)| + c",
+      "log|x(x + 1)| + c",
+      "log|(x + 1)/x| + c"
+    ],
+    "ans": 1,
+    "solution": "Partial fractions: 1/(x(x + 1)) = 1/x − 1/(x + 1). Integrating gives log|x| − log|x + 1| = log|x/(x + 1)|.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m25",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of (log x)²/x with respect to x is:",
+    "options": [
+      "(log x)³/(3x) + c",
+      "(log x)³/3 + c",
+      "(log x)³ + c",
+      "(log x)²/2 + c"
+    ],
+    "ans": 1,
+    "solution": "Put t = log x, so dt = dx/x. Then ∫t² dt = t³/3 = (log x)³/3. The factor 1/x is the derivative of the inner function, so it is used up in dt.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-m26",
+    "ch": "mth-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of 1/(x log x) with respect to x is:",
+    "options": [
+      "log|log x| + c",
+      "log x + c",
+      "(log x)²/2 + c",
+      "−1/(log x)² + c"
+    ],
+    "ans": 0,
+    "solution": "Put t = log x, so dt = dx/x, and the integral becomes ∫dt/t = log|t|. So the answer is log|log x| + c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-10-n01",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 1,
+    "q": "A curve has f′(x) = 6x² + 4x and f(0) = 3. Find f(2). Give your answer as a whole number.",
+    "ans": 27,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "f(x) = 2x³ + 2x² + c. From f(0) = 3 we get c = 3. So f(2) = 16 + 8 + 3 = 27.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n02",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A function has f′(x) = 4x³ − 3x² + 2 and f(1) = 5. Find f(2). Give your answer as a whole number.",
+    "ans": 15,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "f(x) = x⁴ − x³ + 2x + c. At x = 1: 1 − 1 + 2 + c = 5, so c = 3. Then f(2) = 16 − 8 + 4 + 3 = 15.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n03",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A function has f′(x) = e^(2x) and f(0) = 1.5. Find f(1), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.695,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "f(x) = e^(2x)/2 + c. From f(0) = 1.5: 0.5 + c = 1.5, so c = 1. Then f(1) = e²/2 + 1 = 3.6945 + 1 = 4.695.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n04",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A curve passes through (1, 2) and its slope at every point is 3x² − 2. Find the y-coordinate of the point with x = 2. Give your answer as a whole number.",
+    "ans": 7,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "y = x³ − 2x + c. At (1, 2): 1 − 2 + c = 2, so c = 3. At x = 2: y = 8 − 4 + 3 = 7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n05",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "A particle has acceleration a = 6t − 4 (in m/s²). At t = 0 it is at the origin with velocity 3 m/s. Find its position at t = 2 s, in metres. Give your answer as a whole number.",
+    "ans": 6,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v = ∫a dt = 3t² − 4t + c1, and v(0) = 3 gives c1 = 3. Then s = ∫v dt = t³ − 2t² + 3t + c2, and s(0) = 0 gives c2 = 0. So s(2) = 8 − 8 + 6 = 6 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n06",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "F is an antiderivative of x·eˣ with F(0) = 4. Find F(1). Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "By parts, ∫x eˣ dx = (x − 1)eˣ + c. Then F(0) = −1 + c = 4, so c = 5. F(1) = 0 + 5 = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n07",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "F is an antiderivative of 1/(x² + 4) with F(0) = 1. Find F(2), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.393,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "F(x) = (1/2) tan⁻¹(x/2) + c, and F(0) = 1 gives c = 1. Then F(2) = (1/2)(π/4) + 1 = 1 + π/8 = 1.393.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n08",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "A is an antiderivative of (2x + 1)/(x² + x) with A(1) = 0. Find A(3), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.792,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The numerator is the derivative of the denominator, so A(x) = log(x² + x) + c. A(1) = log 2 + c = 0 gives c = −log 2. Then A(3) = log 12 − log 2 = log 6 = 1.792.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n09",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "G is an antiderivative of (x² + 1)/x with G(1) = 2. Find G(e), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 6.195,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Divide: (x² + 1)/x = x + 1/x, so G(x) = x²/2 + log x + c. From G(1) = 0.5 + c = 2, c = 1.5. Then G(e) = e²/2 + 1 + 1.5 = 3.6945 + 2.5 = 6.195.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-10-n10",
+    "ch": "mth-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "H is an antiderivative of 1/((x − 1)(x − 2)) on the interval x greater than 2, with H(3) = 0. Find H(4), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.288,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Partial fractions: 1/((x − 1)(x − 2)) = 1/(x − 2) − 1/(x − 1). So H(x) = log((x − 2)/(x − 1)) + c. H(3) = log(1/2) + c = 0 gives c = log 2. Then H(4) = log(2/3) + log 2 = log(4/3) = 0.288.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-m01",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In the fundamental theorem, the integral of f(x) from a to b equals g(b) − g(a), where g is:",
+    "options": [
+      "a function with g(a) = g(b)",
+      "any antiderivative of f",
+      "the second derivative of f",
+      "the derivative of f"
+    ],
+    "ans": 1,
+    "solution": "Find any function g with g′ = f, then subtract its values at the two limits. The arbitrary constant cancels, so it does not matter which antiderivative is used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m02",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "For fixed limits a and b, a definite integral of a continuous function is:",
+    "options": [
+      "a function of x",
+      "always a positive number",
+      "a family of functions that differ by a constant",
+      "a number"
+    ],
+    "ans": 3,
+    "solution": "The limits fix the answer, so there is no + c and no x left. The value can be positive, negative or zero. (An indefinite integral is the family of functions.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m03",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The sum of the integral from a to b of f(x) dx and the integral from b to a of f(x) dx is:",
+    "options": [
+      "the integral from a to b",
+      "f(b) − f(a)",
+      "0",
+      "twice the integral from a to b"
+    ],
+    "ans": 2,
+    "solution": "Swapping the limits changes the sign: the integral from b to a is the negative of the integral from a to b. So the two cancel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m04",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The value of the integral of x from 0 to 1 is:",
+    "options": [
+      "1/2",
+      "1/3",
+      "1",
+      "2"
+    ],
+    "ans": 0,
+    "solution": "The antiderivative of x is x²/2. At the limits: 1/2 − 0 = 1/2. This is also the area of a right triangle with base 1 and height 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m05",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The value of the integral of sin x from 0 to π is:",
+    "options": [
+      "−2",
+      "0",
+      "1",
+      "2"
+    ],
+    "ans": 3,
+    "solution": "The antiderivative of sin x is −cos x. So the value is −cos π − (−cos 0) = 1 + 1 = 2. The area of one arch of the sine curve is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m06",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The value of the integral of 3x² from 0 to 1 is:",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "1/3"
+    ],
+    "ans": 1,
+    "solution": "The antiderivative of 3x² is x³, so the value is 1 − 0 = 1. The answer 1/3 would be for x² alone.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m07",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of the integral of 1/x from 1 to e is:",
+    "options": [
+      "1",
+      "e",
+      "0",
+      "e − 1"
+    ],
+    "ans": 0,
+    "solution": "The antiderivative of 1/x is log x. So the value is log e − log 1 = 1 − 0 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m08",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of the integral of (3x² + 1) from 0 to 2 is:",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "14"
+    ],
+    "ans": 2,
+    "solution": "The antiderivative is x³ + x. At 2 it is 8 + 2 = 10, and at 0 it is 0. So the value is 10.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m09",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of f(x) dx from a to b equals the integral of f(t) dt from a to b. This shows that:",
+    "options": [
+      "the answer depends on the letter chosen for the variable",
+      "the two limits a and b must be equal",
+      "the name of the variable of integration does not matter",
+      "the function f must be a constant function"
+    ],
+    "ans": 2,
+    "solution": "The letter x or t is a dummy variable. The value depends only on the function and on the limits. This is used in the property with a + b − x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m10",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Splitting the integral from a to b into the integrals from a to c and from c to b is most useful when:",
+    "options": [
+      "f is an odd function on the whole interval, so that it is symmetric",
+      "f has a different formula on each part, as |x| does at 0",
+      "the two limits a and b are equal, so that the result is zero",
+      "f is a constant on the whole interval, so that the area is a rectangle"
+    ],
+    "ans": 1,
+    "solution": "For |x| or for a function defined in pieces, we integrate each formula over its own part and add the results. The split point is where the formula changes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m11",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The result of the integral of f(x) from 0 to a equals the integral of f(a − x) from 0 to a is mainly used to:",
+    "options": [
+      "differentiate the integral with respect to a",
+      "find the antiderivative without any substitution",
+      "change both limits so that they become infinite",
+      "add the integral to its reflected form, so that a hard part cancels"
+    ],
+    "ans": 3,
+    "solution": "Call the integral I and write it in a second form with a − x in place of x. Adding the two forms often gives a simple integrand such as 1, so that 2I is easy to find.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m12",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If f is an even function, the integral of f(x) from −a to a equals:",
+    "options": [
+      "2 times the integral of f(x) from 0 to a",
+      "0",
+      "−2 times the integral of f(x) from 0 to a",
+      "the integral of f(x) from 0 to a"
+    ],
+    "ans": 0,
+    "solution": "An even function has a graph that is symmetric about the y-axis, so the two halves have equal area. For example, x² over [−1, 1] gives twice the value over [0, 1].",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m13",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If f is an odd function, the integral of f(x) from −a to a equals:",
+    "options": [
+      "the integral from 0 to a",
+      "twice the integral from 0 to a",
+      "a times f(a)",
+      "0"
+    ],
+    "ans": 3,
+    "solution": "For an odd function, the part below the axis on the left cancels the part above the axis on the right. So x³, sin x and x⁵ + x all give 0 over a symmetric interval.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m14",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of the integral of x² from −1 to 1 is:",
+    "options": [
+      "0",
+      "2/3",
+      "2",
+      "1/3"
+    ],
+    "ans": 1,
+    "solution": "x² is even, so the value is 2 × (the integral from 0 to 1) = 2 × 1/3 = 2/3. It is not 0, because x² is not odd.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m15",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If the integral of f(x) from 0 to 1 is 3, then the integral of (2f(x) + 1) from 0 to 1 is:",
+    "options": [
+      "6",
+      "4",
+      "7",
+      "5"
+    ],
+    "ans": 2,
+    "solution": "A constant factor comes out and the integral of 1 over [0, 1] is 1. So the value is 2 × 3 + 1 = 7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m16",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of the integral of tan x from 0 to π/4 is:",
+    "options": [
+      "(1/2) log 2",
+      "−(1/2) log 2",
+      "1/2",
+      "log 2"
+    ],
+    "ans": 0,
+    "solution": "The antiderivative of tan x is log|sec x|. At π/4, sec = √2, and at 0, sec = 1. So the value is log √2 − 0 = (1/2) log 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m17",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the integral of sin x/(sin x + cos x) from 0 to π/2 is:",
+    "options": [
+      "π/4",
+      "π/8",
+      "1/2",
+      "π/2"
+    ],
+    "ans": 0,
+    "solution": "Let I be the integral. Replace x by π/2 − x: I also equals the integral of cos x/(sin x + cos x). Adding gives 2I = the integral of 1 from 0 to π/2 = π/2. So I = π/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m18",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the integral of sin²x from 0 to π is:",
+    "options": [
+      "π/4",
+      "1",
+      "π",
+      "π/2"
+    ],
+    "ans": 3,
+    "solution": "Use sin²x = (1 − cos 2x)/2. The integral is [x/2 − sin 2x/4] from 0 to π = π/2. By symmetry, sin²x and cos²x have equal integrals, and together they give π.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m19",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If f(x) + f(a − x) is never zero on [0, a], the integral of f(x)/(f(x) + f(a − x)) from 0 to a equals:",
+    "options": [
+      "0",
+      "a/2",
+      "a",
+      "a²/2"
+    ],
+    "ans": 1,
+    "solution": "Call it I. With x replaced by a − x, I also equals the integral of f(a − x)/(f(a − x) + f(x)). Adding the two forms gives 2I = the integral of 1 from 0 to a = a. So I = a/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m20",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the integral of x sin x from 0 to π is:",
+    "options": [
+      "2",
+      "0",
+      "π",
+      "π/2"
+    ],
+    "ans": 2,
+    "solution": "By parts with u = x: the integral of x sin x is −x cos x + sin x. At π: π + 0 = π. At 0: 0. So the value is π.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m21",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the integral of x·eˣ from 0 to 1 is:",
+    "options": [
+      "0",
+      "1",
+      "e − 1",
+      "e"
+    ],
+    "ans": 1,
+    "solution": "The antiderivative is (x − 1)eˣ. At 1 it is 0, and at 0 it is −1. So the value is 0 − (−1) = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m22",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the integral of |x| from −1 to 2 is:",
+    "options": [
+      "3",
+      "1",
+      "5/2",
+      "3/2"
+    ],
+    "ans": 2,
+    "solution": "Split at 0. On [−1, 0], |x| = −x, giving 1/2. On [0, 2], |x| = x, giving 2. The total is 5/2. The value 3/2 comes from wrongly treating the left part as negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m23",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of f(x) from 0 to 2a equals twice the integral of f(x) from 0 to a, whenever:",
+    "options": [
+      "f(2a − x) = −f(x)",
+      "f is an odd function",
+      "f(a − x) = 0 for all x",
+      "f(2a − x) = f(x)"
+    ],
+    "ans": 3,
+    "solution": "Split the integral at a. Substituting x = 2a − t in the second part, it becomes the integral of f(2a − t) from 0 to a. If f(2a − x) = f(x), both parts are equal. If f(2a − x) = −f(x), they cancel and the total is 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m24",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "As a limit of a sum, the integral of f(x) from a to b is:",
+    "options": [
+      "the limit as n tends to infinity of h × [f(a + h) + f(a + 2h) + … + f(a + nh)], with h = (b − a)/n",
+      "the limit as n tends to infinity of [f(a + h) + … + f(a + nh)]/h, with h = (b − a)/n",
+      "the limit as n tends to infinity of h × [f(a) + f(a + h) + … + f(a + nh)], with h = (b + a)/n",
+      "the limit as n tends to infinity of [f(a + h) + f(a + 2h) + … + f(a + nh)], with h = (b − a)/n"
+    ],
+    "ans": 0,
+    "solution": "The interval is cut into n strips of width h. Each strip adds the area f(a + rh) × h. The factor h (the width) is essential: without it the sum would grow without limit.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m25",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The limit as n tends to infinity of (1/n²)(1 + 2 + 3 + … + n) equals:",
+    "options": [
+      "1/2",
+      "does not exist",
+      "1",
+      "0"
+    ],
+    "ans": 0,
+    "solution": "The sum is n(n + 1)/2, so the expression is (n + 1)/(2n), which tends to 1/2. This is the integral of x from 0 to 1, written as a limit of a sum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-m26",
+    "ch": "mth-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the integral of √x/(√x + √(7 − x)) from 2 to 5 is:",
+    "options": [
+      "3",
+      "3/2",
+      "7/2",
+      "5/2"
+    ],
+    "ans": 1,
+    "solution": "Here a + b = 7. Replace x by 7 − x: the integral also equals the integral of √(7 − x)/(√(7 − x) + √x). Adding the two forms, 2I = the integral of 1 from 2 to 5 = 3. So I = 3/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-11-n01",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 1,
+    "q": "Evaluate the integral of (2x + 1) dx from x = 1 to x = 3. Give your answer as a whole number.",
+    "ans": 10,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The antiderivative is x² + x. At 3 it is 12, and at 1 it is 2. So the value is 12 − 2 = 10.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n02",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 2,
+    "q": "Evaluate the integral of (x³ − 2x + 1) dx from x = 0 to x = 2. Give your answer as a whole number.",
+    "ans": 2.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The antiderivative is x⁴/4 − x² + x. At 2 it is 4 − 4 + 2 = 2, and at 0 it is 0. So the value is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n03",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 2,
+    "q": "Evaluate the integral of sec²x dx from x = 0 to x = π/3, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.732,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The antiderivative is tan x. So the value is tan(π/3) − tan 0 = √3 = 1.732.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n04",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 2,
+    "q": "Evaluate the integral of (log x)/x dx from x = 1 to x = e. Give your answer to 1 decimal place.",
+    "ans": 0.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Put t = log x, so dt = dx/x. The limits become 0 and 1, and the integral of t dt from 0 to 1 is 1/2. The value is 0.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n05",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Evaluate the integral of x sin x dx from x = 0 to x = π, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.142,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By parts, the antiderivative is −x cos x + sin x. At π: π + 0 = π. At 0: 0. So the value is π = 3.142.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n06",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Evaluate the integral of sin x/(sin x + cos x) dx from x = 0 to x = π/2, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.785,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Let I be the integral. Replacing x by π/2 − x gives the same integral with cos x on top. Adding, 2I = π/2, so I = π/4 = 0.785.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n07",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Evaluate the integral of |x| dx from x = −1 to x = 2. Give your answer to 1 decimal place.",
+    "ans": 2.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Split at 0: the integral of −x from −1 to 0 is 1/2, and the integral of x from 0 to 2 is 2. The total is 2.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n08",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Evaluate the integral of x·e^(x²) dx from x = 0 to x = 2, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 26.799,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Put t = x², so x dx = dt/2. The limits become 0 and 4. The value is (1/2)(e⁴ − 1) = (54.598 − 1)/2 = 26.799.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n09",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Evaluate the integral of √x/(√x + √(7 − x)) dx from x = 2 to x = 5. Give your answer to 1 decimal place.",
+    "ans": 1.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Since 2 + 5 = 7, replacing x by 7 − x gives a second form of the same integral. Adding the two forms, 2I = 5 − 2 = 3, so I = 1.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n10",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 2,
+    "q": "Evaluate the integral of 1/(x² + 9) dx from x = 0 to x = 3, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.262,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The antiderivative is (1/3) tan⁻¹(x/3). At 3 it is (1/3)(π/4), and at 0 it is 0. So the value is π/12 = 0.262.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-11-n11",
+    "ch": "mth-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit as n tends to infinity of (1/n) × [(1/n)² + (2/n)² + … + (n/n)²], correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.333,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "This is a limit of a sum with h = 1/n and f(x) = x² on [0, 1], so it equals the integral of x² from 0 to 1 = 1/3 = 0.333. Check: the sum is (n + 1)(2n + 1)/(6n²), which tends to 1/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-m01",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The area bounded by the curve y = f(x), where f(x) is not negative, the x-axis and the lines x = a and x = b is:",
+    "options": [
+      "f(b) × (b − a)",
+      "f(b) − f(a)",
+      "the integral of f(x) dx from a to b",
+      "the integral of f(x) dx from b to a, taken as it is"
+    ],
+    "ans": 2,
+    "solution": "Each thin strip has height f(x) and width dx, so its area is f(x) dx. Adding the strips from x = a to x = b gives the definite integral. If the limits were swapped, the sign would change.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m02",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Areas are always:",
+    "options": [
+      "positive, and are measured in square units",
+      "positive or negative, depending on the curve",
+      "zero when the curve is below the x-axis",
+      "measured in the same units as length"
+    ],
+    "ans": 0,
+    "solution": "A definite integral can be negative when the curve is below the x-axis, but the area is its numerical (absolute) value. A region below the axis still has a positive area.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m03",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The area bounded by the line y = x, the x-axis and the line x = 2 is:",
+    "options": [
+      "1 square unit",
+      "4 square units",
+      "1/2 square unit",
+      "2 square units"
+    ],
+    "ans": 3,
+    "solution": "The integral of x from 0 to 2 is [x²/2] = 2. It is also the area of a right triangle with base 2 and height 2: (1/2) × 2 × 2 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m04",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area under the curve y = x² from x = 0 to x = 3 is:",
+    "options": [
+      "9/2 square units",
+      "9 square units",
+      "3 square units",
+      "27 square units"
+    ],
+    "ans": 1,
+    "solution": "The integral of x² from 0 to 3 is [x³/3] = 27/3 = 9 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m05",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area bounded by one arch of y = sin x from x = 0 to x = π, and the x-axis, is:",
+    "options": [
+      "2 square units",
+      "4 square units",
+      "0 square units",
+      "1 square unit"
+    ],
+    "ans": 0,
+    "solution": "The integral of sin x from 0 to π is [−cos x] = 1 + 1 = 2. The curve is above the axis for the whole arch, so the area is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m06",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area of the region between y = x, the x-axis, x = −1 and x = 1 is:",
+    "options": [
+      "0 square units",
+      "2 square units",
+      "1 square unit",
+      "1/2 square unit"
+    ],
+    "ans": 2,
+    "solution": "The integral of x from −1 to 1 is 0, but that is because the two parts cancel. The area of each part is 1/2, and the total area is 1/2 + 1/2 = 1. Split the integral at 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m07",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area bounded by y = x³, the x-axis and the lines x = −1 and x = 1 is:",
+    "options": [
+      "1 square unit",
+      "1/4 square unit",
+      "0 square units",
+      "1/2 square unit"
+    ],
+    "ans": 3,
+    "solution": "The curve is below the axis for negative x. By symmetry, the area is 2 × (the integral of x³ from 0 to 1) = 2 × 1/4 = 1/2. The integral from −1 to 1 would be 0, and this is not the area.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m08",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area under y = √x from x = 0 to x = 4 is:",
+    "options": [
+      "8 square units",
+      "16/3 square units",
+      "4 square units",
+      "8/3 square units"
+    ],
+    "ans": 1,
+    "solution": "The integral of x^(1/2) is (2/3)x^(3/2). At x = 4 it is (2/3) × 8 = 16/3, and at 0 it is 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m09",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area bounded by the parabola y² = 4x and the line x = 4 is:",
+    "options": [
+      "64/3 square units",
+      "16/3 square units",
+      "32/3 square units",
+      "128/3 square units"
+    ],
+    "ans": 0,
+    "solution": "The region is symmetric about the x-axis. Area = 2 × the integral of 2√x from 0 to 4 = 2 × 2 × (2/3) × 8 = 64/3. (The upper half alone has area 32/3.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m10",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A region is enclosed by a curve written as x = g(y), the y-axis, and two horizontal lines at heights c and d. Its area is found by integrating:",
+    "options": [
+      "y dy, with x running from c to d",
+      "x dx, with y running from c to d",
+      "x dy, with y running from c to d",
+      "y dx, with x running from c to d"
+    ],
+    "ans": 2,
+    "solution": "When the curve is given as x in terms of y, the thin strips are horizontal, with length x and thickness dy. The limits are values of y.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m11",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area between the curves y = f(x) and y = g(x), which meet at x = a and x = b and do not cross in between, is:",
+    "options": [
+      "the difference of the products, f(b)g(b) − f(a)g(a), at the limits",
+      "the integral of [f(x) + g(x)] dx from a to b, with no modulus",
+      "the integral of the product f(x)g(x) dx from a to b",
+      "the absolute value of the integral of [f(x) − g(x)] dx from a to b"
+    ],
+    "ans": 3,
+    "solution": "The height of a strip is the difference of the two curves (upper minus lower). If the curves cross between a and b, the integral must be split at the crossing, and each part taken as positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m12",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area between the curves y = x and y = x² is:",
+    "options": [
+      "1/12 square unit",
+      "1/6 square unit",
+      "1/3 square unit",
+      "1/2 square unit"
+    ],
+    "ans": 1,
+    "solution": "The curves meet where x = x², at x = 0 and x = 1. For x between 0 and 1 the line is above the parabola. The area is the integral of (x − x²) from 0 to 1 = 1/2 − 1/3 = 1/6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m13",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area bounded by y = x² and the line y = 4 is:",
+    "options": [
+      "32/3 square units",
+      "16/3 square units",
+      "64/3 square units",
+      "16 square units"
+    ],
+    "ans": 0,
+    "solution": "The curves meet at x = ±2. The line is above the parabola, so the area is the integral of (4 − x²) from −2 to 2 = 2 × (8 − 8/3) = 32/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m14",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area enclosed by the circle x² + y² = a² is:",
+    "options": [
+      "πa²/2 square units",
+      "πa² square units",
+      "πa square units",
+      "2πa² square units"
+    ],
+    "ans": 1,
+    "solution": "The area in one quadrant is the integral of √(a² − x²) from 0 to a, which is πa²/4. Four quadrants give πa².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m15",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area enclosed by the ellipse x²/a² + y²/b² = 1 is:",
+    "options": [
+      "π(a + b) square units",
+      "πa²b square units",
+      "πab square units",
+      "2πab square units"
+    ],
+    "ans": 2,
+    "solution": "The ellipse is the circle x² + y² = a² with the y-values multiplied by b/a. So the area is multiplied by b/a, from πa² to πab.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m16",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area bounded by y = x², the y-axis and the line y = 4, in the first quadrant, is:",
+    "options": [
+      "32/3 square units",
+      "8 square units",
+      "4 square units",
+      "16/3 square units"
+    ],
+    "ans": 3,
+    "solution": "Using horizontal strips, x = √y. The area is the integral of √y dy from 0 to 4 = (2/3) × 8 = 16/3. (Using vertical strips: 4 × 2 − 8/3 = 16/3, which agrees.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m17",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integral of f(x) dx from a to b is negative when the curve lies below the x-axis. The area of that region is:",
+    "options": [
+      "the integral, with its negative sign kept",
+      "half of the integral, since only half of the strip is counted",
+      "the numerical value of the integral, which is positive",
+      "zero, since the curve is below the axis"
+    ],
+    "ans": 2,
+    "solution": "The area is always taken as a positive number, so we use the absolute value of the integral. Keeping the negative sign would give a negative area, which is impossible.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m18",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of sin x dx from 0 to 2π is 0. The area bounded by y = sin x and the x-axis from 0 to 2π is:",
+    "options": [
+      "2 square units",
+      "0 square units",
+      "8 square units",
+      "4 square units"
+    ],
+    "ans": 3,
+    "solution": "The first half-arch (0 to π) has area 2 above the axis, and the second (π to 2π) has area 2 below it. The area is 2 + 2 = 4, and the integral is 2 − 2 = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m19",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area enclosed between y = |x| and the line y = 2 is:",
+    "options": [
+      "4 square units",
+      "6 square units",
+      "2 square units",
+      "8 square units"
+    ],
+    "ans": 0,
+    "solution": "The lines y = |x| and y = 2 meet at x = ±2. The area is the integral of (2 − |x|) from −2 to 2 = 8 − 4 = 4. This is also a triangle with base 4 and height 2: (1/2) × 4 × 2 = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m20",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area bounded by y = eˣ, the x-axis, the y-axis and the line x = 1 is:",
+    "options": [
+      "(e + 1) square units",
+      "(e − 1) square units",
+      "1 square unit",
+      "e square units"
+    ],
+    "ans": 1,
+    "solution": "The integral of eˣ from 0 to 1 is [eˣ] = e − 1, about 1.718.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m21",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area bounded by y = 1/x, the x-axis and the lines x = 1 and x = e is:",
+    "options": [
+      "(e − 1) square units",
+      "1 square unit",
+      "log 2 square units",
+      "e square units"
+    ],
+    "ans": 1,
+    "solution": "The integral of 1/x from 1 to e is [log x] = log e − log 1 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m22",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area enclosed between y = x² and y = x + 2 is:",
+    "options": [
+      "9/2 square units",
+      "9 square units",
+      "4 square units",
+      "27/2 square units"
+    ],
+    "ans": 0,
+    "solution": "x² = x + 2 gives x = −1 and 2. The line is above the parabola in between. Area = the integral of (x + 2 − x²) from −1 to 2 = [x²/2 + 2x − x³/3] = (10/3) − (−7/6) = 9/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m23",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When a region lies partly above and partly below the x-axis between the limits a and b, the correct method is to:",
+    "options": [
+      "integrate each part and subtract the part below from the part above",
+      "integrate once and double the result to allow for the part below",
+      "integrate once from a to b and take the result as it is",
+      "split the integral at the points where the curve crosses the axis, and add the numerical values"
+    ],
+    "ans": 3,
+    "solution": "Parts above and below the axis have integrals of opposite signs, which partly cancel. To get the area, add the absolute values of the separate pieces.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m24",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area bounded by the line y = 2x, the x-axis and the line x = 3 is:",
+    "options": [
+      "18 square units",
+      "6 square units",
+      "9 square units",
+      "3 square units"
+    ],
+    "ans": 2,
+    "solution": "The integral of 2x from 0 to 3 is [x²] = 9. It is also a triangle with base 3 and height 6: (1/2) × 3 × 6 = 9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-m25",
+    "ch": "mth-12-12",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The area of the triangle formed by the line x + y = 2 and the coordinate axes is:",
+    "options": [
+      "4 square units",
+      "2 square units",
+      "1 square unit",
+      "1/2 square unit"
+    ],
+    "ans": 1,
+    "solution": "The line meets the axes at (2, 0) and (0, 2). The area is the integral of (2 − x) from 0 to 2 = 4 − 2 = 2. It is also (1/2) × 2 × 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-12-n01",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the area under the curve y = x² + 1 from x = 0 to x = 2, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.667,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The integral is [x³/3 + x] from 0 to 2 = 8/3 + 2 = 14/3 = 4.667 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n02",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the area under the curve y = 3x² − 2x + 1 from x = 0 to x = 2. Give your answer as a whole number.",
+    "ans": 6,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The integral is [x³ − x² + x] from 0 to 2 = 8 − 4 + 2 = 6 square units. The curve stays above the axis, because 3x² − 2x + 1 has no real roots.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n03",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area enclosed between the curves y = x² and y = x + 2. Give your answer to 1 decimal place.",
+    "ans": 4.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The curves meet at x = −1 and x = 2. The area is the integral of (x + 2 − x²) from −1 to 2 = [x²/2 + 2x − x³/3] = (10/3) + (7/6) = 27/6 = 4.5 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n04",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area of the circle x² + y² = 25, correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 78.54,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The area is πa² with a = 5: 25π = 78.54 square units. Check: with x = 5 sin θ, the quarter-circle area is the integral of 25 cos²θ dθ from 0 to π/2 = 25π/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n05",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area enclosed by the ellipse x²/9 + y²/4 = 1, correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 18.85,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The area is πab with a = 3 and b = 2: 6π = 18.85 square units. Check: with x = 3 sin θ, y = 2 cos θ, the quarter area is the integral of 6 cos²θ dθ from 0 to π/2 = 6π/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n06",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the area bounded by y = eˣ, the x-axis, the y-axis and the line x = log 3 (natural logarithm). Give your answer as a whole number.",
+    "ans": 2,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The integral of eˣ from 0 to log 3 is e^(log 3) − e⁰ = 3 − 1 = 2 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n07",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the total area enclosed between the curves y = x and y = x³. Give your answer to 1 decimal place.",
+    "ans": 0.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The curves meet at x = −1, 0 and 1. By symmetry, the two regions have equal areas. For 0 to 1, the area is the integral of (x − x³) = 1/2 − 1/4 = 1/4. The total is 2 × 1/4 = 0.5 square unit.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n08",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area enclosed between the parabolas y² = 4x and x² = 4y, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.333,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The parabolas meet at (0, 0) and (4, 4). The area is the integral of (2√x − x²/4) from 0 to 4 = (4/3) × 8 − 64/12 = 32/3 − 16/3 = 16/3 = 5.333 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n09",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area bounded by the parabola x = y² and the line x = 4, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 10.667,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The curve meets the line at y = ±2. Using horizontal strips, the area is the integral of (4 − y²) dy from −2 to 2 = 2 × (8 − 8/3) = 32/3 = 10.667 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n10",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area between y = cos x and y = sin x from x = 0 to x = π/4, correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.414,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "In this interval cos x is above sin x. The integral of (cos x − sin x) is [sin x + cos x] = (√2/2 + √2/2) − (0 + 1) = √2 − 1 = 0.414 square units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-12-n11",
+    "ch": "mth-12-12",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the area of the triangle bounded by the line 2x + 3y = 12 and the coordinate axes. Give your answer as a whole number.",
+    "ans": 12.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The line meets the axes at (6, 0) and (0, 4). The area is the integral of (12 − 2x)/3 from 0 to 6 = (72 − 36)/3 = 12 square units, which is also (1/2) × 6 × 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-m01",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The order of the differential equation d³y/dx³ + 2(d²y/dx²)² + y = 0 is:",
+    "options": [
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "ans": 3,
+    "solution": "The order is that of the highest derivative present. Here it is d³y/dx³, which is a third derivative, so the order is 3. The power 2 on the second derivative does not change the order.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m02",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The degree of the differential equation (d²y/dx²)³ + (dy/dx)⁴ + y⁵ = 0 is:",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "ans": 0,
+    "solution": "The degree is the power of the highest-order derivative, here d²y/dx², once the equation is a polynomial in the derivatives. That power is 3. The powers of the other terms (4 and 5) are not used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m03",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The order and the degree of d²y/dx² = √(1 + (dy/dx)²) are, respectively:",
+    "options": [
+      "2 and 1",
+      "2 and 2",
+      "2 and 1/2",
+      "1 and 2"
+    ],
+    "ans": 1,
+    "solution": "First remove the root by squaring: (d²y/dx²)² = 1 + (dy/dx)². Now it is a polynomial in the derivatives. The highest derivative is of order 2 and its power is 2. The degree is never written as a fraction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m04",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The degree of the differential equation sin(dy/dx) + y = 0 is:",
+    "options": [
+      "0, as there is no power",
+      "2, as sin and y both appear",
+      "not defined",
+      "1, as dy/dx appears once"
+    ],
+    "ans": 2,
+    "solution": "The equation is not a polynomial in dy/dx, because the derivative sits inside the sine. Degree is defined only for an equation that is a polynomial in its derivatives, so here the degree does not exist. The order is 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m05",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The general solution of a differential equation of order 3 contains how many independent arbitrary constants?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "ans": 1,
+    "solution": "The number of arbitrary constants in the general solution equals the order of the equation. Each integration step brings in one constant, and an equation of order 3 needs three of them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m06",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The differential equation of the family y = Ax + B, where A and B are arbitrary constants, is:",
+    "options": [
+      "d²y/dx² = 0",
+      "dy/dx = A, with A a constant",
+      "d²y/dx² = y, with no constants",
+      "dy/dx = 0, with no constants"
+    ],
+    "ans": 0,
+    "solution": "There are two constants, so differentiate twice: dy/dx = A, and d²y/dx² = 0. The constants are gone, and the order is 2. The family is all straight lines that are not vertical.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m07",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The differential equation of the family y = c·e^(2x), where c is an arbitrary constant, is:",
+    "options": [
+      "dy/dx = y/2",
+      "dy/dx = e^(2x)",
+      "dy/dx = 2x",
+      "dy/dx = 2y"
+    ],
+    "ans": 3,
+    "solution": "Differentiate once: dy/dx = 2c·e^(2x). Since c·e^(2x) = y, we get dy/dx = 2y. One constant means that the equation is of order 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m08",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The differential equation of all circles with the centre at the origin, x² + y² = r², is:",
+    "options": [
+      "y + x(dy/dx) = 0",
+      "x − y(dy/dx) = 0",
+      "x + y(dy/dx) = 0",
+      "x(dy/dx) = y"
+    ],
+    "ans": 2,
+    "solution": "Differentiate x² + y² = r² with respect to x: 2x + 2y(dy/dx) = 0. The constant r has disappeared, so the result is x + y(dy/dx) = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m09",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The differential equation of all straight lines through the origin, y = mx, is:",
+    "options": [
+      "x(dy/dx) = y",
+      "x(dy/dx) = −y",
+      "dy/dx = m, with m arbitrary",
+      "y(dy/dx) = x"
+    ],
+    "ans": 0,
+    "solution": "Differentiating gives dy/dx = m. Replace m by y/x from the original equation: dy/dx = y/x, which is x(dy/dx) = y. One constant gives an equation of order 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m10",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Eliminating a and b from y = a cos x + b sin x gives the differential equation:",
+    "options": [
+      "d²y/dx² = y",
+      "d²y/dx² + dy/dx + y = 0",
+      "d²y/dx² + y = 0",
+      "dy/dx = −y"
+    ],
+    "ans": 2,
+    "solution": "Two constants need two differentiations: y′ = −a sin x + b cos x and y″ = −a cos x − b sin x = −y. So y″ + y = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m11",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The function y = sin x is a solution of:",
+    "options": [
+      "d²y/dx² + dy/dx = 0",
+      "d²y/dx² − y = 0",
+      "dy/dx + y = 0",
+      "d²y/dx² + y = 0"
+    ],
+    "ans": 3,
+    "solution": "Here y′ = cos x and y″ = −sin x. So y″ + y = −sin x + sin x = 0. To verify a solution, differentiate and substitute. It satisfies the first equation only.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m12",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The general solution of dy/dx = 3x² is:",
+    "options": [
+      "y = 6x + c",
+      "y = x³ + c",
+      "y = x³/3 + c",
+      "y = 3x³ + c"
+    ],
+    "ans": 1,
+    "solution": "Integrate both sides: y = ∫3x² dx = x³ + c. The constant c shows that there is one solution curve through every point of the plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m13",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The general solution of dy/dx = y is:",
+    "options": [
+      "y = eˣ + c",
+      "y = c·x",
+      "y = c·eˣ",
+      "y = x + c"
+    ],
+    "ans": 2,
+    "solution": "Separate the variables: dy/y = dx. Integrate: log|y| = x + k, so y = c·eˣ with c = ±eᵏ. The form eˣ + c is wrong, because it does not satisfy the equation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m14",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The general solution of dy/dx = x/y is:",
+    "options": [
+      "y² = x² + c",
+      "y = x²/2 + c",
+      "y = x + c",
+      "y² = x + c"
+    ],
+    "ans": 0,
+    "solution": "Separate: y dy = x dx. Integrate: y²/2 = x²/2 + k. Multiply by 2: y² = x² + c, where c = 2k is again an arbitrary constant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m15",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The general solution of dy/dx = (1 + y²)/(1 + x²) is:",
+    "options": [
+      "log y = log x + c",
+      "tan⁻¹ y = tan⁻¹ x + c",
+      "y = x + c",
+      "tan y = tan x + c"
+    ],
+    "ans": 1,
+    "solution": "Separate: dy/(1 + y²) = dx/(1 + x²). Integrate both sides: tan⁻¹ y = tan⁻¹ x + c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m16",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The general solution of dy/dx = e^(x + y) is:",
+    "options": [
+      "eˣ + eʸ = c",
+      "eˣ − e^(−y) = c",
+      "e^(x + y) = c",
+      "eˣ + e^(−y) = c"
+    ],
+    "ans": 3,
+    "solution": "Write e^(x + y) = eˣ·eʸ and separate: e^(−y) dy = eˣ dx. Integrate: −e^(−y) = eˣ + k, so eˣ + e^(−y) = c, with c = −k.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m17",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The general solution of x dy + y dx = 0 is:",
+    "options": [
+      "y = c·x",
+      "y/x = c",
+      "x + y = c",
+      "xy = c"
+    ],
+    "ans": 3,
+    "solution": "The left side is the exact differential d(xy), so d(xy) = 0, giving xy = c. Or divide by xy: dy/y + dx/x = 0, and integrate to get log y + log x = log c.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m18",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The particular solution of dy/dx = 2x, given that y = 3 when x = 0, is:",
+    "options": [
+      "y = x² + c, with c arbitrary",
+      "y = x² + 3",
+      "y = x² − 3",
+      "y = 2x² + 3"
+    ],
+    "ans": 1,
+    "solution": "The general solution is y = x² + c. Putting x = 0, y = 3 gives c = 3. A particular solution has no arbitrary constant left.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m19",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The integrating factor of dy/dx + (2/x)y = x² is:",
+    "options": [
+      "1/x²",
+      "e^(x³/3)",
+      "x²",
+      "2 log x"
+    ],
+    "ans": 2,
+    "solution": "I.F. = e^(∫P dx) with P = 2/x. The integral of 2/x is 2 log x, so I.F. = e^(2 log x) = x².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m20",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integrating factor of dy/dx + y tan x = sec x is:",
+    "options": [
+      "sec x",
+      "e^(tan x)",
+      "tan x",
+      "cos x"
+    ],
+    "ans": 0,
+    "solution": "Here P = tan x, and ∫tan x dx = log|sec x|. So I.F. = e^(log sec x) = sec x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m21",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The general solution of dy/dx + y = 1 is:",
+    "options": [
+      "y = 1 + c·e^(−x)",
+      "y = 1 + c·eˣ",
+      "y = c·e^(−x)",
+      "y = 1 + c·x"
+    ],
+    "ans": 0,
+    "solution": "Here P = 1 and Q = 1, so I.F. = eˣ. Then y·eˣ = ∫eˣ dx = eˣ + c, and y = 1 + c·e^(−x). Check: dy/dx = −c·e^(−x), so dy/dx + y = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m22",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The substitution y = vx changes dy/dx = (x + y)/x into:",
+    "options": [
+      "v(dv/dx) = x",
+      "x(dv/dx) = 1",
+      "dv/dx = 1",
+      "x(dv/dx) = 1 + v"
+    ],
+    "ans": 1,
+    "solution": "With y = vx, dy/dx = v + x(dv/dx). The right side is (x + vx)/x = 1 + v. So v + x(dv/dx) = 1 + v, which gives x(dv/dx) = 1. Then v = log x + c and y = x(log x + c).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m23",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A differential equation that can be written as dy/dx = f(y/x) is called:",
+    "options": [
+      "an equation of the second order",
+      "a variable separable equation",
+      "a homogeneous equation",
+      "a linear equation of the first order"
+    ],
+    "ans": 2,
+    "solution": "When the right side depends only on the ratio y/x, we put y = vx and the equation becomes separable in v and x. This is the standard method for homogeneous equations.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m24",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A radioactive substance decays at a rate proportional to the amount m present. The equation for m at time t is:",
+    "options": [
+      "dm/dt = k·m, with k a positive constant",
+      "dm/dt = −k·t, with k a positive constant",
+      "dm/dt = −k, with k a positive constant",
+      "dm/dt = −k·m, with k a positive constant"
+    ],
+    "ans": 3,
+    "solution": "The rate of change is proportional to m, and m falls, so the constant of proportionality is negative. The solution is m = m₀e^(−kt).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m25",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The slope of the tangent at every point of a curve is twice the x-coordinate of that point. The differential equation of the curve is:",
+    "options": [
+      "dy/dx = x/2",
+      "dy/dx = 2y",
+      "y = 2x",
+      "dy/dx = 2x"
+    ],
+    "ans": 3,
+    "solution": "The slope is dy/dx, so dy/dx = 2x. Integrating gives y = x² + c, a family of parabolas.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-m26",
+    "ch": "mth-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A population grows at a rate proportional to its size and doubles in 10 years. If P = P₀e^(kt), then k is:",
+    "options": [
+      "(log 10)/2",
+      "(log 2)/10",
+      "10 log 2",
+      "1/10"
+    ],
+    "ans": 1,
+    "solution": "Doubling in 10 years means 2P₀ = P₀e^(10k), so e^(10k) = 2 and 10k = log 2. Hence k = (log 2)/10, about 0.0693 per year.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-13-n01",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "A curve has dy/dx = 3x² and passes through (0, 2). Find y when x = 2. Give your answer as a whole number.",
+    "ans": 10,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "y = x³ + c. At (0, 2): c = 2. So y(2) = 8 + 2 = 10.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n02",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Solve dy/dx = y with y(0) = 1, and find y(1), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.718,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "y = c·eˣ and y(0) = 1 give c = 1. So y(1) = e = 2.718.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n03",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Solve dy/dx = 2xy with y(0) = 2, and find y(1), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.437,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Separate: dy/y = 2x dx, so log y = x² + k, and y = c·e^(x²). From y(0) = 2, c = 2. So y(1) = 2e = 5.437.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n04",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Solve dy/dx = x/y with y(0) = 3 (take y positive), and find y(4). Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "y dy = x dx gives y² = x² + c. From y(0) = 3, c = 9. So y(4)² = 16 + 9 = 25, and y = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n05",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Solve dy/dx + y = x with y(0) = 1, and find y(1), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.736,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "I.F. = eˣ. y·eˣ = ∫x·eˣ dx = (x − 1)eˣ + c, so y = x − 1 + c·e^(−x). From y(0) = 1: −1 + c = 1, c = 2. So y(1) = 0 + 2/e = 0.736.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n06",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Solve dy/dx + (2/x)y = x² with y(1) = 1, and find y(2). Give your answer to 1 decimal place.",
+    "ans": 1.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "I.F. = x². Then y·x² = ∫x²·x² dx = x⁵/5 + c. From y(1) = 1: 1 = 1/5 + c, so c = 4/5. At x = 2: 4y = 32/5 + 4/5 = 36/5, so y = 9/5 = 1.8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n07",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "A radioactive substance has a half-life of 5 years. What fraction of the original amount is left after 15 years? Give your answer to 3 decimal places.",
+    "ans": 0.125,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "dm/dt = −k·m gives m = m₀e^(−kt). A half-life of 5 years means that k = (log 2)/5. After 15 years (three half-lives) the fraction is (1/2)³ = 0.125.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n08",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "A culture grows at a rate proportional to its size. It grows from 1000 to 3000 in 2 hours. Find its size after 5 hours, to the nearest whole number. Give your answer as a whole number.",
+    "ans": 15588.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "N = 1000·e^(kt). At t = 2: e^(2k) = 3, so k = (log 3)/2. At t = 5: N = 1000·3^(5/2) = 1000 × 15.588 = 15588.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n09",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Solve dy/dx = (x + y)/x with y(1) = 0, and find y(e), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.718,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Put y = vx: x(dv/dx) = 1, so v = log x + c, and y = x(log x + c). From y(1) = 0, c = 0. So y(e) = e·1 = 2.718.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n10",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "The temperature excess T of a cooling body obeys dT/dt = −0.1·T, with T = 80 at t = 0. Find T at t = 10, correct to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 29.43,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "T = 80·e^(−0.1t). At t = 10: T = 80·e^(−1) = 80 × 0.36788 = 29.43.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-13-n11",
+    "ch": "mth-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Solve dy/dx = e^(x − y) with y(0) = log 2, and find y(1), correct to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.313,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Separate: eʸ dy = eˣ dx, so eʸ = eˣ + c. At x = 0: 2 = 1 + c, so c = 1. Then eʸ = eˣ + 1, and y(1) = log(e + 1) = 1.313.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -16243,6 +25384,657 @@
     ]
   },
   {
+    "id": "phy-12-04-m01",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The zeroth law of thermodynamics makes possible the concept of:",
+    "options": [
+      "internal energy",
+      "entropy",
+      "work",
+      "temperature"
+    ],
+    "ans": 3,
+    "solution": "If A and B are each in thermal equilibrium with C, they are in equilibrium with each other. So there is a property that they share, and we call it temperature. A thermometer is the third body C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m02",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In the first law, ΔU = Q − W, the symbol W stands for:",
+    "options": [
+      "the total energy of the system",
+      "the heat lost by the system",
+      "the work done by the system",
+      "the work done on the system"
+    ],
+    "ans": 2,
+    "solution": "With this sign rule, W is positive when the gas expands and does work on its surroundings. Q is positive when heat is given to the system.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m03",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The internal energy of a given mass of an ideal gas depends only on its:",
+    "options": [
+      "pressure and volume together",
+      "temperature",
+      "volume",
+      "pressure"
+    ],
+    "ans": 1,
+    "solution": "In an ideal gas there are no forces between the molecules, so the internal energy is just the total kinetic energy, which depends on T alone. For a monatomic gas, U = (3/2)nRT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m04",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In an isothermal process of an ideal gas, the heat Q absorbed by the gas is:",
+    "options": [
+      "equal to the work W done by the gas",
+      "equal to minus the work done by the gas",
+      "zero, since there is no change in temperature",
+      "equal to the change in internal energy"
+    ],
+    "ans": 0,
+    "solution": "The temperature is constant, so ΔU = 0 for an ideal gas. The first law gives Q = W. The gas takes in heat from the surroundings to do the work, and so no change in temperature is seen.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m05",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In an adiabatic process:",
+    "options": [
+      "W = 0, so ΔU = Q, and the volume stays constant",
+      "ΔU = 0, so Q = W, and the temperature stays constant",
+      "Q = W, and the pressure stays constant",
+      "Q = 0, so ΔU = −W, and the gas cools when it expands"
+    ],
+    "ans": 3,
+    "solution": "No heat enters or leaves, so the work is done at the cost of the internal energy. An expanding gas does work and its temperature falls. A compressed gas is heated, even though no heat flows in.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m06",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In an isochoric (constant volume) process:",
+    "options": [
+      "ΔU = 0, so the heat added is all converted into work",
+      "W = 0, so all the heat added goes into the internal energy",
+      "the pressure is constant, so W = p ΔV",
+      "Q = 0, so the work done changes the internal energy"
+    ],
+    "ans": 1,
+    "solution": "With no change in volume, the gas does no work (W = p ΔV = 0). So Q = ΔU = nC_v ΔT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m07",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a cyclic process, the net work done by the gas in one cycle is equal to:",
+    "options": [
+      "the area enclosed by the loop on the p–V diagram",
+      "the change in internal energy over the cycle",
+      "the area under the highest curve of the loop only",
+      "zero, since the gas returns to its initial state"
+    ],
+    "ans": 0,
+    "solution": "The work is the area under the p–V curve. On going around a loop, the work of the expansion is positive and that of the compression is negative, so the net work is the area of the loop. ΔU = 0, but W and Q are not zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m08",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An ideal gas expands freely into a vacuum. For this process:",
+    "options": [
+      "Q = W and ΔU = 0, as for an isothermal process",
+      "Q = 0, W is positive and ΔU is negative",
+      "Q = 0, W = 0 and ΔU = 0",
+      "Q is positive, W = 0 and ΔU is positive"
+    ],
+    "ans": 2,
+    "solution": "The gas pushes against nothing, so it does no work. The container is insulated, so there is no heat flow. Then ΔU = 0, and the temperature of an ideal gas is unchanged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m09",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The ratio γ = C_p/C_v for a diatomic ideal gas (at ordinary temperatures) is:",
+    "options": [
+      "4/3",
+      "7/5",
+      "5/3",
+      "9/7"
+    ],
+    "ans": 1,
+    "solution": "For a diatomic gas C_v = (5/2)R and C_p = (7/2)R, so γ = 7/5 = 1.4. For a monatomic gas it is 5/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m10",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For an ideal gas, the molar specific heats are related by:",
+    "options": [
+      "C_p − C_v = R",
+      "C_p + C_v = R",
+      "C_p/C_v = R",
+      "C_p × C_v = R"
+    ],
+    "ans": 0,
+    "solution": "At constant pressure, the heat also supplies the work of expansion, which is RΔT for one mole. So C_p exceeds C_v by R.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m11",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "On a p–V diagram, through the same point, the adiabatic curve compared with the isothermal curve is:",
+    "options": [
+      "horizontal, while the isothermal curve is vertical",
+      "equally steep",
+      "steeper",
+      "less steep"
+    ],
+    "ans": 2,
+    "solution": "For an isotherm, pV = constant, and the slope is −p/V. For an adiabat, pV^γ = constant, and the slope is −γp/V. Since γ is greater than 1, the adiabat is steeper.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m12",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An ideal gas expands isothermally from volume V to 2V at temperature T. The work done by n moles is:",
+    "options": [
+      "2nRT, as the volume doubles",
+      "nRT/2, as half is done",
+      "nRT, with no logarithm",
+      "nRT ln 2"
+    ],
+    "ans": 3,
+    "solution": "W = ∫p dV = nRT ∫dV/V = nRT ln(V₂/V₁) = nRT ln 2, which is about 0.693 nRT.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m13",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to the Kelvin–Planck statement of the second law:",
+    "options": [
+      "no engine can work in a cycle unless it has a hot source of heat",
+      "no engine can reject heat to the surroundings in a cycle of operations",
+      "heat can never flow from a hot body to a cold body, even through a conductor",
+      "no engine working in a cycle can convert all the heat it takes from a hot source into work"
+    ],
+    "ans": 3,
+    "solution": "Part of the heat must always be rejected to a cold sink. So the efficiency of any heat engine is less than 100%.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m14",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to the Clausius statement of the second law:",
+    "options": [
+      "heat cannot flow from a hotter body to a colder body",
+      "a refrigerator always takes in more work than it gives out heat",
+      "heat cannot flow from a colder body to a hotter body without work being done",
+      "work can be completely converted into heat only by friction"
+    ],
+    "ans": 2,
+    "solution": "Heat flows from hot to cold by itself. To move it the other way, as in a refrigerator, a compressor must do work.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m15",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The efficiency of a heat engine that takes in heat Q_H and rejects heat Q_C in a cycle is:",
+    "options": [
+      "Q_C/Q_H",
+      "1 − Q_C/Q_H",
+      "1 − Q_H/Q_C",
+      "Q_H − Q_C"
+    ],
+    "ans": 1,
+    "solution": "The work is W = Q_H − Q_C, so the efficiency is W/Q_H = 1 − Q_C/Q_H. It has no unit, and is always less than 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m16",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The efficiency of a Carnot engine working between absolute temperatures T_H and T_C is:",
+    "options": [
+      "1 − T_C/T_H",
+      "T_C/T_H",
+      "(T_H − T_C)/T_C",
+      "1 − T_H/T_C"
+    ],
+    "ans": 0,
+    "solution": "For a Carnot cycle, Q_C/Q_H = T_C/T_H. The efficiency depends only on the two temperatures, and they must be in kelvin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m17",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The efficiency of a Carnot engine would be 100% only if:",
+    "options": [
+      "the sink were at 0 K",
+      "the working substance were an ideal gas",
+      "the source were at 0 K",
+      "the source and the sink were at the same temperature"
+    ],
+    "ans": 0,
+    "solution": "η = 1 − T_C/T_H equals 1 only when T_C = 0. Absolute zero cannot be reached, so no real engine is 100% efficient. If T_C = T_H, the efficiency is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m18",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A Carnot refrigerator works between 270 K and 300 K. Its coefficient of performance is:",
+    "options": [
+      "0.1",
+      "10",
+      "9",
+      "30"
+    ],
+    "ans": 2,
+    "solution": "K = T_C/(T_H − T_C) = 270/(300 − 270) = 270/30 = 9. For every joule of work, it removes 9 J of heat from the cold space.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m19",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The coefficient of performance of a refrigerator is defined as:",
+    "options": [
+      "the heat given out to the room divided by the work done",
+      "the heat removed divided by the heat given to the room",
+      "the work done on the refrigerant divided by the heat removed",
+      "the heat removed from the cold space divided by the work done on the refrigerant"
+    ],
+    "ans": 3,
+    "solution": "K = Q_C/W. It can be much greater than 1, so it is not called an efficiency. A larger K means that less work is needed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m20",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Of all engines that work between the same two temperatures, the most efficient is:",
+    "options": [
+      "an engine with the largest working volume",
+      "a reversible (Carnot) engine, whatever its working substance",
+      "an engine that has been well insulated against friction",
+      "an engine that uses an ideal gas as its working substance"
+    ],
+    "ans": 1,
+    "solution": "The Carnot engine is reversible and has the maximum efficiency possible, 1 − T_C/T_H. No real engine can exceed it, and all reversible engines between the same temperatures have the same efficiency.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m21",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An ideal gas expands at a constant pressure p from volume V₁ to V₂. The work done by the gas is:",
+    "options": [
+      "pV₂",
+      "p(V₂ − V₁)",
+      "p(V₁ + V₂)",
+      "(V₂ − V₁)/p"
+    ],
+    "ans": 1,
+    "solution": "The area under a horizontal line on the p–V diagram is a rectangle of height p and width V₂ − V₁. In SI units, p in pascal and V in cubic metre give joule.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m22",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Stirling cycle consists of:",
+    "options": [
+      "two isothermal and two isochoric processes",
+      "two isothermal and two adiabatic processes",
+      "two isobaric and two isochoric processes",
+      "two isobaric and two adiabatic processes"
+    ],
+    "ans": 0,
+    "solution": "The gas is heated and cooled at constant volume, and expands and is compressed at constant temperature. (The Carnot cycle has two adiabatic steps in place of the isochoric ones.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m23",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Carnot cycle consists of:",
+    "options": [
+      "two isothermal and two isochoric processes",
+      "two isobaric and two isochoric processes",
+      "two isothermal and two adiabatic processes",
+      "four adiabatic processes"
+    ],
+    "ans": 2,
+    "solution": "Heat is taken in during the isothermal expansion at T_H, and rejected during the isothermal compression at T_C. The adiabatic steps join the two temperatures without heat transfer.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m24",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A monatomic ideal gas (γ = 5/3) is compressed adiabatically to half its volume. Its pressure then becomes:",
+    "options": [
+      "2 times the initial pressure",
+      "2^(2/3) times the initial pressure",
+      "2^(3/5) times the initial pressure",
+      "2^(5/3) times the initial pressure"
+    ],
+    "ans": 3,
+    "solution": "pV^γ is constant, so p₂/p₁ = (V₁/V₂)^γ = 2^(5/3), which is about 3.17. An isothermal compression to half the volume would only double the pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-m25",
+    "ch": "phy-12-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An ideal gas is compressed adiabatically. Its temperature:",
+    "options": [
+      "falls, since no heat enters the gas",
+      "stays constant, since Q = 0",
+      "rises, since the work done on the gas increases its internal energy",
+      "first rises and then falls, until it is equal to the initial value"
+    ],
+    "ans": 2,
+    "solution": "Q = 0, so ΔU = −W. For a compression W is negative, so ΔU is positive, and the temperature rises. This is why a bicycle pump becomes warm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-04-n01",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "A gas absorbs 800 J of heat and does 300 J of work. Find the change in its internal energy, in J. Give your answer as a whole number.",
+    "ans": 500,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "By the first law, ΔU = Q − W = 800 − 300 = 500 J. The internal energy rises by 500 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n02",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "A gas expands at a constant pressure of 2 × 10⁵ Pa from 3 litres to 8 litres. Find the work done by the gas, in J (1 L = 10⁻³ m³). Give your answer as a whole number.",
+    "ans": 1000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "W = p(V₂ − V₁) = 2 × 10⁵ × (8 − 3) × 10⁻³ = 2 × 10⁵ × 5 × 10⁻³ = 1000 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n03",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Two moles of an ideal gas at 300 K expand isothermally from 10 litres to 40 litres. Find the work done by the gas, in J (R = 8.314 J/mol K). Give your answer as a whole number.",
+    "ans": 6915.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "W = nRT ln(V₂/V₁) = 2 × 8.314 × 300 × ln 4 = 4988.4 × 1.3863 ≈ 6915 J. The gas takes in the same amount of heat from the surroundings.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n04",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A monatomic ideal gas (γ = 5/3) at 1 × 10⁵ Pa and 2 × 10⁻³ m³ expands adiabatically to 4 × 10⁻³ m³. Find the work done by the gas, in J, to one decimal place. Give your answer to 1 decimal place.",
+    "ans": 111.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "pV^γ = constant, so p_f = 10⁵ × (1/2)^(5/3) = 3.150 × 10⁴ Pa. W = (p_iV_i − p_fV_f)/(γ − 1) = (200 − 126.0)/(2/3) = 111.0 J. The internal energy falls by this amount.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n05",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the efficiency, in percent, of a Carnot engine working between a source at 500 K and a sink at 300 K. Give your answer as a whole number.",
+    "ans": 40.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "η = 1 − T_C/T_H = 1 − 300/500 = 0.4, or 40%. Check: for 1000 J taken in, 600 J is rejected and 400 J is the work.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n06",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A Carnot engine takes 2000 J of heat per cycle from a source at 800 K and rejects heat to a sink at 400 K. Find the work done per cycle, in J. Give your answer as a whole number.",
+    "ans": 1000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "η = 1 − 400/800 = 0.5, so W = 0.5 × 2000 = 1000 J. Check: Q_C = Q_H × T_C/T_H = 1000 J, and W = Q_H − Q_C = 1000 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n07",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 2,
+    "q": "A heat engine absorbs 600 J of heat and rejects 450 J of heat in each cycle. Find its efficiency, in percent. Give your answer as a whole number.",
+    "ans": 25.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "W = 600 − 450 = 150 J. η = W/Q_H = 150/600 = 0.25, or 25%.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n08",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the coefficient of performance of a Carnot refrigerator working between 250 K (inside) and 300 K (room). Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "K = T_C/(T_H − T_C) = 250/50 = 5. Check: for Q_C = 1000 J, Q_H = 1000 × 300/250 = 1200 J, so W = 200 J, and K = 1000/200 = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n09",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A refrigerator has a coefficient of performance of 5. How much heat is given out to the room when 1000 J of work is done on it, in J? Give your answer as a whole number.",
+    "ans": 6000,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Q_C = K × W = 5 × 1000 = 5000 J is taken from the inside. The heat given to the room is Q_H = Q_C + W = 5000 + 1000 = 6000 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n10",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "One mole of a diatomic ideal gas (C_v = 5R/2) is heated at constant pressure from 300 K to 400 K. Find the heat absorbed, in J (R = 8.314 J/mol K). Give your answer as a whole number.",
+    "ans": 2910.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Q = nC_pΔT with C_p = (7/2)R: Q = 3.5 × 8.314 × 100 = 2910 J. Check: ΔU = (5/2)R × 100 = 2078.5 J and W = RΔT = 831.4 J, and the sum is 2909.9 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-04-n11",
+    "ch": "phy-12-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A cycle on a p–V diagram is a rectangle: pressure 1 × 10⁵ Pa and 3 × 10⁵ Pa, volume 1 L and 5 L. Find the net work done per cycle, in J. Give your answer as a whole number.",
+    "ans": 800.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The net work is the area of the rectangle: ΔV = 4 L = 4 × 10⁻³ m³ and Δp = 2 × 10⁵ Pa. W = 2 × 10⁵ × 4 × 10⁻³ = 800 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "phy-12-05-m01",
     "ch": "phy-12-05",
     "type": "mcq",
@@ -16928,6 +26720,657 @@
     "decimalPlaces": 2,
     "tol": 0.005,
     "solution": "In the lift, g_eff = g + a = 12.5 m/s². T = 2π√(1/12.5) = 2π × 0.2828 = 1.78 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-m01",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The equation y = A sin(kx − ωt) represents a wave that:",
+    "options": [
+      "travels in the y direction",
+      "travels in the negative x direction",
+      "travels in the positive x direction",
+      "does not travel, as it is a stationary wave"
+    ],
+    "ans": 2,
+    "solution": "A point of constant phase has kx − ωt = constant, so x increases with t. The wave moves towards +x with speed ω/k. For a wave moving towards −x the sign between the two terms is plus.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m02",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The speed v, frequency n and wavelength λ of a wave are related by:",
+    "options": [
+      "v = λ/n²",
+      "v = nλ",
+      "v = n/λ",
+      "v = n + λ"
+    ],
+    "ans": 1,
+    "solution": "In one period T = 1/n, the wave advances by one wavelength. So v = λ/T = nλ. The speed is fixed by the medium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m03",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In a transverse wave, the particles of the medium vibrate:",
+    "options": [
+      "only when the medium is a gas",
+      "in circles around the source of the wave",
+      "along the direction in which the wave travels",
+      "at right angles to the direction in which the wave travels"
+    ],
+    "ans": 3,
+    "solution": "Waves on a string and light waves are transverse. In a longitudinal wave, such as sound in air, the particles vibrate along the direction of travel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m04",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A transverse pulse on a string travels towards a fixed end and is reflected. The reflected pulse is:",
+    "options": [
+      "inverted, with a phase change of π",
+      "upright, with a phase change of π/2",
+      "absent, since the end is fixed",
+      "upright, with no phase change"
+    ],
+    "ans": 0,
+    "solution": "The fixed end pulls the string down as the crest arrives, so a crest returns as a trough. From a free end, or a rarer medium, the pulse is reflected without a change of phase.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m05",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two waves of the same frequency and amplitudes 3 cm and 4 cm travel in the same direction, with a phase difference of 90°. The amplitude of the resultant wave is:",
+    "options": [
+      "7 cm",
+      "5 cm",
+      "3.5 cm",
+      "1 cm"
+    ],
+    "ans": 1,
+    "solution": "A = √(A₁² + A₂² + 2A₁A₂ cos φ) = √(9 + 16 + 0) = 5 cm. With a phase difference of 0 the amplitude would be 7 cm, and with π it would be 1 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m06",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two waves of the same frequency, with amplitudes in the ratio 2 : 1, superpose. The ratio I_max : I_min of the resulting intensities is:",
+    "options": [
+      "5 : 3",
+      "4 : 1",
+      "9 : 1",
+      "3 : 1"
+    ],
+    "ans": 2,
+    "solution": "I_max/I_min = (A₁ + A₂)²/(A₁ − A₂)² = (2 + 1)²/(2 − 1)² = 9/1. The amplitudes are added first and then squared.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m07",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a stationary wave, the distance between two consecutive nodes is:",
+    "options": [
+      "λ/2",
+      "2λ",
+      "λ/4",
+      "λ"
+    ],
+    "ans": 0,
+    "solution": "A node and the next node are separated by half a wavelength. The distance from a node to the next antinode is λ/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m08",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a stationary wave, the distance between a node and the next antinode is:",
+    "options": [
+      "λ/2",
+      "λ",
+      "λ/8",
+      "λ/4"
+    ],
+    "ans": 3,
+    "solution": "Nodes and antinodes alternate, and the distance between consecutive nodes is λ/2. An antinode is midway between two nodes, so it is λ/4 from each.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m09",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a stationary wave on a string, all the particles between two consecutive nodes vibrate:",
+    "options": [
+      "out of phase with the particles in their own loop",
+      "in phase with each other, and with the same amplitude",
+      "in phase with each other, but with different amplitudes",
+      "with the same amplitude, but in different phases"
+    ],
+    "ans": 2,
+    "solution": "The amplitude 2a cos(2πx/λ) changes with position, being largest at the antinode and zero at the nodes. The sign of the cosine is the same within a loop, so the particles move together. The next loop is opposite in phase.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m10",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A pipe closed at one end can sustain only:",
+    "options": [
+      "even harmonics of the fundamental, 2n, 4n, 6n, and so on",
+      "odd harmonics of the fundamental, n, 3n, 5n, and so on",
+      "only the fundamental, since it has a closed end",
+      "all the harmonics of the fundamental, n, 2n, 3n, and so on"
+    ],
+    "ans": 1,
+    "solution": "The closed end must be a node and the open end an antinode, so the length holds an odd number of quarter-wavelengths: l = λ/4, 3λ/4, 5λ/4, and so on.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m11",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For pipes of the same length, the fundamental frequency of an open pipe compared with that of a closed pipe (end correction ignored) is:",
+    "options": [
+      "the same",
+      "half as large",
+      "four times as large",
+      "twice as large"
+    ],
+    "ans": 3,
+    "solution": "For the open pipe, n = v/2l, and for the closed pipe, n = v/4l. The ratio is 2 : 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m12",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A pipe closed at one end has a fundamental frequency n. Its second overtone has a frequency:",
+    "options": [
+      "5n",
+      "3n",
+      "2n",
+      "4n"
+    ],
+    "ans": 0,
+    "solution": "The harmonics of a closed pipe are n, 3n, 5n, and so on. The first overtone is the second one in the list, 3n, and the second overtone is 5n.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m13",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An open pipe has a fundamental frequency n. Its second overtone has a frequency:",
+    "options": [
+      "4n",
+      "3n",
+      "5n",
+      "2n"
+    ],
+    "ans": 1,
+    "solution": "All harmonics are present: n, 2n, 3n, and so on. The first overtone is 2n, so the second overtone is 3n.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m14",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For an air column in a pipe of inner diameter d, the end correction is approximately:",
+    "options": [
+      "0.3 d at the open end",
+      "1.2 d at the closed end",
+      "d/2 at the closed end",
+      "0.6 d at the open end"
+    ],
+    "ans": 0,
+    "solution": "The antinode forms a little beyond the open end of the pipe, by e = 0.3 d. A closed end is a node and has no end correction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m15",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The fundamental frequency of a string fixed at both ends is n = (1/2l)√(T/m). If the tension is made four times as large, the frequency becomes:",
+    "options": [
+      "half as large",
+      "four times as large",
+      "twice as large",
+      "√2 times as large"
+    ],
+    "ans": 2,
+    "solution": "n is proportional to √T. If T becomes 4T, the frequency becomes √4 = 2 times the original, other things being equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m16",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A string fixed at both ends vibrates in its fundamental mode. If its length is doubled, with the same tension and mass per unit length, the frequency becomes:",
+    "options": [
+      "four times as large",
+      "twice as large",
+      "unchanged",
+      "half as large"
+    ],
+    "ans": 3,
+    "solution": "n = (1/2l)√(T/m) is inversely proportional to l. Doubling the length halves the frequency, and the note becomes lower.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m17",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two sound waves of frequencies 400 Hz and 404 Hz are heard together. The beat frequency is:",
+    "options": [
+      "402 Hz",
+      "804 Hz",
+      "4 Hz",
+      "0.25 Hz"
+    ],
+    "ans": 2,
+    "solution": "The number of beats per second equals the difference of the frequencies, 404 − 400 = 4. The time between loud sounds is 1/4 = 0.25 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m18",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An unknown fork gives 4 beats per second with a standard fork of 256 Hz. When the unknown fork is loaded with a little wax, the beats per second decrease. The frequency of the unknown fork is:",
+    "options": [
+      "264 Hz",
+      "252 Hz",
+      "256 Hz",
+      "260 Hz"
+    ],
+    "ans": 3,
+    "solution": "The unknown frequency is 260 Hz or 252 Hz. Loading lowers its frequency. If it were 260 Hz it would move closer to 256, and the beats would decrease. If it were 252 Hz the beats would increase.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m19",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In forced vibrations, the amplitude of vibration is the largest when:",
+    "options": [
+      "the natural frequency of the body is zero",
+      "the frequency of the driving force is equal to the natural frequency of the body",
+      "the driving force is the largest possible",
+      "the body is moved by the driver at a very high frequency"
+    ],
+    "ans": 1,
+    "solution": "This is resonance. The energy supplied in each cycle adds to the motion, and the amplitude is limited only by damping.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m20",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A body is made to vibrate by a periodic external force. In the steady state, it vibrates with:",
+    "options": [
+      "the frequency of the external force",
+      "its own natural frequency",
+      "the average of the two frequencies",
+      "twice the natural frequency"
+    ],
+    "ans": 0,
+    "solution": "In forced vibration, the body follows the driver. It vibrates at the driver's frequency, and not at its own, though the amplitude depends on how close the two frequencies are.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m21",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The quality (timbre) of a musical note depends on:",
+    "options": [
+      "the frequency of the fundamental note alone",
+      "the amplitude of the wave alone, which sets loudness",
+      "the number and relative strength of the overtones present",
+      "the speed of sound in the medium, which is fixed"
+    ],
+    "ans": 2,
+    "solution": "Two instruments playing the same note (pitch) at the same loudness sound different, because they have different mixtures of overtones. Pitch is set by frequency, and loudness by intensity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m22",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The intensity of a sound is increased by a factor of 100. The sound level rises by:",
+    "options": [
+      "2 dB",
+      "10 dB",
+      "100 dB",
+      "20 dB"
+    ],
+    "ans": 3,
+    "solution": "β = 10 log₁₀(I/I₀). If I becomes 100 I, then β rises by 10 log₁₀ 100 = 10 × 2 = 20 dB. Each factor of 10 in intensity adds 10 dB.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m23",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A sound has an intensity of 10⁻⁶ W/m². Taking I₀ = 10⁻¹² W/m², its sound level is:",
+    "options": [
+      "6 dB",
+      "60 dB",
+      "600 dB",
+      "12 dB"
+    ],
+    "ans": 1,
+    "solution": "β = 10 log₁₀(10⁻⁶/10⁻¹²) = 10 log₁₀(10⁶) = 10 × 6 = 60 dB, which is about the level of ordinary conversation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m24",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a sonometer wire of fixed tension and mass per unit length, the frequency of the fundamental is proportional to:",
+    "options": [
+      "1/l, where l is the vibrating length",
+      "√l, the root of the vibrating length",
+      "1/l², the inverse square of the length",
+      "l, the vibrating length itself"
+    ],
+    "ans": 0,
+    "solution": "n = (1/2l)√(T/m). A shorter wire gives a higher note. This is one of the laws of a vibrating string, checked with the sonometer.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-m25",
+    "ch": "phy-12-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a stationary wave y = 2a cos(2πx/λ) sin ωt, the point x = λ/4 is:",
+    "options": [
+      "a node, because cos(π/2) = 0",
+      "a point of amplitude a, midway between a node and an antinode",
+      "a node only at the instant t = 0",
+      "an antinode, because the amplitude is 2a"
+    ],
+    "ans": 0,
+    "solution": "At x = λ/4 the factor cos(2πx/λ) = cos(π/2) = 0, so the displacement is zero at all times. The antinodes are at x = 0, λ/2, λ, and so on.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-06-n01",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A wave has a frequency of 500 Hz and a wavelength of 0.68 m. Find its speed, in m/s. Give your answer as a whole number.",
+    "ans": 340.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v = nλ = 500 × 0.68 = 340 m/s. Check with the equation y = A sin(kx − ωt): v = ω/k = (2π × 500)/(2π/0.68) = 340 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n02",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Two waves of the same frequency, with amplitudes 3 cm and 4 cm, are superposed with a phase difference of 90°. Find the resultant amplitude, in cm. Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "A = √(A₁² + A₂² + 2A₁A₂ cos φ) = √(9 + 16 + 0) = 5 cm. The two waves can be drawn as perpendicular arrows of lengths 3 and 4, and the resultant is the diagonal of 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n03",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Two waves with amplitudes in the ratio 3 : 1 superpose. Find I_max/I_min. Give your answer as a whole number.",
+    "ans": 4.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "I_max/I_min = (A₁ + A₂)²/(A₁ − A₂)² = 16/4 = 4. In phase the amplitude is 3 + 1 = 4, and in opposite phase it is 3 − 1 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n04",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the fundamental frequency, in Hz, of a pipe closed at one end and 0.425 m long (speed of sound 340 m/s, end correction ignored). Give your answer as a whole number.",
+    "ans": 200.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For a closed pipe, l = λ/4, so λ = 1.7 m. n = v/λ = 340/1.7 = 200 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n05",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A pipe closed at one end is 0.50 m long and has an inner diameter of 4.0 cm. Find its fundamental frequency, in Hz, using the end correction e = 0.3d (speed of sound 340 m/s), to one decimal place. Give your answer to 1 decimal place.",
+    "ans": 166.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "e = 0.3 × 0.04 = 0.012 m. The effective length is 0.512 m, so λ = 4 × 0.512 = 2.048 m. n = v/λ = 340/2.048 = 166.0 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n06",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "An open pipe is 0.50 m long. Find the frequency of its second overtone, in Hz (speed of sound 340 m/s, end correction ignored). Give your answer as a whole number.",
+    "ans": 1020.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For an open pipe, the fundamental is n = v/2l = 340 Hz, and the harmonics are n, 2n, 3n. The second overtone is the third harmonic, 3n = 1020 Hz. Check: the wavelength is 2l/3 = 0.333 m, and v/λ = 1020 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n07",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A string 0.80 m long has a mass of 5.0 × 10⁻³ kg per metre and is stretched with a tension of 200 N. Find the frequency of its fundamental, in Hz. Give your answer as a whole number.",
+    "ans": 125.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n = (1/2l)√(T/m) = (1/1.6) × √(200/0.005) = (1/1.6) × 200 = 125 Hz. Check: the wave speed is 200 m/s and the wavelength is 2l = 1.6 m, so n = 200/1.6 = 125 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n08",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Two tuning forks of frequencies 512 Hz and 508 Hz are sounded together. Find the time between two successive loud sounds, in seconds. Give your answer to 2 decimal places.",
+    "ans": 0.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The beat frequency is 512 − 508 = 4 Hz, so there are 4 loud sounds per second, and the time between them is 1/4 = 0.25 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n09",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A sound has an intensity of 2.0 × 10⁻⁷ W/m². Find its sound level, in dB, to 2 decimal places (I₀ = 10⁻¹² W/m²). Give your answer to 2 decimal places.",
+    "ans": 53.01,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "β = 10 log₁₀(I/I₀) = 10 log₁₀(2 × 10⁵) = 10 × (5 + 0.301) = 53.01 dB.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n10",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Each of two identical sources produces a sound level of 60 dB at a point. Find the sound level of both together, in dB, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 63.01,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Two sources have twice the intensity, so β rises by 10 log₁₀ 2 = 3.01 dB, giving 63.01 dB. Check: each source has I = 10⁻⁶ W/m², so together I = 2 × 10⁻⁶, and β = 10 log₁₀(2 × 10⁶) = 63.01 dB. Decibels are not added directly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-06-n11",
+    "ch": "phy-12-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A stationary wave on a string has wavelength 0.60 m and an antinode at x = 0. Find the position of the third node from x = 0, in metres. Give your answer to 2 decimal places.",
+    "ans": 0.75,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The nodes are at x = (2p − 1)λ/4. For p = 3: x = 5 × 0.60/4 = 0.75 m. Check: the nodes are at 0.15, 0.45 and 0.75 m, where cos(2πx/λ) is zero.",
     "sample": false,
     "verifiedBy": [
       "derivation",
