@@ -30935,6 +30935,2576 @@
       "derivation",
       "script"
     ]
+  },
+  {
+    "id": "phy-12-13-m01",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The mains supply in India is alternating current of frequency:",
+    "options": [
+      "60 Hz, so the direction of the current reverses 120 times each second",
+      "100 Hz, so the direction of the current reverses 200 times each second",
+      "50 Hz, so the direction of the current reverses 50 times each second",
+      "50 Hz, so the direction of the current reverses 100 times each second"
+    ],
+    "ans": 3,
+    "solution": "The mains frequency in India is 50 Hz. In each cycle the current flows once in each direction, so it reverses its direction twice per cycle, that is 2 × 50 = 100 times a second.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m02",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The rms value of an alternating current of peak value I₀ is:",
+    "options": [
+      "2I₀/π, which is about 0.637 I₀",
+      "√2 I₀, which is about 1.414 I₀",
+      "I₀/√2, which is about 0.707 I₀",
+      "I₀/2, which is exactly half of the peak value"
+    ],
+    "ans": 2,
+    "solution": "The rms value is the square root of the mean of i² over a cycle. The mean of sin² is 1/2, so I_rms = I₀/√2. The value 2I₀/π is the average over half a cycle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m03",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The mains voltage of 230 V is an rms value. The peak value of this voltage is about:",
+    "options": [
+      "325 V",
+      "230 V",
+      "163 V",
+      "460 V"
+    ],
+    "ans": 0,
+    "solution": "V₀ = √2 × V_rms = 1.414 × 230 ≈ 325 V. AC meters and household ratings always give rms values.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m04",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The average value of a sinusoidal alternating current over one full cycle is:",
+    "options": [
+      "equal to the peak value, taken over the full cycle",
+      "zero, because the positive and negative half cycles cancel",
+      "0.707 times the peak value, taken over the full cycle",
+      "0.637 times the peak value, taken over the full cycle"
+    ],
+    "ans": 1,
+    "solution": "The two half cycles have the same area with opposite signs. The value 0.637 I₀ is the average over half a cycle only.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m05",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a circuit with a pure resistor connected to an AC source, the current and the voltage:",
+    "options": [
+      "are 180° out of phase with each other",
+      "are 90° out of phase, current leading",
+      "are in phase with each other",
+      "are 90° out of phase, current lagging"
+    ],
+    "ans": 2,
+    "solution": "By Ohm's law i = v/R at every instant, so the current is zero when the voltage is zero, and the two reach their peaks together.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m06",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a circuit with a pure inductor connected to an AC source, the current:",
+    "options": [
+      "lags behind the voltage by 180°",
+      "lags behind the voltage by 90°",
+      "is in phase with the voltage in time",
+      "leads the voltage by 90° in time"
+    ],
+    "ans": 1,
+    "solution": "The inductor opposes a change in current, and the voltage across it is L di/dt. This is largest when the current is changing fastest, which is a quarter cycle before the current peak. So the current lags by 90°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m07",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a circuit with a pure capacitor connected to an AC source, the current:",
+    "options": [
+      "leads the voltage by 90°",
+      "lags behind the voltage by 90° in time",
+      "leads the voltage by 180° in time",
+      "is in phase with the voltage in time"
+    ],
+    "ans": 0,
+    "solution": "The current is i = dq/dt = C dv/dt. It is largest when the voltage is passing through zero, a quarter cycle before the voltage peak, so the current leads by 90°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m08",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The inductive reactance of a coil is X_L = ωL. It is measured in:",
+    "options": [
+      "henry, and it increases when the frequency increases",
+      "farad, and it decreases when the frequency increases",
+      "ohm, and it decreases when the frequency increases",
+      "ohm, and it increases when the frequency increases"
+    ],
+    "ans": 3,
+    "solution": "Reactance is a kind of opposition to current, so its unit is the ohm, like resistance. X_L is proportional to the frequency, so it is zero for steady DC.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m09",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A capacitor is connected in turn to a DC source and to a high-frequency AC source. Compared with DC, the opposition it gives to the current at high frequency is:",
+    "options": [
+      "much larger, because X_C = 1/ωC rises as ω rises",
+      "much smaller, because X_C = 1/ωC falls as ω rises",
+      "the same, because a capacitor has a fixed capacitance",
+      "zero for DC, and infinite for high frequency AC"
+    ],
+    "ans": 1,
+    "solution": "For DC, ω = 0, so X_C is infinite and the capacitor blocks a steady current. As the frequency increases, X_C = 1/ωC becomes smaller, and more AC passes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m10",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The frequency of an AC source is doubled. The reactance of an inductor and of a capacitor connected to it change as follows:",
+    "options": [
+      "X_L becomes half as large, and X_C becomes twice as large",
+      "X_L and X_C both become twice as large",
+      "X_L and X_C both become half as large",
+      "X_L becomes twice as large, and X_C becomes half as large"
+    ],
+    "ans": 3,
+    "solution": "X_L = ωL is proportional to the frequency, so it doubles. X_C = 1/ωC is inversely proportional to the frequency, so it halves.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m11",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The impedance of a series LCR circuit with resistance R, inductive reactance X_L and capacitive reactance X_C is:",
+    "options": [
+      "Z = √(R² + (X_L + X_C)²)",
+      "Z = R + X_L + X_C",
+      "Z = √(R² + (X_L − X_C)²)",
+      "Z = R + (X_L − X_C)"
+    ],
+    "ans": 2,
+    "solution": "The voltage across R is in phase with the current. The voltages across L and C are 90° ahead and 90° behind, so they are in opposite directions on the phasor diagram. The resultant gives Z = √(R² + (X_L − X_C)²).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m12",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a series LCR circuit, X_L is greater than X_C. Then the voltage of the source:",
+    "options": [
+      "leads the current in phase, and the circuit behaves as an inductive one",
+      "leads the current in phase, and the circuit behaves as a capacitive one",
+      "lags behind the current in phase, and the circuit behaves as a capacitive one",
+      "is in phase with the current, and the circuit is at resonance"
+    ],
+    "ans": 0,
+    "solution": "tan φ = (X_L − X_C)/R is positive, so the voltage leads the current. Then the circuit acts like a resistor with an inductor. If X_C were greater, the current would lead.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m13",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The power factor of an ideal inductor connected across an AC source is:",
+    "options": [
+      "0.5, since half of the energy is returned to the source",
+      "one, since the voltage and current have the same frequency",
+      "zero, since the current lags the voltage by 90°",
+      "infinite, since there is no resistance in the circuit"
+    ],
+    "ans": 2,
+    "solution": "cos φ = cos 90° = 0. The inductor takes energy from the source in one quarter cycle and returns it in the next, so the average power is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m14",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The current in an AC circuit that has zero average power consumed is called:",
+    "options": [
+      "eddy current, as in a pure inductor or capacitor",
+      "wattless current, as in a pure inductor or capacitor",
+      "leakage current, as in a pure inductor or capacitor",
+      "peak current, as in a pure inductor or capacitor"
+    ],
+    "ans": 1,
+    "solution": "In a pure inductor or capacitor, the current is 90° out of phase with the voltage. P = V I cos 90° = 0, and the current does no net work. It is called wattless.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m15",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A series LCR circuit is at resonance. At this frequency:",
+    "options": [
+      "X_L = X_C, the impedance is the least and equal to R",
+      "X_L = R, the impedance is the least and equal to R",
+      "X_C = R, the impedance is the greatest and equal to R",
+      "X_L = X_C, the impedance is the greatest and infinite"
+    ],
+    "ans": 0,
+    "solution": "At resonance the two reactances cancel, so Z = R, which is the minimum. The current is the greatest, and it is in phase with the voltage.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m16",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a series LCR circuit at resonance, the voltages across the inductor and the capacitor are:",
+    "options": [
+      "equal in size and in the same phase, so they add to each other",
+      "both zero, because the current is the greatest at resonance",
+      "different in size, with the larger one across the inductor",
+      "equal in size and opposite in phase, so they cancel each other"
+    ],
+    "ans": 3,
+    "solution": "The same current flows through L and C. With X_L = X_C, the two voltages have equal peaks, and one leads by 90° while the other lags by 90°. They differ by 180° and cancel. Each of them can be much larger than the source voltage.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m17",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The resonant frequency of a series LCR circuit is f = 1/(2π√(LC)). If the capacitance is made four times as large, the resonant frequency becomes:",
+    "options": [
+      "half of the original",
+      "twice the original",
+      "four times the original",
+      "one quarter of the original"
+    ],
+    "ans": 0,
+    "solution": "f is proportional to 1/√C. With C → 4C, f → f/√4 = f/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m18",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two series LCR circuits have the same L and C, but different resistances. The circuit with the smaller resistance has:",
+    "options": [
+      "the same Q factor, but a greater peak current",
+      "a larger Q factor and a sharper resonance",
+      "a smaller Q factor and a sharper resonance",
+      "a larger Q factor and a flatter resonance"
+    ],
+    "ans": 1,
+    "solution": "Q = ω₀L/R. A smaller R gives a larger Q. The peak current is V/R, which is taller, and the curve is narrower, so the circuit selects one frequency better.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m19",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A choke coil is used in an AC circuit instead of a resistor to reduce the current, because it:",
+    "options": [
+      "reduces the current by blocking the AC and passing the DC",
+      "increases the current by storing energy in its core",
+      "reduces the current and has a power factor equal to one",
+      "reduces the current without much loss of energy as heat"
+    ],
+    "ans": 3,
+    "solution": "A choke has a large inductance and a very small resistance, so its power factor is nearly zero. It limits the current by its reactance, and the average power lost is very small. A resistor would waste I²R as heat.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m20",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a parallel LC circuit at resonance, compared with other frequencies the impedance is:",
+    "options": [
+      "the least, and the current drawn from the source is the largest",
+      "the largest, and the current drawn from the source is the largest",
+      "the largest, and the current drawn from the source is the least",
+      "the least, and the current drawn from the source is the least"
+    ],
+    "ans": 2,
+    "solution": "The currents in the inductor and capacitor branches are equal and opposite at resonance, so very little is drawn from the source. A parallel circuit rejects its resonant frequency. A series circuit does the opposite.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m21",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In an LC circuit with no resistance, at the instant the capacitor is fully discharged, the energy of the circuit is:",
+    "options": [
+      "zero, since the capacitor has no charge",
+      "all in the magnetic field of the inductor",
+      "all in the electric field of the capacitor",
+      "shared equally between the two fields"
+    ],
+    "ans": 1,
+    "solution": "Energy is conserved. The charge is zero, so the electric energy is zero, and the current is at its maximum. So the whole energy is stored as (1/2)LI² in the inductor.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m22",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A resistor carries an alternating current of peak value I₀. The same resistor carries a steady current I_dc for the same time and gives the same heat. Then:",
+    "options": [
+      "I_dc = I₀",
+      "I_dc = 2I₀/π",
+      "I_dc = I₀/√2",
+      "I_dc = I₀/2"
+    ],
+    "ans": 2,
+    "solution": "The rms value is defined by this heating effect. The mean power in the resistor is I₀²R/2 = I_dc²R, so I_dc = I₀/√2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m23",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The average power taken by a series LCR circuit from an AC source is:",
+    "options": [
+      "V_rms I_rms sin φ, which is I_rms² X",
+      "V_rms I_rms, which is I_rms² Z",
+      "V₀ I₀ cos φ, which is I₀² R",
+      "V_rms I_rms cos φ, which is I_rms² R"
+    ],
+    "ans": 3,
+    "solution": "Only the voltage component in phase with the current does net work, so P = V_rms I_rms cos φ. Also, cos φ = R/Z, so P = I_rms² Z (R/Z) = I_rms² R. Using peak values would give twice the answer.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-m24",
+    "ch": "phy-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The frequency of the source is increased in a series circuit of a resistor and an inductor. The power factor of the circuit:",
+    "options": [
+      "decreases, because the phase angle increases",
+      "increases, because the phase angle increases",
+      "stays the same, because the resistance is fixed",
+      "increases, because the impedance decreases"
+    ],
+    "ans": 0,
+    "solution": "cos φ = R/√(R² + ω²L²). When ω increases, the denominator increases, so cos φ decreases. At very high frequency the circuit is nearly a pure inductor.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-13-n01",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "An alternating current has a peak value of 5.0 A. Find its rms value, in A, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.54,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "I_rms = I₀/√2 = 5.0/1.414 = 3.54 A. Check: the mean of sin² over a cycle is 1/2, so the root of the mean of (5 sin ωt)² is 5/√2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n02",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the reactance, in ohm, of an ideal inductor of 0.10 H at a frequency of 50 Hz. Take π = 3.1416 and give the answer to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 31.42,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "X_L = ωL = 2πfL = 2 × 3.1416 × 50 × 0.10 = 31.42 Ω. Check: integrating v/L over a cycle for a 10 V peak source gives the current amplitude, and the ratio V₀/I₀ is the same 31.42 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n03",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the reactance, in ohm, of a capacitor of 50 μF at a frequency of 50 Hz. Take π = 3.1416 and give the answer to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 63.66,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "X_C = 1/(2πfC) = 1/(2 × 3.1416 × 50 × 50 × 10⁻⁶) = 63.66 Ω. Check: the current i = C dv/dt has the peak C ω V₀, so V₀/I₀ = 1/(ωC) = 63.66 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n04",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "A series circuit has R = 40 Ω, L = 0.10 H and C = 100 μF. It is connected to an AC source of angular frequency 500 rad/s. Find its impedance, in ohm. Give your answer as a whole number.",
+    "ans": 50.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "X_L = ωL = 500 × 0.10 = 50 Ω. X_C = 1/ωC = 1/(500 × 100 × 10⁻⁶) = 20 Ω. Z = √(40² + (50 − 20)²) = √(1600 + 900) = 50 Ω. Check: for 1 A, the phasor sum of the voltages is 40 + j50 − j20, whose size is 50 V, so Z = 50 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n05",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "The series circuit of R = 40 Ω, L = 0.10 H and C = 100 μF is connected to an AC source of 200 V (rms) at an angular frequency of 500 rad/s. Find the rms current, in A, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Z = 50 Ω from the last question, so I_rms = V_rms/Z = 200/50 = 4.0 A. Check: solving L q'' + R q' + q/C = V₀ sin ωt step by step gives, after the start-up has died out, a peak current of 4√2 A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n06",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same circuit (R = 40 Ω, X_L = 50 Ω, X_C = 20 Ω), find the phase angle between the voltage and the current, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 36.87,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "tan φ = (X_L − X_C)/R = 30/40 = 0.75, so φ = 36.87°. The voltage leads the current. Check: cos φ = R/Z = 40/50 = 0.8, and cos⁻¹ 0.8 = 36.87°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n07",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "The same circuit is connected to a 200 V (rms) source. Find the average power consumed, in W. Give your answer as a whole number.",
+    "ans": 640.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "I_rms = 4 A and cos φ = R/Z = 0.8. P = V_rms I_rms cos φ = 200 × 4 × 0.8 = 640 W. Check: all the power is lost in the resistor, P = I²R = 16 × 40 = 640 W.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n08",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the resonant frequency, in Hz, of a series LCR circuit with L = 0.10 H and C = 10 μF, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 159.15,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "f = 1/(2π√(LC)) = 1/(2π√(10⁻⁶)) = 1/(2π × 10⁻³) = 159.15 Hz. Check: at this frequency X_L = ωL = 100 Ω and X_C = 1/ωC = 100 Ω, so they are equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n09",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "A series circuit with R = 20 Ω, L = 0.10 H and C = 10 μF is connected to a 100 V (rms) source whose frequency can be changed. Find the greatest rms current, in A. Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The current is the greatest at resonance, where Z = R. I = V/R = 100/20 = 5 A. Check: scanning the frequency and calculating V/Z at each value also gives the highest current of 5 A, at ω = 1/√(LC) = 1000 rad/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n10",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "A series circuit has R = 20 Ω, L = 0.10 H and C = 10 μF. Find the Q factor of the circuit. Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "ω₀ = 1/√(LC) = 1000 rad/s. Q = ω₀L/R = 1000 × 0.10/20 = 5. Check: the current falls to 1/√2 of its peak at two frequencies that are 200 rad/s apart (this is R/L). Q = ω₀/(bandwidth) = 1000/200 = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n11",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "A heater of resistance 10 Ω is connected to an AC source, and the peak current is 4.0 A. Find the average power in the heater, in W. Give your answer as a whole number.",
+    "ans": 80.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P = I_rms² R, and I_rms² = I₀²/2 = 8 A². So P = 8 × 10 = 80 W. Check: the average of i²R over a cycle, found by adding up many values, is also 80 W. A steady 4 A would give 160 W.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n12",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "The mains voltage is 230 V (rms). Find its peak value, in V, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 325.27,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "V₀ = √2 V_rms = 1.4142 × 230 = 325.27 V. Check: a sine wave of this peak value gives a root-mean-square value of 230 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-13-n13",
+    "ch": "phy-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "An LC circuit has L = 2.0 mH and C = 5.0 μF and no resistance. Find the frequency of its oscillations, in Hz, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 1591.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "f = 1/(2π√(LC)) = 1/(2π√(10⁻⁸)) = 1/(2π × 10⁻⁴) = 1591.5 Hz. Check: solving q'' = −q/(LC) step by step gives a period of 6.283 × 10⁻⁴ s, and 1/T = 1591.5 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-m01",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "According to Planck and Einstein, the energy of one photon of light of frequency ν is:",
+    "options": [
+      "E = h c², where c is the speed of light",
+      "E = hν², where h is Planck's constant",
+      "E = hν, where h is Planck's constant",
+      "E = h/ν, where h is Planck's constant"
+    ],
+    "ans": 2,
+    "solution": "Radiation is given out and absorbed in packets of energy hν. A photon of higher frequency has more energy, and the photon energy does not depend on the intensity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m02",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The photoelectric effect shows that light has:",
+    "options": [
+      "a wave nature only, as it shows interference",
+      "a longitudinal nature, as it needs a medium",
+      "no energy, as it has no rest mass",
+      "a particle nature, as it comes in photons"
+    ],
+    "ans": 3,
+    "solution": "The wave theory could not explain the instant emission, the threshold frequency and the dependence of the energy on frequency. Einstein explained them with photons, which is the particle picture.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m03",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The threshold frequency of a metal is the:",
+    "options": [
+      "lowest frequency of light that can eject electrons from it",
+      "highest frequency of light that can eject electrons from it",
+      "frequency of the electrons that leave the metal surface",
+      "frequency at which the photocurrent is the greatest"
+    ],
+    "ans": 0,
+    "solution": "Below the threshold frequency ν₀ = φ₀/h, no photon has enough energy to pay the work function, and no electron comes out, however bright the light is.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m04",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Light of a frequency above the threshold frequency falls on a metal. If only the intensity of the light is increased, then:",
+    "options": [
+      "neither the number nor the maximum kinetic energy of the photoelectrons changes",
+      "the number of photoelectrons per second increases, but their maximum kinetic energy is unchanged",
+      "the maximum kinetic energy of the photoelectrons increases, but their number per second is unchanged",
+      "both the number and the maximum kinetic energy of the photoelectrons increase"
+    ],
+    "ans": 1,
+    "solution": "More intensity means more photons per second, and each photon frees at most one electron, so the current rises. The energy of each photon, hν, is the same, so KE_max = hν − φ₀ is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m05",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Light of a frequency above the threshold frequency falls on a metal. If only the frequency of the light is increased, then:",
+    "options": [
+      "the work function of the metal increases",
+      "the maximum kinetic energy of the photoelectrons decreases",
+      "the maximum kinetic energy of the photoelectrons is unchanged",
+      "the maximum kinetic energy of the photoelectrons increases"
+    ],
+    "ans": 3,
+    "solution": "KE_max = hν − φ₀ rises linearly with ν. The work function is a property of the metal and does not depend on the light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m06",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work function of a metal is 2 eV. One electron volt is equal to:",
+    "options": [
+      "1.6 × 10⁻¹⁹ V, the energy gained by an electron through 1 J",
+      "9.1 × 10⁻³¹ J, the energy of an electron at rest in 1 V",
+      "1.6 × 10⁻¹⁹ J, the energy gained by an electron through 1 V",
+      "1.6 × 10¹⁹ J, the energy gained by an electron through 1 V"
+    ],
+    "ans": 2,
+    "solution": "W = qV = (1.6 × 10⁻¹⁹ C)(1 V) = 1.6 × 10⁻¹⁹ J. The electron volt is a unit of energy, not of potential.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m07",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The stopping potential in a photoelectric experiment depends on:",
+    "options": [
+      "the intensity and the frequency of the light only",
+      "the frequency of the light and the metal used",
+      "the area of the cathode and the intensity of the light",
+      "the intensity of the light and the metal used"
+    ],
+    "ans": 1,
+    "solution": "eV₀ = hν − φ₀. It depends on the frequency, through hν, and on the metal, through φ₀. It does not depend on the intensity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m08",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A graph of stopping potential V₀ against the frequency ν of the light is drawn for two different metals. The two straight lines:",
+    "options": [
+      "are parallel, as both have the slope h/e",
+      "are parallel, as both have the slope φ₀/e",
+      "are not parallel, as the slopes depend on the work functions",
+      "meet on the V₀ axis, as the intercepts are equal"
+    ],
+    "ans": 0,
+    "solution": "V₀ = (h/e)ν − φ₀/e. The slope is h/e, which is a universal constant, so the lines are parallel. They cut the frequency axis at different points, ν₀ = φ₀/h.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m09",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The wave theory of light fails to explain the photoelectric effect because it predicts that:",
+    "options": [
+      "electrons would have an energy independent of the intensity",
+      "electrons would be emitted for any frequency, but after a delay at low intensity",
+      "electrons would be emitted at once, whatever the intensity",
+      "electrons would be emitted only above a certain frequency, without a delay"
+    ],
+    "ans": 1,
+    "solution": "In the wave picture, energy is spread over the surface, so any light should eventually free the electrons, and brighter light should give them more energy. Experiments show a threshold frequency, no delay, and energy that does not depend on the intensity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m10",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Very intense light of a frequency below the threshold frequency of a metal falls on it. Then:",
+    "options": [
+      "photoelectrons are emitted after a delay, as the energy builds up",
+      "photoelectrons are emitted with a small kinetic energy",
+      "no photoelectrons are emitted, as each photon has too little energy",
+      "photoelectrons are emitted, but only at a very low rate"
+    ],
+    "ans": 2,
+    "solution": "An electron absorbs one photon at a time. If hν is less than φ₀, a single photon cannot free it, and the other photons cannot add up their energies in time.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m11",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A photon has:",
+    "options": [
+      "zero rest mass, and zero momentum",
+      "zero rest mass, and a momentum h λ",
+      "a rest mass hν/c², and a momentum h/λ",
+      "zero rest mass, and a momentum h/λ"
+    ],
+    "ans": 3,
+    "solution": "A photon always moves at the speed c. Its energy is hc/λ, and from E = pc its momentum is p = h/λ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m12",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The wavelength of a photon A is twice that of a photon B. The ratio of the energy of A to the energy of B is:",
+    "options": [
+      "1 : 2",
+      "4 : 1",
+      "2 : 1",
+      "1 : 4"
+    ],
+    "ans": 0,
+    "solution": "E = hc/λ is inversely proportional to the wavelength. A has twice the wavelength, so it has half the energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m13",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Compton effect, the increase in wavelength of X-rays scattered by electrons, shows that photons have:",
+    "options": [
+      "a mass at rest, as well as energy",
+      "a speed that depends on the wavelength",
+      "a charge, as well as energy",
+      "momentum, as well as energy"
+    ],
+    "ans": 3,
+    "solution": "The scattering behaves like a collision between two particles. It follows the conservation of energy and of momentum, so the photon must carry momentum h/λ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m14",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In Compton scattering, the shift in wavelength Δλ = (h/m₀c)(1 − cos θ) does not depend on:",
+    "options": [
+      "the wavelength of the incident radiation",
+      "the angle of scattering of the photon",
+      "the value of Planck's constant",
+      "the rest mass of the scattering electron"
+    ],
+    "ans": 0,
+    "solution": "The shift depends only on the angle θ and on the constants h, m₀ and c. It is the same for a long and a short incident wavelength, but it is noticeable only for short waves like X-rays.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m15",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The de Broglie wavelength of a particle of mass m and speed v is:",
+    "options": [
+      "λ = mv/h",
+      "λ = h v/m",
+      "λ = h/mv",
+      "λ = hmv"
+    ],
+    "ans": 2,
+    "solution": "De Broglie said that a moving particle has a wave nature, with a wavelength equal to Planck's constant divided by its momentum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m16",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An electron and a proton have the same kinetic energy. The de Broglie wavelength of the electron is:",
+    "options": [
+      "smaller, since λ = h/√(2mK) and the electron is lighter",
+      "greater, since λ = h/√(2mK) and the electron is lighter",
+      "equal, since λ = h/√(2mK) depends only on K",
+      "greater, since λ = h/√(2mK) and the electron has a charge"
+    ],
+    "ans": 1,
+    "solution": "For the same K, the wavelength is inversely proportional to √m. The electron has the smaller mass, so its wavelength is longer, by √(1836) = 43 times.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m17",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An electron is accelerated from rest through a potential difference V. If V is made four times as large, its de Broglie wavelength becomes:",
+    "options": [
+      "half of the original",
+      "one quarter of the original",
+      "four times the original",
+      "twice the original"
+    ],
+    "ans": 0,
+    "solution": "The kinetic energy is eV, and λ = h/√(2meV) is proportional to 1/√V. If V becomes 4V, then λ becomes λ/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m18",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Davisson and Germer experiment, in which electrons were scattered from a nickel crystal, showed that:",
+    "options": [
+      "electrons move faster than light inside the crystal",
+      "electrons show diffraction, so they have a wave nature",
+      "electrons have no wave nature, but only a charge",
+      "electrons show interference only after they leave the gun"
+    ],
+    "ans": 1,
+    "solution": "They saw a strong peak in the scattering at one angle, for 54 V electrons. This is a diffraction pattern from the layers of atoms. The measured wavelength agreed with de Broglie's value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m19",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A moving cricket ball does not show wave behaviour in daily life because:",
+    "options": [
+      "matter waves exist only for charged particles like electrons",
+      "its speed is much less than the speed of light, so it has no wave",
+      "its de Broglie wavelength is far too small to be detected",
+      "its de Broglie wavelength is very large, so it cannot be seen"
+    ],
+    "ans": 2,
+    "solution": "λ = h/mv. The ball has a large mass, so λ is about 10⁻³⁴ m, much smaller than any size around it, so no diffraction is seen. All moving matter has a wave nature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m20",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A photocell is a device that:",
+    "options": [
+      "gives a light output when an electric current flows through it",
+      "gives an electric current when it is heated in the dark",
+      "stores a charge when light of any frequency falls on it",
+      "gives an electric current when light of a suitable frequency falls on it"
+    ],
+    "ans": 3,
+    "solution": "It uses the photoelectric effect. Light falling on the cathode frees electrons, which are collected by the anode, and the current stops when the light is cut off. It is used in light meters and burglar alarms.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m21",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Metals A and B have work functions φ_A less than φ_B. The same light, above both thresholds, falls on both. Then:",
+    "options": [
+      "A has the greater maximum kinetic energy of photoelectrons, and the shorter threshold wavelength",
+      "A has the greater maximum kinetic energy of photoelectrons, and the longer threshold wavelength",
+      "A and B have the same maximum kinetic energy of photoelectrons",
+      "B has the greater maximum kinetic energy of photoelectrons, and the longer threshold wavelength"
+    ],
+    "ans": 1,
+    "solution": "KE_max = hν − φ₀, so the smaller work function gives the larger KE_max. The threshold wavelength is λ₀ = hc/φ₀, which is longer for the smaller φ₀.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m22",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The maximum kinetic energy of the photoelectrons from a metal is 2 eV. The stopping potential is:",
+    "options": [
+      "2 V",
+      "4 V",
+      "3.2 × 10⁻¹⁹ V",
+      "1 V"
+    ],
+    "ans": 0,
+    "solution": "eV₀ = KE_max. So V₀ = 2 eV/e = 2 V. The 3.2 × 10⁻¹⁹ is the energy in joules, not a potential.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-m23",
+    "ch": "phy-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The frequency of the light falling on a metal is doubled, and it is still above the threshold. The maximum kinetic energy of the photoelectrons then becomes:",
+    "options": [
+      "less than double, but more than before",
+      "unchanged",
+      "more than double",
+      "exactly double"
+    ],
+    "ans": 2,
+    "solution": "KE_max = hν − φ₀. With ν → 2ν, KE_max becomes 2hν − φ₀ = 2(hν − φ₀) + φ₀, which is more than twice the old value, as the work function is a fixed amount.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-14-n01",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "Light of wavelength 400 nm falls on a surface. Find the energy of one photon, in eV, to 2 decimal places. Take h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s and e = 1.6 × 10⁻¹⁹ C. Give your answer to 2 decimal places.",
+    "ans": 3.11,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E = hc/λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(400 × 10⁻⁹) = 4.9725 × 10⁻¹⁹ J. In eV: 4.9725 × 10⁻¹⁹/1.6 × 10⁻¹⁹ = 3.11 eV. Check: the photon momentum h/λ is 1.66 × 10⁻²⁷ kg m/s, and E = pc gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n02",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "Light of wavelength 400 nm falls on a metal of work function 2.0 eV. Find the maximum kinetic energy of the photoelectrons, in eV, to 2 decimal places (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s, e = 1.6 × 10⁻¹⁹ C). Give your answer to 2 decimal places.",
+    "ans": 1.11,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The photon energy is 3.11 eV. KE_max = hν − φ₀ = 3.108 − 2.0 = 1.11 eV. Check in joules: 4.9725 × 10⁻¹⁹ − 3.2 × 10⁻¹⁹ = 1.7725 × 10⁻¹⁹ J, which is 1.11 eV.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n03",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "The work function of a metal is 2.0 eV. Find its threshold wavelength, in nm, to 1 decimal place (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s, e = 1.6 × 10⁻¹⁹ C). Give your answer to 1 decimal place.",
+    "ans": 621.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "λ₀ = hc/φ₀ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(3.2 × 10⁻¹⁹) = 6.2156 × 10⁻⁷ m = 621.6 nm. Check: at this wavelength the photon energy is just 2.0 eV, and for shorter wavelengths it is more.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n04",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "Light of wavelength 400 nm falls on a metal of work function 2.0 eV. Find the stopping potential, in volt, to 2 decimal places (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s, e = 1.6 × 10⁻¹⁹ C). Give your answer to 2 decimal places.",
+    "ans": 1.11,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "KE_max = 1.11 eV, and eV₀ = KE_max, so V₀ = 1.11 V. Check: sending an electron of this energy towards a plate at a retarding potential and following its motion step by step, the lowest potential that turns it back is 1.11 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n05",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "In a photoelectric experiment, the stopping potentials for light of frequencies 6.0 × 10¹⁴ Hz, 7.5 × 10¹⁴ Hz and 9.0 × 10¹⁴ Hz are 0.50 V, 1.12 V and 1.74 V. Using e = 1.6 × 10⁻¹⁹ C, find Planck's constant, in units of 10⁻³⁴ J s, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 6.61,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "V₀ = (h/e)ν − φ₀/e, so the slope of the V₀–ν line is h/e. Slope = (1.74 − 0.50)/(9.0 − 6.0) × 10⁻¹⁴ = 4.133 × 10⁻¹⁵ V s. h = 1.6 × 10⁻¹⁹ × 4.133 × 10⁻¹⁵ = 6.61 × 10⁻³⁴ J s. Check: a best-fit line through all three points has the same slope, as they lie on a straight line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n06",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "An electron is accelerated from rest through 100 V. Find its de Broglie wavelength, in nm, to 3 decimal places (h = 6.63 × 10⁻³⁴ J s, electron mass 9.1 × 10⁻³¹ kg, e = 1.6 × 10⁻¹⁹ C). Give your answer to 3 decimal places.",
+    "ans": 0.123,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The kinetic energy is eV = 1.6 × 10⁻¹⁷ J. λ = h/√(2meV) = 6.63 × 10⁻³⁴/√(2 × 9.1 × 10⁻³¹ × 1.6 × 10⁻¹⁷) = 1.229 × 10⁻¹⁰ m = 0.123 nm. Check: the standard formula λ = 1.228/√V nm gives 1.228/10 = 0.123 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n07",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "A ball of mass 0.15 kg moves at 20 m/s. Find its de Broglie wavelength, in units of 10⁻³⁴ m, to 2 decimal places (h = 6.63 × 10⁻³⁴ J s). Give your answer to 2 decimal places.",
+    "ans": 2.21,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "p = mv = 0.15 × 20 = 3 kg m/s. λ = h/p = 6.63 × 10⁻³⁴/3 = 2.21 × 10⁻³⁴ m. Check: K = (1/2)(0.15)(400) = 30 J, and h/√(2mK) = 6.63 × 10⁻³⁴/√9 gives the same. This is far too small to show diffraction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n08",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "An electron and a proton have the same kinetic energy. The proton is 1836 times as heavy as the electron. Find the ratio λ_electron/λ_proton, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 42.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "λ = h/√(2mK), so for the same K, λ is proportional to 1/√m. λ_e/λ_p = √(m_p/m_e) = √1836 = 42.8. Check: calculating the two wavelengths for K = 10⁻¹⁸ J and dividing gives the same ratio.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n09",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "X-rays of wavelength 0.100 nm are scattered by free electrons through 90°. Find the change in wavelength, in picometres (1 pm = 10⁻¹² m), to 2 decimal places (h = 6.63 × 10⁻³⁴ J s, electron mass 9.1 × 10⁻³¹ kg, c = 3 × 10⁸ m/s). Give your answer to 2 decimal places.",
+    "ans": 2.43,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Δλ = (h/m₀c)(1 − cos 90°) = 6.63 × 10⁻³⁴/(9.1 × 10⁻³¹ × 3 × 10⁸) = 2.43 × 10⁻¹² m = 2.43 pm. Check: solving the conservation of energy and of momentum for the scattered wavelength gives the same shift.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n10",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "A lamp gives out monochromatic light of wavelength 600 nm with a power of 2.0 W. Find the number of photons it emits per second, in units of 10¹⁸, to 2 decimal places (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s). Give your answer to 2 decimal places.",
+    "ans": 6.03,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "N = P/E, where E = hc/λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(600 × 10⁻⁹) = 3.315 × 10⁻¹⁹ J. N = 2.0/3.315 × 10⁻¹⁹ = 6.03 × 10¹⁸ per second. Check: ν = c/λ = 5 × 10¹⁴ Hz, and P/(hν) gives the same number.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n11",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "Light of wavelength 300 nm gives photoelectrons with a stopping potential of 1.5 V. Find the work function of the metal, in eV, to 2 decimal places (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s, e = 1.6 × 10⁻¹⁹ C). Give your answer to 2 decimal places.",
+    "ans": 2.64,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "φ₀ = hν − eV₀. hc/λ = 6.63 × 10⁻¹⁹ J = 4.144 eV, and eV₀ = 1.5 eV. So φ₀ = 4.144 − 1.5 = 2.64 eV. Check: the threshold frequency is ν₀ = ν − eV₀/h = 1 × 10¹⁵ − 3.62 × 10¹⁴ = 6.38 × 10¹⁴ Hz, and hν₀ in eV is 2.64 eV.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-14-n12",
+    "ch": "phy-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "Electrons are accelerated through 54 V, as in the Davisson and Germer experiment. Find their de Broglie wavelength, in nm, to 3 decimal places (h = 6.63 × 10⁻³⁴ J s, electron mass 9.1 × 10⁻³¹ kg, e = 1.6 × 10⁻¹⁹ C). Give your answer to 3 decimal places.",
+    "ans": 0.167,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "λ = h/√(2meV) = 6.63 × 10⁻³⁴/√(2 × 9.1 × 10⁻³¹ × 1.6 × 10⁻¹⁹ × 54) = 1.672 × 10⁻¹⁰ m = 0.167 nm. Check: 1.228/√54 = 0.167 nm. The measured value from the diffraction peak was about 0.165 nm, close to this.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-m01",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Thomson's model of the atom pictured it as:",
+    "options": [
+      "a hollow shell with all the electrons on its surface",
+      "a sphere of negative charge with protons embedded in it",
+      "a tiny positive nucleus with electrons in orbits round it",
+      "a sphere of positive charge with electrons embedded in it"
+    ],
+    "ans": 3,
+    "solution": "The positive charge was spread evenly over the whole atom, and the electrons were stuck in it like seeds in a watermelon. The atom as a whole was neutral. The model could not explain the large-angle scattering of alpha particles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m02",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In the Geiger and Marsden experiment, most of the alpha particles passed straight through the gold foil. This shows that:",
+    "options": [
+      "most of the volume of an atom is filled with electrons",
+      "most of the volume of an atom is filled with positive charge",
+      "most of the volume of an atom is empty space",
+      "the alpha particles have no charge and so are not deflected"
+    ],
+    "ans": 2,
+    "solution": "If the positive charge and mass were spread through the atom, every alpha particle would be affected. Most were not, so the atom is mostly empty, with its charge in a very small region.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m03",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A very small number of alpha particles were scattered through more than 90° by a thin gold foil. This led Rutherford to conclude that:",
+    "options": [
+      "the electrons are heavier than the alpha particles in the foil",
+      "the positive charge and most of the mass are in a very small nucleus",
+      "the positive charge is spread uniformly through the atom",
+      "the gold atoms are all arranged in a regular pattern"
+    ],
+    "ans": 1,
+    "solution": "Only a strong electric field, from a charge packed into a tiny space, could turn back a fast alpha particle. A spread-out charge, as in Thomson's model, could not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m04",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The main drawback of Rutherford's nuclear model of the atom is that, according to classical physics:",
+    "options": [
+      "the orbiting electrons would radiate energy and spiral into the nucleus",
+      "the nucleus would be unable to hold any positive charge at all",
+      "the alpha particles would not be scattered by the nucleus",
+      "the electrons would move in a straight line, away from the atom"
+    ],
+    "ans": 0,
+    "solution": "An electron moving in a circle is accelerating, and it should give out radiation. It would lose energy, and fall into the nucleus in a very short time. But atoms are stable, and give line spectra, which this model could not explain.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m05",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Balmer series of the hydrogen spectrum consists of the lines that are emitted when an electron falls to the level:",
+    "options": [
+      "n = 3, and the lines are all in the visible region",
+      "n = 2, and the lines are all in the ultraviolet region",
+      "n = 1, and the lines are mostly in the visible region",
+      "n = 2, and the lines are mostly in the visible region"
+    ],
+    "ans": 3,
+    "solution": "Lyman series: end at n = 1, ultraviolet. Balmer: end at n = 2, visible. Paschen: end at n = 3, infrared.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m06",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to Bohr's second postulate, the angular momentum of an electron in an allowed orbit is:",
+    "options": [
+      "any value, as the orbit is a stationary state",
+      "an integral multiple of h",
+      "an integral multiple of h/2π",
+      "an integral multiple of 2π/h"
+    ],
+    "ans": 2,
+    "solution": "m v r = n h/2π, where n = 1, 2, 3, and so on. The allowed orbits are those that meet this condition, and the electron does not radiate in them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m07",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The energy of the electron in the second orbit of a hydrogen atom is:",
+    "options": [
+      "−13.6 eV",
+      "−3.4 eV",
+      "−6.8 eV",
+      "+3.4 eV"
+    ],
+    "ans": 1,
+    "solution": "E_n = −13.6/n² eV. For n = 2, E = −13.6/4 = −3.4 eV. The negative sign means that the electron is bound to the nucleus.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m08",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The energy needed to remove the electron from a hydrogen atom that is in the first excited state (n = 2) is:",
+    "options": [
+      "3.4 eV",
+      "10.2 eV",
+      "1.51 eV",
+      "13.6 eV"
+    ],
+    "ans": 0,
+    "solution": "The electron has E = −3.4 eV in this state, and it needs +3.4 eV to reach zero energy, which is a free electron. 13.6 eV is for the ground state, and 10.2 eV is the energy to go from n = 1 to n = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m09",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the Bohr model of the hydrogen atom, the radius of the third orbit is:",
+    "options": [
+      "3 times the Bohr radius",
+      "27 times the Bohr radius",
+      "9 times the Bohr radius",
+      "6 times the Bohr radius"
+    ],
+    "ans": 2,
+    "solution": "r_n = a₀n². For n = 3 the radius is 9a₀, about 0.48 nm. The radius is proportional to the square of n.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m10",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An electron in a hydrogen atom makes one of these jumps: 4 → 3, 3 → 2, or 2 → 1. The photon of the shortest wavelength is emitted in:",
+    "options": [
+      "the jump 2 → 1, which has the largest energy difference",
+      "the jump 3 → 2, which has the largest energy difference",
+      "all three jumps, which have equal energy differences",
+      "the jump 4 → 3, which has the largest energy difference"
+    ],
+    "ans": 0,
+    "solution": "The energy differences are 13.6(1/9 − 1/16) = 0.66 eV, 13.6(1/4 − 1/9) = 1.89 eV, and 13.6(1 − 1/4) = 10.2 eV. The wavelength is inversely proportional to the energy, so the largest difference gives the shortest wavelength.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m11",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Hydrogen atoms are excited to the level n = 4. The greatest number of different spectral lines that can be emitted is:",
+    "options": [
+      "10",
+      "6",
+      "4",
+      "3"
+    ],
+    "ans": 1,
+    "solution": "The possible jumps are 4→3, 4→2, 4→1, 3→2, 3→1 and 2→1. The number is n(n − 1)/2 = 4 × 3/2 = 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m12",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Atoms with the same atomic number but different mass numbers are called:",
+    "options": [
+      "isotones",
+      "isomers",
+      "isobars",
+      "isotopes"
+    ],
+    "ans": 3,
+    "solution": "Isotopes have the same number of protons and different numbers of neutrons. Isobars have the same A, and isotones have the same number of neutrons.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m13",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The density of nuclear matter, for different nuclei, is:",
+    "options": [
+      "smaller for nuclei that have a larger mass number",
+      "greater for nuclei that have a larger mass number",
+      "zero for nuclei that have an even mass number",
+      "nearly the same for all nuclei, as R is proportional to A^(1/3)"
+    ],
+    "ans": 3,
+    "solution": "The volume is (4/3)πR³, which is proportional to A, and the mass is also proportional to A. So the density is constant, about 2 × 10¹⁷ kg/m³.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m14",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The mass of a stable nucleus is always less than the total mass of its separate nucleons. The difference in mass is called:",
+    "options": [
+      "the mass defect, which appears as the decay constant",
+      "the mass defect, which appears as the binding energy",
+      "the packing fraction, which appears as the kinetic energy",
+      "the mass number, which appears as the binding energy"
+    ],
+    "ans": 1,
+    "solution": "When the nucleons join, energy is given out, E = Δm c². This same energy must be supplied to break the nucleus into free nucleons.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m15",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The binding energy per nucleon, plotted against the mass number, has its greatest value for nuclei near A = 56 (iron). So energy is released when:",
+    "options": [
+      "very heavy nuclei and very light nuclei both split",
+      "a nucleus near iron splits into two smaller ones",
+      "a very heavy nucleus splits, or very light nuclei join",
+      "a very heavy nucleus joins, or very light nuclei split"
+    ],
+    "ans": 2,
+    "solution": "Moving towards the peak raises the binding energy per nucleon, and the difference is given out. Fission of heavy nuclei and fusion of light ones both move towards the peak.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m16",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In an alpha decay, the atomic number and the mass number of the nucleus change as follows:",
+    "options": [
+      "Z decreases by 2, and A decreases by 4",
+      "Z decreases by 2, and A decreases by 2",
+      "Z decreases by 1, and A is unchanged",
+      "Z decreases by 4, and A decreases by 2"
+    ],
+    "ans": 0,
+    "solution": "An alpha particle is a helium nucleus, with two protons and two neutrons. So the nucleus loses 2 units of charge and 4 units of mass number.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m17",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a beta-minus decay, the atomic number and the mass number of the nucleus change as follows:",
+    "options": [
+      "Z decreases by 1, and A is unchanged",
+      "Z increases by 1, and A decreases by 1",
+      "Z is unchanged, and A increases by 1",
+      "Z increases by 1, and A is unchanged"
+    ],
+    "ans": 3,
+    "solution": "A neutron changes into a proton, with an electron and an antineutrino given out. The number of nucleons stays the same, and the number of protons rises by one.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m18",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a gamma decay, a nucleus in an excited state:",
+    "options": [
+      "emits a photon, and its Z increases by 1",
+      "emits an electron, and its A is unchanged",
+      "emits a photon, and its A and Z are unchanged",
+      "emits a helium nucleus, and its A decreases by 4"
+    ],
+    "ans": 2,
+    "solution": "The nucleus goes from a higher to a lower energy level, as an atom does. The photon has a very high energy, and it has no charge or mass number.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m19",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The number of radioactive nuclei in a sample at time t is N = N₀e^(−λt). The half-life of the sample is:",
+    "options": [
+      "1/λ",
+      "0.693/λ",
+      "0.693 λ",
+      "λ/0.693"
+    ],
+    "ans": 1,
+    "solution": "At t = T½, N = N₀/2. So e^(−λT) = 1/2, and λT = ln 2 = 0.693. The mean life, 1/λ, is longer than the half-life.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m20",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A radioactive sample has a half-life of 4 days. The fraction of the original nuclei that remain after 12 days is:",
+    "options": [
+      "1/8",
+      "1/12",
+      "1/6",
+      "1/3"
+    ],
+    "ans": 0,
+    "solution": "12 days is 3 half-lives. After each half-life the number is halved, so the fraction is (1/2)³ = 1/8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m21",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The SI unit of the activity of a radioactive source is the becquerel. One becquerel is:",
+    "options": [
+      "3.7 × 10¹⁰ disintegrations per second",
+      "one disintegration per half-life",
+      "one disintegration per hour",
+      "one disintegration per second"
+    ],
+    "ans": 3,
+    "solution": "Activity is the number of decays per second. The curie is the older unit, and 1 curie = 3.7 × 10¹⁰ Bq.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m22",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a nuclear reactor, a moderator is used to:",
+    "options": [
+      "slow down the fast neutrons so that they can cause more fission",
+      "absorb the neutrons so that the chain reaction stops",
+      "remove the heat that the fission of the fuel produces",
+      "supply more neutrons to the fuel to keep the reaction going"
+    ],
+    "ans": 0,
+    "solution": "Slow neutrons are more likely to be captured by U-235 and cause fission. Heavy water or graphite is used. Control rods absorb neutrons, and a coolant carries away the heat.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m23",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Energy is produced in the Sun by nuclear fusion. A very high temperature is needed because:",
+    "options": [
+      "the electrons, which attract the nuclei, must be removed first",
+      "the nuclei, which repel each other, must be brought very close together",
+      "the nuclei, which attract each other, must be pulled far apart",
+      "the neutrons, which have no charge, must be given a large charge"
+    ],
+    "ans": 1,
+    "solution": "Nuclei have positive charges and repel each other. They must move fast enough to get within the range of the strong nuclear force, and this needs temperatures of millions of kelvin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-m24",
+    "ch": "phy-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The mean life τ and the half-life T½ of a radioactive substance are related by:",
+    "options": [
+      "τ = 0.693 T½, so τ is smaller than T½",
+      "τ = T½/2, so τ is smaller than T½",
+      "τ = T½/0.693, so τ is greater than T½",
+      "τ = T½, so they are equal"
+    ],
+    "ans": 2,
+    "solution": "τ = 1/λ and T½ = 0.693/λ. So τ = T½/0.693, which is about 1.44 T½.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-15-n01",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the wavelength of the second line of the Balmer series (the jump n = 4 to n = 2) of hydrogen, in nm, to the nearest nm. Take the Rydberg constant R = 1.097 × 10⁷ m⁻¹. Give your answer as a whole number.",
+    "ans": 486.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "1/λ = R(1/2² − 1/4²) = 1.097 × 10⁷ × (3/16) = 2.057 × 10⁶ m⁻¹. λ = 4.862 × 10⁻⁷ m = 486 nm. Check: the energy is 13.6 × (3/16) = 2.55 eV, and hc/E gives about 487 nm, the same to the accuracy of the constants.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n02",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the shortest wavelength of the Lyman series of hydrogen, in nm, to the nearest nm (R = 1.097 × 10⁷ m⁻¹). Give your answer as a whole number.",
+    "ans": 91.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The series limit is for the jump from n = ∞ to n = 1: 1/λ = R(1 − 0) = R. λ = 1/(1.097 × 10⁷) = 9.12 × 10⁻⁸ m = 91 nm. Check: this photon carries the full ionisation energy 13.6 eV, and hc/E = 91 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n03",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the radius of the second orbit of Li²⁺ (Z = 3) in the Bohr model, in nm, to 3 decimal places. Take the Bohr radius a₀ = 0.053 nm. Give your answer to 3 decimal places.",
+    "ans": 0.071,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "r_n = a₀n²/Z = 0.053 × 4/3 = 0.0707 nm, which is 0.071 nm. Check: from the balance of the electric force and the centripetal force, with m v r = nh/2π, r = n²h²/(4π²mkZe²) = 0.0708 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n04",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the total energy of the electron in the second orbit of Li²⁺ (Z = 3), in eV, to 1 decimal place. Take E_n = −13.6 Z²/n² eV. Give the answer as a positive number (the magnitude). Give your answer to 1 decimal place.",
+    "ans": 30.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "E = −13.6 × 9/4 = −30.6 eV, so the magnitude is 30.6 eV. Check: for a circular orbit the total energy is −kZe²/2r. With r = 0.0707 nm, this is −4.89 × 10⁻¹⁸ J = −30.6 eV.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n05",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Hydrogen atoms are excited to the n = 5 level. Find the greatest number of different spectral lines they can emit. Give your answer as a whole number.",
+    "ans": 10.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each pair of levels (higher, lower) gives one line. The number is n(n − 1)/2 = 5 × 4/2 = 10. Check: listing them, 5→4, 5→3, 5→2, 5→1, 4→3, 4→2, 4→1, 3→2, 3→1, 2→1 gives 10.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n06",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the radius of a nucleus of mass number 125, in fm (1 fm = 10⁻¹⁵ m), using R = R₀A^(1/3) with R₀ = 1.2 fm. Give the answer to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 6.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "R = R₀A^(1/3) = 1.2 × 125^(1/3) = 1.2 × 5 = 6.0 fm. Check: the volume is proportional to A, so a sphere with 125 times the volume of one with radius 1.2 fm has a radius 5 times as large.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n07",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the binding energy of the helium-4 nucleus, in MeV, to 2 decimal places. Use atomic masses: hydrogen atom 1.007825 u, neutron 1.008665 u, helium-4 atom 4.002603 u, and 1 u = 931.5 MeV/c². Give your answer to 2 decimal places.",
+    "ans": 28.3,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The mass defect is Δm = 2(1.007825) + 2(1.008665) − 4.002603 = 0.030377 u. E = 0.030377 × 931.5 = 28.30 MeV. Check: in SI units, Δm = 5.044 × 10⁻²⁹ kg, and Δm c² = 4.533 × 10⁻¹² J = 28.30 MeV. This is 7.07 MeV per nucleon.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n08",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "A radioactive substance has a half-life of 8 days. Find the fraction of the nuclei that remains after 20 days, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.1768,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "20 days is 2.5 half-lives. The fraction is (1/2)^2.5 = 0.1768. Check: solving dN/dt = −λN step by step, with λ = ln 2/8 per day, gives the same result.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n09",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "A sample contains 4.0 × 10²⁰ radioactive nuclei with a half-life of 10 hours. Find its activity at this moment, in units of 10¹⁵ Bq, to 2 decimal places. Take ln 2 = 0.693. Give your answer to 2 decimal places.",
+    "ans": 7.7,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "λ = 0.693/(10 × 3600 s) = 1.925 × 10⁻⁵ s⁻¹. A = λN = 1.925 × 10⁻⁵ × 4.0 × 10²⁰ = 7.70 × 10¹⁵ Bq. Check: the number of nuclei lost in one second, from N₀ − N₀e^(−λ), gives the same activity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n10",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "The half-life of a radioactive substance is 6.93 hours. Find its mean life, in hours, to 1 decimal place. Take ln 2 = 0.693. Give your answer to 1 decimal place.",
+    "ans": 10.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "τ = T½/0.693 = 6.93/0.693 = 10.0 hours. Check: the mean life is the time in which the number falls to 1/e of the original, and solving e^(−λt) = 1/e gives t = 1/λ = 10.0 hours.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n11",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "Uranium-238 decays by emitting an alpha particle: ²³⁸U → ²³⁴Th + ⁴He. The atomic masses are 238.050788 u, 234.043601 u and 4.002603 u. Find the energy released, in MeV, to 2 decimal places (1 u = 931.5 MeV/c²). Give your answer to 2 decimal places.",
+    "ans": 4.27,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Δm = 238.050788 − 234.043601 − 4.002603 = 0.004584 u. Q = 0.004584 × 931.5 = 4.27 MeV. Check: in SI units, Δm c² = 6.83 × 10⁻¹³ J = 4.27 MeV. This energy is shared by the alpha particle and the thorium nucleus.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n12",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "Each fission of a uranium-235 nucleus releases 200 MeV. Find the energy released by the complete fission of 1.0 kg of U-235, in units of 10¹³ J, to 2 decimal places. Take Avogadro's number as 6.022 × 10²³, the molar mass as 235 g/mol, and 1 MeV = 1.6 × 10⁻¹³ J. Give your answer to 2 decimal places.",
+    "ans": 8.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Number of nuclei = (1000/235) × 6.022 × 10²³ = 2.563 × 10²⁴. E = 2.563 × 10²⁴ × 200 × 1.6 × 10⁻¹³ = 8.20 × 10¹³ J. Check: the mass converted is about 0.91 g, and mc² = 0.91 × 10⁻³ × 9 × 10¹⁶ = 8.2 × 10¹³ J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-15-n13",
+    "ch": "phy-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the wavelength of the first line of the Lyman series of hydrogen (the jump n = 2 to n = 1), in nm, to the nearest nm (R = 1.097 × 10⁷ m⁻¹). Give your answer as a whole number.",
+    "ans": 122.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "1/λ = R(1 − 1/4) = (3/4) × 1.097 × 10⁷ = 8.228 × 10⁶ m⁻¹. λ = 1.215 × 10⁻⁷ m = 122 nm. Check: the photon energy is 10.2 eV, and hc/E = 122 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-m01",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A p-n junction diode conducts a large current when it is:",
+    "options": [
+      "forward biased, with the p side joined to the positive terminal",
+      "reverse biased, with the n side joined to the positive terminal",
+      "forward biased, with the p side joined to the negative terminal",
+      "reverse biased, with the p side joined to the positive terminal"
+    ],
+    "ans": 0,
+    "solution": "In forward bias, the external voltage opposes the barrier and narrows the depletion layer, so the current rises quickly. In reverse bias, the barrier is higher, and only a very small leakage current flows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m02",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A rectifier is a circuit that:",
+    "options": [
+      "raises the voltage of an alternating supply",
+      "changes direct current into alternating current",
+      "stores the charge of an alternating supply",
+      "changes alternating current into direct current"
+    ],
+    "ans": 3,
+    "solution": "It uses the one-way conduction of a p-n junction diode. The output is pulsating DC, which a filter then smooths.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m03",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The input to a rectifier is an AC of frequency 50 Hz. The output frequency of the pulses from a half wave rectifier and a full wave rectifier is respectively:",
+    "options": [
+      "50 Hz and 50 Hz",
+      "100 Hz and 100 Hz",
+      "50 Hz and 100 Hz",
+      "100 Hz and 50 Hz"
+    ],
+    "ans": 2,
+    "solution": "A half wave rectifier gives one pulse per cycle of the input, so the output frequency is 50 Hz. A full wave rectifier turns both half cycles into pulses of the same direction, so there are two per cycle, giving 100 Hz.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m04",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A full wave rectifier is better than a half wave rectifier mainly because it:",
+    "options": [
+      "uses both half cycles, so the output is smaller and the ripple is more",
+      "uses both half cycles, so the output is larger and the ripple is less",
+      "needs no transformer, so the output is larger and the ripple is less",
+      "uses one half cycle, so the output is larger and the ripple is less"
+    ],
+    "ans": 1,
+    "solution": "A half wave rectifier throws away the other half of each cycle. The largest efficiency of a full wave rectifier, 81.2 percent, is twice that of a half wave rectifier, 40.6 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m05",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The ripple factor of a rectifier is the ratio of:",
+    "options": [
+      "the peak value to the rms value of the AC input",
+      "the output power to the input power of the rectifier",
+      "the DC value to the rms value of the AC component of the output",
+      "the rms value of the AC component to the DC value of the output"
+    ],
+    "ans": 3,
+    "solution": "It tells us how much AC is left in the output. A smaller ripple factor means a smoother, better DC.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m06",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A capacitor is connected across the load of a rectifier to:",
+    "options": [
+      "increase the ripple, by charging at the peaks and discharging in between",
+      "reduce the ripple, by blocking the DC and passing the AC",
+      "reduce the ripple, by charging at the peaks and discharging in between",
+      "raise the DC output above the peak value by changing the diode"
+    ],
+    "ans": 2,
+    "solution": "The capacitor charges to the peak of each pulse and gives current to the load while the pulse falls. This fills the gaps and smooths the output. It passes the AC part around the load.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m07",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A Zener diode is used as a voltage regulator. It works in the:",
+    "options": [
+      "reverse breakdown region, where the voltage stays almost constant",
+      "forward bias region, where the current stays almost constant",
+      "reverse breakdown region, where the current stays almost constant",
+      "forward bias region, where the voltage stays almost constant"
+    ],
+    "ans": 0,
+    "solution": "In breakdown, a large change in the reverse current makes a very small change in the voltage across the diode. So the voltage across the load, which is in parallel, stays at the Zener voltage.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m08",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A photodiode is operated in:",
+    "options": [
+      "forward bias, where the current rises with the intensity of the light",
+      "reverse bias, where the current rises with the intensity of the light",
+      "no bias, where the current rises with the intensity of the light",
+      "reverse bias, where the current falls with the intensity of the light"
+    ],
+    "ans": 1,
+    "solution": "In reverse bias, there is only a small dark current. Light makes new electron-hole pairs in the depletion region, and the current increases in proportion to the light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m09",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A light emitting diode (LED) gives out light when it is:",
+    "options": [
+      "reverse biased, as the electrons and holes recombine at the junction",
+      "forward biased, as the electrons and holes separate at the junction",
+      "forward biased, as the electrons and holes recombine at the junction",
+      "reverse biased, as the electrons and holes separate at the junction"
+    ],
+    "ans": 2,
+    "solution": "The recombination of electrons and holes gives out energy, which comes out as a photon. The colour depends on the energy gap of the material.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m10",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solar cell converts light into electrical energy. Compared with a photodiode, a solar cell:",
+    "options": [
+      "works with no external bias, and it takes in the voltage of a battery",
+      "works only in reverse bias, and it generates its own voltage",
+      "works only in forward bias, and it takes in the voltage of a battery",
+      "works with no external bias, and it generates its own voltage"
+    ],
+    "ans": 3,
+    "solution": "Light makes electron-hole pairs near the junction, and the built-in field separates them. This gives a voltage between the two sides, and the cell can drive a current through a load.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m11",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a bipolar junction transistor, the base is:",
+    "options": [
+      "very thick and lightly doped",
+      "very thin and lightly doped",
+      "very thin and heavily doped",
+      "very thick and heavily doped"
+    ],
+    "ans": 1,
+    "solution": "A thin, lightly doped base means that few of the carriers from the emitter recombine in it. Most of them reach the collector.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m12",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a transistor to work as an amplifier, the junctions must be biased so that:",
+    "options": [
+      "forward bias on the emitter-base junction, with reverse bias on the collector-base junction",
+      "reverse bias on both of the junctions, with the same battery for both",
+      "forward bias on both of the junctions, with the same battery for both",
+      "reverse bias on the emitter-base junction, with forward bias on the collector-base junction"
+    ],
+    "ans": 0,
+    "solution": "This is the active region. The forward biased emitter-base junction injects carriers, and the reverse biased collector-base junction collects them. With both forward biased, the transistor is in saturation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m13",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The emitter current I_E, the base current I_B and the collector current I_C of a transistor are related by:",
+    "options": [
+      "I_E = I_B + I_C, and I_B is much smaller than I_C",
+      "I_E = I_B + I_C, and I_B is much larger than I_C",
+      "I_E = I_B − I_C, and I_B is much smaller than I_C",
+      "I_C = I_B + I_E, and I_B is much smaller than I_C"
+    ],
+    "ans": 0,
+    "solution": "By Kirchhoff's law, the current into the transistor equals the current out. The base is thin, so only a few percent of the carriers go out through it. I_C is a little less than I_E.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m14",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The current gains of a transistor are α = I_C/I_E and β = I_C/I_B. They are related by:",
+    "options": [
+      "β = (1 − α)/α, and α is slightly less than 1",
+      "β = α/(1 − α), and α is slightly more than 1",
+      "β = α/(1 + α), and α is slightly less than 1",
+      "β = α/(1 − α), and α is slightly less than 1"
+    ],
+    "ans": 3,
+    "solution": "I_E = I_B + I_C gives 1/α = 1 + 1/β, so β = α/(1 − α). Since I_C is a little less than I_E, α is a little less than 1, for example 0.98.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m15",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a common emitter amplifier, the output voltage is:",
+    "options": [
+      "ahead of the input voltage by 270° at all frequencies",
+      "out of phase with the input voltage by 90°",
+      "out of phase with the input voltage by 180°",
+      "in phase with the input voltage"
+    ],
+    "ans": 2,
+    "solution": "A rise of the input voltage raises the base current and the collector current. The voltage drop across the load rises, so the voltage at the collector falls. This gives the minus sign in A_v = −βR_L/r_i.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m16",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A transistor amplifier gives a power gain greater than 1. The extra output power:",
+    "options": [
+      "is supplied by the heat of the transistor",
+      "is supplied by the DC power source, not by the transistor",
+      "is taken from the input signal, which becomes smaller",
+      "is created by the transistor from the input signal"
+    ],
+    "ans": 1,
+    "solution": "A transistor does not create energy. It controls how much of the power from the DC supply goes to the load, following the small input signal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m17",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The output of an AND gate is 1 only when:",
+    "options": [
+      "any one of its inputs is 1",
+      "all its inputs are 0",
+      "its inputs are not equal",
+      "all its inputs are 1"
+    ],
+    "ans": 3,
+    "solution": "AND is a logical multiplication: Y = A·B. The output is 1 only for A = 1 and B = 1. An OR gate gives 1 if any one input is 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m18",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For an OR gate with two inputs, the output is 0:",
+    "options": [
+      "when both the inputs are 1",
+      "when at least one input is 0",
+      "only when both the inputs are 0",
+      "when the inputs are different"
+    ],
+    "ans": 2,
+    "solution": "Y = A + B. The output is 1 if A or B (or both) is 1, since 1 + 1 = 1 in Boolean algebra. It is 0 only for A = B = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m19",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The output of a NOT gate when its input is 1 is:",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "undefined"
+    ],
+    "ans": 1,
+    "solution": "A NOT gate inverts its input: Y = A′. Its output is 0 for an input of 1, and 1 for an input of 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m20",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following statements about logic gates is correct?",
+    "options": [
+      "NAND and NOR are universal gates, as any other gate can be made from them",
+      "only the NOT gate is universal, as every gate has a NOT in it",
+      "AND and OR are universal gates, as any other gate can be made from them",
+      "NAND and XOR are universal gates, as any other gate can be made from them"
+    ],
+    "ans": 0,
+    "solution": "For example, a NAND gate with its inputs joined is a NOT gate, and a NAND followed by a NOT is an AND. AND, OR and XOR cannot do this by themselves.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m21",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The inputs of a two-input NOR gate are A = 1 and B = 0. Its output is:",
+    "options": [
+      "1, since the AND of the inputs is 0 and it is then inverted",
+      "1, since the OR of the inputs is 1 and it is not inverted",
+      "0, since the OR of the inputs is 1 and it is then inverted",
+      "0, since the AND of the inputs is 0 and it is not inverted"
+    ],
+    "ans": 2,
+    "solution": "NOR = NOT(A + B). A + B = 1 + 0 = 1, and the NOT of 1 is 0. A NOR gate gives 1 only when both inputs are 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m22",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The output of an XOR gate with two inputs is 1:",
+    "options": [
+      "only when both the inputs are 0",
+      "when the two inputs are different from each other",
+      "only when both the inputs are 1",
+      "when the two inputs are the same as each other"
+    ],
+    "ans": 1,
+    "solution": "XOR means exclusive OR: 1 for exactly one input at 1. For the inputs (0, 0) and (1, 1) the output is 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-m23",
+    "ch": "phy-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In Boolean algebra, the NAND gate with its two inputs joined together, A and A, gives the output:",
+    "options": [
+      "A + A, so it works as an OR gate",
+      "A, so it works as a buffer",
+      "1, so it works as a constant source",
+      "A′, so it works as a NOT gate"
+    ],
+    "ans": 3,
+    "solution": "NAND = NOT(A·A) = NOT(A) = A′, since A·A = A. This is how a NOT gate is made from a NAND gate.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-16-n01",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 2,
+    "q": "In a transistor, the base current is 40 μA and the collector current is 2.0 mA. Find the current gain β = I_C/I_B. Give your answer as a whole number.",
+    "ans": 50.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "β = I_C/I_B = 2.0 × 10⁻³/(40 × 10⁻⁶) = 50. Check: I_E = 2.04 mA and α = I_C/I_E = 0.9804. Then α/(1 − α) = 0.9804/0.0196 = 50.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n02",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 2,
+    "q": "A transistor has β = 99 and a base current of 25 μA. Find its emitter current, in mA, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.5,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "I_C = βI_B = 99 × 25 μA = 2.475 mA. I_E = I_B + I_C = 0.025 + 2.475 = 2.50 mA. Check: α = β/(1 + β) = 0.99, and I_E = I_C/α = 2.475/0.99 = 2.50 mA.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n03",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "A common emitter amplifier has β_AC = 60, an input resistance r_i = 1.0 kΩ and a load resistance R_L = 3.0 kΩ. Find the magnitude of its voltage gain. Give your answer as a whole number.",
+    "ans": 180.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "|A_v| = β_AC R_L/r_i = 60 × 3000/1000 = 180. The minus sign (output 180° out of phase) is left out, as only the magnitude is asked. Check: for a small input signal, I_B = v/r_i, I_C = 60 I_B and the output is I_C R_L, which is 180 times the input.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n04",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same amplifier (β_AC = 60, r_i = 1.0 kΩ, R_L = 3.0 kΩ), find the power gain. Give your answer as a whole number.",
+    "ans": 10800.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "A_p = β_AC × A_v = 60 × 180 = 10 800. Check: the input power is I_B² r_i and the output power is I_C² R_L, with I_C = 60 I_B. The ratio is 60² × 3000/1000 = 10 800.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n05",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 2,
+    "q": "An ideal diode is used as a half wave rectifier. The AC input has an rms value of 20 V. Find the DC value of the output voltage, in volt, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 9.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The peak voltage is V_m = √2 × 20 = 28.28 V. For a half wave rectifier, V_dc = V_m/π = 28.28/3.1416 = 9.00 V. Check: the average of the output over a full cycle, in which the negative half is cut off, is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n06",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "An ideal full wave rectifier is fed with an AC input of rms value 20 V (across each half of the secondary). Find the DC value of the output voltage, in volt, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 18.01,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "V_m = √2 × 20 = 28.28 V. For a full wave rectifier, V_dc = 2V_m/π = 56.57/3.1416 = 18.01 V. Check: the average of |V_m sin t| over a cycle is 2V_m/π, the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n07",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the ripple factor of an ideal half wave rectifier, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.21,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "For a half wave output, V_rms = V_m/2 and V_dc = V_m/π. The ripple factor is r = √((V_rms/V_dc)² − 1) = √(π²/4 − 1) = 1.21. This is greater than 1, so the output has more AC than DC. Check: finding the averages numerically over a cycle gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n08",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the ripple factor of an ideal full wave rectifier, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.48,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "For a full wave output, V_rms = V_m/√2 and V_dc = 2V_m/π. So r = √((π/(2√2))² − 1) = √(π²/8 − 1) = 0.48. It is less than for a half wave rectifier, so the output is smoother. Check: finding the averages numerically gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n09",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "A Zener regulator has an input of 12 V, a Zener voltage of 6.0 V, a series resistor of 300 Ω and a load resistor of 1.0 kΩ. Find the power dissipated in the Zener diode, in mW. Give your answer as a whole number.",
+    "ans": 84.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The current in the series resistor is (12 − 6)/300 = 20 mA. The load takes 6/1000 = 6 mA, so the Zener current is 20 − 6 = 14 mA. P = V_Z I_Z = 6 × 14 mA = 84 mW. Check by energy: the source gives 12 × 0.020 = 0.240 W, the series resistor wastes 0.020² × 300 = 0.120 W, and the load takes 0.036 W. The rest, 0.084 W, goes to the Zener diode.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n10",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "The current gain α of a transistor in the common base mode is 0.98. Find the current gain β in the common emitter mode. Give your answer as a whole number.",
+    "ans": 49.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "β = α/(1 − α) = 0.98/0.02 = 49. Check: take I_E = 1 mA. Then I_C = 0.98 mA and I_B = 1 − 0.98 = 0.02 mA, so β = I_C/I_B = 0.98/0.02 = 49.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-16-n11",
+    "ch": "phy-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "A logic circuit has three inputs A, B and C, and its output is Y = NOT(A·B + C). Find the number of input combinations (out of 8) for which Y = 1. Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Y = 1 only when A·B + C = 0. So C must be 0, which leaves 4 of the 8 combinations. Out of those, A·B must also be 0, which excludes A = B = 1. This leaves 3 combinations: (0,0,0), (0,1,0) and (1,0,0). Check: writing out the whole truth table of 8 rows gives the same 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
   }
 ];
 })((window.SOS = window.SOS || {}));
