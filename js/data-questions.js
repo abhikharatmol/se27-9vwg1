@@ -29487,6 +29487,4957 @@
     ]
   },
   {
+    "id": "phy-11-03-m01",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The slope of the position-time graph of a body moving in a straight line gives its:",
+    "options": [
+      "acceleration at that instant",
+      "distance covered so far",
+      "average speed over the journey",
+      "velocity at that instant"
+    ],
+    "ans": 3,
+    "solution": "Velocity is the rate of change of position, dx/dt, which is the slope of the x–t graph. The slope of a v–t graph gives the acceleration.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m02",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The area under the velocity-time graph of a body in a straight line, between two instants, gives its:",
+    "options": [
+      "average speed in that time interval",
+      "momentum in that time interval",
+      "displacement in that time interval",
+      "acceleration in that time interval"
+    ],
+    "ans": 2,
+    "solution": "The area is the integral of v dt, which is the displacement. Area below the time axis counts as negative displacement.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m03",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A body goes 60 km east in 1 hour and then 60 km west in 1 hour. Its average velocity for the whole journey is:",
+    "options": [
+      "30 km/h east, as it went east first",
+      "zero, as the displacement is zero",
+      "120 km/h, as the distance is 120 km",
+      "60 km/h, as the distance is 120 km in 2 hours"
+    ],
+    "ans": 1,
+    "solution": "Average velocity = displacement/time. The body returns to its start, so the displacement is zero. The average speed is 120/2 = 60 km/h, which is not zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m04",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Average speed and the magnitude of average velocity are equal for a body:",
+    "options": [
+      "moving along a straight line without turning back",
+      "moving with a constant acceleration, in a plane",
+      "moving along a circle, for one full turn",
+      "moving along a straight line, and turning back once"
+    ],
+    "ans": 0,
+    "solution": "Distance equals the magnitude of the displacement only when the path is a straight line with no change of direction. In all other cases, the distance is greater.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m05",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equations v = u + at and s = ut + (1/2)at² are valid only when:",
+    "options": [
+      "the motion is in the vertical direction",
+      "the body starts from rest",
+      "the velocity is constant",
+      "the acceleration is constant"
+    ],
+    "ans": 3,
+    "solution": "They are derived by assuming that a does not change with time. If the acceleration varies, we must integrate instead, or divide the motion into parts.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m06",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A car moving at 20 m/s is brought to rest with a uniform retardation of 5 m/s². The distance covered before it stops is:",
+    "options": [
+      "80 m",
+      "20 m",
+      "40 m",
+      "100 m"
+    ],
+    "ans": 2,
+    "solution": "From v² − u² = 2as: 0 − 400 = 2(−5)s, so s = 40 m. It takes t = 4 s. Check: the average speed is 10 m/s for 4 s, giving 40 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m07",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A car moving at speed v stops after a distance s when the brakes are applied. With the same retardation, at a speed of 2v, the stopping distance is:",
+    "options": [
+      "2s",
+      "4s",
+      "s/2",
+      "8s"
+    ],
+    "ans": 1,
+    "solution": "From v² = 2as, the stopping distance is proportional to the square of the speed. If the speed is doubled, the distance becomes four times.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m08",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A body is dropped from rest and falls freely. The distance fallen in the first t seconds is proportional to:",
+    "options": [
+      "t²",
+      "t³",
+      "√t",
+      "t"
+    ],
+    "ans": 0,
+    "solution": "s = (1/2)gt², starting from rest. In the first, second and third seconds, the distances fallen are in the ratio 1 : 3 : 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m09",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A ball is thrown vertically upwards. At the highest point, its velocity and its acceleration are:",
+    "options": [
+      "velocity g upwards, and acceleration zero",
+      "zero velocity, and zero acceleration",
+      "zero velocity, and acceleration g upwards",
+      "zero velocity, and acceleration g downwards"
+    ],
+    "ans": 3,
+    "solution": "The velocity changes sign at the top, so it is momentarily zero. But the gravitational pull acts all the time, so the acceleration is g downwards throughout.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m10",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The velocity of A relative to B is defined as:",
+    "options": [
+      "v_A + v_B, the vector sum of their velocities",
+      "v_A − v_B, the vector difference of their velocities",
+      "|v_A| − |v_B|, the difference of the speeds",
+      "v_B − v_A, the vector difference of their velocities"
+    ],
+    "ans": 1,
+    "solution": "It is the velocity of A as seen by an observer who is moving with B. The directions matter, so it is a vector subtraction, and not the difference of speeds.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m11",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two trains A and B move on parallel tracks in opposite directions, with speeds of 20 m/s and 30 m/s. The speed of A relative to B is:",
+    "options": [
+      "50 m/s",
+      "600 m/s",
+      "10 m/s",
+      "25 m/s"
+    ],
+    "ans": 0,
+    "solution": "Take A's direction as positive: v_A = +20 and v_B = −30. v_A − v_B = 20 − (−30) = 50 m/s. If they moved in the same direction, the relative speed would be 10 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m12",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In projectile motion without air resistance, the horizontal component of the velocity:",
+    "options": [
+      "decreases steadily, as the body rises",
+      "increases steadily, as the body falls",
+      "remains constant, as no horizontal force acts",
+      "is zero at the highest point"
+    ],
+    "ans": 2,
+    "solution": "The only force is gravity, which is vertical. So the horizontal acceleration is zero, and u cos θ stays the same. At the top, it is the vertical component that is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m13",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A projectile is thrown with a speed u at an angle θ to the horizontal. Its time of flight, when it lands at the level of projection, is:",
+    "options": [
+      "2u sin θ/g",
+      "u²sin 2θ/g",
+      "u sin θ/g",
+      "2u cos θ/g"
+    ],
+    "ans": 0,
+    "solution": "The vertical velocity goes from u sin θ up to zero and back to −u sin θ, so the time is 2u sin θ/g. The expression u² sin 2θ/g is the range.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m14",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a given speed of projection, the horizontal range of a projectile is the greatest when the angle of projection is:",
+    "options": [
+      "60°",
+      "30°",
+      "90°",
+      "45°"
+    ],
+    "ans": 3,
+    "solution": "R = u² sin 2θ/g is the largest when sin 2θ = 1, which gives θ = 45°. At 90°, the ball goes straight up and the range is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m15",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A projectile is thrown at 30°, and another one at 60°, with the same speed. Their ranges are:",
+    "options": [
+      "greater for 60°, as it is higher",
+      "equal, as sin 60° = sin 120°",
+      "in the ratio 1 : 2",
+      "greater for 30°, as it is the lower angle"
+    ],
+    "ans": 1,
+    "solution": "R = u² sin 2θ/g. sin 60° = sin 120°, so 30° and 60° (which add to 90°) give the same range. The 60° throw goes higher and stays longer in the air.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m16",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At the highest point of the path of a projectile (no air resistance), the velocity is:",
+    "options": [
+      "vertical, and equal to u sin θ",
+      "zero, as the body has stopped",
+      "horizontal, and equal to u cos θ",
+      "horizontal, and equal to zero"
+    ],
+    "ans": 2,
+    "solution": "The vertical component is zero at the top, but the horizontal component, u cos θ, is unchanged. So the speed at the top is u cos θ, and not zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m17",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A particle moves in a circle at a constant speed. Which of the following is true?",
+    "options": [
+      "its velocity changes, and its acceleration is along the velocity",
+      "its velocity is constant, and its acceleration points to the centre",
+      "its velocity is constant, and its acceleration is zero",
+      "its velocity changes, and its acceleration points to the centre"
+    ],
+    "ans": 3,
+    "solution": "The direction of the velocity changes at each moment, so the velocity is not constant, and there is an acceleration. It is perpendicular to the velocity, and it points to the centre, with the magnitude v²/r.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m18",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The relation between the angular speed ω and the linear speed v of a particle moving on a circle of radius r is:",
+    "options": [
+      "v = ω/r",
+      "v = ωr",
+      "ω = vr",
+      "v = ωr²"
+    ],
+    "ans": 1,
+    "solution": "In one period T, the particle covers a distance 2πr, and sweeps an angle 2π. So v = 2πr/T = (2π/T)r = ωr.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m19",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The centripetal acceleration of a particle with a speed v on a circle of radius r is:",
+    "options": [
+      "v/r², away from the centre",
+      "v²r, towards the centre",
+      "v²/r, towards the centre",
+      "vr, along the tangent"
+    ],
+    "ans": 2,
+    "solution": "a = v²/r = ω²r. It is directed along the radius towards the centre. The speed does not change, but the direction of the velocity does.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m20",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A body moves in a circle with a constant speed. If its speed is doubled, with the same radius, the centripetal force becomes:",
+    "options": [
+      "four times as large",
+      "unchanged",
+      "twice as large",
+      "half as large"
+    ],
+    "ans": 0,
+    "solution": "F = mv²/r is proportional to the square of the speed. If v is doubled, F becomes four times as large.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m21",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A stone tied to a string is whirled in a horizontal circle. The centripetal force is:",
+    "options": [
+      "the force that the stone exerts on the hand, directed outwards",
+      "the tension in the string, which is a real force, directed to the centre",
+      "the weight of the stone, directed to the centre",
+      "an extra force, in addition to the tension, directed to the centre"
+    ],
+    "ans": 1,
+    "solution": "The centripetal force is not a new kind of force. It is the name for the resultant force towards the centre. Here, that force is the tension in the string.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m22",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A car goes round a flat circular road. The centripetal force that is needed is provided by:",
+    "options": [
+      "the weight of the car, which acts downwards",
+      "the normal reaction, which acts upwards",
+      "the engine of the car, which acts along the road",
+      "the force of friction between the tyres and the road"
+    ],
+    "ans": 3,
+    "solution": "The friction between the tyres and the road acts towards the centre of the curve. If the speed is too high, the friction cannot give the needed force, and the car skids.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-m23",
+    "ch": "phy-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A conical pendulum has a bob moving in a horizontal circle. The vertical component of the tension balances:",
+    "options": [
+      "the centripetal force",
+      "the force of the air on the bob",
+      "the weight of the bob",
+      "the horizontal component of the tension"
+    ],
+    "ans": 2,
+    "solution": "There is no vertical acceleration, so T cos θ = mg. The horizontal component, T sin θ, gives the centripetal force. Dividing, tan θ = v²/rg.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-03-n01",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "A body starts with a velocity of 5 m/s and has a uniform acceleration of 2 m/s². Find its velocity after 6 s, in m/s. Give your answer to 1 decimal place.",
+    "ans": 17,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v = u + at = 5 + 2 × 6 = 17 m/s. Check: adding up the small gains in velocity, 2 m/s each second, over the 6 s gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n02",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A car has an initial velocity of 10 m/s and a uniform retardation of 2 m/s². Find the distance that it covers in 4 s, in m. Give your answer to 1 decimal place.",
+    "ans": 24.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "s = ut + (1/2)at² = 10 × 4 − (1/2)(2)(16) = 40 − 16 = 24 m. Check: the velocity falls from 10 to 2 m/s in 4 s, and the area under the v–t graph (a trapezoid) is (10 + 2)/2 × 4 = 24 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n03",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A car moving at 20 m/s is brought to rest by a uniform retardation of 5 m/s². Find the stopping distance, in m, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 40.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v² − u² = 2as gives 0 − 400 = 2(−5)s, so s = 40 m. Check: following the motion step by step until the car stops gives 40.0 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n04",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A car goes from A to B at 60 km/h and returns along the same road at 40 km/h. Find the average speed for the whole trip, in km/h. Give your answer to 1 decimal place.",
+    "ans": 48.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "For a distance d each way, the time is d/60 + d/40 = d(5/120) = d/24. The total distance is 2d. So the average speed is 2d/(d/24) = 48 km/h. Check: take d = 120 km. The times are 2 h and 3 h, and 240 km/5 h = 48 km/h. It is not the simple average, 50 km/h.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n05",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A ball is projected with a speed of 20 m/s at 30° to the horizontal (g = 10 m/s²). Find its horizontal range, in m, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 34.64,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "R = u² sin 2θ/g = 400 × sin 60°/10 = 400 × 0.866/10 = 34.64 m. Check: following the motion in small steps until the ball returns to the ground gives a range of 34.64 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n06",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same projectile (20 m/s at 30°, g = 10 m/s²), find the maximum height, in m, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "H = u² sin²θ/(2g) = 400 × 0.25/20 = 5.00 m. Check: following the motion step by step gives the same maximum height. It can also be found from v² = u² − 2gH with the vertical speed 10 m/s: H = 100/20 = 5 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n07",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same projectile (20 m/s at 30°, g = 10 m/s²), find the time of flight, in s, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "T = 2u sin θ/g = 2 × 20 × 0.5/10 = 2.00 s. Check: stepping through the motion gives the same time of flight. The check also fits R = (u cos θ)T = 17.32 × 2 = 34.64 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n08",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Car A moves east at 20 m/s and car B moves north at 15 m/s. Find the magnitude of the velocity of A relative to B, in m/s, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 25.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v_AB = v_A − v_B. The vector v_A is (20, 0) and v_B is (0, 15), so v_AB = (20, −15). Its magnitude is √(400 + 225) = 25.0 m/s. Check: the two velocities are at right angles, so the relative speed is the hypotenuse of a 20–15–25 triangle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n09",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "A particle moves on a circle of radius 5 m with a constant speed of 10 m/s. Find its centripetal acceleration, in m/s², to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 20.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "a = v²/r = 100/5 = 20.0 m/s². Check: ω = v/r = 2 rad/s, and a = ω²r = 4 × 5 = 20 m/s².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n10",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A particle moves on a circle of radius 0.50 m, making 120 revolutions per minute. Find its centripetal acceleration, in m/s², to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 78.96,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ω = 2π × 120/60 = 4π rad/s = 12.57 rad/s. a = ω²r = (12.57)² × 0.50 = 78.96 m/s². Check: for the motion x = r cos ωt, the second derivative at t = 0 is −ω²r. A numerical second difference gives a magnitude of 78.96 m/s².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n11",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A car goes round a flat circular curve of radius 20 m. The coefficient of friction between the tyres and the road is 0.5 (g = 10 m/s²). Find the greatest speed with which it can go round without skidding, in m/s, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 10.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The friction provides the centripetal force: mv²/r = μmg, so v = √(μgr) = √(0.5 × 10 × 20) = 10.0 m/s. Check: at a speed just below 10 m/s, the needed centripetal acceleration, v²/r, is less than μg = 5 m/s², and at a higher speed it is more. A search finds the same limit.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n12",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A conical pendulum has a string of length 1.0 m, and the string makes an angle of 60° with the vertical. Find the time period of the bob, in s, to 3 decimal places (g = 9.8 m/s²). Give your answer to 3 decimal places.",
+    "ans": 1.419,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "T = 2π√(l cos θ/g) = 2π√(1.0 × 0.5/9.8) = 2π × 0.2259 = 1.419 s. Check: the radius of the circle is r = l sin θ = 0.866 m. From tan θ = v²/(rg), v = 3.834 m/s, and T = 2πr/v = 1.419 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-03-n13",
+    "ch": "phy-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "A stone is dropped from the top of a tower 45 m high (g = 10 m/s²). Find the time that it takes to reach the ground, in s, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "h = (1/2)gt², so t = √(2h/g) = √(90/10) = 3.00 s. Check: following the fall in small steps until the distance fallen is 45 m gives 3.00 s. The speed on reaching the ground is gt = 30 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-m01",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "According to Galileo, a body moving on a horizontal surface slows down and stops mainly because:",
+    "options": [
+      "gravity pulls it to a stop on a level surface",
+      "bodies in motion naturally come to rest",
+      "friction and other opposing forces act on it",
+      "a force is needed to keep any body moving"
+    ],
+    "ans": 2,
+    "solution": "Aristotle thought that a force is needed to keep a body moving. Galileo showed that, without friction or drag, a body would go on moving with constant velocity. A force is needed only to change the velocity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m02",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Newton's first law of motion says that a body:",
+    "options": [
+      "moves with an acceleration that is proportional to its speed, whatever the forces on it are",
+      "stays at rest or in uniform motion in a straight line, unless an unbalanced force acts on it",
+      "always moves in the direction of the force that acts on it, and stops when the force is removed",
+      "always comes to rest when the force on it is removed, as it has no motion of its own"
+    ],
+    "ans": 1,
+    "solution": "This property of a body is called inertia. A body at rest stays at rest, and a body in motion goes on with the same velocity, unless the net force is not zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m03",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Newton's second law, in its general form, states that the force on a body is equal to:",
+    "options": [
+      "the change of its velocity, F = Δv",
+      "its mass divided by its acceleration, F = m/a",
+      "its momentum multiplied by its velocity, F = pv",
+      "the rate of change of its momentum, F = dp/dt"
+    ],
+    "ans": 3,
+    "solution": "For a constant mass, dp/dt = m dv/dt = ma. When the mass changes, as in a rocket, only F = dp/dt can be used.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m04",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A force of 20 N acts on a body of mass 5 kg, which starts from rest. Its velocity after 3 s is:",
+    "options": [
+      "12 m/s",
+      "4 m/s",
+      "60 m/s",
+      "15 m/s"
+    ],
+    "ans": 0,
+    "solution": "a = F/m = 20/5 = 4 m/s². v = u + at = 0 + 4 × 3 = 12 m/s. Check: the change of momentum is Ft = 60 kg m/s, and v = 60/5 = 12 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m05",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to Newton's third law, the action and the reaction forces:",
+    "options": [
+      "are unequal, and act on different bodies",
+      "are equal in size, but act in the same direction",
+      "are equal and opposite, and act on the same body",
+      "are equal and opposite, and act on different bodies"
+    ],
+    "ans": 3,
+    "solution": "If A pushes on B with a force F, then B pushes on A with a force −F. They act on different bodies, so they can never cancel each other, and each causes the acceleration of its own body.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m06",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A person pushes a heavy wall, and the wall does not move. The reaction force that the wall exerts on the person:",
+    "options": [
+      "is equal in size to the push of the person, and acts on the person",
+      "acts on the wall, and cancels the push of the person",
+      "is zero, since the wall does not move",
+      "is greater than the push, since the wall is heavy"
+    ],
+    "ans": 0,
+    "solution": "The reaction is always equal to the action. The wall stays at rest because the friction from the ground balances the push on the wall. The reaction acts on the person, and it can push the person backwards.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m07",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An inertial frame of reference is a frame that:",
+    "options": [
+      "is at rest relative to the Earth only, and Newton's laws hold in it",
+      "is accelerating at a steady rate, and Newton's laws hold in it",
+      "is at rest or moves with a constant velocity, and Newton's laws hold in it",
+      "is rotating at a steady rate, and Newton's laws hold in it"
+    ],
+    "ans": 2,
+    "solution": "Any frame moving with a constant velocity relative to an inertial frame is also inertial. A frame with an acceleration, such as a bus that is turning or braking, is non-inertial.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m08",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A pseudo force appears:",
+    "options": [
+      "in every frame, as the force of gravity",
+      "in a non-inertial frame, and it has no reaction partner",
+      "in an inertial frame, and it has a reaction partner",
+      "only between two bodies that are in contact"
+    ],
+    "ans": 1,
+    "solution": "In a frame with an acceleration a, a body seems to feel an extra force equal to −ma. It does not come from any interaction with another body, so it has no reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m09",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A person of mass m stands on a weighing scale in a lift that has an upward acceleration a. The reading of the scale is:",
+    "options": [
+      "m(g − a)",
+      "ma",
+      "m(g + a)",
+      "mg"
+    ],
+    "ans": 2,
+    "solution": "Take the upward direction as positive: N − mg = ma, so N = m(g + a). The person feels heavier. When the lift accelerates downwards, the reading is m(g − a).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m10",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A lift falls freely, with an acceleration g downwards. A person in the lift standing on a weighing scale reads:",
+    "options": [
+      "m/g, as the lift is falling",
+      "zero, as N = m(g − g)",
+      "2mg, as the lift is falling",
+      "mg, as the weight does not change"
+    ],
+    "ans": 1,
+    "solution": "N = m(g − a) with a = g gives N = 0. The person feels weightless, though the gravitational force on the person is still mg.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m11",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the four basic forces of nature is the weakest?",
+    "options": [
+      "the weak nuclear force",
+      "the electromagnetic force",
+      "the strong nuclear force",
+      "the gravitational force"
+    ],
+    "ans": 3,
+    "solution": "In order of strength: strong nuclear, electromagnetic, weak nuclear, and gravitational. Gravity is far weaker than the others, but it is always attractive and it acts over long distances, so it controls the large bodies of the universe.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m12",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Friction, tension and the normal reaction are all, at the basic level, forces of:",
+    "options": [
+      "electromagnetic origin, between the charges in the atoms",
+      "strong nuclear origin, between the nuclei",
+      "weak nuclear origin, between the electrons",
+      "gravitational origin, between the masses of the bodies"
+    ],
+    "ans": 0,
+    "solution": "These contact forces come from the electric forces between the atoms and molecules at the surfaces. They are all electromagnetic in origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m13",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work-energy theorem states that the net work done on a body is equal to:",
+    "options": [
+      "the change in its potential energy only",
+      "the final kinetic energy only",
+      "the change in its kinetic energy",
+      "the change in its momentum"
+    ],
+    "ans": 2,
+    "solution": "W_net = (1/2)mv² − (1/2)mu². The work of all the forces, including friction, must be included. A positive net work increases the speed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m14",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A force acts on a body at right angles to its direction of motion. The work done by this force is:",
+    "options": [
+      "zero, as cos 90° = 0",
+      "equal to the force multiplied by the distance",
+      "negative, as the force opposes the motion",
+      "maximum, as the force is the largest"
+    ],
+    "ans": 0,
+    "solution": "W = Fs cos θ. For θ = 90°, W = 0. An example is the centripetal force in a uniform circular motion, which does no work and does not change the speed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m15",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The law of conservation of linear momentum holds for a system when:",
+    "options": [
+      "the kinetic energy of the system is constant",
+      "the system has only two bodies in it",
+      "the net internal force on the system is zero",
+      "the net external force on the system is zero"
+    ],
+    "ans": 3,
+    "solution": "The forces between the parts of the system (internal forces) are equal and opposite, so they do not change the total momentum. Only an external force can change it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m16",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a collision of two bodies, which quantity is conserved in every type of collision?",
+    "options": [
+      "the kinetic energy of each body, in all cases",
+      "the total linear momentum, if no external force acts",
+      "the velocity of each body, in all cases",
+      "the total kinetic energy of the bodies, in all cases"
+    ],
+    "ans": 1,
+    "solution": "Momentum is conserved in elastic and inelastic collisions. The kinetic energy is conserved only in an elastic collision. In an inelastic collision, some of it changes into heat and sound.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m17",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a perfectly inelastic collision, the two bodies:",
+    "options": [
+      "stick together, and the loss of kinetic energy is the greatest",
+      "bounce apart, and the loss of kinetic energy is the greatest",
+      "stick together, and the kinetic energy is conserved",
+      "bounce apart, and the kinetic energy is conserved"
+    ],
+    "ans": 0,
+    "solution": "The coefficient of restitution is e = 0, and the bodies move with a common velocity after the collision. The momentum is conserved, but the kinetic energy loss is the greatest possible.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m18",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A body of mass m, moving at a speed u, collides head-on and elastically with another body of the same mass at rest. After the collision:",
+    "options": [
+      "the first body rebounds with the speed u, and the second stays at rest",
+      "both bodies move forward with the speed u",
+      "both bodies move with the speed u/2",
+      "the first body stops, and the second moves with the speed u"
+    ],
+    "ans": 3,
+    "solution": "For equal masses in a head-on elastic collision, the bodies exchange their velocities. This follows from the conservation of momentum and of kinetic energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m19",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The coefficient of restitution e for any collision has a value in the range:",
+    "options": [
+      "1 to infinity, with e = 1 for an elastic collision",
+      "0 to 1, with e = 1 for an elastic collision",
+      "0 to 1, with e = 0 for an elastic collision",
+      "−1 to 0, with e = 0 for an elastic collision"
+    ],
+    "ans": 1,
+    "solution": "e is the ratio of the speed of separation to the speed of approach. It is 1 when the kinetic energy is conserved (elastic), and 0 when the bodies move together after the collision (perfectly inelastic).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m20",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The impulse of a force acting on a body is equal to:",
+    "options": [
+      "the change in the kinetic energy of the body",
+      "the force divided by the time of contact",
+      "the change in the momentum of the body",
+      "the work done by the force"
+    ],
+    "ans": 2,
+    "solution": "J = F t = p₂ − p₁. When the force changes with time, the impulse is the area under the force-time graph. It is a vector, along the direction of the force.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m21",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A cricketer pulls his hands back while catching a fast ball, because this:",
+    "options": [
+      "increases the momentum of the ball, so the force on the hands is smaller",
+      "decreases the mass of the ball, so the force on the hands is smaller",
+      "decreases the time of contact, so the average force on the hands is smaller",
+      "increases the time of contact, so the average force on the hands is smaller"
+    ],
+    "ans": 3,
+    "solution": "The change of momentum of the ball is fixed. F = Δp/Δt, so a longer time gives a smaller average force, which hurts less.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m22",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The torque of a force F about an axis, at a perpendicular distance d from the line of action of the force, is:",
+    "options": [
+      "τ = F + d",
+      "τ = F/d",
+      "τ = F d",
+      "τ = F d²"
+    ],
+    "ans": 2,
+    "solution": "Torque is the force multiplied by the perpendicular distance of its line of action from the axis, which is the lever arm. In vector form, τ = r × F, with magnitude rF sin θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m23",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A force acts on a body along a line that passes through the axis of rotation. The torque of this force about the axis is:",
+    "options": [
+      "infinite, as the distance is zero",
+      "zero, as the lever arm is zero",
+      "maximum, as the force is acting on the body",
+      "equal to the force, as the distance is one"
+    ],
+    "ans": 1,
+    "solution": "τ = rF sin θ, with θ = 0° or 180°, so sin θ = 0. A force through the axis cannot turn the body, such as pushing on the hinge of a door.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m24",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A couple is a pair of forces that are:",
+    "options": [
+      "equal, opposite, and with different lines of action",
+      "equal, in the same direction, and with different lines of action",
+      "equal, opposite, and along the same line of action",
+      "unequal, opposite, and with different lines of action"
+    ],
+    "ans": 0,
+    "solution": "The two forces add up to zero, so there is no translation, but they give a pure turning effect. The moment of a couple, F × (the perpendicular distance between the forces), is the same about every axis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m25",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A rigid body is in mechanical equilibrium when:",
+    "options": [
+      "the net force and the net torque on it are both zero",
+      "only the net torque on it is zero",
+      "the body is at rest, whatever the forces",
+      "only the net force on it is zero"
+    ],
+    "ans": 0,
+    "solution": "Zero net force means no linear acceleration. Zero net torque means no angular acceleration. Both conditions are needed. A body in uniform motion may also be in equilibrium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m26",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A body is in stable equilibrium when its potential energy is:",
+    "options": [
+      "zero, so a small displacement makes it return",
+      "a minimum, so a small displacement makes it return",
+      "constant, so a small displacement has no effect",
+      "a maximum, so a small displacement makes it return"
+    ],
+    "ans": 1,
+    "solution": "In stable equilibrium, dU/dx = 0 and d²U/dx² is positive. A ball at the bottom of a bowl is an example. At a maximum of U, the equilibrium is unstable.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m27",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two particles have the masses 1 kg and 3 kg. The centre of mass of the system lies:",
+    "options": [
+      "closer to the 1 kg particle, on the line joining them",
+      "outside the line joining them",
+      "at the middle of the line joining them",
+      "closer to the 3 kg particle, on the line joining them"
+    ],
+    "ans": 3,
+    "solution": "The centre of mass is the mass-weighted average of the positions. A heavier particle pulls it closer. For masses m₁ and m₂ at a distance d, it is at m₂d/(m₁ + m₂) from m₁.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m28",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The centre of mass of a uniform semicircular disc of radius R is at a distance from the centre of the straight edge equal to:",
+    "options": [
+      "2R/π, along the axis of symmetry",
+      "3R/8, along the axis of symmetry",
+      "4R/(3π), along the axis of symmetry",
+      "R/2, along the axis of symmetry"
+    ],
+    "ans": 2,
+    "solution": "For a solid semicircular disc, y = 4R/(3π), which is about 0.42R. For a semicircular ring (a wire), it is 2R/π. The value 3R/8 is for a solid hemisphere.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-m29",
+    "ch": "phy-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For which condition do the centre of gravity and the centre of mass of a body lie at the same point?",
+    "options": [
+      "the body is at rest on the ground",
+      "the gravitational field is uniform over the body",
+      "the body has a regular shape",
+      "the body is a point mass"
+    ],
+    "ans": 1,
+    "solution": "The centre of gravity is the point where the whole weight acts. In a uniform field, the weight of each part is proportional to its mass, so the two points are the same. For ordinary objects on the Earth, the difference is negligible.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-04-n01",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 2,
+    "q": "A body of mass 5 kg has an acceleration of 3 m/s² for 4 s, starting from rest. Find the force on it, in N. Give your answer to 1 decimal place.",
+    "ans": 15,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "F = ma = 5 × 3 = 15 N. Check: after 4 s the velocity is 12 m/s and the momentum is 60 kg m/s. The force is the rate of change of momentum, 60/4 = 15 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n02",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Masses of 2 kg and 3 kg hang from the two ends of a light string over a smooth pulley (g = 10 m/s²). Find the acceleration of the masses, in m/s², to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 2.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "For the heavier mass: 3g − T = 3a. For the lighter mass: T − 2g = 2a. Adding, g(3 − 2) = 5a, so a = 10/5 = 2.0 m/s². Check: solving the two equations for a and T together gives the same a.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n03",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same masses (2 kg and 3 kg on a light string over a smooth pulley, g = 10 m/s²), find the tension in the string, in N, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 24.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "T = 2m₁m₂g/(m₁ + m₂) = 2 × 2 × 3 × 10/5 = 24.0 N. Check: for the lighter mass, T = m₁(g + a) = 2(10 + 2) = 24 N. For the heavier mass, T = m₂(g − a) = 3(10 − 2) = 24 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n04",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A person of mass 60 kg stands on a weighing scale in a lift that goes up with an acceleration of 2 m/s² (g = 10 m/s²). Find the reading of the scale, in N. Give your answer as a whole number.",
+    "ans": 720,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "N − mg = ma, so N = m(g + a) = 60 × 12 = 720 N. Check by energy: in a rise of 10 m, the speed becomes √(2ah) = √40, and the work N × h equals the gain of kinetic energy, 1200 J, plus the gain of potential energy, 6000 J. So N = 7200/10 = 720 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n05",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A body of mass 2 kg moving at 6 m/s collides with a body of mass 4 kg at rest, and they stick together. Find the loss of kinetic energy, in J. Give your answer to 1 decimal place.",
+    "ans": 24.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The common velocity is v = m₁u₁/(m₁ + m₂) = 12/6 = 2 m/s. The kinetic energy before is (1/2)(2)(36) = 36 J, and after it is (1/2)(6)(4) = 12 J. The loss is 24.0 J. Check: ΔKE = (1/2)(m₁m₂/(m₁ + m₂))u² = (1/2)(8/6)(36) = 24 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n06",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The 2 kg body moving at 6 m/s now collides elastically and head-on with the 4 kg body at rest. Find the velocity of the 4 kg body after the collision, in m/s, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v₂ = 2m₁u₁/(m₁ + m₂) = 2 × 2 × 6/6 = 4.0 m/s. The 2 kg body goes back with v₁ = (m₁ − m₂)u₁/(m₁ + m₂) = −2 m/s. Check: the momentum, 12 = 2(−2) + 4(4) = 12, and the kinetic energy, 36 = 4 + 32 = 36, are both conserved.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n07",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A ball of mass 0.15 kg moves at 12 m/s towards a bat and leaves it in the opposite direction at 20 m/s. Find the magnitude of the impulse of the bat on the ball, in N s, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 4.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Take the direction after the hit as positive. Δp = m(v − u) = 0.15 × (20 − (−12)) = 0.15 × 32 = 4.8 N s. Check: finding the constant force that turns the velocity from −12 to +20 m/s in 0.01 s, the force is 480 N, and F × t = 4.8 N s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n08",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A car of mass 1000 kg increases its speed from 10 m/s to 20 m/s. Find the net work done on it, in J. Give your answer as a whole number.",
+    "ans": 150000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "By the work-energy theorem, W = (1/2)m(v² − u²) = (1/2)(1000)(400 − 100) = 150 000 J. Check: if the speed rises over 150 m, then a = (400 − 100)/(2 × 150) = 1 m/s², the force is ma = 1000 N, and W = Fs = 1000 × 150 = 150 000 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n09",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A force of 20 N is applied at the end of a spanner of length 0.50 m, at an angle of 30° to the spanner. Find the torque about the nut, in N m, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "τ = rF sin θ = 0.50 × 20 × 0.5 = 5.00 N m. Check: with r = (0.5, 0) and F = (20 cos 30°, 20 sin 30°), the z component of r × F is x F_y − y F_x = 0.5 × 10 − 0 = 5.00 N m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n10",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A couple of two forces, each of 15 N, acts with a perpendicular distance of 0.40 m between the lines of action. Find the moment of the couple, in N m, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 6.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The moment of a couple is the force times the perpendicular distance between the lines: 15 × 0.40 = 6.0 N m. Check: the torque of the two forces about any other point, here an arbitrary point, adds up to 6.0 N m, as the moment does not depend on the axis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n11",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Particles of mass 1 kg, 2 kg and 3 kg are placed at x = 0, 1 m and 3 m on a line. Find the position of the centre of mass, in m, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.833,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "x_cm = (1 × 0 + 2 × 1 + 3 × 3)/(1 + 2 + 3) = 11/6 = 1.833 m. Check: this is the point about which the total of m(x − x_cm) is zero, which is the balance point, and a search for it gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n12",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the distance of the centre of mass of a uniform solid semicircular disc of radius 0.30 m from the centre of its straight edge, in m, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.127,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "y_cm = 4R/(3π) = 4 × 0.30/(3 × 3.1416) = 0.127 m. Check: cutting the disc into thin vertical strips, adding up the moment of each strip about the straight edge, and dividing by the area gives 0.127 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n13",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A uniform plank 6.0 m long, of mass 30 kg, rests on two supports at its ends. A person of mass 60 kg stands 2.0 m from the left end (g = 10 m/s²). Find the reaction at the left support, in N. Give your answer as a whole number.",
+    "ans": 550.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Take the torques about the right end: R_L × 6 = 300 × 3 + 600 × 4 = 900 + 2400 = 3300, so R_L = 550 N. Check: the forces balance, since R_L + R_R = 900 N, so R_R = 350 N. The torques about the left end also balance: 350 × 6 = 300 × 3 + 600 × 2 = 2100.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-04-n14",
+    "ch": "phy-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "A gun of mass 5 kg fires a bullet of mass 0.05 kg with a speed of 300 m/s. Find the recoil speed of the gun, in m/s, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 3.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The gun and the bullet are at rest at first, so the total momentum is zero. m_b v_b = m_g v_g gives v_g = 0.05 × 300/5 = 3.0 m/s, in the opposite direction. Check: giving the bullet its momentum in small equal steps, and the gun the same momentum in the opposite direction at each step (third law), leaves the gun at 3.0 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-m01",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 1,
+    "q": "According to Kepler's first law, the path of a planet round the Sun is:",
+    "options": [
+      "an ellipse, with the Sun at one focus",
+      "a parabola, with the Sun at the focus",
+      "a circle, with the Sun at the centre",
+      "an ellipse, with the Sun at the centre"
+    ],
+    "ans": 0,
+    "solution": "The orbits of the planets are ellipses, and most of them are close to circles. The Sun is at one of the two foci, and not at the centre of the ellipse.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m02",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Kepler's second law says that the line from the Sun to a planet sweeps out equal areas in equal times. It follows that a planet moves:",
+    "options": [
+      "at a constant speed along its orbit",
+      "faster when it is farther from the Sun",
+      "slower when it is closer to the Sun",
+      "faster when it is closer to the Sun"
+    ],
+    "ans": 3,
+    "solution": "The areal velocity is constant. Near the Sun the radius is small, so the planet must move faster to sweep the same area. This is a result of the conservation of angular momentum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m03",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Kepler's third law says that the square of the time period of a planet is proportional to:",
+    "options": [
+      "the cube of the mass of the planet",
+      "the cube of the semi-major axis of its orbit",
+      "the square of the semi-major axis of its orbit",
+      "the square of the speed of the planet"
+    ],
+    "ans": 1,
+    "solution": "T² ∝ a³, where a is the semi-major axis. For a circular orbit, it is the radius r. It is the same for all the planets of the Sun.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m04",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A planet has an orbit whose radius is four times that of the Earth. Its time period, in years, is:",
+    "options": [
+      "4",
+      "16",
+      "8",
+      "2"
+    ],
+    "ans": 2,
+    "solution": "T² ∝ r³. The ratio of the radii is 4, so T² = 4³ = 64 (in years squared), and T = 8 years.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m05",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The gravitational force between two masses m₁ and m₂ at a distance r is:",
+    "options": [
+      "F = G m₁m₂/r², and it is repulsive",
+      "F = G (m₁ + m₂)/r², and it is attractive",
+      "F = G m₁m₂/r, and it is attractive",
+      "F = G m₁m₂/r², and it is attractive"
+    ],
+    "ans": 3,
+    "solution": "The force is proportional to the product of the masses and inversely proportional to the square of the distance. It acts along the line joining the two masses.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m06",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance between two masses is doubled. The gravitational force between them becomes:",
+    "options": [
+      "four times the original",
+      "twice the original",
+      "one fourth of the original",
+      "half of the original"
+    ],
+    "ans": 2,
+    "solution": "F ∝ 1/r². With r → 2r, F → F/4. A frequent error is to say that it becomes half.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m07",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The gravitational force of the Earth on a satellite is F. The force of the satellite on the Earth is:",
+    "options": [
+      "much more than F, as the Earth is large",
+      "also F, as they are an action-reaction pair",
+      "zero, as the Earth does not move",
+      "much less than F, as the satellite is small"
+    ],
+    "ans": 1,
+    "solution": "By Newton's third law, the two forces are equal in size and opposite in direction. The accelerations are different, since the masses are different.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m08",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The universal gravitational constant G has the SI unit:",
+    "options": [
+      "N m² kg⁻²",
+      "N m² kg",
+      "N m kg⁻¹",
+      "N kg² m⁻²"
+    ],
+    "ans": 0,
+    "solution": "From F = Gm₁m₂/r², G = Fr²/(m₁m₂), so the unit is N m²/kg². Its value is 6.67 × 10⁻¹¹ in these units, and it is the same everywhere.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m09",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of G was first measured in the laboratory by:",
+    "options": [
+      "Cavendish, using a torsion balance",
+      "Newton, using the motion of the Moon",
+      "Galileo, using falling bodies",
+      "Kepler, using the orbit of Mars"
+    ],
+    "ans": 0,
+    "solution": "Two small masses on a rod hang from a fine wire, and two large masses are brought near them. The twist of the wire measures the tiny force. The law itself could not give G.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m10",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The acceleration due to gravity g at the surface of the Earth, of mass M and radius R, is given by:",
+    "options": [
+      "g = GM/R",
+      "g = GM/R²",
+      "g = G/(MR²)",
+      "g = GM²/R"
+    ],
+    "ans": 1,
+    "solution": "The weight is mg = GMm/R². So g does not depend on the mass m of the body. Heavy and light bodies fall with the same acceleration, if the air is absent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m11",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of g, compared with its value at the surface, at a height h above the surface that is small compared with R, is nearly:",
+    "options": [
+      "g(1 − h²/R²)",
+      "g(1 + 2h/R)",
+      "g(1 − 2h/R)",
+      "g(1 − h/R)"
+    ],
+    "ans": 2,
+    "solution": "g_h = g R²/(R + h)² = g(1 + h/R)⁻² ≈ g(1 − 2h/R) for small h/R. It decreases with height.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m12",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of g at a depth d below the Earth's surface (the density being uniform) is:",
+    "options": [
+      "g(1 + d/R)",
+      "g R²/(R − d)²",
+      "g(1 − 2d/R)",
+      "g(1 − d/R)"
+    ],
+    "ans": 3,
+    "solution": "Only the mass of the sphere of radius R − d pulls on the body. This gives g_d = g(R − d)/R = g(1 − d/R). It is zero at the centre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m13",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "As we go from the surface of the Earth towards its centre, the value of g:",
+    "options": [
+      "decreases, and is zero at the centre",
+      "increases, and is infinite at the centre",
+      "increases, and is 2g at the centre",
+      "stays the same, and is g at the centre"
+    ],
+    "ans": 0,
+    "solution": "Inside the Earth, g is proportional to the distance from the centre (for uniform density). So it is the greatest at the surface, and it is zero at the centre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m14",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of g is the least at:",
+    "options": [
+      "the poles, as the rotation of the Earth reduces it most there",
+      "the poles, as the Earth is flattened there",
+      "the equator, as the Earth is flattened there",
+      "the equator, as the rotation of the Earth reduces it most there"
+    ],
+    "ans": 3,
+    "solution": "The effect of the rotation is Rω² cos²λ, which is the largest at the equator, where λ = 0, and zero at the poles. Also, the equatorial radius is larger. Both reduce g at the equator.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m15",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A body of mass m is r away from the Earth's centre. Taking the potential energy as zero at infinity, its gravitational potential energy is:",
+    "options": [
+      "−GMm/r²",
+      "−GMm/r",
+      "+GMm/r",
+      "+GMm/r²"
+    ],
+    "ans": 1,
+    "solution": "The force is attractive, so work must be done to take the mass to infinity. The energy is therefore negative at any finite distance. Near the surface, a change of height h changes it by mgh.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m16",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The escape speed from the surface of the Earth is given by:",
+    "options": [
+      "v = 2√(gR)",
+      "v = gR",
+      "v = √(2gR)",
+      "v = √(gR)"
+    ],
+    "ans": 2,
+    "solution": "The kinetic energy needed is equal to GMm/R. So (1/2)mv² = GMm/R = mgR, and v = √(2gR) = 11.2 km/s. It does not depend on the mass of the body.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m17",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The escape speed from the Earth for a body of mass 100 kg, compared with that for a body of mass 1 kg, is:",
+    "options": [
+      "the same, as it does not depend on the mass of the body",
+      "10 times as large, as it depends on the root of the mass",
+      "one hundredth as large, as it varies inversely with the mass",
+      "100 times as large, as the mass is 100 times as large"
+    ],
+    "ans": 0,
+    "solution": "v_e = √(2GM/R) contains only the mass and the radius of the Earth. The kinetic energy needed is proportional to the mass of the body, but so is the energy that is available from the speed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m18",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The orbital (critical) speed of a satellite in a circular orbit of radius r = R + h round the Earth is:",
+    "options": [
+      "v = √(GM/r), which depends on the mass of the satellite",
+      "v = GM/r, which does not depend on the mass of the satellite",
+      "v = √(GM/r), which does not depend on the mass of the satellite",
+      "v = √(2GM/r), which does not depend on the mass of the satellite"
+    ],
+    "ans": 2,
+    "solution": "The gravitational force provides the centripetal force: GMm/r² = mv²/r. The mass m cancels. A higher orbit has a smaller speed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m19",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The time period of a satellite going round the Earth in a circular orbit of radius r is proportional to:",
+    "options": [
+      "r",
+      "r^(1/2)",
+      "r²",
+      "r^(3/2)"
+    ],
+    "ans": 3,
+    "solution": "T = 2πr/v = 2π√(r³/GM). This is Kepler's third law, T² ∝ r³. A satellite in a higher orbit takes a longer time to go round.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m20",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An astronaut inside a satellite going round the Earth feels weightless because:",
+    "options": [
+      "the astronaut is too far from the Earth to feel gravity",
+      "the astronaut and the satellite are both in free fall with the same acceleration",
+      "the force of gravity is zero at that height",
+      "the force of gravity is cancelled by the pull of the Moon"
+    ],
+    "ans": 1,
+    "solution": "Gravity at the height of the satellite is not much weaker (about 90 percent of g at a height of 300 km). The reading of a scale is zero because both fall together, and there is no force between the astronaut and the floor.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m21",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A satellite going round the Earth in a circular orbit has its speed raised above the critical speed, but less than the escape speed. Its orbit becomes:",
+    "options": [
+      "a spiral, which ends on the surface of the Earth",
+      "a straight line away from the Earth, as it escapes",
+      "a circle of a larger radius, going at the same speed",
+      "an ellipse, with the starting point as the closest point to the Earth"
+    ],
+    "ans": 3,
+    "solution": "With more than the circular speed but less than escape speed, the satellite is bound, and it follows an ellipse. At the escape speed, the orbit is a parabola, and the satellite leaves the Earth.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-m22",
+    "ch": "phy-11-05",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The geostationary satellite of the Earth has a time period of:",
+    "options": [
+      "12 hours, and it moves from east to west in any plane",
+      "90 minutes, and it moves from west to east in the equatorial plane",
+      "24 hours, and it moves from west to east in the equatorial plane",
+      "24 hours, and it moves from pole to pole"
+    ],
+    "ans": 2,
+    "solution": "It goes round once in a day in the same sense as the Earth's rotation, so it stays above the same point of the equator. Its height is about 36 000 km above the surface.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-05-n01",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the gravitational force between a 10 kg mass and a 20 kg mass whose centres are 1.0 m apart, in units of 10⁻⁹ N, to 2 decimal places (G = 6.67 × 10⁻¹¹ N m²/kg²). Give your answer to 2 decimal places.",
+    "ans": 13.34,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "F = Gm₁m₂/r² = 6.67 × 10⁻¹¹ × 10 × 20/1² = 1.334 × 10⁻⁸ N = 13.34 × 10⁻⁹ N. Check: the force is the slope of the potential energy curve, F = dU/dr with U = −Gm₁m₂/r, and a small step in r gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n02",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the acceleration due to gravity at a height of 3.2 × 10⁶ m above the surface of the Earth (radius 6.4 × 10⁶ m), if its value at the surface is 9.8 m/s². Give the answer to 3 decimal places. Use the exact inverse-square law. Give your answer to 3 decimal places.",
+    "ans": 4.356,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "g_h = gR²/(R + h)² = 9.8 × (6.4/9.6)² = 9.8 × 0.4444 = 4.356 m/s². Check: the force per unit mass at the distance 9.6 × 10⁶ m, with GM = gR² = 4.014 × 10¹⁴ m³/s², is 4.014 × 10¹⁴/(9.6 × 10⁶)² = 4.356 m/s².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n03",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the acceleration due to gravity at a height of 6.4 km above the surface of the Earth (R = 6400 km, g = 9.8 m/s² at the surface), using the approximate formula g_h = g(1 − 2h/R), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 9.78,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "h/R = 6.4/6400 = 0.001. g_h ≈ 9.8 × (1 − 0.002) = 9.78 m/s². Check: the exact value, 9.8/(1.001)² = 9.7805 m/s², is the same to two decimal places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n04",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the acceleration due to gravity at a depth of 1.6 × 10⁶ m below the surface of the Earth (radius 6.4 × 10⁶ m, uniform density), if its value at the surface is 9.8 m/s². Give the answer to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 7.35,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "g_d = g(1 − d/R) = 9.8 × (1 − 0.25) = 7.35 m/s². Check: only the mass inside the sphere of radius 4.8 × 10⁶ m attracts the body. With the density found from the surface value of g, GM_inside/r² = 7.35 m/s².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n05",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the escape speed from the surface of the Earth, in km/s, to 1 decimal place (g = 9.8 m/s², R = 6.4 × 10⁶ m). Give your answer to 1 decimal place.",
+    "ans": 11.2,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v = √(2gR) = √(2 × 9.8 × 6.4 × 10⁶) = √(1.254 × 10⁸) = 1.12 × 10⁴ m/s = 11.2 km/s. Check: the work per kilogram to lift a body from the surface to a very large distance, by adding up GM/r² over the path, is gR = 6.3 × 10⁷ J/kg, and v = √(2 × 6.3 × 10⁷) = 11.2 km/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n06",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the orbital speed of a satellite that goes round the Earth very close to its surface, in km/s, to 2 decimal places (g = 9.8 m/s², R = 6.4 × 10⁶ m). Give your answer to 2 decimal places.",
+    "ans": 7.92,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The gravity provides the centripetal force: mg = mv²/R, so v = √(gR) = √(9.8 × 6.4 × 10⁶) = 7.92 × 10³ m/s = 7.92 km/s. Check: finding the lowest speed for which v²/R is at least g gives 7.92 km/s, to within a metre per second.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n07",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A satellite goes round the Earth in a circular orbit at a height equal to the radius of the Earth (R = 6.4 × 10⁶ m, g = 9.8 m/s²). Find its time period, in hours, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.99,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "r = 2R, and GM = gR². T = 2π√(r³/GM) = 2π√(8R³/(gR²)) = 2π√(8R/g) = 14 360 s = 3.99 hours. Check: a satellite at the surface has T = 2π√(R/g) = 5077 s. By Kepler's third law, T² ∝ r³, so for r = 2R, T = 5077 × 2^(3/2) = 14 360 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n08",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A planet has 1/10 of the mass of the Earth and 1/2 of its radius. Find the acceleration due to gravity at its surface, in m/s², to 2 decimal places (G = 6.67 × 10⁻¹¹, M_E = 6.0 × 10²⁴ kg, R_E = 6.4 × 10⁶ m). Give your answer to 2 decimal places.",
+    "ans": 3.91,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "g ∝ M/R². The ratio is (1/10)/(1/2)² = 0.4. For the Earth, g = GM/R² = 6.67 × 10⁻¹¹ × 6.0 × 10²⁴/(6.4 × 10⁶)² = 9.77 m/s². So g' = 0.4 × 9.77 = 3.91 m/s². Check: using the mass and the radius of the planet directly in GM/R² gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n09",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "A planet moves round the Sun in a circular orbit of a radius 4 times that of the Earth's orbit. Find its time period, in years, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 8.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "By Kepler's third law, T² ∝ r³, so T = 4^(3/2) = 8.0 years. Check: the value of T for which T²/r³ is equal to its value for the Earth (1 year, r = 1) is 8.0 years.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-05-n10",
+    "ch": "phy-11-05",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the gravitational potential energy of a 2.0 kg mass on the surface of the Earth, taking it as zero at infinity, in units of 10⁸ J, to 2 decimal places (G = 6.67 × 10⁻¹¹, M = 6.0 × 10²⁴ kg, R = 6.4 × 10⁶ m). Give your answer to 2 decimal places.",
+    "ans": -1.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "U = −GMm/R = −6.67 × 10⁻¹¹ × 6.0 × 10²⁴ × 2.0/6.4 × 10⁶ = −1.25 × 10⁸ J. Check: this is minus the work needed to take the mass to infinity. Adding up the force over the path from R to 2000R, and then the part beyond, gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-m01",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Heat is:",
+    "options": [
+      "the average speed of the molecules of a body",
+      "a substance that is stored inside a hot body",
+      "the temperature of a body, measured in kelvin",
+      "energy that flows from a hotter body to a colder one"
+    ],
+    "ans": 3,
+    "solution": "Heat is energy in transit, because of a temperature difference. Temperature is a measure of how hot a body is, and it decides in which direction heat flows.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m02",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two bodies are in thermal contact. Heat flows from the first to the second when the first has:",
+    "options": [
+      "a larger quantity of heat than the second",
+      "a higher temperature than the second",
+      "a higher specific heat than the second",
+      "more mass than the second"
+    ],
+    "ans": 1,
+    "solution": "The direction of the flow depends only on the temperature. A large cold lake holds more thermal energy than a hot cup of tea, but the heat flows from the tea to the lake.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m03",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The temperatures of the ice point and the steam point on the Celsius scale are:",
+    "options": [
+      "32 °C and 100 °C",
+      "273 °C and 373 °C",
+      "0 °C and 100 °C",
+      "0 °C and 212 °C"
+    ],
+    "ans": 2,
+    "solution": "These are the two fixed points of the Celsius scale, with 100 equal divisions between them. On the Fahrenheit scale, they are 32 °F and 212 °F, with 180 divisions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m04",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The relation between the readings in Celsius (C) and Fahrenheit (F) scales is:",
+    "options": [
+      "C/100 = (F − 32)/180",
+      "C/100 = (F + 32)/180",
+      "C/100 = F/180",
+      "C/180 = (F − 32)/100"
+    ],
+    "ans": 0,
+    "solution": "The Fahrenheit scale has 180 divisions between the fixed points, and the Celsius scale has 100. The two scales have different zeros, so 32 is subtracted from F.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m05",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A temperature on the Fahrenheit scale reads the same as on the Celsius scale at:",
+    "options": [
+      "100",
+      "32",
+      "−40",
+      "0"
+    ],
+    "ans": 2,
+    "solution": "Putting C = F = x in C/100 = (F − 32)/180: 180x = 100x − 3200, so x = −40.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m06",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The temperature of absolute zero is:",
+    "options": [
+      "−273.15 °C, or 0 K",
+      "−273.15 K, or 0 °C",
+      "0 °C, or 273.15 K",
+      "−100 °C, or 173 K"
+    ],
+    "ans": 0,
+    "solution": "The volume of an ideal gas at a constant pressure falls linearly with temperature, and would reach zero at −273.15 °C. This is the zero of the absolute (Kelvin) scale: T(K) = t(°C) + 273.15.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m07",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the gas laws, the temperature must be written:",
+    "options": [
+      "in any scale, as the laws are not affected",
+      "in Fahrenheit, as it is the scale of the gas",
+      "in Celsius, as the scale is easier to use",
+      "in kelvin, as the pressure and volume are proportional to it"
+    ],
+    "ans": 3,
+    "solution": "PV = nRT uses the absolute temperature. Using Celsius would give a wrong answer, and could even give a zero or negative volume.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m08",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A gas is heated at constant volume, from 300 K to 600 K. Its pressure becomes:",
+    "options": [
+      "four times the original",
+      "twice the original",
+      "unchanged",
+      "half of the original"
+    ],
+    "ans": 1,
+    "solution": "At constant volume, P ∝ T (Gay-Lussac's law). The absolute temperature has doubled, so the pressure doubles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m09",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of state of n moles of an ideal gas is:",
+    "options": [
+      "PV = nRT",
+      "PT = nRV",
+      "P = nRTV",
+      "PV = RT/n"
+    ],
+    "ans": 0,
+    "solution": "It combines Boyle's law, Charles' law and Avogadro's law. R = 8.314 J/(mol K) is the universal gas constant. The pressure must be the absolute pressure, and not the gauge pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m10",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The coefficient of linear expansion α of a solid is defined by:",
+    "options": [
+      "α = ΔL ΔT/L",
+      "α = ΔL/ΔT",
+      "α = ΔL/(L ΔT)",
+      "α = L ΔT/ΔL"
+    ],
+    "ans": 2,
+    "solution": "It is the fractional increase in length per unit rise in temperature. Its unit is K⁻¹ (or °C⁻¹). A rise of 1 K is the same as a rise of 1 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m11",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For an isotropic solid, the coefficients of linear (α), area (β) and volume (γ) expansion are related by:",
+    "options": [
+      "α : β : γ = 1 : 3 : 2",
+      "α : β : γ = 1 : 2 : 3",
+      "α : β : γ = 3 : 2 : 1",
+      "α : β : γ = 1 : 1 : 1"
+    ],
+    "ans": 1,
+    "solution": "A change in each of the 3 dimensions by the fraction αΔT changes the area by 2αΔT and the volume by 3αΔT, if αΔT is small. So β = 2α and γ = 3α.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m12",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A metal plate with a circular hole in it is heated. The diameter of the hole:",
+    "options": [
+      "stays the same, as the metal expands outwards",
+      "becomes zero, as the metal fills the hole",
+      "decreases, as the metal expands into the hole",
+      "increases, as the hole expands just like the material around it"
+    ],
+    "ans": 3,
+    "solution": "Think of the hole filled with the same metal. This disc would expand when heated, and so does the hole. All the lengths on the plate grow by the same fraction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m13",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The specific heat capacity of a substance is the heat needed to:",
+    "options": [
+      "change 1 kg of it to a gas at its boiling point",
+      "raise the temperature of 1 kg of it by 1 K",
+      "raise the temperature of 1 kg of it from 0 °C to 100 °C",
+      "raise the temperature of the whole body by 1 K"
+    ],
+    "ans": 1,
+    "solution": "Q = ms ΔT. The heat capacity of a body, ms, is for the whole body. Water has a very high specific heat, 4200 J/(kg K), which is why it is used for cooling, and why the sea moderates the climate.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m14",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a calorimeter experiment, a hot metal piece is put in cold water. The principle of calorimetry says that, if no heat is lost to the surroundings:",
+    "options": [
+      "the final temperature is the average of the two initial temperatures",
+      "the mass of the hot body equals the mass of the water",
+      "the temperature lost by the hot body equals the temperature gained by the water",
+      "the heat lost by the hot body equals the heat gained by the cold bodies"
+    ],
+    "ans": 3,
+    "solution": "This is the conservation of energy. The calorimeter and the stirrer also gain heat, so they must be included. The final temperature is the simple average only when the heat capacities are equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m15",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "During a change of state, such as melting of ice at 0 °C, the heat that is supplied:",
+    "options": [
+      "does not change the temperature, but is used to change the state",
+      "lowers the temperature, as the substance becomes less rigid",
+      "is not absorbed, as the temperature is constant",
+      "raises the temperature, as the substance takes in energy"
+    ],
+    "ans": 0,
+    "solution": "The heat, called the latent heat, is used to break the bonds between the molecules, and not to increase the kinetic energy of the molecules. The temperature stays constant until the change is complete.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m16",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The heat needed to change 1 kg of a substance from solid to liquid, at the melting point, is called its:",
+    "options": [
+      "specific heat capacity",
+      "heat capacity",
+      "latent heat of fusion",
+      "latent heat of vaporisation"
+    ],
+    "ans": 2,
+    "solution": "Q = mL. For ice, the latent heat of fusion is 3.33 × 10⁵ J/kg. The latent heat of vaporisation of water is much larger, 22.6 × 10⁵ J/kg.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m17",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The latent heat of vaporisation of water is much larger than its latent heat of fusion because:",
+    "options": [
+      "the mass of water changes more in vaporisation than in fusion",
+      "water is a gas at a higher temperature than at the freezing point",
+      "in fusion, the molecules must be separated completely, and the water pushes the air back",
+      "in vaporisation, the molecules must be separated completely, and the gas pushes the air back"
+    ],
+    "ans": 3,
+    "solution": "Going from the liquid to the gas, the molecules are taken far apart, and work is done against the atmosphere as the volume rises 1600 times. Going from the solid to the liquid, the molecules stay close.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m18",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Heat reaches us from the Sun through the empty space by:",
+    "options": [
+      "radiation, which needs no medium",
+      "conduction, which needs no medium",
+      "convection, which needs a fluid medium",
+      "conduction, which needs a solid medium"
+    ],
+    "ans": 0,
+    "solution": "Conduction needs a material medium with a temperature gradient, and convection needs a fluid that can flow. Radiation is by electromagnetic waves, which can go through a vacuum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m19",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Heat is carried from one end of a metal rod to the other end by:",
+    "options": [
+      "convection, without any movement of the matter",
+      "conduction, without any movement of the matter",
+      "radiation, with the movement of the matter",
+      "convection, with the movement of the matter"
+    ],
+    "ans": 1,
+    "solution": "In conduction, the energy passes from molecule to molecule, with the molecules staying in their places. In convection, the heated fluid itself moves and takes the energy with it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m20",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The rate of flow of heat through a rod of length x and cross-section A, with the ends at temperatures T₁ and T₂, is:",
+    "options": [
+      "kA(T₁ − T₂)x, where k is the thermal conductivity",
+      "k(T₁ − T₂)/(Ax), where k is the thermal conductivity",
+      "kA(T₁ − T₂)/x, where k is the thermal conductivity",
+      "kAx/(T₁ − T₂), where k is the thermal conductivity"
+    ],
+    "ans": 2,
+    "solution": "The rate is proportional to the area and to the temperature difference, and inversely proportional to the length. The constant k depends on the material. It is large for metals and small for wood.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m21",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A rod of length L is made to conduct heat in a steady state. If its length is doubled, with the same area and the same end temperatures, the rate of heat flow:",
+    "options": [
+      "becomes double",
+      "becomes four times",
+      "becomes half",
+      "stays the same"
+    ],
+    "ans": 2,
+    "solution": "P = kA(T₁ − T₂)/L is inversely proportional to the length. A longer rod conducts less heat each second, since the temperature gradient is lower.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m22",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Newton's law of cooling states that the rate of loss of heat of a body is proportional to:",
+    "options": [
+      "the temperature of the body, measured from absolute zero",
+      "the mass of the body, and not its temperature",
+      "the square of the temperature of the surroundings",
+      "the difference between the temperature of the body and that of its surroundings"
+    ],
+    "ans": 3,
+    "solution": "|dT/dt| = C(T − T₀). The law is a good approximation only when the temperature difference is small, and for losses by forced convection.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m23",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A cup of tea cools from 80 °C to 60 °C in 5 minutes in a room at 20 °C. After another 5 minutes, by Newton's law, its temperature will be:",
+    "options": [
+      "40 °C",
+      "about 46.7 °C",
+      "about 50 °C",
+      "about 43.3 °C"
+    ],
+    "ans": 1,
+    "solution": "The excess over the room goes from 60 to 40, a factor of 2/3 in 5 minutes. After another 5 minutes, it is 40 × 2/3 = 26.7, so T = 20 + 26.7 = 46.7 °C. It does not fall by 20 degrees again, since the cooling is slower.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-m24",
+    "ch": "phy-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The temperature of a body is plotted against the time when it is heated at a steady rate and it melts. The graph during the melting is:",
+    "options": [
+      "flat, as the temperature stays constant while the latent heat is absorbed",
+      "a falling curve, as the solid is turning to a liquid",
+      "a vertical line, as the change is very fast",
+      "a rising straight line, as the energy supplied is constant"
+    ],
+    "ans": 0,
+    "solution": "The heat is used to change the state, and not the temperature. Before and after the flat part, the graph rises, with different slopes, since the specific heats of the solid and the liquid are different.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-06-n01",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Convert a body temperature of 37 °C to the Fahrenheit scale, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 98.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "F = (9/5)C + 32 = 66.6 + 32 = 98.6 °F. Check: C/100 = (F − 32)/180 gives (F − 32) = 180 × 0.37 = 66.6, so F = 98.6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n02",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A constant-volume gas thermometer reads a pressure of 100 kPa at the ice point and 137 kPa at the steam point. Find the temperature when its reading is 120 kPa, in °C, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 54.05,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "T = 100 (P − P₁)/(P₂ − P₁) = 100 × 20/37 = 54.05 °C. Check: the pressure is assumed to change in a straight line with temperature, 0.37 kPa for each degree. A search for the temperature that gives 120 kPa gives 54.05 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n03",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the pressure of 2.0 mol of an ideal gas at 300 K in a volume of 0.050 m³, in kPa, to 1 decimal place (R = 8.314 J/(mol K)). Give your answer to 1 decimal place.",
+    "ans": 99.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P = nRT/V = 2.0 × 8.314 × 300/0.050 = 9.98 × 10⁴ Pa = 99.8 kPa. Check: 2 mol at 273.15 K and 101.325 kPa has a volume of 44.8 L. Using P V/T = constant from that state to 300 K and 0.050 m³ gives 99.8 kPa.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n04",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A steel rail 20 m long at 10 °C has α = 1.2 × 10⁻⁵ per °C. Find the increase in its length when the temperature is 40 °C, in mm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 7.2,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "ΔL = αLΔT = 1.2 × 10⁻⁵ × 20 × 30 = 7.2 × 10⁻³ m = 7.2 mm. Check: adding up the small increases dL = αL dT as L grows step by step gives 7.2 mm. There is a gap in the track so that the rails do not buckle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n05",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A solid cube of volume 1000 cm³ has α = 1.1 × 10⁻⁵ per °C. Find the increase in its volume when it is heated by 100 °C, in cm³, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.3,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "γ = 3α = 3.3 × 10⁻⁵ per °C. ΔV = γVΔT = 3.3 × 10⁻⁵ × 1000 × 100 = 3.30 cm³. Check: each side becomes 1.0011 times as long, and the volume becomes 1.0011³ = 1.0033 times, an increase of 3.30 cm³ to two decimal places (the exact cube gives 3.3036).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n06",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "200 g of water at 80 °C is mixed with 300 g of water at 20 °C, in an insulated vessel. Find the final temperature, in °C, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 44.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Heat lost = heat gained: 200(80 − T) = 300(T − 20), so 16 000 − 200T = 300T − 6000, and T = 22 000/500 = 44.0 °C. Check: passing the heat from the hot water to the cold in many small steps until the two have the same temperature gives 44.0 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n07",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the heat needed to change 100 g of ice at −10 °C into water at 20 °C, in J (specific heat of ice 2100 J/(kg K), latent heat of fusion 3.33 × 10⁵ J/kg, specific heat of water 4200 J/(kg K)). Give your answer as a whole number.",
+    "ans": 43800.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Three steps. Warming the ice from −10 °C to 0 °C: 0.1 × 2100 × 10 = 2100 J. Melting: 0.1 × 3.33 × 10⁵ = 33 300 J. Warming the water from 0 °C to 20 °C: 0.1 × 4200 × 20 = 8400 J. The total is 43 800 J. Check: adding the heat in small steps, with the latent heat at 0 °C, gives the same total.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n08",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A copper rod 0.50 m long with a cross-section of 4.0 × 10⁻⁴ m² has its ends at 100 °C and 0 °C. The thermal conductivity of copper is 400 W/(m K). Find the rate of flow of heat in the steady state, in W, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 32.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P = kA(T₁ − T₂)/x = 400 × 4.0 × 10⁻⁴ × 100/0.50 = 32.0 W. Check: in the steady state, the temperature falls in a straight line along the rod. Finding it by averaging each point with its neighbours until nothing changes gives a gradient of 200 K/m, and kA × 200 = 32.0 W.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n09",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A cup of tea cools from 80 °C to 60 °C in 5 minutes in a room at 20 °C. Using Newton's law of cooling, find its temperature after a further 5 minutes, in °C, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 46.7,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The excess temperature falls by the same factor in equal times: (60 − 20)/(80 − 20) = 2/3. After the next 5 minutes, the excess is 40 × 2/3 = 26.7 °C, so T = 46.7 °C. Check: finding the cooling constant k from the first 5 minutes, and then following dT/dt = −k(T − 20) for a further 5 minutes in small steps, gives 46.7 °C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n10",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A metal block of mass 0.50 kg at 100 °C is dropped into 0.40 kg of water at 20 °C. The final temperature is 30 °C. Find the specific heat of the metal, in J/(kg K), taking the specific heat of water as 4200 J/(kg K). Ignore the heat taken by the vessel. Give your answer as a whole number.",
+    "ans": 480.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Heat lost by the metal = heat gained by the water: 0.50 × s × 70 = 0.40 × 4200 × 10 = 16 800 J. So s = 16 800/35 = 480 J/(kg K). Check: with s = 480, the heat lost is 0.50 × 480 × 70 = 16 800 J, and the heat gained is 16 800 J, so the two are equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-06-n11",
+    "ch": "phy-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A gas at 27 °C has a pressure of 1.000 atm in a rigid vessel. Find the pressure when the gas is heated to 127 °C, in atm, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.333,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "At constant volume, P/T is constant, with T in kelvin. T₁ = 300.15 K and T₂ = 400.15 K. P₂ = 1.000 × 400.15/300.15 = 1.333 atm. Check: with n/V found from PV = nRT at the first state, the second state gives the same pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-m01",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A wave transfers from one place to another:",
+    "options": [
+      "both the matter and the energy of the medium",
+      "energy, but not the matter of the medium",
+      "matter, but not the energy of the medium",
+      "neither the matter nor the energy of the medium"
+    ],
+    "ans": 1,
+    "solution": "The particles of the medium only oscillate about their mean positions, and pass the disturbance on to the next. The energy moves along with the wave, and the matter stays.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m02",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "In a transverse wave, the particles of the medium vibrate:",
+    "options": [
+      "only when the medium is a gas",
+      "along the direction in which the wave moves",
+      "in circles around the source of the wave",
+      "at right angles to the direction in which the wave moves"
+    ],
+    "ans": 3,
+    "solution": "Waves on a string and light waves are transverse, and they move as crests and troughs. A transverse wave can travel in a solid, but not in the bulk of a liquid or a gas, which cannot support a shear.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m03",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Sound waves in air are:",
+    "options": [
+      "longitudinal, made of crests and troughs",
+      "transverse, made of compressions and rarefactions",
+      "longitudinal, made of compressions and rarefactions",
+      "transverse, made of crests and troughs"
+    ],
+    "ans": 2,
+    "solution": "The particles of air vibrate along the direction of the wave. Regions of high pressure are compressions, and regions of low pressure are rarefactions. A longitudinal wave cannot be polarised.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m04",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The speed v, the frequency n and the wavelength λ of a wave are related by:",
+    "options": [
+      "v = nλ",
+      "v = n/λ",
+      "v = n + λ",
+      "v = λ/n²"
+    ],
+    "ans": 0,
+    "solution": "In one period T = 1/n, the wave moves forward by one wavelength, so v = λ/T = nλ. The speed is fixed by the medium. If the wave goes into another medium, its frequency stays the same, and the wavelength changes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m05",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation y = a sin(kx − ωt) represents a wave that is:",
+    "options": [
+      "travelling along the y axis",
+      "travelling in the positive x direction",
+      "a standing wave, which does not travel",
+      "travelling in the negative x direction"
+    ],
+    "ans": 1,
+    "solution": "A point of constant phase has kx − ωt = constant, so x increases with t. The speed of the wave is ω/k. For a wave going in the negative x direction, the sign between the two terms is plus.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m06",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A wave is given by y = 0.02 sin(3x − 900t), with x and y in metres and t in seconds. The speed of the wave is:",
+    "options": [
+      "2700 m/s",
+      "270 m/s",
+      "300 m/s",
+      "0.0033 m/s"
+    ],
+    "ans": 2,
+    "solution": "Comparing with y = a sin(kx − ωt): k = 3 rad/m and ω = 900 rad/s. The speed is v = ω/k = 900/3 = 300 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m07",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The speed of a transverse wave on a stretched string, with the tension T and the mass per unit length m, is:",
+    "options": [
+      "√(Tm)",
+      "T/m",
+      "√(m/T)",
+      "√(T/m)"
+    ],
+    "ans": 3,
+    "solution": "A greater tension gives a faster wave, since the restoring force is larger. A heavier string gives a slower wave, since it has more inertia.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m08",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The tension in a stretched string is made four times as large. The speed of the waves on it becomes:",
+    "options": [
+      "twice as large",
+      "unchanged",
+      "half as large",
+      "four times as large"
+    ],
+    "ans": 0,
+    "solution": "v ∝ √T. With T → 4T, v → √4 × v = 2v.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m09",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The speed of sound in a gas, from Laplace's formula, is:",
+    "options": [
+      "v = √(γP/ρ)",
+      "v = √(P/ρ)",
+      "v = √(ρ/γP)",
+      "v = γP/ρ"
+    ],
+    "ans": 0,
+    "solution": "Newton used the isothermal value √(P/ρ), which is too low (280 m/s). Laplace saw that the compressions are so fast that no heat flows, so the change is adiabatic, and the factor γ must be included.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m10",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The speed of sound in air at a constant temperature, when the pressure of the air is increased, is:",
+    "options": [
+      "increased, as the pressure of the gas is larger than before",
+      "decreased, as the density of the gas is larger than before",
+      "unchanged, as the density changes in the same ratio as the pressure",
+      "doubled, if the pressure of the gas is doubled, and so on"
+    ],
+    "ans": 2,
+    "solution": "In v = √(γP/ρ), P/ρ is constant at a constant temperature, by Boyle's law (P ∝ ρ). So the speed depends on the temperature only.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m11",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The speed of sound in air is larger in moist air than in dry air at the same temperature, because:",
+    "options": [
+      "moist air has a lower pressure than dry air",
+      "moist air has more particles in a unit volume",
+      "moist air is denser, as water vapour is heavier than air",
+      "moist air is less dense, as water vapour is lighter than air"
+    ],
+    "ans": 3,
+    "solution": "The molecules of water (18) are lighter than those of nitrogen (28) and oxygen (32). So the density of moist air is a little lower at the same pressure, and v = √(γP/ρ) is higher.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m12",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The speed of sound in air increases with the temperature by about:",
+    "options": [
+      "61 m/s for each degree Celsius",
+      "0.61 m/s for each degree Celsius",
+      "0.061 m/s for each degree Celsius",
+      "6.1 m/s for each degree Celsius"
+    ],
+    "ans": 1,
+    "solution": "v_t ≈ 331 + 0.61t m/s. At 0 °C, it is 331 m/s, and at 20 °C it is about 343 m/s. In general, v ∝ √T for T in kelvin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m13",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The principle of superposition states that when two waves overlap in a medium, the resultant displacement at a point is:",
+    "options": [
+      "always zero, as the waves cancel each other",
+      "the larger of the two displacements that each wave would produce alone",
+      "the product of the displacements that each wave would produce alone",
+      "the sum of the displacements that each wave would produce alone"
+    ],
+    "ans": 3,
+    "solution": "After they have passed through each other, the waves continue as before. The displacements are added as vectors, with their signs.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m14",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two waves of amplitudes 3 cm and 4 cm travel in the same direction and meet in phase (a phase difference of zero). The amplitude of the resultant is:",
+    "options": [
+      "5 cm",
+      "12 cm",
+      "7 cm",
+      "1 cm"
+    ],
+    "ans": 2,
+    "solution": "In phase, the displacements add up: 3 + 4 = 7 cm. In opposite phase, the amplitude is 4 − 3 = 1 cm. With a phase difference of 90°, it is √(9 + 16) = 5 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m15",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An echo is heard when sound is reflected from a hard surface. For a clear echo, the reflecting surface should be at least about:",
+    "options": [
+      "34 m away, as the sound must go to the wall only",
+      "17 m away, as the ear keeps a sound for about 0.1 s",
+      "340 m away, as the ear keeps a sound for 1 s",
+      "1.7 m away, as the ear keeps a sound for 0.01 s"
+    ],
+    "ans": 1,
+    "solution": "The sound goes to the wall and back, so it travels twice the distance. In 0.1 s, it covers 34 m at 340 m/s, so the wall must be 17 m away.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m16",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Reverberation in a hall is:",
+    "options": [
+      "the persistence of sound after the source has stopped, because of many reflections",
+      "the change in the frequency heard when the source moves",
+      "the increase in the speed of sound in a hot room",
+      "the cancellation of sound by two overlapping waves"
+    ],
+    "ans": 0,
+    "solution": "Too much reverberation makes the speech unclear, and too little makes the hall dull. Curtains, carpets and the audience absorb the sound and reduce it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m17",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The pitch of a musical note depends on its:",
+    "options": [
+      "frequency, and a higher frequency gives a shriller note",
+      "amplitude, and a higher amplitude gives a shriller note",
+      "overtones, and more overtones give a shriller note",
+      "wave speed, and a higher speed gives a shriller note"
+    ],
+    "ans": 0,
+    "solution": "Loudness depends on the amplitude (intensity), and the quality (timbre) depends on the overtones. Two notes of the same pitch and loudness from a flute and a violin sound different because of the different overtones.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m18",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The intensity of a sound is increased 100 times. The sound level in decibels rises by:",
+    "options": [
+      "2 dB",
+      "100 dB",
+      "10 dB",
+      "20 dB"
+    ],
+    "ans": 3,
+    "solution": "The level is L = 10 log₁₀(I/I₀). A factor of 100 adds 10 log₁₀ 100 = 20 dB. Each factor of 10 in intensity adds 10 dB.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m19",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Doppler effect is the change in the frequency heard by a listener when:",
+    "options": [
+      "the amplitude of the sound from the source is changed",
+      "the source and the listener are in relative motion",
+      "the source and the listener are at rest in the same medium",
+      "the medium between them is heated"
+    ],
+    "ans": 1,
+    "solution": "When they approach each other, the frequency heard is higher. When they move apart, it is lower. The speed of sound in the medium is not changed by the motion of the source.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m20",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A source of sound moves towards a stationary listener. Compared with the frequency of the source, the frequency heard is:",
+    "options": [
+      "higher, and the wavelength in the air in front of the source is longer",
+      "lower, and the wavelength in the air in front of the source is shorter",
+      "higher, and the wavelength in the air in front of the source is shorter",
+      "the same, and the speed of the sound is higher"
+    ],
+    "ans": 2,
+    "solution": "The source follows its own waves, and crowds the crests together in front of it. The wavelength is shorter by v_s/n₀. The speed of sound in air is unchanged, so n = v/λ is higher.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m21",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A source of frequency n₀ moves away from a stationary listener with the speed v_s. The speed of sound is v. The frequency heard is:",
+    "options": [
+      "n₀ v/(v − v_s)",
+      "n₀ (v + v_s)/v",
+      "n₀ (v − v_s)/v",
+      "n₀ v/(v + v_s)"
+    ],
+    "ans": 3,
+    "solution": "When the source recedes, the wavelength is stretched to (v + v_s)/n₀, and the frequency heard is v divided by this. For an approaching source, the sign is minus in the denominator.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m22",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A listener moves towards a stationary source of sound with a speed v_L. The frequency heard is:",
+    "options": [
+      "n₀ (v − v_L)/v",
+      "n₀ v/(v − v_L)",
+      "n₀ (v + v_L)/v",
+      "n₀ v/(v + v_L)"
+    ],
+    "ans": 2,
+    "solution": "The listener meets the crests at the rate (v + v_L)/λ, and λ = v/n₀ is unchanged. So n = n₀(v + v_L)/v. The frequency is higher.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-m23",
+    "ch": "phy-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For two sound waves to produce a stable pattern of loud and soft sounds at a point, the waves must have:",
+    "options": [
+      "different frequencies, and a fixed phase difference",
+      "the same frequency, and a fixed phase difference",
+      "the same frequency, and a phase difference that changes quickly",
+      "the same amplitude, and a different speed"
+    ],
+    "ans": 1,
+    "solution": "Such sources are coherent. If the frequency is different, or the phase difference changes, the pattern changes in time, and the loud and soft places are not steady.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-07-n01",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 2,
+    "q": "A wave is given by y = 0.02 sin(3x − 900t), with x in metres and t in seconds. Find its speed, in m/s, to the nearest 1 m/s. Give your answer as a whole number.",
+    "ans": 300.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Compare with y = a sin(kx − ωt): k = 3 rad/m, ω = 900 rad/s. v = ω/k = 300 m/s. Check: following a crest, where the phase 3x − 900t is equal to π/2, the crest is at x = (π/2 + 900t)/3. In 1 ms, it moves by 0.3 m, which gives 300 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n02",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 2,
+    "q": "A string has a mass per unit length of 0.040 kg/m and is stretched with a tension of 100 N. Find the speed of transverse waves on it, in m/s, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 50.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "v = √(T/m) = √(100/0.040) = √2500 = 50.0 m/s. Check: the speed for which the mass per unit length times v² equals the tension is 50 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n03",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the speed of sound in air at 25 °C, in m/s, to the nearest 1 m/s, using v = 331 + 0.61t (the speed at 0 °C is 331 m/s). Give your answer as a whole number.",
+    "ans": 346.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v = 331 + 0.61 × 25 = 346.25 m/s, which is about 346 m/s. Check: since v is proportional to √T, v = 331 × √(298.15/273.15) = 345.8 m/s, which is also 346 m/s to the nearest 1 m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n04",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the speed of sound in air at 0 °C and 1.013 × 10⁵ Pa, from v = √(γP/ρ) with γ = 1.4 and ρ = 1.29 kg/m³, to the nearest 1 m/s. Give your answer as a whole number.",
+    "ans": 332.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "v = √(γP/ρ) = √(1.4 × 1.013 × 10⁵/1.29) = √(1.099 × 10⁵) = 332 m/s. Check: for an ideal gas, P/ρ = RT/M, so v = √(γRT/M) = √(1.4 × 8.314 × 273.15/0.0288) = 332 m/s, with M = 28.8 g/mol for air.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n05",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 2,
+    "q": "A person stands 170 m from a cliff and claps. Find the time after which the echo is heard, in s, to 2 decimal places (speed of sound 340 m/s). Give your answer to 2 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The sound goes to the cliff and back, so the distance is 2 × 170 = 340 m. t = 340/340 = 1.00 s. Check: following the pulse in small steps to the cliff and back gives 1.00 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n06",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "The distance from a point source of sound is tripled. By how many decibels does the sound level fall? Give the answer to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 9.54,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The intensity of a point source falls as 1/r², so for 3 times the distance, it is 1/9. The fall in the level is 10 log₁₀ 9 = 9.54 dB. Check: 20 log₁₀ 3 = 9.54 dB, which is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n07",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A source of frequency 500 Hz moves towards a stationary listener at 20 m/s. The speed of sound is 340 m/s. Find the frequency heard, in Hz, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 531.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "n = n₀ v/(v − v_s) = 500 × 340/320 = 531.25 Hz. Check: the source moves 20/500 = 0.04 m between two crests, so in front of it the crests are 340/500 − 0.04 = 0.64 m apart. They pass the listener at 340 m/s, so the number per second is 340/0.64 = 531.25.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n08",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A source of frequency 500 Hz moves at 20 m/s towards a listener, who moves at 10 m/s towards the source. The speed of sound is 340 m/s. Find the frequency heard, in Hz, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 546.88,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "n = n₀(v + v_L)/(v − v_s) = 500 × 350/320 = 546.88 Hz. Check: counting the crests that reach the moving listener in a given time, as in the previous question, gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n09",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Two waves of the same frequency, with amplitudes 3 cm and 4 cm, travel in the same direction with a phase difference of 60°. Find the amplitude of the resultant wave, in cm, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 6.08,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "A = √(a² + b² + 2ab cos φ) = √(9 + 16 + 24 × 0.5) = √37 = 6.08 cm. Check: adding the two waves as rotating arrows (phasors) of lengths 3 and 4, with an angle of 60° between them, gives a resultant of length 6.08 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n10",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 2,
+    "q": "For a wave y = a sin(4.0x − ωt) (x in metres), find the wavelength, in m, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.571,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "k = 2π/λ, so λ = 2π/k = 2 × 3.1416/4.0 = 1.571 m. Check: scanning along x at a fixed time, the distance between two neighbouring crests is 1.571 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-07-n11",
+    "ch": "phy-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A ship sends a sonar pulse that returns from the sea floor after 0.80 s. The speed of sound in sea water is 1500 m/s. Find the depth of the sea, in m. Give your answer as a whole number.",
+    "ans": 600.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The pulse goes down and comes back, so 2d = vt = 1500 × 0.80 = 1200 m, and d = 600 m. Check: a pulse that goes 600 m down and 600 m up at 1500 m/s takes 0.80 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-m01",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The speed of light in vacuum is about:",
+    "options": [
+      "340 m/s",
+      "3 × 10⁸ m/s",
+      "3 × 10⁶ m/s",
+      "3 × 10¹⁰ m/s"
+    ],
+    "ans": 1,
+    "solution": "The speed of light in vacuum is c = 3 × 10⁸ m/s. It is the greatest speed in nature. In a medium, such as glass or water, light travels more slowly.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m02",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The laws of reflection state that the angle of incidence is equal to the angle of reflection, and that:",
+    "options": [
+      "the angle of reflection is twice the angle of incidence",
+      "the incident ray and the reflected ray are in different planes",
+      "the incident ray, the reflected ray and the normal lie in the same plane",
+      "the reflected ray is along the normal to the surface"
+    ],
+    "ans": 2,
+    "solution": "Both angles are measured from the normal. The incident ray, the reflected ray and the normal at the point of incidence all lie in one plane.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m03",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two plane mirrors are inclined at 60° to each other. The number of images of an object that is placed between them is:",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "ans": 3,
+    "solution": "The number of images is n = 360°/θ − 1 = 360/60 − 1 = 5, when 360/θ is an even number. The images lie on a circle that goes through the object, with the line of the mirrors' meeting at the centre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m04",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The image formed by a plane mirror is:",
+    "options": [
+      "virtual, erect, and as far behind the mirror as the object is in front",
+      "virtual, erect, and magnified by a factor that depends on the distance",
+      "real, erect, and as far in front of the mirror as the object is",
+      "real, inverted, and as far behind the mirror as the object is in front"
+    ],
+    "ans": 0,
+    "solution": "A plane mirror forms a virtual, erect image of the same size as the object, at the same distance behind the mirror. It is laterally inverted, as the left and the right sides are exchanged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m05",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The focal length f of a spherical mirror of radius of curvature R is:",
+    "options": [
+      "f = 2R",
+      "f = R/2",
+      "f = R/4",
+      "f = R"
+    ],
+    "ans": 1,
+    "solution": "For rays close to the axis, the ray that goes to the centre of curvature is reflected back along itself, and the focus is half-way between the pole and the centre. The relation is f = R/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m06",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The mirror formula, for a spherical mirror with the object at a distance u and the image at a distance v, is:",
+    "options": [
+      "f = v + u, with signs from the sign convention",
+      "1/f = 1/v − 1/u², with signs from the sign convention",
+      "1/f = 1/v + 1/u, with signs from the sign convention",
+      "1/f = v/u, with signs from the sign convention"
+    ],
+    "ans": 2,
+    "solution": "The formula is true for all spherical mirrors, if the sign convention is used consistently. The magnification is m = −v/u, which is negative for a real, inverted image.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m07",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An object is placed at the centre of curvature of a concave mirror. The image is:",
+    "options": [
+      "real, inverted, of the same size, and at the centre of curvature",
+      "real, inverted, magnified, and beyond the centre of curvature",
+      "real, erect, and at the focus of the mirror",
+      "virtual, erect, and of the same size as the object"
+    ],
+    "ans": 0,
+    "solution": "With u = 2f, 1/v = 1/f − 1/(2f) = 1/(2f), so v = 2f. The magnification is −1. The object and the image are both at the centre of curvature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m08",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The refractive index n of a medium is the ratio:",
+    "options": [
+      "v/c, the speed of light in the medium to that in vacuum",
+      "c × v, the product of the two speeds",
+      "c − v, the difference of the two speeds",
+      "c/v, the speed of light in vacuum to the speed in the medium"
+    ],
+    "ans": 3,
+    "solution": "n = c/v is always greater than 1 for a material medium. For water it is about 1.33, for glass about 1.5, and for diamond 2.42. A larger n means that light is slower in the medium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m09",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Snell's law for the refraction of light from a medium 1 into a medium 2 is:",
+    "options": [
+      "n₁ sin r = n₂ sin i",
+      "n₁/sin i = n₂ sin r",
+      "n₁ sin i = n₂ sin r",
+      "n₁ cos i = n₂ cos r"
+    ],
+    "ans": 2,
+    "solution": "The angles are measured from the normal. Light bends towards the normal when it goes into the denser medium (n₂ greater than n₁), and away from the normal when it goes into the rarer medium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m10",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A pond of water, of refractive index 4/3, has a real depth of 12 cm. When it is looked at from above, almost vertically, its apparent depth is:",
+    "options": [
+      "9 cm",
+      "12 cm",
+      "16 cm",
+      "8 cm"
+    ],
+    "ans": 0,
+    "solution": "Apparent depth = real depth/n = 12/(4/3) = 9 cm. The bottom appears to be raised. The same reason makes a straight stick look bent at the surface of water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m11",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Total internal reflection can occur when light travels:",
+    "options": [
+      "from a rarer to a denser medium, at an angle of incidence greater than the critical angle",
+      "from a denser to a rarer medium, at an angle of incidence greater than the critical angle",
+      "from a rarer to a denser medium, at any angle of incidence",
+      "from a denser to a rarer medium, at an angle of incidence less than the critical angle"
+    ],
+    "ans": 1,
+    "solution": "For this to happen, the angle of refraction would have to be more than 90°. At the critical angle i_c, the refracted ray grazes the surface. Beyond it, all the light is reflected back into the denser medium.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m12",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The critical angle i_c for a medium of refractive index n (relative to air) is given by:",
+    "options": [
+      "cos i_c = 1/n",
+      "sin i_c = n",
+      "tan i_c = 1/n",
+      "sin i_c = 1/n"
+    ],
+    "ans": 3,
+    "solution": "At the critical angle, the angle of refraction is 90°: n sin i_c = 1 × sin 90°, so sin i_c = 1/n. For glass of n = 1.5, i_c = 41.8°, and for water, i_c = 48.6°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m13",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following is NOT an application of total internal reflection?",
+    "options": [
+      "the formation of a rainbow by the dispersion of sunlight in the drops of water",
+      "the working of an optical fibre, used for communication",
+      "the sparkling of a cut diamond",
+      "the bending of light in a right-angled prism, used in binoculars"
+    ],
+    "ans": 0,
+    "solution": "A rainbow is made by refraction and dispersion, and by one total reflection at the back of each drop, but its colours are from dispersion. The other three depend mainly on total internal reflection. An optical fibre carries a signal by repeated total internal reflections.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m14",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The lens maker's formula for a thin lens of refractive index n in air, with the radii of curvature R₁ and R₂, is:",
+    "options": [
+      "1/f = (n + 1)(1/R₁ − 1/R₂)",
+      "1/f = (n − 1)(1/R₁ + 1/R₂)",
+      "1/f = (n − 1)(1/R₁ − 1/R₂)",
+      "f = (n − 1)(R₁ − R₂)"
+    ],
+    "ans": 2,
+    "solution": "The formula comes from the refraction at the two curved surfaces. With the sign convention, for a double convex lens, R₁ is positive and R₂ is negative, so 1/f is positive and f is positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m15",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A thin lens has a focal length f. For an object at a distance u and an image at a distance v, the lens formula is:",
+    "options": [
+      "1/f = 1/v + 1/u, with the Cartesian sign convention",
+      "f = v − u, with the Cartesian sign convention",
+      "1/f = u − v, with the Cartesian sign convention",
+      "1/f = 1/v − 1/u, with the Cartesian sign convention"
+    ],
+    "ans": 3,
+    "solution": "In the Cartesian convention, u is negative for a real object. The magnification is m = v/u. The formula 1/f = 1/v + 1/u is the one for mirrors with the same sign convention.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m16",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An object is placed at a distance of 2f in front of a convex lens of focal length f. The image is:",
+    "options": [
+      "virtual, erect, of the same size, at a distance 2f",
+      "real, inverted, of the same size, at a distance 2f on the other side",
+      "real, erect, diminished, at the distance f",
+      "real, inverted, magnified, at a distance greater than 2f"
+    ],
+    "ans": 1,
+    "solution": "From 1/v = 1/f + 1/u with u = −2f: 1/v = 1/f − 1/(2f) = 1/(2f), so v = 2f, and m = v/u = −1. This is the way to measure the focal length by finding the position where the image is as large as the object.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m17",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Light of different colours is passed through a glass prism. The colour that is deviated the most is:",
+    "options": [
+      "violet, as its refractive index is the highest",
+      "red, as its wavelength is the longest",
+      "red, as its refractive index is the highest",
+      "green, as its wavelength is in the middle"
+    ],
+    "ans": 0,
+    "solution": "The refractive index of glass is larger for shorter wavelengths. So violet is bent the most, and red the least. This separation of the colours is dispersion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m18",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a prism with the angle A, at the position of minimum deviation δ_m, the refractive index is:",
+    "options": [
+      "n = sin(A + δ_m)/sin A",
+      "n = sin((A + δ_m)/2)/sin(A/2)",
+      "n = sin(A/2)/sin((A + δ_m)/2)",
+      "n = (A + δ_m)/A"
+    ],
+    "ans": 1,
+    "solution": "At minimum deviation, the ray passes symmetrically through the prism. Then r = A/2 and i = (A + δ_m)/2. Snell's law gives n = sin i/sin r.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m19",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The sky appears blue because the molecules of the air scatter:",
+    "options": [
+      "long wavelengths (red) much more than short wavelengths (blue)",
+      "only the ultraviolet, which the eye sees as blue",
+      "short wavelengths (blue) much more than long wavelengths (red)",
+      "all wavelengths equally, and the colour is from absorption"
+    ],
+    "ans": 2,
+    "solution": "The intensity of scattered light is proportional to 1/λ⁴ (Rayleigh scattering). Blue light, with a shorter wavelength, is scattered about 5 times as much as red light, so we see blue in all directions of the sky.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m20",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Chromatic aberration in a simple lens is caused by the fact that:",
+    "options": [
+      "the lens surfaces are spherical, and not parabolic",
+      "the lens is thicker at the centre than at the edge",
+      "the light is not reflected at the edges of the lens",
+      "the focal length is different for the different colours of light"
+    ],
+    "ans": 3,
+    "solution": "The refractive index, and so the focal length, is different for each colour, so the colours are focused at different points. An achromatic doublet, made of two lenses of different glasses, corrects this. The spherical aberration is the one that comes from the spherical surfaces.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m21",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnifying power of a simple microscope, with the final image at the near point D = 25 cm and the lens of focal length f, is:",
+    "options": [
+      "D/f",
+      "1 − D/f",
+      "f/D",
+      "1 + D/f"
+    ],
+    "ans": 3,
+    "solution": "With the image at the near point, M = 1 + D/f. With the image at infinity, which is more comfortable for the eye, M = D/f. A lens of a short focal length gives a high magnification.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m22",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The total magnifying power of a compound microscope is:",
+    "options": [
+      "the ratio of the focal length of the objective to that of the eyepiece",
+      "the sum of the magnification of the objective and that of the eyepiece",
+      "the product of the magnification of the objective and that of the eyepiece",
+      "the difference of the magnification of the objective and that of the eyepiece"
+    ],
+    "ans": 2,
+    "solution": "M = m_o × M_e. The objective forms a real, magnified image, which the eyepiece magnifies again. For a telescope, on the other hand, M = f_o/f_e.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-m23",
+    "ch": "phy-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a refracting telescope in normal adjustment, the magnifying power is:",
+    "options": [
+      "f_o/f_e, the ratio of the focal lengths of the objective and the eyepiece",
+      "f_e/f_o, the ratio of the focal lengths of the eyepiece and the objective",
+      "f_o + f_e, the sum of the focal lengths",
+      "f_o × f_e, the product of the focal lengths"
+    ],
+    "ans": 0,
+    "solution": "The objective has a long focal length, and the eyepiece has a short one. The length of the telescope in normal adjustment is f_o + f_e. The final image is at infinity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-08-n01",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 2,
+    "q": "Two plane mirrors are inclined at an angle of 60°. Find the number of images of a point object placed between them. Give your answer as a whole number.",
+    "ans": 5.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n = 360°/θ − 1 = 360/60 − 1 = 5. Check: the images lie at the angles 2kθ ± α from one mirror, where α is the angle of the object. The set of different positions has 6 members, which are the 5 images and the object itself, and so the number of images is 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n02",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A concave mirror has a focal length of 10 cm. An object is placed 30 cm in front of it. Find the distance of the image from the mirror, in cm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 15.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Taking all the distances in front of the mirror as positive for a real image: 1/v + 1/u = 1/f, so 1/v = 1/10 − 1/30 = 2/30, and v = 15.0 cm. The image is real and in front of the mirror. Check: tracing two rays, one parallel to the axis that goes through the focus, and one that goes to the pole, they meet at 15.0 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n03",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A point A is 4.0 cm above the plane surface of a glass block (n = 1.5), and a point B is 6.0 cm below the surface inside the glass. Their horizontal separation is 5.0 cm. A ray goes from A to B. Find the horizontal distance x of the point where the ray meets the surface from the point just below A, in cm, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.63,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "At the point of incidence, Snell's law gives sin i = 1.5 sin r, with sin i = x/√(x² + 16) and sin r = (5 − x)/√((5 − x)² + 36). Solving for x gives x = 2.63 cm. Check: by Fermat's principle, light takes the path of the least time, which is the least value of 1.0 × √(x² + 16) + 1.5 × √((5 − x)² + 36). A search for this least value gives the same x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n04",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the critical angle for light going from glass of refractive index 1.5 into air, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 41.81,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "sin i_c = 1/n = 1/1.5 = 0.6667, so i_c = 41.81°. Check: for an angle of incidence just less than this, Snell's law gives a refracted ray in air. Just above it, the value of the sine of the angle of refraction would be more than 1. A search for the changeover gives 41.81°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n05",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 2,
+    "q": "An object lies at the bottom of a pond 12 cm deep (n = 4/3). Find its apparent depth when it is viewed from directly above, in cm, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 9.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Apparent depth = real depth/n = 12/(4/3) = 9.00 cm. Check: tracing a ray that leaves the object at a very small angle, applying Snell's law at the surface, and extending the emergent ray backwards until it meets the vertical line, gives a depth of 9.00 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n06",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A thin convex lens has a focal length of 20 cm. An object is placed 30 cm in front of it. Find the distance of the image from the lens, in cm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 60.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Taking real distances as positive: 1/v − 1/u = 1/f in the Cartesian form, which gives 1/v = 1/20 − 1/30 = 1/60. So v = 60.0 cm, and the image is real, inverted and magnified twice. Check: take a lens of glass, n = 1.5, with radii 20 cm and −20 cm, which has f = 20 cm. Using the refraction formula at each surface, one after the other, gives v = 60.0 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n07",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A thin lens of refractive index 1.5 has the radii of curvature R₁ = +15 cm and R₂ = −30 cm. Find its focal length, in cm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 20.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "1/f = (n − 1)(1/R₁ − 1/R₂) = 0.5 × (1/15 + 1/30) = 0.5 × 0.1 = 0.05, so f = 20.0 cm. Check: a very distant object, treated as at 10⁹ cm, is imaged by the two surfaces, one after the other, at 20.0 cm, which is the focal length.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n08",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A prism has the angle A = 60° and the refractive index n = 1.5. Find the angle of minimum deviation, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 37.18,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "At minimum deviation, r = A/2 = 30° and sin i = n sin r = 1.5 × 0.5 = 0.75, so i = 48.59°. δ_m = 2i − A = 97.18° − 60° = 37.18°. Check: following the ray through the prism for a whole range of angles of incidence, the least deviation found is 37.18°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n09",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "A simple microscope uses a lens of focal length 5.0 cm. The final image is formed at the near point, 25 cm from the eye. Find the magnifying power. Give your answer to 1 decimal place.",
+    "ans": 6.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "M = 1 + D/f = 1 + 25/5.0 = 6.0. Check: for a virtual image at 25 cm, the lens formula gives the object distance u = 1/(1/f + 1/D) = 4.17 cm. The angle with the lens is h/u, and without it, h/D, so M = D/u = 25/4.17 = 6.0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-08-n10",
+    "ch": "phy-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "In a compound microscope, the objective has a focal length of 1.0 cm, and the object is 1.05 cm from it. The eyepiece has a focal length of 5.0 cm, and the final image is at 25 cm. Find the total magnifying power, to the nearest whole number. Give your answer as a whole number.",
+    "ans": 120.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For the objective, 1/v = 1/1.0 − 1/1.05, so v = 21 cm, and m_o = v/u = 21/1.05 = 20. For the eyepiece, M_e = 1 + D/f_e = 6. The total is M = 20 × 6 = 120. Check: the real image is 20 times as tall as the object. The eyepiece has the object distance 4.17 cm, so the angle is 20h/4.17, and the angle without the instrument is h/25, and the ratio is 120.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-m01",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of electric charge is:",
+    "options": [
+      "volt (V)",
+      "ampere (A)",
+      "farad (F)",
+      "coulomb (C)"
+    ],
+    "ans": 3,
+    "solution": "The coulomb is the charge that passes in one second when the current is one ampere. The ampere is the unit of current, the volt of potential, and the farad of capacitance.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m02",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Electric charge is said to be quantised. This means that any charge q:",
+    "options": [
+      "is a whole-number multiple of the charge e of an electron, q = ne",
+      "is always equal to the charge of one electron",
+      "can have any value, with no smallest unit",
+      "is always a multiple of 1 coulomb"
+    ],
+    "ans": 0,
+    "solution": "The smallest free charge is e = 1.6 × 10⁻¹⁹ C. A body can have a charge of ±e, ±2e, ±3e, and so on, but not 1.5e. The charge of the quarks, which is 1/3 or 2/3 of e, is not found free.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m03",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A body has a positive charge of 3.2 × 10⁻⁶ C. Compared with a neutral body, it has:",
+    "options": [
+      "lost 2 × 10¹³ protons",
+      "lost 2 × 10¹³ electrons",
+      "gained 2 × 10¹³ electrons",
+      "gained 2 × 10¹³ protons"
+    ],
+    "ans": 1,
+    "solution": "Only the electrons move from one body to another. A positive charge means a shortage of electrons. n = q/e = 3.2 × 10⁻⁶/1.6 × 10⁻¹⁹ = 2 × 10¹³.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m04",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The law of conservation of charge states that:",
+    "options": [
+      "the number of charged particles in a system stays constant",
+      "charge is destroyed when two opposite charges meet",
+      "the total charge of an isolated system stays constant",
+      "charge can be created from energy in a body"
+    ],
+    "ans": 2,
+    "solution": "Charge can be moved from one body to another, but the algebraic sum of the charges does not change. A pair of opposite charges can be created or can annihilate, but the total charge is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m05",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Coulomb's law gives the force between two point charges q₁ and q₂, at a distance r in vacuum, as:",
+    "options": [
+      "F = k q₁q₂/r, along the line joining them",
+      "F = k q₁q₂/r², along the line joining them",
+      "F = k q₁q₂ r², perpendicular to the line joining them",
+      "F = k (q₁ + q₂)/r², along the line joining them"
+    ],
+    "ans": 1,
+    "solution": "The force grows with the product of the two charges, and falls with the square of the distance between them. Like charges repel, and unlike charges attract. k = 1/(4πε₀) = 9 × 10⁹ N m²/C².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m06",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance between two point charges is made three times as large. The electrostatic force between them becomes:",
+    "options": [
+      "1/9 of the original",
+      "9 times the original",
+      "3 times the original",
+      "1/3 of the original"
+    ],
+    "ans": 0,
+    "solution": "F ∝ 1/r². With r → 3r, F → F/9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m07",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two point charges are placed in a medium of the relative permittivity K (dielectric constant). Compared with the force in vacuum, the force is:",
+    "options": [
+      "smaller by the factor K²",
+      "unchanged, as the charges are the same",
+      "smaller by the factor K",
+      "larger by the factor K"
+    ],
+    "ans": 2,
+    "solution": "In a medium, ε₀ is replaced by ε = Kε₀, so F = (1/4πε) q₁q₂/r² = F_vacuum/K. For water K is about 80, so the force is reduced to 1/80.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m08",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The principle of superposition for electric forces states that the force on a charge due to several other charges is:",
+    "options": [
+      "the arithmetic sum of the magnitudes of the forces",
+      "the force due to the nearest charge only",
+      "zero, as the charges cancel one another",
+      "the vector sum of the forces due to each charge alone"
+    ],
+    "ans": 3,
+    "solution": "The force of a charge on another is not changed by the presence of a third charge. So the total force is found by adding the individual forces as vectors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m09",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The electric field at a point is defined as:",
+    "options": [
+      "the force per unit positive test charge placed at that point",
+      "the work done in bringing a test charge from infinity",
+      "the force on a charge of 1 coulomb of either sign, in magnitude only",
+      "the charge per unit area at that point"
+    ],
+    "ans": 0,
+    "solution": "E = F/q, with q a small positive test charge, so that it does not disturb the source charges. The unit is N/C. The direction is that of the force on a positive charge.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m10",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The electric field at a distance r from a point charge Q in vacuum is:",
+    "options": [
+      "E = Q/(4πε₀r²), directed towards Q if Q is positive",
+      "E = Q r²/(4πε₀), directed away from Q if Q is positive",
+      "E = Q/(4πε₀r²), directed away from Q if Q is positive",
+      "E = Q/(4πε₀r), directed away from Q if Q is positive"
+    ],
+    "ans": 2,
+    "solution": "It follows from Coulomb's law with a unit test charge. The field falls as 1/r². It points away from a positive charge, and towards a negative one.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m11",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following is NOT a property of the electric field lines?",
+    "options": [
+      "field lines never form closed loops in electrostatics",
+      "field lines start on positive charges and end on negative charges",
+      "field lines are closer where the field is stronger",
+      "two field lines can cross each other at a point of the field"
+    ],
+    "ans": 3,
+    "solution": "The field at a point has one direction only, and two lines that cross would give two directions. Field lines begin on positive charges, end on negative ones, and the density of the lines shows the strength of the field. They are always at right angles to the surface of a conductor.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m12",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The electric flux through a small area dS, in a field E, with θ the angle between E and the normal to the area, is:",
+    "options": [
+      "dφ = E dS sin θ",
+      "dφ = E dS cos θ",
+      "dφ = E/dS",
+      "dφ = E dS tan θ"
+    ],
+    "ans": 1,
+    "solution": "It is the dot product E·dS, where the vector dS is along the normal. It is the largest when the area is at right angles to the field, and zero when the field is along the surface. The unit is N m²/C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m13",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "According to Gauss's law, the total electric flux through a closed surface is:",
+    "options": [
+      "q/ε₀, where q is the total charge outside the surface",
+      "zero, for every closed surface in a field",
+      "q ε₀, where q is the total charge inside the surface",
+      "q/ε₀, where q is the total charge inside the surface"
+    ],
+    "ans": 3,
+    "solution": "φ = ∮E·dS = q_enclosed/ε₀. Only the charge inside counts, and the flux does not depend on the shape of the surface. The field itself, at the surface, is due to all the charges, inside and outside.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m14",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A point charge q is at the centre of a cube. The flux through one face of the cube is:",
+    "options": [
+      "q/(6ε₀)",
+      "6q/ε₀",
+      "q/(4ε₀)",
+      "q/ε₀"
+    ],
+    "ans": 0,
+    "solution": "The total flux through the cube is q/ε₀. By symmetry, the six faces get equal fluxes, and each one gets 1/6 of the total.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m15",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A charge is placed outside a closed surface. The net electric flux through the surface is:",
+    "options": [
+      "positive, as the field lines go out through the surface",
+      "q/ε₀, as the charge is near the surface and the field is large",
+      "zero, as the flux that enters is equal to the flux that leaves",
+      "negative, as the field lines go in through the surface"
+    ],
+    "ans": 2,
+    "solution": "Each field line that enters the closed surface leaves it again. So the net flux is zero, though the field at the surface is not zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m16",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An electric dipole consists of two equal and opposite charges, +q and −q, a distance 2l apart. Its dipole moment has the magnitude:",
+    "options": [
+      "p = 0, as the net charge is zero",
+      "p = q × 2l, and it points from −q to +q",
+      "p = q × 2l, and it points from +q to −q",
+      "p = q/2l, and it points from −q to +q"
+    ],
+    "ans": 1,
+    "solution": "The dipole moment is the product of the charge and the separation. It is a vector, directed from the negative charge to the positive one. The unit is C m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m17",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An electric dipole of moment p is placed in a uniform field E at an angle θ to the field. The torque on the dipole is:",
+    "options": [
+      "τ = pE sin θ",
+      "τ = pE cos θ",
+      "τ = pE",
+      "τ = p/(E sin θ)"
+    ],
+    "ans": 0,
+    "solution": "The two forces qE are equal and opposite, so the net force is zero, but they form a couple, with the moment qE × 2l sin θ = pE sin θ. The torque tries to turn the dipole along the field, and it is zero when θ = 0° or 180°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m18",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The net force on an electric dipole in a uniform electric field is:",
+    "options": [
+      "equal to 2qE, in the direction of the field",
+      "equal to qE, in the direction of the field",
+      "zero, and there is no torque either",
+      "zero, but there is a torque on it unless it is along the field"
+    ],
+    "ans": 3,
+    "solution": "The forces on +q and −q are equal and opposite, so they add up to zero. The dipole does not move as a whole, but it turns, as the forces are not on the same line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m19",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At a point on the equatorial line of a short electric dipole, the electric field is:",
+    "options": [
+      "perpendicular to the dipole moment",
+      "in the direction opposite to the dipole moment",
+      "in the direction of the dipole moment",
+      "zero, as the charges cancel"
+    ],
+    "ans": 1,
+    "solution": "At a point on the perpendicular bisector, the components of the fields of the two charges along the bisector cancel, and the components parallel to the dipole add up, and point from the positive to the negative charge. So the field is opposite to p.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m20",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a short dipole, the electric field at a large distance r on the axis, compared with the field of a single charge of the same size, falls with distance as:",
+    "options": [
+      "1/r⁴, much faster than a single charge",
+      "1/r, more slowly than a single charge",
+      "1/r³, faster than 1/r²",
+      "1/r², the same as a single charge"
+    ],
+    "ans": 2,
+    "solution": "The fields of +q and −q nearly cancel. E = 2kp/r³ on the axis. For a single charge, E = kq/r², so a dipole field falls faster.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m21",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The linear charge density λ, the surface charge density σ and the volume charge density ρ are defined respectively as:",
+    "options": [
+      "charge per unit time, per unit area, and per unit length",
+      "charge per unit area, per unit length, and per unit volume",
+      "charge per unit volume, per unit area, and per unit length",
+      "charge per unit length, per unit area, and per unit volume"
+    ],
+    "ans": 3,
+    "solution": "Their units are C/m, C/m² and C/m³. They are used when the charge is spread over a wire, a surface or a volume. The total charge is found by integrating: q = ∫λ dl, ∫σ dA or ∫ρ dV.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m22",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The electric field inside a closed hollow conductor, with no charge in the cavity, is:",
+    "options": [
+      "zero, as the charge sits on the outer surface",
+      "equal to the field outside the conductor",
+      "proportional to the distance from the centre",
+      "uniform and not zero, directed from the positive side"
+    ],
+    "ans": 0,
+    "solution": "In electrostatics, the charges on a conductor move to the outer surface, and by Gauss's law, the field in the cavity is zero. This is called electrostatic shielding. It is why the inside of a car is a safe place in lightning.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-m23",
+    "ch": "phy-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A charge Q is spread uniformly over the surface of a thin spherical shell of radius R. The field outside the shell, at a distance r from the centre (r greater than R), is:",
+    "options": [
+      "zero, as the charge is on the surface",
+      "half the field of a point charge Q at the centre",
+      "the same as if all the charge Q were at the centre",
+      "proportional to r, as the charge is spread out"
+    ],
+    "ans": 2,
+    "solution": "By Gauss's law with a spherical surface of radius r, the flux is Q/ε₀, and by symmetry, E × 4πr² = Q/ε₀, so E = kQ/r². The field inside the shell is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-09-n01",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Two point charges of 2.0 μC and 3.0 μC are placed 0.30 m apart in vacuum (k = 9.0 × 10⁹ N m²/C²). Find the force between them, in N, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.6,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "F = kq₁q₂/r² = 9.0 × 10⁹ × 2.0 × 10⁻⁶ × 3.0 × 10⁻⁶/(0.30)² = 0.054/0.09 = 0.60 N, and it is repulsive. Check: the potential energy of the pair is U = kq₁q₂/r. The force is −dU/dr, and a small change in r gives 0.60 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n02",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Two charges of +4.0 μC are at the points (0, 0) and (0.40 m, 0). Find the magnitude of the electric field at the point (0.20 m, 0.15 m), in units of 10⁵ N/C, to 2 decimal places (k = 9.0 × 10⁹ N m²/C²). Give your answer to 2 decimal places.",
+    "ans": 6.91,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Each charge is 0.25 m from the point, so each field is kq/r² = 9.0 × 10⁹ × 4.0 × 10⁻⁶/0.0625 = 5.76 × 10⁵ N/C. The components along x cancel. The components along y add up: 2 × 5.76 × 10⁵ × (0.15/0.25) = 6.91 × 10⁵ N/C. Check: the field is minus the slope of the potential V = Σkq/r, and a numerical gradient gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n03",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the electric field at a distance of 0.30 m from a point charge of 5.0 nC in vacuum, in N/C, to the nearest whole number (k = 9.0 × 10⁹ N m²/C², ε₀ = 8.85 × 10⁻¹² C²/(N m²)). Give your answer as a whole number.",
+    "ans": 500.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "E = kQ/r² = 9.0 × 10⁹ × 5.0 × 10⁻⁹/0.09 = 500 N/C. Check: by Gauss's law, the flux through a sphere is Q/ε₀ = 565 N m²/C, and E = flux/(4πr²) = 565/1.131 = 499 N/C, which is the same to the accuracy of the constants.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n04",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A point charge of 8.85 nC is at the centre of a cube. Find the total electric flux through the cube, in N m²/C, to the nearest whole number (ε₀ = 8.85 × 10⁻¹² C²/(N m²)). Give your answer as a whole number.",
+    "ans": 1000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "By Gauss's law, φ = q/ε₀ = 8.85 × 10⁻⁹/8.85 × 10⁻¹² = 1000 N m²/C. Each face gets 1/6 of it. Check: adding E·n dA over a face of the cube in small squares, and multiplying by 6, gives 1000 N m²/C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n05",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A dipole has charges of ±2.0 μC, 1.0 cm apart. It is in a uniform field of 1.0 × 10⁵ N/C, with its axis at 30° to the field. Find the torque on it, in units of 10⁻³ N m, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "p = q × 2l = 2.0 × 10⁻⁶ × 0.010 = 2.0 × 10⁻⁸ C m. τ = pE sin θ = 2.0 × 10⁻⁸ × 10⁵ × 0.5 = 1.0 × 10⁻³ N m. Check: the force on each charge is qE = 0.20 N. The torques of the two forces about the centre, found from the forces and the positions, add up to 1.0 × 10⁻³ N m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n06",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A dipole of charges ±2.0 × 10⁻⁸ C is 1.0 cm long (2l = 0.010 m). Find the electric field on its axis at a distance of 0.50 m from its centre, in N/C, to 1 decimal place (k = 9.0 × 10⁹ N m²/C²). Give your answer to 1 decimal place.",
+    "ans": 28.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "p = 2.0 × 10⁻⁸ × 0.010 = 2.0 × 10⁻¹⁰ C m. E = 2kpr/(r² − l²)² = 2 × 9.0 × 10⁹ × 2.0 × 10⁻¹⁰ × 0.5/(0.25 − 0.000025)² = 1.8/0.0625 = 28.8 N/C. Check: the field of +q at 0.495 m minus that of −q at 0.505 m, from kq/r², gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n07",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "A sphere of radius 0.10 m has a uniform surface charge density of 1.0 × 10⁻⁶ C/m². Find the total charge on it, in units of 10⁻⁷ C, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.257,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "q = σ × area = 1.0 × 10⁻⁶ × 4π(0.10)² = 1.0 × 10⁻⁶ × 0.1257 = 1.257 × 10⁻⁷ C. Check: adding up σ dA over thin rings of the sphere, where dA = 2πR² sin θ dθ, gives the same total charge.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n08",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Two charges, 2.0 μC and 3.0 μC, are 0.30 m apart in water, of relative permittivity 80 (k = 9.0 × 10⁹ N m²/C² in vacuum). Find the force between them, in N, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.0075,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "In a medium, F = F_vacuum/K = 0.60/80 = 0.0075 N. Check: with ε = 80ε₀, F = q₁q₂/(4πεr²), and 1/(4πε) = 9.0 × 10⁹/80 = 1.125 × 10⁸, which gives 0.0075 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n09",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Two positive charges, 4.0 μC and 1.0 μC, are fixed 0.30 m apart. Find the distance from the 4.0 μC charge of the point on the line between them where a third charge would feel no net force, in m, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "At the point at the distance x from the 4.0 μC charge, the two forces are equal: 4/x² = 1/(0.30 − x)². Taking the square root, 2/x = 1/(0.30 − x), so 2(0.30 − x) = x and x = 0.200 m. Check: at this point, the force from the 4.0 μC charge, 4/0.04 = 100 (in units), is equal to that from the 1.0 μC charge at 0.10 m, 1/0.01 = 100.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-09-n10",
+    "ch": "phy-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Three equal charges of +2.0 μC are at the corners of an equilateral triangle of side 0.10 m. Find the magnitude of the net force on one of them, in N, to 2 decimal places (k = 9.0 × 10⁹ N m²/C²). Give your answer to 2 decimal places.",
+    "ans": 6.24,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The force from each of the other two charges is kq²/a² = 9.0 × 10⁹ × (2.0 × 10⁻⁶)²/0.01 = 3.6 N. They are at 60° to each other, and the net force is 2 × 3.6 × cos 30° = 6.24 N, along the line from the centre of the triangle to the charge. Check: adding the components of the two forces gives 6.24 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-10-m01",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Semiconductors, such as silicon and germanium, have an electrical conductivity that is:",
+    "options": [
+      "exactly the same as that of conductors",
+      "lower than that of all insulators",
+      "higher than that of all conductors",
+      "between that of conductors and that of insulators"
+    ],
+    "ans": 3,
+    "solution": "A semiconductor conducts better than an insulator and less than a metal. Its conductivity can be changed by adding small amounts of impurity, by heating, or by light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m02",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the band picture of a solid, the energy gap between the valence band and the conduction band is:",
+    "options": [
+      "large for an insulator, small for a semiconductor, and zero for a conductor",
+      "small for an insulator, large for a semiconductor, and zero for a conductor",
+      "the same for all three kinds of solid",
+      "large for a conductor, small for a semiconductor, and zero for an insulator"
+    ],
+    "ans": 0,
+    "solution": "In a metal, the two bands overlap. In a semiconductor, the gap is about 1 eV (silicon 1.12 eV and germanium 0.66 eV). In an insulator, it is much larger (diamond 5.47 eV), so heat cannot lift electrons across it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m03",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The energy gap of silicon is 1.12 eV and that of diamond is 5.47 eV. At room temperature:",
+    "options": [
+      "both of them conduct equally well, as both have a gap in the band structure",
+      "neither of them conducts at all, as both gaps are wider than 1 eV at room temperature",
+      "silicon conducts a little, because heat lifts a few electrons across the gap, but diamond does not",
+      "diamond conducts better than silicon at room temperature, because its gap is wider"
+    ],
+    "ans": 2,
+    "solution": "The number of electrons that can cross the gap falls very fast as the gap gets wider. The gap of 1.12 eV allows a small number of carriers at 300 K, while 5.47 eV allows practically none.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m04",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The resistance of a pure semiconductor, when its temperature is raised:",
+    "options": [
+      "increases, as the atoms vibrate more",
+      "decreases, as more electron-hole pairs are formed",
+      "becomes infinite, as the bonds break",
+      "stays the same, as the number of atoms is constant"
+    ],
+    "ans": 1,
+    "solution": "In a metal, the resistance rises with temperature, as the collisions of the electrons increase. In a semiconductor, the extra carriers made by heat have a stronger effect, so the resistance falls. It has a negative temperature coefficient.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m05",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An intrinsic semiconductor at room temperature has:",
+    "options": [
+      "more holes than free electrons",
+      "more free electrons than holes",
+      "no free electrons and no holes",
+      "equal numbers of free electrons and holes"
+    ],
+    "ans": 3,
+    "solution": "Each broken bond gives one free electron and leaves one hole, so n_e = n_h. At absolute zero, there are no carriers, and it is an insulator.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m06",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A hole in a semiconductor is:",
+    "options": [
+      "a positive ion that moves through the crystal",
+      "a free electron with a very small mass",
+      "the absence of an electron in a covalent bond, and it behaves as a positive charge",
+      "an empty space in the crystal, in which atoms are missing"
+    ],
+    "ans": 2,
+    "solution": "When an electron leaves a bond, a neighbouring electron can fill the gap, and then a gap is left at the new place. The hole seems to move in the opposite direction to the electron, and carries a positive charge +e.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m07",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "To make an n-type semiconductor, a pure silicon crystal is doped with:",
+    "options": [
+      "a pentavalent impurity, such as phosphorus or arsenic",
+      "a trivalent impurity, such as boron or aluminium",
+      "a tetravalent impurity, such as carbon or tin",
+      "a noble gas, such as argon or neon"
+    ],
+    "ans": 0,
+    "solution": "A pentavalent atom has five valence electrons. Four of them make bonds, and the fifth is almost free, so the electrons are the majority carriers. A trivalent dopant gives a p-type semiconductor.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m08",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In a p-type semiconductor, the majority carriers are:",
+    "options": [
+      "electrons, and there are no minority carriers",
+      "holes, and the minority carriers are electrons",
+      "holes, and there are no minority carriers",
+      "electrons, and the minority carriers are holes"
+    ],
+    "ans": 1,
+    "solution": "A trivalent dopant, such as boron, has only three valence electrons, so it leaves a hole in a bond. Holes are in a large number, and a few electrons are present from the heat.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m09",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An n-type semiconductor is:",
+    "options": [
+      "positively charged, since the donor ions are fixed and carry a positive charge in it",
+      "neutral, since it has no free charges in it, as all its electrons are held in bonds",
+      "electrically neutral, since the donor ions have a positive charge that balances the extra electrons",
+      "negatively charged, since it has extra electrons that were not in the pure crystal"
+    ],
+    "ans": 2,
+    "solution": "The impurity atoms are neutral, and so is the crystal. The extra electrons were given by the donor atoms, which became fixed positive ions. The total charge is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m10",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Doping a semiconductor with a very small amount of impurity, such as one atom per million, changes its conductivity:",
+    "options": [
+      "by a very large factor",
+      "by a very small fraction",
+      "by exactly one part per million",
+      "not at all, since the amount is so small"
+    ],
+    "ans": 0,
+    "solution": "The number of carriers in a pure crystal at room temperature is very small. Even a small number of donor or acceptor atoms gives many more carriers, so the conductivity can go up by a factor of thousands.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m11",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The depletion region of a p-n junction is the region that:",
+    "options": [
+      "has only holes, and no electric field in it",
+      "has no free charge carriers, and has an electric field in it",
+      "is the region far from the junction, in the n side",
+      "has a large number of free electrons and holes"
+    ],
+    "ans": 1,
+    "solution": "Electrons from the n side and holes from the p side diffuse across the junction and recombine. This leaves fixed ions, the positive donors on the n side and the negative acceptors on the p side, and the field between them is the barrier potential.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m12",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A p-n junction diode is forward biased when:",
+    "options": [
+      "the p side is joined to the negative terminal of the battery",
+      "the n side is joined to the positive terminal of the battery",
+      "both sides are joined to the same terminal",
+      "the p side is joined to the positive terminal of the battery"
+    ],
+    "ans": 3,
+    "solution": "The applied voltage opposes the built-in barrier, so the barrier is lowered, the depletion region becomes narrow, and a large current flows. In reverse bias, the barrier is raised, and the current is very small.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m13",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When a p-n junction is reverse biased, the width of the depletion region:",
+    "options": [
+      "increases, and only a very small current flows",
+      "decreases, and a large current flows",
+      "decreases, and only a very small current flows",
+      "stays the same, and a large current flows"
+    ],
+    "ans": 0,
+    "solution": "The reverse voltage pulls the carriers away from the junction, so more fixed ions are uncovered, and the barrier is higher. Only the few minority carriers cross it, which gives a leakage current of the order of microamperes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m14",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An ideal diode has:",
+    "options": [
+      "zero resistance in both directions of bias",
+      "zero resistance in forward bias and infinite resistance in reverse bias",
+      "the same resistance in both directions of bias",
+      "infinite resistance in forward bias and zero resistance in reverse bias"
+    ],
+    "ans": 1,
+    "solution": "An ideal diode acts as a perfect one-way switch. A real diode has a small resistance in forward bias, once the voltage is above the knee, and a very large resistance in reverse bias.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m15",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The knee (threshold) voltage of a forward biased silicon diode is about:",
+    "options": [
+      "0.3 V",
+      "7 V",
+      "0.7 V",
+      "1.5 V"
+    ],
+    "ans": 2,
+    "solution": "Below this voltage, the forward current is very small. Above it, the current rises quickly. For germanium, the knee voltage is about 0.3 V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m16",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The static resistance of a diode at a point of its characteristic is R = V/I. The dynamic resistance is:",
+    "options": [
+      "r = V × I, the product of the voltage and the current",
+      "r = V/I, the same as the static resistance",
+      "r = ΔI/ΔV, the slope of the I–V curve at that point",
+      "r = ΔV/ΔI, the reciprocal of the slope of the I–V curve at that point"
+    ],
+    "ans": 3,
+    "solution": "The dynamic resistance is the change of voltage for a small change of current at the working point. It is large near the knee and small when the current is large.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m17",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Compared with the vacuum tubes, semiconductor devices are:",
+    "options": [
+      "larger, use more power, and need a warm-up time",
+      "smaller, use more power, and need a warm-up time",
+      "smaller, use less power, and start working at once",
+      "larger, use less power, and start working at once"
+    ],
+    "ans": 2,
+    "solution": "They have no filament to heat, so they need no warm-up time and little power, and they work at a low voltage. They can also be made very small, and many can be put in one integrated circuit.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m18",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following is a disadvantage of semiconductor devices?",
+    "options": [
+      "they are large and heavy when compared with others",
+      "they need a filament that must be heated before use",
+      "they need a very high voltage to work at all times",
+      "they are sensitive to temperature and cannot handle very high power"
+    ],
+    "ans": 3,
+    "solution": "The properties of a semiconductor change with temperature, and a large current heats the device too much. The other three statements are the faults of the old vacuum tubes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m19",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A solar cell is a device that:",
+    "options": [
+      "converts light energy into electrical energy",
+      "converts heat energy into sound energy",
+      "stores electrical energy in a chemical form",
+      "converts electrical energy into light energy"
+    ],
+    "ans": 0,
+    "solution": "Light with enough energy makes electron-hole pairs near a p-n junction, and the junction field separates them, so a voltage and a current are produced. An LED does the opposite, as it converts electrical energy into light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m20",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A light emitting diode (LED) is a p-n junction that gives out light when it is:",
+    "options": [
+      "reverse biased",
+      "forward biased",
+      "not connected to a battery",
+      "heated to a high temperature"
+    ],
+    "ans": 1,
+    "solution": "In forward bias, electrons and holes recombine at the junction, and the energy that is released comes out as photons. The colour of the light depends on the energy gap of the material.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m21",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A thermistor is made from a semiconducting metal oxide. For a negative temperature coefficient (NTC) thermistor:",
+    "options": [
+      "the resistance falls when the temperature falls",
+      "the resistance rises when the temperature rises",
+      "the resistance does not depend on the temperature",
+      "the resistance falls when the temperature rises"
+    ],
+    "ans": 3,
+    "solution": "An NTC thermistor behaves like a pure semiconductor, with more carriers at a higher temperature. A PTC thermistor does the opposite. A thermistor is used for measuring a small change of temperature, and in temperature sensors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-m22",
+    "ch": "phy-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A PTC thermistor is often used as a resettable fuse because its resistance:",
+    "options": [
+      "falls sharply when it is heated by a large current, which raises the current",
+      "rises sharply when it is heated by too large a current, which cuts down the current",
+      "does not change when it is heated, so the current stays fixed",
+      "becomes zero when it is heated, which stops the current"
+    ],
+    "ans": 1,
+    "solution": "When too much current heats it, its resistance rises very fast, and so the current drops. When it cools, the resistance falls again, and the circuit is back to normal, so it needs no replacing.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-10-n01",
+    "ch": "phy-11-10",
+    "type": "num",
+    "diff": 2,
+    "q": "The energy gap of silicon is 1.12 eV. Find the longest wavelength of light that can lift an electron across the gap, in nm, to the nearest 10 nm (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s, e = 1.6 × 10⁻¹⁹ C). Give your answer as a whole number.",
+    "ans": 1110.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The photon energy must be at least the energy gap: hc/λ ≥ 1.12 eV. λ = hc/E = 6.63 × 10⁻³⁴ × 3 × 10⁸/(1.12 × 1.6 × 10⁻¹⁹) = 1.11 × 10⁻⁶ m = 1110 nm, which is in the infrared. Check: for a longer wavelength, the photon energy is less than 1.12 eV, and for a shorter one it is more, and a search for the changeover gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-10-n02",
+    "ch": "phy-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "Silicon at room temperature has an intrinsic concentration n_i = 1.5 × 10¹⁶ per m³. It is doped with donors so that n_e = 5.0 × 10²² per m³. Find the hole concentration, in units of 10⁹ per m³, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 4.5,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "In a semiconductor, n_e × n_h = n_i². So n_h = (1.5 × 10¹⁶)²/5.0 × 10²² = 2.25 × 10³²/5.0 × 10²² = 4.5 × 10⁹ per m³. The holes have become about 3 million times fewer than in the intrinsic case. Check: solving the charge balance n_e = N_d + n_h together with the mass action law gives the same n_h.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-10-n03",
+    "ch": "phy-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "On the forward characteristic of a diode, the current is 14 mA at 0.70 V, 19 mA at 0.72 V and 24 mA at 0.74 V. Find the dynamic resistance in this range, in ohm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "r = ΔV/ΔI = (0.74 − 0.70)/(24 − 14) × 10³ = 0.04/0.010 = 4.0 Ω. Check: the three points are on a straight line, and the slope of the best-fit line is 0.25 A/V, so the resistance is 1/0.25 = 4.0 Ω. For comparison, the static resistance at 0.70 V is 0.70/0.014 = 50 Ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-10-n04",
+    "ch": "phy-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "A thermistor has the resistance R = R₀ exp[β(1/T − 1/T₀)], with β = 3000 K. Its resistance is 10.0 kΩ at T₀ = 298.15 K. Find its resistance at 308.15 K, in kΩ, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 7.21,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "R = 10.0 × exp[3000 × (1/308.15 − 1/298.15)] = 10.0 × exp(−0.3266) = 7.21 kΩ. The resistance falls, as for an NTC thermistor. Check: the rate of change of ln R with temperature is −β/T². Adding this up from 298.15 K to 308.15 K, and taking the exponential, gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-10-n05",
+    "ch": "phy-11-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A red LED gives out photons of energy 2.0 eV. Find the wavelength of the light, in nm, to the nearest whole number (h = 6.63 × 10⁻³⁴ J s, c = 3 × 10⁸ m/s, e = 1.6 × 10⁻¹⁹ C). Give your answer as a whole number.",
+    "ans": 622.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "λ = hc/E = 6.63 × 10⁻³⁴ × 3 × 10⁸/(2.0 × 1.6 × 10⁻¹⁹) = 6.22 × 10⁻⁷ m = 622 nm, which is red light. Check: a search for the wavelength with a photon energy of exactly 2.0 eV gives 622 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-10-n06",
+    "ch": "phy-11-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A silicon diode, with a forward voltage drop of 0.70 V, is in series with a resistor of 430 Ω and a battery of 5.0 V. Find the current, in mA, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 10.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The voltage across the resistor is 5.0 − 0.70 = 4.30 V. I = 4.30/430 = 0.0100 A = 10.00 mA. Check: a search for the current at which IR + 0.70 equals 5.0 V gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "phy-12-01-m01",
     "ch": "phy-12-01",
     "type": "mcq",
@@ -36474,6 +41425,536 @@
     "decimalPlaces": 0,
     "tol": 0.5,
     "solution": "qE = qvB, so v = E/B = 2.0 × 10⁴/0.1 = 2.0 × 10⁵ m/s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-m01",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A freely suspended bar magnet comes to rest pointing:",
+    "options": [
+      "along the east-west direction",
+      "in any direction, since the Earth is not a magnet",
+      "approximately along the geographic north-south direction",
+      "along the vertical, whatever the place"
+    ],
+    "ans": 2,
+    "solution": "The Earth behaves as a big magnet, and its field turns the suspended magnet into the magnetic meridian. This is the principle of the magnetic compass.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m02",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A magnetic dipole of moment m is placed in a uniform magnetic field B, at an angle θ with the field. The torque on it is:",
+    "options": [
+      "τ = m/(B sin θ), and it tends to align the dipole with the field",
+      "τ = mB cos θ, and it tends to align the dipole with the field",
+      "τ = mB sin θ, and it tends to turn the dipole away from the field",
+      "τ = mB sin θ, and it tends to align the dipole with the field"
+    ],
+    "ans": 3,
+    "solution": "In vector form, τ = m × B. The torque is zero for θ = 0° and 180°, and the largest for θ = 90°. The net force on the dipole in a uniform field is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m03",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The potential energy of a magnetic dipole of moment m in a uniform field B, at an angle θ to it, is:",
+    "options": [
+      "U = mB, which does not depend on the angle",
+      "U = −mB cos θ, which is the lowest when the dipole is along the field",
+      "U = −mB sin θ, which is the lowest when the dipole is along the field",
+      "U = +mB cos θ, which is the lowest when the dipole is along the field"
+    ],
+    "ans": 1,
+    "solution": "The work done in turning the dipole from θ₁ to θ₂ is ∫mB sin θ dθ. Taking U = 0 at θ = 90°, U = −mB cos θ. The stable position is θ = 0°, where U = −mB, and the unstable position is θ = 180°, where U = +mB.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m04",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A bar magnet in a uniform field is displaced a little from its equilibrium position, along the field. It will:",
+    "options": [
+      "oscillate about the field direction, with a period T = 2π√(I/(mB))",
+      "stay in the new position, as the net force is zero",
+      "oscillate with a period T = 2π√(mB/I)",
+      "move away from the field direction, with an increasing speed"
+    ],
+    "ans": 0,
+    "solution": "For a small angle θ, the torque is −mBθ, and so the motion is simple harmonic with the angular frequency ω = √(mB/I). A stronger magnet or a stronger field gives a shorter period.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m05",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic moment of a current loop of area A with a current I is:",
+    "options": [
+      "m = IA², in the direction of the current",
+      "m = I/A, in the direction given by the right-hand rule",
+      "m = IA, in the direction given by the right-hand rule",
+      "m = I²A, in the direction of the current"
+    ],
+    "ans": 2,
+    "solution": "The magnetic moment of a loop with N turns is NIA. Its unit is A m². An electron going round an orbit is a tiny current loop, and has an orbital magnetic moment.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m06",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetism of the materials comes mainly from:",
+    "options": [
+      "the nuclei of the atoms, which are large and heavy",
+      "the orbital motion and the spin of the electrons in the atoms",
+      "the neutrons of the atoms, which have no charge",
+      "the protons of the atoms, which move very fast"
+    ],
+    "ans": 1,
+    "solution": "An orbiting electron is a current loop, and the electron also has a spin magnetic moment. The nuclear magnetic moments are about 2000 times smaller, since the nuclei are much heavier.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m07",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The magnetic moment of an electron in an orbit, in terms of its orbital angular momentum L, is given by:",
+    "options": [
+      "m = (e/2mₑ)L, and it is in the same direction as L",
+      "m = eL, and it is in the same direction as L",
+      "m = (2mₑ/e)L, and it is opposite in direction to L",
+      "m = (e/2mₑ)L, and it is opposite in direction to L"
+    ],
+    "ans": 3,
+    "solution": "The electron going round is a current I = e/T. With L = mₑvr and the area πr², m = IA = (e/2mₑ)L. The electron is negative, so the moment points opposite to L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m08",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Bohr magneton μ_B is the magnetic moment of an electron in the first Bohr orbit, and it is equal to:",
+    "options": [
+      "eh/(4πmₑ), about 9.27 × 10⁻²⁴ A m²",
+      "mₑh/(4πe), about 4.6 × 10⁻²⁶ A m²",
+      "eh/(4πmₑ), about 9.27 × 10⁻²⁷ A m²",
+      "eh/(2mₑ), about 5.8 × 10⁻²³ A m²"
+    ],
+    "ans": 0,
+    "solution": "With L = h/2π in the first orbit, m = (e/2mₑ)(h/2π) = eh/(4πmₑ). This is the natural unit for the magnetic moments of the atoms.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m09",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetisation M of a material is defined as:",
+    "options": [
+      "the net magnetic moment of the whole material",
+      "the net magnetic moment per unit volume of the material",
+      "the magnetic field inside the material, in tesla",
+      "the force per unit area on the material"
+    ],
+    "ans": 1,
+    "solution": "M = m_net/V. Its unit is A/m, which is the same as that of the magnetic intensity H. A strongly magnetised material has a high magnetisation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m10",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The magnetic field B, the magnetic intensity H and the magnetisation M of a material are related by:",
+    "options": [
+      "B = μ₀HM",
+      "B = (H + M)/μ₀",
+      "B = μ₀(H − M)",
+      "B = μ₀(H + M)"
+    ],
+    "ans": 3,
+    "solution": "H is the part of the field that is due to the external currents, and M is the part due to the magnetisation of the material. For a linear material, M = χH, so B = μ₀(1 + χ)H = μH.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m11",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnetic susceptibility χ of a material is defined as:",
+    "options": [
+      "χ = M/H, and the relative permeability is 1 + χ",
+      "χ = H/M, and the relative permeability is 1 − χ",
+      "χ = M × H, and the relative permeability is χ",
+      "χ = B/H, and the relative permeability is 1 + χ"
+    ],
+    "ans": 0,
+    "solution": "χ has no unit. It tells how easily a material is magnetised. The relative permeability is μᵣ = 1 + χ = μ/μ₀.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m12",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The susceptibility of a diamagnetic material is:",
+    "options": [
+      "large and positive",
+      "large and negative",
+      "small and negative",
+      "small and positive"
+    ],
+    "ans": 2,
+    "solution": "Diamagnetic materials, such as copper, bismuth and water, are weakly repelled by a magnet. The induced moment is opposite to the applied field. The susceptibility is about −10⁻⁵, and it is almost independent of temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m13",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The susceptibility of a paramagnetic material is:",
+    "options": [
+      "small and positive, and it decreases when the temperature rises",
+      "small and positive, and it increases when the temperature rises",
+      "large and positive, and it does not depend on the temperature",
+      "small and negative, and it decreases when the temperature rises"
+    ],
+    "ans": 0,
+    "solution": "The atoms have permanent magnetic moments, and the field tries to line them up, while the thermal motion upsets the order. By Curie's law, χ = C/T, so it falls when T rises.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m14",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A paramagnetic substance has a susceptibility of 3.0 × 10⁻⁴ at 300 K. At 600 K, by Curie's law, its susceptibility is:",
+    "options": [
+      "3.0 × 10⁻⁴",
+      "1.5 × 10⁻⁴",
+      "6.0 × 10⁻⁴",
+      "0.75 × 10⁻⁴"
+    ],
+    "ans": 1,
+    "solution": "χ is inversely proportional to the absolute temperature. If T is doubled, χ is halved: 3.0 × 10⁻⁴/2 = 1.5 × 10⁻⁴.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m15",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A ferromagnetic material, such as iron, nickel or cobalt, has:",
+    "options": [
+      "zero susceptibility, with no domains",
+      "a small positive susceptibility, with no domains",
+      "a small negative susceptibility, because of domains",
+      "a very large positive susceptibility, because of domains"
+    ],
+    "ans": 3,
+    "solution": "A domain is a small region in which the atomic moments are all lined up. In an applied field, the domains that are along the field grow, and the others turn, which gives a very large magnetisation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m16",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Above its Curie temperature, a ferromagnetic material:",
+    "options": [
+      "remains ferromagnetic, but with a smaller susceptibility",
+      "becomes diamagnetic, since the domains line up with the field",
+      "becomes paramagnetic, since the thermal motion breaks up the domains",
+      "becomes a stronger magnet, since the atoms move faster"
+    ],
+    "ans": 2,
+    "solution": "At the Curie temperature (770 °C for iron), the thermal energy overcomes the forces that keep the moments in line. The material then follows Curie-Weiss law, χ = C/(T − T_C), like a paramagnet.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m17",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A rod of a diamagnetic material is placed in a strong non-uniform field. It:",
+    "options": [
+      "moves towards the stronger part of the field, and sets along the field",
+      "does not move, since it is not magnetic",
+      "moves towards the weaker part of the field, and sets across the field",
+      "moves towards the stronger part of the field, and sets across the field"
+    ],
+    "ans": 2,
+    "solution": "A diamagnetic material is weakly repelled, so it tends to move to where the field is weaker. A long rod of it sets at right angles to the field, and a paramagnetic rod sets along the field.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m18",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a B–H curve (hysteresis loop) of a ferromagnetic material, the value of B left when H is reduced to zero is called:",
+    "options": [
+      "the retentivity (remanence)",
+      "the susceptibility of the material",
+      "the coercivity of the material",
+      "the saturation magnetisation"
+    ],
+    "ans": 0,
+    "solution": "The coercivity is the reverse value of H that is needed to bring B to zero. The magnetisation lags behind the field, which is the meaning of hysteresis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m19",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area of the hysteresis loop of a ferromagnetic material is a measure of:",
+    "options": [
+      "the maximum magnetic field in the material",
+      "the retentivity of the material only",
+      "the energy stored in the material permanently",
+      "the energy lost as heat in one cycle of magnetisation"
+    ],
+    "ans": 3,
+    "solution": "In each cycle, the work done on the material is proportional to the area of the loop, and is lost as heat. So for the core of a transformer, we want a material with a thin loop and a small area.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m20",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The core of an electromagnet or a transformer is made of soft iron, because soft iron has:",
+    "options": [
+      "zero susceptibility and no hysteresis loop",
+      "high permeability, low coercivity, and a thin hysteresis loop",
+      "low permeability, high coercivity, and a wide hysteresis loop",
+      "high retentivity and high coercivity, and a wide loop"
+    ],
+    "ans": 1,
+    "solution": "Soft iron is easily magnetised and demagnetised, and little energy is lost per cycle. It is just what is needed for the core, where the field changes all the time.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m21",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A permanent magnet should be made of a material that has:",
+    "options": [
+      "a low retentivity and a high coercivity, such as copper",
+      "a low retentivity and a low coercivity, such as bismuth",
+      "a high retentivity and a high coercivity, such as steel or alnico",
+      "a high retentivity and a low coercivity, such as soft iron"
+    ],
+    "ans": 2,
+    "solution": "The magnet must keep its magnetism for a long time (high retentivity), and must not lose it in stray fields or by shocks (high coercivity). Steel, alnico and some alloys have these properties.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-m22",
+    "ch": "phy-12-11",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A watch is placed in a closed hollow shell of soft iron, in a strong external magnetic field. The field inside the shell is:",
+    "options": [
+      "exactly the same as the field of the Earth, whatever the shell is",
+      "stronger than outside, as the iron concentrates the field",
+      "the same as outside, as the iron is a magnetic material",
+      "very small, as the field lines go through the walls of the iron"
+    ],
+    "ans": 3,
+    "solution": "Soft iron has a large permeability, so the field lines prefer to go through its walls, and very few go through the cavity. This is magnetic shielding, used for the protection of sensitive instruments.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-12-11-n01",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 2,
+    "q": "A magnetic dipole of moment 0.50 A m² is placed in a uniform field of 0.20 T, with its axis at 30° to the field. Find the torque on it, in N m, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.05,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "τ = mB sin θ = 0.50 × 0.20 × 0.5 = 0.050 N m. Check: the cross product m × B has the z component m_x B_y − m_y B_x. With m at 30° to the field direction, it is 0 − (0.50 sin 30°)(0.20), whose magnitude is 0.050 N m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-n02",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same dipole (0.50 A m²) in the field of 0.20 T, the potential energy is taken as zero when the dipole is at 90° to the field. Find the potential energy when the angle is 60°, in J, to 3 decimal places. Give the sign. Give your answer to 3 decimal places.",
+    "ans": -0.05,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "U = −mB cos θ = −0.50 × 0.20 × 0.5 = −0.050 J. It is negative, since the dipole is nearer to the stable position than the zero level at 90°. Check: the work done by the field in turning the dipole from 90° to 60° is the integral of mB sin θ dθ, which is 0.050 J, so the energy falls by that amount, from 0 to −0.050 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-n03",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "A small magnet of moment 2.0 A m² and moment of inertia 1.5 × 10⁻⁶ kg m² oscillates in a field of 3.0 × 10⁻⁵ T. Find the time period of the small oscillations, in s, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.993,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "T = 2π√(I/(mB)) = 2π√(1.5 × 10⁻⁶/(2.0 × 3.0 × 10⁻⁵)) = 2π√0.025 = 2π × 0.1581 = 0.993 s. Check: following the motion step by step from a small angle, in which I θ″ = −mB sin θ, the time between two similar points of the motion is 0.993 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-n04",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "A paramagnetic material has the susceptibility χ = 2.0 × 10⁻⁵ in the magnetic intensity H = 1.0 × 10⁴ A/m. Find the magnetisation M, in A/m, to 2 decimal places. Check with B = μ₀(H + M) (μ₀ = 4π × 10⁻⁷ T m/A). Give your answer to 2 decimal places.",
+    "ans": 0.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "M = χH = 2.0 × 10⁻⁵ × 1.0 × 10⁴ = 0.20 A/m. Check: B = μ₀(1 + χ)H = 4π × 10⁻⁷ × 1.00002 × 10⁴ = 0.012566 T. Then M = B/μ₀ − H = 10 000.2 − 10 000 = 0.20 A/m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-n05",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "The susceptibility of a paramagnetic material is 2.0 × 10⁻⁴ at 300 K. Find its susceptibility at 400 K by Curie's law, in units of 10⁻⁴, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.5,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "χ = C/T, so χ₂ = χ₁T₁/T₂ = 2.0 × 10⁻⁴ × 300/400 = 1.50 × 10⁻⁴. Check: the Curie constant is C = χ₁T₁ = 2.0 × 10⁻⁴ × 300 = 0.060 K, and χ₂ = C/400 = 1.50 × 10⁻⁴.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-n06",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the magnetic moment of an electron in the first Bohr orbit (the Bohr magneton), in units of 10⁻²⁴ A m², to 2 decimal places (e = 1.6 × 10⁻¹⁹ C, h = 6.63 × 10⁻³⁴ J s, mₑ = 9.11 × 10⁻³¹ kg). Give your answer to 2 decimal places.",
+    "ans": 9.27,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ_B = eh/(4πmₑ) = 1.6 × 10⁻¹⁹ × 6.63 × 10⁻³⁴/(4π × 9.11 × 10⁻³¹) = 9.27 × 10⁻²⁴ A m². Check: with the orbital angular momentum L = h/2π = 1.055 × 10⁻³⁴ J s, the moment is m = (e/2mₑ)L = 8.78 × 10¹⁰ × 1.055 × 10⁻³⁴ = 9.27 × 10⁻²⁴ A m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-12-11-n07",
+    "ch": "phy-12-11",
+    "type": "num",
+    "diff": 3,
+    "q": "A long solenoid has 1000 turns per metre and carries a current of 0.50 A. It has a soft iron core of relative permeability 500. Find the magnetic field B in the core, in T, to 3 decimal places (μ₀ = 4π × 10⁻⁷ T m/A). Give your answer to 3 decimal places.",
+    "ans": 0.314,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "B = μ₀μᵣnI = 4π × 10⁻⁷ × 500 × 1000 × 0.50 = 0.314 T. Check: H = nI = 500 A/m. The magnetisation of the core is M = χH = (μᵣ − 1)H = 499 × 500 = 249 500 A/m. Then B = μ₀(H + M) = 4π × 10⁻⁷ × 250 000 = 0.314 T. Without the core, B would be only 6.3 × 10⁻⁴ T.",
     "sample": false,
     "verifiedBy": [
       "derivation",
