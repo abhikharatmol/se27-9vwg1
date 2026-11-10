@@ -8455,6 +8455,673 @@
     ]
   },
   {
+    "id": "chem-12-03-m01",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of the following is a strong electrolyte in water?",
+    "options": [
+      "acetic acid, which ionises almost completely",
+      "sodium chloride, which ionises almost completely",
+      "glucose, which ionises almost completely",
+      "ammonium hydroxide, which ionises almost completely"
+    ],
+    "ans": 1,
+    "solution": "A strong electrolyte is almost fully ionised in solution. NaCl, HCl and NaOH are strong. Acetic acid and ammonium hydroxide are weak, and glucose is a non-electrolyte that stays as molecules.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m02",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The degree of dissociation α of a weak electrolyte is:",
+    "options": [
+      "the number of ions formed by one molecule of it",
+      "the ratio of the two ion concentrations to each other",
+      "the concentration of the ions, in mol per litre",
+      "the fraction of the dissolved molecules that have ionised"
+    ],
+    "ans": 3,
+    "solution": "If a fraction α of the molecules splits into ions, then the ion concentration is αc for a solution of concentration c. For a weak electrolyte, α is much less than 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m03",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to the Brønsted–Lowry theory, the conjugate base of H₂SO₄ is:",
+    "options": [
+      "HSO₄⁻",
+      "SO₄²⁻",
+      "H₃SO₄⁺",
+      "OH⁻"
+    ],
+    "ans": 0,
+    "solution": "The conjugate base is what is left when the acid gives up one proton: H₂SO₄ → H⁺ + HSO₄⁻. SO₄²⁻ is the conjugate base of HSO₄⁻.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m04",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The conjugate acid of ammonia, NH₃, is:",
+    "options": [
+      "NH₂⁻",
+      "NH₄OH",
+      "NH₄⁺",
+      "N₂H₄"
+    ],
+    "ans": 2,
+    "solution": "A base accepts a proton. NH₃ + H⁺ → NH₄⁺, so NH₄⁺ is the conjugate acid of NH₃.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m05",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Water is described as amphoteric because it:",
+    "options": [
+      "can act only as a base, by accepting its protons",
+      "can act as an acid towards a base, and as a base towards an acid",
+      "is neutral, so that it does not react with any acid or base",
+      "can act only as an acid, by giving up its protons"
+    ],
+    "ans": 1,
+    "solution": "With NH₃, water gives a proton and is an acid. With HCl, it takes a proton to form H₃O⁺ and is a base.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m06",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "BF₃ is a Lewis acid, but it is not a Brønsted–Lowry acid, because it:",
+    "options": [
+      "can accept a pair of electrons, and it has a proton to give",
+      "can give a pair of electrons, and it has a proton to give",
+      "can accept a proton, and it has a pair of electrons to give",
+      "can accept a pair of electrons, but it has no proton to give"
+    ],
+    "ans": 3,
+    "solution": "Boron in BF₃ has only six electrons in its outer shell, so it accepts an electron pair. The molecule has no hydrogen, so it cannot donate a proton.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m07",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a weak electrolyte, the degree of dissociation, according to Ostwald's dilution law (α much less than 1), is:",
+    "options": [
+      "α = K/c, so it increases when the solution is concentrated",
+      "α = √(Kc), so it increases when the solution is diluted",
+      "α = √(K/c), so it increases when the solution is diluted",
+      "α = √(K/c), so it decreases when the solution is diluted"
+    ],
+    "ans": 2,
+    "solution": "K = α²c/(1 − α), and for small α this is K = α²c. So α = √(K/c). A smaller c, which means dilution, gives a larger α.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m08",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solution of a weak acid is diluted with water. Then:",
+    "options": [
+      "the degree of dissociation increases, but the H⁺ concentration decreases",
+      "both the degree of dissociation and the H⁺ concentration increase",
+      "the degree of dissociation decreases, and the H⁺ concentration increases",
+      "both the degree of dissociation and the H⁺ concentration are unchanged"
+    ],
+    "ans": 0,
+    "solution": "α = √(K/c) rises as c falls. But [H⁺] = αc = √(Kc), and this falls as c falls. The concentration falls faster than the degree of dissociation rises.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m09",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "At 298 K, the ionic product of water, K_w, has the value:",
+    "options": [
+      "1.0 × 10⁻¹⁴ mol² dm⁻⁶",
+      "1.0 × 10¹⁴ mol² dm⁻⁶",
+      "1.0 × 10⁻¹⁴ mol dm⁻³",
+      "1.0 × 10⁻⁷ mol² dm⁻⁶"
+    ],
+    "ans": 0,
+    "solution": "Kw = [H₃O⁺][OH⁻] = (10⁻⁷)(10⁻⁷) = 10⁻¹⁴ in pure water at 298 K. The 10⁻⁷ is the concentration of each ion, not Kw.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m10",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The pH of a 1.0 × 10⁻³ M solution of HCl is:",
+    "options": [
+      "1",
+      "0.001",
+      "3",
+      "11"
+    ],
+    "ans": 2,
+    "solution": "HCl is a strong acid, so [H⁺] = 10⁻³ M and pH = −log 10⁻³ = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m11",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The pH of a 0.010 M solution of NaOH at 298 K is:",
+    "options": [
+      "2",
+      "12",
+      "10",
+      "13"
+    ],
+    "ans": 1,
+    "solution": "[OH⁻] = 10⁻² M, so pOH = 2. pH = 14 − 2 = 12. A pH of 2 would be for an acid of the same concentration.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m12",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The hydronium ion concentration in a solution of pH 3 is how many times that in a solution of pH 5?",
+    "options": [
+      "2 times as large",
+      "1000 times as large",
+      "10 times as large",
+      "100 times as large"
+    ],
+    "ans": 3,
+    "solution": "pH is a logarithmic scale. A difference of 2 units is a factor of 10² = 100 in [H₃O⁺]. The lower pH has the higher concentration.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m13",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Pure water at 373 K has a pH of about 6. At this temperature, water is:",
+    "options": [
+      "acidic, because the pH is less than 7",
+      "neutral, because [H⁺] is greater than [OH⁻]",
+      "neutral, because [H⁺] is equal to [OH⁻]",
+      "basic, because the pH is less than 7"
+    ],
+    "ans": 2,
+    "solution": "Kw rises with temperature, so [H⁺] = [OH⁻] = √Kw is larger, and the neutral pH is below 7. A solution is neutral when the two concentrations are equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m14",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An aqueous solution of sodium acetate, CH₃COONa, is basic because:",
+    "options": [
+      "the salt ionises only partly, and this leaves OH⁻ in excess",
+      "the acetate ion takes H⁺ from water, and this leaves OH⁻ in excess",
+      "the sodium ion takes OH⁻ from water, and this leaves H⁺ in excess",
+      "the acetate ion gives H⁺ to water, and this leaves OH⁻ in excess"
+    ],
+    "ans": 1,
+    "solution": "CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. The acetate ion is the conjugate base of a weak acid. The Na⁺ ion is from a strong base and does not react with water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m15",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An aqueous solution of ammonium chloride is:",
+    "options": [
+      "acidic, as Cl⁻ gives H⁺ to water",
+      "basic, as NH₄⁺ gives H⁺ to water",
+      "neutral, as the salt is from a strong acid",
+      "acidic, as NH₄⁺ gives H⁺ to water"
+    ],
+    "ans": 3,
+    "solution": "NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺. The chloride ion is from a strong acid and does not react with water. So the solution has excess H₃O⁺.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m16",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An aqueous solution of ammonium acetate, CH₃COONH₄, is almost neutral because:",
+    "options": [
+      "K_a of acetic acid and K_b of ammonia are nearly equal",
+      "the salt does not take part in hydrolysis at all",
+      "the salt is from a strong acid and a strong base",
+      "K_a of acetic acid is much greater than K_b of ammonia"
+    ],
+    "ans": 0,
+    "solution": "Both ions hydrolyse. The acetate ion makes the solution basic, and the ammonium ion makes it acidic, to nearly the same extent. So the pH is close to 7, although the salt is hydrolysed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m17",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A buffer solution is a solution that:",
+    "options": [
+      "changes its pH in proportion to the acid or base added",
+      "has a pH of exactly 7 at all concentrations and temperatures",
+      "resists a change in pH when a little acid or base is added",
+      "has no ions in it, so a small addition cannot change it"
+    ],
+    "ans": 2,
+    "solution": "An acidic buffer has a weak acid and its salt, such as CH₃COOH and CH₃COONa. A basic buffer has a weak base and its salt, such as NH₄OH and NH₄Cl.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m18",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An acidic buffer has equal concentrations of the weak acid and its salt. Its pH is:",
+    "options": [
+      "equal to 14 minus the pKa of the acid",
+      "equal to 2 times the pKa of the acid",
+      "equal to 7, as the solution is neutral",
+      "equal to the pKa of the acid"
+    ],
+    "ans": 3,
+    "solution": "pH = pKa + log([salt]/[acid]). If the two concentrations are equal, the ratio is 1, and log 1 = 0, so pH = pKa.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m19",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A buffer solution is diluted to twice its volume with water. Its pH:",
+    "options": [
+      "rises by about 0.3, as the concentrations are halved",
+      "stays almost the same, as the ratio [salt]/[acid] is unchanged",
+      "becomes 7, as the water makes the solution neutral",
+      "falls by about 0.3, as the concentrations are halved"
+    ],
+    "ans": 1,
+    "solution": "Both the salt and the acid are diluted by the same factor, so their ratio, and the pH from the Henderson equation, does not change. Its capacity, however, falls.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m20",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a sparingly soluble salt PbI₂ with molar solubility S, the solubility product is:",
+    "options": [
+      "K_sp = 4S³",
+      "K_sp = S²",
+      "K_sp = 2S³",
+      "K_sp = 27S⁴"
+    ],
+    "ans": 0,
+    "solution": "PbI₂ ⇌ Pb²⁺ + 2I⁻. [Pb²⁺] = S and [I⁻] = 2S. K_sp = S(2S)² = 4S³.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m21",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the salt Al(OH)₃ with a molar solubility S, the solubility product is:",
+    "options": [
+      "K_sp = 9S³",
+      "K_sp = 4S³",
+      "K_sp = 3S⁴",
+      "K_sp = 27S⁴"
+    ],
+    "ans": 3,
+    "solution": "Al(OH)₃ ⇌ Al³⁺ + 3OH⁻. [Al³⁺] = S and [OH⁻] = 3S. K_sp = S(3S)³ = 27S⁴.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m22",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A precipitate of a sparingly soluble salt forms when the ionic product, compared with K_sp, is:",
+    "options": [
+      "less than K_sp",
+      "equal to the square root of K_sp",
+      "greater than K_sp",
+      "equal to half of K_sp"
+    ],
+    "ans": 2,
+    "solution": "If the ionic product is greater than K_sp, the solution is supersaturated, and the extra ions come out as a solid. If it is less than K_sp, the solution is unsaturated.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m23",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The solubility of AgCl in a 0.1 M solution of NaCl, compared with its solubility in pure water, is:",
+    "options": [
+      "less, because of the common ion effect of Cl⁻",
+      "more, because of the common ion effect of Cl⁻",
+      "the same, because K_sp of AgCl is a constant",
+      "more, because NaCl is a strong electrolyte"
+    ],
+    "ans": 0,
+    "solution": "The added Cl⁻ shifts AgCl(s) ⇌ Ag⁺ + Cl⁻ to the left, so less AgCl dissolves. K_sp is unchanged, but the solubility is lower.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m24",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When a common ion is added to a saturated solution of a sparingly soluble salt, the solubility product K_sp:",
+    "options": [
+      "decreases, and the solubility decreases",
+      "remains the same, but the solubility decreases",
+      "remains the same, and the solubility increases",
+      "increases, and the solubility increases"
+    ],
+    "ans": 1,
+    "solution": "K_sp depends only on the temperature. The solubility falls because the concentration of one of the ions was raised, so the other must fall to keep the product the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-m25",
+    "ch": "chem-12-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Solid NH₄Cl is added to a solution of NH₄OH. The concentration of OH⁻ in the solution:",
+    "options": [
+      "stays the same, as NH₄Cl is a neutral salt",
+      "increases, due to the common ion effect of NH₄⁺",
+      "decreases, due to the common ion effect of NH₄⁺",
+      "increases, due to the ionisation of NH₄Cl"
+    ],
+    "ans": 2,
+    "solution": "The extra NH₄⁺ shifts NH₄OH ⇌ NH₄⁺ + OH⁻ to the left, which suppresses the ionisation of the weak base. [OH⁻] falls, and the pH falls.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-03-n01",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the pH of a 1.0 × 10⁻³ M solution of NaOH at 298 K (K_w = 1.0 × 10⁻¹⁴), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 11.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "[OH⁻] = 1.0 × 10⁻³ M, so pOH = 3 and pH = 14 − 3 = 11.00. Check: [H⁺] = Kw/[OH⁻] = 10⁻¹⁴/10⁻³ = 10⁻¹¹ M, and pH = 11.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n02",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the pH of a 0.10 M solution of a weak acid with K_a = 1.0 × 10⁻⁵, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "α = √(K_a/c) = √(10⁻⁴) = 0.01, so [H⁺] = αc = 1.0 × 10⁻³ M and pH = 3.00. Check: solving K_a = x²/(c − x) exactly gives x = 9.95 × 10⁻⁴ M, and pH = 3.00.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n03",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the degree of dissociation of a 0.010 M solution of a weak acid with K_a = 1.0 × 10⁻⁵, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.032,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "α = √(K_a/c) = √(1.0 × 10⁻⁵/0.010) = √(10⁻³) = 0.0316, which is 0.032. Check: solving K_a = α²c/(1 − α) exactly gives α = 0.0315, which is again 0.032.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n04",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A buffer has 0.20 M acetic acid and 0.10 M sodium acetate. Find its pH, given pK_a of acetic acid = 4.74 (log 2 = 0.301), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 4.44,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "pH = pK_a + log([salt]/[acid]) = 4.74 + log(0.10/0.20) = 4.74 − 0.301 = 4.44. Check: solving the equilibrium for K_a = 10⁻⁴·⁷⁴ exactly gives the same value to 2 decimal places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n05",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "To 1.0 L of a buffer that has 0.10 mol of acetic acid and 0.10 mol of sodium acetate, 0.010 mol of solid NaOH is added (no change in volume). Find the new pH (pK_a = 4.74, log(11/9) = 0.087), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 4.83,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "NaOH reacts with the acid: CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O. So the acid becomes 0.09 mol and the salt 0.11 mol. pH = 4.74 + log(0.11/0.09) = 4.74 + 0.087 = 4.83. The pH rose by only 0.09. Check: solving the equilibrium exactly gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n06",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "The solubility product of PbI₂ is 1.4 × 10⁻⁸ at a given temperature. Find its molar solubility, in units of 10⁻³ mol/L, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.52,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "K_sp = 4S³, so S = (K_sp/4)^(1/3) = (3.5 × 10⁻⁹)^(1/3) = 1.52 × 10⁻³ mol/L. Check: for S = 1.52 × 10⁻³, 4S³ = 1.4 × 10⁻⁸.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n07",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "100 mL of 2.0 × 10⁻³ M Pb(NO₃)₂ is mixed with 100 mL of 2.0 × 10⁻³ M KI. Find the ionic product [Pb²⁺][I⁻]², in units of 10⁻⁹, to 2 decimal places. (K_sp of PbI₂ = 1.4 × 10⁻⁸.) Give your answer to 2 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "After mixing, the volume is doubled, so each concentration is halved: [Pb²⁺] = 1.0 × 10⁻³ and [I⁻] = 1.0 × 10⁻³ M. The ionic product is (10⁻³)(10⁻³)² = 1.0 × 10⁻⁹. This is less than K_sp = 1.4 × 10⁻⁸, so no precipitate forms. Check: from the moles, 2 × 10⁻⁴ mol in 0.200 L gives the same concentrations.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n08",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the solubility of AgCl in 0.10 M NaCl, in units of 10⁻⁹ mol/L, to 2 decimal places (K_sp of AgCl = 1.8 × 10⁻¹⁰). Give your answer to 2 decimal places.",
+    "ans": 1.8,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Let S be the solubility. [Ag⁺] = S and [Cl⁻] = 0.10 + S, which is about 0.10. So S = K_sp/0.10 = 1.8 × 10⁻⁹ mol/L. In pure water the solubility is √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵, which is about 7000 times as much. Check: solving S(S + 0.10) = K_sp exactly gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n09",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the pH of a 0.10 M solution of NH₄Cl, given K_b of NH₃ = 1.8 × 10⁻⁵ and K_w = 1.0 × 10⁻¹⁴, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 5.13,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺. K_h = K_w/K_b = 5.56 × 10⁻¹⁰. [H⁺] = √(K_h c) = √(5.56 × 10⁻¹¹) = 7.45 × 10⁻⁶ M. pH = 5.13. Check: solving K_h = x²/(c − x) exactly gives the same pH.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n10",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "50 mL of 0.10 M HCl is mixed with 50 mL of 0.050 M NaOH. Find the pH of the mixture, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.6,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Moles of H⁺ = 0.050 × 0.10 = 5.0 × 10⁻³. Moles of OH⁻ = 0.050 × 0.050 = 2.5 × 10⁻³. The excess H⁺ is 2.5 × 10⁻³ mol in 0.100 L, so [H⁺] = 0.025 M. pH = −log 0.025 = 1.60. Check: solving [H⁺] − Kw/[H⁺] = 0.025 for [H⁺] gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n11",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "A 0.10 M solution of a weak monobasic acid has a pH of 3.0. Find its K_a, in units of 10⁻⁵, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.01,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "[H⁺] = 10⁻³ M, so the ionised part is 10⁻³ M and the rest of the acid is 0.10 − 0.001 = 0.099 M. K_a = (10⁻³)²/0.099 = 1.01 × 10⁻⁵. Check: α = 0.001/0.10 = 0.01, and K_a = α²c/(1 − α) = 10⁻⁴ × 0.10/0.99 = 1.01 × 10⁻⁵.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-03-n12",
+    "ch": "chem-12-03",
+    "type": "num",
+    "diff": 2,
+    "q": "100 mL of a solution of pH 2.00 is mixed with 100 mL of a solution of pH 4.00 (both are strong acids). Find the pH of the mixture, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.3,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "[H⁺] values are 10⁻² M and 10⁻⁴ M. The mixture has (10⁻² × 0.1 + 10⁻⁴ × 0.1)/0.2 = 5.05 × 10⁻³ M. pH = −log(5.05 × 10⁻³) = 2.30. The pH is not the average, 3.00, since the pH scale is logarithmic. Check: from the moles of H⁺, 1.01 × 10⁻³ mol in 0.2 L, gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-12-04-m01",
     "ch": "chem-12-04",
     "type": "mcq",
@@ -12471,6 +13138,647 @@
     ]
   },
   {
+    "id": "chem-12-10-m01",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The compound CH₂=CH–Cl, in which the halogen is joined to a doubly bonded carbon, is classed as:",
+    "options": [
+      "a vinylic halide, which is a haloalkene",
+      "a benzylic halide, which is a haloarene",
+      "an allylic halide, which is a haloalkene",
+      "an alkyl halide, which is a haloalkane"
+    ],
+    "ans": 0,
+    "solution": "The halogen is on an sp² carbon of the C=C bond. This makes it a vinylic halide. In an allylic halide, the halogen is on the carbon next to the double bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m02",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Chlorobenzene, C₆H₅Cl, belongs to the class of:",
+    "options": [
+      "allylic halides, as the halogen is on a carbon next to a C=C bond",
+      "benzylic halides, as the halogen is on a carbon next to the ring",
+      "aryl halides, as the halogen is on an sp² carbon of the ring",
+      "alkyl halides, as the halogen is on an sp³ carbon of the ring"
+    ],
+    "ans": 2,
+    "solution": "In an aryl halide, the halogen is bonded directly to a carbon atom of an aromatic ring. In a benzylic halide, it is on a side-chain carbon that is attached to the ring.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m03",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The compound (CH₃)₃C–Br is a:",
+    "options": [
+      "secondary alkyl halide, as the carbon with Br is joined to two other carbons",
+      "tertiary alkyl halide, as the carbon with Br is joined to three other carbons",
+      "tertiary alkyl halide, as the carbon with Br is joined to three hydrogens",
+      "primary alkyl halide, as the carbon with Br is joined to one other carbon"
+    ],
+    "ans": 1,
+    "solution": "The class depends on the number of carbon atoms attached to the carbon that holds the halogen. Here the carbon has three methyl groups and the bromine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m04",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The IUPAC name of CH₃CH(Br)CH₃ is:",
+    "options": [
+      "isopropyl bromine",
+      "2-bromoethane",
+      "1-bromopropane",
+      "2-bromopropane"
+    ],
+    "ans": 3,
+    "solution": "The longest chain has three carbons, and the bromine is on the second carbon, so the name is 2-bromopropane. Its common name is isopropyl bromide.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m05",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The IUPAC name of (CH₃)₃C–Cl is:",
+    "options": [
+      "2-methyl-2-chlorobutane",
+      "1-chloro-2,2-dimethylethane",
+      "2-chloro-2-methylpropane",
+      "tert-chloro-butane"
+    ],
+    "ans": 2,
+    "solution": "The longest chain has three carbons. There is a methyl group and a chlorine on carbon 2. The prefixes are written in alphabetical order, chloro before methyl.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m06",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Thionyl chloride, SOCl₂, is a good reagent to make an alkyl chloride from an alcohol, because:",
+    "options": [
+      "the other products, SO₂ and HCl, are liquids that mix with the chloride",
+      "the other products, SO₂ and HCl, are solids that are easy to filter",
+      "it works with the alkanes, and does not need an alcohol",
+      "the other products, SO₂ and HCl, are gases that leave the mixture"
+    ],
+    "ans": 3,
+    "solution": "R–OH + SOCl₂ → R–Cl + SO₂ + HCl. Both by-products escape as gases, and the alkyl chloride is left pure, with no need for a long purification.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m07",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Lucas reagent is:",
+    "options": [
+      "concentrated HCl with anhydrous AlCl₃, and tertiary alcohols react with it slowest",
+      "concentrated HCl with anhydrous ZnCl₂, and tertiary alcohols react with it fastest",
+      "dilute HCl with anhydrous ZnCl₂, and primary alcohols react with it fastest",
+      "concentrated H₂SO₄ with anhydrous ZnCl₂, and tertiary alcohols react with it fastest"
+    ],
+    "ans": 1,
+    "solution": "It turns an alcohol into an alkyl chloride, which makes the solution cloudy. The rate depends on the stability of the carbocation, so the order is tertiary, secondary, primary.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m08",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Finkelstein reaction, R–Cl + NaI → R–I + NaCl, goes to completion in dry acetone because:",
+    "options": [
+      "NaCl is not soluble in acetone, and it comes out of the solution",
+      "acetone takes part in the reaction as an oxidising agent",
+      "NaI is not soluble in acetone, and it comes out of the solution",
+      "the alkyl iodide is not soluble in acetone, and it comes out"
+    ],
+    "ans": 0,
+    "solution": "NaI dissolves in acetone, but NaCl and NaBr do not. As the sodium chloride separates as a solid, the equilibrium shifts to the right, by Le Chatelier's principle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m09",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Swarts reaction is the preparation of an alkyl fluoride by heating:",
+    "options": [
+      "an alkyl chloride or bromide with a metal fluoride such as AgF or Hg₂F₂",
+      "an alcohol with a halogen acid and zinc chloride",
+      "an alkyl iodide with a metal iodide such as NaI in acetone",
+      "an alkane with fluorine gas in strong sunlight"
+    ],
+    "ans": 0,
+    "solution": "Direct fluorination is too violent, and the iodide route does not give fluorides. In the Swarts reaction, a metal fluoride exchanges its halide for the chlorine or bromine of the alkyl halide.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m10",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Among CH₃CH₂Cl, CH₃CH₂Br and CH₃CH₂I, the one with the highest boiling point is:",
+    "options": [
+      "CH₃CH₂Cl, as the C–Cl bond is the most polar of the three",
+      "all three, as they have the same boiling point",
+      "CH₃CH₂Br, as it has the strongest bond of the three",
+      "CH₃CH₂I, as the molecule is the largest and the most polarisable"
+    ],
+    "ans": 3,
+    "solution": "For the same alkyl group, the boiling point rises from the chloride to the iodide, because the molecular mass and the size of the electron cloud increase, and the van der Waals forces get stronger.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m11",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Of the isomers n-butyl bromide and tert-butyl bromide, the one with the lower boiling point is tert-butyl bromide, because:",
+    "options": [
+      "its molecule is more polar, so the dipole forces are weaker",
+      "its molecular mass is lower than that of n-butyl bromide",
+      "its molecule is more compact, so the surface area is smaller and the forces are weaker",
+      "its molecule is less compact, so the surface area is larger and the forces are weaker"
+    ],
+    "ans": 2,
+    "solution": "Branching makes the molecule closer to a sphere, and there is less contact between the molecules. The van der Waals forces are weaker, and the boiling point is lower. The molecular mass is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m12",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Alkyl halides are only slightly soluble in water, although they are polar, because:",
+    "options": [
+      "their molecules are non-polar, as the C–X bond is covalent",
+      "they cannot form hydrogen bonds with water to make up for the bonds broken in water",
+      "they react with water completely to form the alcohols at once",
+      "they are less dense than water, and so they float on it"
+    ],
+    "ans": 1,
+    "solution": "To dissolve, the halide must break the hydrogen bonds of water. The new attractions between the halide and water are weaker, so only a little dissolves.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m13",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of the following compounds has a chiral carbon atom?",
+    "options": [
+      "bromoethane, CH₃CH₂Br",
+      "2-bromopropane, CH₃CH(Br)CH₃",
+      "1-bromobutane, CH₃CH₂CH₂CH₂Br",
+      "2-bromobutane, CH₃CH(Br)CH₂CH₃"
+    ],
+    "ans": 3,
+    "solution": "In 2-bromobutane, carbon 2 is joined to four different groups: H, Br, CH₃ and C₂H₅. In 2-bromopropane, two of the groups on carbon 2 are the same, both being CH₃.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m14",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A racemic mixture is optically inactive because:",
+    "options": [
+      "each of the molecules in it has a plane of symmetry in itself",
+      "the rotation of one enantiomer is cancelled by the other, as they are in equal amounts",
+      "the two enantiomers rotate the light by an equal angle in the same direction",
+      "the molecules of the mixture are not chiral at all"
+    ],
+    "ans": 1,
+    "solution": "A racemic mixture has equal amounts of a (+) and a (−) enantiomer. They rotate plane polarised light by equal angles in opposite directions, so the net rotation is zero. The molecules themselves are chiral.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m15",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Two enantiomers of a compound differ in that they:",
+    "options": [
+      "rotate plane polarised light by equal angles in opposite directions",
+      "have different molecular formulas",
+      "have different melting points and boiling points",
+      "rotate plane polarised light by equal angles in the same direction"
+    ],
+    "ans": 0,
+    "solution": "Enantiomers are non-superimposable mirror images. Their physical properties, such as melting point and boiling point, are the same. They differ in the direction in which they rotate polarised light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m16",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In an SN2 reaction of an optically active alkyl halide, the product is formed:",
+    "options": [
+      "in two steps, with a retention of the configuration",
+      "in two steps, with a racemic mixture as the product",
+      "in one step, with an inversion of the configuration",
+      "in one step, with a retention of the configuration"
+    ],
+    "ans": 2,
+    "solution": "The nucleophile attacks from the side opposite to the leaving group. The carbon is turned inside out, like an umbrella in the wind. This is the Walden inversion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m17",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An SN1 reaction of an optically active tertiary halide gives a product that is largely:",
+    "options": [
+      "racemised, as the intermediate carbocation is planar and is attacked from both sides",
+      "optically active, as only one side of the carbocation is open",
+      "inverted, as the nucleophile attacks from the back of the carbon",
+      "unchanged in configuration, as the carbocation holds its shape"
+    ],
+    "ans": 0,
+    "solution": "The first step, the loss of the halide ion, is slow. It gives a planar carbocation, and the nucleophile can attack from the front or the back, giving both enantiomers. The rate depends on the halide only.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m18",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The order of the reactivity of CH₃Br, a primary, a secondary and a tertiary alkyl bromide in an SN2 reaction is:",
+    "options": [
+      "tertiary > secondary > primary > CH₃Br, as the carbocation is more stable",
+      "CH₃Br > primary > secondary > tertiary, as bulky groups block the back attack",
+      "CH₃Br < primary < secondary < tertiary, as bulky groups help the back attack",
+      "all four are equal, as the leaving group is the same"
+    ],
+    "ans": 1,
+    "solution": "An SN2 attack is at the back of the carbon. More alkyl groups on this carbon give more crowding and a slower reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m19",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In an SN1 reaction, the order of reactivity of alkyl halides with the same halogen is:",
+    "options": [
+      "tertiary > secondary > primary, as the tertiary halide is the least bulky",
+      "primary > secondary > tertiary, as the back of the carbon is open",
+      "primary > secondary > tertiary, as the primary carbocation is the most stable",
+      "tertiary > secondary > primary, as the tertiary carbocation is the most stable"
+    ],
+    "ans": 3,
+    "solution": "The slow step is the formation of a carbocation. Alkyl groups push electrons towards the positive carbon and make it more stable, so a tertiary carbocation forms the fastest.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m20",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An alkyl halide is heated with alcoholic KOH in one test and with aqueous KOH in another. The main products are:",
+    "options": [
+      "an alcohol with alcoholic KOH, and an alkene with aqueous KOH",
+      "an alkene with both of them, as KOH removes HX",
+      "an alkene with alcoholic KOH, and an alcohol with aqueous KOH",
+      "an alcohol with both of them, as the OH⁻ is the nucleophile"
+    ],
+    "ans": 2,
+    "solution": "Alcoholic KOH has the strong base C₂H₅O⁻, which removes a proton, causing elimination. In aqueous KOH, the OH⁻ ion acts mainly as a nucleophile, causing substitution.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m21",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "2-Bromobutane is heated with alcoholic KOH. By Zaitsev's rule, the major product is:",
+    "options": [
+      "butan-2-ol, the substitution product",
+      "butane, from the loss of the halogen",
+      "but-1-ene, the less substituted alkene",
+      "but-2-ene, the more highly substituted alkene"
+    ],
+    "ans": 3,
+    "solution": "In dehydrohalogenation, the hydrogen is removed from the carbon that has fewer hydrogens, which gives the more stable alkene with more alkyl groups on the double bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m22",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A Grignard reagent is prepared by the reaction of an alkyl halide with magnesium:",
+    "options": [
+      "in water, as the ions need a polar solvent",
+      "in dry ether, as water would destroy the reagent",
+      "in liquid ammonia, as the metal must dissolve",
+      "in dilute acid, as the metal must be cleaned first"
+    ],
+    "ans": 1,
+    "solution": "R–X + Mg → R–Mg–X in dry diethyl ether. A Grignard reagent reacts with water to give an alkane, so every trace of water must be kept out.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m23",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Chlorobenzene is much less reactive than ethyl chloride towards nucleophilic substitution, mainly because:",
+    "options": [
+      "the C–Cl bond has a partial double bond character and the carbon is sp² hybridised",
+      "the C–Cl bond is longer and weaker than that in ethyl chloride",
+      "the carbon in chlorobenzene is sp³ hybridised, so it is hindered",
+      "chlorobenzene is a non-polar molecule, so it cannot react"
+    ],
+    "ans": 0,
+    "solution": "The lone pair on chlorine takes part in resonance with the ring, which gives the C–Cl bond some double bond character. This makes it shorter and stronger. Also, an sp² carbon is more electronegative than an sp³ carbon.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m24",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In electrophilic substitution of chlorobenzene, the chlorine atom:",
+    "options": [
+      "directs the new group to the ortho and para positions, and it activates the ring",
+      "directs the new group to the meta position, and it activates the ring",
+      "directs the new group to the ortho and para positions, and it deactivates the ring",
+      "directs the new group to the meta position, and it deactivates the ring"
+    ],
+    "ans": 2,
+    "solution": "The halogen is deactivating, as it withdraws electrons by its inductive effect. But its lone pairs help to stabilise the intermediate for ortho and para attack, so it is an ortho, para director.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m25",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Chloroform is stored in dark brown bottles, filled to the top, because in light and air it:",
+    "options": [
+      "slowly changes into carbon tetrachloride, which is very poisonous",
+      "slowly changes into methane, which can catch fire",
+      "slowly dissolves the glass of a clear bottle",
+      "slowly changes into phosgene, COCl₂, which is very poisonous"
+    ],
+    "ans": 3,
+    "solution": "2CHCl₃ + O₂ → 2COCl₂ + 2HCl, in light. A little ethanol is often added, which turns the phosgene into harmless compounds.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m26",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Carbon tetrachloride, once used widely as a solvent and in fire extinguishers, is now avoided because:",
+    "options": [
+      "it dissolves in water, and it makes the water acidic",
+      "it can damage the liver and it harms the ozone layer",
+      "it reacts with the metals in the containers it is kept in",
+      "it burns easily, and it explodes in air at room temperature"
+    ],
+    "ans": 1,
+    "solution": "Long exposure to CCl₄ damages the liver, kidneys and the nervous system. Its vapour also reaches the upper atmosphere and takes part in the breakdown of ozone.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-m27",
+    "ch": "chem-12-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The rate of the reaction (CH₃)₃C–Br + OH⁻ → (CH₃)₃C–OH + Br⁻ is first order in the halide. If the concentration of OH⁻ is doubled, the rate:",
+    "options": [
+      "is halved, since OH⁻ makes the halide less stable",
+      "is doubled, since OH⁻ takes part in the slow step",
+      "remains the same, since the slow step does not involve OH⁻",
+      "is multiplied by four, since the rate is second order in OH⁻"
+    ],
+    "ans": 2,
+    "solution": "This is an SN1 reaction. The slow step is the ionisation of the halide to a carbocation, and OH⁻ attacks after it, in a fast step, so the rate does not depend on it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-10-n01",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "An SN2 reaction has the rate law: rate = k[RX][Nu⁻]. The concentration of RX is doubled and that of Nu⁻ is tripled. By what factor does the rate increase? Give your answer as a whole number.",
+    "ans": 6,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Rate ∝ [RX][Nu⁻]. The new rate is (2)(3) = 6 times the old one. Check: with k = 1 and both concentrations at 1, the rate is 1. With 2 and 3 it is 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n02",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "The hydrolysis of tert-butyl bromide (an SN1 reaction) is first order in the halide, with k = 3.0 × 10⁻³ s⁻¹. Find the half-life, in seconds, to the nearest second (ln 2 = 0.693). Give your answer as a whole number.",
+    "ans": 231.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For a first-order reaction, t½ = 0.693/k = 0.693/(3.0 × 10⁻³) = 231 s. Check: following the concentration step by step until it is half of the start gives 231 s.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n03",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same reaction (k = 3.0 × 10⁻³ s⁻¹), find the fraction of the halide that remains after 10 minutes, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.1653,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "[RX]/[RX]₀ = e^(−kt) = e^(−3.0 × 10⁻³ × 600) = e^(−1.8) = 0.1653. Check: following the decay step by step for 600 s gives the same fraction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n04",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the percentage by mass of chlorine in chloroform, CHCl₃ (H = 1, C = 12, Cl = 35.5), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 89.12,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The molar mass is 12 + 1 + 3 × 35.5 = 119.5 g/mol. The mass of chlorine in it is 106.5 g. The percentage is 106.5/119.5 × 100 = 89.12. Check: carbon and hydrogen are 13/119.5 = 10.88 percent, and 100 − 10.88 = 89.12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n05",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "In the Carius method, 0.300 g of an organic chloro compound gives 0.574 g of AgCl (Ag = 108, Cl = 35.5). Find the percentage of chlorine in the compound, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 47.33,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The molar mass of AgCl is 143.5 g/mol, and it has 35.5 g of Cl in it. The mass of Cl in the sample is 35.5/143.5 × 0.574 = 0.142 g. The percentage is 0.142/0.300 × 100 = 47.33. Check: 0.574 g is 0.0040 mol of AgCl, so 0.0040 mol of Cl, which is 0.142 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n06",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "4.6 g of ethanol (C₂H₅OH, molar mass 46 g/mol) is converted to chloroethane (C₂H₅Cl, 64.5 g/mol) with SOCl₂. The yield is 80 percent. Find the mass of chloroethane obtained, in g, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 5.16,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The theoretical yield is 4.6 g × 64.5/46 = 6.45 g, since the reaction is 1 mol to 1 mol. At 80 percent, the mass is 6.45 × 0.80 = 5.16 g. Check: 4.6 g is 0.10 mol, and 0.08 mol of product is 0.08 × 64.5 = 5.16 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n07",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The specific rotation of the pure (+) enantiomer of a compound is +66.5°. A solution contains 0.20 g/mL of a mixture of 75 percent (+) and 25 percent (−) enantiomers, in a tube 2.0 dm long. Find the observed rotation, in degrees, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 13.3,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The excess of the (+) form is 75 − 25 = 50 percent. Observed rotation = [α] × l × c × 0.50 = 66.5 × 2.0 × 0.20 × 0.50 = +13.3°. Check: the (+) part, at 0.15 g/mL, gives +66.5 × 2.0 × 0.15 = +19.95°. The (−) part, at 0.05 g/mL, gives −66.5 × 2.0 × 0.05 = −6.65°. The sum is +13.3°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-10-n08",
+    "ch": "chem-12-10",
+    "type": "num",
+    "diff": 2,
+    "q": "A molecule has 3 different chiral carbon atoms and no symmetry in it. Find the number of stereoisomers it has. Give your answer as a whole number.",
+    "ans": 8,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each chiral carbon can have two arrangements, R or S, and the centres are independent. The number is 2ⁿ = 2³ = 8. Check: listing the combinations RRR, RRS, RSR, RSS, SRR, SRS, SSR and SSS gives 8. They form 4 pairs of enantiomers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-12-11-b01",
     "ch": "chem-12-11",
     "type": "mcq",
@@ -14347,6 +15655,1850 @@
     ]
   },
   {
+    "id": "chem-12-13-m01",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The compound (CH₃)₂NH is classed as:",
+    "options": [
+      "a primary amine, as one alkyl group is on the nitrogen",
+      "a secondary amine, as two hydrogens are on the nitrogen",
+      "a tertiary amine, as three alkyl groups are on the nitrogen",
+      "a secondary amine, as two alkyl groups are on the nitrogen"
+    ],
+    "ans": 3,
+    "solution": "The class of an amine depends on how many hydrogens of ammonia have been replaced by alkyl or aryl groups. Two replaced gives a secondary amine. Here both groups are methyl, so it is a simple amine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m02",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The IUPAC name of aniline, C₆H₅NH₂, is:",
+    "options": [
+      "aminophenol",
+      "benzamide",
+      "benzenamine",
+      "phenylamine oxide"
+    ],
+    "ans": 2,
+    "solution": "In the IUPAC system the final -e of the parent hydrocarbon, benzene, is replaced by -amine, giving benzenamine. Aniline is the common name that is also accepted.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m03",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The IUPAC name of CH₃–NH–CH₃ is:",
+    "options": [
+      "N-methylmethanamine",
+      "dimethylamine oxide",
+      "2-aminoethane",
+      "N,N-dimethylmethanamine"
+    ],
+    "ans": 0,
+    "solution": "The parent is methanamine, and the second methyl group is on the nitrogen, which is shown by the locant N. The tertiary amine (CH₃)₃N is N,N-dimethylmethanamine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m04",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The IUPAC name of the tertiary amine (CH₃)₃N is:",
+    "options": [
+      "2-methylpropan-2-amine",
+      "N,N-dimethylmethanamine",
+      "N-methylmethanamine",
+      "trimethylamine oxide"
+    ],
+    "ans": 1,
+    "solution": "The parent chain is methanamine, with two methyl groups on the nitrogen atom, so the locants are N,N. The common name is trimethylamine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m05",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Nitrobenzene is converted to aniline by reduction with:",
+    "options": [
+      "sodium nitrite and hydrochloric acid at a low temperature",
+      "tin and sodium hydroxide, or by O₂ with a nickel catalyst",
+      "tin and hydrochloric acid, or by H₂ with a nickel catalyst",
+      "concentrated nitric acid, or by H₂ with a silver catalyst"
+    ],
+    "ans": 2,
+    "solution": "The NO₂ group is reduced to NH₂ by metals in acid (Sn/HCl or Fe/HCl) or by catalytic hydrogenation. Sodium nitrite with HCl is used to make a diazonium salt from the amine, which is the opposite direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m06",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The Gabriel phthalimide synthesis is used to prepare:",
+    "options": [
+      "pure secondary aliphatic amines, but not primary amines",
+      "pure primary aliphatic amines, but not aromatic amines",
+      "a mixture of primary, secondary and tertiary amines",
+      "pure primary aromatic amines, but not aliphatic amines"
+    ],
+    "ans": 1,
+    "solution": "Potassium phthalimide reacts with an alkyl halide, and the product is then hydrolysed. The nitrogen can be alkylated only once, so no mixture forms. Aryl halides do not take part in this nucleophilic substitution.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m07",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the Hofmann bromamide degradation, an amide RCONH₂ is treated with Br₂ and aqueous NaOH. The product is:",
+    "options": [
+      "a primary amine, RNH₂, with one carbon less than the amide",
+      "a primary amine, RCH₂NH₂, with the same number of carbons",
+      "a carboxylic acid, with the same number of carbons",
+      "a secondary amine, with one carbon less than the amide"
+    ],
+    "ans": 0,
+    "solution": "The carbonyl carbon is lost, as carbonate. This is a step-down reaction. Ethanamide gives methanamine, and propanamide gives ethanamine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m08",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Ethyl bromide is converted to a primary amine in two steps: first with KCN, and then by reduction. The amine has:",
+    "options": [
+      "the same number of carbons as ethyl bromide, so it is ethanamine",
+      "two more carbons than ethyl bromide, so it is butan-1-amine",
+      "one less carbon than ethyl bromide, so it is methanamine",
+      "one more carbon than ethyl bromide, so it is propan-1-amine"
+    ],
+    "ans": 3,
+    "solution": "C₂H₅Br + KCN → C₂H₅CN, which has 3 carbons. Reduction of the nitrile, C₂H₅CN + 4[H] → C₂H₅CH₂NH₂, gives propan-1-amine. The CN group adds a carbon.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m09",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When an alkyl halide is heated with ammonia, the product is:",
+    "options": [
+      "only the primary amine, as ammonia has three hydrogens",
+      "a mixture of primary, secondary and tertiary amines and a quaternary salt",
+      "only the tertiary amine, as the halide is in excess",
+      "only the quaternary salt, as ammonia is a strong base"
+    ],
+    "ans": 1,
+    "solution": "The primary amine formed is itself a nucleophile, and it reacts further with the halide. This is why other methods, like the Gabriel synthesis, are used to get pure primary amines.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m10",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Lower aliphatic amines are soluble in water, because they:",
+    "options": [
+      "react with water to give the alcohols and ammonia",
+      "are non-polar, like water, so they mix in it",
+      "form ionic bonds with the water molecules",
+      "form hydrogen bonds with water molecules"
+    ],
+    "ans": 3,
+    "solution": "The nitrogen has a lone pair and N–H bonds, so it can form hydrogen bonds with water. As the alkyl part grows, the solubility falls, and the higher amines are insoluble.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m11",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The isomeric amines propan-1-amine (primary), N-methylethanamine (secondary) and N,N-dimethylmethanamine (tertiary) have boiling points in the order:",
+    "options": [
+      "secondary > primary > tertiary",
+      "tertiary > secondary > primary",
+      "primary > secondary > tertiary",
+      "all three the same, as the molar mass is the same"
+    ],
+    "ans": 2,
+    "solution": "Primary amines have two N–H bonds, and they form the most hydrogen bonds between molecules. Secondary amines have one N–H bond. A tertiary amine has none, so it has the weakest forces and the lowest boiling point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m12",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "An amine boils at a lower temperature than the alcohol of nearly the same molar mass, because:",
+    "options": [
+      "nitrogen is less electronegative than oxygen, so the N–H···N bonds are weaker",
+      "amines are more ionic than alcohols, so they are more volatile",
+      "nitrogen is more electronegative than oxygen, so the N–H···N bonds are weaker",
+      "amines cannot form any hydrogen bonds between their molecules"
+    ],
+    "ans": 0,
+    "solution": "Both can form hydrogen bonds with themselves. The N–H···N bond is weaker than the O–H···O bond, since nitrogen is less electronegative, so less energy is needed to separate the molecules.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m13",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Amines are basic because:",
+    "options": [
+      "the N–H bond breaks easily to release H⁺ into water",
+      "the nitrogen has an empty orbital that can accept a pair of electrons",
+      "the nitrogen has a lone pair of electrons that can accept a proton",
+      "the alkyl groups give OH⁻ ions in water"
+    ],
+    "ans": 2,
+    "solution": "RNH₂ + H₂O ⇌ RNH₃⁺ + OH⁻. The lone pair accepts H⁺ from water, and the OH⁻ ions that are left make the solution basic.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m14",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Among ethylamine, diethylamine and triethylamine, in water the strongest base is diethylamine. This is because it:",
+    "options": [
+      "has one electron-releasing group, and so the nitrogen is less crowded",
+      "has two electron-releasing groups, and the ammonium ion is well stabilised by hydration",
+      "has three electron-releasing groups, and its ammonium ion is the best hydrated",
+      "has no N–H bond, so its ammonium ion is the most stable"
+    ],
+    "ans": 1,
+    "solution": "Alkyl groups push electrons to the nitrogen, and this increases the basicity. But the ammonium ion is stabilised by hydrogen bonding with water, which needs N–H bonds. For ethyl groups, the best balance is in the secondary amine.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m15",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Aniline is a weaker base than ammonia mainly because:",
+    "options": [
+      "the lone pair on the nitrogen is delocalised into the benzene ring",
+      "the benzene ring donates electrons to the nitrogen atom",
+      "aniline has no lone pair on the nitrogen atom",
+      "the lone pair on the nitrogen is pushed by the benzene ring"
+    ],
+    "ans": 0,
+    "solution": "The lone pair takes part in resonance with the ring, so it is less available to accept a proton. The pK_b of aniline is 9.38, and that of ammonia is 4.75.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m16",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Of two bases, one has pK_b = 3.4 and the other has pK_b = 9.4. The stronger base is:",
+    "options": [
+      "the one with pK_b = 9.4, as a larger pK_b means a larger K_b",
+      "both are equal, as the difference is only 6 units",
+      "the one with pK_b = 9.4, as a larger value means more OH⁻",
+      "the one with pK_b = 3.4, as a smaller pK_b means a larger K_b"
+    ],
+    "ans": 3,
+    "solution": "pK_b = −log K_b. The smaller the pK_b, the larger the K_b, and the more the base ionises in water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m17",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The carbylamine test, with CHCl₃ and alcoholic KOH on heating, is given by:",
+    "options": [
+      "primary amines only, and it gives a foul-smelling isocyanide",
+      "primary and secondary amines, and it gives a foul-smelling isocyanide",
+      "primary amines only, and it gives a pleasant-smelling ester",
+      "tertiary amines only, and it gives a foul-smelling isocyanide"
+    ],
+    "ans": 0,
+    "solution": "R–NH₂ + CHCl₃ + 3KOH → R–NC + 3KCl + 3H₂O. The reaction needs two hydrogens on the nitrogen, so secondary and tertiary amines do not give it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m18",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In Hinsberg's test, benzenesulfonyl chloride reacts with a primary amine. The product is:",
+    "options": [
+      "no product, as primary amines are not nucleophiles",
+      "a sulfonamide that dissolves in alkali, as it has an acidic N–H hydrogen",
+      "a sulfonamide that does not dissolve in alkali, as it has no N–H hydrogen",
+      "a sulfonamide that dissolves in alkali, as it has no N–H hydrogen"
+    ],
+    "ans": 1,
+    "solution": "RNH₂ gives C₆H₅SO₂NHR. The hydrogen on the nitrogen is acidic because of the sulfonyl group, so the product forms a soluble salt with alkali.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m19",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In Hinsberg's test, a tertiary amine:",
+    "options": [
+      "reacts to give a quaternary salt that is soluble in alkali",
+      "gives a sulfonamide that is insoluble in alkali, as it has one N–H",
+      "gives a sulfonamide that is soluble in alkali, as it is the most basic",
+      "does not react with benzenesulfonyl chloride, as it has no N–H hydrogen"
+    ],
+    "ans": 3,
+    "solution": "The reaction needs an N–H to lose HCl. A tertiary amine has none. It stays unchanged, and is separate from the aqueous alkali layer.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m20",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Aniline is treated with NaNO₂ and HCl at 273–278 K. The product is:",
+    "options": [
+      "nitrobenzene, by oxidation",
+      "phenol, at once, at 273 K",
+      "benzenediazonium chloride",
+      "benzene, by loss of NH₂"
+    ],
+    "ans": 2,
+    "solution": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O. The temperature must be kept low, since the diazonium salt decomposes on warming.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m21",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the Sandmeyer reaction, benzenediazonium chloride is warmed with CuCl and HCl. The product is:",
+    "options": [
+      "an azo dye, which keeps the N=N group",
+      "chlorobenzene, with the loss of N₂",
+      "aniline, with the loss of Cl₂",
+      "phenol, with the loss of N₂"
+    ],
+    "ans": 1,
+    "solution": "The diazo group is replaced by chlorine, and nitrogen gas is given off. With CuBr or CuCN, the products are bromobenzene or benzonitrile.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m22",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A diazonium salt reacts with phenol in a basic solution to give:",
+    "options": [
+      "a colourless ester, which loses the –N=N– group",
+      "an amide, which keeps the –N=N– group",
+      "a coloured azo dye, which keeps the –N=N– group",
+      "chlorobenzene, which loses the –N=N– group"
+    ],
+    "ans": 2,
+    "solution": "This is the coupling reaction. The diazonium ion is an electrophile, and it attacks the para position of the phenoxide ion to give a para-hydroxyazobenzene, which is orange or red.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m23",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Aniline is treated with bromine water at room temperature. The product is:",
+    "options": [
+      "a white precipitate of 3,5-dibromoaniline",
+      "a yellow solution of 4-bromoaniline",
+      "no reaction, as the ring is deactivated",
+      "a white precipitate of 2,4,6-tribromoaniline"
+    ],
+    "ans": 3,
+    "solution": "The NH₂ group is a strong activator and directs to the ortho and para positions, so all the three positions are substituted at once, without a catalyst.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m24",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In Hofmann elimination, the hydroxide of a quaternary ammonium salt is heated. The main alkene formed is:",
+    "options": [
+      "the least substituted alkene, which is the opposite of Zaitsev's rule",
+      "the most substituted alkene, which follows Zaitsev's rule",
+      "a mixture with equal amounts of all the alkenes",
+      "an alcohol, which comes from substitution"
+    ],
+    "ans": 0,
+    "solution": "The bulky leaving group, a trialkylamine, makes the base remove the most accessible hydrogen, which is on the least substituted carbon.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-m25",
+    "ch": "chem-12-13",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When aniline is nitrated with a mixture of conc. HNO₃ and conc. H₂SO₄, a large amount of m-nitroaniline is formed because:",
+    "options": [
+      "the NH₂ group is protonated to –NH₃⁺, which directs to the meta position",
+      "the ring is activated by the acid, which directs to the meta position",
+      "the NH₂ group is oxidised to –NO₂, which directs to the meta position",
+      "the NH₂ group is a meta-directing group in all conditions"
+    ],
+    "ans": 0,
+    "solution": "In the strongly acidic mixture, aniline forms the anilinium ion, and the –NH₃⁺ group is an electron-withdrawing, meta-directing group. So the product has the para, the ortho and the meta isomers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-13-n01",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the pH of a 0.10 M solution of ammonia, with K_b = 1.8 × 10⁻⁵ and K_w = 1.0 × 10⁻¹⁴ at 298 K, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 11.1,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "[OH⁻] = √(K_b c) = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ M. pOH = 2.87, and pH = 14 − 2.87 = 11.1. Check: solving K_b = x²/(c − x) exactly gives [OH⁻] = 1.33 × 10⁻³ M, and pH = 11.1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n02",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Propanamide (C₃H₇NO, molar mass 73 g/mol) in an amount of 7.3 g is converted to ethanamine (C₂H₇N, 45 g/mol) by the Hofmann bromamide degradation. The yield is 80 percent. Find the mass of ethanamine, in g, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.6,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The reaction is 1 mol of amide to 1 mol of amine. 7.3 g is 0.10 mol. The theoretical yield is 0.10 × 45 = 4.50 g. At 80 percent, it is 3.60 g. Check: 0.080 mol of amine is 0.080 × 45 = 3.60 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n03",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the number of isomeric amines (primary, secondary and tertiary) with the molecular formula C₃H₉N. Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Primary: propan-1-amine and propan-2-amine, which is 2. Secondary: N-methylethanamine, which is 1. Tertiary: N,N-dimethylmethanamine, which is 1. The total is 4. Check: choosing the alkyl groups for the nitrogen so that they add up to 3 carbons gives the same four.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n04",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "How many grams of sodium nitrite (NaNO₂, 69 g/mol) are needed to convert 9.3 g of aniline (C₆H₅NH₂, 93 g/mol) completely to the diazonium salt? Give the answer to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 6.9,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O. The ratio is 1 mol to 1 mol. 9.3 g of aniline is 0.10 mol, which needs 0.10 mol of NaNO₂, which is 6.9 g. Check: the ratio of the masses is 69/93, and 9.3 × 69/93 = 6.9 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n05",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Aniline of 1.86 g is treated with excess bromine water. Find the mass of 2,4,6-tribromoaniline (C₆H₄Br₃N, 330 g/mol) formed, in g, to 2 decimal places, assuming a 100 percent yield (aniline 93 g/mol). Give your answer to 2 decimal places.",
+    "ans": 6.6,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "One mole of aniline gives one mole of the tribromo compound. 1.86 g is 0.020 mol. The mass is 0.020 × 330 = 6.60 g. Check: the molar mass is 6 × 12 + 4 × 1 + 3 × 80 + 14 = 330 g/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n06",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "A 0.10 M solution of a weak base has a pH of 11.0 at 298 K. Find its K_b, in units of 10⁻⁵, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.01,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "pOH = 14 − 11 = 3, so [OH⁻] = 1.0 × 10⁻³ M. The rest of the base is 0.10 − 0.001 = 0.099 M. K_b = (10⁻³)²/0.099 = 1.01 × 10⁻⁵. Check: α = 0.001/0.10 = 0.01, and K_b = α²c/(1 − α) = 10⁻⁴ × 0.10/0.99 = 1.01 × 10⁻⁵.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n07",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "0.59 g of a primary amine is exactly neutralised by 20.0 mL of 0.50 M HCl. Find the molar mass of the amine, in g/mol. Give your answer as a whole number.",
+    "ans": 59.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Moles of HCl = 0.50 × 0.0200 = 0.0100 mol. A primary amine reacts 1 : 1 with HCl, so the amine is 0.0100 mol. M = 0.59/0.0100 = 59 g/mol. This is C₃H₉N (36 + 9 + 14 = 59). Check: with 20.0 mL = 0.0200 L, the same calculation in mmol gives 0.59 g per 10 mmol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-13-n08",
+    "ch": "chem-12-13",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the pH of a 0.010 M solution of methylamine, with K_b = 4.4 × 10⁻⁴ and K_w = 1.0 × 10⁻¹⁴, to 2 decimal places. The approximation α much less than 1 is not good here, so solve the quadratic equation. Give your answer to 2 decimal places.",
+    "ans": 11.28,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "K_b = x²/(c − x), so x² + K_b x − K_b c = 0. x = [−K_b + √(K_b² + 4K_b c)]/2 = [−4.4 × 10⁻⁴ + √(1.936 × 10⁻⁷ + 1.76 × 10⁻⁵)]/2 = 1.89 × 10⁻³ M. pOH = 2.72 and pH = 11.28. Check: a step-by-step search for the value of x that satisfies K_b = x²/(c − x) gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-m01",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of the following is a monosaccharide?",
+    "options": [
+      "maltose, which cannot be hydrolysed to a simpler sugar",
+      "starch, which cannot be hydrolysed to a simpler sugar",
+      "glucose, which cannot be hydrolysed to a simpler sugar",
+      "sucrose, which cannot be hydrolysed to a simpler sugar"
+    ],
+    "ans": 2,
+    "solution": "A monosaccharide is the simplest carbohydrate. Sucrose and maltose are disaccharides, which give two units on hydrolysis, and starch is a polysaccharide, which gives many.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m02",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Glucose has the molecular formula C₆H₁₂O₆. It is classed as:",
+    "options": [
+      "a ketohexose, as it has a ketone group and six carbons",
+      "an aldopentose, as it has an aldehyde group and five carbons",
+      "a ketopentose, as it has a ketone group and five carbons",
+      "an aldohexose, as it has an aldehyde group and six carbons"
+    ],
+    "ans": 3,
+    "solution": "The suffix -ose is for a sugar, hex is for six carbons, and the prefix ald- shows that the carbonyl group is an aldehyde. In open-chain glucose, carbon 1 is the CHO group.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m03",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Fructose, C₆H₁₂O₆, differs from glucose in that it is:",
+    "options": [
+      "a ketohexose, with a ketone group at carbon 2",
+      "an aldohexose, with an aldehyde group at carbon 1",
+      "a ketopentose, with a ketone group at carbon 2",
+      "a disaccharide, with two units of six carbons"
+    ],
+    "ans": 0,
+    "solution": "Glucose and fructose are isomers with the same formula. Fructose has the carbonyl group as a ketone, at the second carbon, so it is a ketohexose.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m04",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The hydrolysis of sucrose with dilute acid gives:",
+    "options": [
+      "an equal mixture of two forms of D-glucose, called invert sugar",
+      "an equal mixture of D-glucose and D-fructose, called invert sugar",
+      "two molecules of D-glucose, called invert sugar",
+      "D-glucose and D-galactose, called milk sugar"
+    ],
+    "ans": 1,
+    "solution": "Sucrose is dextrorotatory (+66.5°). The mixture formed is laevorotatory, as fructose (−92°) rotates more than glucose (+52.5°), so the rotation is inverted. This is why the product is called invert sugar.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m05",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Maltose, on hydrolysis, gives:",
+    "options": [
+      "two molecules of fructose",
+      "one glucose and one fructose",
+      "one glucose and one galactose",
+      "two molecules of glucose"
+    ],
+    "ans": 3,
+    "solution": "Maltose is a disaccharide made of two α-D-glucose units. Sucrose gives glucose and fructose, and lactose gives glucose and galactose.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m06",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Lactose, the sugar in milk, is a disaccharide that gives on hydrolysis:",
+    "options": [
+      "two molecules of D-glucose",
+      "two molecules of D-galactose",
+      "one molecule of D-glucose and one of D-galactose",
+      "one molecule of D-glucose and one of D-fructose"
+    ],
+    "ans": 2,
+    "solution": "Lactose has a galactose unit joined to a glucose unit by a glycosidic bond. People who lack the enzyme lactase cannot digest it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m07",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Sucrose does not reduce Tollens' reagent or Fehling's solution because:",
+    "options": [
+      "it has a free aldehyde group, but this is hidden by water",
+      "both of the reducing groups of its units are used in the glycosidic link",
+      "it is a polysaccharide, with too many units to react",
+      "it has no carbon atoms with an OH group on them"
+    ],
+    "ans": 1,
+    "solution": "In sucrose, C-1 of glucose is joined to C-2 of fructose. Both potential carbonyl groups are tied in the link, so there is no free aldehyde or hemiacetal group, and it is a non-reducing sugar.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m08",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Starch and cellulose are both polymers of glucose. The difference between them is that:",
+    "options": [
+      "starch has α-glucose units, and cellulose has β-glucose units",
+      "starch has glucose units, and cellulose has fructose units",
+      "starch has β-glucose units, and cellulose has α-glucose units",
+      "starch is branched only, and cellulose has no glucose in it"
+    ],
+    "ans": 0,
+    "solution": "The different link, α or β, gives different shapes. Humans have enzymes that digest the α link of starch, but not the β link of cellulose. Cellulose forms the cell walls of plants.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m09",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The carbohydrate stored in the liver and muscles of animals is:",
+    "options": [
+      "amylose, which is also called plant starch",
+      "glycogen, which is also called animal starch",
+      "sucrose, which is also called table sugar",
+      "cellulose, which is also called plant fibre"
+    ],
+    "ans": 1,
+    "solution": "Glycogen is a highly branched polymer of α-glucose. It is broken down into glucose when the body needs energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m10",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A reducing sugar is one that:",
+    "options": [
+      "gives a negative test with Tollens' reagent and Fehling's solution",
+      "cannot be oxidised to an acid by bromine water",
+      "gives a positive test with Tollens' reagent or Fehling's solution",
+      "has no free aldehyde or ketone group, even in solution"
+    ],
+    "ans": 2,
+    "solution": "The test works when there is a free aldehyde group, or a hemiacetal group that can open to give one. Glucose, fructose, maltose and lactose are reducing sugars. Sucrose is not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m11",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Glucose reacts with acetic anhydride to give a pentaacetate. This shows that glucose has:",
+    "options": [
+      "five ketone groups",
+      "five aldehyde groups",
+      "five carbon atoms in the chain",
+      "five hydroxyl groups"
+    ],
+    "ans": 3,
+    "solution": "One acetyl group is taken up by each OH group. Five acetyl groups in the product show five OH groups in glucose: four secondary and one primary.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m12",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Glucose is oxidised by bromine water to gluconic acid. This shows that glucose has:",
+    "options": [
+      "an aldehyde group, which is oxidised to a carboxylic acid group",
+      "a double bond, which is oxidised to a carboxylic acid group",
+      "a ketone group, which is oxidised to a carboxylic acid group",
+      "an ether link, which is oxidised to a carboxylic acid group"
+    ],
+    "ans": 0,
+    "solution": "Bromine water is a mild oxidant. It changes an aldehyde group into COOH without breaking the carbon chain. Fructose, a ketose, is not oxidised in the same way.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m13",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The α and β forms of D-glucose are called anomers. They differ in:",
+    "options": [
+      "the configuration at C-6, the carbon of the CH₂OH group",
+      "the molecular formula, which is C₆H₁₂O₆ for only one of them",
+      "the number of carbon atoms, which is 6 in the α form and 5 in the β form",
+      "the configuration at C-1, the carbon of the ring that came from the aldehyde group"
+    ],
+    "ans": 3,
+    "solution": "In the ring form, the OH at C-1 can be below the ring (α) or above it (β). The two forms are in equilibrium in solution, which changes the optical rotation with time (mutarotation).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m14",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The bond that links two amino acids in a protein is:",
+    "options": [
+      "the peptide bond, –CO–NH–",
+      "the glycosidic bond, –C–O–C–",
+      "the phosphodiester bond, –O–P–O–",
+      "the ester bond, –CO–O–"
+    ],
+    "ans": 0,
+    "solution": "The carboxyl group of one amino acid joins with the amino group of the next, and a molecule of water is lost. The group –CO–NH– is the amide link.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m15",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the solid state and in water near neutral pH, an α-amino acid exists mainly as:",
+    "options": [
+      "an anion only, with NH₂ and COO⁻ groups",
+      "a cation only, with +NH₃ and COOH groups",
+      "a zwitterion, with both +NH₃ and COO⁻ groups",
+      "a neutral molecule, with NH₂ and COOH groups"
+    ],
+    "ans": 2,
+    "solution": "The acidic COOH group gives a proton to the basic NH₂ group in the same molecule. This gives a dipolar ion, and it explains why amino acids have high melting points and dissolve in water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m16",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At its isoelectric point, an amino acid:",
+    "options": [
+      "has a net positive charge, and its solubility is the greatest",
+      "has no net charge, and its solubility in water is the least",
+      "has no net charge, and it moves fastest in an electric field",
+      "has a net negative charge, and its solubility is the least"
+    ],
+    "ans": 1,
+    "solution": "At this pH, the amount of the + form equals the amount of the − form, so the net charge is zero and the molecule does not move in an electric field. The molecules do not repel one another, so they come out of solution most easily.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m17",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Essential amino acids are those that:",
+    "options": [
+      "the body cannot make, so they must come from the food",
+      "the body makes in large amounts, so they are not needed in food",
+      "do not take part in making the proteins of the body",
+      "are found only in plants and never in animal proteins"
+    ],
+    "ans": 0,
+    "solution": "There are about 9 of them for adults, for example valine, leucine and lysine. A diet that does not contain them leads to deficiency diseases.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m18",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The primary structure of a protein refers to:",
+    "options": [
+      "the way that several chains are joined together",
+      "the sequence of the amino acids in the chain",
+      "the three-dimensional shape of the whole chain",
+      "the folding of the chain into a helix or a sheet"
+    ],
+    "ans": 1,
+    "solution": "The primary structure is the order of the amino acids, joined by peptide bonds. The secondary structure is the helix or sheet, the tertiary structure is the folded shape, and the quaternary structure is the way that chains pack together.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m19",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The α-helix, a secondary structure of proteins, is stabilised by:",
+    "options": [
+      "ionic bonds between the side chains of different chains",
+      "covalent bonds between the carbon atoms of the chain",
+      "hydrogen bonds between the C=O and N–H groups of the chain",
+      "peptide bonds between the C=O and N–H groups of the chain"
+    ],
+    "ans": 2,
+    "solution": "In an α-helix the chain is coiled, and each N–H is hydrogen bonded to a C=O four residues away. In a β-sheet, the hydrogen bonds are between neighbouring chains.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m20",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When an egg is boiled, the protein of the white is denatured. In this change:",
+    "options": [
+      "the amino acids are changed into other amino acids by the heat",
+      "the primary structure is lost, as all the peptide bonds are broken",
+      "the protein is changed into a carbohydrate by the heat",
+      "the secondary and tertiary structures are lost, but the primary structure stays"
+    ],
+    "ans": 3,
+    "solution": "Heat, acids and other agents break the weak hydrogen bonds and other forces that hold the folded shape. The peptide bonds are not affected. The change is usually not reversible, and the protein loses its biological activity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m21",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Enzymes are:",
+    "options": [
+      "lipids that act as stores, and are specific for a fat",
+      "proteins that act as catalysts, and are specific for a reaction",
+      "nucleic acids that act as templates, and are not specific",
+      "carbohydrates that act as fuels, and are used up in a reaction"
+    ],
+    "ans": 1,
+    "solution": "An enzyme speeds up a reaction in a living cell by a large factor. It acts on a particular substrate, as a key fits a lock, and it is not used up.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m22",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The sugar present in DNA and in RNA is respectively:",
+    "options": [
+      "deoxyribose and ribose",
+      "glucose and fructose",
+      "deoxyribose and glucose",
+      "ribose and deoxyribose"
+    ],
+    "ans": 0,
+    "solution": "DNA means deoxyribonucleic acid, and its sugar has one less oxygen atom, at C-2. RNA means ribonucleic acid, and its sugar is ribose.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m23",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A nucleotide is made of:",
+    "options": [
+      "a sugar, a fatty acid and a nitrogen base",
+      "a phosphate group, an amino acid and a nitrogen base",
+      "a sugar, a phosphate group and a nitrogen base",
+      "an amino acid, a sugar and a phosphate group"
+    ],
+    "ans": 2,
+    "solution": "A nucleoside is a sugar with a base. When a phosphate group is added, it is a nucleotide. Nucleotides join to make the chain of a nucleic acid.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m24",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the double helix of DNA, the base adenine (A) pairs with:",
+    "options": [
+      "thymine (T), by three hydrogen bonds",
+      "cytosine (C), by three hydrogen bonds",
+      "guanine (G), by two hydrogen bonds",
+      "thymine (T), by two hydrogen bonds"
+    ],
+    "ans": 3,
+    "solution": "A pairs with T by two hydrogen bonds, and G pairs with C by three. So the amount of A equals the amount of T, and the amount of G equals the amount of C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m25",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following bases is present in RNA but not in DNA?",
+    "options": [
+      "adenine",
+      "thymine",
+      "uracil",
+      "cytosine"
+    ],
+    "ans": 2,
+    "solution": "RNA has the bases A, G, C and U. DNA has A, G, C and T. Uracil takes the place of thymine in RNA.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-m26",
+    "ch": "chem-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The dipeptides glycylalanine (Gly–Ala) and alanylglycine (Ala–Gly) are:",
+    "options": [
+      "different compounds, as the order of the amino acids is different",
+      "the same compound, as they have the same amino acids",
+      "the same compound, as they have the same molecular formula",
+      "different compounds, as one of them has no peptide bond"
+    ],
+    "ans": 0,
+    "solution": "In Gly–Ala, the carboxyl group of glycine is bonded to the amino group of alanine. In Ala–Gly, it is the reverse. They are isomers, with different properties.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-14-n01",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "A peptide chain has 9 amino acid residues. Find the number of peptide bonds in it. Give your answer as a whole number.",
+    "ans": 8,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each peptide bond joins two residues, so n residues in a single chain have n − 1 bonds. For 9 residues, it is 8. Check: adding the residues one by one, the first gives no bond, and each of the other 8 forms one bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n02",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "There are 20 common amino acids. Find the number of different tripeptides that can be formed if an amino acid may be used more than once. Give your answer as a whole number.",
+    "ans": 8000,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each of the three positions can be filled in 20 ways, and the order matters, so the number is 20 × 20 × 20 = 8000. Check: listing all the ordered triples of the 20 amino acids gives 8000 of them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n03",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "How many molecules of glucose (C₆H₁₂O₆, molar mass 180 g/mol) are in 36 g of it? Give the answer in units of 10²³, to 2 decimal places (Avogadro's constant = 6.022 × 10²³ per mole). Give your answer to 2 decimal places.",
+    "ans": 1.2,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Moles = 36/180 = 0.20 mol. Molecules = 0.20 × 6.022 × 10²³ = 1.20 × 10²³. Check: the molar mass from the formula is 6 × 12 + 12 × 1 + 6 × 16 = 180 g/mol, and the number is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n04",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "Glycine (NH₂CH₂COOH) has a molar mass of 75 g/mol. Three glycine molecules join to form the tripeptide Gly–Gly–Gly. Find its molar mass, in g/mol. Give your answer as a whole number.",
+    "ans": 189,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each peptide bond formed releases one molecule of water (18 g/mol). Two bonds are formed, so M = 3 × 75 − 2 × 18 = 225 − 36 = 189 g/mol. Check: the tripeptide has the formula C₆H₁₁N₃O₄, and 72 + 11 + 42 + 64 = 189 g/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n05",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "In a sample of double-stranded DNA, 28 percent of the bases are adenine. Find the percentage of guanine. Give your answer as a whole number.",
+    "ans": 22.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "A pairs with T, so thymine is also 28 percent. Together A and T are 56 percent, so G and C make up 44 percent. G equals C, so each is 22 percent. Check: for a sample of 1000 bases, 280 A, 280 T, and 440 in G and C, giving 220 of G, which is 22 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n06",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "A short segment of DNA has 10 A–T base pairs and 15 G–C base pairs. Find the total number of hydrogen bonds that hold the two strands together. Give your answer as a whole number.",
+    "ans": 65,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "An A–T pair has 2 hydrogen bonds and a G–C pair has 3. The total is 10 × 2 + 15 × 3 = 20 + 45 = 65. Check: adding up the bonds pair by pair gives 65.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n07",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "171 g of sucrose (molar mass 342 g/mol) is completely hydrolysed. Glucose and fructose form in equal moles, and the molar mass of each is 180 g/mol. Find the mass of glucose formed, in g, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 90.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Sucrose + H₂O → glucose + fructose. 171 g is 0.50 mol, which gives 0.50 mol of glucose, which is 0.50 × 180 = 90.0 g. Check: the mass of water used is 0.50 × 18 = 9 g, so the products have 171 + 9 = 180 g, and half of it is glucose, which is 90 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-14-n08",
+    "ch": "chem-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "The open-chain form of an aldohexose such as glucose has 4 chiral carbon atoms. Find the number of optically active stereoisomers it can have. Give your answer as a whole number.",
+    "ans": 16,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "A molecule with n different chiral carbons has up to 2ⁿ stereoisomers, so 2⁴ = 16. Eight of them are D sugars and eight are L sugars. Check: listing the R/S choices at the four centres gives 16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-m01",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A polymer is a substance that:",
+    "options": [
+      "has molecules of the same size, made of one atom",
+      "has two different kinds of atoms only, in a fixed ratio",
+      "has very small molecules, made by splitting large units",
+      "has very large molecules, made by joining many small units"
+    ],
+    "ans": 3,
+    "solution": "Poly means many and mer means part. A polymer is built from many repeating units, called monomers. Plastics, fibres and rubbers are polymers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m02",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Polythene is made by the polymerisation of:",
+    "options": [
+      "ethane, CH₃–CH₃",
+      "ethyne, HC≡CH",
+      "ethene, CH₂=CH₂",
+      "propene, CH₃CH=CH₂"
+    ],
+    "ans": 2,
+    "solution": "The double bond of each ethene molecule opens, and the molecules join in a long chain: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ. Propene gives polypropene.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m03",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The monomer of polyvinyl chloride (PVC) is:",
+    "options": [
+      "ethyl chloride, CH₃CH₂Cl",
+      "vinyl chloride, CH₂=CHCl",
+      "chlorobenzene, C₆H₅Cl",
+      "vinylidene fluoride, CH₂=CF₂"
+    ],
+    "ans": 1,
+    "solution": "n CH₂=CHCl → (–CH₂–CHCl–)ₙ. PVC is used in pipes, cables and floor coverings.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m04",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Teflon is made from:",
+    "options": [
+      "tetrafluoroethene, CF₂=CF₂",
+      "trifluoroethene, CHF=CF₂",
+      "propene, CH₃CH=CH₂",
+      "chloroethene, CH₂=CHCl"
+    ],
+    "ans": 0,
+    "solution": "The polymer (–CF₂–CF₂–)ₙ is very inert and slippery, as the C–F bonds are strong. It is used for the coating of non-stick pans.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m05",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In addition polymerisation, as the polymer forms:",
+    "options": [
+      "no small molecule is lost, and the monomers have two functional groups",
+      "a small molecule such as HCl is lost, and the monomers have a double bond",
+      "a small molecule such as water is lost, and the monomers have two functional groups",
+      "no small molecule is lost, and the monomers have a double bond"
+    ],
+    "ans": 3,
+    "solution": "The monomers just add on to each other, so the polymer has the same atoms as the monomers put together. Examples: polythene, PVC and Teflon.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m06",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In condensation polymerisation, as the polymer forms:",
+    "options": [
+      "only heat is given out, and nothing else is lost",
+      "no small molecule is lost, and the monomers add together",
+      "a small molecule such as water is lost at each step",
+      "a gas such as oxygen is taken in at each step"
+    ],
+    "ans": 2,
+    "solution": "The monomers have two functional groups, and a small molecule, such as H₂O or HCl, is eliminated every time that two of them join. Examples: nylon-6,6, terylene and Bakelite.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m07",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Nylon-6,6 is made by the condensation of:",
+    "options": [
+      "phenol and formaldehyde",
+      "hexamethylenediamine and adipic acid",
+      "caprolactam and hexamethylenediamine",
+      "ethylene glycol and terephthalic acid"
+    ],
+    "ans": 1,
+    "solution": "H₂N(CH₂)₆NH₂ and HOOC(CH₂)₄COOH, each with six carbon atoms, join by amide links, and water is lost. This gives the name 6,6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m08",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Nylon-6 is made from caprolactam by:",
+    "options": [
+      "heating it with water, which opens the ring and joins the units",
+      "treating it with sulfur, which cross-links the units",
+      "adding it to ethene, which makes an addition polymer",
+      "heating it with adipic acid, which joins the units"
+    ],
+    "ans": 0,
+    "solution": "Caprolactam is a six-carbon ring with an amide group. The ring opens to give an amino acid, which polymerises by condensation to (–NH–(CH₂)₅–CO–)ₙ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m09",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Terylene (Dacron) is a polyester made from:",
+    "options": [
+      "hexamethylenediamine and adipic acid",
+      "butadiene and styrene",
+      "ethylene glycol and terephthalic acid",
+      "phenol and formaldehyde"
+    ],
+    "ans": 2,
+    "solution": "The OH groups of the glycol and the COOH groups of the acid join by ester links, and water is lost. It is used for fibres in clothes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m10",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Bakelite is made by the condensation of phenol with formaldehyde. It is:",
+    "options": [
+      "a thermosetting polymer, which cannot be softened again by heating",
+      "an elastomer, which stretches and returns to its shape",
+      "a fibre, which is spun into long threads",
+      "a thermoplastic polymer, which can be softened again by heating"
+    ],
+    "ans": 0,
+    "solution": "The chains are linked by cross-links in a three-dimensional network, so it sets into a hard, rigid mass. It is used for switches and handles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m11",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The monomer of natural rubber is:",
+    "options": [
+      "styrene (phenylethene)",
+      "isoprene (2-methylbuta-1,3-diene)",
+      "chloroprene (2-chlorobuta-1,3-diene)",
+      "butadiene (buta-1,3-diene)"
+    ],
+    "ans": 1,
+    "solution": "Natural rubber is cis-1,4-polyisoprene. Each unit has a double bond that stays in the chain, and it has the cis shape, which makes the chains coil and gives the elasticity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m12",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Natural rubber is vulcanised by heating it with sulfur. This makes the rubber:",
+    "options": [
+      "harder and less elastic, because sulfur removes the double bonds completely",
+      "unchanged in elasticity, because sulfur only fills the gaps",
+      "softer and more sticky, because sulfur breaks the chains into shorter ones",
+      "harder and more elastic, because sulfur makes cross-links between the chains"
+    ],
+    "ans": 3,
+    "solution": "Sulfur atoms form bridges between the chains at their double bonds. The chains cannot slip past each other, so the rubber has more strength, and it returns to its shape after stretching.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m13",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Buna-S is a copolymer of:",
+    "options": [
+      "ethene and propene",
+      "buta-1,3-diene and acrylonitrile",
+      "phenol and formaldehyde",
+      "buta-1,3-diene and styrene"
+    ],
+    "ans": 3,
+    "solution": "S is for styrene. It is a synthetic rubber used in tyres. Buna-N is a copolymer of butadiene and acrylonitrile, and it resists oil.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m14",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Buna-N is a copolymer of:",
+    "options": [
+      "ethene and vinyl chloride",
+      "buta-1,3-diene and acrylonitrile",
+      "buta-1,3-diene and styrene",
+      "isoprene and sulfur"
+    ],
+    "ans": 1,
+    "solution": "N is for nitrile (acrylonitrile, CH₂=CH–CN). Buna-N is resistant to oils and solvents, and it is used for oil seals and hoses.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m15",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A thermoplastic polymer is one that:",
+    "options": [
+      "stretches to several times its length and returns to its shape",
+      "burns at once on heating, and leaves a residue of carbon",
+      "softens on heating and hardens on cooling, and can be moulded again",
+      "sets on heating and cannot be softened again by heat"
+    ],
+    "ans": 2,
+    "solution": "Thermoplastics have linear or slightly branched chains with weak forces between them. Polythene and PVC are examples. A thermosetting polymer like Bakelite sets for ever.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m16",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In terms of the intermolecular forces, the polymers called fibres, like nylon, have:",
+    "options": [
+      "strong forces such as hydrogen bonds between the chains",
+      "no forces at all, since the chains are held in a network",
+      "ionic bonds that join each chain with the next one",
+      "very weak forces, so that the chains can slide freely"
+    ],
+    "ans": 0,
+    "solution": "The strong forces give a high tensile strength, so fibres can be drawn into threads. Elastomers, like rubber, have weak forces, so they can be stretched.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m17",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A polymer made from only one kind of monomer is a homopolymer. Which of the following is a copolymer?",
+    "options": [
+      "polythene, as it has two different monomers",
+      "PVC, as it has two different monomers",
+      "Teflon, as it has two different monomers",
+      "Buna-S, as it has two different monomers"
+    ],
+    "ans": 3,
+    "solution": "A copolymer is formed from two or more different monomers. Buna-S has butadiene and styrene units. The other three are homopolymers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m18",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A polymer in which the chains are joined to each other by covalent bonds to form a network is called:",
+    "options": [
+      "a linear polymer, which is hard and rigid",
+      "a linear polymer, which is soft and rubbery",
+      "a cross-linked polymer, which is hard and rigid",
+      "a branched polymer, which is soft and rubbery"
+    ],
+    "ans": 2,
+    "solution": "Bakelite and vulcanised rubber have cross-links. They cannot be dissolved or melted easily. Polythene (HDPE) is a linear polymer, and LDPE is branched.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m19",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The degree of polymerisation of a polymer is:",
+    "options": [
+      "the percentage of the monomer that has changed into polymer",
+      "the number of monomer units in one polymer molecule",
+      "the mass of one polymer molecule, in grams",
+      "the number of different monomers in one polymer molecule"
+    ],
+    "ans": 1,
+    "solution": "For a polymer of molar mass M, made of units of mass m, the degree of polymerisation is about M/m. A polymer has a range of chain lengths, so the value is an average.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m20",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The molecular mass of a synthetic polymer is quoted as an average because:",
+    "options": [
+      "the sample has chains with many different lengths",
+      "the mass of a chain changes with the temperature",
+      "the monomers have different masses in a sample",
+      "every chain has exactly the same length"
+    ],
+    "ans": 0,
+    "solution": "The chains stop growing at random, so a sample is a mixture of molecules with different numbers of units. The properties depend on this average.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m21",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The critical degree of polymerisation, needed for useful strength, is smaller for nylon-6 than for polythene because:",
+    "options": [
+      "nylon chains are cross-linked by sulfur bridges",
+      "polythene has stronger forces between the chains than nylon",
+      "nylon has a higher mass per unit than polythene does",
+      "hydrogen bonds between the chains of nylon add to the strength"
+    ],
+    "ans": 3,
+    "solution": "Nylon chains have N–H and C=O groups that form hydrogen bonds between neighbouring chains. Even shorter chains are strong enough. Polythene has only weak van der Waals forces and needs longer chains.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m22",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "PHBV is used in packaging and for making orthopaedic devices because it:",
+    "options": [
+      "is biodegradable, as microorganisms can break it down",
+      "is non-biodegradable, as microorganisms cannot break it",
+      "is a thermoset, as it cannot be moulded again",
+      "is a good conductor, as it carries current well"
+    ],
+    "ans": 0,
+    "solution": "PHBV (poly-β-hydroxybutyrate-co-β-hydroxyvalerate) is a polyester with links that bacteria can break down to carbon dioxide and water, so it does not stay in the environment.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m23",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "PHBV is biodegradable because:",
+    "options": [
+      "it has no links in its chain that can be broken",
+      "its ester links can be broken by enzymes of microorganisms",
+      "its carbon–carbon chain can be broken by sunlight alone",
+      "its amide links can be broken only by strong acid"
+    ],
+    "ans": 1,
+    "solution": "Esters are hydrolysed by enzymes called esterases that microbes make. Ordinary plastics like polythene have a chain of only C–C bonds, and the microbes cannot attack it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m24",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Nylon-2-nylon-6 is a biodegradable copolymer of:",
+    "options": [
+      "adipic acid and hexamethylenediamine",
+      "butadiene and acrylonitrile",
+      "glycine and aminocaproic acid",
+      "ethylene glycol and terephthalic acid"
+    ],
+    "ans": 2,
+    "solution": "It has amide links, which can be hydrolysed by microorganisms. The two monomers are H₂N–CH₂–COOH and H₂N–(CH₂)₅–COOH.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-m25",
+    "ch": "chem-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following is a condensation polymer?",
+    "options": [
+      "nylon-6,6, as water is lost when it forms",
+      "polythene, as water is lost when it forms",
+      "PVC, as water is lost when it forms",
+      "Teflon, as water is lost when it forms"
+    ],
+    "ans": 0,
+    "solution": "Nylon-6,6 forms from a diamine and a diacid with the loss of water. Polythene, Teflon and PVC are addition polymers of molecules that have a C=C bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-15-n01",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "A sample of polythene has a molar mass of 28 000 g/mol. The monomer is ethene (28 g/mol). Find the degree of polymerisation. Give your answer as a whole number.",
+    "ans": 1000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Each unit adds 28 g/mol (the end groups are ignored). DP = 28 000/28 = 1000. Check: adding units of 28 one by one, the chain reaches 28 000 after 1000 units.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n02",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "A polymer sample has 2.0 mol of chains of molar mass 20 000 g/mol and 3.0 mol of chains of molar mass 40 000 g/mol. Find the number average molar mass, in g/mol. Give your answer as a whole number.",
+    "ans": 32000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "M_n = ΣNᵢMᵢ/ΣNᵢ = (2.0 × 20 000 + 3.0 × 40 000)/(2.0 + 3.0) = 160 000/5.0 = 32 000 g/mol. Check: the total mass is 160 000 g, and the total number of moles of chains is 5.0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n03",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same sample (2.0 mol at 20 000 g/mol and 3.0 mol at 40 000 g/mol), find the mass average molar mass M_w, in g/mol. Give your answer as a whole number.",
+    "ans": 35000.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "M_w = ΣNᵢMᵢ²/ΣNᵢMᵢ = (2.0 × 4 × 10⁸ + 3.0 × 1.6 × 10⁹)/160 000 = 5.6 × 10⁹/1.6 × 10⁵ = 35 000 g/mol. It is greater than M_n, since the heavy chains count for more. Check: the mass fractions are 0.25 (of the 20 000 chains) and 0.75 (of the 40 000 chains), and 0.25 × 20 000 + 0.75 × 40 000 = 35 000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n04",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same sample, find the polydispersity index, M_w/M_n, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.09,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "PDI = M_w/M_n = 35 000/32 000 = 1.09. A value of 1 would mean that all the chains have the same length. The larger the value, the wider the range of the lengths. Check: this is the ratio of the two averages from the data, and it is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n05",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Nylon-6,6 is formed from adipic acid (146 g/mol) and hexamethylenediamine (116 g/mol), with the loss of 2 molecules of water (18 g/mol each) for each repeating unit. Find the mass of polymer that forms from 14.6 g of adipic acid with excess diamine, in g, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 22.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The repeating unit has a mass of 146 + 116 − 36 = 226 g/mol. 14.6 g of adipic acid is 0.100 mol, which makes 0.100 mol of units, which is 22.6 g. Check: the unit is C₁₂H₂₂N₂O₂, and 144 + 22 + 28 + 32 = 226 g/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n06",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Terylene is formed from terephthalic acid (166 g/mol) and ethylene glycol (62 g/mol), with the loss of 2 molecules of water for each repeating unit. Find the mass of polymer that forms from 16.6 g of terephthalic acid with excess glycol, in g, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 19.2,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The repeating unit has a mass of 166 + 62 − 36 = 192 g/mol. 16.6 g is 0.100 mol, so the polymer is 19.2 g. Check: the unit is C₁₀H₈O₄, and 120 + 8 + 64 = 192 g/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n07",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "31.25 g of vinyl chloride (62.5 g/mol) is polymerised to PVC, and 80 percent of it changes into polymer. Find the mass of PVC formed, in g, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 25.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Addition polymerisation loses nothing, so the mass of the polymer is the mass of the monomer that reacted: 31.25 × 0.80 = 25.0 g. Check: 31.25 g is 0.500 mol, 80 percent is 0.400 mol of units, and 0.400 × 62.5 = 25.0 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n08",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "A sample of Buna-S has 3 butadiene units (C₄H₆, 54 g/mol) for each styrene unit (C₈H₈, 104 g/mol). Find the percentage by mass of styrene, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 39.1,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "A group of 4 units has a mass of 3 × 54 + 104 = 266 g/mol. The styrene part is 104/266 × 100 = 39.10 percent. Check: for a chain of 1000 units, with 750 butadiene and 250 styrene units, the ratio of masses is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-15-n09",
+    "ch": "chem-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the percentage by mass of chlorine in PVC, (C₂H₃Cl)ₙ, to 1 decimal place (C = 12, H = 1, Cl = 35.5). Give your answer to 1 decimal place.",
+    "ans": 56.8,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The repeating unit is C₂H₃Cl, with a mass of 24 + 3 + 35.5 = 62.5 g/mol. The chlorine is 35.5/62.5 × 100 = 56.8 percent. Check: for 1000 units, the mass of chlorine is 35 500 g out of 62 500 g, which is also 56.8 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "mth-11-05-g01",
     "ch": "mth-11-05",
     "type": "mcq",
@@ -16154,6 +19306,606 @@
     "decimalPlaces": 0,
     "tol": 0.5,
     "solution": "The circuit is (p ∨ q) ∧ (r ∨ s). Each pair has 3 settings out of 4 in which it conducts, and the two pairs are independent. So 3 × 3 = 9 settings.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-m01",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of the following is NOT an elementary row operation on a matrix?",
+    "options": [
+      "adding a multiple of one row to another row",
+      "interchanging two rows of the matrix",
+      "multiplying a row by a non-zero number",
+      "multiplying a row by the number zero"
+    ],
+    "ans": 3,
+    "solution": "The three elementary operations are: swap two rows, multiply a row by a non-zero constant, and add a multiple of one row to another. Multiplying by zero would destroy the row and cannot be reversed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m02",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The inverse of the matrix A = [[2, 1], [5, 3]] is:",
+    "options": [
+      "[[3, −1], [−5, 2]]",
+      "[[2, −1], [−5, 3]]",
+      "[[3, 1], [5, 2]]",
+      "[[−3, 1], [5, −2]]"
+    ],
+    "ans": 0,
+    "solution": "|A| = 2 × 3 − 1 × 5 = 1. For a 2 × 2 matrix, adj A is found by swapping the diagonal entries and changing the signs of the other two: adj A = [[3, −1], [−5, 2]]. A⁻¹ = adj A/|A|, which is the same. Check: A × A⁻¹ = I.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m03",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following matrices has no inverse?",
+    "options": [
+      "[[1, 2], [3, 4]], as its determinant is −2",
+      "[[1, 2], [2, 4]], as its determinant is 0",
+      "[[2, 0], [0, 3]], as its determinant is 6",
+      "[[1, 1], [0, 1]], as its determinant is 1"
+    ],
+    "ans": 1,
+    "solution": "A square matrix has an inverse only if its determinant is not zero. For [[1, 2], [2, 4]], 1 × 4 − 2 × 2 = 0, so the matrix is singular. The second row is twice the first row.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m04",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If A and B are two invertible matrices of the same order, then (AB)⁻¹ is equal to:",
+    "options": [
+      "(A + B)⁻¹, the inverse of the sum",
+      "A⁻¹B⁻¹, with the order unchanged",
+      "B⁻¹A⁻¹, with the order reversed",
+      "A⁻¹ + B⁻¹, the sum of the inverses"
+    ],
+    "ans": 2,
+    "solution": "(AB)(B⁻¹A⁻¹) = A(BB⁻¹)A⁻¹ = AIA⁻¹ = AA⁻¹ = I. So B⁻¹A⁻¹ is the inverse of AB. The order is reversed, as for the transpose of a product.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m05",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a square matrix A of order n, the product A · adj A is equal to:",
+    "options": [
+      "I, the identity matrix, for every square matrix",
+      "|A| I, the determinant times the identity matrix",
+      "|A| A, the determinant times the matrix itself",
+      "adj A · |A|, which is a number and not a matrix"
+    ],
+    "ans": 1,
+    "solution": "A (adj A) = (adj A) A = |A| Iₙ. If |A| is not zero, this gives A⁻¹ = adj A/|A|. If |A| = 0, then A (adj A) is the zero matrix.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m06",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a 3 × 3 matrix A with |A| = 4, the value of |adj A| is:",
+    "options": [
+      "8",
+      "4",
+      "16",
+      "64"
+    ],
+    "ans": 2,
+    "solution": "For a matrix of order n, |adj A| = |A|^(n−1). With n = 3 and |A| = 4, it is 4² = 16. This follows from taking determinants on both sides of A (adj A) = |A| I.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m07",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For A = [[3, 4], [5, 6]], the adjoint of A is:",
+    "options": [
+      "[[3, −4], [−5, 6]]",
+      "[[6, 4], [5, 3]]",
+      "[[−6, 4], [5, −3]]",
+      "[[6, −4], [−5, 3]]"
+    ],
+    "ans": 3,
+    "solution": "The adjoint is the transpose of the matrix of cofactors. For a 2 × 2 matrix [[a, b], [c, d]], it is [[d, −b], [−c, a]]. The diagonal entries are swapped, and the signs of the other two are changed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m08",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If A is an invertible matrix with |A| = 5, then |A⁻¹| is:",
+    "options": [
+      "1/5",
+      "1/25",
+      "5, the same value",
+      "−1/5"
+    ],
+    "ans": 0,
+    "solution": "From AA⁻¹ = I, taking determinants gives |A||A⁻¹| = |I| = 1. So |A⁻¹| = 1/|A| = 1/5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m09",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When two rows of a square matrix are interchanged, its determinant:",
+    "options": [
+      "becomes zero, as the two rows are equal",
+      "stays the same in sign and in value",
+      "changes its sign, but keeps the same absolute value",
+      "is doubled in absolute value"
+    ],
+    "ans": 2,
+    "solution": "A swap of two rows reverses the sign of the determinant. This is why the sign is tracked when a determinant is found by row reduction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m10",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "When a multiple of one row of a square matrix is added to another row, its determinant:",
+    "options": [
+      "stays the same",
+      "changes its sign",
+      "is multiplied by the multiple",
+      "becomes zero"
+    ],
+    "ans": 0,
+    "solution": "This operation, Rᵢ → Rᵢ + kRⱼ, does not change the determinant. It is the main step in reducing a matrix to a triangular form without changing |A|.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m11",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If every element of one row of a 3 × 3 matrix is multiplied by 5, its determinant:",
+    "options": [
+      "stays the same",
+      "is multiplied by 15",
+      "is multiplied by 125",
+      "is multiplied by 5"
+    ],
+    "ans": 3,
+    "solution": "A common factor of one row can be taken out of the determinant. Multiplying one row by k multiplies |A| by k. Multiplying all three rows by k would multiply it by k³.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m12",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A system of n linear equations AX = B in n unknowns has a unique solution when:",
+    "options": [
+      "|A| is not zero, and the solution is X = BA⁻¹",
+      "|A| is not zero, and the solution is X = A⁻¹B",
+      "B is the zero matrix, and X = A⁻¹B",
+      "|A| is zero, and the solution is X = A⁻¹B"
+    ],
+    "ans": 1,
+    "solution": "If |A| ≠ 0, then A⁻¹ exists. Multiplying AX = B on the left by A⁻¹ gives X = A⁻¹B. The order matters, since matrix multiplication is not commutative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m13",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The homogeneous system AX = O, with A a square matrix, has a non-trivial solution (X not zero) if and only if:",
+    "options": [
+      "|A| is not zero",
+      "A is the identity matrix",
+      "|A| = 0",
+      "A has no zero element"
+    ],
+    "ans": 2,
+    "solution": "If |A| ≠ 0, then X = A⁻¹O = O is the only solution, the trivial one. If |A| = 0, the rows are dependent and there are infinitely many solutions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m14",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The system x + y = 2 and 2x + 2y = 5 is:",
+    "options": [
+      "consistent, with infinitely many solutions",
+      "inconsistent, as the determinant of the coefficients is not zero",
+      "consistent, with one solution, as there are two equations",
+      "inconsistent, as the left sides are in proportion but the right sides are not"
+    ],
+    "ans": 3,
+    "solution": "The determinant of the coefficients is 1 × 2 − 1 × 2 = 0. The second equation gives x + y = 5/2, which contradicts x + y = 2. So there is no solution.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m15",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The system x + y = 2 and 2x + 2y = 4 has:",
+    "options": [
+      "infinitely many solutions, as the second equation is twice the first",
+      "no solution, as the determinant of the coefficients is zero",
+      "exactly one solution, x = 1 and y = 1",
+      "exactly two solutions, as there are two equations"
+    ],
+    "ans": 0,
+    "solution": "The determinant is zero, but the equations are in agreement, as the second is just the first one multiplied by 2. Every pair with x + y = 2 satisfies both.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m16",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The cofactor of the element in the second row and first column of a matrix is:",
+    "options": [
+      "the minor of the element in the first row and second column",
+      "−1 times the minor of that element",
+      "+1 times the minor of that element",
+      "the product of the element and its minor"
+    ],
+    "ans": 1,
+    "solution": "The cofactor is A_ij = (−1)^(i+j) M_ij. For i = 2 and j = 1, (−1)³ = −1, so A₂₁ = −M₂₁.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m17",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For an invertible matrix A, the inverse of A⁻¹ is:",
+    "options": [
+      "adj A",
+      "−A",
+      "A transposed",
+      "A itself"
+    ],
+    "ans": 3,
+    "solution": "A⁻¹ A = A A⁻¹ = I, which shows that A satisfies the condition for the inverse of A⁻¹. So (A⁻¹)⁻¹ = A.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m18",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If A is an invertible matrix, the inverse of the matrix 3A is:",
+    "options": [
+      "−3 A⁻¹",
+      "(1/3) A⁻¹",
+      "(1/3) A",
+      "3 A⁻¹"
+    ],
+    "ans": 1,
+    "solution": "(3A)((1/3)A⁻¹) = (3 × 1/3) A A⁻¹ = I. So (kA)⁻¹ = (1/k) A⁻¹ for a non-zero number k.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m19",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The inverse of the diagonal matrix with diagonal entries 2, 4 and 5 is:",
+    "options": [
+      "the diagonal matrix with entries −2, −4 and −5",
+      "the diagonal matrix with entries 1/10, 1/10 and 1/10",
+      "the diagonal matrix with entries 1/2, 1/4 and 1/5",
+      "the diagonal matrix with entries 2, 4 and 5"
+    ],
+    "ans": 2,
+    "solution": "A diagonal matrix with no zero on the diagonal has an inverse, which is diagonal with the reciprocals of its entries. The product of the two is the identity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m20",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If the inverse of a square matrix exists, then:",
+    "options": [
+      "it is unique, and only one matrix can satisfy AB = BA = I",
+      "it is not unique, and many matrices satisfy AB = BA = I",
+      "it exists only when the matrix is not square",
+      "it is the same as the transpose of the matrix"
+    ],
+    "ans": 0,
+    "solution": "If B and C were both inverses of A, then B = BI = B(AC) = (BA)C = IC = C. So there is only one inverse.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m21",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "To find A⁻¹ by elementary row operations, we write [A | I] and apply row operations until the left side becomes I. Then the right side is:",
+    "options": [
+      "A⁻¹",
+      "Aᵀ",
+      "adj A",
+      "A"
+    ],
+    "ans": 0,
+    "solution": "The row operations are equal to multiplying by a matrix P, so PA = I, which means that P = A⁻¹. The same operations turn I into PI = A⁻¹.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m22",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If A is invertible and AB = AC, for the matrices B and C of the same order, then:",
+    "options": [
+      "B = C only if A is the identity matrix",
+      "nothing can be said, as the matrices do not commute",
+      "B = −C, since the signs have to be opposite",
+      "B = C, since A⁻¹ can be multiplied on the left"
+    ],
+    "ans": 3,
+    "solution": "Multiply both sides on the left by A⁻¹: A⁻¹AB = A⁻¹AC, so IB = IC and B = C. This is the cancellation law, which needs |A| not zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m23",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a 3 × 3 matrix A with |A| = 3, the determinant of 2A is:",
+    "options": [
+      "6",
+      "18",
+      "24",
+      "12"
+    ],
+    "ans": 2,
+    "solution": "Each of the three rows has a common factor 2, so |2A| = 2³|A| = 8 × 3 = 24. The factor is raised to the power of the order of the matrix.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-m24",
+    "ch": "mth-12-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Solve 2x + y = 5 and x + y = 3 using the inverse of the coefficient matrix. The value of x is:",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "1"
+    ],
+    "ans": 1,
+    "solution": "The coefficient matrix has |A| = 2 − 1 = 1, and A⁻¹ = [[1, −1], [−1, 2]]. X = A⁻¹B = [[1 × 5 − 1 × 3], [−1 × 5 + 2 × 3]] = [2, 1]. So x = 2 and y = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-02-n01",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the determinant of A = [[2, 1, 3], [0, 4, 1], [5, 2, 6]]. Give your answer as a whole number.",
+    "ans": -11.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Expanding along the first row: 2(4 × 6 − 1 × 2) − 1(0 × 6 − 1 × 5) + 3(0 × 2 − 4 × 5) = 2(22) − 1(−5) + 3(−20) = 44 + 5 − 60 = −11. Check: reducing to a triangular form by row operations gives the same value, −11.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n02",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "For A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], find the element in the first row and first column of A⁻¹. Give your answer as a whole number.",
+    "ans": -24.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "|A| = 1(0 − 24) − 2(0 − 20) + 3(0 − 5) = −24 + 40 − 15 = 1. The (1,1) entry of adj A is the cofactor of the (1,1) entry: +(1 × 0 − 4 × 6) = −24. So the entry of A⁻¹ is −24/1 = −24. Check: reducing [A | I] to [I | A⁻¹] by row operations gives −24 in the same place.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n03",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Solve x + y + z = 6, 2x − y + z = 3 and x + 2y − z = 2. Find the value of x + 2y + 3z. Give your answer as a whole number.",
+    "ans": 14.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "|A| = 1(1 − 2) − 1(−2 − 1) + 1(4 + 1) = −1 + 3 + 5 = 7, which is not zero. By the inverse, X = A⁻¹B gives x = 1, y = 2, z = 3. Then x + 2y + 3z = 1 + 4 + 9 = 14. Check: Cramer's rule, with x = |A₁|/|A| = 7/7, y = 14/7 and z = 21/7, gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n04",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "For the matrix A in the first question, |A| = −11. Find |adj A|. Give your answer as a whole number.",
+    "ans": 121.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For a 3 × 3 matrix, |adj A| = |A|² = (−11)² = 121. Check: finding the cofactors of A, transposing them, and then calculating the determinant of that matrix directly gives 121.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n05",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "A shop sells pens, notebooks and rulers. 2 pens + 3 notebooks + 1 ruler cost ₹41. 3 pens + 1 notebook + 2 rulers cost ₹37. 1 pen + 2 notebooks + 3 rulers cost ₹42. Find the price of one notebook, in ₹. Give your answer as a whole number.",
+    "ans": 8.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Let the prices be x, y and z. The system is AX = B, with |A| = 2(3 − 4) − 3(9 − 2) + 1(6 − 1) = −2 − 21 + 5 = −18. By the inverse, X = A⁻¹B gives x = 5, y = 8 and z = 7. So a notebook costs ₹8. Check: by elimination of x from the three equations and back-substitution, the same values are found. 2 × 5 + 3 × 8 + 7 = 41 is correct.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n06",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "For A = [[4, 7], [2, 6]], find the element in the first row and second column of A⁻¹, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": -0.7,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "|A| = 24 − 14 = 10. adj A = [[6, −7], [−2, 4]], so A⁻¹ = (1/10)[[6, −7], [−2, 4]]. The (1,2) element is −7/10 = −0.7. Check: row reduction of [A | I] gives the same entry.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n07",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "For which value of k is the matrix [[1, 2, k], [3, 4, 5], [2, 1, 1]] singular? Give the answer to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 2.6,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "A matrix is singular when its determinant is zero. |A| = 1(4 − 5) − 2(3 − 10) + k(3 − 8) = −1 + 14 − 5k = 13 − 5k. This is zero for k = 13/5 = 2.6. Check: the determinant changes sign at k = 2.6, and a numerical search for the zero gives the same value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n08",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Matrix A has |A| = −11 (the first question). Matrix B = [[1, 0, 2], [0, 1, 1], [0, 0, 3]]. Find |AB|. Give your answer as a whole number.",
+    "ans": -33.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "|B| = 1 × 1 × 3 = 3, as B is upper triangular. |AB| = |A||B| = (−11)(3) = −33. Check: multiplying out the matrices AB, and finding the determinant by row reduction, gives −33.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-02-n09",
+    "ch": "mth-12-02",
+    "type": "num",
+    "diff": 3,
+    "q": "For A = [[2, 3], [1, 4]], find the sum of all four elements of A⁻¹, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 0.4,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "|A| = 8 − 3 = 5. adj A = [[4, −3], [−1, 2]], so A⁻¹ = (1/5)[[4, −3], [−1, 2]]. The elements are 0.8, −0.6, −0.2 and 0.4, and their sum is 0.4. Check: row reduction of [A | I] gives the same inverse.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -23282,6 +27034,2452 @@
     "decimalPlaces": 3,
     "tol": 0.0005,
     "solution": "Separate: eʸ dy = eˣ dx, so eʸ = eˣ + c. At x = 0: 2 = 1 + c, so c = 1. Then eʸ = eˣ + 1, and y(1) = log(e + 1) = 1.313.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-m01",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A random variable is best described as:",
+    "options": [
+      "a number that stays the same in every trial of an experiment",
+      "a variable whose values cannot be listed in any way",
+      "the probability of an event in the sample space",
+      "a function that gives a real number for each outcome of an experiment"
+    ],
+    "ans": 3,
+    "solution": "For example, in tossing three coins, the number of heads is a random variable. It takes the value 0, 1, 2 or 3 depending on the outcome. Its value is not known until the experiment is done.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m02",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which of the following is a discrete random variable?",
+    "options": [
+      "the number of heads in 5 tosses of a coin",
+      "the height of a student chosen at random",
+      "the weight of a bag of rice from a shop",
+      "the time taken by a runner to complete a race"
+    ],
+    "ans": 0,
+    "solution": "A discrete random variable takes a finite or countable list of values, found by counting. Time, height and weight are found by measuring, and they can take any value in an interval, so they are continuous.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m03",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which of the following is a continuous random variable?",
+    "options": [
+      "the number of students in a class",
+      "the time a bulb works before it fails",
+      "the number of bulbs that fail in a month",
+      "the number of sixes in 10 throws of a die"
+    ],
+    "ans": 1,
+    "solution": "The life of a bulb can be any positive real number. The other three are counts, and they take whole-number values only.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m04",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a discrete random variable X, with probabilities p₁, p₂, …, pₙ, the conditions are:",
+    "options": [
+      "each pᵢ ≥ 0, and p₁ + p₂ + … + pₙ = 0",
+      "each pᵢ ≤ 0, and p₁ + p₂ + … + pₙ = 1",
+      "each pᵢ ≥ 0, and p₁ + p₂ + … + pₙ = 1",
+      "each pᵢ ≥ 1, and p₁ + p₂ + … + pₙ = n"
+    ],
+    "ans": 2,
+    "solution": "A probability cannot be negative, and the probabilities of all the possible values must add up to 1, as one of them must occur.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m05",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A random variable X takes the values 0, 1, 2, 3 and 4 with P(X = x) = k(x + 1). The value of k is:",
+    "options": [
+      "1/10",
+      "1/20",
+      "1/5",
+      "1/15"
+    ],
+    "ans": 3,
+    "solution": "The probabilities are k, 2k, 3k, 4k and 5k. They must add up to 1, so 15k = 1 and k = 1/15.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m06",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The expected value (mean) of a discrete random variable X is:",
+    "options": [
+      "E(X) = Σ xᵢ² pᵢ, the sum of squares times probabilities",
+      "E(X) = Σ pᵢ, the sum of the probabilities",
+      "E(X) = Σ xᵢ pᵢ, the sum of each value times its probability",
+      "E(X) = Σ xᵢ/n, the plain average of the values"
+    ],
+    "ans": 2,
+    "solution": "Each value is weighted by how likely it is. The plain average treats all the values as equally likely, which is true only if all the probabilities are equal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m07",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The variance of a discrete random variable X can be found from the formula:",
+    "options": [
+      "Var(X) = E(X²) − [E(X)]²",
+      "Var(X) = E(X²) + [E(X)]²",
+      "Var(X) = [E(X)]² − E(X²)",
+      "Var(X) = E(X²) − E(X)"
+    ],
+    "ans": 0,
+    "solution": "Var(X) = Σ(xᵢ − μ)²pᵢ = Σxᵢ²pᵢ − μ² = E(X²) − [E(X)]². The mean is squared after it is found. The answer is never negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m08",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard deviation of a random variable X is:",
+    "options": [
+      "the same as E(X)",
+      "the positive square root of Var(X)",
+      "the reciprocal of Var(X)",
+      "the square of Var(X)"
+    ],
+    "ans": 1,
+    "solution": "The variance is in squared units. Its square root has the same unit as X, which makes it easier to understand as a spread around the mean.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m09",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The cumulative distribution function F(x) = P(X ≤ x) of a random variable has the property that:",
+    "options": [
+      "it never decreases, and it tends to 0 for large x",
+      "it can be negative, and it tends to 1 for large x",
+      "it never increases, and it tends to 1 for large x",
+      "it never decreases, and it tends to 1 for large x"
+    ],
+    "ans": 3,
+    "solution": "As x grows, more of the probability is included, so F cannot fall. It starts at 0 for very small x and reaches 1 when all the values are included.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m10",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "X is a continuous random variable. For a fixed number a, the probability P(X = a) is:",
+    "options": [
+      "equal to f(a), the height of the density curve at a",
+      "zero, as probability is found from the area under the density curve",
+      "equal to F(a), the value of the cumulative distribution",
+      "one, as X must take some value"
+    ],
+    "ans": 1,
+    "solution": "The area under the curve above one point is zero. Probabilities are given only for intervals: P(a ≤ X ≤ b) = ∫ f(x) dx from a to b.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m11",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A function f(x) is a probability density function of a continuous random variable if:",
+    "options": [
+      "f(x) ≥ 0 for all x, and the total area under it is 1",
+      "f(x) ≥ 0 for all x, and f(x) ≤ 1 for all x",
+      "f(x) is a whole number for all x, and the area is 1",
+      "f(x) ≤ 1 for all x, and the total area under it is 0"
+    ],
+    "ans": 0,
+    "solution": "The area under the whole curve, ∫ f(x) dx, must be 1, as the total probability is 1. The height f(x) is not a probability and it can be more than 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m12",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A probability density function can take values greater than 1. For example, f(x) = 2 for 0 ≤ x ≤ 0.5 and zero elsewhere is:",
+    "options": [
+      "not a valid density, since f(x) is greater than 1",
+      "not a valid density, since f(x) is not zero everywhere",
+      "a valid density function, since the area is 2 × 0.5 = 1",
+      "not a valid density, since the area is 2"
+    ],
+    "ans": 2,
+    "solution": "Only the area must be 1. The base is 0.5 and the height is 2, so the area is 1. The height is a density per unit of x, not a probability.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m13",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a continuous random variable with density f, the probability P(a ≤ X ≤ b) is:",
+    "options": [
+      "the integral of f(x) from a to b",
+      "the product of f(a) and (b − a)",
+      "the sum of f(a) and f(b)",
+      "the value of f(b) − f(a)"
+    ],
+    "ans": 0,
+    "solution": "The probability is the area under the curve between a and b. f(b) − f(a) is the change in the height, which is not a probability.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m14",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a continuous random variable with the density f(x) on [a, b], the cumulative distribution function and the density are related by:",
+    "options": [
+      "f(x) is the integral of F from a to x, and F(x) = f′(x)",
+      "F(x) is the integral of f from a to x, and f(x) = F′(x)",
+      "F(x) = f(x) for every x in the interval [a, b]",
+      "F(x) is the derivative of f from a to x, and F(x) = f(b)"
+    ],
+    "ans": 1,
+    "solution": "F(x) collects the area up to x. By the fundamental theorem of calculus, the derivative of this area with respect to x is the height f(x).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m15",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If Var(X) = 2, then Var(3X + 2) is:",
+    "options": [
+      "6",
+      "20",
+      "8",
+      "18"
+    ],
+    "ans": 3,
+    "solution": "Var(aX + b) = a² Var(X). A constant added does not change the spread. So Var(3X + 2) = 9 × 2 = 18.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m16",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two dice are thrown, and X is the sum of the numbers. The number of different values that X can take is:",
+    "options": [
+      "36, the number of outcomes",
+      "12, the whole numbers from 1 to 12",
+      "11, the whole numbers from 2 to 12",
+      "6, the numbers on one die"
+    ],
+    "ans": 2,
+    "solution": "The least sum is 1 + 1 = 2, and the greatest sum is 6 + 6 = 12. Every integer in between is possible. The 36 outcomes give only 11 values.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m17",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A random variable X takes the values 1, 2, 3 with probabilities 0.2, p and 0.5. The value of p is:",
+    "options": [
+      "0.5",
+      "0.7",
+      "0.1",
+      "0.3"
+    ],
+    "ans": 3,
+    "solution": "The probabilities must add up to 1: 0.2 + p + 0.5 = 1, so p = 0.3. The unknown constant is found before anything else is calculated.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m18",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The mean number of dots that is shown when a fair die is thrown once is:",
+    "options": [
+      "21.0",
+      "3.0",
+      "3.5",
+      "4.0"
+    ],
+    "ans": 2,
+    "solution": "E(X) = (1 + 2 + 3 + 4 + 5 + 6)/6 = 21/6 = 3.5. The mean need not be a value that X can take.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m19",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A student finds Var(X) = −0.5 for a random variable X. This result is:",
+    "options": [
+      "right, as a variance may be negative for a discrete variable",
+      "wrong, as a variance is a sum of squares times probabilities, and it cannot be negative",
+      "wrong, as a variance must always be more than 1",
+      "right, as the mean of X may be larger than E(X²)"
+    ],
+    "ans": 1,
+    "solution": "Var(X) = Σ(xᵢ − μ)²pᵢ is a sum of terms that are not negative. A negative result usually means that E(X²) and [E(X)]² were taken in the wrong order, or that the mean was squared before it was averaged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m20",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a discrete random variable X, the cumulative distribution function F(x) is:",
+    "options": [
+      "a step function, that jumps by pᵢ at each value xᵢ",
+      "a constant, equal to the mean of X",
+      "a straight line, with the slope 1",
+      "a smooth curve, with no jumps at all"
+    ],
+    "ans": 0,
+    "solution": "F(x) = Σ pᵢ over all xᵢ ≤ x. It stays flat between the values of X, and it jumps up by pᵢ when x reaches xᵢ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m21",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For any random variable X, the quantities E(X²) and [E(X)]² are related by:",
+    "options": [
+      "E(X²) = 2E(X), for every random variable",
+      "E(X²) ≤ [E(X)]², since the variance is not negative",
+      "E(X²) ≥ [E(X)]², since the variance is not negative",
+      "E(X²) = [E(X)]², for every random variable"
+    ],
+    "ans": 2,
+    "solution": "Var(X) = E(X²) − [E(X)]² ≥ 0. The two are equal only if X is a constant, so that the variance is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-m22",
+    "ch": "mth-12-14",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = x for 0 ≤ x ≤ 1, and zero elsewhere, is not a density function because:",
+    "options": [
+      "it is not a straight line on [0, 1]",
+      "the area under it is 1/2, not 1",
+      "it takes the value zero outside [0, 1]",
+      "it takes negative values on [0, 1]"
+    ],
+    "ans": 1,
+    "solution": "∫ x dx from 0 to 1 = 1/2. Multiplying by 2 gives f(x) = 2x, which has area 1 and is a density.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-14-n01",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "A random variable X takes the values 0, 1, 2, 3 and 4 with P(X = x) = k(x + 1). Find the value of k, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.0667,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "The probabilities are k, 2k, 3k, 4k and 5k, and they add up to 15k = 1. So k = 1/15 = 0.0667. Check: the probabilities 1/15, 2/15, 3/15, 4/15 and 5/15 add up to 15/15 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n02",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "A random variable X takes the values 1, 2, 3 and 4 with probabilities 0.1, 0.2, 0.3 and 0.4. Find E(X), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0. Check: E(X) is also the sum of P(X ≥ t) for t = 1, 2, 3, 4, which is 1 + 0.9 + 0.7 + 0.4 = 3.0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n03",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same distribution (values 1, 2, 3, 4 with probabilities 0.1, 0.2, 0.3, 0.4), find the variance of X, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E(X²) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.4) = 0.1 + 0.8 + 2.7 + 6.4 = 10. Var(X) = E(X²) − [E(X)]² = 10 − 9 = 1.00. Check: Σ(x − 3)²p = 4(0.1) + 1(0.2) + 0 + 1(0.4) = 1.00.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n04",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 2,
+    "q": "Two fair dice are thrown. Find the expected value of the sum of the numbers. Give your answer as a whole number.",
+    "ans": 7.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For one die, E = 3.5. The mean of a sum is the sum of the means, so E(sum) = 3.5 + 3.5 = 7. Check: adding the sums of all 36 equally likely outcomes gives 252, and 252/36 = 7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n05",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "A fair coin is tossed 3 times. X is the number of heads. Find the variance of X, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.75,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "P(X = 0, 1, 2, 3) = 1/8, 3/8, 3/8, 1/8. E(X) = 3/8 + 6/8 + 3/8 = 1.5. E(X²) = 3/8 + 12/8 + 9/8 = 3. Var(X) = 3 − 2.25 = 0.75. Check: listing the 8 outcomes, the values of X are 0, 1, 1, 1, 2, 2, 2, 3, and the mean of (X − 1.5)² over them is 0.75.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n06",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "The density of a continuous random variable X is f(x) = kx² for 0 ≤ x ≤ 3, and 0 elsewhere. Find the value of k, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.1111,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "The total area must be 1: ∫ kx² dx from 0 to 3 = k × 27/3 = 9k = 1. So k = 1/9 = 0.1111. Check: finding the area under x² from 0 to 3 numerically gives 9, and k is its reciprocal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n07",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "For the density f(x) = x²/9 on 0 ≤ x ≤ 3 (and 0 elsewhere), find P(1 ≤ X ≤ 2), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.2593,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "P = ∫ x²/9 dx from 1 to 2 = [x³/27] from 1 to 2 = (8 − 1)/27 = 7/27 = 0.2593. Check: a numerical integration of x²/9 over [1, 2] gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n08",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "The density of X is f(x) = 2x for 0 ≤ x ≤ 1, and 0 elsewhere. Find E(X), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.6667,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "E(X) = ∫ x f(x) dx from 0 to 1 = ∫ 2x² dx = [2x³/3] from 0 to 1 = 2/3 = 0.6667. Check: numerical integration of 2x² over [0, 1] gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n09",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "For the density f(x) = 2x on 0 ≤ x ≤ 1, find the median m, the value for which P(X ≤ m) = 1/2, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.7071,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "F(x) = ∫ 2t dt from 0 to x = x². Setting x² = 1/2 gives m = 1/√2 = 0.7071. Check: a search for the value of m at which the area up to m equals 0.5 gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-14-n10",
+    "ch": "mth-12-14",
+    "type": "num",
+    "diff": 3,
+    "q": "A game costs ₹10 to play. A fair die is thrown. You get ₹30 if it shows 6, ₹10 if it shows 5, and nothing otherwise. Find the expected net gain, in ₹, to 2 decimal places (a loss is a negative number). Give your answer to 2 decimal places.",
+    "ans": -3.33,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E(winnings) = 30 × 1/6 + 10 × 1/6 + 0 × 4/6 = 40/6 = 6.67. The net gain is 6.67 − 10 = −3.33. So, on average, a player loses ₹3.33 per game. Check: the six equally likely prizes add up to 40, and 40/6 − 10 gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-m01",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A Bernoulli trial is a trial that:",
+    "options": [
+      "has exactly two outcomes, and the chance of success changes each time",
+      "has exactly three outcomes, and the chance of success changes each time",
+      "has any number of outcomes, and the chance of success is the same each time",
+      "has exactly two outcomes, and the chance of success is the same each time"
+    ],
+    "ans": 3,
+    "solution": "The two outcomes are called success and failure, with probabilities p and q = 1 − p. In a sequence of such trials, the trials are independent, and p stays the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m02",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Cards are drawn one after another from a pack of 52 without replacement, and each draw is called a success if it is a heart. These draws are:",
+    "options": [
+      "Bernoulli trials, as there are two outcomes in each draw",
+      "not Bernoulli trials, as the chance of a heart changes after each draw",
+      "not Bernoulli trials, as there are four suits in the pack",
+      "Bernoulli trials, as there are only 13 hearts in the pack"
+    ],
+    "ans": 1,
+    "solution": "After a heart is taken, the chance of another heart is 12/51, and after a card of another suit it is 13/51. The chance of success is not constant, and the draws are not independent. With replacement, they would be Bernoulli trials.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m03",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "If X follows a binomial distribution with the parameters n and p, then n and p are:",
+    "options": [
+      "the mean, and the variance of the distribution",
+      "the chance of failure, and the chance of success",
+      "the number of trials, and the chance of success in each trial",
+      "the number of successes, and the number of failures"
+    ],
+    "ans": 2,
+    "solution": "X ~ B(n, p). The number of trials n is fixed in advance. Each trial is independent, and has the same chance of success, p.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m04",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a random variable X ~ B(n, p) with q = 1 − p, the probability of exactly x successes is:",
+    "options": [
+      "P(X = x) = ⁿCₓ qⁿ⁻ˣ pˣ",
+      "P(X = x) = ⁿCₓ p q",
+      "P(X = x) = ⁿCₓ pⁿ⁻ˣ qˣ",
+      "P(X = x) = ⁿPₓ qⁿ⁻ˣ pˣ"
+    ],
+    "ans": 0,
+    "solution": "Choose which x of the n trials are successes, in ⁿCₓ ways. Each such sequence has probability pˣ for the successes and qⁿ⁻ˣ for the failures.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m05",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The probabilities P(X = 0), P(X = 1), …, P(X = n) of a binomial distribution are the terms of the expansion of:",
+    "options": [
+      "(q + p)ⁿ, whose sum is n",
+      "(q + p)ⁿ, whose sum is 1",
+      "(q × p)ⁿ, whose sum is 1",
+      "(q − p)ⁿ, whose sum is 1"
+    ],
+    "ans": 1,
+    "solution": "(q + p)ⁿ = Σ ⁿCₓ qⁿ⁻ˣ pˣ. Since q + p = 1, the sum of all the terms is 1ⁿ = 1, as it must be for the total probability.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m06",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For X ~ B(n, p), the mean of X is:",
+    "options": [
+      "np",
+      "n + p",
+      "npq",
+      "n/p"
+    ],
+    "ans": 0,
+    "solution": "On average, a fraction p of the n trials are successes, so E(X) = np. For example, in 100 tosses of a fair coin, the mean number of heads is 50.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m07",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For X ~ B(n, p) with q = 1 − p, the variance of X is:",
+    "options": [
+      "np",
+      "√(npq)",
+      "n²pq",
+      "npq"
+    ],
+    "ans": 3,
+    "solution": "The variance is npq, and the standard deviation is √(npq). Since q is less than 1, the variance is always less than the mean np.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m08",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a binomial distribution, the variance is always:",
+    "options": [
+      "more than the mean, as q is less than 1",
+      "equal to the mean, as p and q add up to 1",
+      "less than the mean, as q is less than 1",
+      "more than the mean, as n is greater than 1"
+    ],
+    "ans": 2,
+    "solution": "Variance = npq = (np) × q. Since 0 < q < 1, the product is smaller than np. So a binomial distribution with variance larger than the mean is not possible.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m09",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In n independent trials, the chance of getting at least one success is:",
+    "options": [
+      "1 − nq",
+      "qⁿ",
+      "1 − pⁿ",
+      "1 − qⁿ"
+    ],
+    "ans": 3,
+    "solution": "The only way to get no success is that all n trials fail, with probability qⁿ. Subtracting this from 1 is quicker than adding the terms for 1, 2, …, n successes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m10",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In n independent trials with chance of success p, the probability that all n trials are successes is:",
+    "options": [
+      "np",
+      "nq",
+      "pⁿ",
+      "qⁿ"
+    ],
+    "ans": 2,
+    "solution": "This is the term for x = n: ⁿCₙ q⁰ pⁿ = pⁿ. For example, getting heads in each of 5 tosses has probability (1/2)⁵ = 1/32.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m11",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A fair coin is tossed 4 times. The probability of exactly 3 heads is:",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/8",
+      "3/16"
+    ],
+    "ans": 1,
+    "solution": "P(X = 3) = ⁴C₃ (1/2)³ (1/2)¹ = 4 × (1/16) = 1/4. There are 4 sequences with 3 heads, and each has probability 1/16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m12",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following situations can be modelled by a binomial distribution?",
+    "options": [
+      "the number of sixes in 10 throws of a die",
+      "the number of red balls in 3 draws without replacement from a bag with 4 red and 5 blue",
+      "the number of throws of a die until the first six",
+      "the height of a person chosen at random"
+    ],
+    "ans": 0,
+    "solution": "It has a fixed number of trials (10), two outcomes (six or not), a constant chance of success (1/6), and independence. In the other cases, the number of trials is not fixed, the draws are dependent, or the quantity is continuous.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m13",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a binomial distribution with p = 1/2, the distribution is:",
+    "options": [
+      "skewed to the right, as the mean is less than n/2",
+      "uniform, as all the probabilities are the same",
+      "symmetric, as P(X = x) = P(X = n − x)",
+      "skewed to the left, as the mean is more than n/2"
+    ],
+    "ans": 2,
+    "solution": "With p = q, ⁿCₓ and ⁿCₙ₋ₓ are equal, so the probabilities at x and n − x are the same, and the mean is n/2. It is not uniform, since ⁿCₓ varies with x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m14",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The mean of a binomial distribution is 4 and its variance is 3. The probability of failure q in one trial is:",
+    "options": [
+      "3/16",
+      "1/4",
+      "4/3",
+      "3/4"
+    ],
+    "ans": 3,
+    "solution": "Variance/mean = npq/np = q = 3/4. Then p = 1/4 and n = mean/p = 16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m15",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If X ~ B(6, 1/2), the probability P(X = 3) is the largest. This is because:",
+    "options": [
+      "the mean is np = 3, and the binomial probabilities are the highest near the mean",
+      "p = 1/2, and the probabilities are the highest at x = 1",
+      "the variance is npq = 1.5, and the probabilities are the highest at the variance",
+      "n = 6, and the probabilities are the highest at x = n"
+    ],
+    "ans": 0,
+    "solution": "The probabilities rise to a maximum near the mean np and then fall. For n = 6 and p = 1/2, they are 1, 6, 15, 20, 15, 6 and 1, in sixty-fourths, and the largest is 20/64 at x = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m16",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A binomial distribution has n = 10 and p = 0.3. The standard deviation is:",
+    "options": [
+      "√0.21, which is about 0.46",
+      "√2.1, which is about 1.45",
+      "2.1, which is the variance itself",
+      "√3, which is about 1.73"
+    ],
+    "ans": 1,
+    "solution": "npq = 10 × 0.3 × 0.7 = 2.1, and the standard deviation is its square root, about 1.45. The mean is np = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m17",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A student says: 'In a binomial distribution B(n, p), the sum of the probabilities of the successes 1, 2, …, n is 1.' This is:",
+    "options": [
+      "wrong, as the sum is 1 − qⁿ, since the term for x = 0 is not included",
+      "right, as the total of all the probabilities is 1",
+      "right, as each term is a probability",
+      "wrong, as the sum is qⁿ, since the term x = n is not included"
+    ],
+    "ans": 0,
+    "solution": "The terms for x = 0, 1, …, n add up to 1. If the term for x = 0, which is qⁿ, is left out, the sum is 1 − qⁿ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m18",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A die is thrown 3 times. A 'success' is a six. The number of successes X follows B(n, p) with:",
+    "options": [
+      "n = 3 and p = 1/2",
+      "n = 3 and p = 1/6",
+      "n = 6 and p = 1/3",
+      "n = 1 and p = 1/6"
+    ],
+    "ans": 1,
+    "solution": "There are 3 trials, and the chance of a six in each throw is 1/6. The six sides of the die do not mean that n = 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m19",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a binomial distribution, if n is increased with p kept the same, the mean np:",
+    "options": [
+      "stays the same, but the variance npq increases",
+      "decreases, and so does the variance npq",
+      "increases, but the variance npq stays the same",
+      "increases, and so does the variance npq"
+    ],
+    "ans": 3,
+    "solution": "Both the mean np and the variance npq are proportional to n when p and q are fixed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-m20",
+    "ch": "mth-12-15",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A bag contains 2 red and 3 blue balls. A ball is drawn and replaced, 4 times. The probability that none of the balls is red is:",
+    "options": [
+      "(2/5)⁴ = 16/625",
+      "(3/5) × (2/4) × (1/3) × 0 = 0",
+      "(3/5)⁴ = 81/625",
+      "1 − (3/5)⁴ = 544/625"
+    ],
+    "ans": 2,
+    "solution": "With replacement, the draws are independent, and the chance of a blue ball in each draw is 3/5. All four must be blue, so the probability is (3/5)⁴. The expression 1 − (3/5)⁴ is the chance of at least one red.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-12-15-n01",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "A binomial random variable has n = 5 and p = 0.3. Find P(X = 2), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.3087,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "P(X = 2) = ⁵C₂ (0.3)² (0.7)³ = 10 × 0.09 × 0.343 = 0.3087. Check: adding the probabilities of all the sequences of 5 trials with exactly 2 successes (10 of them, each 0.09 × 0.343) gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n02",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "A binomial random variable has n = 6 and p = 1/3. Find P(X ≥ 1), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.9122,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "P(X ≥ 1) = 1 − P(X = 0) = 1 − (2/3)⁶ = 1 − 64/729 = 665/729 = 0.9122. Check: adding P(X = 1) to P(X = 6) term by term gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n03",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "For X ~ B(20, 0.25), find the mean of X, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "E(X) = np = 20 × 0.25 = 5.00. Check: summing x × P(X = x) over x = 0, …, 20 gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n04",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "For X ~ B(20, 0.25), find the variance of X, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.75,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Var(X) = npq = 20 × 0.25 × 0.75 = 3.75. Check: summing (x − 5)² × P(X = x) over x = 0, …, 20 gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n05",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "For X ~ B(10, 0.2), find P(X ≤ 2), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.6778,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "P(X ≤ 2) = P(0) + P(1) + P(2) = (0.8)¹⁰ + 10(0.2)(0.8)⁹ + 45(0.2)²(0.8)⁸ = 0.1074 + 0.2684 + 0.3020 = 0.6778. Check: building the probabilities trial by trial, with each step adding a success or a failure, gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n06",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "The mean of a binomial distribution is 6 and its variance is 4.5. Find the number of trials n. Give your answer as a whole number.",
+    "ans": 24.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "q = variance/mean = 4.5/6 = 0.75, so p = 0.25. n = mean/p = 6/0.25 = 24. Check: a search over whole n and p values with np = 6 and npq = 4.5 gives only n = 24, p = 0.25.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n07",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "For the same distribution (mean 6, variance 4.5), find the chance of success p in one trial, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "q = npq/np = 4.5/6 = 0.75, so p = 1 − q = 0.25. Check: with n = 24 and p = 0.25, the mean is 6 and the variance is 24 × 0.25 × 0.75 = 4.5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n08",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "A fair die is thrown 4 times. Find the probability of getting exactly two sixes, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.1157,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "X ~ B(4, 1/6). P(X = 2) = ⁴C₂ (1/6)² (5/6)² = 6 × 25/1296 = 150/1296 = 0.1157. Check: of the 1296 equally likely outcomes of four throws, exactly 150 have two sixes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n09",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "For X ~ B(10, 0.3), find the most probable number of successes (the mode). Give your answer as a whole number.",
+    "ans": 3.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The mode is the integer part of (n + 1)p = 11 × 0.3 = 3.3, which is 3. Check: the probabilities for x = 0, 1, 2, 3, 4 are 0.0282, 0.1211, 0.2335, 0.2668 and 0.2001. The largest is at x = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n10",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "A fair die is thrown n times. Find the least number of throws n so that the probability of getting at least one six is more than 0.9. Give your answer as a whole number.",
+    "ans": 13.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P(at least one six) = 1 − (5/6)ⁿ. We need (5/6)ⁿ less than 0.1, so n log(5/6) is less than log 0.1, and n is more than log 0.1/log(5/6) = 12.63. So n = 13. Check: for n = 12 the probability is 0.8878, and for n = 13 it is 0.9065.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n11",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 2,
+    "q": "For X ~ B(36, 0.5), find the standard deviation of X, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Var(X) = npq = 36 × 0.5 × 0.5 = 9, so the standard deviation is √9 = 3.00. Check: summing (x − 18)² P(X = x) over all x gives 9 as well.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-12-15-n12",
+    "ch": "mth-12-15",
+    "type": "num",
+    "diff": 3,
+    "q": "In a large batch, 5 percent of the items are defective. A sample of 10 items is taken, and each item is defective independently with probability 0.05. Find the probability that no item is defective, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.5987,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "P(X = 0) = (0.95)¹⁰ = 0.5987. About 60 percent of the samples have no defective item. Check: building the probabilities trial by trial, the chance of no success after 10 trials is also 0.5987.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-m01",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of the following is a vector quantity?",
+    "options": [
+      "speed, which has a magnitude and a direction",
+      "temperature, which has a magnitude and a direction",
+      "displacement, which has a magnitude and a direction",
+      "distance, which has a magnitude and a direction"
+    ],
+    "ans": 2,
+    "solution": "A vector has both a magnitude and a direction. Displacement is the change of position, and it points from the start to the end. Distance, speed and temperature are scalars, which have a magnitude only.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m02",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of the following is a scalar quantity?",
+    "options": [
+      "velocity",
+      "mass",
+      "acceleration",
+      "force"
+    ],
+    "ans": 1,
+    "solution": "A scalar is described by a number and a unit only. Force, velocity and acceleration need a direction as well, so they are vectors.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m03",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A unit vector is a vector that:",
+    "options": [
+      "has a magnitude of 0, and it shows no direction",
+      "has a magnitude of exactly 1, and it has the unit of metre",
+      "has a direction along the x axis, and its magnitude is any number",
+      "has a magnitude of exactly 1, and it shows a direction only"
+    ],
+    "ans": 3,
+    "solution": "A unit vector in the direction of M is M/|M|. It has no physical unit. In coordinates, the three axes each have a unit vector, written i, j and k.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m04",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The resultant of two vectors P and Q has the greatest magnitude when the angle between them is:",
+    "options": [
+      "0°, and the magnitude is P + Q",
+      "90°, and the magnitude is √(P² + Q²)",
+      "180°, and the magnitude is P − Q",
+      "45°, and the magnitude is P + Q"
+    ],
+    "ans": 0,
+    "solution": "R² = P² + Q² + 2PQ cos θ is the largest when cos θ = 1, which is for θ = 0°. The vectors then point the same way, and the magnitudes add.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m05",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The resultant of two vectors P and Q (with P greater than Q) has the least magnitude when the angle between them is:",
+    "options": [
+      "180°, and the magnitude is P + Q",
+      "180°, and the magnitude is P − Q",
+      "90°, and the magnitude is P − Q",
+      "0°, and the magnitude is P − Q"
+    ],
+    "ans": 1,
+    "solution": "R² is the smallest when cos θ = −1, which is for θ = 180°. The vectors are opposite, and the smaller one cancels a part of the larger one. The resultant is P − Q.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m06",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two forces of 6 N and 8 N act at right angles to each other. The magnitude of the resultant is:",
+    "options": [
+      "10 N",
+      "14 N",
+      "2 N",
+      "7 N"
+    ],
+    "ans": 0,
+    "solution": "R = √(6² + 8²) = √(36 + 64) = √100 = 10 N. The sum of the magnitudes, 14 N, is the largest possible value, when the forces are in the same direction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m07",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the triangle law of vector addition, if two vectors are represented by two sides of a triangle taken in order, the resultant is represented by:",
+    "options": [
+      "the longest side, whichever way it is taken",
+      "the third side, taken in the same order",
+      "the sum of the lengths of the two sides",
+      "the third side, taken in the opposite order"
+    ],
+    "ans": 3,
+    "solution": "Place the tail of the second vector at the head of the first. The resultant goes from the tail of the first to the head of the second, which is the third side taken in the opposite order.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m08",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The sum of the magnitudes of two vectors compared with the magnitude of their vector sum is:",
+    "options": [
+      "always less than it, for every pair of vectors",
+      "always equal to it, whichever way they point",
+      "greater than or equal to it, with equality when they point the same way",
+      "less than or equal to it, with equality when they point the same way"
+    ],
+    "ans": 2,
+    "solution": "|P + Q| ≤ |P| + |Q|. This is the triangle inequality. One side of a triangle cannot be longer than the sum of the other two.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m09",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A vector of magnitude R makes an angle θ with the x axis. Its component along the y axis is:",
+    "options": [
+      "R sin θ",
+      "R cos θ",
+      "R tan θ",
+      "R/sin θ"
+    ],
+    "ans": 0,
+    "solution": "The component along the axis next to the angle θ is R cos θ, and the one opposite to it is R sin θ. If the angle were measured from the y axis, the two would be interchanged.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m10",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A vector of magnitude 10 makes an angle of 30° with the y axis. Its component along the x axis is:",
+    "options": [
+      "10",
+      "5",
+      "8.66",
+      "17.3"
+    ],
+    "ans": 1,
+    "solution": "The angle is measured from the y axis, so the component along y is 10 cos 30° = 8.66, and the component along x is 10 sin 30° = 5. A common error is to use cos for the x component without looking at the axis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m11",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The scalar (dot) product of two vectors P and Q, with θ the angle between them, is:",
+    "options": [
+      "P Q sin θ, which is a scalar",
+      "P Q cos θ, which is a vector",
+      "P Q sin θ, which is a vector",
+      "P Q cos θ, which is a scalar"
+    ],
+    "ans": 3,
+    "solution": "The dot product gives a number. In components it is PₓQₓ + PᵧQᵧ + PzQz. It is the product of the magnitude of one vector and the component of the other along it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m12",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The dot product of two non-zero vectors is zero when they are:",
+    "options": [
+      "equal in magnitude",
+      "in opposite directions",
+      "perpendicular to each other",
+      "parallel to each other"
+    ],
+    "ans": 2,
+    "solution": "P·Q = PQ cos θ is zero only if cos θ = 0, that is, θ = 90°. For parallel vectors, the cross product is zero instead.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m13",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The magnitude of the vector (cross) product of two vectors P and Q, with θ the angle between them, is:",
+    "options": [
+      "P Q sin θ",
+      "P Q cos θ",
+      "P Q",
+      "P Q tan θ"
+    ],
+    "ans": 0,
+    "solution": "The direction of P × Q is perpendicular to both vectors, and given by the right-hand rule. Its magnitude equals the area of the parallelogram that has P and Q as the adjacent sides.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m14",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The cross product of two parallel vectors is:",
+    "options": [
+      "a unit vector, as the vectors are parallel",
+      "a vector of the greatest magnitude, as sin 0° = 1",
+      "a scalar equal to PQ, as cos 0° = 1",
+      "the zero vector, as sin 0° = 0"
+    ],
+    "ans": 3,
+    "solution": "|P × Q| = PQ sin θ, and θ = 0° or 180° for parallel vectors, so sin θ = 0. A vector crossed with itself is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m15",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For two vectors P and Q, the cross products P × Q and Q × P are related by:",
+    "options": [
+      "P × Q = Q × P only when they are perpendicular",
+      "P × Q = (Q × P)²",
+      "P × Q = −(Q × P)",
+      "P × Q = Q × P"
+    ],
+    "ans": 2,
+    "solution": "Reversing the order reverses the direction given by the right-hand rule, so the sign changes, but the magnitude stays the same. The cross product is not commutative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m16",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the unit vectors i, j and k along the three axes, the product i × j is:",
+    "options": [
+      "1",
+      "k",
+      "0",
+      "−k"
+    ],
+    "ans": 1,
+    "solution": "The three axes form a right-handed system: i × j = k, j × k = i and k × i = j. Reversing the order gives the opposite sign: j × i = −k. The dot product i·j = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m17",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The torque is given by τ = r × F. If r and F are along the same line, the torque is:",
+    "options": [
+      "equal to rF, since the angle is zero",
+      "not defined, since the angle is zero",
+      "maximum, since the vectors are in the same direction",
+      "zero, since the cross product of parallel vectors is zero"
+    ],
+    "ans": 3,
+    "solution": "A force that acts along the line of the position vector has no turning effect about the origin, as sin θ = 0. The torque is largest when the force is perpendicular to r.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m18",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The work done by a force F for a displacement d is the:",
+    "options": [
+      "cross product F × d, which is a scalar",
+      "dot product F·d, which is a scalar",
+      "dot product F·d, which is a vector",
+      "cross product F × d, which is a vector"
+    ],
+    "ans": 1,
+    "solution": "W = F d cos θ is a scalar. Work is the product of the displacement and the component of the force along it. Work done by a force perpendicular to the displacement is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m19",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The derivative dy/dx of a function y = f(x) represents:",
+    "options": [
+      "the slope of the tangent to the graph at that point",
+      "the area under the graph up to that point",
+      "the value of the function at that point",
+      "the length of the graph up to that point"
+    ],
+    "ans": 0,
+    "solution": "It is the limit of Δy/Δx as Δx tends to zero, which is the instantaneous rate of change. Area under a graph is found by integration.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m20",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The derivative of xⁿ with respect to x is:",
+    "options": [
+      "xⁿ⁻¹",
+      "xⁿ/n",
+      "n xⁿ⁻¹",
+      "n xⁿ⁺¹"
+    ],
+    "ans": 2,
+    "solution": "This is the power rule. For example, d(x³)/dx = 3x², and d(x)/dx = 1. The derivative of a constant is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m21",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The derivative of the product f₁(x) f₂(x) is:",
+    "options": [
+      "f₁′ f₂′",
+      "(f₁′ f₂′)/(f₁ f₂)",
+      "f₁ f₂′ + f₂ f₁′",
+      "f₁ f₂ + f₁′ f₂′"
+    ],
+    "ans": 2,
+    "solution": "This is the product rule. For example, d(x sin x)/dx = x cos x + sin x. The derivative of a product is not the product of the derivatives.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m22",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The derivative of sin(3x) with respect to x is:",
+    "options": [
+      "cos(3x)",
+      "3 cos(3x)",
+      "−3 cos(3x)",
+      "3 sin(3x)"
+    ],
+    "ans": 1,
+    "solution": "By the chain rule: d/dx f(g(x)) = f′(g(x)) g′(x). Here f = sin, g = 3x, so the result is cos(3x) × 3. The inner derivative must not be forgotten.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m23",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The integral of x² dx from x = 0 to x = 3 is:",
+    "options": [
+      "9",
+      "27",
+      "3",
+      "18"
+    ],
+    "ans": 0,
+    "solution": "∫ x² dx = x³/3. At the limits, 27/3 − 0 = 9. The integral gives the area under the curve y = x² between x = 0 and x = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-m24",
+    "ch": "phy-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The velocity of a body is v = 3t² in m/s. The distance moved from t = 0 to t = 2 s is:",
+    "options": [
+      "4 m",
+      "12 m",
+      "6 m",
+      "8 m"
+    ],
+    "ans": 3,
+    "solution": "x = ∫ v dt = ∫ 3t² dt = t³. At t = 2, the value is 8, and at t = 0, it is 0. So the distance is 8 m. The acceleration is the derivative, a = 6t.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-01-n01",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Two forces of 3 N and 4 N act at right angles to each other. Find the magnitude of the resultant, in N, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 5.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "R = √(P² + Q² + 2PQ cos 90°) = √(9 + 16 + 0) = 5.0 N. Check: with the forces along the x and y axes, the components of the resultant are 3 and 4, and its magnitude is √(3² + 4²) = 5.0 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n02",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Two forces of 10 N and 6 N act on a body, with an angle of 60° between them. Find the magnitude of the resultant, in N, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 14.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "R = √(P² + Q² + 2PQ cos θ) = √(100 + 36 + 2 × 10 × 6 × 0.5) = √196 = 14.00 N. Check: with the 10 N force along the x axis, the components of the sum are 10 + 6 cos 60° = 13 and 6 sin 60° = 5.196, and √(13² + 5.196²) = 14.00 N.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n03",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "For the same forces (10 N and 6 N at 60°), find the angle that the resultant makes with the 10 N force, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 21.79,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "tan α = Q sin θ/(P + Q cos θ) = 5.196/13 = 0.3997, so α = 21.79°. Check: by the sine rule in the triangle of vectors, sin α = Q sin θ/R = 5.196/14 = 0.3712, and α = 21.79°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n04",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the scalar product of A = 2i + 3j + k and B = i + 2j − k. Give your answer as a whole number.",
+    "ans": 7,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "A·B = (2)(1) + (3)(2) + (1)(−1) = 2 + 6 − 1 = 7. Check: |A + B|² = 3² + 5² + 0² = 34, |A|² = 14, |B|² = 6, and (|A + B|² − |A|² − |B|²)/2 = (34 − 20)/2 = 7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n05",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the magnitude of the vector product A × B for A = i + 2j + 3k and B = 2i − j + k, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 8.66,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "A × B = (2 × 1 − 3 × (−1)) i + (3 × 2 − 1 × 1) j + (1 × (−1) − 2 × 2) k = 5i + 5j − 5k. The magnitude is √75 = 8.66. Check: |A × B|² = |A|²|B|² − (A·B)² = 14 × 6 − 3² = 75.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n06",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the angle between the vectors A = i + j and B = j + k, in degrees, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 60.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "cos θ = A·B/(|A||B|) = 1/(√2 × √2) = 1/2, so θ = 60.0°. Check: the vector A − B = i − k has |A − B|² = 2. By the law of cosines, |A − B|² = |A|² + |B|² − 2|A||B| cos θ gives 2 = 4 − 4 cos θ, so cos θ = 1/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n07",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "A parallelogram has the adjacent sides A = 3i and B = 4j (in metres). Find the area of the triangle formed by A and B, in m², to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 6.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The area of the parallelogram is |A × B| = 3 × 4 × sin 90° = 12 m². The triangle is half of it: 6.0 m². Check: it is a right triangle, and ½ × base × height = ½ × 3 × 4 = 6.0 m².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n08",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the derivative of y = x³ sin x at x = π/2, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 7.402,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By the product rule, dy/dx = 3x² sin x + x³ cos x. At x = π/2, sin = 1 and cos = 0, so dy/dx = 3(π/2)² = 7.402. Check: the slope found from a very small step on both sides of x = π/2 gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n09",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the derivative of y = (3x² + 2)⁴ at x = 1. Give your answer as a whole number.",
+    "ans": 3000,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "By the chain rule, dy/dx = 4(3x² + 2)³ × 6x. At x = 1, it is 4 × 125 × 6 = 3000. Check: the slope from a small step on both sides of x = 1 gives 3000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n10",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the derivative of y = x/(x² + 1) at x = 2, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": -0.12,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "By the quotient rule, dy/dx = [(x² + 1)(1) − x(2x)]/(x² + 1)² = (1 − x²)/(x² + 1)². At x = 2, it is (1 − 4)/25 = −0.12. Check: the slope from a small step on both sides of x = 2 gives −0.12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n11",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of the integral of (2x + 1) dx from x = 0 to x = 3, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 12,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The integral is x² + x. At x = 3, it is 9 + 3 = 12, and at x = 0, it is 0. So the value is 12.0. Check: the area of a trapezoid with parallel sides 1 and 7 and width 3 is (1 + 7)/2 × 3 = 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n12",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "A vector is 3i + 4j. Find the x component of the unit vector in its direction, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.6,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The magnitude is √(9 + 16) = 5, so the unit vector is (3i + 4j)/5 = 0.6i + 0.8j. The x component is 0.60. Check: the vector makes an angle of 53.13° with the x axis, and cos 53.13° = 0.60.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-01-n13",
+    "ch": "phy-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "A force F = 2i + 3j + 4k (in N) acts on a body that moves through the displacement d = i − j + 2k (in m). Find the work done, in J. Give your answer as a whole number.",
+    "ans": 7,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "W = F·d = (2)(1) + (3)(−1) + (4)(2) = 2 − 3 + 8 = 7 J. Check: |F + d|² = 3² + 2² + 6² = 49, |F|² = 29, |d|² = 6, and (49 − 29 − 6)/2 = 7.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-m01",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which one of the following is a fundamental (base) quantity in the SI system?",
+    "options": [
+      "velocity, with the unit metre per second",
+      "force, with the unit newton",
+      "electric current, with the unit ampere",
+      "energy, with the unit joule"
+    ],
+    "ans": 2,
+    "solution": "The seven base quantities are length, mass, time, electric current, temperature, amount of substance and luminous intensity. Force, energy and velocity are derived from them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m02",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of the amount of a substance is:",
+    "options": [
+      "mole",
+      "kelvin",
+      "candela",
+      "kilogram"
+    ],
+    "ans": 0,
+    "solution": "One mole contains 6.022 × 10²³ elementary entities. The kilogram is the unit of mass, the candela is for luminous intensity, and the kelvin is for temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m03",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The SI unit of temperature is:",
+    "options": [
+      "degree Fahrenheit",
+      "kelvin",
+      "degree Celsius",
+      "calorie"
+    ],
+    "ans": 1,
+    "solution": "The kelvin is the base unit of the thermodynamic temperature. The Celsius scale is related to it by T(K) = t(°C) + 273.15, but it is not the SI base unit.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m04",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The SI unit of force, the newton, in terms of the base units is:",
+    "options": [
+      "kg m² s⁻²",
+      "kg m² s⁻³",
+      "kg m s⁻¹",
+      "kg m s⁻²"
+    ],
+    "ans": 3,
+    "solution": "F = ma, so the unit is kg × m/s² = kg m s⁻². The unit kg m² s⁻² is that of energy, which is the joule.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m05",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the parallax method for finding the distance D of a planet, the same planet is viewed from two points that are a distance b apart, and the parallax angle θ is measured. The distance is:",
+    "options": [
+      "D = bθ, with θ in radians, if b is much less than D",
+      "D = θ/b, with θ in degrees, if b is much less than D",
+      "D = b/θ, with θ in radians, if b is much less than D",
+      "D = b/θ, with θ in degrees, whatever the size of b"
+    ],
+    "ans": 2,
+    "solution": "For a small angle, the arc of length b at a distance D subtends the angle θ = b/D, which is true if θ is in radians. This is the same as the relation between the arc, the radius and the angle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m06",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The atomic mass unit (u) is defined as:",
+    "options": [
+      "one twelfth of the mass of one mole of carbon-12",
+      "one twelfth of the mass of one atom of carbon-12",
+      "the mass of one atom of hydrogen-1",
+      "the mass of one proton, with the electron removed"
+    ],
+    "ans": 1,
+    "solution": "1 u = 1.66 × 10⁻²⁷ kg. By this definition, a carbon-12 atom has a mass of exactly 12 u. The mass of a hydrogen atom is a little more than 1 u.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m07",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The present definition of the SI second is based on:",
+    "options": [
+      "the frequency of the radiation from the caesium atom",
+      "the time taken by light to travel one metre",
+      "the time of rotation of the Earth about its axis",
+      "the time period of a pendulum of a fixed length"
+    ],
+    "ans": 0,
+    "solution": "A day is not constant enough, as the rotation of the Earth changes slowly. The second is now defined from the frequency of a particular transition in the caesium-133 atom, which is measured by an atomic clock.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m08",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The dimensional formula of velocity is:",
+    "options": [
+      "[L² T⁻¹]",
+      "[M L T⁻¹]",
+      "[L T⁻²]",
+      "[L T⁻¹]"
+    ],
+    "ans": 3,
+    "solution": "Velocity is length divided by time. The formula [L T⁻²] is that of acceleration, and [M L T⁻¹] is that of momentum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m09",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The dimensional formula of force is:",
+    "options": [
+      "[M L T⁻²]",
+      "[M L T⁻¹]",
+      "[M L² T⁻²]",
+      "[M² L T⁻²]"
+    ],
+    "ans": 0,
+    "solution": "F = ma, so the dimensions are [M] × [L T⁻²] = [M L T⁻²]. The formula [M L² T⁻²] is that of work and energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m10",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The dimensional formula of work (or energy) is:",
+    "options": [
+      "[M L T⁻¹]",
+      "[M L² T⁻³]",
+      "[M L T⁻²]",
+      "[M L² T⁻²]"
+    ],
+    "ans": 3,
+    "solution": "W = F × d, so the dimensions are [M L T⁻²] × [L] = [M L² T⁻²]. The formula [M L² T⁻³] is that of power.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m11",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The dimensional formula of pressure is:",
+    "options": [
+      "[M L⁻² T⁻²]",
+      "[M L⁻¹ T⁻²]",
+      "[M L T⁻²]",
+      "[M L² T⁻²]"
+    ],
+    "ans": 1,
+    "solution": "Pressure = force/area = [M L T⁻²]/[L²] = [M L⁻¹ T⁻²]. It is also the dimensional formula of stress and of energy per unit volume.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m12",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The dimensional formula of Planck's constant h, from E = hν, is:",
+    "options": [
+      "[M L² T⁻²]",
+      "[M L T⁻¹]",
+      "[M L² T⁻¹]",
+      "[M L² T⁻³]"
+    ],
+    "ans": 2,
+    "solution": "h = E/ν = [M L² T⁻²]/[T⁻¹] = [M L² T⁻¹]. This is the same as the dimensional formula of angular momentum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m13",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The dimensional formula of the universal gravitational constant G, from F = Gm₁m₂/r², is:",
+    "options": [
+      "[M⁻¹ L² T⁻²]",
+      "[M⁻¹ L³ T⁻²]",
+      "[M⁻¹ L³ T⁻¹]",
+      "[M L³ T⁻²]"
+    ],
+    "ans": 1,
+    "solution": "G = F r²/(m₁m₂) = [M L T⁻²][L²]/[M²] = [M⁻¹ L³ T⁻²].",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m14",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The principle of homogeneity says that in a correct equation:",
+    "options": [
+      "every term has the same unit of mass",
+      "every term has the same numerical value",
+      "every term has the same dimensions",
+      "no term has any dimensions"
+    ],
+    "ans": 2,
+    "solution": "Only quantities with the same dimensions can be added or subtracted. So all the terms of a correct equation must have the same dimensions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m15",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A student derives the equation s = ut + at² for the displacement. By dimensional analysis, this equation is:",
+    "options": [
+      "right, since s, u, t and a are all measured in the same units",
+      "wrong, since the term ut does not have the dimensions of length",
+      "right, since all the terms have the dimensions of length",
+      "wrong, since the term at² does not have the dimensions of length"
+    ],
+    "ans": 3,
+    "solution": "ut has the dimensions [L T⁻¹][T] = [L], and s is [L]. But at² = [L T⁻²][T²] = [L], and this is also a length. So the dimensions match. The correct equation is s = ut + (1/2)at², and dimensional analysis cannot find the missing factor 1/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m16",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following can dimensional analysis NOT do?",
+    "options": [
+      "find the value of a dimensionless constant such as 1/2 or 2π",
+      "convert a unit from one system into another",
+      "check the correctness of an equation",
+      "suggest a relation between the physical quantities"
+    ],
+    "ans": 0,
+    "solution": "The method compares the dimensions only. A pure number has no dimensions, so it cannot be found. It also cannot handle trigonometric or exponential functions, or equations with a sum of terms in a simple way.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m17",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A measurement is accurate when:",
+    "options": [
+      "the instrument has a very small least count",
+      "repeated readings are close to each other",
+      "it is close to the true value of the quantity",
+      "the readings are all the same number"
+    ],
+    "ans": 2,
+    "solution": "Accuracy is about the nearness to the true value. Precision is about how close the repeated readings are to each other. A set of readings can be precise without being accurate, if there is a systematic error.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m18",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Four readings of the length of a rod, whose true length is 20.00 cm, are 20.51, 20.52, 20.50 and 20.51 cm. The measurement is:",
+    "options": [
+      "neither precise nor accurate",
+      "precise, but not accurate",
+      "both precise and accurate",
+      "accurate, but not precise"
+    ],
+    "ans": 1,
+    "solution": "The readings are close to each other, so they are precise. But they are all about 0.5 cm away from the true value, so they are not accurate. This points to a systematic error, such as a wrong zero of the scale.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m19",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following is an example of a systematic error?",
+    "options": [
+      "the change in a reading from a sudden noise in the room",
+      "the random variation in the reading, with each trial",
+      "the slight change in the reading, from the quick movement of the hand",
+      "a zero error of the instrument, which affects every reading in the same way"
+    ],
+    "ans": 3,
+    "solution": "A systematic error pushes all the readings in one direction, and it can be corrected. A random error varies from reading to reading, and it is reduced by taking the mean of many readings.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m20",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Z = A + B or Z = A − B, with the absolute errors ΔA and ΔB in A and B. The absolute error in Z is:",
+    "options": [
+      "ΔZ = ΔA + ΔB, in both cases",
+      "ΔZ = ΔA − ΔB, in the case of the difference",
+      "ΔZ = ΔA + ΔB, for the sum, and ΔA − ΔB, for the difference",
+      "ΔZ = √(ΔA² − ΔB²), in both cases"
+    ],
+    "ans": 0,
+    "solution": "In the worst case, the errors of A and B work in the same direction. For both a sum and a difference, the absolute errors add up. For a product or a quotient, the relative errors add up.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m21",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Z = A³B/C². The maximum relative error in Z, in terms of the relative errors in A, B and C, is:",
+    "options": [
+      "3(ΔA/A) + (ΔB/B) + 2(ΔC/C)",
+      "(ΔA/A) + (ΔB/B) + (ΔC/C)",
+      "3(ΔA/A) + (ΔB/B) − 2(ΔC/C)",
+      "3(ΔA/A) × (ΔB/B) × 2(ΔC/C)"
+    ],
+    "ans": 0,
+    "solution": "For products, quotients and powers, the relative errors add, each multiplied by its power. The power in the denominator also adds, because in the worst case the errors do not cancel.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m22",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The number of significant figures in the number 0.00450 is:",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "2"
+    ],
+    "ans": 1,
+    "solution": "The zeros at the beginning only show the position of the decimal point, so they are not significant. The digits 4, 5 and the final 0 are significant, as the zero after the decimal point shows that it was measured.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m23",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The least count of a measuring instrument is 0.1 cm. A length is measured as 15.43 cm with it. A better statement of the reading is:",
+    "options": [
+      "15 cm, since the instrument cannot measure the decimals at all",
+      "15.430 cm, since an extra zero shows the accuracy of the scale",
+      "15.43 cm, since all the four figures are known reliably by the scale",
+      "15.4 cm, since the instrument cannot give more than one figure after the decimal point"
+    ],
+    "ans": 3,
+    "solution": "The least count decides the number of significant figures. With a least count of 0.1 cm, the last reliable figure is the first decimal place, which gives three significant figures.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-m24",
+    "ch": "phy-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A vernier calliper has 10 divisions on the vernier scale equal to 9 divisions on the main scale (1 division = 1 mm). The least count of the instrument is:",
+    "options": [
+      "0.01 mm",
+      "0.9 mm",
+      "0.1 mm",
+      "1 mm"
+    ],
+    "ans": 2,
+    "solution": "Least count = 1 main scale division − 1 vernier division = 1 − 9/10 = 0.1 mm. It is also equal to the value of one main scale division divided by the number of vernier divisions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "phy-11-02-n01",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 2,
+    "q": "A planet is viewed from two points that are 3.0 × 10¹¹ m apart, and the parallax angle is 2.0 arcsec (1 arcsec = 4.85 × 10⁻⁶ rad). Find its distance, in units of 10¹⁶ m, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.09,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "θ = 2.0 × 4.85 × 10⁻⁶ = 9.7 × 10⁻⁶ rad. D = b/θ = 3.0 × 10¹¹/9.7 × 10⁻⁶ = 3.09 × 10¹⁶ m. Check: for the small angle, the exact relation D = (b/2)/tan(θ/2) gives the same value to many figures.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n02",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Convert a speed of 72 km/h into m/s. Give your answer as a whole number.",
+    "ans": 20.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "1 km = 1000 m and 1 h = 3600 s. So 72 km/h = 72 × 1000/3600 = 20 m/s. Check: dividing by 3.6 gives the same, 72/3.6 = 20.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n03",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Convert the value g = 9.8 m/s² into km/h². Give your answer as a whole number.",
+    "ans": 127008.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "1 m = 10⁻³ km, and 1 s = 1/3600 h, so 1 s⁻² = 3600² h⁻². g = 9.8 × 10⁻³ × 12 960 000 = 127 008 km/h². Check: converting the length first, 9.8 m/s² = 0.0098 km/s², and then the time, 0.0098 × 3600² gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n04",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "The time period T of a simple pendulum depends on its length l and on g. Assume T = k lˣ gʸ, where k is a number without dimensions. Using dimensions, find x. Give your answer to 1 decimal place.",
+    "ans": 0.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "[T] = [L]ˣ [L T⁻²]ʸ = [L^(x+y) T^(−2y)]. Equating the powers: x + y = 0 and −2y = 1. So y = −1/2 and x = 1/2. Thus T = k √(l/g). Check: trying all the half-integer values of x and y in a small range finds only the pair x = 1/2, y = −1/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n05",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Five readings of a length are 20.1, 20.3, 20.2, 20.4 and 20.0 cm. Find the percentage relative error, which is the mean absolute error divided by the mean, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.59,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The mean is (20.1 + 20.3 + 20.2 + 20.4 + 20.0)/5 = 20.2 cm. The absolute errors are 0.1, 0.1, 0.0, 0.2 and 0.2, with the mean 0.12 cm. The relative error is 0.12/20.2 = 0.00594, which is 0.59 percent. Check: the same calculation with decimal numbers in place of exact fractions gives 0.59 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n06",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Z = AB/C². The values are A = 2.00 ± 0.002, B = 3.00 ± 0.003 and C = 4.00 ± 0.004. Find the maximum percentage error in Z, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.4,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "ΔZ/Z = ΔA/A + ΔB/B + 2ΔC/C = 0.001 + 0.001 + 2(0.001) = 0.004, which is 0.40 percent. Check: taking each quantity at the end of its range that changes Z the most (A and B large, C small), Z changes by 0.40 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n07",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "The radius of a sphere is measured as 2.50 ± 0.01 cm. Find the percentage error in its volume, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 1.2,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "V = (4/3)πr³, so ΔV/V = 3Δr/r = 3 × 0.01/2.50 = 0.012, which is 1.2 percent. Check: the volume for r = 2.51 cm is 1.2 percent larger than for r = 2.50 cm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n08",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the number of significant figures in the measurement 0.00450 m. Give your answer as a whole number.",
+    "ans": 3,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The zeros before the first non-zero digit show only where the decimal point is, so they do not count. The digits 4, 5 and the last 0 count, so there are 3 significant figures. Check: written as 4.50 × 10⁻³, there are three digits in the coefficient.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n09",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "The sides of a rectangle are 4.25 cm and 2.1 cm. Find its area, with the number of significant figures that is right for the data (the least number in the data is 2). Give the answer in cm², to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 8.9,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The product is 4.25 × 2.1 = 8.925 cm². The side 2.1 cm has only 2 significant figures, so the area is given with 2 significant figures: 8.9 cm². Check: rounding 8.925 to two significant figures, by the usual rule, gives 8.9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n10",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "To find g from a pendulum, g = 4π²l/T². The measured values are l = 1.00 ± 0.01 m and T = 2.00 ± 0.02 s. Find the maximum percentage error in g, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 3.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Δg/g = Δl/l + 2ΔT/T = 0.01 + 2(0.01) = 0.03, which is 3.0 percent. Check: with l at its highest and T at its lowest, g is 3.05 percent too high. With l at its lowest and T at its highest, it is 2.95 percent too low. The average of these is 3.0 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "phy-11-02-n11",
+    "ch": "phy-11-02",
+    "type": "num",
+    "diff": 2,
+    "q": "On a vernier calliper, 10 divisions of the vernier scale are equal to 9 divisions of the main scale, and 1 main scale division is 1 mm. Find the least count, in mm, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.1,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The least count is the difference between one main scale division and one vernier division. One vernier division is 9/10 = 0.9 mm. So the least count is 1 − 0.9 = 0.10 mm. Check: it is also 1 mm divided by 10 vernier divisions.",
     "sample": false,
     "verifiedBy": [
       "derivation",
