@@ -1743,7 +1743,7 @@
     "diff": 2,
     "q": "Copper (Z = 29) has the ground-state configuration [Ar] 3d10 4s1. Why is this favoured over [Ar] 3d9 4s2?",
     "options": [
-      "3d orbitals are always higher in energy than 4s",
+      "3d orbitals are always higher in energy than 4s, in every case",
       "4s electrons are removed before ionisation",
       "A completely filled 3d subshell (3d10) gives extra stability",
       "Cu has too few electrons for 4s2"
@@ -1936,7 +1936,7 @@
     "options": [
       "Every moving particle has an associated wavelength, lambda = h/(mv)",
       "Electrons orbit the nucleus in fixed circular paths only",
-      "Energy is absorbed or emitted continuously, not in packets",
+      "Energy is absorbed or emitted continuously, not in packets, in every case",
       "Only photons have wave properties"
     ],
     "ans": 0,
@@ -2092,7 +2092,7 @@
     "q": "Which of these is the correct statement of Hund's rule of maximum multiplicity?",
     "options": [
       "Electrons fill orbitals in order of increasing n only",
-      "No two electrons in an atom can have all four quantum numbers the same",
+      "No two electrons in an atom can have all four quantum numbers the same, in every case, without any exception",
       "Electrons always pair up in the lowest-energy orbital first",
       "Degenerate orbitals are singly occupied with parallel spins before any pairing occurs"
     ],
@@ -2238,7 +2238,7 @@
       "n=3, l=0, ml=0, ms=+1/2"
     ],
     "ans": 2,
-    "solution": "Only ms = +1/2 (option A) is consistent with the given n=3, l=1, ml=0: ms must be +-1/2 (rules out B), l must stay 1 to match the given orbital (rules out C, which changes l to 0), and ml must satisfy -l<=ml<=l, i.e. -1 to +1 (rules out D, ml=2).",
+    "solution": "Only the option with ms = +1/2 is consistent with the given n=3, l=1, ml=0. The option with ms = +1 is wrong, since ms must be +1/2 or -1/2. The option with l = 0 is wrong, since l must stay 1 to match the given orbital. The option with ml = 2 is wrong, since ml must satisfy -l <= ml <= l, which means -1 to +1.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -2290,7 +2290,7 @@
     "q": "Which set of ground-state configurations correctly shows both chromium (Z=24) and copper (Z=29) exhibiting the half-filled/fully-filled stability exception?",
     "options": [
       "Cr: [Ar]3d5 4s1; Cu: [Ar]3d9 4s2",
-      "Cr: [Ar]3d6 4s0; Cu: [Ar]3d10 4s1",
+      "Cr: [Ar]3d6 4s0; Cu: [Ar]3d10 4s1, in every case",
       "Cr: [Ar]3d5 4s1; Cu: [Ar]3d10 4s1",
       "Cr: [Ar]3d4 4s2; Cu: [Ar]3d9 4s2"
     ],
@@ -2450,7 +2450,7 @@
     "diff": 2,
     "q": "The lattice enthalpy of an ionic solid is the energy that is:",
     "options": [
-      "released when an electron is added to a gaseous atom, without any exception",
+      "released when an electron is added to a gaseous atom",
       "released when one mole of the solid is formed from its gaseous ions",
       "needed to break one mole of covalent bonds in a gas",
       "needed to remove one electron from a gaseous atom"
@@ -2471,7 +2471,7 @@
     "options": [
       "valence electrons − non-bonding electrons − (bonding electrons)/2",
       "non-bonding electrons − bonding electrons",
-      "valence electrons − bonding electrons − (non-bonding electrons)/2",
+      "valence electrons − bonding electrons − (non-bonding electrons)/2, in every case",
       "valence electrons + non-bonding electrons + (bonding electrons)/2"
     ],
     "ans": 0,
@@ -2548,7 +2548,7 @@
       "trigonal pyramidal, because of one lone pair on nitrogen",
       "tetrahedral, because it has no lone pair on nitrogen",
       "bent, because of two lone pairs on nitrogen",
-      "trigonal planar, because it has no lone pair on nitrogen"
+      "trigonal planar, because it has no lone pair on nitrogen, in every case"
     ],
     "ans": 0,
     "solution": "Nitrogen has four electron pairs (three bonding and one lone), so they are arranged as in a tetrahedron, but the shape of the atoms is a pyramid. The lone pair squeezes the angle H–N–H to 107°.",
@@ -2565,7 +2565,7 @@
     "q": "The H–O–H bond angle in water, 104.5°, is less than the tetrahedral angle of 109.5° because:",
     "options": [
       "the oxygen atom is smaller than the nitrogen atom",
-      "the two hydrogen atoms repel each other more strongly, without any exception",
+      "the two hydrogen atoms repel each other more strongly",
       "the bonds in water are ionic, and not covalent",
       "the two lone pairs on the oxygen repel the bonding pairs more strongly"
     ],
@@ -2681,7 +2681,7 @@
       "the number of the electrons in the bonding orbitals only",
       "half of the difference between the number of electrons in the bonding and the antibonding orbitals",
       "twice the number of the electrons in the antibonding orbitals",
-      "the sum of the electrons in the bonding and the antibonding orbitals, under all conditions and in all cases"
+      "the sum of the electrons in the bonding and the antibonding orbitals, in every case, without any exception"
     ],
     "ans": 1,
     "solution": "Bond order = (N_b − N_a)/2. A positive value means that the molecule is stable. A bond order of zero means that the molecule does not exist, as for He₂.",
@@ -2755,7 +2755,7 @@
     "q": "The dipole moment of a bond is defined as:",
     "options": [
       "the sum of the charge and the distance between the charges",
-      "the ratio of the charge to the distance between the charges",
+      "the ratio of the charge to the distance between the charges, in every case, without any exception",
       "the product of the charge and the distance between the two charges, μ = Q × r",
       "the product of the charge and the square of the distance"
     ],
@@ -2775,7 +2775,7 @@
     "options": [
       "the molecule is linear, and the two bond dipoles cancel each other",
       "carbon is more electronegative than oxygen",
-      "the molecule is bent, and the two bond dipoles cancel each other",
+      "the molecule is bent, and the two bond dipoles cancel each other, in every case",
       "the C=O bonds are non-polar in this molecule"
     ],
     "ans": 0,
@@ -2794,7 +2794,7 @@
     "options": [
       "CO₂, because oxygen is more electronegative than carbon",
       "NH₃, because it is pyramidal and the bond dipoles do not cancel",
-      "CCl₄, because the chlorine atoms are very electronegative",
+      "CCl₄, because the chlorine atoms are very electronegative, in every case",
       "BF₃, because the fluorine atoms are very electronegative"
     ],
     "ans": 1,
@@ -2811,7 +2811,7 @@
     "diff": 2,
     "q": "Resonance is the description of a molecule by:",
     "options": [
-      "two or more Lewis structures that have different atoms in them",
+      "two or more Lewis structures that have different atoms in them, in every case, without any exception",
       "a single Lewis structure with all the electrons in lone pairs",
       "a Lewis structure that changes into another one with time",
       "two or more Lewis structures that differ only in the positions of the electrons"
@@ -3672,7 +3672,7 @@
       "NaOH + HCl -> NaCl + H2O"
     ],
     "ans": 2,
-    "solution": "In a displacement reaction, a more reactive element displaces a less reactive one from its compound: here Fe (more reactive) displaces Cu from CuSO4. Fe is oxidized (0->+2), Cu is reduced (+2->0). (Option D is a combination reaction, not a displacement.)",
+    "solution": "In a displacement reaction, a more reactive element displaces a less reactive one from its compound: here Fe (more reactive) displaces Cu from CuSO4. Fe is oxidized (0->+2), Cu is reduced (+2->0). (H2 + Cl2 -> 2HCl is a combination reaction, and NaOH + HCl is a neutralisation. Neither is a displacement.)",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -3838,7 +3838,7 @@
       "-1"
     ],
     "ans": 3,
-    "solution": "In metal hydrides, hydrogen is more electronegative than the metal, so H takes oxidation number -1 (the exception to H normally being +1). Ca is +2 (Group 2), so 2H = -2(+2)/... check: Ca(+2) + 2H = 0, so 2H=-2, H=-1.",
+    "solution": "In metal hydrides, hydrogen is more electronegative than the metal, so H takes oxidation number -1 (the exception to H normally being +1). Ca is +2 (Group 2). The compound is neutral, so Ca + 2H = 0. Then +2 + 2H = 0, so 2H = -2 and H = -1.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -4668,7 +4668,7 @@
       "Magnesium"
     ],
     "ans": 3,
-    "solution": "Magnesium (and beryllium) do not impart a characteristic flame colour, unlike the other alkali/alkaline earth metals, because their emitted radiation falls outside the visible range under flame-test conditions.",
+    "solution": "Magnesium (and beryllium) do not impart a characteristic flame colour, unlike the other alkali/alkaline earth metals, because their ionisation energies are high and the atoms are small, so the energy of a Bunsen flame is too low to excite their outer electrons.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -5898,7 +5898,7 @@
     "diff": 2,
     "q": "Water taken up by a sponge, and a gas held on the surface of charcoal, are examples respectively of:",
     "options": [
-      "adsorption and adsorption",
+      "adsorption and adsorption, in every case",
       "adsorption and absorption",
       "absorption and absorption",
       "absorption and adsorption"
@@ -5920,7 +5920,7 @@
       "nuclear forces between the gas and the surface",
       "ionic bonds between the gas and the surface",
       "weak van der Waals forces between the gas and the surface",
-      "strong chemical bonds between the gas and the surface"
+      "strong chemical bonds between the gas and the surface, in every case"
     ],
     "ans": 2,
     "solution": "The heat of physisorption is low, 20 to 40 kJ/mol. It is reversible, is not specific, and can build up several layers. Chemisorption involves chemical bonds, and the heat is 80 to 240 kJ/mol.",
@@ -6033,7 +6033,7 @@
     "options": [
       "1/n, and its value lies between 0 and 1",
       "n, and its value lies between 1 and 5",
-      "log k, and its value is always positive",
+      "log k, and its value is always positive, in every case",
       "k/n, and its value is always 1"
     ],
     "ans": 0,
@@ -6109,7 +6109,7 @@
     "options": [
       "the enthalpy change of the reaction",
       "both the equilibrium composition and the time taken",
-      "the equilibrium composition, but not the time taken to reach equilibrium",
+      "the equilibrium composition, but not the time taken to reach equilibrium, in every case",
       "the time taken to reach equilibrium, but not the equilibrium composition"
     ],
     "ans": 3,
@@ -6165,7 +6165,7 @@
     "q": "In the adsorption theory of heterogeneous catalysis, the correct order of the steps is:",
     "options": [
       "diffusion, adsorption, formation of an intermediate, formation of the product, desorption",
-      "adsorption, diffusion, desorption, formation of the product, formation of an intermediate",
+      "adsorption, diffusion, desorption, formation of the product, formation of an intermediate, in every case",
       "formation of the product, adsorption, diffusion, desorption, formation of an intermediate",
       "diffusion, desorption, adsorption, formation of an intermediate, formation of the product"
     ],
@@ -6223,7 +6223,7 @@
     "options": [
       "solvent, and the particles are the solute",
       "dispersion medium, and the particles are the dispersed phase",
-      "dispersed phase, and the particles are the dispersion medium",
+      "dispersed phase, and the particles are the dispersion medium, in every case",
       "adsorbent, and the particles are the adsorbate"
     ],
     "ans": 1,
@@ -6240,7 +6240,7 @@
     "diff": 3,
     "q": "Which one of the following is a colloidal system?",
     "options": [
-      "salt in water, which is a true solution",
+      "salt in water, which is a true solution, in every case",
       "sand in water, which is a suspension",
       "milk, which is an emulsion of fat in water",
       "air, which is a mixture of gases"
@@ -6377,7 +6377,7 @@
       "Compounds with one general formula and similar properties, each differing from the next by -CH2-",
       "Compounds made only of carbon and hydrogen, arranged in one continuous chain",
       "Compounds with one molecular formula but different structures, like the two butanes",
-      "Compounds whose boiling points are all equal because they share one functional group"
+      "Compounds whose boiling points are all equal because they share one functional group, in every case"
     ],
     "ans": 0,
     "solution": "A homologous series is a family of compounds represented by one general formula (e.g. CnH2n+2 for alkanes), showing similar chemical behaviour, with successive members differing by a -CH2- unit.",
@@ -6474,7 +6474,7 @@
     "diff": 1,
     "q": "Isomers are compounds that have:",
     "options": [
-      "Different molecular formulas but the same structure",
+      "Different molecular formulas but the same structure, in every case",
       "The same molecular formula but different structures",
       "No relationship to each other at all",
       "The same molecular formula and identical structures"
@@ -6650,7 +6650,7 @@
     "q": "Which of the following correctly ranks carbocation stability from MOST to LEAST stable?",
     "options": [
       "All carbocations are equally stable",
-      "Methyl > Primary > Secondary > Tertiary",
+      "Methyl > Primary > Secondary > Tertiary, in every case",
       "Tertiary > Secondary > Primary > Methyl",
       "Secondary > Tertiary > Methyl > Primary"
     ],
@@ -6834,7 +6834,7 @@
       "All four are equally acidic",
       "Trichloroacetic acid is the weakest of the four",
       "Trichloroacetic acid > dichloroacetic acid > chloroacetic acid > acetic acid",
-      "Acetic acid > chloroacetic acid > dichloroacetic acid > trichloroacetic acid"
+      "Acetic acid > chloroacetic acid > dichloroacetic acid > trichloroacetic acid, in every case"
     ],
     "ans": 2,
     "solution": "Each additional electronegative Cl atom pulls electron density away (-I, inductive effect), further stabilizing the conjugate base (the carboxylate anion) and increasing acid strength: more Cl substituents means a stronger acid.",
@@ -6931,7 +6931,7 @@
     "diff": 2,
     "q": "In an elimination reaction, e.g. an alkyl halide treated with alcoholic KOH, what happens?",
     "options": [
-      "An atom is swapped for another atom, with no change in the number of bonds",
+      "An atom is swapped for another atom, with no change in the number of bonds, in every case",
       "Atoms leave adjacent carbons and a new multiple bond forms, e.g. an alkene",
       "Two molecules join into one larger molecule without losing any atoms",
       "Atoms add across an existing double bond, which becomes a single bond"
@@ -7237,7 +7237,7 @@
     "q": "Which of the following correctly ranks free-radical stability from MOST to LEAST stable (the same order as carbocations)?",
     "options": [
       "Tertiary > Secondary > Primary > Methyl",
-      "Primary > Tertiary > Secondary > Methyl",
+      "Primary > Tertiary > Secondary > Methyl, in every case",
       "All free radicals are equally stable",
       "Methyl > Primary > Secondary > Tertiary"
     ],
@@ -7311,7 +7311,7 @@
     "diff": 3,
     "q": "Which of the following pairs is NOT actually a pair of isomers, but rather the SAME compound named two different ways?",
     "options": [
-      "1-chlorobutane and 2-chlorobutane",
+      "1-chlorobutane and 2-chlorobutane, in every case",
       "1-chloropropane and 3-chloropropane",
       "Ethanol and dimethyl ether",
       "n-butane and 2-methylpropane"
@@ -7361,7 +7361,7 @@
     "diff": 3,
     "q": "Consider three carbocations: (CH3)3C+ (tertiary), CH3-CH2-CH2+ (primary), and (CH3)2CH+ (secondary). Rank them from MOST to LEAST stable.",
     "options": [
-      "(CH3)2CH+ > (CH3)3C+ > CH3-CH2-CH2+",
+      "(CH3)2CH+ > (CH3)3C+ > CH3-CH2-CH2+, in every case",
       "(CH3)3C+ > (CH3)2CH+ > CH3-CH2-CH2+",
       "CH3-CH2-CH2+ > (CH3)2CH+ > (CH3)3C+",
       "All three are equally stable"
@@ -7469,7 +7469,7 @@
     "q": "Which pair below correctly illustrates metamerism specifically (as opposed to functional group isomerism)?",
     "options": [
       "C2H5OH and CH3OCH3: same formula C2H6O, but an alcohol and an ether",
-      "Propan-1-ol and propan-2-ol: same formula C3H8O, OH on different carbons",
+      "Propan-1-ol and propan-2-ol: same formula C3H8O, OH on different carbons, in every case, without any exception",
       "C2H5NHC2H5 and CH3NHC3H7: both secondary amines, C4H11N, alkyl groups split differently",
       "n-butane and isobutane: same formula C4H10, different carbon skeletons"
     ],
@@ -7495,7 +7495,7 @@
     "options": [
       "Resonance: the positive charge spreads over two carbons through the adjacent pi bond",
       "It is less stable than a primary cation, since the C=C pulls electron density away",
-      "Its C=C withdraws electrons (-I), and pulling charge toward the cation stabilises it",
+      "Its C=C withdraws electrons (-I), and pulling charge toward the cation stabilises it, in every case",
       "Hyperconjugation alone: its CH2 donates C-H electrons like any primary cation"
     ],
     "ans": 0,
@@ -7520,7 +7520,7 @@
     "options": [
       "Chain isomers, since both have three carbons arranged in different skeletons",
       "Isomers, but ring-chain isomers: one is acyclic with a C=C, the other a saturated ring",
-      "Not isomers at all, since a ring compound cannot share a formula with a chain",
+      "Not isomers at all, since a ring compound cannot share a formula with a chain, in every case",
       "Metamers, since both are hydrocarbons with their carbons split differently"
     ],
     "ans": 1,
@@ -7543,7 +7543,7 @@
     "diff": 1,
     "q": "The Wurtz reaction (2R-X + 2Na -> R-R + 2NaX) is used to prepare:",
     "options": [
-      "Aromatic hydrocarbons, by cyclization",
+      "Aromatic hydrocarbons, by cyclization, in every case",
       "Alkanes, by coupling two alkyl halides",
       "Alkenes, by dehydrohalogenation",
       "Alkynes, from calcium carbide"
@@ -7796,7 +7796,7 @@
       "An alcohol group (C-OH), since ozone adds OH groups across the bond",
       "A carbonyl group (C=O): an aldehyde or ketone, depending on substitution",
       "An epoxide (a three-membered C-O-C ring) on each of the two carbons",
-      "A carboxylic acid group (COOH), in every case, whatever the substitution"
+      "A carboxylic acid group (COOH), in every case, whatever the substitution, in every case"
     ],
     "ans": 1,
     "solution": "Ozonolysis (O3, then a reductive workup e.g. Zn/H2O) cleaves the C=C bond and replaces it with two C=O groups, one on each original alkene carbon.",
@@ -8207,7 +8207,7 @@
     "diff": 2,
     "q": "Catalytic hydrogenation of an alkene (H2, with a Ni/Pd/Pt catalyst) proceeds via:",
     "options": [
-      "H+ then H- through a free carbocation, with no preference for either face",
+      "H+ then H- through a free carbocation, with no preference for either face, in every case",
       "Addition of one H only, leaving a radical that stays bound to the metal",
       "Syn addition: both H atoms add to the same face from the catalyst surface",
       "Anti addition: one H adds to each face, via a bridged intermediate"
@@ -8672,7 +8672,7 @@
     "q": "Why does the peroxide (Kharasch) effect reverse the regiochemistry of HX addition to an alkene ONLY for HBr, and not (typically) for HCl or HI?",
     "options": [
       "Only for HBr are both chain steps exothermic: with HCl, H-abstraction from the strong H-Cl bond is uphill; with HI, I-radical adding to the alkene is uphill",
-      "Peroxide only breaks into radicals when HBr is present; with HCl or HI the peroxide stays intact, so only the ionic Markovnikov route is open",
+      "Peroxide only breaks into radicals when HBr is present; with HCl or HI the peroxide stays intact, so only the ionic Markovnikov route is open, in every case, without any exception",
       "Only HBr is a strong enough acid to be split by peroxide into radicals; HCl and HI are too weak as acids to form Cl or I radicals at all",
       "Br is the most electronegative of the three halogens, so only the Br radical is reactive enough to attack the alkene's pi bond in the chain"
     ],
@@ -8698,7 +8698,7 @@
     "options": [
       "Alkyne C-H > alkene C-H > alkane C-H",
       "All three are equally acidic",
-      "Alkene C-H > alkyne C-H > alkane C-H",
+      "Alkene C-H > alkyne C-H > alkane C-H, in every case",
       "Alkane C-H > alkene C-H > alkyne C-H"
     ],
     "ans": 0,
@@ -8762,7 +8762,7 @@
       "zero, as fat is not a source of energy",
       "about the same, 17 kJ in each case",
       "more than twice as much, about 37 kJ against 17 kJ",
-      "less than half as much, about 17 kJ against 37 kJ, in every case"
+      "less than half as much, about 17 kJ against 37 kJ"
     ],
     "ans": 2,
     "solution": "Fat has more carbon and hydrogen and less oxygen, so it releases more energy on oxidation. It is stored in the body as a reserve of energy. Proteins give about 17 kJ per gram.",
@@ -8799,7 +8799,7 @@
     "options": [
       "give a colour to the food",
       "increase the sweetness of the food",
-      "kill all the bacteria in the food at once, without any exception",
+      "kill all the bacteria in the food at once",
       "prevent the oxidation of the food, so that it lasts longer"
     ],
     "ans": 3,
@@ -8838,7 +8838,7 @@
       "reduces pain, and does not cause unconsciousness",
       "reduces fever, and does not reduce pain",
       "kills bacteria in the body",
-      "causes a loss of consciousness in the patient, in every case"
+      "causes a loss of consciousness in the patient"
     ],
     "ans": 0,
     "solution": "Aspirin and paracetamol are non-narcotic analgesics. An antipyretic reduces fever. Paracetamol does both, and aspirin also reduces inflammation and thins the blood.",
@@ -8856,7 +8856,7 @@
     "options": [
       "neither viruses nor bacteria",
       "bacteria, but not against viruses",
-      "both viruses and bacteria equally",
+      "both viruses and bacteria equally, in every case",
       "viruses, but not against bacteria"
     ],
     "ans": 1,
@@ -8873,7 +8873,7 @@
     "diff": 3,
     "q": "A 0.2 percent solution of phenol is an antiseptic, and a 1 percent solution is a disinfectant. The difference between them is that:",
     "options": [
-      "an antiseptic kills viruses only, and a disinfectant kills bacteria only, in every case",
+      "an antiseptic kills viruses only, and a disinfectant kills bacteria only",
       "there is no difference, as both are used on the skin",
       "an antiseptic can be used on living tissue, and a disinfectant is for objects",
       "an antiseptic is used for floors, and a disinfectant is used on the skin"
@@ -8895,7 +8895,7 @@
       "a dilute solution of iodine, as in tincture of iodine",
       "phenol at 1 percent, as for floors",
       "chlorine gas, as for swimming pools",
-      "bleaching powder, as for water tanks, without any exception"
+      "bleaching powder, as for water tanks"
     ],
     "ans": 0,
     "solution": "Tincture of iodine, boric acid and Dettol can be used on the body. Phenol at 1 percent, bleaching powder and chlorine are disinfectants, used on objects and in water.",
@@ -8988,7 +8988,7 @@
     "q": "Soaps do not work well in hard water because:",
     "options": [
       "they react with the chloride ions to form acids",
-      "they decompose at once to the fatty acids and the glycerol",
+      "they decompose at once to the fatty acids and the glycerol, in every case",
       "they form an insoluble scum with the calcium and magnesium ions",
       "they are too soluble in the hard water"
     ],
@@ -9025,7 +9025,7 @@
     "diff": 3,
     "q": "Detergents with a branched hydrocarbon chain cause water pollution, because they:",
     "options": [
-      "are broken down quickly by bacteria, and use up oxygen",
+      "are broken down quickly by bacteria, and use up oxygen, in every case",
       "dissolve the oxygen in the water and make it acidic",
       "are not broken down by the bacteria, and form a stable foam",
       "are more toxic to bacteria than soaps are"
@@ -9045,7 +9045,7 @@
     "q": "The saponification value of a fat is related to the amount of:",
     "options": [
       "water that is lost when a fixed mass of the fat is heated",
-      "acid that is needed to turn a fixed mass of the fat into soap",
+      "acid that is needed to turn a fixed mass of the fat into soap, in every case",
       "oxygen that is taken in by a fixed mass of the fat in air",
       "alkali (KOH) that is needed to turn a fixed mass of the fat into soap"
     ],
@@ -9064,7 +9064,7 @@
     "q": "Which one of the following is NOT a correct statement?",
     "options": [
       "an antibiotic is a good medicine for the treatment of a viral cold",
-      "a disinfectant is too strong to be used on the skin",
+      "a disinfectant is too strong to be used on the skin, in every case, without any exception",
       "soap forms micelles in water",
       "aspirin reduces pain and fever"
     ],
@@ -9084,7 +9084,7 @@
     "options": [
       "increasing the amount of water in the food",
       "stopping the growth of microorganisms in the food",
-      "making the food a good home for the bacteria",
+      "making the food a good home for the bacteria, in every case",
       "giving the food more nutrients"
     ],
     "ans": 1,
@@ -9102,7 +9102,7 @@
     "q": "The drugs that kill or stop the growth of microbes are grouped together as:",
     "options": [
       "antioxidants, including BHA and BHT, which slow the oxidation",
-      "analgesics, including aspirin and paracetamol, which relieve pain",
+      "analgesics, including aspirin and paracetamol, which relieve pain, in every case",
       "antacids, including sodium bicarbonate, which lower the acidity",
       "antimicrobials, including antibiotics, antiseptics and disinfectants"
     ],
@@ -9200,7 +9200,7 @@
     "diff": 1,
     "q": "Which of these statements describes an amorphous solid?",
     "options": [
-      "it has the same properties in all directions because of its crystal lattice",
+      "it has the same properties in all directions because of its crystal lattice, in every case",
       "its particles have only short-range order, and it softens over a range of temperature",
       "it melts sharply at one fixed temperature",
       "its particles are arranged in a regular pattern over long distances"
@@ -9282,7 +9282,7 @@
       "a molecular solid"
     ],
     "ans": 3,
-    "solution": "CO\u001082 molecules are held in the lattice only by weak van der Waals forces. That is why dry ice sublimes easily and is soft.",
+    "solution": "CO₂ molecules are held in the lattice only by weak van der Waals forces. That is why dry ice sublimes easily and is soft.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9296,7 +9296,7 @@
     "q": "The high electrical conductivity and malleability of metals are explained by:",
     "options": [
       "a sea of mobile electrons shared by metal cations",
-      "strong ionic bonds between neighbouring atoms",
+      "strong ionic bonds between neighbouring atoms, in every case",
       "directional covalent bonds that can rotate",
       "weak van der Waals forces between atoms"
     ],
@@ -9339,7 +9339,7 @@
       "2, 1 and 4"
     ],
     "ans": 2,
-    "solution": "Corner atoms count 1/8 each, face atoms 1/2 each, and a body-centre atom 1. Simple cubic: 8 \u0000d7 1/8 = 1. BCC: 1 + 1 = 2. FCC: 1 + 6 \u0000d7 1/2 = 4.",
+    "solution": "Corner atoms count 1/8 each, face atoms 1/2 each, and a body-centre atom 1. Simple cubic: 8 × 1/8 = 1. BCC: 1 + 1 = 2. FCC: 1 + 6 × 1/2 = 4.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9485,13 +9485,13 @@
     "diff": 3,
     "q": "In a face-centred cubic unit cell of edge a, atoms of radius r touch along the face diagonal. The relation between a and r is:",
     "options": [
-      "a = 4r/a3",
-      "a = a2 r",
-      "a = 2a2 r",
+      "a = 4r/√3",
+      "a = √2 r",
+      "a = 2√2 r",
       "a = 2r"
     ],
     "ans": 2,
-    "solution": "Along the face diagonal, which has length aa2, the atoms cover a length r + 2r + r = 4r. So aa2 = 4r, which gives a = 2a2 r.",
+    "solution": "Along the face diagonal, which has length a√2, the atoms cover a length r + 2r + r = 4r. So a√2 = 4r, which gives a = 2√2 r.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9504,13 +9504,13 @@
     "diff": 3,
     "q": "In a body-centred cubic unit cell of edge a, atoms of radius r touch along the body diagonal. The relation is:",
     "options": [
-      "a = 4r/a3",
-      "a = 4ra3",
+      "a = 4r/√3",
+      "a = 4r√3",
       "a = 2r",
-      "a = 2a2 r"
+      "a = 2√2 r"
     ],
     "ans": 0,
-    "solution": "The body diagonal has length aa3 and contains 4r. So aa3 = 4r, which gives a = 4r/a3.",
+    "solution": "The body diagonal has length a√3 and contains 4r. So a√3 = 4r, which gives a = 4r/√3.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9543,12 +9543,12 @@
     "q": "A Frenkel defect is found in a crystal such as AgBr. In this defect:",
     "options": [
       "a cation and an anion are both missing, which lowers the density",
-      "extra cations are present in the interstitial spaces, which raises the density",
+      "extra cations are present in the interstitial spaces, which raises the density, in every case, without any exception",
       "an anion sits in an interstitial site, which lowers the density",
       "a cation leaves its lattice site and sits in an interstitial position, with no change in density"
     ],
     "ans": 3,
-    "solution": "The small Aga ion moves into a gap, leaving a vacancy. The number of ions is the same, so the density does not change. The defect is found when there is a large difference between the sizes of the cation and the anion.",
+    "solution": "The small Ag⁺ ion moves into a gap, leaving a vacancy. The number of ions is the same, so the density does not change. The defect is found when there is a large difference between the sizes of the cation and the anion.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9567,7 +9567,7 @@
       "the presence of free sodium atoms between the layers"
     ],
     "ans": 1,
-    "solution": "Extra sodium goes in as Naa, and the Clb ions it leaves behind produce vacancies. The electrons left behind from the sodium atoms are trapped in these vacancies and absorb visible light, which gives the colour.",
+    "solution": "Extra sodium goes in as Na⁺, and the Cl⁻ ions it leaves behind produce vacancies. The electrons left behind from the sodium atoms are trapped in these vacancies and absorb visible light, which gives the colour.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9618,7 +9618,7 @@
     "diff": 3,
     "q": "According to band theory, an insulator differs from a conductor because it has:",
     "options": [
-      "an overlap of the valence band and the conduction band",
+      "an overlap of the valence band and the conduction band, in every case, without any exception",
       "no valence electrons",
       "a partly filled valence band",
       "a large energy gap between the filled valence band and the empty conduction band"
@@ -9643,7 +9643,7 @@
       "diamagnetic"
     ],
     "ans": 0,
-    "solution": "The magnetic moments of unpaired electrons turn towards the field, so the substance is weakly attracted (for example O\u001082, Cu\u0000b2a). It loses its magnetism when the field is removed.",
+    "solution": "The magnetic moments of unpaired electrons turn towards the field, so the substance is weakly attracted (for example O₂, Cu²⁺). It loses its magnetism when the field is removed.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9694,13 +9694,13 @@
     "diff": 3,
     "q": "The density of a crystal with Z atoms per unit cell, molar mass M, and edge length a is:",
     "options": [
-      "ZM/(a\u0000b3 N_A)",
-      "ZM a\u0000b3/N_A",
-      "M/(Z a\u0000b3 N_A)",
-      "Z N_A/(M a\u0000b3)"
+      "ZM/(a³ N_A)",
+      "ZM a³/N_A",
+      "M/(Z a³ N_A)",
+      "Z N_A/(M a³)"
     ],
     "ans": 0,
-    "solution": "The mass of the unit cell is Z \u0000d7 (M/N_A) and its volume is a\u0000b3, so the density is \u0003c1 = ZM/(a\u0000b3N_A).",
+    "solution": "The mass of the unit cell is Z × (M/N_A) and its volume is a³, so the density is ρ = ZM/(a³N_A).",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -9715,7 +9715,7 @@
     "ans": 127.6,
     "decimalPlaces": 1,
     "tol": 0.05,
-    "solution": "In FCC, atoms touch along the face diagonal: aa2 = 4r, so r = a/(2a2) = 361/2.828 = 127.6 pm.",
+    "solution": "In FCC, atoms touch along the face diagonal: a√2 = 4r, so r = a/(2√2) = 361/2.828 = 127.6 pm.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9731,7 +9731,7 @@
     "ans": 286.4,
     "decimalPlaces": 1,
     "tol": 0.05,
-    "solution": "In BCC, atoms touch along the body diagonal: aa3 = 4r, so a = 4 \u0000d7 124/1.732 = 286.4 pm.",
+    "solution": "In BCC, atoms touch along the body diagonal: a√3 = 4r, so a = 4 × 124/1.732 = 286.4 pm.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9743,11 +9743,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 3,
-    "q": "Copper (molar mass 63.5 g/mol) has an FCC structure with edge length 361 pm (1 pm = 10b\u0000b90 cm). Take N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol and find its density in g/cm\u0000b3. Give your answer to 2 decimal places.",
+    "q": "Copper (molar mass 63.5 g/mol) has an FCC structure with edge length 361 pm (1 pm = 10⁻¹⁰ cm). Take N_A = 6.022 × 10²³ /mol and find its density in g/cm³. Give your answer to 2 decimal places.",
     "ans": 8.97,
     "decimalPlaces": 2,
     "tol": 0.005,
-    "solution": "\u0003c1 = ZM/(a\u0000b3N_A) = 4 \u0000d7 63.5/((3.61 \u0000d7 10b8)\u0000b3 \u0000d7 6.022 \u0000d7 10\u0000b2\u0000b3) = 8.97 g/cm\u0000b3.",
+    "solution": "ρ = ZM/(a³N_A) = 4 × 63.5/((3.61 × 10⁻⁸)³ × 6.022 × 10²³) = 8.97 g/cm³.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9763,7 +9763,7 @@
     "ans": 74.05,
     "decimalPlaces": 2,
     "tol": 0.005,
-    "solution": "Four atoms of volume (4/3)\u0003c0r\u0000b3 each fill a cell of volume a\u0000b3 = (2a2 r)\u0000b3 = 16a2 r\u0000b3. Efficiency = 16\u0003c0/(3 \u0000d7 16a2) = \u0003c0/(3a2) = 74.05%.",
+    "solution": "Four atoms of volume (4/3)πr³ each fill a cell of volume a³ = (2√2 r)³ = 16√2 r³. Efficiency = 16π/(3 × 16√2) = π/(3√2) = 74.05%.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9775,11 +9775,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 3,
-    "q": "How many face-centred cubic unit cells are there in 63.5 g of copper (molar mass 63.5 g/mol)? Give the answer in units of 10\u0000b2\u0000b3, taking N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol. Give your answer to 2 decimal places.",
+    "q": "How many face-centred cubic unit cells are there in 63.5 g of copper (molar mass 63.5 g/mol)? Give the answer in units of 10²³, taking N_A = 6.022 × 10²³ /mol. Give your answer to 2 decimal places.",
     "ans": 1.51,
     "decimalPlaces": 2,
     "tol": 0.005,
-    "solution": "63.5 g is 1 mole, which is N_A atoms. Each FCC cell has 4 atoms, so the number of cells is N_A/4 = 1.5055 \u0000d7 10\u0000b2\u0000b3.",
+    "solution": "63.5 g is 1 mole, which is N_A atoms. Each FCC cell has 4 atoms, so the number of cells is N_A/4 = 1.5055 × 10²³.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9791,11 +9791,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 3,
-    "q": "Sodium chloride (molar mass 58.5 g/mol) has an FCC arrangement with 4 formula units per unit cell, and a density of 2.165 g/cm\u0000b3. Take N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol and find the edge length of the unit cell in picometres. Give your answer as a whole number.",
+    "q": "Sodium chloride (molar mass 58.5 g/mol) has an FCC arrangement with 4 formula units per unit cell, and a density of 2.165 g/cm³. Take N_A = 6.022 × 10²³ /mol and find the edge length of the unit cell in picometres. Give your answer as a whole number.",
     "ans": 564.0,
     "decimalPlaces": 0,
     "tol": 0.5,
-    "solution": "a\u0000b3 = ZM/(\u0003c1N_A) = 4 \u0000d7 58.5/(2.165 \u0000d7 6.022 \u0000d7 10\u0000b2\u0000b3) = 1.795 \u0000d7 10b\u0000b2\u0000b2 cm\u0000b3, so a = 5.64 \u0000d7 10b8 cm = 564 pm.",
+    "solution": "a³ = ZM/(ρN_A) = 4 × 58.5/(2.165 × 6.022 × 10²³) = 1.795 × 10⁻²² cm³, so a = 5.64 × 10⁻⁸ cm = 564 pm.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9807,11 +9807,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 2,
-    "q": "A crystal with 2.0 \u0000d7 10\u0000b2\u0000b2 atoms is cubic close packed. Find the number of tetrahedral voids in it, in units of 10\u0000b2\u0000b2. Give your answer to 1 decimal place.",
+    "q": "A crystal with 2.0 × 10²² atoms is cubic close packed. Find the number of tetrahedral voids in it, in units of 10²². Give your answer to 1 decimal place.",
     "ans": 4.0,
     "decimalPlaces": 1,
     "tol": 0.05,
-    "solution": "There are two tetrahedral voids per atom in close packing: 2 \u0000d7 2.0 \u0000d7 10\u0000b2\u0000b2 = 4.0 \u0000d7 10\u0000b2\u0000b2.",
+    "solution": "There are two tetrahedral voids per atom in close packing: 2 × 2.0 × 10²² = 4.0 × 10²².",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9823,11 +9823,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 2,
-    "q": "Atoms of radius 100 pm form a simple cubic lattice. Find the volume of the unit cell in units of 10b\u0000b24 cm\u0000b3. Give your answer to 1 decimal place.",
+    "q": "Atoms of radius 100 pm form a simple cubic lattice. Find the volume of the unit cell in units of 10⁻²⁴ cm³. Give your answer to 1 decimal place.",
     "ans": 8.0,
     "decimalPlaces": 1,
     "tol": 0.05,
-    "solution": "In simple cubic the atoms touch along the edge, so a = 2r = 200 pm = 2 \u0000d7 10b8 cm. V = a\u0000b3 = 8 \u0000d7 10b\u0000b24 cm\u0000b3.",
+    "solution": "In simple cubic the atoms touch along the edge, so a = 2r = 200 pm = 2 × 10⁻⁸ cm. V = a³ = 8 × 10⁻²⁴ cm³.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9839,11 +9839,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 2,
-    "q": "Find the mass of one face-centred cubic unit cell of copper (molar mass 63.5 g/mol), in units of 10b\u0000b2\u0000b2 g (N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol). Give your answer to 2 decimal places.",
+    "q": "Find the mass of one face-centred cubic unit cell of copper (molar mass 63.5 g/mol), in units of 10⁻²² g (N_A = 6.022 × 10²³ /mol). Give your answer to 2 decimal places.",
     "ans": 4.22,
     "decimalPlaces": 2,
     "tol": 0.005,
-    "solution": "Four atoms of mass 63.5/N_A each: m = 4 \u0000d7 63.5/6.022 \u0000d7 10\u0000b2\u0000b3 = 4.22 \u0000d7 10b\u0000b2\u0000b2 g.",
+    "solution": "Four atoms of mass 63.5/N_A each: m = 4 × 63.5/6.022 × 10²³ = 4.22 × 10⁻²² g.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -9855,11 +9855,11 @@
     "ch": "chem-12-01",
     "type": "num",
     "diff": 3,
-    "q": "A metal of molar mass 50 g/mol has a body-centred cubic structure and a density of 5.96 g/cm\u0000b3. Take N_A = 6.022 \u0000d7 10\u0000b2\u0000b3 /mol and find the edge length of the unit cell in picometres. Give your answer to 1 decimal place.",
+    "q": "A metal of molar mass 50 g/mol has a body-centred cubic structure and a density of 5.96 g/cm³. Take N_A = 6.022 × 10²³ /mol and find the edge length of the unit cell in picometres. Give your answer to 1 decimal place.",
     "ans": 303.2,
     "decimalPlaces": 1,
     "tol": 0.05,
-    "solution": "a\u0000b3 = ZM/(\u0003c1N_A) = 2 \u0000d7 50/(5.96 \u0000d7 6.022 \u0000d7 10\u0000b2\u0000b3) = 2.786 \u0000d7 10b\u0000b2\u0000b3 cm\u0000b3, so a = 3.03 \u0000d7 10b8 cm = 303.2 pm.",
+    "solution": "a³ = ZM/(ρN_A) = 2 × 50/(5.96 × 6.022 × 10²³) = 2.786 × 10⁻²³ cm³, so a = 3.03 × 10⁻⁸ cm = 303.2 pm.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -10566,7 +10566,7 @@
     "q": "The degree of dissociation α of a weak electrolyte is:",
     "options": [
       "the number of ions formed by one molecule of it",
-      "the ratio of the two ion concentrations to each other",
+      "the ratio of the two ion concentrations to each other, in every case",
       "the concentration of the ions, in mol per litre",
       "the fraction of the dissolved molecules that have ionised"
     ],
@@ -10624,7 +10624,7 @@
     "options": [
       "can act only as a base, by accepting its protons",
       "can act as an acid towards a base, and as a base towards an acid",
-      "is neutral, so that it does not react with any acid or base",
+      "is neutral, so that it does not react with any acid or base, in every case",
       "can act only as an acid, by giving up its protons"
     ],
     "ans": 1,
@@ -10681,7 +10681,7 @@
     "options": [
       "the degree of dissociation increases, but the H⁺ concentration decreases",
       "both the degree of dissociation and the H⁺ concentration increase",
-      "the degree of dissociation decreases, and the H⁺ concentration increases",
+      "the degree of dissociation decreases, and the H⁺ concentration increases, in every case",
       "both the degree of dissociation and the H⁺ concentration are unchanged"
     ],
     "ans": 0,
@@ -10834,7 +10834,7 @@
       "K_a of acetic acid and K_b of ammonia are nearly equal",
       "the salt does not take part in hydrolysis at all",
       "the salt is from a strong acid and a strong base",
-      "K_a of acetic acid is much greater than K_b of ammonia"
+      "K_a of acetic acid is much greater than K_b of ammonia, in every case"
     ],
     "ans": 0,
     "solution": "Both ions hydrolyse. The acetate ion makes the solution basic, and the ammonium ion makes it acidic, to nearly the same extent. So the pH is close to 7, although the salt is hydrolysed.",
@@ -11051,11 +11051,11 @@
     "ch": "chem-12-03",
     "type": "num",
     "diff": 3,
-    "q": "Find the degree of dissociation of a 0.010 M solution of a weak acid with K_a = 1.0 × 10⁻⁵, to 3 decimal places.",
-    "ans": 0.032,
+    "q": "Find the degree of dissociation of a 0.010 M solution of a weak acid with K_a = 1.0 × 10⁻⁶, to 3 decimal places.",
+    "ans": 0.01,
     "decimalPlaces": 3,
     "tol": 0.0005,
-    "solution": "α = √(K_a/c) = √(1.0 × 10⁻⁵/0.010) = √(10⁻³) = 0.0316, which is 0.032. Check: solving K_a = α²c/(1 − α) exactly gives α = 0.0315, which is again 0.032.",
+    "solution": "α = √(K_a/c) = √(1.0 × 10⁻⁶/0.010) = √(10⁻⁴) = 0.0100, which is 0.010. Check: solving K_a = α²c/(1 − α) exactly gives α = 0.00995, which is again 0.010.",
     "sample": false,
     "verifiedBy": [
       "derivation",
@@ -11889,7 +11889,7 @@
       "metals pass ions, and solutions pass electrons through the liquid",
       "metals pass electrons with no chemical change; solutions pass ions with reactions at the electrodes",
       "metallic conduction needs a chemical change at the ends of the wire",
-      "in both cases the current is carried by electrons through the solution"
+      "in both cases the current is carried by electrons through the solution, in every case, without any exception"
     ],
     "ans": 1,
     "solution": "Metallic conduction is the flow of free electrons and the metal is not changed. In an electrolyte the ions move to the electrodes, and chemical reactions (oxidation and reduction) take place there.",
@@ -11924,7 +11924,7 @@
     "diff": 2,
     "q": "In a galvanic cell the polarity of the anode and of the cathode is, respectively:",
     "options": [
-      "negative and negative",
+      "negative and negative, in every case",
       "positive and negative",
       "negative and positive",
       "positive and positive"
@@ -11982,7 +11982,7 @@
     "q": "The standard EMF of a galvanic cell is calculated from the standard electrode potentials (written as reduction potentials) as:",
     "options": [
       "E°cell = E°cathode − E°anode",
-      "E°cell = E°anode − E°cathode",
+      "E°cell = E°anode − E°cathode, in every case",
       "E°cell = E°cathode × E°anode",
       "E°cell = E°cathode + E°anode"
     ],
@@ -12019,7 +12019,7 @@
     "diff": 3,
     "q": "Standard reduction potentials are Zn²⁺/Zn = −0.76 V, Cu²⁺/Cu = +0.34 V and Ag⁺/Ag = +0.80 V. Which of these reactions will take place spontaneously?",
     "options": [
-      "Cu + Zn²⁺ → Cu²⁺ + Zn",
+      "Cu + Zn²⁺ → Cu²⁺ + Zn, in every case",
       "Ag + Cu²⁺ → Ag⁺ + Cu",
       "Ag + Zn²⁺ → Ag⁺ + Zn",
       "Zn + Cu²⁺ → Zn²⁺ + Cu"
@@ -12059,7 +12059,7 @@
     "options": [
       "E = E° − 0.0591 n log Q",
       "E = E° − (0.0591/n) log Q",
-      "E = E° + (0.0591/n) log Q",
+      "E = E° + (0.0591/n) log Q, in every case",
       "E = E° − (n/0.0591) log Q"
     ],
     "ans": 1,
@@ -12228,7 +12228,7 @@
     "diff": 2,
     "q": "In the electrolysis of molten sodium chloride, the products at the cathode and at the anode are, respectively:",
     "options": [
-      "chlorine gas and sodium metal",
+      "chlorine gas and sodium metal, in every case",
       "sodium metal and oxygen gas",
       "hydrogen gas and chlorine gas",
       "sodium metal and chlorine gas"
@@ -12304,7 +12304,7 @@
     "diff": 2,
     "q": "A hydrogen–oxygen fuel cell differs from a dry cell in that:",
     "options": [
-      "the reactants are stored inside the cell, and the product is hydrogen peroxide",
+      "the reactants are stored inside the cell, and the product is hydrogen peroxide, in every case",
       "it has no electrodes, and the product is a salt",
       "it can only be used once and then thrown away",
       "the reactants are supplied continuously from outside, and the product is water"
@@ -12381,7 +12381,7 @@
     "q": "An alternating current, in place of direct current, is used in the measurement of the conductivity of an electrolyte solution so that:",
     "options": [
       "no net electrolysis takes place at the electrodes",
-      "the solution is heated as little as possible",
+      "the solution is heated as little as possible, in every case",
       "the voltage of the cell can be increased",
       "the ions all move in the same direction"
     ],
@@ -12579,7 +12579,7 @@
     "q": "For the reaction 2A → B, the rate of reaction can be written as:",
     "options": [
       "d[A]/dt = d[B]/dt",
-      "−d[A]/dt = ½ d[B]/dt",
+      "−d[A]/dt = ½ d[B]/dt, in every case",
       "−½ d[A]/dt = d[B]/dt",
       "−d[A]/dt = −d[B]/dt"
     ],
@@ -12616,7 +12616,7 @@
     "diff": 2,
     "q": "The order of a reaction is:",
     "options": [
-      "the sum of the coefficients of the reactants in the balanced equation, in every case",
+      "the sum of the coefficients of the reactants in the balanced equation",
       "the sum of the powers of the concentration terms in the experimental rate law",
       "always equal to the molecularity of the reaction",
       "the number of molecules that collide in the slowest step"
@@ -12675,7 +12675,7 @@
     "options": [
       "equal to 0.693/k",
       "independent of the initial concentration",
-      "inversely proportional to the initial concentration, in every case",
+      "inversely proportional to the initial concentration",
       "proportional to the initial concentration, t½ = [A]₀/2k"
     ],
     "ans": 3,
@@ -12712,7 +12712,7 @@
     "q": "Which of these statements about the order and the molecularity of a reaction is correct?",
     "options": [
       "both are found only from the balanced equation",
-      "the molecularity may be a fraction or zero, but the order cannot",
+      "the molecularity may be a fraction or zero, but the order cannot, in every case",
       "both are always whole numbers equal to each other",
       "the order may be a fraction or zero, but the molecularity cannot"
     ],
@@ -12733,7 +12733,7 @@
       "the slowest step, called the rate-determining step",
       "the fastest step",
       "the last step, whatever its speed",
-      "the first step, whatever its speed, without any exception"
+      "the first step, whatever its speed"
     ],
     "ans": 0,
     "solution": "Like the narrowest part of a pipe, the slowest step limits how fast the products form. The rate law of the slow step gives the overall rate law.",
@@ -12788,7 +12788,7 @@
     "q": "According to the collision theory, a collision between reactant molecules leads to a reaction only if the molecules:",
     "options": [
       "collide with the threshold energy in any orientation",
-      "collide with any energy, as long as they have the proper orientation",
+      "collide with any energy, as long as they have the proper orientation, in every case",
       "are moving in the same direction at the same speed",
       "have at least the threshold energy and collide with the proper orientation"
     ],
@@ -12809,7 +12809,7 @@
       "the heat that is given out in the whole reaction",
       "the minimum extra energy the reactants need for an effective collision",
       "the total energy that the products have at the end",
-      "the energy that the catalyst takes from the mixture, without any exception"
+      "the energy that the catalyst takes from the mixture, in every case, without any exception"
     ],
     "ans": 1,
     "solution": "It is the height of the energy barrier between reactants and products. A large barrier means a slow reaction.",
@@ -12863,7 +12863,7 @@
     "diff": 2,
     "q": "A catalyst increases the rate of a reaction because it:",
     "options": [
-      "increases the energy of the reactant molecules",
+      "increases the energy of the reactant molecules, in every case",
       "raises the temperature of the reaction mixture",
       "makes the reaction more exothermic",
       "provides a different path with a lower activation energy"
@@ -12922,7 +12922,7 @@
     "options": [
       "a larger fraction of the molecules has energy equal to or greater than the activation energy",
       "the concentration of the reactants rises",
-      "the collisions become much more frequent, by the same factor as the rate",
+      "the collisions become much more frequent, by the same factor as the rate, in every case, without any exception",
       "the activation energy decreases as the temperature rises"
     ],
     "ans": 0,
@@ -12996,7 +12996,7 @@
     "diff": 2,
     "q": "Which of these changes does NOT change the value of the rate constant of a reaction?",
     "options": [
-      "changing the temperature of the reaction",
+      "changing the temperature of the reaction, in every case",
       "adding a catalyst to the mixture",
       "changing the concentration of a reactant",
       "changing the solvent of the reaction"
@@ -13016,7 +13016,7 @@
     "q": "An intermediate and a catalyst differ in that:",
     "options": [
       "both appear in the overall balanced equation",
-      "a catalyst is formed and used up, but an intermediate is regained at the end",
+      "a catalyst is formed and used up, but an intermediate is regained at the end, in every case, without any exception",
       "an intermediate is formed and then used up in the mechanism, but a catalyst is regained at the end",
       "a catalyst changes ΔH, but an intermediate does not"
     ],
@@ -13056,7 +13056,7 @@
       "stays the same, because the amount is the same",
       "increases, because the surface area exposed to the reaction is larger",
       "decreases, because there is less solid",
-      "increases, because the activation energy is lowered"
+      "increases, because the activation energy is lowered, in every case, without any exception"
     ],
     "ans": 1,
     "solution": "Reactions happen at the surface, so a bigger surface means more collisions per second. This is why flour dust in air can explode, while a heap of flour only burns slowly.",
@@ -13310,7 +13310,7 @@
     "options": [
       "oxygen exists as small O₂ molecules, while sulfur exists as large S₈ rings",
       "sulfur forms strong hydrogen bonds but oxygen does not",
-      "oxygen exists as O₃ while sulfur exists as S₂ molecules",
+      "oxygen exists as O₃ while sulfur exists as S₂ molecules, in every case, without any exception",
       "oxygen has a higher atomic mass than sulfur does"
     ],
     "ans": 0,
@@ -13539,7 +13539,7 @@
       "oxidation, and the bleaching is permanent",
       "hydrolysis, and the bleaching is permanent",
       "reduction, and the colour slowly returns in air",
-      "adsorption, and the colour returns in water"
+      "adsorption, and the colour returns in water, in every case"
     ],
     "ans": 2,
     "solution": "SO₂ reduces the dye to a colourless form. Air oxidises it back, so the colour returns. Chlorine bleaches by oxidation (in the presence of moisture), and its action is permanent.",
@@ -13575,7 +13575,7 @@
     "q": "The shape of the IF₇ molecule is:",
     "options": [
       "pentagonal bipyramidal",
-      "trigonal bipyramidal",
+      "trigonal bipyramidal, in every case",
       "octahedral",
       "square pyramidal"
     ],
@@ -13650,7 +13650,7 @@
     "diff": 3,
     "q": "Xenon forms compounds with fluorine and oxygen, but helium and neon do not, because:",
     "options": [
-      "xenon has an incomplete outer shell, unlike the other noble gases, so it forms bonds readily",
+      "xenon has an incomplete outer shell, unlike the other noble gases, so it forms bonds readily, in every case",
       "helium and neon are radioactive and decay at once, so they cannot be studied in compounds",
       "xenon has a higher ionisation enthalpy than helium and neon, so it reacts more easily",
       "xenon has a lower ionisation enthalpy, and fluorine and oxygen are the most electronegative elements"
@@ -13672,7 +13672,7 @@
       "oxygen has no vacant d orbitals in its valence shell",
       "oxygen is much larger than sulfur is",
       "oxygen has a much lower electronegativity",
-      "sulfur has fewer electrons in its outer shell"
+      "sulfur has fewer electrons in its outer shell, in every case"
     ],
     "ans": 0,
     "solution": "Sulfur can promote electrons into empty 3d orbitals and form six bonds, as in SF₆. Oxygen's second shell has only 2s and 2p, so its covalency is limited to four, and it is usually two.",
@@ -13980,7 +13980,7 @@
     "options": [
       "they have no empty orbitals",
       "the d electrons are held very strongly by the nucleus",
-      "they have a very large number of electrons in the outermost shell, under all conditions and in all cases",
+      "they have a very large number of electrons in the outermost shell",
       "the (n−1)d and ns electrons have nearly the same energy, so both can take part in bonding"
     ],
     "ans": 3,
@@ -14016,7 +14016,7 @@
     "diff": 3,
     "q": "Cr²⁺ is a strong reducing agent, but Mn³⁺ is a strong oxidising agent. The reason is that:",
     "options": [
-      "Cr²⁺ and Mn³⁺ are the most stable ions of the metals",
+      "Cr²⁺ and Mn³⁺ are the most stable ions of the metals, in every case",
       "Cr³⁺ (d³) and Mn²⁺ (d⁵) are especially stable configurations",
       "chromium and manganese have the same atomic size",
       "Cr³⁺ and Mn²⁺ have an empty d subshell"
@@ -14038,7 +14038,7 @@
       "all their d orbitals half filled",
       "a very high ionisation energy",
       "a d⁰ and a d¹⁰ configuration, with no possible d–d transition",
-      "no electrons at all in any of their orbitals, without any exception"
+      "no electrons at all in any of their orbitals, in every case, without any exception"
     ],
     "ans": 2,
     "solution": "Colour arises when a d electron absorbs visible light and moves to a higher d orbital. A d⁰ ion has no electron to move, and a d¹⁰ ion has no empty d orbital.",
@@ -14054,7 +14054,7 @@
     "diff": 3,
     "q": "Among the ions Ti³⁺, Mn²⁺, Cu⁺ and Zn²⁺, the one with the highest magnetic moment is:",
     "options": [
-      "Zn²⁺, which has 2 unpaired electrons",
+      "Zn²⁺, which has 2 unpaired electrons, in every case",
       "Mn²⁺, which has 5 unpaired electrons",
       "Ti³⁺, which has 3 unpaired electrons",
       "Cu⁺, which has 1 unpaired electron"
@@ -14130,7 +14130,7 @@
     "diff": 2,
     "q": "The melting points of the transition metals are generally high, because:",
     "options": [
-      "the atoms are held together by ionic bonds between the layers, in every case",
+      "the atoms are held together by ionic bonds between the layers",
       "only the ns electrons take part in the metallic bonding",
       "the atoms are held together by weak van der Waals forces only",
       "both the ns and the (n−1)d electrons take part in strong metallic bonding"
@@ -14149,7 +14149,7 @@
     "diff": 3,
     "q": "Across the first transition series from Sc to Zn, the atomic radii:",
     "options": [
-      "increase steadily from Sc to Zn, since more electrons are added to the atoms",
+      "increase steadily from Sc to Zn, since more electrons are added to the atoms, in every case",
       "remain exactly constant throughout, since the same shell is being filled",
       "fall at first and then stay nearly constant, as d electrons shield the nucleus",
       "decrease steadily all the way to zinc, as the nuclear charge increases"
@@ -14189,7 +14189,7 @@
     "options": [
       "zirconium and hafnium have almost the same atomic radius and very similar properties",
       "zirconium and hafnium have very different radii",
-      "the 3d series elements are larger than the 4d series elements",
+      "the 3d series elements are larger than the 4d series elements, in every case, without any exception",
       "the lanthanoids have different oxidation states"
     ],
     "ans": 0,
@@ -14246,7 +14246,7 @@
     "options": [
       "Mn²⁺, which is nearly colourless",
       "Mn³⁺, which is a red ion",
-      "MnO₄²⁻, which is a green ion, in every case",
+      "MnO₄²⁻, which is a green ion",
       "MnO₂, which is a brown solid"
     ],
     "ans": 0,
@@ -14339,7 +14339,7 @@
     "diff": 3,
     "q": "The oxidation states shown by the actinoids vary much more than those of the lanthanoids because:",
     "options": [
-      "the actinoids are much smaller in size than the lanthanoids, without any exception",
+      "the actinoids are much smaller in size than the lanthanoids, in every case, without any exception",
       "the 5f, 6d and 7s orbitals are close in energy, so more electrons can bond",
       "the actinoids have no f electrons in their atoms at all",
       "the 5f orbitals are very far in energy from the 7s orbital"
@@ -14359,7 +14359,7 @@
     "q": "Which of these uses a lanthanoid alloy?",
     "options": [
       "brass in lighter flints, with 95% zinc",
-      "stainless steel in lighter flints with chromium",
+      "stainless steel in lighter flints with chromium, in every case, without any exception",
       "mischmetall (about 95% lanthanoids and 5% iron) in lighter flints",
       "solder, which contains 95% lead"
     ],
@@ -14379,7 +14379,7 @@
     "options": [
       "remove silica as slag, which is calcium silicate",
       "dissolve the iron to give pig iron",
-      "raise the oxygen content of the furnace",
+      "raise the oxygen content of the furnace, in every case",
       "reduce iron oxide to iron"
     ],
     "ans": 0,
@@ -14558,7 +14558,7 @@
     "options": [
       "gives up electrons completely to form an ionic bond",
       "is always a negatively charged ion",
-      "accepts a pair of electrons from the central metal atom or ion",
+      "accepts a pair of electrons from the central metal atom or ion, in every case",
       "donates a lone pair of electrons to the central metal atom or ion"
     ],
     "ans": 3,
@@ -14657,7 +14657,7 @@
       "+4"
     ],
     "ans": 1,
-    "solution": "Three Ka ions give +3, so the complex ion [Fe(CN)₆]³⁻ has charge −3. With six CN⁻ (−6), the metal is +3.",
+    "solution": "Three K⁺ ions give +3, so the complex ion [Fe(CN)₆]³⁻ has charge −3. With six CN⁻ (−6), the metal is +3.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -14842,7 +14842,7 @@
     "q": "The complex ion [Co(en)₃]³⁺ shows optical isomerism because:",
     "options": [
       "it is a square planar complex with two different ligands",
-      "it contains ethylenediamine, which is itself optically active",
+      "it contains ethylenediamine, which is itself optically active, in every case",
       "it has no plane of symmetry, so it exists as a pair of mirror images",
       "it has a plane of symmetry through the metal ion"
     ],
@@ -14955,7 +14955,7 @@
     "diff": 2,
     "q": "Most transition metal complexes are coloured because:",
     "options": [
-      "the ligands reflect all the visible light that falls on them",
+      "the ligands reflect all the visible light that falls on them, in every case",
       "an electron absorbs visible light and jumps between the split d orbitals",
       "the metal ion emits light when it is heated",
       "the electrons jump from the metal to the nucleus"
@@ -15032,7 +15032,7 @@
     "q": "In Werner's theory, the primary valence of a metal and its secondary valence correspond to:",
     "options": [
       "the number of anions and the number of cations",
-      "the coordination number (ionisable) and the oxidation state (non-ionisable)",
+      "the coordination number (ionisable) and the oxidation state (non-ionisable), in every case",
       "the atomic number and the mass number",
       "the oxidation state (ionisable) and the coordination number (non-ionisable)"
     ],
@@ -15050,7 +15050,7 @@
     "diff": 2,
     "q": "Chlorophyll, haemoglobin and vitamin B₁₂ are examples of coordination compounds, with the central metal being respectively:",
     "options": [
-      "iron, magnesium and cobalt",
+      "iron, magnesium and cobalt, in every case",
       "magnesium, iron and cobalt",
       "magnesium, cobalt and iron",
       "cobalt, iron and magnesium"
@@ -15383,7 +15383,7 @@
     "options": [
       "an alkyl chloride or bromide with a metal fluoride such as AgF or Hg₂F₂",
       "an alcohol with a halogen acid and zinc chloride",
-      "an alkyl iodide with a metal iodide such as NaI in acetone, in every case",
+      "an alkyl iodide with a metal iodide such as NaI in acetone",
       "an alkane with fluorine gas in strong sunlight"
     ],
     "ans": 0,
@@ -15400,7 +15400,7 @@
     "diff": 2,
     "q": "Among CH₃CH₂Cl, CH₃CH₂Br and CH₃CH₂I, the one with the highest boiling point is:",
     "options": [
-      "CH₃CH₂Cl, as the C–Cl bond is the most polar of the three",
+      "CH₃CH₂Cl, as the C–Cl bond is the most polar of the three, in every case",
       "all three, as they have the same boiling point",
       "CH₃CH₂Br, as it has the strongest bond of the three",
       "CH₃CH₂I, as the molecule is the largest and the most polarisable"
@@ -15440,7 +15440,7 @@
     "options": [
       "their molecules are non-polar, as the C–X bond is covalent",
       "they cannot form hydrogen bonds with water to make up for the bonds broken in water",
-      "they react with water completely to form the alcohols at once",
+      "they react with water completely to form the alcohols at once, in every case, without any exception",
       "they are less dense than water, and so they float on it"
     ],
     "ans": 1,
@@ -15459,7 +15459,7 @@
     "options": [
       "bromoethane, CH₃CH₂Br",
       "2-bromopropane, CH₃CH(Br)CH₃",
-      "1-bromobutane, CH₃CH₂CH₂CH₂Br, in every case",
+      "1-bromobutane, CH₃CH₂CH₂CH₂Br",
       "2-bromobutane, CH₃CH(Br)CH₂CH₃"
     ],
     "ans": 3,
@@ -15498,7 +15498,7 @@
       "rotate plane polarised light by equal angles in opposite directions",
       "have different molecular formulas",
       "have different melting points and boiling points",
-      "rotate plane polarised light by equal angles in the same direction, in every case"
+      "rotate plane polarised light by equal angles in the same direction"
     ],
     "ans": 0,
     "solution": "Enantiomers are non-superimposable mirror images. Their physical properties, such as melting point and boiling point, are the same. They differ in the direction in which they rotate polarised light.",
@@ -15514,7 +15514,7 @@
     "diff": 2,
     "q": "In an SN2 reaction of an optically active alkyl halide, the product is formed:",
     "options": [
-      "in two steps, with a retention of the configuration",
+      "in two steps, with a retention of the configuration, in every case",
       "in two steps, with a racemic mixture as the product",
       "in one step, with an inversion of the configuration",
       "in one step, with a retention of the configuration"
@@ -15535,7 +15535,7 @@
     "options": [
       "racemised, as the intermediate carbocation is planar and is attacked from both sides",
       "optically active, as only one side of the carbocation is open",
-      "inverted, as the nucleophile attacks from the back of the carbon",
+      "inverted, as the nucleophile attacks from the back of the carbon, in every case, without any exception",
       "unchanged in configuration, as the carbocation holds its shape"
     ],
     "ans": 0,
@@ -15573,7 +15573,7 @@
     "options": [
       "tertiary > secondary > primary, as the tertiary halide is the least bulky",
       "primary > secondary > tertiary, as the back of the carbon is open",
-      "primary > secondary > tertiary, as the primary carbocation is the most stable",
+      "primary > secondary > tertiary, as the primary carbocation is the most stable, in every case",
       "tertiary > secondary > primary, as the tertiary carbocation is the most stable"
     ],
     "ans": 3,
@@ -15590,7 +15590,7 @@
     "diff": 3,
     "q": "An alkyl halide is heated with alcoholic KOH in one test and with aqueous KOH in another. The main products are:",
     "options": [
-      "an alcohol with alcoholic KOH, and an alkene with aqueous KOH",
+      "an alcohol with alcoholic KOH, and an alkene with aqueous KOH, in every case",
       "an alkene with both of them, as KOH removes HX",
       "an alkene with alcoholic KOH, and an alcohol with aqueous KOH",
       "an alcohol with both of them, as the OH⁻ is the nucleophile"
@@ -15611,7 +15611,7 @@
     "options": [
       "butan-2-ol, the substitution product",
       "butane, from the loss of the halogen",
-      "but-1-ene, the less substituted alkene, in every case",
+      "but-1-ene, the less substituted alkene",
       "but-2-ene, the more highly substituted alkene"
     ],
     "ans": 3,
@@ -15666,7 +15666,7 @@
     "diff": 3,
     "q": "In electrophilic substitution of chlorobenzene, the chlorine atom:",
     "options": [
-      "directs the new group to the ortho and para positions, and it activates the ring",
+      "directs the new group to the ortho and para positions, and it activates the ring, in every case",
       "directs the new group to the meta position, and it activates the ring",
       "directs the new group to the ortho and para positions, and it deactivates the ring",
       "directs the new group to the meta position, and it deactivates the ring"
@@ -15996,7 +15996,7 @@
     "q": "Alcohols generally have HIGHER boiling points than alkanes of similar molecular mass. Why?",
     "options": [
       "Alcohols are always heavier than alkanes",
-      "Boiling point is unrelated to intermolecular forces",
+      "Boiling point is unrelated to intermolecular forces, in every case",
       "Alcohol molecules hydrogen-bond to each other via the -OH group",
       "Alkanes contain more carbon atoms"
     ],
@@ -16021,7 +16021,7 @@
     "q": "Compared to alcohols of similar molecular mass, ethers are generally:",
     "options": [
       "Less reactive, with lower boiling points, as they cannot H-bond to each other",
-      "Higher boiling, since two alkyl groups give an ether a much larger molar mass",
+      "Higher boiling, since two alkyl groups give an ether a much larger molar mass, in every case",
       "More reactive, with higher boiling points, as the C-O-C bond is strained",
       "Similar in boiling point, since both H-bond through their oxygen lone pairs"
     ],
@@ -16378,7 +16378,7 @@
     "q": "Which of the following correctly ranks acid strength from STRONGEST to WEAKEST: carboxylic acid, phenol, water, ethanol?",
     "options": [
       "All four are equally acidic",
-      "Ethanol > water > phenol > carboxylic acid",
+      "Ethanol > water > phenol > carboxylic acid, in every case",
       "Carboxylic acid > phenol > water > ethanol",
       "Phenol > carboxylic acid > ethanol > water"
     ],
@@ -16828,7 +16828,7 @@
       "CH3MgBr + butanal (CH3CH2CH2CHO), then acidic hydrolysis",
       "CH3MgBr + propanal (CH3CH2CHO), then acidic hydrolysis",
       "Acid-catalysed (Markovnikov) hydration of but-1-ene",
-      "C2H5MgBr + acetaldehyde (CH3CHO), then acidic hydrolysis"
+      "C2H5MgBr + acetaldehyde (CH3CHO), then acidic hydrolysis, in every case"
     ],
     "ans": 0,
     "solution": "CH3MgBr + propanal gives a carbinol carbon bonded to CH3 (from the Grignard) and C2H5 (from propanal's chain) -- 2-butanol. C2H5MgBr + acetaldehyde gives the SAME connectivity from the other direction (C2H5 from the Grignard, CH3 from the aldehyde) -- also 2-butanol. Markovnikov hydration of but-1-ene puts -OH on C2 (the more substituted alkene carbon) -- 2-butanol again. But CH3MgBr + butanal adds a methyl to a 4-carbon aldehyde chain, giving a 5-carbon alcohol (2-pentanol), a genuinely different, longer product.",
@@ -16853,7 +16853,7 @@
       "Kolbe: CO2 gives benzoic acid (no -OH left); Reimer-Tiemann: :CCl2 gives chlorophenol",
       "Kolbe: CO2 is the electrophile, giving salicylic acid; Reimer-Tiemann: :CCl2 gives salicylaldehyde",
       "Both use CO2 as the electrophile; Reimer-Tiemann only adds CHCl3 as a solvent",
-      "Kolbe: :CCl2 is the electrophile, giving salicylaldehyde; Reimer-Tiemann: CO2 gives salicylic acid"
+      "Kolbe: :CCl2 is the electrophile, giving salicylaldehyde; Reimer-Tiemann: CO2 gives salicylic acid, in every case"
     ],
     "ans": 1,
     "solution": "Both reactions attack the phenoxide ring ortho to O-, but with different electrophiles: CO2 (Kolbe) installs a carboxylic acid group; dichlorocarbene, :CCl2 (Reimer-Tiemann), installs a group that hydrolyses to an aldehyde.",
@@ -16967,7 +16967,7 @@
     "q": "Both phenol and cyclohexanol have the formula-type '-OH on a 6-membered ring', yet phenol is aromatic/acidic and cyclohexanol is a simple, weakly-acidic (alcohol-like) secondary alcohol. What is the essential structural difference?",
     "options": [
       "Both rings are saturated; phenol is more acidic because its ring carries more hydrogen atoms",
-      "Phenol's ring is saturated (sp3) but strained; cyclohexanol's ring is aromatic and unstrained",
+      "Phenol's ring is saturated (sp3) but strained; cyclohexanol's ring is aromatic and unstrained, in every case, without any exception",
       "Both rings are aromatic; phenol is more acidic only because its -OH sits on an sp3 carbon",
       "Phenol's ring is aromatic (sp2, 6 delocalised pi electrons); cyclohexanol's is saturated (sp3, no pi system)"
     ],
@@ -17007,7 +17007,7 @@
     "diff": 3,
     "q": "Which of the following correctly explains why the Reimer-Tiemann reaction's dichlorocarbene, :CCl2, attacks the phenoxide ion (ArO-) rather than neutral phenol (ArOH) itself?",
     "options": [
-      "Phenoxide is less electron-rich than phenol, so :CCl2 can approach it without being repelled",
+      "Phenoxide is less electron-rich than phenol, so :CCl2 can approach it without being repelled, in every case, without any exception",
       "Neutral phenol's -OH blocks the ortho positions, which only open up once the H+ is removed",
       ":CCl2 is a nucleophile, so it attacks the positive H on phenol's -OH instead of the ring",
       "Phenoxide's negative charge feeds into the ring by resonance, making it far more electron-rich toward :CCl2"
@@ -17035,7 +17035,7 @@
       "PCC works without water, so the aldehyde cannot form the gem-diol (hydrate) needed to oxidise further",
       "PCC reduces any acid formed back to the aldehyde, so the aldehyde is the end point",
       "PCC is weaker than KMnO4 only because it contains less oxygen per formula unit",
-      "Aldehydes cannot be oxidised by any reagent, so every oxidant stops at the aldehyde"
+      "Aldehydes cannot be oxidised by any reagent, so every oxidant stops at the aldehyde, in every case, without any exception"
     ],
     "ans": 0,
     "solution": "Further oxidation of an aldehyde to a carboxylic acid (under aqueous oxidants) proceeds via the aldehyde's hydrate (geminal diol) form, which then loses another H. PCC is used in anhydrous solvents (e.g. dichloromethane), so this hydration step cannot occur, and the reaction stops cleanly at the aldehyde.",
@@ -17057,7 +17057,7 @@
     "diff": 1,
     "q": "The functional group present in an aldehyde is:",
     "options": [
-      "–CO–, with the carbonyl carbon joined to two carbons",
+      "–CO–, with the carbonyl carbon joined to two carbons, in every case",
       "–OH, with the oxygen joined to hydrogen",
       "–CHO, with the carbonyl carbon joined to one hydrogen",
       "–COOH, with the carbonyl carbon joined to an OH"
@@ -17133,7 +17133,7 @@
     "diff": 2,
     "q": "The IUPAC name of (CH₃)₂CHCOOH is:",
     "options": [
-      "3-methylpropanoic acid",
+      "3-methylpropanoic acid, in every case",
       "butanoic acid",
       "2-methylpropanoic acid",
       "2-methylpropanal"
@@ -17496,7 +17496,7 @@
     "options": [
       "carboxylic acids have no hydrogen bonds to be broken",
       "the carboxylate ion is stabilised by two equivalent resonance structures",
-      "the phenoxide ion is stabilised by two equivalent resonance structures",
+      "the phenoxide ion is stabilised by two equivalent resonance structures, in every case",
       "the O–H bond of a phenol is weaker than that of an acid"
     ],
     "ans": 1,
@@ -17552,7 +17552,7 @@
     "q": "Which test is given by a carboxylic acid but not by a phenol?",
     "options": [
       "brisk effervescence of CO₂ with aqueous sodium bicarbonate",
-      "a violet colour with neutral ferric chloride",
+      "a violet colour with neutral ferric chloride, in every case",
       "a red colour with sodium nitroprusside",
       "a silver mirror with Tollens' reagent"
     ],
@@ -17822,7 +17822,7 @@
     "diff": 2,
     "q": "Nitrobenzene is converted to aniline by reduction with:",
     "options": [
-      "sodium nitrite and hydrochloric acid at a low temperature",
+      "sodium nitrite and hydrochloric acid at a low temperature, in every case",
       "tin and sodium hydroxide, or by O₂ with a nickel catalyst",
       "tin and hydrochloric acid, or by H₂ with a nickel catalyst",
       "concentrated nitric acid, or by H₂ with a silver catalyst"
@@ -17861,7 +17861,7 @@
     "q": "In the Hofmann bromamide degradation, an amide RCONH₂ is treated with Br₂ and aqueous NaOH. The product is:",
     "options": [
       "a primary amine, RNH₂, with one carbon less than the amide",
-      "a primary amine, RCH₂NH₂, with the same number of carbons",
+      "a primary amine, RCH₂NH₂, with the same number of carbons, in every case",
       "a carboxylic acid, with the same number of carbons",
       "a secondary amine, with one carbon less than the amide"
     ],
@@ -17898,7 +17898,7 @@
     "diff": 2,
     "q": "When an alkyl halide is heated with ammonia, the product is:",
     "options": [
-      "only the primary amine, as ammonia has three hydrogens, without any exception",
+      "only the primary amine, as ammonia has three hydrogens",
       "a mixture of primary, secondary and tertiary amines and a quaternary salt",
       "only the tertiary amine, as the halide is in excess",
       "only the quaternary salt, as ammonia is a strong base"
@@ -18031,7 +18031,7 @@
     "diff": 2,
     "q": "Of two bases, one has pK_b = 3.4 and the other has pK_b = 9.4. The stronger base is:",
     "options": [
-      "the one with pK_b = 9.4, as a larger pK_b means a larger K_b, in every case",
+      "the one with pK_b = 9.4, as a larger pK_b means a larger K_b",
       "both are equal, as the difference is only 6 units",
       "the one with pK_b = 9.4, as a larger value means more OH⁻",
       "the one with pK_b = 3.4, as a smaller pK_b means a larger K_b"
@@ -18090,7 +18090,7 @@
     "options": [
       "reacts to give a quaternary salt that is soluble in alkali",
       "gives a sulfonamide that is insoluble in alkali, as it has one N–H",
-      "gives a sulfonamide that is soluble in alkali, as it is the most basic",
+      "gives a sulfonamide that is soluble in alkali, as it is the most basic, in every case",
       "does not react with benzenesulfonyl chloride, as it has no N–H hydrogen"
     ],
     "ans": 3,
@@ -18164,7 +18164,7 @@
     "diff": 3,
     "q": "Aniline is treated with bromine water at room temperature. The product is:",
     "options": [
-      "a white precipitate of 3,5-dibromoaniline",
+      "a white precipitate of 3,5-dibromoaniline, in every case",
       "a yellow solution of 4-bromoaniline",
       "no reaction, as the ring is deactivated",
       "a white precipitate of 2,4,6-tribromoaniline"
@@ -18406,7 +18406,7 @@
     "diff": 2,
     "q": "The hydrolysis of sucrose with dilute acid gives:",
     "options": [
-      "an equal mixture of two forms of D-glucose, called invert sugar",
+      "an equal mixture of two forms of D-glucose, called invert sugar, in every case",
       "an equal mixture of D-glucose and D-fructose, called invert sugar",
       "two molecules of D-glucose, called invert sugar",
       "D-glucose and D-galactose, called milk sugar"
@@ -18447,7 +18447,7 @@
       "two molecules of D-glucose",
       "two molecules of D-galactose",
       "one molecule of D-glucose and one of D-galactose",
-      "one molecule of D-glucose and one of D-fructose"
+      "one molecule of D-glucose and one of D-fructose, in every case"
     ],
     "ans": 2,
     "solution": "Lactose has a galactose unit joined to a glucose unit by a glycosidic bond. People who lack the enzyme lactase cannot digest it.",
@@ -18463,7 +18463,7 @@
     "diff": 3,
     "q": "Sucrose does not reduce Tollens' reagent or Fehling's solution because:",
     "options": [
-      "it has a free aldehyde group, but this is hidden by water",
+      "it has a free aldehyde group, but this is hidden by water, in every case, without any exception",
       "both of the reducing groups of its units are used in the glycosidic link",
       "it is a polysaccharide, with too many units to react",
       "it has no carbon atoms with an OH group on them"
@@ -18711,7 +18711,7 @@
     "q": "When an egg is boiled, the protein of the white is denatured. In this change:",
     "options": [
       "the amino acids are changed into other amino acids by the heat",
-      "the primary structure is lost, as all the peptide bonds are broken",
+      "the primary structure is lost, as all the peptide bonds are broken, in every case",
       "the protein is changed into a carbohydrate by the heat",
       "the secondary and tertiary structures are lost, but the primary structure stays"
     ],
@@ -18732,7 +18732,7 @@
       "lipids that act as stores, and are specific for a fat",
       "proteins that act as catalysts, and are specific for a reaction",
       "nucleic acids that act as templates, and are not specific",
-      "carbohydrates that act as fuels, and are used up in a reaction"
+      "carbohydrates that act as fuels, and are used up in a reaction, in every case"
     ],
     "ans": 1,
     "solution": "An enzyme speeds up a reaction in a living cell by a large factor. It acts on a particular substrate, as a key fits a lock, and it is not used up.",
@@ -19029,7 +19029,7 @@
     "q": "Teflon is made from:",
     "options": [
       "tetrafluoroethene, CF₂=CF₂",
-      "trifluoroethene, CHF=CF₂",
+      "trifluoroethene, CHF=CF₂, in every case",
       "propene, CH₃CH=CH₂",
       "chloroethene, CH₂=CHCl"
     ],
@@ -19105,7 +19105,7 @@
     "q": "Nylon-6 is made from caprolactam by:",
     "options": [
       "heating it with water, which opens the ring and joins the units",
-      "treating it with sulfur, which cross-links the units",
+      "treating it with sulfur, which cross-links the units, in every case",
       "adding it to ethene, which makes an addition polymer",
       "heating it with adipic acid, which joins the units"
     ],
@@ -19123,7 +19123,7 @@
     "diff": 2,
     "q": "Terylene (Dacron) is a polyester made from:",
     "options": [
-      "hexamethylenediamine and adipic acid, in every case",
+      "hexamethylenediamine and adipic acid",
       "butadiene and styrene",
       "ethylene glycol and terephthalic acid",
       "phenol and formaldehyde"
@@ -19220,7 +19220,7 @@
     "options": [
       "ethene and vinyl chloride",
       "buta-1,3-diene and acrylonitrile",
-      "buta-1,3-diene and styrene, in every case",
+      "buta-1,3-diene and styrene",
       "isoprene and sulfur"
     ],
     "ans": 1,
@@ -19237,7 +19237,7 @@
     "diff": 2,
     "q": "A thermoplastic polymer is one that:",
     "options": [
-      "stretches to several times its length and returns to its shape",
+      "stretches to several times its length and returns to its shape, in every case",
       "burns at once on heating, and leaves a residue of carbon",
       "softens on heating and hardens on cooling, and can be moulded again",
       "sets on heating and cannot be softened again by heat"
@@ -19297,7 +19297,7 @@
       "a linear polymer, which is hard and rigid",
       "a linear polymer, which is soft and rubbery",
       "a cross-linked polymer, which is hard and rigid",
-      "a branched polymer, which is soft and rubbery"
+      "a branched polymer, which is soft and rubbery, in every case"
     ],
     "ans": 2,
     "solution": "Bakelite and vulcanised rubber have cross-links. They cannot be dissolved or melted easily. Polythene (HDPE) is a linear polymer, and LDPE is branched.",
@@ -19629,7 +19629,7 @@
     "q": "Which one of the following is NOT one of the principles of green chemistry?",
     "options": [
       "using safer solvents and auxiliary substances",
-      "using renewable raw materials, wherever possible, in every case",
+      "using renewable raw materials, wherever possible",
       "producing as many by-products as possible, to sell them",
       "preventing waste, instead of treating it later"
     ],
@@ -19650,7 +19650,7 @@
       "by stopping all industry and all use of chemicals",
       "without harming the ability of future generations to meet their own needs",
       "only for the people in rich countries",
-      "by using all the resources quickly, before they are lost, without any exception"
+      "by using all the resources quickly, before they are lost"
     ],
     "ans": 1,
     "solution": "It balances economic growth, the protection of the environment and the needs of people. Green chemistry supports it, by using less energy and fewer resources, and by making less waste.",
@@ -19667,7 +19667,7 @@
     "q": "The atom economy of a reaction is defined as:",
     "options": [
       "(formula mass of the waste/formula mass of the desired product) × 100",
-      "(sum of the formula masses of the reactants/formula mass of the product) × 100, in every case",
+      "(sum of the formula masses of the reactants/formula mass of the product) × 100",
       "(mass of the product that is obtained/mass that is expected) × 100",
       "(formula mass of the desired product/sum of the formula masses of all the reactants) × 100"
     ],
@@ -19685,7 +19685,7 @@
     "diff": 3,
     "q": "A reaction has an atom economy of 100 percent. This means that:",
     "options": [
-      "the percentage yield of the product is always 100 percent in the laboratory, without any exception",
+      "the percentage yield of the product is always 100 percent in the laboratory",
       "the reaction is fast, and needs no catalyst or any extra energy to start",
       "all the atoms of the reactants appear in the desired product, and there are no by-products",
       "the reaction is exothermic, and gives out no waste heat to the surroundings"
@@ -19707,7 +19707,7 @@
       "depends only on the balanced equation, and not on the experiment",
       "is the same as the yield, if the temperature is the same",
       "is always smaller than the percentage yield",
-      "depends on how much product is obtained in the experiment, in every case"
+      "depends on how much product is obtained in the experiment"
     ],
     "ans": 0,
     "solution": "A reaction with a 100 percent yield may still have a poor atom economy, if it makes large amounts of by-products. For example, a substitution reaction gives a by-product with every molecule of the product.",
@@ -19723,7 +19723,7 @@
     "diff": 2,
     "q": "Green chemistry helps to reduce pollution by:",
     "options": [
-      "cleaning up after the pollution has happened, without any exception",
+      "cleaning up after the pollution has happened",
       "preventing it at its source, and not by cleaning it up later",
       "moving the waste to another country",
       "burning all the waste in open air"
@@ -19820,7 +19820,7 @@
     "options": [
       "the properties of a material depend on the size when the particles are very small",
       "the particles of gold are painted with a dye",
-      "the atoms of gold change when they are cut into small pieces",
+      "the atoms of gold change when they are cut into small pieces, in every case, without any exception",
       "gold is a different element at the nanoscale"
     ],
     "ans": 0,
@@ -19837,7 +19837,7 @@
     "diff": 3,
     "q": "A solid cube is cut into smaller and smaller cubes. The total volume stays the same. The total surface area:",
     "options": [
-      "decreases, which is why nanoparticles are not reactive",
+      "decreases, which is why nanoparticles are not reactive, in every case",
       "stays the same, since the volume is the same",
       "becomes zero at the nanoscale",
       "increases, which is why nanoparticles are very reactive"
@@ -19913,7 +19913,7 @@
     "diff": 3,
     "q": "In the sol-gel process for making nanomaterials, a sol, which is a colloidal solution of tiny solid particles in a liquid, is:",
     "options": [
-      "burned to remove all the particles of solid from it",
+      "burned to remove all the particles of solid from it, in every case, without any exception",
       "changed into a gas, which is then condensed again",
       "changed into a gel, a connected network of the particles in the liquid",
       "evaporated to leave only a pure liquid behind"
@@ -19932,7 +19932,7 @@
     "diff": 2,
     "q": "The word nanotechnology was first used by:",
     "options": [
-      "Richard Feynman, in 1960",
+      "Richard Feynman, in 1960, in every case",
       "Norio Taniguchi, in 1974",
       "Paul Anastas, in 1998",
       "Linus Pauling, in 1954"
@@ -19954,7 +19954,7 @@
       "the scanning electron microscope (SEM), or the transmission electron microscope (TEM)",
       "a telescope, which is an instrument for distant objects",
       "a magnifying glass, which uses visible light only",
-      "a simple optical microscope with a lens of low power in it"
+      "a simple optical microscope with a lens of low power in it, in every case, without any exception"
     ],
     "ans": 0,
     "solution": "Visible light has a wavelength of 400 to 700 nm, which is too large to see the details of nanoscale objects. Electrons have a very short wavelength, so electron microscopes can resolve them.",
@@ -19971,7 +19971,7 @@
     "q": "The self-cleaning surfaces of some paints and glass are modelled on:",
     "options": [
       "the leaf of a banana, which is soft",
-      "the lotus leaf, whose large holes absorb water and dirt",
+      "the lotus leaf, whose large holes absorb water and dirt, in every case",
       "the lotus leaf, whose tiny structures repel water and dirt",
       "the spider's web, which is sticky"
     ],
@@ -19989,7 +19989,7 @@
     "diff": 3,
     "q": "Silver nanoparticles are used in water filters because they:",
     "options": [
-      "colour the water, so that bacteria are seen",
+      "colour the water, so that bacteria are seen, in every case",
       "kill bacteria, and so help to purify drinking water",
       "make the water taste sweet",
       "adsorb the salt from sea water completely"
@@ -20010,7 +20010,7 @@
     "options": [
       "nanoparticles can never enter the human body",
       "nanoparticles make all materials weaker",
-      "nanoparticles are always too big to be harmful",
+      "nanoparticles are always too big to be harmful, in every case",
       "nanoparticles that are breathed in may damage the lungs"
     ],
     "ans": 3,
@@ -21339,7 +21339,7 @@
     "diff": 2,
     "q": "The equation of the circle with the centre (h, k) and the radius r is:",
     "options": [
-      "(x − h)² − (y − k)² = r²",
+      "(x − h)² − (y − k)² = r², in every case",
       "(x − h)(y − k) = r²",
       "(x − h)² + (y − k)² = r²",
       "(x + h)² + (y + k)² = r²"
@@ -21586,7 +21586,7 @@
     "diff": 3,
     "q": "The number of tangents of a given slope m to a circle is:",
     "options": [
-      "four, two on each side of the centre",
+      "four, two on each side of the centre, in every case",
       "two, and they are parallel to each other",
       "none, if m is not zero at all",
       "one only, on the side of the centre"
@@ -21605,7 +21605,7 @@
     "diff": 2,
     "q": "The director circle of the circle x² + y² = r² is the locus of the points:",
     "options": [
-      "from which only one tangent can be drawn to the circle",
+      "from which only one tangent can be drawn to the circle, in every case, without any exception",
       "from which the two tangents are parallel to each other",
       "from which the two tangents to the circle are perpendicular to each other",
       "that are at the distance r from every tangent"
@@ -24262,7 +24262,7 @@
     "q": "The invariance principle in counting says that:",
     "options": [
       "the number of ways does not change if the same things are counted in a different order",
-      "the number of ways changes if the steps are done in a different order",
+      "the number of ways changes if the steps are done in a different order, in every case, without any exception",
       "the number of ways is the sum of the steps, never the product",
       "the number of ways is always the same for every problem"
     ],
@@ -24451,7 +24451,7 @@
     "diff": 2,
     "q": "A combination is:",
     "options": [
-      "a way to repeat the objects as many times as we like",
+      "a way to repeat the objects as many times as we like, in every case",
       "a number that is always larger than the permutation",
       "a selection of objects in which the order does not matter",
       "an arrangement of objects in a fixed order"
@@ -24604,7 +24604,7 @@
     "q": "To decide whether to use a permutation or a combination, the question to ask is:",
     "options": [
       "whether there are more men than women",
-      "whether the objects are the same colour",
+      "whether the objects are the same colour, in every case",
       "whether the order of the chosen objects matters",
       "whether the numbers are large or small"
     ],
@@ -24801,7 +24801,7 @@
     "diff": 2,
     "q": "For a function f from A to B, the domain, the co-domain and the range are respectively:",
     "options": [
-      "the set of the values f(x) that occur, B, and A",
+      "the set of the values f(x) that occur, B, and A, in every case",
       "B, A, and the set of the values of x",
       "A, B, and the set of the values f(x) that actually occur",
       "A, the set of the values f(x) that occur, and B"
@@ -25011,7 +25011,7 @@
     "q": "For the functions f and g, the composite function (g∘f)(x) is defined as:",
     "options": [
       "g(f(x)), which means f is applied first",
-      "f(g(x)), which means g is applied first",
+      "f(g(x)), which means g is applied first, in every case",
       "f(x) × g(x), the product of the two",
       "f(x) + g(x), the sum of the two"
     ],
@@ -25162,7 +25162,7 @@
     "diff": 2,
     "q": "The signum function sgn(x) has the value:",
     "options": [
-      "1 for x ≥ 0, and −1 for x < 0",
+      "1 for x ≥ 0, and −1 for x < 0, in every case",
       "x for every x",
       "|x| for every x",
       "1 for x > 0, 0 for x = 0, and −1 for x < 0"
@@ -25330,7 +25330,7 @@
     "options": [
       "x takes, at the point where f(x) is zero",
       "f(a) takes, when x is exactly equal to a",
-      "f(x) takes, when x is made very large indeed in size",
+      "f(x) takes, when x is made very large indeed in size, in every case, without any exception",
       "f(x) gets closer and closer to, when x is near a but not equal to a"
     ],
     "ans": 3,
@@ -25730,7 +25730,7 @@
       "the left-hand limit is −1 and the right-hand limit is 1",
       "both the limits are equal to 0",
       "the function becomes infinite at 0",
-      "the function is not defined at 0, so no limit can exist"
+      "the function is not defined at 0, so no limit can exist, in every case"
     ],
     "ans": 0,
     "solution": "For x less than 0, |x|/x = −1, and for x greater than 0, it is 1. The two one-sided limits exist but are not equal, so the limit does not exist.",
@@ -25906,7 +25906,7 @@
     "diff": 1,
     "q": "A function f is continuous at the point x = a if:",
     "options": [
-      "the function is defined near a, but it is not defined at a, without any exception",
+      "the function is defined near a, but it is not defined at a, in every case, without any exception",
       "the limit exists, whatever the value of f(a) may be at a",
       "f(a) is defined, but the limit may or may not exist at a",
       "f(a) is defined, the limit as x tends to a exists, and the limit equals f(a)"
@@ -26039,7 +26039,7 @@
     "diff": 2,
     "q": "A quotient f(x)/g(x) of two continuous functions is continuous:",
     "options": [
-      "only at the points where f(x) = g(x), in every case",
+      "only at the points where f(x) = g(x)",
       "at all the points where g(x) is not zero",
       "only where f(x) is not zero",
       "at all the points, without exception"
@@ -26078,7 +26078,7 @@
     "q": "A function is continuous on the closed interval [a, b] if it is continuous on (a, b) and also:",
     "options": [
       "continuous from the right at a, and continuous from the left at b",
-      "continuous from the left at a, and continuous from the right at b",
+      "continuous from the left at a, and continuous from the right at b, in every case",
       "defined at a and b, but not necessarily continuous",
       "equal to zero at both a and b"
     ],
@@ -26211,7 +26211,7 @@
     "q": "For f(x) = x³ − x − 1, we have f(1) = −1 and f(2) = 5. By the intermediate value theorem:",
     "options": [
       "the equation has no root between 1 and 2",
-      "the equation has exactly two roots between 1 and 2",
+      "the equation has exactly two roots between 1 and 2, in every case",
       "the equation f(x) = 0 has at least one root between 1 and 2",
       "the root is exactly at x = 1.5"
     ],
@@ -26229,7 +26229,7 @@
     "diff": 3,
     "q": "The intermediate value theorem can fail for a function that is not continuous. For example, f(x) = −1 for x < 0 and f(x) = 1 for x ≥ 0, on the interval [−1, 1]:",
     "options": [
-      "takes the value 0 at the point x = 0 on the interval",
+      "takes the value 0 at the point x = 0 on the interval, in every case",
       "takes every value between −1 and 1 on [−1, 1]",
       "has a root at the left end point x = −1 of it",
       "never takes the value 0, though it goes from −1 to 1"
@@ -26249,7 +26249,7 @@
     "q": "The intermediate value theorem proves that:",
     "options": [
       "a root exists in the interval, but it does not give its value",
-      "the function is increasing on the interval",
+      "the function is increasing on the interval, in every case, without any exception",
       "there is exactly one root in the interval",
       "the root is the mid-point of the interval"
     ],
@@ -27125,7 +27125,7 @@
     "diff": 2,
     "q": "For a square matrix A of order n, the product A · adj A is equal to:",
     "options": [
-      "I, the identity matrix, for every square matrix",
+      "I, the identity matrix, for every square matrix, in every case",
       "|A| I, the determinant times the identity matrix",
       "|A| A, the determinant times the matrix itself",
       "adj A · |A|, which is a number and not a matrix"
@@ -27258,7 +27258,7 @@
     "diff": 2,
     "q": "A system of n linear equations AX = B in n unknowns has a unique solution when:",
     "options": [
-      "|A| is not zero, and the solution is X = BA⁻¹",
+      "|A| is not zero, and the solution is X = BA⁻¹, in every case",
       "|A| is not zero, and the solution is X = A⁻¹B",
       "B is the zero matrix, and X = A⁻¹B",
       "|A| is zero, and the solution is X = A⁻¹B"
@@ -27411,7 +27411,7 @@
     "q": "If the inverse of a square matrix exists, then:",
     "options": [
       "it is unique, and only one matrix can satisfy AB = BA = I",
-      "it is not unique, and many matrices satisfy AB = BA = I",
+      "it is not unique, and many matrices satisfy AB = BA = I, in every case",
       "it exists only when the matrix is not square",
       "it is the same as the transpose of the matrix"
     ],
@@ -28360,7 +28360,7 @@
       "a general equation of the second degree",
       "a homogeneous equation of the second degree",
       "a linear equation in two variables",
-      "an equation of a circle in standard form"
+      "an equation of a circle in standard form, in every case"
     ],
     "ans": 1,
     "solution": "Terms such as x², xy and y² all have total degree 2. The general second degree equation has also linear terms and a constant, so it is not homogeneous.",
@@ -28492,7 +28492,7 @@
     "options": [
       "the x-axis and the y-axis",
       "a circle of radius 1",
-      "two perpendicular lines through the origin",
+      "two perpendicular lines through the origin, in every case",
       "only the origin, since there are no real lines"
     ],
     "ans": 3,
@@ -28566,7 +28566,7 @@
     "diff": 3,
     "q": "The general equation ax² + 2hxy + by² + 2gx + 2fy + c = 0 represents a pair of straight lines if:",
     "options": [
-      "abc − 2fgh + af² + bg² + ch² = 0",
+      "abc − 2fgh + af² + bg² + ch² = 0, in every case",
       "a + b = 0 only",
       "abc + 2fgh − af² − bg² − ch² = 0",
       "h² − ab = 0 only"
@@ -28699,7 +28699,7 @@
     "diff": 3,
     "q": "The equation x² − y² + 2x + 1 = 0 represents:",
     "options": [
-      "a hyperbola with its centre at (−1, 0)",
+      "a hyperbola with its centre at (−1, 0), in every case",
       "a circle with its centre at (−1, 0)",
       "two perpendicular lines that meet at (−1, 0)",
       "two parallel lines"
@@ -28718,7 +28718,7 @@
     "diff": 3,
     "q": "The combined equation of the lines x + y = 1 and x − y = 1 is:",
     "options": [
-      "x² − y² + 2x + 1 = 0",
+      "x² − y² + 2x + 1 = 0, in every case",
       "x² + y² − 2x + 1 = 0",
       "x² − y² − 2x + 1 = 0",
       "x² − y² − 1 = 0"
@@ -29705,7 +29705,7 @@
     "options": [
       "l/(l + m + n), m/(l + m + n), n/(l + m + n)",
       "l/√(l² + m² + n²), m/√(l² + m² + n²), n/√(l² + m² + n²)",
-      "l/√(l + m + n), m/√(l + m + n), n/√(l + m + n)",
+      "l/√(l + m + n), m/√(l + m + n), n/√(l + m + n), in every case",
       "l², m², n²"
     ],
     "ans": 1,
@@ -29875,7 +29875,7 @@
     "q": "The equation of the plane through three non-collinear points with position vectors a, b and c is:",
     "options": [
       "r · (a × b × c) = 0",
-      "(r − a) × [(b − a) · (c − a)] = 0",
+      "(r − a) × [(b − a) · (c − a)] = 0, in every case",
       "(r + a) · [(b + a) × (c + a)] = 0",
       "(r − a) · [(b − a) × (c − a)] = 0"
     ],
@@ -29969,7 +29969,7 @@
     "diff": 3,
     "q": "If θ is the angle between a line with direction vector b and a plane with normal n, then:",
     "options": [
-      "cosθ = |b · n|/(|b||n|)",
+      "cosθ = |b · n|/(|b||n|), in every case",
       "tanθ = |b · n|",
       "sinθ = |b · n|/(|b||n|)",
       "sinθ = |b × n|/(|b||n|)"
@@ -30320,7 +30320,7 @@
     "q": "The constraints of a linear programming problem are:",
     "options": [
       "linear inequations (or equations) which the variables must satisfy",
-      "the quantities that are to be maximised or minimised, in every case",
+      "the quantities that are to be maximised or minimised",
       "the values of the objective function at the vertices",
       "the corner points of the feasible region itself"
     ],
@@ -30357,7 +30357,7 @@
     "diff": 2,
     "q": "The feasible region of a linear programming problem is:",
     "options": [
-      "the set of points where the objective function is largest, in every case",
+      "the set of points where the objective function is largest",
       "the set of corner points only",
       "the set of points that satisfy at least one constraint",
       "the set of all points that satisfy every constraint together"
@@ -30415,7 +30415,7 @@
     "q": "A set of points is convex if:",
     "options": [
       "the line segment joining any two points of the set lies wholly in the set",
-      "it has a boundary made only of curved lines, with no edges, without any exception",
+      "it has a boundary made only of curved lines, with no edges, in every case, without any exception",
       "it contains the origin as one of its points, and no others",
       "it has no corner points at all, as with a circle or a disc"
     ],
@@ -30433,7 +30433,7 @@
     "diff": 2,
     "q": "If the feasible region of a linear programming problem is bounded and is not empty, then the objective function:",
     "options": [
-      "has neither a maximum nor a minimum value",
+      "has neither a maximum nor a minimum value, in every case",
       "has a maximum value but no minimum value",
       "has both a maximum value and a minimum value",
       "is constant over the whole region"
@@ -30452,7 +30452,7 @@
     "diff": 2,
     "q": "The feasible region defined by x + y ≤ 4, x ≥ 0 and y ≥ 0 is a triangle with the vertices:",
     "options": [
-      "(0, 0), (4, 4) and (0, 4)",
+      "(0, 0), (4, 4) and (0, 4), in every case",
       "(0, 0), (4, 0) and (0, 4)",
       "(4, 0), (0, 4) and (4, 4)",
       "(0, 0), (1, 0) and (0, 1)"
@@ -30587,7 +30587,7 @@
     "options": [
       "a point outside the feasible region that has a larger value of Z",
       "a feasible solution that gives the best (largest or smallest) value of the objective function",
-      "any feasible solution at all, since every one of them is equally good",
+      "any feasible solution at all, since every one of them is equally good, in every case, without any exception",
       "the origin, because the origin is always a feasible solution"
     ],
     "ans": 1,
@@ -30605,7 +30605,7 @@
     "q": "For the inequation x + y ≥ 3, the region to be shaded is:",
     "options": [
       "the side that contains the origin, since 0 ≥ 3 is true",
-      "the side that contains the origin, since 0 + 0 is less than 3",
+      "the side that contains the origin, since 0 + 0 is less than 3, in every case",
       "only the line x + y = 3",
       "the side that does not contain the origin, since 0 ≥ 3 is false"
     ],
@@ -30644,7 +30644,7 @@
     "options": [
       "is always zero, at the origin",
       "exists, and it is found at a corner point of the region",
-      "does not exist, since the region has no end",
+      "does not exist, since the region has no end, in every case",
       "exists only at a point far from the origin"
     ],
     "ans": 1,
@@ -30680,7 +30680,7 @@
     "diff": 3,
     "q": "A firm makes a profit of ₹20 per unit of product A and ₹30 per unit of product B. If x units of A and y units of B are made, the objective function is:",
     "options": [
-      "Z = 50(x + y), to be maximised",
+      "Z = 50(x + y), to be maximised, in every case",
       "Z = 30x + 20y, to be maximised",
       "Z = 20x + 30y, to be minimised",
       "Z = 20x + 30y, to be maximised"
@@ -30701,7 +30701,7 @@
     "options": [
       "removing it does not change the feasible region",
       "it is satisfied only by the origin",
-      "it is an equation and not an inequation",
+      "it is an equation and not an inequation, in every case",
       "it makes the feasible region empty"
     ],
     "ans": 0,
@@ -31072,7 +31072,7 @@
     "q": "If y = u/v, where u and v are functions of x and v is not zero, then dy/dx is:",
     "options": [
       "(du/dx)/(dv/dx)",
-      "(u dv/dx − v du/dx)/v²",
+      "(u dv/dx − v du/dx)/v², in every case",
       "(v du/dx − u dv/dx)/v²",
       "(v du/dx + u dv/dx)/v²"
     ],
@@ -31092,7 +31092,7 @@
     "options": [
       "the value of y at that point",
       "the length of the curve up to that point",
-      "the area under the curve up to that point",
+      "the area under the curve up to that point, in every case",
       "the slope of the tangent to the curve at that point"
     ],
     "ans": 3,
@@ -31128,7 +31128,7 @@
     "diff": 3,
     "q": "The method of logarithmic differentiation is most useful for finding the derivative of:",
     "options": [
-      "a polynomial such as x³ + 2x + 1, written as a plain sum of powers",
+      "a polynomial such as x³ + 2x + 1, written as a plain sum of powers, in every case, without any exception",
       "a linear function such as 3x + 5, which has a constant slope",
       "a function like xˣ or (sin x)^(cos x), in which both the base and the exponent change",
       "a constant function such as f(x) = 7, which has zero slope"
@@ -31299,7 +31299,7 @@
     "diff": 3,
     "q": "If a function is differentiable at a point, then at that point it is:",
     "options": [
-      "continuous, and every continuous function is differentiable",
+      "continuous, and every continuous function is differentiable, in every case",
       "not continuous, in general",
       "continuous, but a continuous function need not be differentiable",
       "discontinuous but with a tangent"
@@ -31594,7 +31594,7 @@
     "options": [
       "decreasing for all x",
       "increasing for all x",
-      "increasing for x less than 2, and decreasing for x greater than 2",
+      "increasing for x less than 2, and decreasing for x greater than 2, in every case",
       "decreasing for x less than 2, and increasing for x greater than 2"
     ],
     "ans": 3,
@@ -31671,7 +31671,7 @@
       "need not have any absolute extreme values",
       "has its maximum only at an end point",
       "has both an absolute maximum and an absolute minimum on the interval",
-      "has an absolute maximum but may not have an absolute minimum"
+      "has an absolute maximum but may not have an absolute minimum, in every case"
     ],
     "ans": 2,
     "solution": "This is the extreme value theorem. To find them, compare the values of the function at the critical points and at the two end points. The largest is the absolute maximum, the smallest the absolute minimum.",
@@ -31745,7 +31745,7 @@
     "q": "Rolle's theorem states that, if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then:",
     "options": [
       "f'(x) = 0 for every x in (a, b)",
-      "f is a constant function on [a, b]",
+      "f is a constant function on [a, b], in every case",
       "f(x) = 0 at some point in (a, b)",
       "there is a point c in (a, b) with f'(c) = 0"
     ],
@@ -31765,7 +31765,7 @@
     "options": [
       "f'(c) = (f(b) − f(a))/(b − a)",
       "f'(c) = 0",
-      "f'(c) = (f(b) + f(a))/2",
+      "f'(c) = (f(b) + f(a))/2, in every case",
       "f'(c) = f(b) − f(a)"
     ],
     "ans": 0,
@@ -31935,7 +31935,7 @@
     "q": "When the cost function C(x) of producing x items is given, the marginal cost is:",
     "options": [
       "dC/dx, the rate of change of cost with the number of items",
-      "C(x + 1) + C(x), the sum of two successive costs",
+      "C(x + 1) + C(x), the sum of two successive costs, in every case",
       "x dC/dx, the number of items times the slope",
       "C/x, the average cost per item"
     ],
@@ -34777,7 +34777,7 @@
     "diff": 1,
     "q": "A random variable is best described as:",
     "options": [
-      "a number that stays the same in every trial of an experiment",
+      "a number that stays the same in every trial of an experiment, in every case",
       "a variable whose values cannot be listed in any way",
       "the probability of an event in the sample space",
       "a function that gives a real number for each outcome of an experiment"
@@ -34834,7 +34834,7 @@
     "diff": 2,
     "q": "For a discrete random variable X, with probabilities p₁, p₂, …, pₙ, the conditions are:",
     "options": [
-      "each pᵢ ≥ 0, and p₁ + p₂ + … + pₙ = 0",
+      "each pᵢ ≥ 0, and p₁ + p₂ + … + pₙ = 0, in every case",
       "each pᵢ ≤ 0, and p₁ + p₂ + … + pₙ = 1",
       "each pᵢ ≥ 0, and p₁ + p₂ + … + pₙ = 1",
       "each pᵢ ≥ 1, and p₁ + p₂ + … + pₙ = n"
@@ -34929,7 +34929,7 @@
     "diff": 3,
     "q": "The cumulative distribution function F(x) = P(X ≤ x) of a random variable has the property that:",
     "options": [
-      "it never decreases, and it tends to 0 for large x",
+      "it never decreases, and it tends to 0 for large x, in every case",
       "it can be negative, and it tends to 1 for large x",
       "it never increases, and it tends to 1 for large x",
       "it never decreases, and it tends to 1 for large x"
@@ -34950,7 +34950,7 @@
     "options": [
       "equal to f(a), the height of the density curve at a",
       "zero, as probability is found from the area under the density curve",
-      "equal to F(a), the value of the cumulative distribution",
+      "equal to F(a), the value of the cumulative distribution, in every case",
       "one, as X must take some value"
     ],
     "ans": 1,
@@ -34987,7 +34987,7 @@
     "q": "A probability density function can take values greater than 1. For example, f(x) = 2 for 0 ≤ x ≤ 0.5 and zero elsewhere is:",
     "options": [
       "not a valid density, since f(x) is greater than 1",
-      "not a valid density, since f(x) is not zero everywhere",
+      "not a valid density, since f(x) is not zero everywhere, in every case",
       "a valid density function, since the area is 2 × 0.5 = 1",
       "not a valid density, since the area is 2"
     ],
@@ -35006,7 +35006,7 @@
     "q": "For a continuous random variable with density f, the probability P(a ≤ X ≤ b) is:",
     "options": [
       "the integral of f(x) from a to b",
-      "the product of f(a) and (b − a)",
+      "the product of f(a) and (b − a), in every case",
       "the sum of f(a) and f(b)",
       "the value of f(b) − f(a)"
     ],
@@ -35063,7 +35063,7 @@
     "q": "Two dice are thrown, and X is the sum of the numbers. The number of different values that X can take is:",
     "options": [
       "36, the number of outcomes",
-      "12, the whole numbers from 1 to 12",
+      "12, the whole numbers from 1 to 12, in every case",
       "11, the whole numbers from 2 to 12",
       "6, the numbers on one die"
     ],
@@ -35158,7 +35158,7 @@
     "q": "For any random variable X, the quantities E(X²) and [E(X)]² are related by:",
     "options": [
       "E(X²) = 2E(X), for every random variable",
-      "E(X²) ≤ [E(X)]², since the variance is not negative",
+      "E(X²) ≤ [E(X)]², since the variance is not negative, in every case",
       "E(X²) ≥ [E(X)]², since the variance is not negative",
       "E(X²) = [E(X)]², for every random variable"
     ],
@@ -35928,7 +35928,7 @@
     "q": "Which one of the following is a vector quantity?",
     "options": [
       "speed, which has a magnitude and a direction",
-      "temperature, which has a magnitude and a direction",
+      "temperature, which has a magnitude and a direction, in every case",
       "displacement, which has a magnitude and a direction",
       "distance, which has a magnitude and a direction"
     ],
@@ -36117,7 +36117,7 @@
     "diff": 2,
     "q": "The scalar (dot) product of two vectors P and Q, with θ the angle between them, is:",
     "options": [
-      "P Q sin θ, which is a scalar",
+      "P Q sin θ, which is a scalar, in every case",
       "P Q cos θ, which is a vector",
       "P Q sin θ, which is a vector",
       "P Q cos θ, which is a scalar"
@@ -36707,7 +36707,7 @@
     "options": [
       "the frequency of the radiation from the caesium atom",
       "the time taken by light to travel one metre",
-      "the time of rotation of the Earth about its axis",
+      "the time of rotation of the Earth about its axis, in every case",
       "the time period of a pendulum of a fixed length"
     ],
     "ans": 0,
@@ -36855,15 +36855,15 @@
     "ch": "phy-11-02",
     "type": "mcq",
     "diff": 3,
-    "q": "A student derives the equation s = ut + at² for the displacement. By dimensional analysis, this equation is:",
+    "q": "A student derives the equation s = ut + at² for the displacement. What does dimensional analysis say about this equation?",
     "options": [
-      "right, since s, u, t and a are all measured in the same units",
-      "wrong, since the term ut does not have the dimensions of length",
-      "right, since all the terms have the dimensions of length",
-      "wrong, since the term at² does not have the dimensions of length"
+      "it fails the check, since the term ut does not have the dimensions of length",
+      "it fails the check, since s is a length and t is a time, so they cannot be in one equation, in every case, without any exception",
+      "it fails the check, since the term at² does not have the dimensions of length",
+      "it passes the check, since every term has the dimensions of length, but it cannot show that the factor 1/2 is missing"
     ],
     "ans": 3,
-    "solution": "ut has the dimensions [L T⁻¹][T] = [L], and s is [L]. But at² = [L T⁻²][T²] = [L], and this is also a length. So the dimensions match. The correct equation is s = ut + (1/2)at², and dimensional analysis cannot find the missing factor 1/2.",
+    "solution": "s is [L]. ut = [L T⁻¹][T] = [L]. at² = [L T⁻²][T²] = [L]. All the terms have the same dimensions, so the equation passes the check. But the correct equation is s = ut + (1/2)at², and dimensional analysis cannot find a missing number like 1/2. So passing the check does not prove that an equation is right.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -36879,7 +36879,7 @@
       "find the value of a dimensionless constant such as 1/2 or 2π",
       "convert a unit from one system into another",
       "check the correctness of an equation",
-      "suggest a relation between the physical quantities"
+      "suggest a relation between the physical quantities, in every case"
     ],
     "ans": 0,
     "solution": "The method compares the dimensions only. A pure number has no dimensions, so it cannot be found. It also cannot handle trigonometric or exponential functions, or equations with a sum of terms in a simple way.",
@@ -37375,7 +37375,7 @@
     "diff": 3,
     "q": "A ball is thrown vertically upwards. At the highest point, its velocity and its acceleration are:",
     "options": [
-      "velocity g upwards, and acceleration zero",
+      "velocity g upwards, and acceleration zero, in every case",
       "zero velocity, and zero acceleration",
       "zero velocity, and acceleration g upwards",
       "zero velocity, and acceleration g downwards"
@@ -37945,7 +37945,7 @@
     "q": "According to Newton's third law, the action and the reaction forces:",
     "options": [
       "are unequal, and act on different bodies",
-      "are equal in size, but act in the same direction",
+      "are equal in size, but act in the same direction, in every case",
       "are equal and opposite, and act on the same body",
       "are equal and opposite, and act on different bodies"
     ],
@@ -38134,7 +38134,7 @@
     "diff": 2,
     "q": "The law of conservation of linear momentum holds for a system when:",
     "options": [
-      "the kinetic energy of the system is constant",
+      "the kinetic energy of the system is constant, in every case",
       "the system has only two bodies in it",
       "the net internal force on the system is zero",
       "the net external force on the system is zero"
@@ -38156,7 +38156,7 @@
       "the kinetic energy of each body, in all cases",
       "the total linear momentum, if no external force acts",
       "the velocity of each body, in all cases",
-      "the total kinetic energy of the bodies, in all cases"
+      "the total kinetic energy of the bodies, in all cases, in every case"
     ],
     "ans": 1,
     "solution": "Momentum is conserved in elastic and inelastic collisions. The kinetic energy is conserved only in an elastic collision. In an inelastic collision, some of it changes into heat and sound.",
@@ -38250,7 +38250,7 @@
     "options": [
       "increases the momentum of the ball, so the force on the hands is smaller",
       "decreases the mass of the ball, so the force on the hands is smaller",
-      "decreases the time of contact, so the average force on the hands is smaller",
+      "decreases the time of contact, so the average force on the hands is smaller, in every case",
       "increases the time of contact, so the average force on the hands is smaller"
     ],
     "ans": 3,
@@ -38346,7 +38346,7 @@
       "zero, so a small displacement makes it return",
       "a minimum, so a small displacement makes it return",
       "constant, so a small displacement has no effect",
-      "a maximum, so a small displacement makes it return"
+      "a maximum, so a small displacement makes it return, in every case"
     ],
     "ans": 1,
     "solution": "In stable equilibrium, dU/dx = 0 and d²U/dx² is positive. A ball at the bottom of a bowl is an example. At a maximum of U, the equilibrium is unstable.",
@@ -38362,7 +38362,7 @@
     "diff": 3,
     "q": "Two particles have the masses 1 kg and 3 kg. The centre of mass of the system lies:",
     "options": [
-      "closer to the 1 kg particle, on the line joining them",
+      "closer to the 1 kg particle, on the line joining them, in every case",
       "outside the line joining them",
       "at the middle of the line joining them",
       "closer to the 3 kg particle, on the line joining them"
@@ -38400,7 +38400,7 @@
     "diff": 3,
     "q": "For which condition do the centre of gravity and the centre of mass of a body lie at the same point?",
     "options": [
-      "the body is at rest on the ground",
+      "the body is at rest on the ground, in every case, without any exception",
       "the gravitational field is uniform over the body",
       "the body has a regular shape",
       "the body is a point mass"
@@ -39223,7 +39223,7 @@
     "options": [
       "the average speed of the molecules of a body",
       "a substance that is stored inside a hot body",
-      "the temperature of a body, measured in kelvin",
+      "the temperature of a body, measured in kelvin, in every case",
       "energy that flows from a hotter body to a colder one"
     ],
     "ans": 3,
@@ -39411,7 +39411,7 @@
     "diff": 3,
     "q": "For an isotropic solid, the coefficients of linear (α), area (β) and volume (γ) expansion are related by:",
     "options": [
-      "α : β : γ = 1 : 3 : 2",
+      "α : β : γ = 1 : 3 : 2, in every case",
       "α : β : γ = 1 : 2 : 3",
       "α : β : γ = 3 : 2 : 1",
       "α : β : γ = 1 : 1 : 1"
@@ -39488,7 +39488,7 @@
     "q": "During a change of state, such as melting of ice at 0 °C, the heat that is supplied:",
     "options": [
       "does not change the temperature, but is used to change the state",
-      "lowers the temperature, as the substance becomes less rigid",
+      "lowers the temperature, as the substance becomes less rigid, in every case",
       "is not absorbed, as the temperature is constant",
       "raises the temperature, as the substance takes in energy"
     ],
@@ -39527,7 +39527,7 @@
     "options": [
       "the mass of water changes more in vaporisation than in fusion",
       "water is a gas at a higher temperature than at the freezing point",
-      "in fusion, the molecules must be separated completely, and the water pushes the air back",
+      "in fusion, the molecules must be separated completely, and the water pushes the air back, in every case",
       "in vaporisation, the molecules must be separated completely, and the gas pushes the air back"
     ],
     "ans": 3,
@@ -39563,7 +39563,7 @@
     "diff": 2,
     "q": "Heat is carried from one end of a metal rod to the other end by:",
     "options": [
-      "convection, without any movement of the matter",
+      "convection, without any movement of the matter, in every case",
       "conduction, without any movement of the matter",
       "radiation, with the movement of the matter",
       "convection, with the movement of the matter"
@@ -39661,7 +39661,7 @@
       "flat, as the temperature stays constant while the latent heat is absorbed",
       "a falling curve, as the solid is turning to a liquid",
       "a vertical line, as the change is very fast",
-      "a rising straight line, as the energy supplied is constant"
+      "a rising straight line, as the energy supplied is constant, in every case, without any exception"
     ],
     "ans": 0,
     "solution": "The heat is used to change the state, and not the temperature. Before and after the flat part, the graph rises, with different slopes, since the specific heats of the solid and the liquid are different.",
@@ -39873,7 +39873,7 @@
     "q": "In a transverse wave, the particles of the medium vibrate:",
     "options": [
       "only when the medium is a gas",
-      "along the direction in which the wave moves",
+      "along the direction in which the wave moves, in every case",
       "in circles around the source of the wave",
       "at right angles to the direction in which the wave moves"
     ],
@@ -39892,7 +39892,7 @@
     "q": "Sound waves in air are:",
     "options": [
       "longitudinal, made of crests and troughs",
-      "transverse, made of compressions and rarefactions",
+      "transverse, made of compressions and rarefactions, in every case",
       "longitudinal, made of compressions and rarefactions",
       "transverse, made of crests and troughs"
     ],
@@ -40024,7 +40024,7 @@
     "diff": 3,
     "q": "The speed of sound in air at a constant temperature, when the pressure of the air is increased, is:",
     "options": [
-      "increased, as the pressure of the gas is larger than before",
+      "increased, as the pressure of the gas is larger than before, in every case",
       "decreased, as the density of the gas is larger than before",
       "unchanged, as the density changes in the same ratio as the pressure",
       "doubled, if the pressure of the gas is doubled, and so on"
@@ -40486,7 +40486,7 @@
     "q": "The laws of reflection state that the angle of incidence is equal to the angle of reflection, and that:",
     "options": [
       "the angle of reflection is twice the angle of incidence",
-      "the incident ray and the reflected ray are in different planes",
+      "the incident ray and the reflected ray are in different planes, in every case",
       "the incident ray, the reflected ray and the normal lie in the same plane",
       "the reflected ray is along the normal to the surface"
     ],
@@ -40524,7 +40524,7 @@
     "q": "The image formed by a plane mirror is:",
     "options": [
       "virtual, erect, and as far behind the mirror as the object is in front",
-      "virtual, erect, and magnified by a factor that depends on the distance",
+      "virtual, erect, and magnified by a factor that depends on the distance, in every case",
       "real, erect, and as far in front of the mirror as the object is",
       "real, inverted, and as far behind the mirror as the object is in front"
     ],
@@ -40599,7 +40599,7 @@
     "diff": 2,
     "q": "The refractive index n of a medium is the ratio:",
     "options": [
-      "v/c, the speed of light in the medium to that in vacuum",
+      "v/c, the speed of light in the medium to that in vacuum, in every case",
       "c × v, the product of the two speeds",
       "c − v, the difference of the two speeds",
       "c/v, the speed of light in vacuum to the speed in the medium"
@@ -40656,7 +40656,7 @@
     "diff": 2,
     "q": "Total internal reflection can occur when light travels:",
     "options": [
-      "from a rarer to a denser medium, at an angle of incidence greater than the critical angle",
+      "from a rarer to a denser medium, at an angle of incidence greater than the critical angle, in every case",
       "from a denser to a rarer medium, at an angle of incidence greater than the critical angle",
       "from a rarer to a denser medium, at any angle of incidence",
       "from a denser to a rarer medium, at an angle of incidence less than the critical angle"
@@ -40697,10 +40697,10 @@
       "the formation of a rainbow by the dispersion of sunlight in the drops of water",
       "the working of an optical fibre, used for communication",
       "the sparkling of a cut diamond",
-      "the bending of light in a right-angled prism, used in binoculars"
+      "the bending of light in a right-angled prism, used in binoculars, in every case"
     ],
     "ans": 0,
-    "solution": "A rainbow is made by refraction and dispersion, and by one total reflection at the back of each drop, but its colours are from dispersion. The other three depend mainly on total internal reflection. An optical fibre carries a signal by repeated total internal reflections.",
+    "solution": "A rainbow is made by refraction and dispersion, and by one ordinary internal reflection at the back of each drop (the angle there is below the critical angle, so it is only a partial reflection). Its colours are from dispersion. The other three depend mainly on total internal reflection. An optical fibre carries a signal by repeated total internal reflections.",
     "sample": false,
     "verifiedBy": [
       "derivation"
@@ -40732,7 +40732,7 @@
     "diff": 2,
     "q": "A thin lens has a focal length f. For an object at a distance u and an image at a distance v, the lens formula is:",
     "options": [
-      "1/f = 1/v + 1/u, with the Cartesian sign convention",
+      "1/f = 1/v + 1/u, with the Cartesian sign convention, in every case",
       "f = v − u, with the Cartesian sign convention",
       "1/f = u − v, with the Cartesian sign convention",
       "1/f = 1/v − 1/u, with the Cartesian sign convention"
@@ -40754,7 +40754,7 @@
       "virtual, erect, of the same size, at a distance 2f",
       "real, inverted, of the same size, at a distance 2f on the other side",
       "real, erect, diminished, at the distance f",
-      "real, inverted, magnified, at a distance greater than 2f"
+      "real, inverted, magnified, at a distance greater than 2f, in every case"
     ],
     "ans": 1,
     "solution": "From 1/v = 1/f + 1/u with u = −2f: 1/v = 1/f − 1/(2f) = 1/(2f), so v = 2f, and m = v/u = −1. This is the way to measure the focal length by finding the position where the image is as large as the object.",
@@ -40885,7 +40885,7 @@
     "q": "In a refracting telescope in normal adjustment, the magnifying power is:",
     "options": [
       "f_o/f_e, the ratio of the focal lengths of the objective and the eyepiece",
-      "f_e/f_o, the ratio of the focal lengths of the eyepiece and the objective",
+      "f_e/f_o, the ratio of the focal lengths of the eyepiece and the objective, in every case",
       "f_o + f_e, the sum of the focal lengths",
       "f_o × f_e, the product of the focal lengths"
     ],
@@ -41330,7 +41330,7 @@
     "q": "A charge is placed outside a closed surface. The net electric flux through the surface is:",
     "options": [
       "positive, as the field lines go out through the surface",
-      "q/ε₀, as the charge is near the surface and the field is large",
+      "q/ε₀, as the charge is near the surface and the field is large, in every case",
       "zero, as the flux that enters is equal to the flux that leaves",
       "negative, as the field lines go in through the surface"
     ],
@@ -41350,7 +41350,7 @@
     "options": [
       "p = 0, as the net charge is zero",
       "p = q × 2l, and it points from −q to +q",
-      "p = q × 2l, and it points from +q to −q",
+      "p = q × 2l, and it points from +q to −q, in every case",
       "p = q/2l, and it points from −q to +q"
     ],
     "ans": 1,
@@ -41444,7 +41444,7 @@
     "q": "The linear charge density λ, the surface charge density σ and the volume charge density ρ are defined respectively as:",
     "options": [
       "charge per unit time, per unit area, and per unit length",
-      "charge per unit area, per unit length, and per unit volume",
+      "charge per unit area, per unit length, and per unit volume, in every case",
       "charge per unit volume, per unit area, and per unit length",
       "charge per unit length, per unit area, and per unit volume"
     ],
@@ -41482,7 +41482,7 @@
     "q": "A charge Q is spread uniformly over the surface of a thin spherical shell of radius R. The field outside the shell, at a distance r from the centre (r greater than R), is:",
     "options": [
       "zero, as the charge is on the surface",
-      "half the field of a point charge Q at the centre",
+      "half the field of a point charge Q at the centre, in every case",
       "the same as if all the charge Q were at the centre",
       "proportional to r, as the charge is spread out"
     ],
@@ -41680,7 +41680,7 @@
     "q": "In the band picture of a solid, the energy gap between the valence band and the conduction band is:",
     "options": [
       "large for an insulator, small for a semiconductor, and zero for a conductor",
-      "small for an insulator, large for a semiconductor, and zero for a conductor",
+      "small for an insulator, large for a semiconductor, and zero for a conductor, in every case",
       "the same for all three kinds of solid",
       "large for a conductor, small for a semiconductor, and zero for an insulator"
     ],
@@ -41736,7 +41736,7 @@
     "diff": 2,
     "q": "An intrinsic semiconductor at room temperature has:",
     "options": [
-      "more holes than free electrons, in every case",
+      "more holes than free electrons",
       "more free electrons than holes",
       "no free electrons and no holes",
       "equal numbers of free electrons and holes"
@@ -41775,7 +41775,7 @@
     "q": "To make an n-type semiconductor, a pure silicon crystal is doped with:",
     "options": [
       "a pentavalent impurity, such as phosphorus or arsenic",
-      "a trivalent impurity, such as boron or aluminium, in every case",
+      "a trivalent impurity, such as boron or aluminium",
       "a tetravalent impurity, such as carbon or tin",
       "a noble gas, such as argon or neon"
     ],
@@ -41796,7 +41796,7 @@
       "electrons, and there are no minority carriers",
       "holes, and the minority carriers are electrons",
       "holes, and there are no minority carriers",
-      "electrons, and the minority carriers are holes"
+      "electrons, and the minority carriers are holes, in every case"
     ],
     "ans": 1,
     "solution": "A trivalent dopant, such as boron, has only three valence electrons, so it leaves a hole in a bond. Holes are in a large number, and a few electrons are present from the heat.",
@@ -41869,7 +41869,7 @@
     "diff": 2,
     "q": "A p-n junction diode is forward biased when:",
     "options": [
-      "the p side is joined to the negative terminal of the battery",
+      "the p side is joined to the negative terminal of the battery, in every case",
       "the n side is joined to the positive terminal of the battery",
       "both sides are joined to the same terminal",
       "the p side is joined to the positive terminal of the battery"
@@ -41890,7 +41890,7 @@
     "options": [
       "increases, and only a very small current flows",
       "decreases, and a large current flows",
-      "decreases, and only a very small current flows",
+      "decreases, and only a very small current flows, in every case",
       "stays the same, and a large current flows"
     ],
     "ans": 0,
@@ -41910,7 +41910,7 @@
       "zero resistance in both directions of bias",
       "zero resistance in forward bias and infinite resistance in reverse bias",
       "the same resistance in both directions of bias",
-      "infinite resistance in forward bias and zero resistance in reverse bias"
+      "infinite resistance in forward bias and zero resistance in reverse bias, in every case"
     ],
     "ans": 1,
     "solution": "An ideal diode acts as a perfect one-way switch. A real diode has a small resistance in forward bias, once the voltage is above the knee, and a very large resistance in reverse bias.",
@@ -41945,7 +41945,7 @@
     "diff": 3,
     "q": "The static resistance of a diode at a point of its characteristic is R = V/I. The dynamic resistance is:",
     "options": [
-      "r = V × I, the product of the voltage and the current",
+      "r = V × I, the product of the voltage and the current, in every case, without any exception",
       "r = V/I, the same as the static resistance",
       "r = ΔI/ΔV, the slope of the I–V curve at that point",
       "r = ΔV/ΔI, the reciprocal of the slope of the I–V curve at that point"
@@ -41967,7 +41967,7 @@
       "larger, use more power, and need a warm-up time",
       "smaller, use more power, and need a warm-up time",
       "smaller, use less power, and start working at once",
-      "larger, use less power, and start working at once"
+      "larger, use less power, and start working at once, in every case"
     ],
     "ans": 2,
     "solution": "They have no filament to heat, so they need no warm-up time and little power, and they work at a low voltage. They can also be made very small, and many can be put in one integrated circuit.",
@@ -41984,7 +41984,7 @@
     "q": "Which one of the following is a disadvantage of semiconductor devices?",
     "options": [
       "they are large and heavy when compared with others",
-      "they need a filament that must be heated before use",
+      "they need a filament that must be heated before use, in every case, without any exception",
       "they need a very high voltage to work at all times",
       "they are sensitive to temperature and cannot handle very high power"
     ],
@@ -42005,7 +42005,7 @@
       "converts light energy into electrical energy",
       "converts heat energy into sound energy",
       "stores electrical energy in a chemical form",
-      "converts electrical energy into light energy"
+      "converts electrical energy into light energy, in every case"
     ],
     "ans": 0,
     "solution": "Light with enough energy makes electron-hole pairs near a p-n junction, and the junction field separates them, so a voltage and a current are produced. An LED does the opposite, as it converts electrical energy into light.",
@@ -42059,7 +42059,7 @@
     "diff": 3,
     "q": "A PTC thermistor is often used as a resettable fuse because its resistance:",
     "options": [
-      "falls sharply when it is heated by a large current, which raises the current",
+      "falls sharply when it is heated by a large current, which raises the current, in every case",
       "rises sharply when it is heated by too large a current, which cuts down the current",
       "does not change when it is heated, so the current stays fixed",
       "becomes zero when it is heated, which stops the current"
@@ -42422,7 +42422,7 @@
     "q": "The rate of change of angular momentum of a body equals:",
     "options": [
       "the net external torque on it",
-      "its rotational kinetic energy",
+      "its rotational kinetic energy, in every case",
       "its moment of inertia",
       "its angular velocity"
     ],
@@ -42459,7 +42459,7 @@
     "diff": 2,
     "q": "A skater spinning on ice pulls her arms close to her body. Her angular velocity:",
     "options": [
-      "decreases, because her moment of inertia decreases",
+      "decreases, because her moment of inertia decreases, in every case, without any exception",
       "increases, because L increases",
       "increases, because her moment of inertia decreases and L is constant",
       "stays the same, because L is constant"
@@ -42480,7 +42480,7 @@
     "options": [
       "decreases, because L is conserved while I increases",
       "becomes zero at once",
-      "stays the same, because the clay has no velocity",
+      "stays the same, because the clay has no velocity, in every case",
       "increases, because the clay adds mass"
     ],
     "ans": 0,
@@ -42687,7 +42687,7 @@
     "diff": 2,
     "q": "On a frictionless banked road of radius r and banking angle θ, the safe speed of a car is v = √(rg tanθ). This speed depends on:",
     "options": [
-      "θ and the mass of the car, but not r",
+      "θ and the mass of the car, but not r, in every case",
       "r, θ and g, but not on the mass of the car",
       "r and the mass of the car, but not θ",
       "the mass of the car only"
@@ -44364,7 +44364,7 @@
     "diff": 2,
     "q": "In an isochoric (constant volume) process:",
     "options": [
-      "ΔU = 0, so the heat added is all converted into work",
+      "ΔU = 0, so the heat added is all converted into work, in every case",
       "W = 0, so all the heat added goes into the internal energy",
       "the pressure is constant, so W = p ΔV",
       "Q = 0, so the work done changes the internal energy"
@@ -44499,7 +44499,7 @@
     "options": [
       "no engine can work in a cycle unless it has a hot source of heat",
       "no engine can reject heat to the surroundings in a cycle of operations",
-      "heat can never flow from a hot body to a cold body, even through a conductor",
+      "heat can never flow from a hot body to a cold body, even through a conductor, in every case",
       "no engine working in a cycle can convert all the heat it takes from a hot source into work"
     ],
     "ans": 3,
@@ -44922,7 +44922,7 @@
     "options": [
       "proportional to its speed and directed along the velocity",
       "constant in size and directed towards the mean position",
-      "proportional to its displacement and directed away from the mean position",
+      "proportional to its displacement and directed away from the mean position, in every case",
       "proportional to its displacement from the mean position and directed towards it"
     ],
     "ans": 3,
@@ -45188,7 +45188,7 @@
     "options": [
       "shorter, because the effective gravity is larger",
       "longer, because the effective gravity is larger",
-      "longer, because the effective gravity is smaller",
+      "longer, because the effective gravity is smaller, in every case",
       "the same, because the mass is unchanged"
     ],
     "ans": 0,
@@ -45264,7 +45264,7 @@
     "options": [
       "the driving frequency equals the natural frequency of the system",
       "the driving force is the largest possible",
-      "the driving frequency is twice the natural frequency",
+      "the driving frequency is twice the natural frequency, in every case",
       "the damping is the largest possible"
     ],
     "ans": 0,
@@ -45377,7 +45377,7 @@
     "q": "At the extreme position of a simple harmonic oscillator:",
     "options": [
       "both the speed and the acceleration are maximum",
-      "the speed is maximum and the acceleration is zero",
+      "the speed is maximum and the acceleration is zero, in every case",
       "the speed is zero and the acceleration is maximum",
       "both the speed and the acceleration are zero"
     ],
@@ -46265,7 +46265,7 @@
     "options": [
       "are vibrating in the same phase at a given instant",
       "have the maximum displacement at any instant",
-      "are moving with the same speed in all directions",
+      "are moving with the same speed in all directions, in every case",
       "are at the same distance from the observer"
     ],
     "ans": 0,
@@ -46532,7 +46532,7 @@
       "change of speed of light in glass",
       "vibration of light in only one plane",
       "bending of light around the edges of an obstacle or an aperture",
-      "splitting of white light into its colours by a prism"
+      "splitting of white light into its colours by a prism, in every case"
     ],
     "ans": 2,
     "solution": "The effect is strong only when the size of the opening or obstacle is comparable to the wavelength of the light. That is why sound, with a long wavelength, bends around doors easily but light does not.",
@@ -46664,7 +46664,7 @@
     "options": [
       "i_p is always 45° for every material",
       "tan i_p = n, where n is the refractive index of the surface",
-      "cos i_p = n, where n is the refractive index of the surface",
+      "cos i_p = n, where n is the refractive index of the surface, in every case",
       "sin i_p = n, where n is the refractive index of the surface"
     ],
     "ans": 1,
@@ -46702,7 +46702,7 @@
     "options": [
       "increasing the diameter of its objective lens or mirror",
       "decreasing the diameter of its objective",
-      "increasing the wavelength of the light used",
+      "increasing the wavelength of the light used, in every case",
       "increasing the focal length of the eyepiece"
     ],
     "ans": 0,
@@ -47015,7 +47015,7 @@
       "begin on positive charges, end on negative charges and never cross",
       "are closed loops, like magnetic field lines",
       "can cross where the field is strong",
-      "begin on negative charges and end on positive charges"
+      "begin on negative charges and end on positive charges, in every case"
     ],
     "ans": 0,
     "solution": "Field lines of static charges start on positive charge and end on negative charge. Two lines cannot cross, since the field would then have two directions at one point.",
@@ -47393,7 +47393,7 @@
     "q": "The charge on any body is always an integer multiple of e = 1.6 × 10⁻¹⁹ C. This is called:",
     "options": [
       "continuity of charge",
-      "conservation of charge",
+      "conservation of charge, in every case",
       "additivity of charge",
       "quantisation of charge"
     ],
@@ -47630,7 +47630,7 @@
     "options": [
       "the potential difference across it is proportional to the current through it",
       "the current is independent of the potential difference",
-      "the potential difference is inversely proportional to the current",
+      "the potential difference is inversely proportional to the current, in every case",
       "the resistance is proportional to the current"
     ],
     "ans": 0,
@@ -47743,7 +47743,7 @@
     "q": "When the temperature of a metallic conductor rises, its resistance:",
     "options": [
       "decreases, because the ions vibrate less",
-      "stays constant, because the number of electrons is constant",
+      "stays constant, because the number of electrons is constant, in every case, without any exception",
       "decreases, because there are more free electrons",
       "increases, because the ions vibrate more and collide with the electrons more often"
     ],
@@ -47820,7 +47820,7 @@
     "options": [
       "the cell is being charged by a current in the opposite direction",
       "the cell is in open circuit and no current flows",
-      "the internal resistance of the cell is exactly zero",
+      "the internal resistance of the cell is exactly zero, in every case",
       "the cell is supplying a large current to a load"
     ],
     "ans": 0,
@@ -48068,7 +48068,7 @@
       "a very high resistance, so that it draws almost no current",
       "a resistance equal to that of the circuit",
       "zero resistance",
-      "a very low resistance, so that it draws a large current"
+      "a very low resistance, so that it draws a large current, in every case"
     ],
     "ans": 0,
     "solution": "A high resistance means that connecting it in parallel changes the current and the voltage being measured as little as possible.",
@@ -48303,7 +48303,7 @@
     "options": [
       "in parallel with the galvanometer, with S = I_g G/(I − I_g)",
       "in series with the galvanometer, with S = I/I_g − G",
-      "in parallel with the galvanometer, with S = (I − I_g)G/I_g",
+      "in parallel with the galvanometer, with S = (I − I_g)G/I_g, in every case",
       "in series with the galvanometer, with S = I_g G/(I − I_g)"
     ],
     "ans": 0,
@@ -49169,7 +49169,7 @@
     "q": "A freely suspended bar magnet comes to rest pointing:",
     "options": [
       "along the east-west direction",
-      "in any direction, since the Earth is not a magnet",
+      "in any direction, since the Earth is not a magnet, in every case",
       "approximately along the geographic north-south direction",
       "along the vertical, whatever the place"
     ],
@@ -49208,7 +49208,7 @@
     "options": [
       "U = mB, which does not depend on the angle",
       "U = −mB cos θ, which is the lowest when the dipole is along the field",
-      "U = −mB sin θ, which is the lowest when the dipole is along the field",
+      "U = −mB sin θ, which is the lowest when the dipole is along the field, in every case",
       "U = +mB cos θ, which is the lowest when the dipole is along the field"
     ],
     "ans": 1,
@@ -49223,7 +49223,7 @@
     "ch": "phy-12-11",
     "type": "mcq",
     "diff": 3,
-    "q": "A bar magnet in a uniform field is displaced a little from its equilibrium position, along the field. It will:",
+    "q": "A bar magnet in a uniform field is turned through a small angle from its equilibrium position, which is along the field. It will:",
     "options": [
       "oscillate about the field direction, with a period T = 2π√(I/(mB))",
       "stay in the new position, as the net force is zero",
@@ -49282,7 +49282,7 @@
     "diff": 3,
     "q": "The magnetic moment of an electron in an orbit, in terms of its orbital angular momentum L, is given by:",
     "options": [
-      "m = (e/2mₑ)L, and it is in the same direction as L",
+      "m = (e/2mₑ)L, and it is in the same direction as L, in every case",
       "m = eL, and it is in the same direction as L",
       "m = (2mₑ/e)L, and it is opposite in direction to L",
       "m = (e/2mₑ)L, and it is opposite in direction to L"
@@ -49303,7 +49303,7 @@
     "options": [
       "eh/(4πmₑ), about 9.27 × 10⁻²⁴ A m²",
       "mₑh/(4πe), about 4.6 × 10⁻²⁶ A m²",
-      "eh/(4πmₑ), about 9.27 × 10⁻²⁷ A m²",
+      "eh/(4πmₑ), about 9.27 × 10⁻²⁷ A m², in every case",
       "eh/(2mₑ), about 5.8 × 10⁻²³ A m²"
     ],
     "ans": 0,
@@ -49359,7 +49359,7 @@
     "q": "The magnetic susceptibility χ of a material is defined as:",
     "options": [
       "χ = M/H, and the relative permeability is 1 + χ",
-      "χ = H/M, and the relative permeability is 1 − χ",
+      "χ = H/M, and the relative permeability is 1 − χ, in every case",
       "χ = M × H, and the relative permeability is χ",
       "χ = B/H, and the relative permeability is 1 + χ"
     ],
@@ -49397,7 +49397,7 @@
     "q": "The susceptibility of a paramagnetic material is:",
     "options": [
       "small and positive, and it decreases when the temperature rises",
-      "small and positive, and it increases when the temperature rises",
+      "small and positive, and it increases when the temperature rises, in every case",
       "large and positive, and it does not depend on the temperature",
       "small and negative, and it decreases when the temperature rises"
     ],
@@ -49512,7 +49512,7 @@
     "options": [
       "the maximum magnetic field in the material",
       "the retentivity of the material only",
-      "the energy stored in the material permanently",
+      "the energy stored in the material permanently, in every case",
       "the energy lost as heat in one cycle of magnetisation"
     ],
     "ans": 3,
@@ -49531,7 +49531,7 @@
     "options": [
       "zero susceptibility and no hysteresis loop",
       "high permeability, low coercivity, and a thin hysteresis loop",
-      "low permeability, high coercivity, and a wide hysteresis loop",
+      "low permeability, high coercivity, and a wide hysteresis loop, in every case",
       "high retentivity and high coercivity, and a wide loop"
     ],
     "ans": 1,
@@ -49551,7 +49551,7 @@
       "a low retentivity and a high coercivity, such as copper",
       "a low retentivity and a low coercivity, such as bismuth",
       "a high retentivity and a high coercivity, such as steel or alnico",
-      "a high retentivity and a low coercivity, such as soft iron"
+      "a high retentivity and a low coercivity, such as soft iron, in every case"
     ],
     "ans": 2,
     "solution": "The magnet must keep its magnetism for a long time (high retentivity), and must not lose it in stray fields or by shocks (high coercivity). Steel, alnico and some alloys have these properties.",
@@ -49698,7 +49698,7 @@
     "diff": 1,
     "q": "The magnetic flux through a plane surface of area A in a uniform field B, with the normal to the surface at an angle θ to the field, is:",
     "options": [
-      "Φ = B/A cosθ, with the unit tesla (T)",
+      "Φ = B/A cosθ, with the unit tesla (T), in every case",
       "Φ = BA tanθ, with the unit weber (Wb)",
       "Φ = BA cosθ, with the unit weber (Wb)",
       "Φ = BA sinθ, with the unit weber (Wb)"
@@ -49717,7 +49717,7 @@
     "diff": 2,
     "q": "Faraday's law of electromagnetic induction states that the emf induced in a coil is:",
     "options": [
-      "proportional to the magnetic flux through the coil, without any exception",
+      "proportional to the magnetic flux through the coil, in every case, without any exception",
       "proportional to the rate of change of magnetic flux through the coil",
       "independent of the number of turns of the coil",
       "proportional to the resistance of the coil"
@@ -49889,7 +49889,7 @@
     "q": "When a DC motor is running, the back emf in its armature:",
     "options": [
       "is zero while the motor is running steadily",
-      "adds to the applied voltage and decreases with the speed of the motor",
+      "adds to the applied voltage and decreases with the speed of the motor, in every case",
       "opposes the applied voltage and increases with the speed of the motor",
       "is the same as the applied voltage at all times"
     ],
@@ -49928,7 +49928,7 @@
     "options": [
       "currents that flow only along the surface of water",
       "currents in a wire that is connected to a battery",
-      "currents that flow only in insulators in a magnetic field, without any exception",
+      "currents that flow only in insulators in a magnetic field, in every case, without any exception",
       "circulating currents induced in a piece of metal by a changing magnetic flux"
     ],
     "ans": 3,
@@ -49967,7 +49967,7 @@
       "Φ = LI, or ε = −L dI/dt",
       "Φ = L/I, or ε = −L I",
       "Φ = L²I, or ε = −L/dt",
-      "Φ = LI², or ε = L dt/dI"
+      "Φ = LI², or ε = L dt/dI, in every case"
     ],
     "ans": 0,
     "solution": "The flux through a coil due to its own current is proportional to the current. The proportionality constant is L, in henry (H = Wb/A = V s/A). A changing current induces an emf in the coil itself, which opposes the change.",
@@ -49983,7 +49983,7 @@
     "diff": 3,
     "q": "The self-induced emf in a coil:",
     "options": [
-      "is present only when the current is steady and large",
+      "is present only when the current is steady and large, in every case, without any exception",
       "opposes the change in the current, and so acts like inertia for the current",
       "helps the change in the current in the coil",
       "opposes the current itself, even if it is steady"
@@ -50117,7 +50117,7 @@
     "q": "For an ideal transformer with N_p turns in the primary and N_s in the secondary, the voltages and currents are related by:",
     "options": [
       "V_s/V_p = N_s/N_p = I_p/I_s",
-      "V_s/V_p = N_s/N_p = I_s/I_p",
+      "V_s/V_p = N_s/N_p = I_s/I_p, in every case",
       "V_s/V_p = N_p/N_s = I_p/I_s",
       "V_s/V_p = I_p/I_s = N_p/N_s"
     ],
@@ -50137,7 +50137,7 @@
     "options": [
       "the leakage of magnetic flux from the core",
       "conversion of the alternating current into direct current in the core",
-      "the heating of the copper windings by their resistance",
+      "the heating of the copper windings by their resistance, in every case, without any exception",
       "the eddy currents in the iron core"
     ],
     "ans": 1,
@@ -50154,7 +50154,7 @@
     "diff": 2,
     "q": "Alternating voltage is stepped up to a very high value for the long-distance transmission of electric power, because:",
     "options": [
-      "the high voltage increases the power that the lines can carry without loss",
+      "the high voltage increases the power that the lines can carry without loss, in every case, without any exception",
       "for the same power, a higher voltage means a lower current and so a smaller I²R loss in the lines",
       "the resistance of the lines is lower at a high voltage",
       "a higher voltage means a higher current and a smaller loss in the lines"
@@ -50174,7 +50174,7 @@
     "q": "The SI unit of inductance, the henry, is equivalent to:",
     "options": [
       "volt per ampere (V/A)",
-      "volt ampere per second (V A/s)",
+      "volt ampere per second (V A/s), in every case",
       "volt second per ampere (V s/A)",
       "ampere second per volt (A s/V)"
     ],
@@ -51683,7 +51683,7 @@
     "diff": 2,
     "q": "A very small number of alpha particles were scattered through more than 90° by a thin gold foil. This led Rutherford to conclude that:",
     "options": [
-      "the electrons are heavier than the alpha particles in the foil",
+      "the electrons are heavier than the alpha particles in the foil, in every case",
       "the positive charge and most of the mass are in a very small nucleus",
       "the positive charge is spread uniformly through the atom",
       "the gold atoms are all arranged in a regular pattern"
@@ -51931,7 +51931,7 @@
     "q": "In an alpha decay, the atomic number and the mass number of the nucleus change as follows:",
     "options": [
       "Z decreases by 2, and A decreases by 4",
-      "Z decreases by 2, and A decreases by 2",
+      "Z decreases by 2, and A decreases by 2, in every case",
       "Z decreases by 1, and A is unchanged",
       "Z decreases by 4, and A decreases by 2"
     ],
