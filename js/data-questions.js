@@ -2406,6 +2406,571 @@
     ]
   },
   {
+    "id": "chem-11-03-m01",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The octet rule says that atoms tend to combine so that each one gets:",
+    "options": [
+      "two electrons in its outer shell, like a noble gas",
+      "ten electrons in its outer shell, like a noble gas",
+      "one electron in its outer shell, like a metal",
+      "eight electrons in its outer shell, like a noble gas"
+    ],
+    "ans": 3,
+    "solution": "Atoms lose, gain or share electrons to reach the stable configuration of eight electrons (ns²np⁶) in the valence shell. Hydrogen and helium are exceptions, and they need only two.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m02",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An ionic bond is formed most easily between:",
+    "options": [
+      "two elements with the same electronegativity",
+      "an element with a high ionisation enthalpy and a metal",
+      "an element with a low ionisation enthalpy and one with a high negative electron gain enthalpy",
+      "two elements with a high ionisation enthalpy and a low electron gain enthalpy"
+    ],
+    "ans": 2,
+    "solution": "The metal gives up electrons easily, and the non-metal takes them readily. A large lattice enthalpy then makes the solid stable. NaCl is an example. A bond between two atoms of the same electronegativity is covalent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m03",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The lattice enthalpy of an ionic solid is the energy that is:",
+    "options": [
+      "released when an electron is added to a gaseous atom",
+      "released when one mole of the solid is formed from its gaseous ions",
+      "needed to break one mole of covalent bonds in a gas",
+      "needed to remove one electron from a gaseous atom"
+    ],
+    "ans": 1,
+    "solution": "A larger lattice enthalpy means a more stable ionic solid. It is greater for ions with a larger charge and a smaller size, so MgO has a much higher value than NaCl.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m04",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The formal charge of an atom in a Lewis structure is given by:",
+    "options": [
+      "valence electrons − non-bonding electrons − (bonding electrons)/2",
+      "non-bonding electrons − bonding electrons",
+      "valence electrons − bonding electrons − (non-bonding electrons)/2",
+      "valence electrons + non-bonding electrons + (bonding electrons)/2"
+    ],
+    "ans": 0,
+    "solution": "It is the charge that an atom would have if the bonding electrons were shared equally. The sum of the formal charges of all the atoms is the charge of the molecule or ion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m05",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the nitrate ion, NO₃⁻, the formal charge on the nitrogen atom, which has one double bond and two single bonds, is:",
+    "options": [
+      "+2",
+      "0",
+      "−1",
+      "+1"
+    ],
+    "ans": 3,
+    "solution": "Nitrogen has 5 valence electrons, no lone pair, and 4 bonds (8 bonding electrons). FC = 5 − 0 − 8/2 = +1. The two singly bonded oxygen atoms have −1 each, and the sum is +1 − 2 + 0 = −1, the charge of the ion.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m06",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "According to the VSEPR theory, the shape of a molecule is determined by:",
+    "options": [
+      "the size of the atoms joined to the central atom, and nothing else",
+      "the attraction between the nuclei of the atoms in the molecule",
+      "the repulsion between the electron pairs in the valence shell of the central atom",
+      "the number of neutrons in the nucleus of the central atom"
+    ],
+    "ans": 2,
+    "solution": "The electron pairs, bonding and lone, arrange themselves as far apart as possible. Lone pairs repel more than the bonding pairs, so the order of repulsion is lp–lp, then lp–bp, then bp–bp.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m07",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The shape of the BeCl₂ molecule in the gas phase is:",
+    "options": [
+      "bent, with the angle Cl–Be–Cl of 104.5°",
+      "linear, with the angle Cl–Be–Cl of 180°",
+      "trigonal planar, with the angle Cl–Be–Cl of 120°",
+      "tetrahedral, with the angle Cl–Be–Cl of 109.5°"
+    ],
+    "ans": 1,
+    "solution": "Beryllium has two bonding pairs and no lone pair. The two pairs go to the opposite sides of the atom, so the molecule is linear (sp hybridisation).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m08",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The shape of the NH₃ molecule is:",
+    "options": [
+      "trigonal pyramidal, because of one lone pair on nitrogen",
+      "tetrahedral, because it has no lone pair on nitrogen",
+      "bent, because of two lone pairs on nitrogen",
+      "trigonal planar, because it has no lone pair on nitrogen"
+    ],
+    "ans": 0,
+    "solution": "Nitrogen has four electron pairs (three bonding and one lone), so they are arranged as in a tetrahedron, but the shape of the atoms is a pyramid. The lone pair squeezes the angle H–N–H to 107°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m09",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The H–O–H bond angle in water, 104.5°, is less than the tetrahedral angle of 109.5° because:",
+    "options": [
+      "the oxygen atom is smaller than the nitrogen atom",
+      "the two hydrogen atoms repel each other more strongly",
+      "the bonds in water are ionic, and not covalent",
+      "the two lone pairs on the oxygen repel the bonding pairs more strongly"
+    ],
+    "ans": 3,
+    "solution": "Water has four electron pairs, two bonding and two lone. The lone pairs take more space than the bonding pairs and push the O–H bonds closer. The molecule is bent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m10",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The shape of the SF₆ molecule, which has six bonding pairs and no lone pair, is:",
+    "options": [
+      "trigonal bipyramidal, with the bond angles of 90° and 120°",
+      "octahedral, with all the bond angles of 90°",
+      "tetrahedral, with all the bond angles of 109.5°",
+      "square planar, with all the bond angles of 90°"
+    ],
+    "ans": 1,
+    "solution": "Six pairs are arranged at the corners of an octahedron, with sp³d² hybridisation. PCl₅ with five bonding pairs is trigonal bipyramidal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m11",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A sigma (σ) bond is formed by:",
+    "options": [
+      "the overlap of the orbitals along the line joining the nuclei",
+      "the overlap of an s orbital with an empty orbital only",
+      "the sideways overlap of the p orbitals above and below the axis",
+      "the transfer of an electron from one atom to another"
+    ],
+    "ans": 0,
+    "solution": "A sigma bond has the electron density along the internuclear axis, and it can rotate freely. A pi bond is formed by the sideways overlap of p orbitals, and it is weaker.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m12",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of sigma and pi bonds in the ethene molecule, C₂H₄, is respectively:",
+    "options": [
+      "4 sigma bonds and 2 pi bonds",
+      "6 sigma bonds and 0 pi bonds",
+      "5 sigma bonds and 1 pi bond",
+      "3 sigma bonds and 3 pi bonds"
+    ],
+    "ans": 2,
+    "solution": "The C=C double bond is one sigma and one pi bond. The four C–H bonds are four sigma bonds. So there are 5 sigma and 1 pi bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m13",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The carbon atom in methane, CH₄, is:",
+    "options": [
+      "sp³ hybridised, with the bond angle of 109.5°",
+      "sp³d hybridised, with the bond angle of 90°",
+      "sp² hybridised, with the bond angle of 120°",
+      "sp hybridised, with the bond angle of 180°"
+    ],
+    "ans": 0,
+    "solution": "One s orbital and three p orbitals mix to give four equivalent sp³ orbitals, directed to the corners of a tetrahedron. Each overlaps with the 1s orbital of a hydrogen atom.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m14",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The percentage of s character in an sp² hybrid orbital is:",
+    "options": [
+      "50 percent",
+      "25 percent",
+      "66.7 percent",
+      "33.3 percent"
+    ],
+    "ans": 3,
+    "solution": "An sp² orbital is made from one s and two p orbitals, so the s share is 1/3. For sp³ it is 25 percent, and for sp it is 50 percent. A higher s character means a shorter and stronger bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m15",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the molecular orbital theory, the bond order of a molecule is:",
+    "options": [
+      "the number of the electrons in the bonding orbitals only",
+      "half of the difference between the number of electrons in the bonding and the antibonding orbitals",
+      "twice the number of the electrons in the antibonding orbitals",
+      "the sum of the electrons in the bonding and the antibonding orbitals"
+    ],
+    "ans": 1,
+    "solution": "Bond order = (N_b − N_a)/2. A positive value means that the molecule is stable. A bond order of zero means that the molecule does not exist, as for He₂.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m16",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The bond order of the nitrogen molecule, N₂, is:",
+    "options": [
+      "3, and the molecule is paramagnetic",
+      "2, and the molecule is paramagnetic",
+      "3, and the molecule is diamagnetic",
+      "2, and the molecule is diamagnetic"
+    ],
+    "ans": 2,
+    "solution": "N₂ has 10 bonding electrons and 4 antibonding electrons, so the bond order is (10 − 4)/2 = 3. All its electrons are paired, so it is diamagnetic. This strong triple bond makes N₂ very unreactive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m17",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The oxygen molecule, O₂, is paramagnetic. This is explained by the molecular orbital theory, as it has:",
+    "options": [
+      "one unpaired electron in the bonding σ orbital",
+      "two unpaired electrons in the bonding π orbitals",
+      "no unpaired electrons, all being in the bonding orbitals",
+      "two unpaired electrons in the antibonding π* orbitals"
+    ],
+    "ans": 3,
+    "solution": "The last two electrons of O₂ go one into each of the two degenerate π* orbitals, by Hund's rule, with parallel spins. The bond order is (10 − 6)/2 = 2. This could not be explained by the Lewis structure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m18",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "As the bond order increases, the bond length of a bond between the same two atoms:",
+    "options": [
+      "increases, and the bond energy increases",
+      "decreases, and the bond energy increases",
+      "stays the same, and the bond energy increases",
+      "decreases, and the bond energy decreases"
+    ],
+    "ans": 1,
+    "solution": "A higher bond order means more shared electrons, which pull the nuclei closer together and hold them more strongly. The C–C bond is 154 pm, C=C is 134 pm, and C≡C is 120 pm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m19",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The dipole moment of a bond is defined as:",
+    "options": [
+      "the sum of the charge and the distance between the charges",
+      "the ratio of the charge to the distance between the charges",
+      "the product of the charge and the distance between the two charges, μ = Q × r",
+      "the product of the charge and the square of the distance"
+    ],
+    "ans": 2,
+    "solution": "It is a vector, drawn from the positive end to the negative end of the bond. The unit is the debye, 1 D = 3.336 × 10⁻³⁰ C m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m20",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The CO₂ molecule has polar C=O bonds, but its dipole moment is zero because:",
+    "options": [
+      "the molecule is linear, and the two bond dipoles cancel each other",
+      "carbon is more electronegative than oxygen",
+      "the molecule is bent, and the two bond dipoles cancel each other",
+      "the C=O bonds are non-polar in this molecule"
+    ],
+    "ans": 0,
+    "solution": "The two C=O dipoles are equal in size and point in the opposite directions in a linear molecule. Water has a bent shape, and so it has a net dipole moment. BF₃ and CCl₄ are also non-polar, because of their symmetry.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m21",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following molecules has a non-zero dipole moment?",
+    "options": [
+      "CO₂, because oxygen is more electronegative than carbon",
+      "NH₃, because it is pyramidal and the bond dipoles do not cancel",
+      "CCl₄, because the chlorine atoms are very electronegative",
+      "BF₃, because the fluorine atoms are very electronegative"
+    ],
+    "ans": 1,
+    "solution": "BF₃ (trigonal planar), CCl₄ (tetrahedral) and CO₂ (linear) are symmetrical, so the bond dipoles add up to zero. NH₃ is pyramidal, and the lone pair adds to the bond dipoles, so the net moment is 1.47 D.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m22",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Resonance is the description of a molecule by:",
+    "options": [
+      "two or more Lewis structures that have different atoms in them",
+      "a single Lewis structure with all the electrons in lone pairs",
+      "a Lewis structure that changes into another one with time",
+      "two or more Lewis structures that differ only in the positions of the electrons"
+    ],
+    "ans": 3,
+    "solution": "The real molecule is a resonance hybrid, which is a mixture of the contributing structures, and is more stable than any of them. The structures are not real, and the molecule does not switch between them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-m23",
+    "ch": "chem-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the ozone molecule, O₃, the two O–O bond lengths are:",
+    "options": [
+      "different, one being single and the other double",
+      "different, because the central atom is more electronegative",
+      "equal, because of resonance",
+      "equal, because ozone is a linear molecule"
+    ],
+    "ans": 2,
+    "solution": "Ozone has two resonance structures, with the double bond on either side. In the hybrid, both bonds are the same, with a bond order of 1.5, and a length of 128 pm, between O–O (148 pm) and O=O (121 pm).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-03-n01",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the bond order of the peroxide ion, O₂²⁻, which has 18 electrons in the molecular orbitals. Give your answer to 1 decimal place.",
+    "ans": 1.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The molecular orbitals of O₂²⁻ are filled as σ1s² σ*1s² σ2s² σ*2s² σ2p² π2p⁴ π*2p⁴. N_b = 2 + 2 + 2 + 4 = 10 and N_a = 2 + 2 + 4 = 8. Bond order = (10 − 8)/2 = 1.0. Check: filling the orbitals one after another, in the order of the energy, with the 18 electrons, gives the same count. There is a single O–O bond, as in peroxides.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n02",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the bond order of the N₂⁺ ion, which has 13 electrons in the molecular orbitals, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 2.5,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "For N₂⁺, the orbitals hold σ1s² σ*1s² σ2s² σ*2s² π2p⁴ σ2p¹. So N_b = 2 + 2 + 4 + 1 = 9 and N_a = 4. Bond order = (9 − 4)/2 = 2.5. Check: filling the orbitals with 13 electrons in the order of the energy gives the same N_b and N_a. The ion has one unpaired electron, so it is paramagnetic.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n03",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the formal charge on the nitrogen atom in the nitrate ion NO₃⁻. The Lewis structure has one N=O double bond and two N–O single bonds (each singly bonded O has 3 lone pairs, and the doubly bonded O has 2 lone pairs). Give your answer as a whole number.",
+    "ans": 1.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "For N: FC = 5 − 0 − 8/2 = +1. Check by charge balance: each singly bonded O has FC = 6 − 6 − 2/2 = −1, and the double bonded O has FC = 6 − 4 − 4/2 = 0. The total charge of the ion is −1, so FC(N) = −1 − (−1 − 1 + 0) = +1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n04",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "The measured dipole moment of HCl is 1.03 D and its bond length is 127 pm. Find the percentage ionic character of the bond (1 D = 3.336 × 10⁻³⁰ C m, e = 1.6 × 10⁻¹⁹ C), to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 16.9,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "If the bond were 100 percent ionic, μ = e × r = 1.6 × 10⁻¹⁹ × 127 × 10⁻¹² = 2.03 × 10⁻²⁹ C m = 6.09 D. The percentage ionic character is 1.03/6.09 × 100 = 16.9. Check: the effective charge on each atom is q = μ/r = 1.03 × 3.336 × 10⁻³⁰/127 × 10⁻¹² = 2.7 × 10⁻²⁰ C, which is 0.169 of the charge of an electron.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n05",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Each O–H bond in water has a dipole moment of 1.51 D, and the H–O–H angle is 104.5°. Find the dipole moment of the molecule, in D, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 1.85,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "μ = 2μ₁ cos(θ/2) = 2 × 1.51 × cos 52.25° = 2 × 1.51 × 0.6122 = 1.85 D. Check: resolving each bond moment along the axis of the molecule and adding them (the components across the axis cancel) gives 1.85 D.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n06",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the number of sigma bonds in the molecule CH₃–CH=CH–C≡CH. Give your answer as a whole number.",
+    "ans": 10,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Counting the bonds: there are 6 C–H bonds and 4 C–C links (every link between two carbon atoms has one sigma bond, whether it is single, double or triple). So the sigma bonds number 6 + 4 = 10. The pi bonds are 1 (double) + 2 (triple) = 3. Check: listing the bonds one by one, there are 10 links, each of which has one sigma bond.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n07",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the steric number (the number of bonding pairs plus lone pairs on the central atom) of xenon in XeF₄. Xenon has 8 valence electrons. Give your answer as a whole number.",
+    "ans": 6.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Steric number = (valence electrons of Xe + number of monovalent atoms)/2 = (8 + 4)/2 = 6. Check: there are 4 bonding pairs, and the other 8 − 4 = 4 electrons form 2 lone pairs, so 4 + 2 = 6. The six pairs point to the corners of an octahedron, and the two lone pairs are on opposite sides, so the molecule is square planar.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-03-n08",
+    "ch": "chem-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Use the bond energies H–H = 436, Cl–Cl = 243 and H–Cl = 431 kJ/mol to find the enthalpy change of H₂ + Cl₂ → 2HCl, in kJ. Give your answer as a whole number.",
+    "ans": -183,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Energy needed to break the bonds of the reactants: 436 + 243 = 679 kJ. Energy released in forming 2 mol of H–Cl bonds: 2 × 431 = 862 kJ. ΔH = 679 − 862 = −183 kJ. The reaction gives out heat. Check: adding up the energy of each bond that is broken and subtracting that of each bond that is formed gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-11-04-b01",
     "ch": "chem-11-04",
     "type": "mcq",
@@ -4762,6 +5327,1047 @@
     ]
   },
   {
+    "id": "chem-11-06-m01",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The forces between the molecules of a substance are called:",
+    "options": [
+      "gravitational forces, which are the strongest between the molecules",
+      "nuclear forces, which hold the nuclei together",
+      "intramolecular forces, which are much stronger than the forces inside the molecules",
+      "intermolecular forces, which are much weaker than the forces inside the molecules"
+    ],
+    "ans": 3,
+    "solution": "The covalent bonds inside a molecule are strong, 200 to 500 kJ/mol. The forces between molecules are weak, from 1 to 40 kJ/mol. They decide the boiling point and the state of a substance.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m02",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of the following intermolecular forces acts between all molecules, including the non-polar ones?",
+    "options": [
+      "hydrogen bonds",
+      "dispersion (London) forces",
+      "ion–dipole forces",
+      "dipole–dipole forces"
+    ],
+    "ans": 1,
+    "solution": "A moving electron cloud gives a temporary dipole in a molecule, which induces a dipole in the neighbour. These forces get stronger as the molecule gets larger. The other three need polar molecules or ions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m03",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Water boils at a much higher temperature than hydrogen sulfide, H₂S, because:",
+    "options": [
+      "H₂S molecules are linked by stronger hydrogen bonds",
+      "sulfur is more electronegative than oxygen is",
+      "molecules of water are held together by hydrogen bonds",
+      "water has a smaller molar mass than H₂S has"
+    ],
+    "ans": 2,
+    "solution": "The hydrogen in water is bonded to the small, highly electronegative oxygen, so strong O–H···O bonds form between the molecules. H₂S has only weaker dipole–dipole and dispersion forces.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m04",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following is a characteristic property of gases?",
+    "options": [
+      "they can be compressed easily, as the molecules are far apart",
+      "they cannot mix with other gases",
+      "they have a high density, close to that of solids",
+      "they have a fixed volume and take the shape of the container"
+    ],
+    "ans": 0,
+    "solution": "A gas has no fixed shape or volume, and fills the whole container. The molecules are far apart, so there is a lot of empty space, and the gas can be compressed. All gases mix completely.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m05",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Boyle's law states that, for a fixed amount of gas at a constant temperature, the volume is:",
+    "options": [
+      "independent of the pressure",
+      "directly proportional to the square of the pressure",
+      "inversely proportional to the pressure",
+      "directly proportional to the pressure"
+    ],
+    "ans": 2,
+    "solution": "PV = constant. If the pressure is doubled, the volume is halved. A graph of P against 1/V is a straight line through the origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m06",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Charles' law states that, for a fixed amount of gas at a constant pressure, the volume is:",
+    "options": [
+      "directly proportional to the temperature in kelvin",
+      "directly proportional to the temperature in degrees Celsius",
+      "independent of the temperature",
+      "inversely proportional to the temperature in kelvin"
+    ],
+    "ans": 0,
+    "solution": "V/T = constant, with T in kelvin. A graph of the volume against the Celsius temperature is a straight line that cuts the temperature axis at −273.15 °C, where the volume would be zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m07",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A gas is heated from 27 °C to 327 °C at a constant pressure. Its volume becomes:",
+    "options": [
+      "the same as the original",
+      "half of the original",
+      "eleven times the original",
+      "twice the original"
+    ],
+    "ans": 3,
+    "solution": "The temperatures in kelvin are 300 K and 600 K. V is proportional to T, so the volume doubles. Using Celsius values would give a wrong factor of 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m08",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Avogadro's law states that, at the same temperature and pressure, equal volumes of all gases contain:",
+    "options": [
+      "the same number of atoms",
+      "the same number of molecules",
+      "the same density of gas",
+      "the same mass of gas"
+    ],
+    "ans": 1,
+    "solution": "V ∝ n at a constant T and P. Equal volumes have equal numbers of molecules, whatever the gas, and 1 mol of any gas at STP occupies 22.4 L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m09",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The ideal gas equation for n moles of a gas is:",
+    "options": [
+      "PV = nRT",
+      "PT = nRV",
+      "P = nRTV",
+      "PV = RT/n"
+    ],
+    "ans": 0,
+    "solution": "It combines the laws of Boyle, Charles and Avogadro. R is the gas constant. It has the value 8.314 J/(mol K), or 0.08206 L atm/(mol K), and the unit must match the units of P and V.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m10",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The gas constant R has the value 0.08206 when the pressure and the volume are given respectively in:",
+    "options": [
+      "bar and cubic metre",
+      "torr and litre",
+      "atmosphere and litre",
+      "pascal and cubic metre"
+    ],
+    "ans": 2,
+    "solution": "R = 8.314 J/(mol K) when P is in Pa and V in m³ (since Pa m³ = J). In L atm, R = 0.08206, since 1 atm L = 101.3 J.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m11",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The molar mass M of a gas of density d at the pressure P and the temperature T is given by:",
+    "options": [
+      "M = dP/RT",
+      "M = dRT/P",
+      "M = d/(RTP)",
+      "M = RT/(dP)"
+    ],
+    "ans": 1,
+    "solution": "PV = (m/M)RT, so M = (m/V)RT/P = dRT/P. For a gas of density 1.25 g/L at 273 K and 1 atm, M = 1.25 × 0.0821 × 273/1 = 28 g/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m12",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The kinetic molecular theory assumes that the molecules of a gas:",
+    "options": [
+      "move in straight lines at the same speed, with no collisions",
+      "have a volume that is large compared with the volume of the gas",
+      "are at rest, and attract each other strongly",
+      "are in constant random motion, and collide elastically"
+    ],
+    "ans": 3,
+    "solution": "The theory also assumes that the molecules are so small that their volume can be ignored, and that there are no forces between them. The pressure is due to the collisions with the walls.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m13",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The average kinetic energy of the molecules of a gas is proportional to:",
+    "options": [
+      "the molar mass, and it is greater for heavier gases",
+      "the absolute temperature, and it is the same for all gases at the same temperature",
+      "the volume, and it is the same for all gases in the same volume",
+      "the pressure, and it is the same for all gases at the same pressure"
+    ],
+    "ans": 1,
+    "solution": "KE = (3/2)kT per molecule. At the same temperature, a light molecule moves faster than a heavy one, but they have the same average kinetic energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m14",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At the same temperature, the average speed of the molecules of hydrogen, compared with that of oxygen, is:",
+    "options": [
+      "the same",
+      "2 times as large",
+      "16 times as large",
+      "4 times as large"
+    ],
+    "ans": 3,
+    "solution": "The kinetic energies are equal, (1/2)mv², so v is proportional to 1/√M. The ratio is √(32/2) = √16 = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m15",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A real gas behaves most like an ideal gas at:",
+    "options": [
+      "high temperature and low pressure",
+      "high temperature and high pressure",
+      "low temperature and low pressure",
+      "low temperature and high pressure"
+    ],
+    "ans": 0,
+    "solution": "At a low pressure, the molecules are far apart, so their own volume and the attractions between them are small. At a high temperature, the kinetic energy is large compared with the attractions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m16",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The compressibility factor Z of a gas is defined as:",
+    "options": [
+      "Z = PV/RT, which is 0 for an ideal gas",
+      "Z = PT/(nRV), which is 1 for an ideal gas",
+      "Z = PV/(nRT), which is 1 for an ideal gas",
+      "Z = nRT/(PV), which is 1 for an ideal gas"
+    ],
+    "ans": 2,
+    "solution": "Z is the ratio of the actual molar volume to the ideal one. If Z is less than 1, attractions help the compression. If Z is more than 1, the volume of the molecules makes the gas harder to compress.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m17",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "At very high pressures, the compressibility factor Z of every gas is:",
+    "options": [
+      "equal to zero, because the volume becomes zero",
+      "equal to 1, because the gas behaves ideally",
+      "less than 1, because the attractions between the molecules are strong",
+      "greater than 1, because the volume of the molecules cannot be ignored"
+    ],
+    "ans": 3,
+    "solution": "At very high pressure, the molecules are so close together that their own volume matters, and the repulsion makes the gas harder to compress than an ideal gas. So Z is above 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m18",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A gas can be liquefied by an increase of pressure only if its temperature is:",
+    "options": [
+      "below its critical temperature",
+      "above its boiling point at all times",
+      "equal to 0 °C",
+      "above its critical temperature"
+    ],
+    "ans": 0,
+    "solution": "Above the critical temperature, the kinetic energy of the molecules is too large for the attractions to hold them together, whatever the pressure. So oxygen, with a critical temperature of −118 °C, cannot be liquefied at room temperature.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m19",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The vapour pressure of a liquid, in a closed vessel, with a rise of temperature:",
+    "options": [
+      "becomes zero, since the liquid is heated",
+      "increases, since more molecules have enough energy to escape",
+      "stays the same, since the amount of liquid is the same",
+      "decreases, since the molecules move more slowly"
+    ],
+    "ans": 1,
+    "solution": "The vapour pressure is the pressure of the vapour in equilibrium with the liquid. It rises quickly with temperature. A liquid boils when its vapour pressure equals the external pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m20",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "On a high mountain, water boils at a temperature lower than 100 °C, because:",
+    "options": [
+      "the external pressure is higher, so the vapour pressure equals it at a lower temperature",
+      "the water has less dissolved gas in it than at sea level",
+      "the external pressure is lower, so the vapour pressure equals it at a lower temperature",
+      "the intermolecular forces in water become weaker at a height"
+    ],
+    "ans": 2,
+    "solution": "The boiling point is the temperature at which the vapour pressure equals the external pressure. At a lower atmospheric pressure, this happens at a lower temperature. A pressure cooker works the other way round, at a higher pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m21",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Surface tension and viscosity of a liquid, with a rise in temperature:",
+    "options": [
+      "both increase",
+      "surface tension increases and viscosity decreases",
+      "both decrease",
+      "both stay the same"
+    ],
+    "ans": 2,
+    "solution": "At a higher temperature, the molecules have more kinetic energy, and the intermolecular forces are less effective. So the liquid flows more easily, and the surface is less tight.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-m22",
+    "ch": "chem-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Dalton's law of partial pressures applies to a mixture of gases that:",
+    "options": [
+      "react with each other, and the total pressure is the product of the partial pressures",
+      "are all at the same pressure, and the total pressure is that of one of them",
+      "do not react with each other, and the total pressure is the average of the partial pressures",
+      "do not react with each other, and the total pressure is the sum of the partial pressures"
+    ],
+    "ans": 3,
+    "solution": "Each gas acts as if it were alone in the container. P_total = p₁ + p₂ + …, and the partial pressure of a gas is the mole fraction times the total pressure.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-06-n01",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A gas occupies 2.0 L at 1.0 atm. It is compressed at a constant temperature to 0.50 L. Find the new pressure, in atm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "By Boyle's law, P₁V₁ = P₂V₂, so P₂ = 1.0 × 2.0/0.50 = 4.0 atm. Check: the amount of gas, from PV = nRT at the first state, is the same at the second state, so P₂ = nRT/V₂ gives 4.0 atm (take T = 300 K, the same in both states).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n02",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "A gas has a volume of 3.0 L at 27 °C and a constant pressure. Find its volume at 127 °C, in L, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By Charles' law, V₂ = V₁T₂/T₁ = 3.0 × 400.15/300.15 = 4.000 L. The temperatures must be in kelvin. Check: at 1 atm, the amount of gas is n = PV/RT = 3.0/(0.08206 × 300.15) = 0.1218 mol, and V₂ = nRT₂/P = 4.000 L.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n03",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the number of moles of a gas in a flask of 5.0 L at a pressure of 2.0 atm and a temperature of 300 K (R = 0.08206 L atm/(mol K)), to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.406,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "n = PV/RT = 2.0 × 5.0/(0.08206 × 300) = 0.406 mol. Check: at 273.15 K and 1 atm, the same amount has the volume 2.0 × 5.0 × 273.15/300 = 9.105 L. As 1 mol is 22.414 L, n = 9.105/22.414 = 0.406 mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n04",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "A gas has a density of 1.25 g/L at 273.15 K and 1.00 atm. Find its molar mass, in g/mol, to 1 decimal place (R = 0.08206 L atm/(mol K)). Give your answer to 1 decimal place.",
+    "ans": 28.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "M = dRT/P = 1.25 × 0.08206 × 273.15/1.00 = 28.0 g/mol. This agrees with nitrogen, N₂ (28). Check: 1 mol occupies 22.414 L at these conditions, so its mass is 1.25 g/L × 22.414 L = 28.0 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n05",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "2.0 L of a gas at 1.0 atm and 300 K is changed to 1.0 L at 600 K. Find the final pressure, in atm, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "P₁V₁/T₁ = P₂V₂/T₂, so P₂ = 1.0 × 2.0 × 600/(300 × 1.0) = 4.0 atm. Check: first compress at 300 K from 2.0 L to 1.0 L, which gives 2.0 atm (Boyle). Then heat at constant volume from 300 K to 600 K, which doubles the pressure (Gay-Lussac) to 4.0 atm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n06",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "One mole of a real gas has a volume of 2.0 L at a pressure of 10 atm and a temperature of 300 K. Find the compressibility factor Z, to 3 decimal places (R = 0.08206 L atm/(mol K)). Give your answer to 3 decimal places.",
+    "ans": 0.812,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Z = PV/(nRT) = 10 × 2.0/(1 × 0.08206 × 300) = 0.812. It is less than 1, so the attractions between the molecules help the compression. Check: the ideal molar volume at 10 atm and 300 K is RT/P = 2.462 L, and Z = V/V_ideal = 2.0/2.462 = 0.812.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n07",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the ratio of the rates of effusion of hydrogen (molar mass 2.0 g/mol) and oxygen (32 g/mol) under the same conditions. Give your answer to 1 decimal place.",
+    "ans": 4.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "By Graham's law, the rate is inversely proportional to the square root of the molar mass: rate(H₂)/rate(O₂) = √(32/2.0) = √16 = 4.0. Check: the root mean square speed is √(3RT/M). The ratio of the speeds of the molecules of H₂ and O₂ at the same temperature is also 4.0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-06-n08",
+    "ch": "chem-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the pressure of 0.50 mol of a gas in a vessel of 10 L at 25 °C, in kPa, to the nearest whole number (R = 8.314 J/(mol K)). Give your answer as a whole number.",
+    "ans": 124.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "P = nRT/V = 0.50 × 8.314 × 298.15/0.010 = 1.239 × 10⁵ Pa = 124 kPa. The volume was changed to m³: 10 L = 0.010 m³. Check: using R = 0.08206 L atm/(mol K), P = 0.50 × 0.08206 × 298.15/10 = 1.223 atm, and 1.223 × 101.325 = 124 kPa.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-07-m01",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Adsorption is the process in which molecules of a gas or a liquid:",
+    "options": [
+      "react with the whole volume of a solid",
+      "stick to the surface of a solid or a liquid",
+      "enter the whole body of a solid or a liquid",
+      "separate from the surface of a solid or a liquid"
+    ],
+    "ans": 1,
+    "solution": "It is a surface phenomenon. The substance that is taken up is the adsorbate, and the solid is the adsorbent. If the substance goes into the whole volume, it is absorption.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m02",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Water taken up by a sponge, and a gas held on the surface of charcoal, are examples respectively of:",
+    "options": [
+      "adsorption and adsorption",
+      "adsorption and absorption",
+      "absorption and absorption",
+      "absorption and adsorption"
+    ],
+    "ans": 3,
+    "solution": "In a sponge, the water goes through the whole body of the material, which is absorption. On charcoal, the gas stays on the surface, which is adsorption. Both together are called sorption.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m03",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Physical adsorption (physisorption) is caused by:",
+    "options": [
+      "nuclear forces between the gas and the surface",
+      "ionic bonds between the gas and the surface",
+      "weak van der Waals forces between the gas and the surface",
+      "strong chemical bonds between the gas and the surface"
+    ],
+    "ans": 2,
+    "solution": "The heat of physisorption is low, 20 to 40 kJ/mol. It is reversible, is not specific, and can build up several layers. Chemisorption involves chemical bonds, and the heat is 80 to 240 kJ/mol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m04",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following statements is true for chemisorption?",
+    "options": [
+      "it is specific, and it is limited to a single layer",
+      "it is not specific, and it forms many layers",
+      "it has a low enthalpy of adsorption, and it is unaffected by the nature of the surface",
+      "it is reversible, and it is caused by van der Waals forces"
+    ],
+    "ans": 0,
+    "solution": "Chemisorption needs a chemical reaction between the gas and the surface, so it is specific and stops at one layer. It is usually irreversible, and it may need some activation energy, so it can increase with the temperature at first.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m05",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Physical adsorption of a gas on a solid, when the temperature is raised, usually:",
+    "options": [
+      "becomes chemical adsorption at once",
+      "decreases, since the adsorption is exothermic",
+      "stays the same, since it is a surface effect",
+      "increases, since the molecules move faster"
+    ],
+    "ans": 1,
+    "solution": "Adsorption gives out heat, so by Le Chatelier's principle, a lower temperature favours it. At a high temperature, the molecules have enough energy to leave the surface.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m06",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Among the gases listed, the one that is adsorbed most strongly on charcoal is the one that:",
+    "options": [
+      "has the lowest critical temperature",
+      "is hard to liquefy, like hydrogen or helium",
+      "is easily liquefied, like ammonia or chlorine",
+      "has the smallest molar mass"
+    ],
+    "ans": 2,
+    "solution": "Gases that are easily liquefied have stronger van der Waals forces, and they have a higher critical temperature. For example, charcoal adsorbs NH₃ and SO₂ much more than H₂ or N₂.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m07",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The amount of gas adsorbed by a solid increases when the solid is:",
+    "options": [
+      "covered with a layer of oil",
+      "heated to a high temperature before use",
+      "made into a single large lump, with a small surface area",
+      "divided into a fine powder, which gives a larger surface area"
+    ],
+    "ans": 3,
+    "solution": "Adsorption takes place on the surface, so a larger area adsorbs more. This is why finely divided charcoal, and porous solids like silica gel, are used as adsorbents.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m08",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The Freundlich adsorption isotherm is given by:",
+    "options": [
+      "x/m = kP^(1/n)",
+      "x/m = k P",
+      "x/m = k/P^(1/n)",
+      "x/m = kP^n"
+    ],
+    "ans": 0,
+    "solution": "x is the mass of the gas adsorbed by the mass m of the adsorbent at the pressure P, and k and n are constants that depend on the system and the temperature. A plot of log(x/m) against log P is a straight line with the slope 1/n.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m09",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the Freundlich isotherm, the slope of a graph of log(x/m) against log P is:",
+    "options": [
+      "1/n, and its value lies between 0 and 1",
+      "n, and its value lies between 1 and 5",
+      "log k, and its value is always positive",
+      "k/n, and its value is always 1"
+    ],
+    "ans": 0,
+    "solution": "log(x/m) = log k + (1/n) log P. The intercept is log k. For 1/n = 1, the adsorption is proportional to the pressure. If 1/n tends to zero, it no longer depends on the pressure, because the surface is full.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m10",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Activated charcoal is used in gas masks because it:",
+    "options": [
+      "reacts with all the gases to make harmless solids",
+      "absorbs the gases into its whole body, like a sponge",
+      "adsorbs the poisonous gases on its large surface",
+      "heats the air that is breathed in"
+    ],
+    "ans": 2,
+    "solution": "Activated charcoal has a very large surface area, and it adsorbs many gases. Other uses are the removal of colour in the refining of sugar, and the purification of water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m11",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Silica gel is used to keep things dry, in a box of shoes or in a camera bag, because it:",
+    "options": [
+      "heats the air and dries it",
+      "dissolves the water vapour in its whole body",
+      "reacts with water to form a new compound",
+      "adsorbs the water vapour from the air on its surface"
+    ],
+    "ans": 3,
+    "solution": "Silica gel is a porous solid with a very large surface, and it adsorbs moisture. It can be dried in an oven and used again.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m12",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A catalyst is a substance that:",
+    "options": [
+      "starts a reaction that is not possible without it, and is used up",
+      "changes the rate of a reaction, and is not used up in it",
+      "changes the enthalpy of the reaction, and is not used up in it",
+      "changes the position of equilibrium, and is used up in the reaction"
+    ],
+    "ans": 1,
+    "solution": "A catalyst provides an alternative path with a lower activation energy. It does not change the equilibrium constant or ΔH, as it speeds up the forward and the reverse reactions equally.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m13",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The use of a catalyst in a reversible reaction changes:",
+    "options": [
+      "the enthalpy change of the reaction",
+      "both the equilibrium composition and the time taken",
+      "the equilibrium composition, but not the time taken to reach equilibrium",
+      "the time taken to reach equilibrium, but not the equilibrium composition"
+    ],
+    "ans": 3,
+    "solution": "A catalyst speeds up the forward and the reverse reaction by the same factor. So the system gets to equilibrium faster, but the final amounts of the reactants and the products are the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m14",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In heterogeneous catalysis, the catalyst:",
+    "options": [
+      "is always a liquid",
+      "is always a gas",
+      "is in a phase different from that of the reactants",
+      "is in the same phase as the reactants"
+    ],
+    "ans": 2,
+    "solution": "An example is the iron catalyst, a solid, in the Haber process for the gases N₂ and H₂. In homogeneous catalysis, such as NO in the oxidation of SO₂, all are in the gas phase.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m15",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A substance that increases the activity of a catalyst is called:",
+    "options": [
+      "a poison",
+      "a promoter",
+      "an adsorbent",
+      "an inhibitor"
+    ],
+    "ans": 1,
+    "solution": "For example, molybdenum is a promoter for the iron catalyst in the Haber process. A poison, such as arsenic compounds for platinum, reduces the activity of a catalyst.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m16",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the adsorption theory of heterogeneous catalysis, the correct order of the steps is:",
+    "options": [
+      "diffusion, adsorption, formation of an intermediate, formation of the product, desorption",
+      "adsorption, diffusion, desorption, formation of the product, formation of an intermediate",
+      "formation of the product, adsorption, diffusion, desorption, formation of an intermediate",
+      "diffusion, desorption, adsorption, formation of an intermediate, formation of the product"
+    ],
+    "ans": 0,
+    "solution": "The reactants diffuse to the surface, are adsorbed, react to give an intermediate and then the product, and the product is desorbed, leaving the surface free for new reactant molecules. The catalyst is not changed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m17",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The size of the particles in a colloidal solution is about:",
+    "options": [
+      "2 nm to 500 nm",
+      "0.1 nm to 2 nm",
+      "less than 0.1 nm",
+      "more than 1000 nm"
+    ],
+    "ans": 0,
+    "solution": "A true solution has particles of less than about 2 nm. A suspension has particles of more than about 1000 nm, which settle on standing. A colloid is in between, and does not settle, but can scatter light.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m18",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The scattering of a beam of light by the particles of a colloid, which makes the path of the beam visible, is called:",
+    "options": [
+      "coagulation",
+      "electrophoresis",
+      "the Brownian movement",
+      "the Tyndall effect"
+    ],
+    "ans": 3,
+    "solution": "It can be used to tell a colloid from a true solution, which does not scatter light. It is why a beam of sunlight is seen in a dusty or smoky room.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m19",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a colloidal solution, the continuous medium in which the particles are spread is called the:",
+    "options": [
+      "solvent, and the particles are the solute",
+      "dispersion medium, and the particles are the dispersed phase",
+      "dispersed phase, and the particles are the dispersion medium",
+      "adsorbent, and the particles are the adsorbate"
+    ],
+    "ans": 1,
+    "solution": "In a sol of gold in water, the gold particles are the dispersed phase, and water is the dispersion medium. A solution has a solvent and a solute, which are not the terms for a colloid.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m20",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following is a colloidal system?",
+    "options": [
+      "salt in water, which is a true solution",
+      "sand in water, which is a suspension",
+      "milk, which is an emulsion of fat in water",
+      "air, which is a mixture of gases"
+    ],
+    "ans": 2,
+    "solution": "Milk has droplets of fat spread in water, with the size of a colloid. Fog, smoke and blood are other colloids. Salt dissolved in water has ions of less than 1 nm, and sand settles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-m21",
+    "ch": "chem-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The following mixtures are shaken: sugar in water, starch in water, and sand in water. The mixture that shows the Tyndall effect and does not settle is:",
+    "options": [
+      "sugar in water",
+      "sand in water",
+      "all three of them",
+      "starch in water"
+    ],
+    "ans": 3,
+    "solution": "Starch forms a colloid in water, with particles of 2 to 500 nm that scatter light and do not settle. Sugar gives a true solution, and sand gives a suspension, which settles.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-07-n01",
+    "ch": "chem-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "In the Freundlich isotherm x/m = kP^(1/n), k = 0.50 and n = 2 (x/m in g per g and P in atm). Find the amount adsorbed at P = 4.0 atm, in g per g, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "x/m = kP^(1/n) = 0.50 × 4.0^0.5 = 0.50 × 2 = 1.000 g per g. Check: in the log form, log(x/m) = log k + (1/n) log P = −0.301 + 0.5 × 0.602 = 0.000, so x/m = 10⁰ = 1.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-07-n02",
+    "ch": "chem-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "The amount of a gas adsorbed on charcoal at 1.0, 4.0 and 16.0 atm is 0.50, 1.0 and 2.0 g per g. Find the constant n of the Freundlich isotherm, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The slope of a graph of log(x/m) against log P is 1/n. Between the first two points, the slope is (log 1.0 − log 0.50)/(log 4.0 − log 1.0) = 0.301/0.602 = 0.50, so n = 2.00. Check: a best-fit line through the three points on the log–log scale has the same slope, 0.50, since they lie on a line.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-07-n03",
+    "ch": "chem-11-07",
+    "type": "num",
+    "diff": 2,
+    "q": "A cube of side 1.0 cm is cut into small cubes of side 1.0 nm (10⁻⁷ cm). Find the total surface area, in units of 10⁷ cm², to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 6.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "For small cubes of side a that make up a volume V, the total area is 6V/a = 6 × 1.0/10⁻⁷ = 6.0 × 10⁷ cm², which is 6000 m². The original cube had only 6 cm². Check: the number of small cubes is (1/10⁻⁷)³ = 10²¹, and each has an area 6 × (10⁻⁷)² = 6 × 10⁻¹⁴ cm², giving 6.0 × 10⁷ cm². This is why finely divided solids adsorb so much.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-07-n04",
+    "ch": "chem-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "10 mL of a gold sol is just coagulated by 0.50 mL of 1.0 M NaCl solution. Find the flocculation value, as the number of millimoles of NaCl per litre of the sol, to the nearest whole number. Give your answer as a whole number.",
+    "ans": 50.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The millimoles of NaCl added are 0.50 mL × 1.0 mmol/mL = 0.50 mmol. The sol is 10 mL = 0.010 L. So the flocculation value is 0.50/0.010 = 50 mmol per litre of the sol. Check: for 1 litre of the sol, the NaCl needed is 0.50 × (1000/10) = 50 mmol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-07-n05",
+    "ch": "chem-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A catalyst lowers the activation energy of a reaction from 100 kJ/mol to 80 kJ/mol. By what factor does the rate constant increase at 300 K, if the pre-exponential factor is unchanged? (R = 8.314 J/(mol K)). Give the answer to the nearest whole number. Give your answer as a whole number.",
+    "ans": 3037.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "k = A e^(−Ea/RT). The ratio is k_cat/k = exp[(100 000 − 80 000)/(8.314 × 300)] = exp(8.019) = 3037. The rate is about 3000 times faster. Check: adding up the effect of each small lowering of the activation energy, ΔEa/RT, from 0 to 20 kJ/mol gives 8.019, and its exponential is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-07-n06",
+    "ch": "chem-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "One gram of charcoal has a surface area of 1000 m². Each nitrogen molecule covers 0.20 nm² on the surface. Find the volume of nitrogen at STP, in mL, needed to cover the surface with one layer (N_A = 6.022 × 10²³ per mol, molar volume 22.4 L), to the nearest whole number. Give your answer as a whole number.",
+    "ans": 186.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The number of molecules in a layer is 1000 m²/(0.20 × 10⁻¹⁸ m²) = 5.0 × 10²¹. The amount is 5.0 × 10²¹/6.022 × 10²³ = 8.3 × 10⁻³ mol. The volume is 8.3 × 10⁻³ × 22.4 L = 0.186 L = 186 mL. Check: the volume of one molecule's share of the gas, 22 400 mL/6.022 × 10²³, times 5.0 × 10²¹ molecules gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "chem-11-08-b01",
     "ch": "chem-11-08",
     "type": "mcq",
@@ -7106,6 +8712,485 @@
       3,
       1,
       2
+    ]
+  },
+  {
+    "id": "chem-11-10-m01",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Which of the following groups lists the main nutrients that the body needs?",
+    "options": [
+      "proteins and antibiotics only",
+      "vitamins, minerals and drugs only",
+      "carbohydrates, fats, proteins and plastics only",
+      "carbohydrates, fats, proteins, vitamins, minerals and water"
+    ],
+    "ans": 3,
+    "solution": "The body needs these nutrients for energy, for growth, and to repair itself. Carbohydrates, fats and proteins are needed in large amounts. Vitamins and minerals are needed in small amounts.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m02",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The nutrients that mainly build and repair the tissues of the body are:",
+    "options": [
+      "proteins",
+      "carbohydrates",
+      "water",
+      "fats"
+    ],
+    "ans": 0,
+    "solution": "Proteins are made of amino acids, and they are used to build muscles, skin and enzymes. Carbohydrates and fats are the main sources of energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m03",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The energy that is released by 1 g of fat, compared with 1 g of carbohydrate, is:",
+    "options": [
+      "zero, as fat is not a source of energy",
+      "about the same, 17 kJ in each case",
+      "more than twice as much, about 37 kJ against 17 kJ",
+      "less than half as much, about 17 kJ against 37 kJ"
+    ],
+    "ans": 2,
+    "solution": "Fat has more carbon and hydrogen and less oxygen, so it releases more energy on oxidation. It is stored in the body as a reserve of energy. Proteins give about 17 kJ per gram.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m04",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Stored food spoils mainly because of:",
+    "options": [
+      "light of the Moon and cold air",
+      "oxygen, enzymes and microorganisms",
+      "the weight of the food above it",
+      "the metal of the container and its colour"
+    ],
+    "ans": 1,
+    "solution": "Microbes grow in the food, enzymes break it down, and oxygen oxidises the fats and makes them rancid. Food is kept airtight or cold, or treated with preservatives, to slow these changes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m05",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An antioxidant is added to packed food to:",
+    "options": [
+      "give a colour to the food",
+      "increase the sweetness of the food",
+      "kill all the bacteria in the food at once",
+      "prevent the oxidation of the food, so that it lasts longer"
+    ],
+    "ans": 3,
+    "solution": "Antioxidants such as BHA and BHT react with oxygen before the food does. They are used in oils, fats and snacks, in small permitted amounts.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m06",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Artificial sweeteners such as saccharin and aspartame are used because they:",
+    "options": [
+      "are cheaper sources of energy than sugar is for the body",
+      "are the same as glucose in the body, and give the same energy",
+      "are many times sweeter than sugar, and give almost no energy",
+      "are safe in any amount that is eaten, so there is no limit"
+    ],
+    "ans": 2,
+    "solution": "A very small amount gives the same sweetness as sugar, so they are useful for people who have diabetes or who want to reduce calories. They are safe only within the permitted limit. Aspartame is not suitable for cooking, as it decomposes on heating.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m07",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An analgesic is a drug that:",
+    "options": [
+      "reduces pain, and does not cause unconsciousness",
+      "reduces fever, and does not reduce pain",
+      "kills bacteria in the body",
+      "causes a loss of consciousness in the patient"
+    ],
+    "ans": 0,
+    "solution": "Aspirin and paracetamol are non-narcotic analgesics. An antipyretic reduces fever. Paracetamol does both, and aspirin also reduces inflammation and thins the blood.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m08",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Antibiotics are effective against:",
+    "options": [
+      "neither viruses nor bacteria",
+      "bacteria, but not against viruses",
+      "both viruses and bacteria equally",
+      "viruses, but not against bacteria"
+    ],
+    "ans": 1,
+    "solution": "Antibiotics such as penicillin act on the cell wall or on the life processes of bacteria. A virus does not have these, so an antibiotic is of no use in a cold or in flu. Taking antibiotics without need makes the bacteria resistant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m09",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A 0.2 percent solution of phenol is an antiseptic, and a 1 percent solution is a disinfectant. The difference between them is that:",
+    "options": [
+      "an antiseptic kills viruses only, and a disinfectant kills bacteria only",
+      "there is no difference, as both are used on the skin",
+      "an antiseptic can be used on living tissue, and a disinfectant is for objects",
+      "an antiseptic is used for floors, and a disinfectant is used on the skin"
+    ],
+    "ans": 2,
+    "solution": "A disinfectant is stronger, and it harms living tissue, so it is used on floors, drains and instruments. An antiseptic is mild enough to be put on cuts and wounds, like dilute iodine or Dettol.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m10",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which of the following is used as an antiseptic on the skin?",
+    "options": [
+      "a dilute solution of iodine, as in tincture of iodine",
+      "phenol at 1 percent, as for floors",
+      "chlorine gas, as for swimming pools",
+      "bleaching powder, as for water tanks"
+    ],
+    "ans": 0,
+    "solution": "Tincture of iodine, boric acid and Dettol can be used on the body. Phenol at 1 percent, bleaching powder and chlorine are disinfectants, used on objects and in water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m11",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Soaps are:",
+    "options": [
+      "calcium salts of short-chain acids",
+      "sodium or potassium salts of long-chain fatty acids",
+      "esters of fatty acids with glycerol",
+      "sodium or potassium salts of sulfuric acid derivatives"
+    ],
+    "ans": 1,
+    "solution": "A soap such as sodium stearate, C₁₇H₃₅COONa, is made by the action of NaOH on a fat or an oil (saponification). The by-product is glycerol. The esters of fatty acids with glycerol are the fats and oils themselves.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m12",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the preparation of soap by saponification, a fat is heated with sodium hydroxide. The products are:",
+    "options": [
+      "fatty acids and sodium glycerate",
+      "sodium salts of sulfonic acids and water",
+      "glycerol and fatty acids only",
+      "sodium salts of fatty acids (soap) and glycerol"
+    ],
+    "ans": 3,
+    "solution": "Fat + 3NaOH → 3 soap + glycerol. The soap is separated from the mixture by adding common salt, which makes it less soluble, and it floats (salting out).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m13",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A soap molecule has:",
+    "options": [
+      "a water-loving (hydrophilic) head and an oil-loving (hydrophobic) tail",
+      "a water-loving tail that is long, and an oil-loving head that is ionic",
+      "an oil-loving head and an oil-loving tail, so that it is soluble in oils only",
+      "a water-loving head and a water-loving tail, so that it is soluble in water only"
+    ],
+    "ans": 0,
+    "solution": "The ionic –COO⁻ end is attracted to water. The long hydrocarbon chain is attracted to oils and fats, and is repelled by water.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m14",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the cleaning of a greasy cloth by soap, the oily dirt is removed because the soap molecules:",
+    "options": [
+      "burn the oil to carbon dioxide and water, which then escape as gases",
+      "surround the oil with their tails inside, and form micelles that are washed away",
+      "push the cloth away from the oil by a heating effect on the water",
+      "dissolve the oil by a chemical reaction with it, to form new compounds"
+    ],
+    "ans": 1,
+    "solution": "The tails go into the oil droplet, and the heads stay in the water, with the negative charges on the outside. The droplets repel each other and do not join, and the water washes them away.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m15",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Soaps do not work well in hard water because:",
+    "options": [
+      "they react with the chloride ions to form acids",
+      "they decompose at once to the fatty acids and the glycerol",
+      "they form an insoluble scum with the calcium and magnesium ions",
+      "they are too soluble in the hard water"
+    ],
+    "ans": 2,
+    "solution": "2C₁₇H₃₅COONa + Ca²⁺ → (C₁₇H₃₅COO)₂Ca + 2Na⁺. The calcium soap is insoluble. It wastes soap, and leaves a scum on the cloth and the bath.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m16",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Synthetic detergents are better than soaps for washing in hard water because their calcium and magnesium salts:",
+    "options": [
+      "are more soluble in oils than in water",
+      "are insoluble in water, so they make a scum",
+      "decompose into the soap in the water",
+      "are soluble in water, so no scum is formed"
+    ],
+    "ans": 3,
+    "solution": "Detergents such as sodium dodecylbenzenesulfonate or sodium lauryl sulfate have a head that does not make an insoluble salt with Ca²⁺ and Mg²⁺. So they work well in hard water and in acidic solutions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m17",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Detergents with a branched hydrocarbon chain cause water pollution, because they:",
+    "options": [
+      "are broken down quickly by bacteria, and use up oxygen",
+      "dissolve the oxygen in the water and make it acidic",
+      "are not broken down by the bacteria, and form a stable foam",
+      "are more toxic to bacteria than soaps are"
+    ],
+    "ans": 2,
+    "solution": "Bacteria can break down a straight-chain detergent, which is biodegradable. A branched chain resists them, so the detergent builds up in rivers and lakes, and produces a foam.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m18",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The saponification value of a fat is related to the amount of:",
+    "options": [
+      "water that is lost when a fixed mass of the fat is heated",
+      "acid that is needed to turn a fixed mass of the fat into soap",
+      "oxygen that is taken in by a fixed mass of the fat in air",
+      "alkali (KOH) that is needed to turn a fixed mass of the fat into soap"
+    ],
+    "ans": 3,
+    "solution": "It is the mass of KOH, in milligrams, that is needed for the complete saponification of 1 g of fat. A fat with a short chain has more ester groups in each gram and a higher value.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m19",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following is NOT a correct statement?",
+    "options": [
+      "an antibiotic is a good medicine for the treatment of a viral cold",
+      "a disinfectant is too strong to be used on the skin",
+      "soap forms micelles in water",
+      "aspirin reduces pain and fever"
+    ],
+    "ans": 0,
+    "solution": "Antibiotics act on bacteria, so they cannot cure the diseases caused by viruses, such as colds, flu or measles. The other three statements are correct.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m20",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A food preservative such as sodium benzoate, or a large amount of salt or sugar, works by:",
+    "options": [
+      "increasing the amount of water in the food",
+      "stopping the growth of microorganisms in the food",
+      "making the food a good home for the bacteria",
+      "giving the food more nutrients"
+    ],
+    "ans": 1,
+    "solution": "A high concentration of salt or sugar draws the water out of the microbes by osmosis, and a preservative interferes with their life processes. So the food lasts longer.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-m21",
+    "ch": "chem-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The drugs that kill or stop the growth of microbes are grouped together as:",
+    "options": [
+      "antioxidants, including BHA and BHT, which slow the oxidation",
+      "analgesics, including aspirin and paracetamol, which relieve pain",
+      "antacids, including sodium bicarbonate, which lower the acidity",
+      "antimicrobials, including antibiotics, antiseptics and disinfectants"
+    ],
+    "ans": 3,
+    "solution": "Antimicrobials act against bacteria, fungi and other microbes. Analgesics reduce pain, antacids reduce acidity in the stomach, and antioxidants slow down oxidation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-11-10-n01",
+    "ch": "chem-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "8.91 g of tristearin (molar mass 891 g/mol) is saponified completely with NaOH to give sodium stearate (306 g/mol) and glycerol (92 g/mol). Find the mass of soap formed, in g, to 1 decimal place. (NaOH = 40 g/mol.) Give your answer to 1 decimal place.",
+    "ans": 9.2,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Tristearin + 3NaOH → 3 sodium stearate + glycerol. 8.91 g is 0.0100 mol, and it gives 0.0300 mol of soap, which is 0.0300 × 306 = 9.18 g, about 9.2 g. Check: by the conservation of mass, 8.91 g of fat + 1.20 g of NaOH − 0.92 g of glycerol = 9.19 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-10-n02",
+    "ch": "chem-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "A food has 20 g of carbohydrate, 10 g of fat and 5 g of protein. Using 17 kJ/g for the carbohydrate and the protein and 37 kJ/g for the fat, find its energy in kcal (1 kcal = 4.184 kJ), to the nearest whole number. Give your answer as a whole number.",
+    "ans": 190.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The energy is 20 × 17 + 10 × 37 + 5 × 17 = 340 + 370 + 85 = 795 kJ. In kcal, 795/4.184 = 190 kcal. Check: with the usual values of 4, 9 and 4 kcal per gram, the energy is 80 + 90 + 20 = 190 kcal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-10-n03",
+    "ch": "chem-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "A stock solution of 5.0 percent phenol is used to make 500 mL of a 0.20 percent antiseptic solution. Find the volume of the stock solution that is needed, in mL, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 20.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "The amount of phenol stays the same on dilution: C₁V₁ = C₂V₂, so V₁ = 0.20 × 500/5.0 = 20.0 mL. Add water to make 500 mL. Check: 0.20 percent of 500 mL is 1.0 mL of phenol, and 1.0/0.050 = 20.0 mL of the stock solution has this amount.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-10-n04",
+    "ch": "chem-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "Hard water has 0.20 g of calcium ions. How much sodium stearate soap (306 g/mol) is wasted in precipitating all the calcium as calcium stearate? Ca = 40 g/mol, and 2 mol of soap react with 1 mol of Ca²⁺. Give the answer in g, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 3.06,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "2C₁₇H₃₅COONa + Ca²⁺ → (C₁₇H₃₅COO)₂Ca + 2Na⁺. The amount of calcium is 0.20/40 = 0.0050 mol, which needs 0.0100 mol of soap, that is 0.0100 × 306 = 3.06 g. Check: the mass ratio is 612 g of soap to 40 g of Ca, and 0.20 × 612/40 = 3.06 g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-11-10-n05",
+    "ch": "chem-11-10",
+    "type": "num",
+    "diff": 2,
+    "q": "Aspartame is about 160 times as sweet as sugar. How much aspartame gives the same sweetness as 5.0 g of sugar? Give the answer in mg, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 31.25,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The mass needed is 5.0 g/160 = 0.03125 g = 31.25 mg. Check: 31.25 mg × 160 = 5000 mg = 5.0 g of sugar in sweetness. This is why such a small amount is enough, and why it adds almost no energy.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
     ]
   },
   {
@@ -17499,6 +19584,2825 @@
     ]
   },
   {
+    "id": "chem-12-16-m01",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 1,
+    "q": "Green chemistry is the design of chemical products and processes that:",
+    "options": [
+      "reduce or remove the use and the production of hazardous substances",
+      "are carried out only in a laboratory, and never in industry",
+      "use only substances that are green in colour",
+      "produce as much waste as possible, for safe storage"
+    ],
+    "ans": 0,
+    "solution": "The idea is to prevent pollution at its source, instead of cleaning up after it has happened. It applies to the whole life of a product, from the raw materials to its disposal.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m02",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The twelve principles of green chemistry were put forward by:",
+    "options": [
+      "Norio Taniguchi, who first used the word nanotechnology",
+      "Linus Pauling, who is called the father of nanotechnology",
+      "Richard Feynman, who gave the first talk on small machines",
+      "Paul Anastas, who is called the father of green chemistry"
+    ],
+    "ans": 3,
+    "solution": "Anastas and Warner listed twelve principles in 1998. They include preventing waste, a high atom economy, safer solvents, the use of catalysts, energy efficiency and the use of renewable raw materials.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m03",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following is NOT one of the principles of green chemistry?",
+    "options": [
+      "using safer solvents and auxiliary substances",
+      "using renewable raw materials, wherever possible",
+      "producing as many by-products as possible, to sell them",
+      "preventing waste, instead of treating it later"
+    ],
+    "ans": 2,
+    "solution": "A green process makes as little waste as possible. The other three are among the twelve principles, together with catalysis, energy efficiency and design for degradation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m04",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Sustainable development means meeting the needs of the present:",
+    "options": [
+      "by stopping all industry and all use of chemicals",
+      "without harming the ability of future generations to meet their own needs",
+      "only for the people in rich countries",
+      "by using all the resources quickly, before they are lost"
+    ],
+    "ans": 1,
+    "solution": "It balances economic growth, the protection of the environment and the needs of people. Green chemistry supports it, by using less energy and fewer resources, and by making less waste.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m05",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The atom economy of a reaction is defined as:",
+    "options": [
+      "(formula mass of the waste/formula mass of the desired product) × 100",
+      "(sum of the formula masses of the reactants/formula mass of the product) × 100",
+      "(mass of the product that is obtained/mass that is expected) × 100",
+      "(formula mass of the desired product/sum of the formula masses of all the reactants) × 100"
+    ],
+    "ans": 3,
+    "solution": "It tells how much of the starting material ends up in the useful product, and not in the waste. It depends only on the balanced equation. The percentage yield compares the mass actually obtained with the mass that is expected.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m06",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A reaction has an atom economy of 100 percent. This means that:",
+    "options": [
+      "the percentage yield of the product is always 100 percent in the laboratory",
+      "the reaction is fast, and needs no catalyst or any extra energy to start",
+      "all the atoms of the reactants appear in the desired product, and there are no by-products",
+      "the reaction is exothermic, and gives out no waste heat to the surroundings"
+    ],
+    "ans": 2,
+    "solution": "An addition reaction, such as C₂H₄ + H₂ → C₂H₆, has all the atoms in the product. The actual yield of an experiment can still be lower than 100 percent, since atom economy is not the same as the yield.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m07",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Atom economy is different from the percentage yield, because atom economy:",
+    "options": [
+      "depends only on the balanced equation, and not on the experiment",
+      "is the same as the yield, if the temperature is the same",
+      "is always smaller than the percentage yield",
+      "depends on how much product is obtained in the experiment"
+    ],
+    "ans": 0,
+    "solution": "A reaction with a 100 percent yield may still have a poor atom economy, if it makes large amounts of by-products. For example, a substitution reaction gives a by-product with every molecule of the product.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m08",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Green chemistry helps to reduce pollution by:",
+    "options": [
+      "cleaning up after the pollution has happened",
+      "preventing it at its source, and not by cleaning it up later",
+      "moving the waste to another country",
+      "burning all the waste in open air"
+    ],
+    "ans": 1,
+    "solution": "It cuts the waste and the hazards in the making of chemicals. It also reduces the cost of treating and disposing of waste, helps protect the ozone layer, and helps in controlling global warming.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m09",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The use of a catalyst is one of the principles of green chemistry because a catalyst:",
+    "options": [
+      "is used up in the reaction, so less product is made",
+      "makes the reaction slower, so it is safer",
+      "makes a reaction faster at lower energy, and is not used up",
+      "changes the products to hazardous substances"
+    ],
+    "ans": 2,
+    "solution": "A catalyst lowers the activation energy, so less heat is needed, and less energy is used. It can be used again, and a small amount is enough, so it makes less waste than a reagent that is used up.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m10",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 1,
+    "q": "One nanometre is equal to:",
+    "options": [
+      "10⁻¹² m",
+      "10⁻⁶ m",
+      "10⁻³ m",
+      "10⁻⁹ m"
+    ],
+    "ans": 3,
+    "solution": "The prefix nano means one billionth. A human hair is about 80 000 nm thick, a DNA double helix is about 2 nm across, and a hydrogen atom is about 0.1 nm.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m11",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The nanoscale, in which nanomaterials are defined, is the size range of about:",
+    "options": [
+      "1 μm to 100 μm",
+      "1 nm to 100 nm",
+      "100 nm to 1000 nm",
+      "0.01 nm to 0.1 nm"
+    ],
+    "ans": 1,
+    "solution": "A nanomaterial has at least one dimension in this range. In this range, the properties of a material can be quite different from those of the same material in bulk.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m12",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In terms of the number of dimensions that are not confined to the nanoscale, nanoparticles, nanowires and thin films are respectively:",
+    "options": [
+      "zero-dimensional, one-dimensional and two-dimensional",
+      "zero-dimensional, two-dimensional and three-dimensional",
+      "three-dimensional, two-dimensional and one-dimensional",
+      "one-dimensional, one-dimensional and one-dimensional"
+    ],
+    "ans": 0,
+    "solution": "A nanoparticle has all three sizes in the nanoscale, so none is free (0D). A nanowire or a nanotube has two sizes in the nanoscale, and one long length (1D). A thin film has one size in the nanoscale and two long ones (2D).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m13",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Gold nanoparticles of different sizes show different colours, such as red and purple, whereas bulk gold is yellow. This is because:",
+    "options": [
+      "the properties of a material depend on the size when the particles are very small",
+      "the particles of gold are painted with a dye",
+      "the atoms of gold change when they are cut into small pieces",
+      "gold is a different element at the nanoscale"
+    ],
+    "ans": 0,
+    "solution": "The colour comes from the way the electrons of the nanoparticle respond to light, and this depends on the size and the shape of the particle. The element is the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m14",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A solid cube is cut into smaller and smaller cubes. The total volume stays the same. The total surface area:",
+    "options": [
+      "decreases, which is why nanoparticles are not reactive",
+      "stays the same, since the volume is the same",
+      "becomes zero at the nanoscale",
+      "increases, which is why nanoparticles are very reactive"
+    ],
+    "ans": 3,
+    "solution": "For small cubes of side a that make up a volume V, the total area is 6V/a. If the side is made 1000 times smaller, the area becomes 1000 times larger. A large surface gives more catalysis and a faster reaction.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m15",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Compared with the bulk material, nanoparticles often have:",
+    "options": [
+      "no melting point, and no reactivity",
+      "the same melting point, and the same reactivity",
+      "a lower melting point, and a higher reactivity",
+      "a higher melting point, and a lower reactivity"
+    ],
+    "ans": 2,
+    "solution": "A large fraction of the atoms of a nanoparticle is at the surface, where they are less tightly bound. So the melting point is lower, as in nanoparticles of gold and sodium, and they react faster.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m16",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The approach in which a material is built atom by atom or molecule by molecule to make a nanomaterial is called:",
+    "options": [
+      "the inside-out approach",
+      "the bottom-up approach",
+      "the sideways approach",
+      "the top-down approach"
+    ],
+    "ans": 1,
+    "solution": "An example is the growth of nanoparticles from a colloidal solution. In the top-down approach, a bulk material is broken into smaller and smaller pieces, for example by grinding.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m17",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Making nanoparticles by grinding a bulk solid into finer and finer pieces is an example of:",
+    "options": [
+      "the bottom-up approach",
+      "the sol-gel process",
+      "the wet chemical synthesis only",
+      "the top-down approach"
+    ],
+    "ans": 3,
+    "solution": "Ball milling and lithography are top-down methods. They start with the large piece and cut it down. The bottom-up method builds up from atoms or molecules.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m18",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In the sol-gel process for making nanomaterials, a sol, which is a colloidal solution of tiny solid particles in a liquid, is:",
+    "options": [
+      "burned to remove all the particles of solid from it",
+      "changed into a gas, which is then condensed again",
+      "changed into a gel, a connected network of the particles in the liquid",
+      "evaporated to leave only a pure liquid behind"
+    ],
+    "ans": 2,
+    "solution": "The sol-gel process is a wet chemical method. The gel is dried and heated to give the nanomaterial, as a powder, a film or a fibre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m19",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The word nanotechnology was first used by:",
+    "options": [
+      "Richard Feynman, in 1960",
+      "Norio Taniguchi, in 1974",
+      "Paul Anastas, in 1998",
+      "Linus Pauling, in 1954"
+    ],
+    "ans": 1,
+    "solution": "Taniguchi used it for the processing of materials with a precision of a nanometre. Nanomaterials had been made and used for centuries before, such as the ruby-red colour of old glass.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m20",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following instruments is used to see and study the structure of nanomaterials?",
+    "options": [
+      "the scanning electron microscope (SEM), or the transmission electron microscope (TEM)",
+      "a telescope, which is an instrument for distant objects",
+      "a magnifying glass, which uses visible light only",
+      "a simple optical microscope with a lens of low power in it"
+    ],
+    "ans": 0,
+    "solution": "Visible light has a wavelength of 400 to 700 nm, which is too large to see the details of nanoscale objects. Electrons have a very short wavelength, so electron microscopes can resolve them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m21",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The self-cleaning surfaces of some paints and glass are modelled on:",
+    "options": [
+      "the leaf of a banana, which is soft",
+      "the lotus leaf, whose large holes absorb water and dirt",
+      "the lotus leaf, whose tiny structures repel water and dirt",
+      "the spider's web, which is sticky"
+    ],
+    "ans": 2,
+    "solution": "On a lotus leaf, tiny bumps at the nanoscale keep water drops round, and these drops roll off and take the dust with them. This is called the lotus effect.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m22",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Silver nanoparticles are used in water filters because they:",
+    "options": [
+      "colour the water, so that bacteria are seen",
+      "kill bacteria, and so help to purify drinking water",
+      "make the water taste sweet",
+      "adsorb the salt from sea water completely"
+    ],
+    "ans": 1,
+    "solution": "Silver ions that are released from the nanoparticles damage the cells of bacteria. Silver nanoparticles are also used in bandages and in some fabrics, to prevent infection and smell.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-m23",
+    "ch": "chem-12-16",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which one of the following is a possible risk of nanotechnology?",
+    "options": [
+      "nanoparticles can never enter the human body",
+      "nanoparticles make all materials weaker",
+      "nanoparticles are always too big to be harmful",
+      "nanoparticles that are breathed in may damage the lungs"
+    ],
+    "ans": 3,
+    "solution": "Because of their size, nanoparticles can enter the lungs, the blood and even cells. The effect depends on the size, the shape and the chemical nature of the particles. Nano pollution is a kind of air pollution that comes from nanotechnology.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "chem-12-16-n01",
+    "ch": "chem-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "Ethyl ethanoate is made by CH₃COOH + C₂H₅OH → CH₃COOC₂H₅ + H₂O. Find the atom economy for the ester (CH₃COOH = 60, C₂H₅OH = 46, ester = 88, H₂O = 18), as a percentage, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 83.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Atom economy = 88/(60 + 46) × 100 = 88/106 × 100 = 83.0 percent. The other 17 percent of the mass is lost as water. Check: the mass of the by-product is 18, and 1 − 18/106 = 0.830, which is 83.0 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-16-n02",
+    "ch": "chem-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "Methane reacts with chlorine: CH₄ + Cl₂ → CH₃Cl + HCl. Find the atom economy for CH₃Cl (CH₄ = 16, Cl₂ = 71, CH₃Cl = 50.5, HCl = 36.5), as a percentage, to 1 decimal place. Give your answer to 1 decimal place.",
+    "ans": 58.0,
+    "decimalPlaces": 1,
+    "tol": 0.05,
+    "solution": "Atom economy = 50.5/(16 + 71) × 100 = 50.5/87 × 100 = 58.0 percent. Nearly half of the mass is lost as HCl. Check: 1 − 36.5/87 = 0.580. By comparison, an addition reaction, like C₂H₄ + H₂ → C₂H₆, has an atom economy of 100 percent.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-16-n03",
+    "ch": "chem-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "A spherical nanoparticle has a radius of 5.0 nm. Find the ratio of its surface area to its volume, in nm⁻¹, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 0.6,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Area = 4πr², volume = (4/3)πr³, so the ratio is 3/r = 3/5.0 = 0.60 nm⁻¹. Check: building the volume from thin spherical shells, and dividing the area by it, gives 0.60 nm⁻¹. For a sphere of radius 1 mm = 10⁶ nm, the ratio is only 3 × 10⁻⁶ nm⁻¹, so the nanoparticle has 200 000 times more area for the same volume.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "chem-12-16-n04",
+    "ch": "chem-12-16",
+    "type": "num",
+    "diff": 3,
+    "q": "A gold nanoparticle is a sphere of diameter 5.0 nm. Gold has a density of 19.3 g/cm³ and a molar mass of 197 g/mol. Find the number of gold atoms in the particle (N_A = 6.022 × 10²³ per mol), to the nearest whole number. Give your answer as a whole number.",
+    "ans": 3861.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The volume is (4/3)π(2.5 nm)³ = 65.4 nm³ = 6.54 × 10⁻²⁰ cm³. The mass is 19.3 × 6.54 × 10⁻²⁰ = 1.26 × 10⁻¹⁸ g, which is 6.41 × 10⁻²¹ mol, so there are 6.41 × 10⁻²¹ × 6.022 × 10²³ = 3861 atoms. Check: gold is face-centred cubic, with a cell edge of 0.408 nm and 4 atoms in each cell. The volume of the particle holds 65.4/0.0679 = 963 cells, which have 3855 atoms.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-m01",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The formula for cos(A − B) is:",
+    "options": [
+      "sin A cos B − cos A sin B",
+      "cos A sin B + sin A cos B",
+      "cos A cos B + sin A sin B",
+      "cos A cos B − sin A sin B"
+    ],
+    "ans": 2,
+    "solution": "cos(A − B) = cos A cos B + sin A sin B. The formula for cos(A + B) has the minus sign. Replace B by −B in one formula to get the other.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m02",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The formula for sin(A + B) is:",
+    "options": [
+      "cos A cos B + sin A sin B",
+      "sin A cos B + cos A sin B",
+      "sin A sin B + cos A cos B",
+      "sin A cos B − cos A sin B"
+    ],
+    "ans": 1,
+    "solution": "sin(A + B) = sin A cos B + cos A sin B. For sin(A − B), the sign between the two terms is a minus.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m03",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of sin 75° is:",
+    "options": [
+      "(√3 + 1)/4",
+      "(√6 − √2)/4",
+      "(√3 − 1)/2",
+      "(√6 + √2)/4"
+    ],
+    "ans": 3,
+    "solution": "sin 75° = sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30° = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4, which is about 0.9659.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m04",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of cos 15° is:",
+    "options": [
+      "(√6 + √2)/4",
+      "(√6 − √2)/4",
+      "(√3 − 1)/4",
+      "1/4"
+    ],
+    "ans": 0,
+    "solution": "cos 15° = cos(45° − 30°) = cos 45° cos 30° + sin 45° sin 30° = (√6 + √2)/4. And sin 15° = (√6 − √2)/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m05",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The expression for tan(A + B) is:",
+    "options": [
+      "tan A tan B/(1 − tan A − tan B)",
+      "(tan A + tan B)/(1 − tan A tan B)",
+      "(tan A + tan B)/(1 + tan A tan B)",
+      "(tan A − tan B)/(1 + tan A tan B)"
+    ],
+    "ans": 1,
+    "solution": "Divide sin(A + B) by cos(A + B), and divide the numerator and the denominator by cos A cos B. For tan(A − B), the signs are interchanged: (tan A − tan B)/(1 + tan A tan B).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m06",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If tan A = 1/2 and tan B = 1/3, then A + B is:",
+    "options": [
+      "45°, since tan(A + B) = 1",
+      "30°, since tan(A + B) = 1/√3",
+      "60°, since tan(A + B) = √3",
+      "90°, since tan(A + B) is not defined"
+    ],
+    "ans": 0,
+    "solution": "tan(A + B) = (1/2 + 1/3)/(1 − 1/6) = (5/6)/(5/6) = 1. For acute angles whose tangents are positive, A + B = 45°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m07",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "sin(π − θ) is equal to:",
+    "options": [
+      "cos θ",
+      "−sin θ",
+      "−cos θ",
+      "sin θ"
+    ],
+    "ans": 3,
+    "solution": "The angle π − θ is in the second quadrant, where sine is positive, and it has the same sine as θ. cos(π − θ) = −cos θ, and tan(π − θ) = −tan θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m08",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "cos(π + θ) is equal to:",
+    "options": [
+      "sin θ",
+      "−sin θ",
+      "−cos θ",
+      "cos θ"
+    ],
+    "ans": 2,
+    "solution": "The angle π + θ is in the third quadrant, where cosine is negative. So cos(π + θ) = −cos θ, and sin(π + θ) = −sin θ, but tan(π + θ) = tan θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m09",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "sin(π/2 − θ) is equal to:",
+    "options": [
+      "cos θ",
+      "sin θ",
+      "−cos θ",
+      "tan θ"
+    ],
+    "ans": 0,
+    "solution": "The angle π/2 − θ is the complement of θ, so sine and cosine are interchanged: sin(π/2 − θ) = cos θ, cos(π/2 − θ) = sin θ and tan(π/2 − θ) = cot θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m10",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "sin(2π − θ) is equal to:",
+    "options": [
+      "cos θ",
+      "−sin θ",
+      "sin θ",
+      "−cos θ"
+    ],
+    "ans": 1,
+    "solution": "The angle 2π − θ is in the fourth quadrant, where sine is negative, so sin(2π − θ) = −sin θ. Also cos(2π − θ) = cos θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m11",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The formula for sin 2θ is:",
+    "options": [
+      "sin²θ − cos²θ",
+      "2 sin θ + 2 cos θ",
+      "sin θ + cos θ",
+      "2 sin θ cos θ"
+    ],
+    "ans": 3,
+    "solution": "Put A = B = θ in sin(A + B). Also sin 2θ = 2 tan θ/(1 + tan²θ). The formula sin²θ − cos²θ is −cos 2θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m12",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following is NOT a correct formula for cos 2θ?",
+    "options": [
+      "2 cos²θ − 1",
+      "1 − 2 sin²θ",
+      "2 sin θ cos θ",
+      "cos²θ − sin²θ"
+    ],
+    "ans": 2,
+    "solution": "cos 2θ = cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ = (1 − tan²θ)/(1 + tan²θ). The expression 2 sin θ cos θ is sin 2θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m13",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If sin θ = 3/5 and θ is acute, then cos 2θ is:",
+    "options": [
+      "7/25",
+      "−7/25",
+      "24/25",
+      "−24/25"
+    ],
+    "ans": 0,
+    "solution": "cos 2θ = 1 − 2 sin²θ = 1 − 2(9/25) = 7/25. Also, cos θ = 4/5, and sin 2θ = 2(3/5)(4/5) = 24/25.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m14",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The formula for tan 2θ is:",
+    "options": [
+      "tan²θ/(1 − 2 tan θ)",
+      "2 tan θ/(1 + tan²θ)",
+      "(1 − tan²θ)/(2 tan θ)",
+      "2 tan θ/(1 − tan²θ)"
+    ],
+    "ans": 3,
+    "solution": "Put A = B = θ in the formula for tan(A + B). The expression 2 tan θ/(1 + tan²θ) is sin 2θ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m15",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The formula for sin 3θ is:",
+    "options": [
+      "3 sin θ − sin³θ",
+      "3 sin θ + 4 sin³θ",
+      "3 sin θ − 4 sin³θ",
+      "4 sin³θ − 3 sin θ"
+    ],
+    "ans": 2,
+    "solution": "sin 3θ = sin(2θ + θ) = sin 2θ cos θ + cos 2θ sin θ = 3 sin θ − 4 sin³θ. And cos 3θ = 4 cos³θ − 3 cos θ. Check with θ = 30°: 3(1/2) − 4(1/8) = 1 = sin 90°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m16",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The formula for cos 3θ is:",
+    "options": [
+      "cos³θ − 3 cos θ",
+      "4 cos³θ − 3 cos θ",
+      "4 cos³θ + 3 cos θ",
+      "3 cos θ − 4 cos³θ"
+    ],
+    "ans": 1,
+    "solution": "cos 3θ = cos(2θ + θ) = cos 2θ cos θ − sin 2θ sin θ = 4cos³θ − 3 cos θ. Check with θ = 60°: 4(1/8) − 3(1/2) = −1 = cos 180°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m17",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The sum sin C + sin D can be written as the product:",
+    "options": [
+      "2 sin((C + D)/2) sin((C − D)/2)",
+      "2 cos((C + D)/2) sin((C − D)/2)",
+      "2 cos((C + D)/2) cos((C − D)/2)",
+      "2 sin((C + D)/2) cos((C − D)/2)"
+    ],
+    "ans": 3,
+    "solution": "Add sin(A + B) and sin(A − B), with A = (C + D)/2 and B = (C − D)/2. The difference sin C − sin D is 2 cos((C + D)/2) sin((C − D)/2).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m18",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The sum cos C + cos D can be written as the product:",
+    "options": [
+      "2 sin((C + D)/2) cos((C − D)/2)",
+      "2 cos((C + D)/2) cos((C − D)/2)",
+      "−2 sin((C + D)/2) sin((C − D)/2)",
+      "2 sin((C + D)/2) sin((C − D)/2)"
+    ],
+    "ans": 1,
+    "solution": "Add cos(A + B) and cos(A − B). The difference is cos C − cos D = −2 sin((C + D)/2) sin((C − D)/2).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m19",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of sin 75° + sin 15° is:",
+    "options": [
+      "√6/2",
+      "√2/2",
+      "1/2",
+      "√3/2"
+    ],
+    "ans": 0,
+    "solution": "sin 75° + sin 15° = 2 sin 45° cos 30° = 2 (√2/2)(√3/2) = √6/2, which is about 1.2247. Direct addition of (√6 + √2)/4 and (√6 − √2)/4 gives the same.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m20",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of cos 75° − cos 15° is:",
+    "options": [
+      "√2/2",
+      "−1/2",
+      "−√2/2",
+      "−√3/2"
+    ],
+    "ans": 2,
+    "solution": "cos C − cos D = −2 sin((C + D)/2) sin((C − D)/2) = −2 sin 45° sin 30° = −2 (√2/2)(1/2) = −√2/2, about −0.7071. Cosine falls from 15° to 75°, so the answer is negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m21",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a triangle ABC, sin(A + B) is equal to:",
+    "options": [
+      "−sin C",
+      "−cos C",
+      "sin C",
+      "cos C"
+    ],
+    "ans": 2,
+    "solution": "A + B + C = π, so A + B = π − C and sin(A + B) = sin(π − C) = sin C. In the same way, cos(A + B) = −cos C, and tan(A + B) = −tan C.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m22",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In a triangle ABC, the value of cos((A + B)/2) is equal to:",
+    "options": [
+      "cos(C/2)",
+      "sin(C/2)",
+      "−sin(C/2)",
+      "tan(C/2)"
+    ],
+    "ans": 1,
+    "solution": "(A + B)/2 = π/2 − C/2, so cos((A + B)/2) = cos(π/2 − C/2) = sin(C/2). Also, sin((A + B)/2) = cos(C/2).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m23",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of sin 18° is:",
+    "options": [
+      "(√5 − 1)/4",
+      "(√5 + 1)/4",
+      "(√5 − 1)/2",
+      "(√3 − 1)/4"
+    ],
+    "ans": 0,
+    "solution": "Let θ = 18°, so 5θ = 90° and 2θ = 90° − 3θ. Then sin 2θ = cos 3θ gives 2 sin θ cos θ = 4cos³θ − 3 cos θ, and so 4 sin²θ + 2 sin θ − 1 = 0, which gives sin θ = (√5 − 1)/4, about 0.3090.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m24",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of cos 36° − cos 72° is:",
+    "options": [
+      "(√5 − 1)/4",
+      "√5/2",
+      "1/4",
+      "1/2"
+    ],
+    "ans": 3,
+    "solution": "cos 36° = (√5 + 1)/4 and cos 72° = (√5 − 1)/4. The difference is 2/4 = 1/2. Using the factorisation, −2 sin 54° sin(−18°) = 2 cos 36° sin 18°, which is also 1/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-m25",
+    "ch": "mth-11-01",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of tan 105° is:",
+    "options": [
+      "2 − √3",
+      "2 + √3",
+      "−(2 + √3)",
+      "−(2 − √3)"
+    ],
+    "ans": 2,
+    "solution": "tan 105° = tan(60° + 45°) = (√3 + 1)/(1 − √3) = −(√3 + 1)²/2 = −(2 + √3), about −3.732. It is negative since 105° is in the second quadrant.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-01-n01",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the value of sin 75°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.9659,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "sin 75° = sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30° = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4 = 0.9659. Check: the sine of 75°, from the direct evaluation, is 0.9659.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n02",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the value of cos 105°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": -0.2588,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "cos 105° = cos(60° + 45°) = cos 60° cos 45° − sin 60° sin 45° = (1/2)(√2/2) − (√3/2)(√2/2) = (√2 − √6)/4 = −0.2588. It is negative since 105° is in the second quadrant. Check: the direct evaluation of cos 105° gives −0.2588.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n03",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "If tan A = 1/2 and tan B = 1/3, find tan(A + B), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "tan(A + B) = (tan A + tan B)/(1 − tan A tan B) = (5/6)/(1 − 1/6) = (5/6)/(5/6) = 1.0000. Check: A = 26.565° and B = 18.435°, and their sum is 45°, with tan 45° = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n04",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "If tan θ = 3/4 with θ acute, find sin 2θ, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.96,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "sin 2θ = 2 tan θ/(1 + tan²θ) = (3/2)/(1 + 9/16) = (3/2)/(25/16) = 24/25 = 0.9600. Check: θ = 36.87°, 2θ = 73.74°, and sin 73.74° = 0.9600. (Also sin θ = 3/5 and cos θ = 4/5, so 2 sin θ cos θ = 24/25.)",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n05",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "If sin θ = 0.6 with θ acute, find cos 2θ, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.28,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "cos 2θ = 1 − 2 sin²θ = 1 − 2 × 0.36 = 0.2800. Check: θ = 36.87°, 2θ = 73.74°, and cos 73.74° = 0.2800.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n06",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of sin 75° + sin 15°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 1.2247,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "sin C + sin D = 2 sin((C + D)/2) cos((C − D)/2) = 2 sin 45° cos 30° = 2 × 0.7071 × 0.8660 = 1.2247. Check: adding the two sines directly, 0.9659 + 0.2588 = 1.2247.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n07",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of cos 75° − cos 15°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": -0.7071,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "cos C − cos D = −2 sin((C + D)/2) sin((C − D)/2) = −2 sin 45° sin 30° = −2 × 0.7071 × 0.5 = −0.7071. Check: 0.2588 − 0.9659 = −0.7071.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n08",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "In a triangle ABC, A = 60° and B = 45°. Find sin C, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.9659,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "sin C = sin(180° − (A + B)) = sin(A + B) = sin 60° cos 45° + cos 60° sin 45° = (√6 + √2)/4 = 0.9659. Check: C = 75°, and sin 75° = 0.9659.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n09",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "If sin θ = 1/2, find sin 3θ, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "sin 3θ = 3 sin θ − 4 sin³θ = 3(0.5) − 4(0.125) = 1.5 − 0.5 = 1.0000. Check: sin θ = 1/2 gives θ = 30°, so 3θ = 90° and sin 90° = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n10",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of sin 18°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.309,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "sin 18° = (√5 − 1)/4 = (2.2361 − 1)/4 = 0.3090. This follows from sin 36° = cos 54° or from sin 2θ = cos 3θ with θ = 18°. Check: the direct evaluation of sin 18° gives 0.3090.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n11",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of cos 36° − cos 72°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.5,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "cos 36° = (√5 + 1)/4 = 0.8090 and cos 72° = (√5 − 1)/4 = 0.3090. The difference is 0.5000. Check: the direct values of the cosines give 0.8090 − 0.3090 = 0.5000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-01-n12",
+    "ch": "mth-11-01",
+    "type": "num",
+    "diff": 2,
+    "q": "Using the allied angle formula tan(π − θ) = −tan θ, find tan 135°, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": -1.0,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "tan 135° = tan(180° − 45°) = −tan 45° = −1.0000. The angle 135° is in the second quadrant, where tangent is negative. Check: the direct evaluation of tan 135° gives −1.0000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-m01",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The locus of a point is:",
+    "options": [
+      "the distance of the point from the origin",
+      "the number of points that satisfy a condition",
+      "the path that it traces, when it moves under a given condition",
+      "a single point that satisfies a given condition"
+    ],
+    "ans": 2,
+    "solution": "For example, the locus of a point that stays at a distance of 5 from the origin is the circle x² + y² = 25. To find a locus, take a general point (x, y), write the condition as an equation, and simplify it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m02",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The locus of a point that is equidistant from two fixed points A and B is:",
+    "options": [
+      "the perpendicular bisector of the segment AB",
+      "the mid-point of AB",
+      "the line through A and B",
+      "the circle that has AB as a diameter"
+    ],
+    "ans": 0,
+    "solution": "If PA = PB, then the point P is on the perpendicular bisector. For A(0, 0) and B(4, 0), the condition x² + y² = (x − 4)² + y² gives x = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m03",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The slope of the line through (x₁, y₁) and (x₂, y₂) is:",
+    "options": [
+      "(y₂ + y₁)/(x₂ + x₁)",
+      "(y₂ − y₁)/(x₂ − x₁)",
+      "(x₂ − x₁)/(y₂ − y₁)",
+      "(y₂ − y₁)(x₂ − x₁)"
+    ],
+    "ans": 1,
+    "solution": "The slope is the rise divided by the run, m = tan θ, where θ is the angle that the line makes with the positive x axis. The slope of a vertical line is not defined.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m04",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The slope of a line that makes an angle of 135° with the positive x axis is:",
+    "options": [
+      "1",
+      "−√3",
+      "0",
+      "−1"
+    ],
+    "ans": 3,
+    "solution": "m = tan 135° = tan(180° − 45°) = −tan 45° = −1. A line that slopes down to the right has a negative slope.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m05",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two lines with the slopes m₁ and m₂ are parallel when:",
+    "options": [
+      "m₁m₂ = −1",
+      "m₁ = −m₂",
+      "m₁ = m₂",
+      "m₁ + m₂ = 1"
+    ],
+    "ans": 2,
+    "solution": "Parallel lines have the same inclination, so the same slope. For perpendicular lines, the product of the slopes is −1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m06",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Two lines with the slopes m₁ and m₂ are perpendicular when:",
+    "options": [
+      "m₁ = m₂",
+      "m₁m₂ = −1",
+      "m₁m₂ = 1",
+      "m₁ + m₂ = 0"
+    ],
+    "ans": 1,
+    "solution": "For a line of the slope 2, a perpendicular line has the slope −1/2. This is not true if one of the lines is vertical and the other is horizontal, since the slope of a vertical line is not defined.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m07",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the line through the point (x₁, y₁) with the slope m is:",
+    "options": [
+      "y − y₁ = m(x − x₁)",
+      "y = mx − x₁y₁",
+      "y + y₁ = m(x + x₁)",
+      "y − y₁ = (x − x₁)/m"
+    ],
+    "ans": 0,
+    "solution": "This is the point-slope form. A line through (2, 3) with the slope 4 is y − 3 = 4(x − 2), which is y = 4x − 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m08",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of a line with the slope m and the y-intercept c is:",
+    "options": [
+      "x = my + c",
+      "y = m + cx",
+      "y = cx + m",
+      "y = mx + c"
+    ],
+    "ans": 3,
+    "solution": "The line cuts the y axis at (0, c). The slope-intercept form is the easiest way to read off the slope and the y-intercept from an equation that has been solved for y.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m09",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the line that makes the intercepts a and b on the x and y axes is:",
+    "options": [
+      "x/a + y/b = 1",
+      "ax + by = 1",
+      "x/b + y/a = 1",
+      "x/a − y/b = 1"
+    ],
+    "ans": 0,
+    "solution": "The line goes through (a, 0) and (0, b). For the intercepts 3 and −4, the equation is x/3 − y/4 = 1, which is 4x − 3y = 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m10",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The line 4x − 3y = 12 has the intercepts on the x axis and the y axis equal respectively to:",
+    "options": [
+      "12 and −12",
+      "−3 and 4",
+      "4 and −3",
+      "3 and −4"
+    ],
+    "ans": 3,
+    "solution": "Divide by 12: x/3 + y/(−4) = 1. So the x-intercept is 3 and the y-intercept is −4. A check: put y = 0, which gives x = 3, and put x = 0, which gives y = −4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m11",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The slope of the line ax + by + c = 0 (with b not zero) is:",
+    "options": [
+      "b/a",
+      "−a/b",
+      "a/b",
+      "−b/a"
+    ],
+    "ans": 1,
+    "solution": "Solve for y: y = −(a/b)x − c/b. The slope is −a/b, and the y-intercept is −c/b. For 3x + 4y − 5 = 0, the slope is −3/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m12",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance of the point (x₁, y₁) from the line ax + by + c = 0 is:",
+    "options": [
+      "(ax₁ + by₁ + c)/(a² + b²)",
+      "|ax₁ + by₁ + c|/(a + b)",
+      "|ax₁ + by₁ + c|/√(a² + b²)",
+      "√(ax₁ + by₁ + c)/(a² + b²)"
+    ],
+    "ans": 2,
+    "solution": "The numerator is the absolute value of the expression at the point, and the denominator is the length of the normal vector (a, b). For the distance of the origin, it reduces to |c|/√(a² + b²).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m13",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance between the parallel lines ax + by + c₁ = 0 and ax + by + c₂ = 0 is:",
+    "options": [
+      "|c₁ − c₂|/(a² + b²)",
+      "|c₁ − c₂|/√(a² + b²)",
+      "|c₁ − c₂|/(a + b)",
+      "|c₁ + c₂|/√(a² + b²)"
+    ],
+    "ans": 1,
+    "solution": "Take a point on the first line, and find its distance from the second. The coefficients a and b must be the same in the two equations. For 3x + 4y = 5 and 3x + 4y = 15, the distance is 10/5 = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m14",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance of the point (3, 4) from the line 3x + 4y − 5 = 0 is:",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "20"
+    ],
+    "ans": 2,
+    "solution": "d = |3 × 3 + 4 × 4 − 5|/√(9 + 16) = |20|/5 = 4. The point lies on the side of the line where the expression is positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m15",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The angle φ between two lines with the slopes m₁ and m₂ is given by:",
+    "options": [
+      "tan φ = |m₁ − m₂|",
+      "tan φ = |(m₁ − m₂)/(1 − m₁m₂)|",
+      "tan φ = |(m₁ + m₂)/(1 − m₁m₂)|",
+      "tan φ = |(m₁ − m₂)/(1 + m₁m₂)|"
+    ],
+    "ans": 3,
+    "solution": "It comes from tan(θ₁ − θ₂) with m = tan θ. If 1 + m₁m₂ = 0, the lines are perpendicular, and the angle is 90°. If m₁ = m₂, the angle is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m16",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The angle between the lines y = 2x + 1 and y = x/3 − 2 is:",
+    "options": [
+      "45°",
+      "60°",
+      "30°",
+      "90°"
+    ],
+    "ans": 0,
+    "solution": "tan φ = |(2 − 1/3)/(1 + 2/3)| = (5/3)/(5/3) = 1, so φ = 45°. The inclinations are 63.43° and 18.43°, and the difference is 45°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m17",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The normal form of the equation of a line is:",
+    "options": [
+      "x cos α − y sin α = p, where p is the intercept on the y axis",
+      "x sin α + y cos α = p, where p is the slope of the line",
+      "x cos α + y sin α = p, where p is the distance of the line from the origin",
+      "x/cos α + y/sin α = p, where p is the angle of the line"
+    ],
+    "ans": 2,
+    "solution": "Here p is the length of the perpendicular from the origin to the line, and α is the angle that this perpendicular makes with the positive x axis. The value of p is always positive.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m18",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The line 3x + 4y = 10 is written in the normal form. The distance p of the line from the origin is:",
+    "options": [
+      "10/3",
+      "2",
+      "5",
+      "10"
+    ],
+    "ans": 1,
+    "solution": "Divide by √(3² + 4²) = 5: (3/5)x + (4/5)y = 2. So cos α = 3/5, sin α = 4/5, and p = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m19",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following equations represents a line that is parallel to the x axis?",
+    "options": [
+      "x + y = 5",
+      "y = 5x",
+      "x = 5",
+      "y = 5"
+    ],
+    "ans": 3,
+    "solution": "A line with the equation y = k has a constant value of y, and is horizontal, so its slope is 0. The line x = 5 is vertical. The line y = 5x passes through the origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m20",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The lines 2x + 3y = 12 and x − y = 1 meet at the point:",
+    "options": [
+      "(3, 2)",
+      "(2, 3)",
+      "(3, 3)",
+      "(1, 0)"
+    ],
+    "ans": 0,
+    "solution": "From the second line, x = y + 1. Putting it into the first: 2(y + 1) + 3y = 12, so y = 2 and x = 3. Check: 2(3) + 3(2) = 12, and 3 − 2 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m21",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The points (1, 2), (3, k) and (5, 8) are collinear. The value of k is:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "3"
+    ],
+    "ans": 0,
+    "solution": "The slope between the first and the last points is (8 − 2)/(5 − 1) = 3/2. The slope between the first and the second is (k − 2)/(3 − 1) = 3/2, so k − 2 = 3 and k = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-m22",
+    "ch": "mth-11-02",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The area of the triangle with the vertices (1, 1), (5, 2) and (3, 6) is:",
+    "options": [
+      "12 square units",
+      "9 square units",
+      "18 square units",
+      "4.5 square units"
+    ],
+    "ans": 1,
+    "solution": "Area = (1/2)|x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)| = (1/2)|1(2 − 6) + 5(6 − 1) + 3(1 − 2)| = (1/2)|−4 + 25 − 3| = 9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-02-n01",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the slope of the line through (1, 2) and (4, 8), to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "m = (y₂ − y₁)/(x₂ − x₁) = 6/3 = 2.00. Check: the line makes an angle of θ = tan⁻¹ 2 = 63.43° with the x axis, and tan 63.43° = 2.00.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n02",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the distance of the point (3, 4) from the line 3x + 4y − 5 = 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "d = |3 × 3 + 4 × 4 − 5|/√(3² + 4²) = 20/5 = 4.000. Check: the nearest point of the line to (3, 4), found by moving along the line to the smallest distance, is at a distance of 4.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n03",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the acute angle between the lines y = 2x + 1 and y = x/3 − 2, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 45.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "tan φ = |(m₁ − m₂)/(1 + m₁m₂)| = |(2 − 1/3)/(1 + 2/3)| = 1, so φ = 45.00°. Check: the inclinations of the lines are tan⁻¹ 2 = 63.43° and tan⁻¹(1/3) = 18.43°, and their difference is 45.00°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n04",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the x coordinate of the point where the lines 2x + 3y = 12 and x − y = 1 meet, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By Cramer's rule, x = (12 × (−1) − 3 × 1)/(2 × (−1) − 3 × 1) = (−15)/(−5) = 3.000, and y = 2. Check: from x = y + 1, put it into 2x + 3y = 12, and 2(y + 1) + 3y = 12, so y = 2 and x = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n05",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the area of the triangle with the vertices (1, 1), (5, 2) and (3, 6), in square units, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 9.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Area = (1/2)|1(2 − 6) + 5(6 − 1) + 3(1 − 2)| = (1/2)|−4 + 25 − 3| = 9.00. Check: the base from (1, 1) to (5, 2) is √17 = 4.123. The distance of (3, 6) from the line through those two points is 4.366, and (1/2) × 4.123 × 4.366 = 9.00.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n06",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "A line has the x-intercept 3 and the y-intercept −4. Find its slope, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.333,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The equation is x/3 + y/(−4) = 1, which is 4x − 3y = 12, with the slope 4/3 = 1.333. Check: the line goes through (3, 0) and (0, −4), and the slope is (−4 − 0)/(0 − 3) = 4/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n07",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the distance between the parallel lines 3x + 4y − 5 = 0 and 3x + 4y − 15 = 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "d = |c₁ − c₂|/√(a² + b²) = |−5 + 15|/5 = 2.000. Check: the point (1, 0.5) is on the first line, since 3 + 2 − 5 = 0. Its distance from the second line is |3 + 2 − 15|/5 = 2.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n08",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "Write the line 3x + 4y = 10 in the normal form x cos α + y sin α = p, and find p, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "Divide by √(3² + 4²) = 5: (3/5)x + (4/5)y = 2. So p = 2.00, with cos α = 0.6 and sin α = 0.8. Check: the point of the line nearest to the origin is at a distance of 2.00.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-02-n09",
+    "ch": "mth-11-02",
+    "type": "num",
+    "diff": 3,
+    "q": "The points (1, 2), (3, k) and (5, 8) are collinear. Find k, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The slope from (1, 2) to (5, 8) is 6/4 = 1.5. For the point at x = 3, k = 2 + 1.5 × (3 − 1) = 5.000. Check: three collinear points make a triangle of zero area. The area as a function of k is zero only at k = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-m01",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The equation of the circle with the centre at the origin and the radius r is:",
+    "options": [
+      "x² − y² = r²",
+      "x + y = r",
+      "x² + y² = r",
+      "x² + y² = r²"
+    ],
+    "ans": 3,
+    "solution": "A point (x, y) is on the circle when its distance from the origin is r, so √(x² + y²) = r, which gives x² + y² = r².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m02",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the circle with the centre (h, k) and the radius r is:",
+    "options": [
+      "(x − h)² − (y − k)² = r²",
+      "(x − h)(y − k) = r²",
+      "(x − h)² + (y − k)² = r²",
+      "(x + h)² + (y + k)² = r²"
+    ],
+    "ans": 2,
+    "solution": "It says that the distance of (x, y) from (h, k) is r. For the centre (2, −3) and r = 4, the equation is (x − 2)² + (y + 3)² = 16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m03",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The circle x² + y² + 2gx + 2fy + c = 0 has the centre at:",
+    "options": [
+      "(−f, −g)",
+      "(−g, −f)",
+      "(2g, 2f)",
+      "(g, f)"
+    ],
+    "ans": 1,
+    "solution": "Complete the squares: (x + g)² + (y + f)² = g² + f² − c. The centre is (−g, −f), and the radius is √(g² + f² − c).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m04",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The radius of the circle x² + y² + 2gx + 2fy + c = 0 is:",
+    "options": [
+      "√(g² + f² − c)",
+      "√(g + f − c)",
+      "g² + f² − c",
+      "√(g² + f² + c)"
+    ],
+    "ans": 0,
+    "solution": "The expression under the root must be positive for a real circle. If it is zero, the circle is a single point, and if it is negative, there is no real circle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m05",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The centre and the radius of the circle x² + y² − 6x + 8y − 11 = 0 are respectively:",
+    "options": [
+      "(6, −8) and 6",
+      "(3, −4) and 36",
+      "(−3, 4) and 6",
+      "(3, −4) and 6"
+    ],
+    "ans": 3,
+    "solution": "Compare with 2g = −6 and 2f = 8, so g = −3 and f = 4. The centre is (−g, −f) = (3, −4). The radius is √(9 + 16 + 11) = √36 = 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m06",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation x² + y² + 2x + 2y + 5 = 0 represents:",
+    "options": [
+      "a circle of the radius 1, with its centre at (−1, −1)",
+      "a circle of the radius 5, with its centre at (−1, −1)",
+      "no real circle, since g² + f² − c is negative",
+      "a single point, which is the centre (−1, −1)"
+    ],
+    "ans": 2,
+    "solution": "Here g = 1, f = 1 and c = 5, so g² + f² − c = 1 + 1 − 5 = −3, which is negative. There is no real point that satisfies the equation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m07",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the circle that has the points A(x₁, y₁) and B(x₂, y₂) as the ends of a diameter is:",
+    "options": [
+      "(x − x₁)(y − y₁) + (x − x₂)(y − y₂) = 0",
+      "(x − x₁)(x − x₂) + (y − y₁)(y − y₂) = 0",
+      "(x + x₁)(x + x₂) + (y + y₁)(y + y₂) = 0",
+      "(x − x₁)(x − x₂) − (y − y₁)(y − y₂) = 0"
+    ],
+    "ans": 1,
+    "solution": "For a point P on the circle, the angle APB is 90°, so the slopes satisfy m₁m₂ = −1. This gives the dot product of PA and PB equal to zero, which is the given equation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m08",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The circle that has the points (2, 3) and (6, 7) as the ends of a diameter has the centre and the radius:",
+    "options": [
+      "(4, 5) and 2√2",
+      "(8, 10) and 2√2",
+      "(2, 2) and 4",
+      "(4, 5) and 8"
+    ],
+    "ans": 0,
+    "solution": "The centre is the mid-point of the diameter, (4, 5). The diameter is √(16 + 16) = 4√2, so the radius is 2√2, which is 2.828.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m09",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the tangent to the circle x² + y² = r² at the point (x₁, y₁) on it is:",
+    "options": [
+      "x + y = r²",
+      "xx₁ − yy₁ = r²",
+      "xx₁ + yy₁ = r",
+      "xx₁ + yy₁ = r²"
+    ],
+    "ans": 3,
+    "solution": "The tangent is perpendicular to the radius to the point of contact. The tangent to x² + y² = 25 at (3, 4) is 3x + 4y = 25.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m10",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The equation of the tangent to the circle x² + y² = r² at the point (r cos θ, r sin θ) is:",
+    "options": [
+      "x sin θ + y cos θ = r",
+      "x cos θ + y sin θ = r",
+      "x cos θ + y sin θ = r²",
+      "x cos θ − y sin θ = r"
+    ],
+    "ans": 1,
+    "solution": "Put x₁ = r cos θ and y₁ = r sin θ in xx₁ + yy₁ = r² and divide by r. This is the normal form of the line, with the distance r from the origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m11",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The tangent to the circle x² + y² = 25 at the point (3, 4) cuts the x axis at the point:",
+    "options": [
+      "(25/3, 0)",
+      "(4, 0), the foot of the point's y coordinate",
+      "(3, 0), the foot of the point's x coordinate",
+      "(5, 0), the point where the circle meets the axis"
+    ],
+    "ans": 0,
+    "solution": "The tangent is 3x + 4y = 25. Put y = 0: x = 25/3, which is 8.33. The slope of the tangent is −3/4, as the radius to (3, 4) has the slope 4/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m12",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The length of the tangent from the point (5, 0) to the circle x² + y² = 9 is:",
+    "options": [
+      "5",
+      "16",
+      "4",
+      "3"
+    ],
+    "ans": 2,
+    "solution": "The length of the tangent from (x₁, y₁) is √(x₁² + y₁² − r²) = √(25 − 9) = 4. By Pythagoras, in the right triangle with the sides 3 (radius) and 4 (tangent), the hypotenuse is 5, which is the distance of the point from the centre.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m13",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The line y = mx + c touches the circle x² + y² = r² when:",
+    "options": [
+      "c² = r²(1 + m²)",
+      "c² = r² + m",
+      "c² = r²(1 − m²)",
+      "c = r(1 + m²)"
+    ],
+    "ans": 0,
+    "solution": "The distance of the origin from the line mx − y + c = 0 must be equal to r: |c|/√(1 + m²) = r. Squaring gives c² = r²(1 + m²) = r²m² + r².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m14",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The line y = x + c touches the circle x² + y² = 16. The values of c are:",
+    "options": [
+      "±8",
+      "±4",
+      "±16",
+      "±4√2"
+    ],
+    "ans": 3,
+    "solution": "c² = r²(1 + m²) = 16 × (1 + 1) = 32, so c = ±√32 = ±4√2, about ±5.657. There are two parallel tangents of the slope 1, one on each side of the circle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m15",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of tangents of a given slope m to a circle is:",
+    "options": [
+      "four, two on each side of the centre",
+      "two, and they are parallel to each other",
+      "none, if m is not zero at all",
+      "one only, on the side of the centre"
+    ],
+    "ans": 1,
+    "solution": "The condition c² = r²(1 + m²) gives two values of c, one positive and one negative. The two tangents are on the opposite sides of the centre, at the same distance from it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m16",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The director circle of the circle x² + y² = r² is the locus of the points:",
+    "options": [
+      "from which only one tangent can be drawn to the circle",
+      "from which the two tangents are parallel to each other",
+      "from which the two tangents to the circle are perpendicular to each other",
+      "that are at the distance r from every tangent"
+    ],
+    "ans": 2,
+    "solution": "If the two tangents from a point P are at right angles, the quadrilateral formed by P, the two points of contact and the centre is a square. So OP = r√2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m17",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation of the director circle of the circle x² + y² = r² is:",
+    "options": [
+      "x² + y² = 4r²",
+      "x² + y² = r²/2",
+      "x² + y² = r²",
+      "x² + y² = 2r²"
+    ],
+    "ans": 3,
+    "solution": "A point P(x, y) from which the tangents are perpendicular is at the distance r√2 from the centre. So x² + y² = 2r². Its radius is r√2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m18",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The radius of the director circle of the circle x² + y² = 25 is:",
+    "options": [
+      "10",
+      "5√2",
+      "5.0",
+      "25"
+    ],
+    "ans": 1,
+    "solution": "The radius of the director circle is r√2 = 5√2, which is about 7.07. The point (5, 5), for example, is at the distance √50 = 5√2 from the origin, and the tangents from it are perpendicular.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m19",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A line is at a distance p from the centre of a circle of radius r, with p less than r. The length of the chord cut by the line is:",
+    "options": [
+      "2(r − p)",
+      "√(r² − p²)",
+      "2√(r² − p²)",
+      "√(r² + p²)"
+    ],
+    "ans": 2,
+    "solution": "The perpendicular from the centre bisects the chord. By Pythagoras, half of the chord is √(r² − p²). For r = 5 and p = 3, the chord is 2 × 4 = 8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m20",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A line is at a distance of 5 from the centre of a circle of radius 5. The line is:",
+    "options": [
+      "a tangent to the circle",
+      "a diameter of the circle",
+      "a secant that cuts the circle at two points",
+      "a line that does not meet the circle"
+    ],
+    "ans": 0,
+    "solution": "When the distance of the line from the centre equals the radius, the line touches the circle at one point. If the distance is less than the radius, it is a secant, and if it is more, the line misses the circle.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-m21",
+    "ch": "mth-11-03",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The circle that passes through the points (0, 0), (4, 0) and (0, 6) has the radius:",
+    "options": [
+      "√26",
+      "√13",
+      "5",
+      "13"
+    ],
+    "ans": 1,
+    "solution": "The angle at the origin is 90°, so the segment from (4, 0) to (0, 6) is a diameter. Its length is √(16 + 36) = √52 = 2√13, so the radius is √13, which is 3.606. The centre is (2, 3).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-03-n01",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the radius of the circle x² + y² − 6x + 8y − 11 = 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 6.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Compare with x² + y² + 2gx + 2fy + c = 0: g = −3, f = 4 and c = −11. The radius is √(g² + f² − c) = √(9 + 16 + 11) = 6.000. Check: scanning along x for the highest and the lowest points of the circle, the vertical extent is 12, so the radius is 6.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n02",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the radius of the circle through the points (0, 0), (4, 0) and (0, 6), to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.606,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The angle at the origin is 90°, so the line from (4, 0) to (0, 6) is a diameter, of length √52 = 7.211. The radius is 3.606. Check: the centre is on the perpendicular bisector of the first two points, x = 2. The point on it that is equally far from (0, 0) and (0, 6) has y = 3, and its distance from the origin is √(4 + 9) = 3.606.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n03",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the length of the tangent from the point (5, 0) to the circle x² + y² = 9, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The length of the tangent is √(x₁² + y₁² − r²) = √(25 + 0 − 9) = 4.000. Check: the point of contact is the point of the circle where the radius is at right angles to the line to (5, 0). It is (1.8, 2.4), and its distance from (5, 0) is √(3.2² + 2.4²) = 4.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n04",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "The tangent to the circle x² + y² = 25 at the point (3, 4) cuts the x axis at the point (a, 0). Find a, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 8.333,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The tangent is xx₁ + yy₁ = 25, which is 3x + 4y = 25. For y = 0, x = 25/3 = 8.333. Check: the radius to (3, 4) has the slope 4/3, so the tangent has the slope −3/4. Going down from (3, 4) by 4 units to y = 0 takes x forward by 4/(3/4) = 5.333, so x = 3 + 5.333 = 8.333.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n05",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "The line y = x + c touches the circle x² + y² = 16, with c positive. Find c, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.657,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For tangency, c² = r²(1 + m²) = 16 × 2 = 32, so c = √32 = 5.657. Check: the distance of the origin from the line x − y + c = 0 is c/√2. This equals the radius 4 when c = 4√2 = 5.657.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n06",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the radius of the director circle of the circle x² + y² = 25, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 7.071,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The director circle is x² + y² = 2r² = 50, with the radius r√2 = 5√2 = 7.071. Check: for a point at the distance d from the centre, the angle between the two tangents is 2 sin⁻¹(r/d). This is 90° when sin⁻¹(r/d) = 45°, that is, d = r√2 = 7.071.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n07",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 3,
+    "q": "A line is at a distance of 3 from the centre of the circle x² + y² = 25. Find the length of the chord that the line cuts off, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 8.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The length of the chord is 2√(r² − p²) = 2√(25 − 9) = 8.000. Check: take the line y = 3. It meets the circle where x² = 25 − 9 = 16, so x = ±4. The two points are (−4, 3) and (4, 3), and the distance between them is 8.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-03-n08",
+    "ch": "mth-11-03",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the radius of the circle that has the points (2, 3) and (6, 7) as the ends of a diameter, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.828,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The diameter is √((6 − 2)² + (7 − 3)²) = √32 = 5.657, so the radius is 2.828. Check: the equation (x − 2)(x − 6) + (y − 3)(y − 7) = 0 is x² + y² − 8x − 10y + 33 = 0, with g = −4, f = −5 and c = 33. The radius is √(16 + 25 − 33) = √8 = 2.828.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-m01",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A parabola is the locus of a point that moves so that its distance from a fixed point (the focus) is:",
+    "options": [
+      "equal to its distance from a second fixed point",
+      "twice its distance from the fixed line",
+      "equal to its distance from a fixed line (the directrix)",
+      "half of its distance from the fixed line"
+    ],
+    "ans": 2,
+    "solution": "The eccentricity of a parabola is e = SP/PM = 1. For an ellipse e is less than 1, and for a hyperbola e is greater than 1. The focus does not lie on the directrix.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m02",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a conic with the focus S, the point P and the distance PM from the directrix, the eccentricity is e = SP/PM. An ellipse has:",
+    "options": [
+      "e equal to zero for every ellipse",
+      "e less than 1",
+      "e equal to 1",
+      "e greater than 1"
+    ],
+    "ans": 1,
+    "solution": "e = 1 gives a parabola, e less than 1 gives an ellipse, and e greater than 1 gives a hyperbola. A circle is the limiting case of an ellipse with e = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m03",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard equation of a parabola with the vertex at the origin and the axis along the positive x axis is:",
+    "options": [
+      "x² = 4ay",
+      "y = 4ax²",
+      "y² = −4ax",
+      "y² = 4ax"
+    ],
+    "ans": 3,
+    "solution": "The focus is at (a, 0), and the directrix is x = −a. The parabola opens to the right for a positive. The equation x² = 4ay has the axis along the y axis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m04",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the parabola y² = 4ax, the focus and the directrix are:",
+    "options": [
+      "(a, 0) and x = −a",
+      "(−a, 0) and x = a",
+      "(0, a) and y = −a",
+      "(a, 0) and x = a"
+    ],
+    "ans": 0,
+    "solution": "The vertex is half-way between the focus and the directrix. For y² = 8x, a = 2, so the focus is (2, 0), and the directrix is x = −2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m05",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a point P(x₁, y₁) on the parabola y² = 4ax, the focal distance SP is:",
+    "options": [
+      "x₁ + 2a",
+      "y₁ + a",
+      "x₁ − a",
+      "x₁ + a"
+    ],
+    "ans": 3,
+    "solution": "SP = PM, the distance from the directrix x = −a, which is x₁ + a. For the point (2, 4) on y² = 8x, SP = 2 + 2 = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m06",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The length of the latus rectum of the parabola y² = 4ax is:",
+    "options": [
+      "4a",
+      "8a",
+      "2a",
+      "a"
+    ],
+    "ans": 0,
+    "solution": "The latus rectum is the chord through the focus perpendicular to the axis. At x = a, y² = 4a², so y = ±2a, and the chord is 4a. For y² = 8x, it is 8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m07",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard equation of an ellipse with the centre at the origin and the major axis along the x axis is:",
+    "options": [
+      "x²/b² + y²/a² = 1, with a greater than b",
+      "x²/a² − y²/b² = 1, with a greater than b",
+      "x²/a² + y²/b² = 1, with a greater than b",
+      "x²/a² + y²/b² = 0, with a greater than b"
+    ],
+    "ans": 2,
+    "solution": "The vertices are at (±a, 0), and the ends of the minor axis are at (0, ±b). The foci are at (±ae, 0), where b² = a²(1 − e²).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m08",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the ellipse x²/25 + y²/16 = 1, the eccentricity is:",
+    "options": [
+      "5/3",
+      "3/5",
+      "4/5",
+      "9/25"
+    ],
+    "ans": 1,
+    "solution": "a² = 25 and b² = 16, so e = √(1 − b²/a²) = √(1 − 16/25) = 3/5. The foci are at (±ae, 0) = (±3, 0).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m09",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In an ellipse, the sum of the distances of any point from the two foci is equal to:",
+    "options": [
+      "2b, the length of the minor axis",
+      "2ae, the distance between the foci",
+      "2a, the length of the major axis",
+      "a + b"
+    ],
+    "ans": 2,
+    "solution": "This is the property that defines the ellipse, and it is the basis of the method of drawing an ellipse with a string and two pins. For the point (0, b), each distance is a, and the sum is 2a.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m10",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The standard equation of a hyperbola with the centre at the origin and the transverse axis along the x axis is:",
+    "options": [
+      "x²/a² − y²/b² = 0",
+      "x²/a² − y²/b² = 1",
+      "y²/a² − x²/b² = 1",
+      "x²/a² + y²/b² = 1"
+    ],
+    "ans": 1,
+    "solution": "The vertices are at (±a, 0), and the foci are at (±ae, 0), with b² = a²(e² − 1). The equation x²/a² − y²/b² = 0 gives the two asymptotes.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m11",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the hyperbola x²/9 − y²/16 = 1, the eccentricity is:",
+    "options": [
+      "7/3",
+      "3/5",
+      "4/3",
+      "5/3"
+    ],
+    "ans": 3,
+    "solution": "e = √(1 + b²/a²) = √(1 + 16/9) = √(25/9) = 5/3. The foci are at (±5, 0), and the asymptotes have the slopes ±4/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m12",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The asymptotes of the hyperbola x²/a² − y²/b² = 1 are the lines:",
+    "options": [
+      "y = ±(b/a)x",
+      "y = ±(b/a)",
+      "x = ±a",
+      "y = ±(a/b)x"
+    ],
+    "ans": 0,
+    "solution": "The curve gets closer and closer to these lines for large values of x. They are found from x²/a² − y²/b² = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m13",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The tangent to the parabola y² = 4ax at the point (x₁, y₁) on it is:",
+    "options": [
+      "yy₁ = a(x + x₁)",
+      "xx₁ = 2a(y + y₁)",
+      "yy₁ = 2a(x + x₁)",
+      "yy₁ = 2a(x − x₁)"
+    ],
+    "ans": 2,
+    "solution": "Replace y² by yy₁ and 2x by x + x₁ in y² = 4ax. At (2, 4) on y² = 8x, the tangent is 4y = 4(x + 2), that is y = x + 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m14",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The tangent to the parabola y² = 8x at the point (2, 4) cuts the x axis at:",
+    "options": [
+      "(−2, 0)",
+      "(0, 2)",
+      "(4, 0)",
+      "(2, 0)"
+    ],
+    "ans": 0,
+    "solution": "The tangent is y = x + 2. For y = 0, x = −2. The point of the x axis where the tangent cuts it is as far behind the vertex as the point of contact is in front of it.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m15",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The tangent to the ellipse x²/a² + y²/b² = 1 at the point (x₁, y₁) on it is:",
+    "options": [
+      "xx₁/b² + yy₁/a² = 1",
+      "xx₁ + yy₁ = a² + b²",
+      "xx₁/a² − yy₁/b² = 1",
+      "xx₁/a² + yy₁/b² = 1"
+    ],
+    "ans": 3,
+    "solution": "Replace x² by xx₁ and y² by yy₁ in the equation. The tangent to x²/25 + y²/16 = 1 at (3, 3.2) is 3x/25 + 3.2y/16 = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m16",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The tangent to the hyperbola x²/a² − y²/b² = 1 at the point (x₁, y₁) on it is:",
+    "options": [
+      "xx₁/b² − yy₁/a² = 1",
+      "xx₁/a² − yy₁/b² = 1",
+      "xx₁ − yy₁ = ab",
+      "xx₁/a² + yy₁/b² = 1"
+    ],
+    "ans": 1,
+    "solution": "The same rule is used, x² → xx₁ and y² → yy₁, and it keeps the minus sign of the equation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m17",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The line y = mx + c touches the parabola y² = 4ax when:",
+    "options": [
+      "c = a/m",
+      "c = 4a/m",
+      "c = m/a",
+      "c = am"
+    ],
+    "ans": 0,
+    "solution": "Put y = mx + c in y² = 4ax: m²x² + (2mc − 4a)x + c² = 0. For a single root, the discriminant is zero, (2mc − 4a)² = 4m²c², which gives mc = a. For y² = 8x with m = 1, c = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m18",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The line y = mx + c touches the ellipse x²/a² + y²/b² = 1 when:",
+    "options": [
+      "c = am + b",
+      "c² = a² + b²m²",
+      "c² = a²m² − b²",
+      "c² = a²m² + b²"
+    ],
+    "ans": 3,
+    "solution": "Putting the line into the equation of the ellipse gives a quadratic in x. The discriminant is zero when c² = a²m² + b². For a = 5, b = 4 and m = 1/2, c² = 6.25 + 16 = 22.25.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m19",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The line y = mx + c touches the hyperbola x²/a² − y²/b² = 1 when:",
+    "options": [
+      "c² = b²m² − a²",
+      "c² = a²m² − b²",
+      "c² = a²m² + b²",
+      "c = am − b"
+    ],
+    "ans": 1,
+    "solution": "The condition has the minus sign for the hyperbola, as the equation of the hyperbola has a minus sign. It is real only when a²m² is not less than b².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m20",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The length of the latus rectum of the ellipse x²/a² + y²/b² = 1 is:",
+    "options": [
+      "2a²/b",
+      "b²/a",
+      "2b²/a",
+      "2ab"
+    ],
+    "ans": 2,
+    "solution": "At a focus, x = ae, and y² = b²(1 − e²) = b⁴/a². So y = ±b²/a, and the chord is 2b²/a. For x²/25 + y²/16 = 1, it is 32/5 = 6.4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m21",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The length of the latus rectum of the hyperbola x²/a² − y²/b² = 1 is:",
+    "options": [
+      "b²/a",
+      "4a",
+      "2a²/b",
+      "2b²/a"
+    ],
+    "ans": 3,
+    "solution": "It is the chord through a focus, at right angles to the transverse axis. For x²/9 − y²/16 = 1, it is 2 × 16/3 = 32/3, which is 10.67.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-m22",
+    "ch": "mth-11-04",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance of a point P on a conic from a focus S, and from the corresponding directrix, are in a constant ratio. This constant is called:",
+    "options": [
+      "the semi-axis",
+      "the latus rectum",
+      "the eccentricity",
+      "the focal length"
+    ],
+    "ans": 2,
+    "solution": "e = SP/PM is the same for every point P on the conic. It decides the shape: e = 0 for a circle, e less than 1 for an ellipse, e = 1 for a parabola, e greater than 1 for a hyperbola.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-04-n01",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the focal distance of the point (2, 4) on the parabola y² = 8x, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For y² = 8x, a = 2, and the focus is (2, 0). The focal distance of a point (x₁, y₁) is x₁ + a = 2 + 2 = 4.000. Check: the distance from (2, 0) to (2, 4) is 4.000. The distance from the directrix x = −2 is also 2 + 2 = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n02",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the eccentricity of the ellipse x²/25 + y²/16 = 1, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.6,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "e = √(1 − b²/a²) = √(1 − 16/25) = 3/5 = 0.600. Check: for the end of the minor axis, (0, 4), the sum of the distances from the two foci must be 2a = 10. For a focus (c, 0), 2√(c² + 16) = 10, so c = 3, and e = c/a = 3/5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n03",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the eccentricity of the hyperbola x²/9 − y²/16 = 1, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.667,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "e = √(1 + b²/a²) = √(1 + 16/9) = 5/3 = 1.667. Check: the asymptotes y = ±(b/a)x have the slope 4/3. For a hyperbola, e = √(1 + (slope of the asymptote)²) = √(1 + 16/9) = 1.667.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n04",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The tangent to the parabola y² = 8x at the point (2, 4) cuts the x axis at (p, 0). Find p, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": -2.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The tangent is yy₁ = 2a(x + x₁): 4y = 4(x + 2), so y = x + 2. For y = 0, x = −2.000. Check: differentiating y² = 8x gives 2y dy/dx = 8, so the slope at (2, 4) is 1. The line through (2, 4) with the slope 1 reaches y = 0 when x = 2 − 4/1 = −2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n05",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The line y = x + c touches the parabola y² = 8x. Find c, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For y² = 4ax, the line y = mx + c is a tangent when c = a/m. Here a = 2 and m = 1, so c = 2.000. Check: putting y = x + c in y² = 8x gives x² + (2c − 8)x + c² = 0. The discriminant is (2c − 8)² − 4c² = 64 − 32c, which is zero for c = 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n06",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The point (3, 3.2) is on the ellipse x²/25 + y²/16 = 1. Find the y-intercept of the tangent at this point, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The tangent is xx₁/a² + yy₁/b² = 1: 3x/25 + 3.2y/16 = 1. Put x = 0: 0.2y = 1, so y = 5.000. Check: differentiating gives the slope dy/dx = −b²x₁/(a²y₁) = −16 × 3/(25 × 3.2) = −0.6. The line through (3, 3.2) with this slope cuts the y axis at 3.2 + 0.6 × 3 = 5.0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n07",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "The line y = x/2 + c touches the ellipse x²/25 + y²/16 = 1, with c positive. Find c, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4.717,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For the ellipse, the line y = mx + c is a tangent when c² = a²m² + b² = 25 × 0.25 + 16 = 22.25, so c = 4.717. Check: putting the line into the equation of the ellipse gives a quadratic in x, and its discriminant is zero at c = 4.717.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n08",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the length of the latus rectum of the parabola y² = 8x, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 8,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For y² = 4ax with a = 2, the latus rectum is 4a = 8.000. Check: the latus rectum is the chord through the focus (2, 0) at right angles to the axis. At x = 2, y² = 16, so y = ±4, and the chord from (2, −4) to (2, 4) has the length 8.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-04-n09",
+    "ch": "mth-11-04",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the length of the latus rectum of the hyperbola x²/9 − y²/16 = 1, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 10.667,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The length is 2b²/a = 2 × 16/3 = 10.667. Check: the focus is at x = ae = 5. Putting x = 5 in the equation, y² = 16(25/9 − 1) = 256/9, so y = ±16/3, and the chord has the length 32/3 = 10.667.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
     "id": "mth-11-05-g01",
     "ch": "mth-11-05",
     "type": "mcq",
@@ -18652,6 +23556,2832 @@
     "decimalPlaces": 3,
     "tol": 0.0005,
     "solution": "By inclusion-exclusion, students studying French or German = 18+15-6 = 27. P = 27/40 = 0.675. Cross-check via Venn regions: French-only (12) + German-only (9) + both (6) = 27, the same count.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-m01",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The imaginary unit i is defined by:",
+    "options": [
+      "i = 1/2",
+      "i = −1",
+      "i² = 1",
+      "i² = −1"
+    ],
+    "ans": 3,
+    "solution": "No real number has a negative square, so the number i was introduced with i² = −1. A complex number is written a + ib, where a and b are real.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m02",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of i²³ is:",
+    "options": [
+      "1",
+      "−i",
+      "−1",
+      "i"
+    ],
+    "ans": 1,
+    "solution": "The powers of i repeat in a cycle of 4: i¹ = i, i² = −1, i³ = −i, i⁴ = 1. Since 23 = 4 × 5 + 3, i²³ = i³ = −i.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m03",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of i¹⁰⁰ is:",
+    "options": [
+      "−1",
+      "−i",
+      "1",
+      "i"
+    ],
+    "ans": 2,
+    "solution": "100 is a multiple of 4, so i¹⁰⁰ = (i⁴)²⁵ = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m04",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the complex number z = a + ib, the real part and the imaginary part are respectively:",
+    "options": [
+      "a and b",
+      "ib and a",
+      "b and a",
+      "a and ib"
+    ],
+    "ans": 0,
+    "solution": "The imaginary part is the real number b, and not ib. For z = 3 − 4i, the real part is 3 and the imaginary part is −4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m05",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The conjugate of the complex number 3 − 4i is:",
+    "options": [
+      "4 − 3i",
+      "−3 − 4i",
+      "3 + 4i",
+      "−3 + 4i"
+    ],
+    "ans": 2,
+    "solution": "The conjugate of a + ib is a − ib. Only the sign of the imaginary part changes. The product of a number and its conjugate is the real number a² + b².",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m06",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a complex number z = a + ib, the product z z̄ (z times its conjugate) is:",
+    "options": [
+      "a² + b², which is |z|²",
+      "a² − b², which is Re(z²)",
+      "2ib, which is twice the imaginary part",
+      "2a, which is twice the real part"
+    ],
+    "ans": 0,
+    "solution": "(a + ib)(a − ib) = a² − i²b² = a² + b². This is used to divide complex numbers: multiply the top and the bottom by the conjugate of the denominator.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m07",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of (2 + 3i)(1 − 2i) is:",
+    "options": [
+      "2 − 6i",
+      "8 + i",
+      "−4 − i",
+      "8 − i"
+    ],
+    "ans": 3,
+    "solution": "(2 + 3i)(1 − 2i) = 2 − 4i + 3i − 6i² = 2 − i + 6 = 8 − i.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m08",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of 1/(a + ib) is:",
+    "options": [
+      "(a − ib)/(a + b)",
+      "(a − ib)/(a² + b²)",
+      "(−a + ib)/(a² − b²)",
+      "(a + ib)/(a² + b²)"
+    ],
+    "ans": 1,
+    "solution": "Multiply the numerator and the denominator by the conjugate a − ib: (a − ib)/((a + ib)(a − ib)) = (a − ib)/(a² + b²). For 1/(1 − 2i) = (1 + 2i)/5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m09",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The modulus of the complex number 3 + 4i is:",
+    "options": [
+      "5",
+      "1",
+      "25",
+      "7"
+    ],
+    "ans": 0,
+    "solution": "|a + ib| = √(a² + b²) = √(9 + 16) = 5. It is the distance of the point (3, 4) of the complex plane from the origin.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m10",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For two complex numbers z₁ and z₂, the modulus of the product |z₁z₂| is equal to:",
+    "options": [
+      "|z₁| − |z₂|",
+      "|z₁|/|z₂|",
+      "|z₁||z₂|",
+      "|z₁| + |z₂|"
+    ],
+    "ans": 2,
+    "solution": "The modulus of a product is the product of the moduli, and the modulus of a quotient is the quotient of the moduli. But |z₁ + z₂| is not |z₁| + |z₂|, it is at most that sum.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m11",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A square root of the complex number 3 + 4i is:",
+    "options": [
+      "2 − 2i",
+      "2 + i",
+      "3 + 2i",
+      "1 + 2i"
+    ],
+    "ans": 1,
+    "solution": "(2 + i)² = 4 + 4i + i² = 3 + 4i. The other square root is −(2 + i). Every non-zero complex number has two square roots, which are the negatives of each other.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m12",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The fundamental theorem of algebra says that a polynomial of degree n (n at least 1) with complex coefficients has:",
+    "options": [
+      "exactly one root in the complex numbers, whatever n is",
+      "no roots in the complex numbers if the degree is more than 2",
+      "at most n real roots, and no complex roots at all",
+      "exactly n roots in the complex numbers, counted with their multiplicity"
+    ],
+    "ans": 3,
+    "solution": "For example, a quadratic has two roots and a cubic has three, if the repeated roots are counted. If the coefficients are real, the complex roots occur in conjugate pairs.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m13",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A quadratic equation with real coefficients has one root equal to 2 + 3i. The other root is:",
+    "options": [
+      "−2 − 3i",
+      "2 − 3i",
+      "3 + 2i",
+      "−2 + 3i"
+    ],
+    "ans": 1,
+    "solution": "Complex roots of a polynomial with real coefficients come in conjugate pairs. The quadratic is x² − 4x + 13 = 0, with the roots 2 ± 3i.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m14",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 2,
+    "q": "In the Argand diagram, the complex number a + ib is represented by:",
+    "options": [
+      "the point (ia, ib)",
+      "the point (a, 0), whatever the value of b",
+      "the point (b, a), with the real part on the vertical axis",
+      "the point (a, b), with the real part on the horizontal axis"
+    ],
+    "ans": 3,
+    "solution": "The horizontal axis is the real axis, and the vertical axis is the imaginary axis. The modulus is the distance from the origin, and the argument is the angle with the positive real axis.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m15",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The principal argument of the complex number −1 + i√3 is:",
+    "options": [
+      "2π/3",
+      "−π/3",
+      "−2π/3",
+      "π/3"
+    ],
+    "ans": 0,
+    "solution": "The point (−1, √3) is in the second quadrant. tan⁻¹(√3/1) = π/3, so the argument is π − π/3 = 2π/3, which is 120°. The modulus is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m16",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The polar form of a complex number z with the modulus r and the argument θ is:",
+    "options": [
+      "r(sin θ + i cos θ)",
+      "r cos θ + sin θ",
+      "r(cos θ + i sin θ)",
+      "r(cos θ − i sin θ)"
+    ],
+    "ans": 2,
+    "solution": "The real part is r cos θ and the imaginary part is r sin θ. The form r e^(iθ) is the same. For 1 + i, r = √2 and θ = π/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m17",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "De Moivre's theorem states that, for an integer n:",
+    "options": [
+      "[r(cos θ + i sin θ)]ⁿ = rⁿ(cosⁿθ + i sinⁿθ)",
+      "[r(cos θ + i sin θ)]ⁿ = nr(cos θ + i sin θ)",
+      "[r(cos θ + i sin θ)]ⁿ = r(cos nθ + i sin nθ)",
+      "[r(cos θ + i sin θ)]ⁿ = rⁿ(cos nθ + i sin nθ)"
+    ],
+    "ans": 3,
+    "solution": "The modulus is raised to the power n, and the argument is multiplied by n. This is the way to find powers and roots of complex numbers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m18",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of (1 + i)⁸ is:",
+    "options": [
+      "16",
+      "8i",
+      "256",
+      "−16"
+    ],
+    "ans": 0,
+    "solution": "1 + i has the modulus √2 and the argument π/4. By De Moivre's theorem, (1 + i)⁸ = (√2)⁸(cos 2π + i sin 2π) = 16. Check: (1 + i)² = 2i, and (2i)⁴ = 16.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m19",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If ω is a complex cube root of unity, then 1 + ω + ω² is equal to:",
+    "options": [
+      "ω",
+      "0",
+      "−1",
+      "1"
+    ],
+    "ans": 1,
+    "solution": "ω = (−1 + i√3)/2, and ω³ = 1. Since ω³ − 1 = (ω − 1)(1 + ω + ω²) = 0 and ω is not 1, the second factor is zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m20",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If ω is a complex cube root of unity, the value of ω¹⁰⁰ is:",
+    "options": [
+      "1",
+      "ω²",
+      "ω",
+      "−1"
+    ],
+    "ans": 2,
+    "solution": "ω³ = 1, so the powers repeat every 3 steps. 100 = 3 × 33 + 1, so ω¹⁰⁰ = ω.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m21",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If ω is a complex cube root of unity, the value of (1 + ω)³ is:",
+    "options": [
+      "+1",
+      "0.0",
+      "−1",
+      "ω²"
+    ],
+    "ans": 2,
+    "solution": "1 + ω = −ω², so (1 + ω)³ = −ω⁶ = −(ω³)² = −1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m22",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The locus of the point z in the complex plane such that |z − 1| = |z + 1| is:",
+    "options": [
+      "the real axis",
+      "the line x = 1",
+      "the circle with the centre at the origin and the radius 1",
+      "the imaginary axis, which is the perpendicular bisector of the points 1 and −1"
+    ],
+    "ans": 3,
+    "solution": "The condition says that z is at an equal distance from 1 and −1. The set of such points is the perpendicular bisector of the segment between them, which is the imaginary axis, x = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m23",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation |z − 2| = 3 in the complex plane represents:",
+    "options": [
+      "a circle with the centre at the origin and the radius 3",
+      "a circle with the centre at the point 2 and the radius 3",
+      "a line at a distance of 3 from the point 2",
+      "a circle with the centre at the point −2 and the radius 3"
+    ],
+    "ans": 1,
+    "solution": "|z − z₀| = r is the set of points at a distance r from z₀, which is a circle. In coordinates, (x − 2)² + y² = 9.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m24",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The distance between the points 1 + 2i and 4 + 6i in the Argand diagram is:",
+    "options": [
+      "5",
+      "25",
+      "√7",
+      "7"
+    ],
+    "ans": 0,
+    "solution": "The distance is |z₁ − z₂| = |−3 − 4i| = √(9 + 16) = 5, which is the same as the distance between the points (1, 2) and (4, 6).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-m25",
+    "ch": "mth-11-06",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The roots of the equation z² + 2z + 5 = 0 are:",
+    "options": [
+      "−2 + i and −2 − i",
+      "−1 + 2i and −1 − 2i",
+      "−1 + 4i and −1 − 4i",
+      "1 + 2i and 1 − 2i"
+    ],
+    "ans": 1,
+    "solution": "z = (−2 ± √(4 − 20))/2 = (−2 ± 4i)/2 = −1 ± 2i. The discriminant is negative, so the roots are a pair of conjugates.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-06-n01",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the real part of the product (2 + 3i)(1 − 2i). Give your answer as a whole number.",
+    "ans": 8,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "(2 + 3i)(1 − 2i) = 2 − 4i + 3i − 6i² = (2 + 6) + (−4 + 3)i = 8 − i. The real part is 8. Check: multiplying the complex numbers directly gives 8 − 1i.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n02",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the modulus of (3 + 4i)/(1 − 2i), to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.236,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "Multiply the top and the bottom by 1 + 2i: (3 + 4i)(1 + 2i)/5 = (3 + 6i + 4i − 8)/5 = (−5 + 10i)/5 = −1 + 2i. The modulus is √(1 + 4) = 2.236. Check: |3 + 4i|/|1 − 2i| = 5/√5 = 2.236.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n03",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the real part of the square root of 3 + 4i that has a positive real part, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For z = a + ib, the real part of √z is √((|z| + a)/2) = √((5 + 3)/2) = 2.000. The imaginary part is √((|z| − a)/2) = 1, with the sign of b. So the root is 2 + i. Check: in the polar form, r = 5 and θ = 53.13°. The root has the modulus √5 and the argument 26.57°, so its real part is √5 cos 26.57° = 2.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n04",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the principal argument of −1 + i√3, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": 120.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The point (−1, √3) is in the second quadrant. The reference angle is tan⁻¹(√3/1) = 60°. The argument is 180° − 60° = 120.00°. Check: the angle of the point from the positive real axis, from the direct calculation, is 120.00°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n05",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the value of (1 + i)⁸, to 3 decimal places (the answer is a real number). Give your answer to 3 decimal places.",
+    "ans": 16.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By De Moivre's theorem, (1 + i)⁸ = (√2)⁸ (cos 8π/4 + i sin 8π/4) = 16 (cos 2π + i sin 2π) = 16. Check: multiplying 1 + i by itself eight times gives 16, with the imaginary part zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n06",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "If ω is a complex cube root of unity, find the real part of (1 + ω)³, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": -1.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "1 + ω + ω² = 0, so 1 + ω = −ω². Then (1 + ω)³ = −ω⁶ = −(ω³)² = −1.000. Check: with ω = −0.5 + 0.866i, 1 + ω = 0.5 + 0.866i, which has the modulus 1 and the argument 60°. Its cube has the argument 180°, so it is −1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n07",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the distance between the points 1 + 2i and 4 + 6i in the Argand diagram, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The distance is |z₁ − z₂| = |−3 − 4i| = √(9 + 16) = 5.000. Check: the points are (1, 2) and (4, 6), and the distance between them is √(3² + 4²) = 5.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n08",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the modulus of a root of z² + 2z + 5 = 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.236,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "z = (−2 ± √(4 − 20))/2 = −1 ± 2i. The modulus is √(1 + 4) = 2.236, for both roots. Check: starting from a guess, Newton's method on the polynomial converges to a root, −1 + 2i, with the modulus 2.236.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n09",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the principal argument of −2 − 2i, in degrees, to 2 decimal places. Give your answer to 2 decimal places.",
+    "ans": -135.0,
+    "decimalPlaces": 2,
+    "tol": 0.005,
+    "solution": "The point (−2, −2) is in the third quadrant. The reference angle is 45°. The principal argument is −(180° − 45°) = −135.00°, since the principal value lies between −180° and 180°. Check: the direct calculation of the angle gives −135.00°.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-06-n10",
+    "ch": "mth-11-06",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the value of z z̄ for z = 3 − 4i. Give your answer as a whole number.",
+    "ans": 25,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "z z̄ = (3 − 4i)(3 + 4i) = 9 − 16i² = 9 + 16 = 25 = |z|². Check: multiplying the complex numbers directly gives 25, with the imaginary part zero.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-m01",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The addition principle of counting says that if a job can be done in m ways, or in n other ways, and the two cannot happen together, the job can be done in:",
+    "options": [
+      "m − n ways",
+      "m + n ways",
+      "m × n ways",
+      "m/n ways"
+    ],
+    "ans": 1,
+    "solution": "Use addition when the choices exclude each other (either one thing or the other). For example, if you can go to a town by 3 buses or by 2 trains, there are 3 + 2 = 5 ways.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m02",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The multiplication principle says that if one step can be done in m ways, and after that a second step in n ways, the two steps together can be done in:",
+    "options": [
+      "mⁿ ways",
+      "m + n ways",
+      "m − n ways",
+      "m × n ways"
+    ],
+    "ans": 3,
+    "solution": "Use multiplication when the steps follow each other. For example, 3 shirts and 4 trousers give 3 × 4 = 12 outfits. The word 'and' suggests multiplication, and 'or' suggests addition.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m03",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A person has 3 routes from A to B and 4 routes from B to C. The number of ways to go from A to C through B is:",
+    "options": [
+      "64",
+      "81",
+      "12",
+      "7"
+    ],
+    "ans": 2,
+    "solution": "The two choices are made one after the other, so the numbers are multiplied: 3 × 4 = 12. The number 7 is the answer if there were two alternatives and not two steps.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m04",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The invariance principle in counting says that:",
+    "options": [
+      "the number of ways does not change if the same things are counted in a different order",
+      "the number of ways changes if the steps are done in a different order",
+      "the number of ways is the sum of the steps, never the product",
+      "the number of ways is always the same for every problem"
+    ],
+    "ans": 0,
+    "solution": "Choosing a pencil first and an eraser second gives the same total as choosing the eraser first. So the steps of the multiplication principle may be taken in any order.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m05",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of 0! is:",
+    "options": [
+      "infinity",
+      "1",
+      "undefined",
+      "0"
+    ],
+    "ans": 1,
+    "solution": "By definition, 0! = 1. It is needed so that the formulas for the permutations and combinations also work for n = r, as in nCn = n!/(n! × 0!) = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m06",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of 5! is:",
+    "options": [
+      "720",
+      "25",
+      "120",
+      "60"
+    ],
+    "ans": 2,
+    "solution": "5! = 5 × 4 × 3 × 2 × 1 = 120. The factorial n! is the number of ways to arrange n different objects in a row. Also, 6! = 720.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m07",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The factorial n! can be written as:",
+    "options": [
+      "(n − 1)! − n",
+      "n!/(n − 1)",
+      "n + (n − 1)!",
+      "n × (n − 1)!"
+    ],
+    "ans": 3,
+    "solution": "For example, 7! = 7 × 6!. This is used to cancel the common factors in fractions, such as 8!/6! = 8 × 7 = 56, without writing out the large numbers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m08",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The formula for nPr, the ordered arrangements of r objects chosen from n different ones, is:",
+    "options": [
+      "n!/(n − r)!",
+      "n!/(n + r)!",
+      "n!/(r!(n − r)!)",
+      "n!/r!"
+    ],
+    "ans": 0,
+    "solution": "The first place can be filled in n ways, the second in n − 1 ways, and so on up to r places: n(n − 1)…(n − r + 1) = n!/(n − r)!. For 5P3 = 5 × 4 × 3 = 60.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m09",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Using the digits 1 to 5, with no digit used twice, the number of 3-digit numbers that can be made is:",
+    "options": [
+      "60",
+      "125",
+      "10",
+      "120"
+    ],
+    "ans": 0,
+    "solution": "5P3 = 5 × 4 × 3 = 60. If repetition were allowed, the number would be 5³ = 125.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m10",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of different arrangements of the letters of the word LEADER is:",
+    "options": [
+      "720",
+      "180",
+      "360",
+      "120"
+    ],
+    "ans": 2,
+    "solution": "There are 6 letters, and the letter E appears twice. The number is 6!/2! = 720/2 = 360. The repeated letters are divided out because swapping them gives the same word.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m11",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of different arrangements of the letters of the word MISSISSIPPI is:",
+    "options": [
+      "11!/(4! 4!)",
+      "11!/4!",
+      "11!",
+      "11!/(4! 4! 2!)"
+    ],
+    "ans": 3,
+    "solution": "There are 11 letters, with I four times, S four times, P twice and M once. The number is the factorial of the total divided by the factorials of the repeats: 11!/(4! 4! 2!) = 34 650.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m12",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "In how many ways can 5 people stand in a row if two particular persons must stand together?",
+    "options": [
+      "96",
+      "48",
+      "120",
+      "24"
+    ],
+    "ans": 1,
+    "solution": "Treat the two persons as a block. There are 4 units to arrange, in 4! = 24 ways, and the two persons can swap inside the block, in 2 ways. The total is 24 × 2 = 48.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m13",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of ways in which n different objects can be arranged in a circle is:",
+    "options": [
+      "n!/2",
+      "(n + 1)!",
+      "n!",
+      "(n − 1)!"
+    ],
+    "ans": 3,
+    "solution": "A circle has no fixed start. Fix one object, and arrange the other n − 1 in a line. So 5 people can sit at a round table in 4! = 24 ways, and not 120.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m14",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A combination is:",
+    "options": [
+      "a way to repeat the objects as many times as we like",
+      "a number that is always larger than the permutation",
+      "a selection of objects in which the order does not matter",
+      "an arrangement of objects in a fixed order"
+    ],
+    "ans": 2,
+    "solution": "Choosing a team of 3 from 7 players is a combination, since the order of the three does not matter. Arranging 3 of the players in a line is a permutation.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m15",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The formula for nCr, the selections of r objects from n different ones, is:",
+    "options": [
+      "n!/(n − r)!",
+      "n!/(r!(n − r)!)",
+      "r!/(n!(n − r)!)",
+      "n!/r!"
+    ],
+    "ans": 1,
+    "solution": "nCr = nPr/r!, since each selection of r objects can be arranged in r! orders. For example, 7C3 = 7 × 6 × 5/(3 × 2 × 1) = 35.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m16",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following is true for all valid n and r?",
+    "options": [
+      "nCr = nC(n − r)",
+      "nCr = nPr",
+      "nCr = nC(r − n)",
+      "nCr = n!/r!"
+    ],
+    "ans": 0,
+    "solution": "Choosing r objects to take is the same as choosing n − r objects to leave behind. So 10C3 = 10C7 = 120.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m17",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If nCx = nCy, with x not equal to y, then:",
+    "options": [
+      "x + y = n",
+      "x = y",
+      "xy = n",
+      "x − y = n"
+    ],
+    "ans": 0,
+    "solution": "Since nCr = nC(n − r), the two values are equal if x = y, or if x + y = n. For example, if 12Cx = 12C4 with x not 4, then x = 8.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m18",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If nC2 = 45, then n is equal to:",
+    "options": [
+      "45",
+      "11",
+      "9",
+      "10"
+    ],
+    "ans": 3,
+    "solution": "n(n − 1)/2 = 45, so n(n − 1) = 90, which is true for n = 10. Check: 10 × 9/2 = 45.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m19",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A committee of 3 is to be chosen from 7 people. The number of ways is:",
+    "options": [
+      "21",
+      "35",
+      "210",
+      "343"
+    ],
+    "ans": 1,
+    "solution": "7C3 = 7!/(3! 4!) = 35. The number 210 is 7P3, which would count the order of the three chosen persons as well.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m20",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of diagonals of a polygon with n sides is:",
+    "options": [
+      "nC2",
+      "nC2 + n",
+      "nC2 − n",
+      "n(n − 1)"
+    ],
+    "ans": 2,
+    "solution": "Any two vertices are joined by a line, giving nC2 lines. Of these, n are the sides of the polygon. So the diagonals are nC2 − n = n(n − 3)/2. For n = 10, it is 35.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m21",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A group has 5 men and 4 women. The number of ways to choose a team of 4 that has at least 2 women is:",
+    "options": [
+      "126",
+      "60",
+      "45",
+      "81"
+    ],
+    "ans": 3,
+    "solution": "2 women and 2 men: 4C2 × 5C2 = 6 × 10 = 60. 3 women and 1 man: 4C3 × 5C1 = 20. 4 women: 4C4 = 1. The total is 60 + 20 + 1 = 81. Check: all teams of 4 from 9 is 126, and the teams with fewer than 2 women are 5C4 + 4C1 × 5C3 = 5 + 40 = 45, and 126 − 45 = 81.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-m22",
+    "ch": "mth-11-07",
+    "type": "mcq",
+    "diff": 3,
+    "q": "To decide whether to use a permutation or a combination, the question to ask is:",
+    "options": [
+      "whether there are more men than women",
+      "whether the objects are the same colour",
+      "whether the order of the chosen objects matters",
+      "whether the numbers are large or small"
+    ],
+    "ans": 2,
+    "solution": "If the order matters (arranging, ranking, forming a number), use a permutation. If it does not matter (choosing a team or a committee), use a combination.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-07-n01",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 2,
+    "q": "How many 3-digit numbers can be made by using the digits 1 to 5, with no digit used twice? Give your answer as a whole number.",
+    "ans": 60,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The first digit can be chosen in 5 ways, the second in 4, and the third in 3: 5 × 4 × 3 = 60. Check: listing all the ordered selections of 3 different digits from the 5 gives 60 of them.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n02",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the number of different arrangements of the letters of the word MISSISSIPPI. Give your answer as a whole number.",
+    "ans": 34650,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "There are 11 letters: I four times, S four times, P twice, M once. The number is 11!/(4! 4! 2!) = 39 916 800/(24 × 24 × 2) = 34 650. Check: choose the 4 places for I out of 11 (330 ways), then 4 of the remaining 7 for S (35), then 2 of the remaining 3 for P (3), and M takes the last one. 330 × 35 × 3 = 34 650.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n03",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "In how many ways can a committee of 3 be chosen from 7 people? Give your answer as a whole number.",
+    "ans": 35,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The order does not matter, so the number is 7C3 = 7!/(3! 4!) = 35. Check: listing all the different groups of 3 from 7 people gives 35.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n04",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "A group has 5 men and 4 women. In how many ways can a team of 4 be chosen so that it has at least 2 women? Give your answer as a whole number.",
+    "ans": 81,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Add the cases. 2 women and 2 men: 4C2 × 5C2 = 6 × 10 = 60. 3 women and 1 man: 4C3 × 5C1 = 4 × 5 = 20. 4 women: 4C4 = 1. The total is 81. Check: listing all the teams of 4 from the 9 people, and counting the teams with at least 2 women, gives 81.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n05",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "How many 4-digit numbers can be formed from the digits 0, 1, 2, 3, 4 and 5 if no digit is repeated? Give your answer as a whole number.",
+    "ans": 300,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The first digit cannot be 0, so there are 5 choices. The second digit can be any of the remaining 5 (including 0). The third has 4 choices, and the fourth has 3. The total is 5 × 5 × 4 × 3 = 300. Check: listing all the arrangements of 4 different digits from the 6, and removing those that start with 0, gives 300.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n06",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "In how many ways can 5 people stand in a row if two particular persons must stand together? Give your answer as a whole number.",
+    "ans": 48,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Treat the two persons as one block. The 4 units can be arranged in 4! = 24 ways, and the two persons in the block can be arranged in 2 ways. The total is 24 × 2 = 48. Check: listing all the 120 arrangements and counting those in which the two persons are next to each other gives 48.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n07",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the number of diagonals of a polygon with 10 sides. Give your answer as a whole number.",
+    "ans": 35,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Any two vertices make a line: 10C2 = 45. Of them, 10 are the sides. So the diagonals are 45 − 10 = 35. Check: counting the pairs of vertices that are not next to each other (the difference in the position is not 1 or 9) gives 35.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n08",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find n if nC2 = 45. Give your answer as a whole number.",
+    "ans": 10.0,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "n(n − 1)/2 = 45, so n² − n − 90 = 0, and n = (1 + √361)/2 = 10. Check: trying the values of n one after another, only n = 10 gives 10C2 = 45.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n09",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the number of different arrangements of the letters of the word LEADER. Give your answer as a whole number.",
+    "ans": 360,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The word has 6 letters, with E twice. The number is 6!/2! = 720/2 = 360. Check: listing all 720 orders of the letters, and counting the different words that they make (the two E's are the same), gives 360.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-07-n10",
+    "ch": "mth-11-07",
+    "type": "num",
+    "diff": 3,
+    "q": "There are 3 routes from town A to town B and 4 routes from B to C. A person goes from A to C through B, and comes back by the same towns, but uses no route twice. Find the number of ways to make the round trip. Give your answer as a whole number.",
+    "ans": 72,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "Going: 3 routes from A to B, and 4 from B to C. Coming back, the person must use a different route on C to B, so 3 choices, and a different route on B to A, so 2 choices. The total is 3 × 4 × 3 × 2 = 72. Check: counting all the round trips with no route repeated, one after another, gives 72.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-m01",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A function from a set A to a set B assigns to each element of A:",
+    "options": [
+      "no element of B, or one element of B",
+      "exactly one element of B",
+      "at least one element of B",
+      "two elements of B"
+    ],
+    "ans": 1,
+    "solution": "Each input must have exactly one output. A relation in which an input has two outputs, such as x = y², is not a function. A vertical line cuts the graph of a function at most once.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m02",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For a function f from A to B, the domain, the co-domain and the range are respectively:",
+    "options": [
+      "the set of the values f(x) that occur, B, and A",
+      "B, A, and the set of the values of x",
+      "A, B, and the set of the values f(x) that actually occur",
+      "A, the set of the values f(x) that occur, and B"
+    ],
+    "ans": 2,
+    "solution": "The range is a part of the co-domain. It contains only the outputs that are really reached. The domain is the set of the inputs for which the function is defined.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m03",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The domain of the function f(x) = √(x − 2) is:",
+    "options": [
+      "all real numbers",
+      "x ≤ 2",
+      "x > 2 only",
+      "x ≥ 2"
+    ],
+    "ans": 3,
+    "solution": "The expression under a square root must not be negative: x − 2 ≥ 0, so x ≥ 2. At x = 2, the value is √0 = 0, which is defined, so 2 is included.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m04",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The domain of the function f(x) = 1/(x² − 9) is:",
+    "options": [
+      "all real numbers except 3 and −3",
+      "all real numbers except 3",
+      "all real numbers greater than 3",
+      "all real numbers except 9"
+    ],
+    "ans": 0,
+    "solution": "The denominator is zero when x² = 9, that is x = ±3. These two values are not in the domain. A rational function excludes the zeros of its denominator.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m05",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The domain of the function f(x) = log(x − 1) is:",
+    "options": [
+      "x < 1",
+      "x > 1",
+      "all real numbers",
+      "x ≥ 1"
+    ],
+    "ans": 1,
+    "solution": "A logarithm is defined only for positive numbers, so x − 1 > 0. At x = 1, the logarithm of zero is not defined, so 1 is not included, unlike the square root.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m06",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The range of the function f(x) = x² − 4x + 7, for real x, is:",
+    "options": [
+      "[7, ∞)",
+      "(−∞, 3]",
+      "[3, ∞)",
+      "all real numbers"
+    ],
+    "ans": 2,
+    "solution": "Complete the square: f(x) = (x − 2)² + 3. The square is at least 0, so f(x) is at least 3, and the least value, 3, is reached at x = 2. The values go up without limit.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m07",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A function is one-one (injective) if:",
+    "options": [
+      "different inputs always give different outputs",
+      "every element of the co-domain is an output",
+      "the domain and the range are equal",
+      "every input gives the same output"
+    ],
+    "ans": 0,
+    "solution": "In symbols, f(x₁) = f(x₂) implies x₁ = x₂. On a graph, no horizontal line meets the curve more than once. For example, f(x) = 3x − 2 is one-one, but f(x) = x² on the real numbers is not.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m08",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A function from A to B is onto (surjective) if:",
+    "options": [
+      "every element of A has a different output",
+      "the function is a constant",
+      "the domain has fewer elements than the co-domain",
+      "every element of B is the output of at least one input"
+    ],
+    "ans": 3,
+    "solution": "In an onto function, the range is equal to the co-domain. Whether a function is onto depends on the choice of the co-domain. For example, f(x) = x² is onto [0, ∞), but not onto the real numbers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m09",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A function that is both one-one and onto is called:",
+    "options": [
+      "an identity, and it has no inverse",
+      "a polynomial, and it has no inverse",
+      "a bijection, and only such a function has an inverse",
+      "a constant function, and it has many inverses"
+    ],
+    "ans": 2,
+    "solution": "The inverse takes each output back to its own input. For this to be possible, each output must come from exactly one input (one-one), and every element of the co-domain must be reached (onto).",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m10",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of one-one functions from a set of 3 elements to a set of 5 elements is:",
+    "options": [
+      "60",
+      "243",
+      "125",
+      "10"
+    ],
+    "ans": 0,
+    "solution": "The first element has 5 possible images, the second has 4 (a different one), and the third has 3. The number is 5 × 4 × 3 = 60 = 5P3. All the functions number 5³ = 125.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m11",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The total number of functions from a set of 3 elements to a set of 2 elements is:",
+    "options": [
+      "6",
+      "8",
+      "5",
+      "9"
+    ],
+    "ans": 1,
+    "solution": "Each of the 3 elements has 2 possible images, independently. So the number is 2 × 2 × 2 = 2³ = 8. For m elements to n elements, it is nᵐ.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m12",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The number of onto functions from a set of 4 elements to a set of 2 elements is:",
+    "options": [
+      "8",
+      "16",
+      "12",
+      "14"
+    ],
+    "ans": 3,
+    "solution": "All the functions number 2⁴ = 16. Two of them are not onto, the two constant functions (all the elements to the first, or all to the second). So there are 16 − 2 = 14 onto functions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m13",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the functions f and g, the composite function (g∘f)(x) is defined as:",
+    "options": [
+      "g(f(x)), which means f is applied first",
+      "f(g(x)), which means g is applied first",
+      "f(x) × g(x), the product of the two",
+      "f(x) + g(x), the sum of the two"
+    ],
+    "ans": 0,
+    "solution": "The function nearest to x acts first. In general, g∘f is not the same as f∘g.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m14",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "If f(x) = x + 1 and g(x) = x², then (g∘f)(2) is:",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "4"
+    ],
+    "ans": 2,
+    "solution": "f(2) = 3, and then g(3) = 9. In the other order, (f∘g)(2) = f(4) = 5. So g∘f and f∘g are different functions.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m15",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The inverse of the function f(x) = 3x − 2 is:",
+    "options": [
+      "f⁻¹(x) = (x − 2)/3",
+      "f⁻¹(x) = 3x + 2",
+      "f⁻¹(x) = 1/(3x − 2)",
+      "f⁻¹(x) = (x + 2)/3"
+    ],
+    "ans": 3,
+    "solution": "Put y = 3x − 2, and solve for x: x = (y + 2)/3. Then swap the names: f⁻¹(x) = (x + 2)/3. Check: f(f⁻¹(x)) = 3(x + 2)/3 − 2 = x.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m16",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A graph is the graph of a function only if:",
+    "options": [
+      "it passes through the origin",
+      "no vertical line meets it at more than one point",
+      "it is a straight line",
+      "no horizontal line meets it at more than one point"
+    ],
+    "ans": 1,
+    "solution": "This is the vertical line test. It makes sure that each input has only one output. The horizontal line test is used to see if the function is one-one.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m17",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The domain of the function f(x) = 5 (a constant function) is:",
+    "options": [
+      "all real numbers, and its range is {5}",
+      "x ≥ 5, and its range is {5}",
+      "{5}, and its range is all real numbers",
+      "all real numbers, and its range is all real numbers"
+    ],
+    "ans": 0,
+    "solution": "A constant function gives the same output for every input. Its graph is a horizontal line. It is not one-one, and not onto the real numbers.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m18",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The range of the exponential function f(x) = eˣ, for real x, is:",
+    "options": [
+      "[0, ∞), the non-negative real numbers",
+      "(0, ∞), the positive real numbers",
+      "all real numbers",
+      "(−∞, 0)"
+    ],
+    "ans": 1,
+    "solution": "eˣ is always positive. It gets as close to 0 as we like for large negative x, but never reaches 0, and it is never negative.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m19",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The absolute value (modulus) function f(x) = |x| has the value:",
+    "options": [
+      "x for all x",
+      "x if x > 0, and 0 if x < 0",
+      "x if x ≥ 0, and −x if x < 0",
+      "−x for all x"
+    ],
+    "ans": 2,
+    "solution": "It gives the distance of x from zero, which is never negative. So |−5| = 5 and |3| = 3. It is a piece-wise function, with the break at x = 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m20",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the greatest integer function [x] at x = −2.3 is:",
+    "options": [
+      "−2",
+      "−2.3",
+      "2",
+      "−3"
+    ],
+    "ans": 3,
+    "solution": "[x] is the greatest integer that is less than or equal to x. For −2.3, the integers below it are −3, −4, …, and the greatest of them is −3. It goes down for negative numbers, and does not just drop the decimal part.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m21",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The signum function sgn(x) has the value:",
+    "options": [
+      "1 for x ≥ 0, and −1 for x < 0",
+      "x for every x",
+      "|x| for every x",
+      "1 for x > 0, 0 for x = 0, and −1 for x < 0"
+    ],
+    "ans": 3,
+    "solution": "It gives only the sign of x. For example, sgn(−7) = −1 and sgn(0) = 0. The value at zero is 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-m22",
+    "ch": "mth-11-08",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For the function f(x) = |x − 3| + sgn(x − 1), the value of f(−2) is:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "−4"
+    ],
+    "ans": 2,
+    "solution": "|−2 − 3| = 5, and sgn(−2 − 1) = sgn(−3) = −1. So f(−2) = 5 + (−1) = 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-08-n01",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 2,
+    "q": "If f(x) = x + 1 and g(x) = x², find the value of (g∘f)(2). Give your answer as a whole number.",
+    "ans": 9,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "(g∘f)(2) = g(f(2)) = g(3) = 3² = 9. Check: the composite function is (x + 1)², and at x = 2 it is 9. The other order, f(g(2)) = f(4) = 5, is different.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n02",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "The function f(x) = √(x − 2)/(x − 5) is defined for some integers x from −10 to 10. How many such integers are there? Give your answer as a whole number.",
+    "ans": 8,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The square root needs x − 2 ≥ 0, so x ≥ 2, and the denominator needs x ≠ 5. The integers from 2 to 10 are 9, and removing 5 leaves 8. Check: trying each of the integers from −10 to 10 in the function, 8 of them give a value, the ones from 2 to 10 except 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n03",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the least value of f(x) = x² − 4x + 7, for real x, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "f(x) = (x − 2)² + 3, so the least value is 3, at x = 2. For a quadratic ax² + bx + c with a positive, the least value is c − b²/(4a) = 7 − 16/4 = 3.000. Check: scanning the values of x from −10 to 10 in small steps, the smallest value of f is 3.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n04",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Let f(x) = 3x − 2. Find f⁻¹(7), to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The inverse is f⁻¹(x) = (x + 2)/3, so f⁻¹(7) = 9/3 = 3.000. Check: f⁻¹(7) is the input that gives the output 7. Searching for x with 3x − 2 = 7 gives x = 3.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n05",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the number of one-one functions from a set of 3 elements to a set of 5 elements. Give your answer as a whole number.",
+    "ans": 60,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The first element can go to any of 5 elements, the second to any of the remaining 4, and the third to any of the remaining 3: 5 × 4 × 3 = 60. Check: listing all 5³ = 125 functions and counting those with three different images gives 60.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n06",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the number of onto functions from a set of 4 elements to a set of 2 elements. Give your answer as a whole number.",
+    "ans": 14,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "All the functions number 2⁴ = 16. The two functions that send every element to the same image are not onto. So there are 16 − 2 = 14 onto functions. Check: listing all 16 functions, and counting those that use both elements of the co-domain, gives 14.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n07",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "If f(x) = |x − 3| + sgn(x − 1), find f(−2). Give your answer as a whole number.",
+    "ans": 4,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "|−2 − 3| = |−5| = 5. Also sgn(−2 − 1) = sgn(−3) = −1. So f(−2) = 5 − 1 = 4. Check: using the rule of each part, x − 3 is negative, so |x − 3| = −(x − 3) = 5, and x − 1 is negative, so the signum is −1. The sum is 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-08-n08",
+    "ch": "mth-11-08",
+    "type": "num",
+    "diff": 3,
+    "q": "If f(x) = x/(x + 1), find f(f(1)), to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.3333,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "f(1) = 1/2. Then f(1/2) = (1/2)/(3/2) = 1/3 = 0.3333. Check: the composite function is f(f(x)) = [x/(x + 1)]/[x/(x + 1) + 1] = x/(2x + 1), and at x = 1 it is 1/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-m01",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 1,
+    "q": "The limit of f(x) as x approaches a is the value that:",
+    "options": [
+      "x takes, at the point where f(x) is zero",
+      "f(a) takes, when x is exactly equal to a",
+      "f(x) takes, when x is made very large indeed in size",
+      "f(x) gets closer and closer to, when x is near a but not equal to a"
+    ],
+    "ans": 3,
+    "solution": "The limit describes the behaviour of the function near a. It does not depend on what happens at a itself, and the function need not be defined at a.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m02",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The limit of f(x) as x approaches a exists only if:",
+    "options": [
+      "the left-hand limit and the right-hand limit both exist and are equal",
+      "f(a) is equal to zero, and so is the limit itself",
+      "f(a) is defined, and equal to the value of the limit",
+      "f(x) is a polynomial in x, with real coefficients"
+    ],
+    "ans": 0,
+    "solution": "If the two one-sided limits are different, the limit does not exist. For example, for |x|/x at 0, the left limit is −1 and the right limit is +1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m03",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The limit of a function at a point a:",
+    "options": [
+      "exists only if the function is defined at the point a itself",
+      "does not depend on the value of the function at a, or on whether it is defined there",
+      "is always equal to the value of the function at the point a",
+      "is always zero, whatever the function and whatever the point"
+    ],
+    "ans": 1,
+    "solution": "For f(x) = (x² − 9)/(x − 3), the function is not defined at x = 3, but the limit at 3 is 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m04",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "When the substitution x = a gives the form 0/0 in a limit, we should:",
+    "options": [
+      "conclude that the limit is 1, as the two zeros cancel each other",
+      "conclude that the limit does not exist, as the form is not defined",
+      "change the expression, by factorising or rationalising, and then substitute again",
+      "conclude that the limit is zero, as the numerator is zero"
+    ],
+    "ans": 2,
+    "solution": "The form 0/0 is not an answer. It shows that the numerator and the denominator have a common factor, which has to be cancelled first, or that the expression must be changed in another way.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m05",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (x² − 9)/(x − 3) as x approaches 3 is:",
+    "options": [
+      "0",
+      "6",
+      "does not exist",
+      "3"
+    ],
+    "ans": 1,
+    "solution": "Factorise: (x² − 9)/(x − 3) = (x − 3)(x + 3)/(x − 3) = x + 3, for x not equal to 3. As x approaches 3, this approaches 6.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m06",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (xⁿ − aⁿ)/(x − a) as x approaches a is:",
+    "options": [
+      "n aⁿ⁻¹",
+      "0.00",
+      "n aⁿ",
+      "aⁿ⁻¹ n²"
+    ],
+    "ans": 0,
+    "solution": "This is a standard limit. For example, the limit of (x³ − 8)/(x − 2) at x = 2 is 3 × 2² = 12. It is the derivative of xⁿ at a.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m07",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (√(x + 4) − 2)/x as x approaches 0 is:",
+    "options": [
+      "2",
+      "0",
+      "1/4",
+      "1/2"
+    ],
+    "ans": 2,
+    "solution": "Multiply the top and the bottom by √(x + 4) + 2. The numerator becomes (x + 4) − 4 = x, which cancels the x. The limit is 1/(√4 + 2) = 1/4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m08",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The value of the limit of (sin x)/x as x approaches 0 is:",
+    "options": [
+      "0",
+      "π/180, when x is in degrees",
+      "does not exist",
+      "1, when x is in radians"
+    ],
+    "ans": 3,
+    "solution": "This is the key limit of trigonometry, and it is true only for the angle in radians. In degrees, the limit is π/180 = 0.01745.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m09",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (sin 3x)/x as x approaches 0 is:",
+    "options": [
+      "3",
+      "1/3",
+      "1",
+      "0"
+    ],
+    "ans": 0,
+    "solution": "Write (sin 3x)/x = 3 × (sin 3x)/(3x). As x approaches 0, so does 3x, and the second factor tends to 1. The limit is 3. In general, (sin kx)/x tends to k.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m10",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (1 − cos 2x)/x² as x approaches 0 is:",
+    "options": [
+      "1/2",
+      "4",
+      "2",
+      "1"
+    ],
+    "ans": 2,
+    "solution": "1 − cos 2x = 2 sin²x, so the expression is 2 (sin x/x)², which tends to 2 × 1 = 2. In general, (1 − cos px)/x² tends to p²/2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m11",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (sin 5x)/(sin 3x) as x approaches 0 is:",
+    "options": [
+      "15",
+      "3/5",
+      "1",
+      "5/3"
+    ],
+    "ans": 3,
+    "solution": "Write it as (sin 5x/5x) × (3x/sin 3x) × (5x/3x). The first two factors tend to 1 and the last one is 5/3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m12",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (tan x)/x as x approaches 0 is:",
+    "options": [
+      "0",
+      "1",
+      "∞",
+      "π/2"
+    ],
+    "ans": 1,
+    "solution": "tan x/x = (sin x/x)(1/cos x), which tends to 1 × 1 = 1 as x tends to 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m13",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (eˣ − 1)/x as x approaches 0 is:",
+    "options": [
+      "e",
+      "∞",
+      "0",
+      "1"
+    ],
+    "ans": 3,
+    "solution": "This is a standard limit. For the base a, the limit of (aˣ − 1)/x is log a, which is 1 for a = e.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m14",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (aˣ − 1)/x as x approaches 0, with a positive, is:",
+    "options": [
+      "log a (the natural logarithm of a)",
+      "a log a, the product of the base and its logarithm",
+      "1, for every positive value of the base",
+      "a, the base of the exponential itself"
+    ],
+    "ans": 0,
+    "solution": "For example, the limit of (2ˣ − 1)/x is ln 2 = 0.693. It is not a, and not 1, except when a = e.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m15",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of (e²ˣ − 1)/x as x approaches 0 is:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "e²"
+    ],
+    "ans": 2,
+    "solution": "Write (e²ˣ − 1)/x = 2 × (e²ˣ − 1)/(2x). As x tends to 0, so does 2x, and the second factor tends to 1. The limit is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m16",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The value of the limit of log(1 + x)/x as x approaches 0 is:",
+    "options": [
+      "does not exist",
+      "1",
+      "0",
+      "e"
+    ],
+    "ans": 1,
+    "solution": "This is a standard limit, for the natural logarithm. It is the same as the derivative of ln(1 + x) at 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m17",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The limit of (1 + x)^(1/x) as x approaches 0 is:",
+    "options": [
+      "e",
+      "1",
+      "0",
+      "∞"
+    ],
+    "ans": 0,
+    "solution": "This is the definition of the number e = 2.718…. The same number appears when x tends to infinity in (1 + 1/x)ˣ, but the form of the limit is different: with (1 + x) raised to 1/x, x must tend to 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m18",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The limit of 1/x as x tends to infinity is:",
+    "options": [
+      "∞",
+      "1",
+      "does not exist",
+      "0"
+    ],
+    "ans": 3,
+    "solution": "As x grows without bound, 1/x gets as small as we like. This is the basis of the limits of rational functions at infinity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m19",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The limit of (3x² + 2x)/(5x² − 1) as x tends to infinity is:",
+    "options": [
+      "∞",
+      "3/5",
+      "0",
+      "2/5"
+    ],
+    "ans": 1,
+    "solution": "Divide the top and the bottom by x², the highest power: (3 + 2/x)/(5 − 1/x²). As x tends to infinity, the terms with x in the denominator tend to 0, and the limit is 3/5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m20",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For a ratio of two polynomials as x tends to infinity, if the degree of the numerator is less than the degree of the denominator, the limit is:",
+    "options": [
+      "the ratio of the leading coefficients",
+      "∞",
+      "0",
+      "1"
+    ],
+    "ans": 2,
+    "solution": "For example, (2x + 1)/(x² + 3) tends to 0. If the degrees are equal, the limit is the ratio of the leading coefficients. If the numerator has the higher degree, the expression grows without bound.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m21",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "Which of the following is a correct statement about ∞?",
+    "options": [
+      "∞/∞ = 1, since a quantity divided by itself is always equal to 1",
+      "∞ − ∞ = 0, since the two infinite quantities are exactly the same size",
+      "∞ × 0 = 0, since zero times any number is always zero, whatever the number",
+      "∞ is not a number, so ∞ − ∞ is not equal to 0 and has to be worked out by changing the form"
+    ],
+    "ans": 3,
+    "solution": "These forms are called indeterminate. They need further work, such as rationalising or dividing by the highest power. For example, √(x² + x) − x tends to 1/2 as x tends to infinity, and not to 0.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-m22",
+    "ch": "mth-11-09",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The limit of |x|/x as x approaches 0 does not exist because:",
+    "options": [
+      "the left-hand limit is −1 and the right-hand limit is 1",
+      "both the limits are equal to 0",
+      "the function becomes infinite at 0",
+      "the function is not defined at 0, so no limit can exist"
+    ],
+    "ans": 0,
+    "solution": "For x less than 0, |x|/x = −1, and for x greater than 0, it is 1. The two one-sided limits exist but are not equal, so the limit does not exist.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-09-n01",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 2,
+    "q": "Find the limit of (x² − 9)/(x − 3) as x approaches 3, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 6,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For x not equal to 3, (x² − 9)/(x − 3) = x + 3, which tends to 6.000. Check: evaluating the expression at x = 2.999999 and x = 3.000001, the values are about 6, and their average is 6.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n02",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (x³ − 8)/(x − 2) as x approaches 2, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 12,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "By the standard limit (xⁿ − aⁿ)/(x − a) → n aⁿ⁻¹, the limit is 3 × 2² = 12.000. Check: factorising, (x³ − 8)/(x − 2) = x² + 2x + 4, which is 12 at x = 2. Numerical values on both sides of 2 also average 12.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n03",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (√(x + 4) − 2)/x as x approaches 0, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.25,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "Multiply the top and the bottom by √(x + 4) + 2: the numerator becomes x, and the limit is 1/(√4 + 2) = 1/4 = 0.2500. Check: at x = ±0.00001 the values are 0.25 to five places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n04",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (sin 3x)/x as x approaches 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "(sin 3x)/x = 3 × (sin 3x)/(3x), and the second factor tends to 1, so the limit is 3.000. Check: at x = ±0.000001, the value is 3.000 to six places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n05",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (1 − cos 2x)/x² as x approaches 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "1 − cos 2x = 2 sin²x, so the expression is 2 (sin x/x)², which tends to 2.000. Check: at x = ±0.001, the value is 2.000 to six places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n06",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (e²ˣ − 1)/x as x approaches 0, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 2.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "(e²ˣ − 1)/x = 2 × (e²ˣ − 1)/(2x), and the standard limit (eᵗ − 1)/t → 1 as t → 0 gives 2.000. Check: at x = ±0.000001, the value is 2.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n07",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (2ˣ − 1)/x as x approaches 0, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.6931,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "The standard limit of (aˣ − 1)/x is ln a. For a = 2, it is ln 2 = 0.6931. Check: at x = ±0.000001, the value is 0.6931 to four places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n08",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (1 + x)^(1/x) as x approaches 0, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 2.7183,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "This limit is the definition of the number e, which is 2.7183. Check: at x = ±0.0000001, the values are 2.7183 to four places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n09",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (3x² + 2x)/(5x² − 1) as x tends to infinity, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.6,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "Divide the top and the bottom by x²: (3 + 2/x)/(5 − 1/x²), which tends to 3/5 = 0.6000. Check: at x = 10⁹, the value of the expression is 0.6000 to four places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-09-n10",
+    "ch": "mth-11-09",
+    "type": "num",
+    "diff": 3,
+    "q": "Find the limit of (sin 5x)/(sin 3x) as x approaches 0, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 1.6667,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "(sin 5x)/(sin 3x) = (sin 5x/5x) × (3x/sin 3x) × (5/3), and the first two factors tend to 1. The limit is 5/3 = 1.6667. Check: at x = ±0.00001, the value is 1.6667 to four places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-m01",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 1,
+    "q": "A function f is continuous at the point x = a if:",
+    "options": [
+      "the function is defined near a, but it is not defined at a",
+      "the limit exists, whatever the value of f(a) may be at a",
+      "f(a) is defined, but the limit may or may not exist at a",
+      "f(a) is defined, the limit as x tends to a exists, and the limit equals f(a)"
+    ],
+    "ans": 3,
+    "solution": "All the three conditions are needed. If any one of them fails, the function is discontinuous at a. Informally, the graph has no break at that point.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m02",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The function f(x) = (x² − 4)/(x − 2) for x not equal to 2, with f(2) = 3, is:",
+    "options": [
+      "discontinuous at x = 2, since the limit is 4 but f(2) = 3",
+      "continuous at x = 2, since f(2) is defined",
+      "continuous at x = 2, since the limit is 3",
+      "discontinuous at x = 2, since the limit does not exist"
+    ],
+    "ans": 0,
+    "solution": "For x not equal to 2, f(x) = x + 2, so the limit as x tends to 2 is 4. The value f(2) = 3 is different, so there is a break. It would be continuous if f(2) were 4.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m03",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "For the function f(x) = (x² − 4)/(x − 2), to make it continuous at x = 2, the value f(2) must be defined as:",
+    "options": [
+      "does not exist",
+      "2",
+      "4",
+      "0"
+    ],
+    "ans": 2,
+    "solution": "The limit of (x² − 4)/(x − 2) = x + 2 as x tends to 2 is 4. Defining f(2) = 4 removes the break. This is called a removable discontinuity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m04",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A jump discontinuity at x = a is one in which:",
+    "options": [
+      "the limit grows without bound as x tends to a",
+      "the left-hand and the right-hand limits exist but are different",
+      "the limit exists and is equal to f(a)",
+      "the function is not defined on either side of a"
+    ],
+    "ans": 1,
+    "solution": "The graph jumps from one level to another at a. An example is the greatest integer function [x] at an integer, such as x = 2, where the left limit is 1 and the right limit is 2.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m05",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "An infinite discontinuity at x = a is one in which:",
+    "options": [
+      "the function has the same finite limit on both sides",
+      "the left and right limits are different finite numbers",
+      "the function is continuous but not defined at a",
+      "the function grows without bound as x tends to a"
+    ],
+    "ans": 3,
+    "solution": "An example is f(x) = 1/x at x = 0, where the values grow without bound as x approaches 0. The graph has a vertical asymptote.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m06",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = 1/(x² − 5x + 6) is discontinuous at:",
+    "options": [
+      "x = 5 and x = 6",
+      "x = 2 only",
+      "x = 2 and x = 3",
+      "x = −2 and x = −3"
+    ],
+    "ans": 2,
+    "solution": "A rational function is discontinuous where the denominator is zero. x² − 5x + 6 = (x − 2)(x − 3), which is zero at x = 2 and x = 3. At all other points, the function is continuous.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m07",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "Which one of the following is true for polynomial functions?",
+    "options": [
+      "they are continuous at every real number",
+      "they are continuous only at the integers",
+      "they are discontinuous at x = 0",
+      "they are continuous only on a closed interval"
+    ],
+    "ans": 0,
+    "solution": "A polynomial has a limit at every point equal to its value there, so it has no breaks. The sum, the difference and the product of continuous functions are continuous.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m08",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A quotient f(x)/g(x) of two continuous functions is continuous:",
+    "options": [
+      "only at the points where f(x) = g(x)",
+      "at all the points where g(x) is not zero",
+      "only where f(x) is not zero",
+      "at all the points, without exception"
+    ],
+    "ans": 1,
+    "solution": "At the zeros of the denominator, the quotient is not defined (or becomes infinite), so it may be discontinuous there. Elsewhere, it is continuous.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m09",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "A function is continuous on an open interval (a, b) if:",
+    "options": [
+      "it has the same value at every point of the interval",
+      "it is defined on the interval, whether it has breaks or not",
+      "it is continuous at every point of the interval",
+      "it is continuous at the end points a and b only"
+    ],
+    "ans": 2,
+    "solution": "The end points are not part of an open interval, so nothing is needed there. For a closed interval [a, b], the end points need one-sided continuity as well.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m10",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "A function is continuous on the closed interval [a, b] if it is continuous on (a, b) and also:",
+    "options": [
+      "continuous from the right at a, and continuous from the left at b",
+      "continuous from the left at a, and continuous from the right at b",
+      "defined at a and b, but not necessarily continuous",
+      "equal to zero at both a and b"
+    ],
+    "ans": 0,
+    "solution": "At the left end point a, only the points to the right of it are in the interval, so right-hand continuity is needed: the limit as x tends to a from the right is f(a). At b, left-hand continuity is needed.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m11",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "To check the continuity of a piece-wise function at the point where the rule changes, we must:",
+    "options": [
+      "use only the rule on the right of the point, and ignore the other rule",
+      "find the left-hand and right-hand limits separately, and compare them with the value of the function",
+      "find the average of the two rules at the point, and compare it with zero",
+      "use only the rule on the left of the point, and ignore the other rule"
+    ],
+    "ans": 1,
+    "solution": "The function may follow a different rule on each side, so the two one-sided limits may be different. The function is continuous at the point only if both are equal to each other and to the value of the function there.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m12",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = kx² for x ≤ 2 and f(x) = 3x − 2 for x > 2 is continuous at x = 2 when k is equal to:",
+    "options": [
+      "2",
+      "4",
+      "1/2",
+      "1"
+    ],
+    "ans": 3,
+    "solution": "The left-hand value is f(2) = 4k. The right-hand limit is 3(2) − 2 = 4. For continuity, 4k = 4, so k = 1.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m13",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = (sin 5x)/x for x not equal to 0 is made continuous at x = 0 by defining f(0) as:",
+    "options": [
+      "5",
+      "0",
+      "1/5",
+      "1"
+    ],
+    "ans": 0,
+    "solution": "The limit of (sin 5x)/x as x tends to 0 is 5. For continuity, f(0) must be equal to the limit, so f(0) = 5.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m14",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The function f(x) = (1 − cos x)/x² for x not equal to 0 is made continuous at x = 0 by defining f(0) as:",
+    "options": [
+      "1.0",
+      "1/2",
+      "2.0",
+      "0.0"
+    ],
+    "ans": 1,
+    "solution": "1 − cos x = 2 sin²(x/2), so the expression is (1/2)(sin(x/2)/(x/2))², which tends to 1/2. So f(0) = 1/2 gives continuity.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m15",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 2,
+    "q": "The intermediate value theorem says that if f is continuous on [a, b], then f takes:",
+    "options": [
+      "only the values f(a) and f(b) on the interval",
+      "the value zero at some point of the interval",
+      "every value between f(a) and f(b) at some point of [a, b]",
+      "a value larger than both f(a) and f(b)"
+    ],
+    "ans": 2,
+    "solution": "A continuous function cannot skip a value as it goes from f(a) to f(b). It is like a hill walk: to go from 100 m to 300 m, you must pass through 200 m.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m16",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The equation f(x) = 0 is guaranteed to have a root in (a, b) by the intermediate value theorem if f is continuous on [a, b] and:",
+    "options": [
+      "f is increasing on [a, b]",
+      "f(a) and f(b) have the same sign",
+      "f(a) = f(b)",
+      "f(a) and f(b) have opposite signs"
+    ],
+    "ans": 3,
+    "solution": "If f(a) is negative and f(b) is positive, the continuous curve must cross the x axis between a and b. If both have the same sign, there may or may not be a root.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m17",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "For f(x) = x³ − x − 1, we have f(1) = −1 and f(2) = 5. By the intermediate value theorem:",
+    "options": [
+      "the equation has no root between 1 and 2",
+      "the equation has exactly two roots between 1 and 2",
+      "the equation f(x) = 0 has at least one root between 1 and 2",
+      "the root is exactly at x = 1.5"
+    ],
+    "ans": 2,
+    "solution": "f is a polynomial, so it is continuous, and the values at the end points have opposite signs. So there is at least one root in (1, 2). The theorem does not give the value of the root, and not the number of roots.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m18",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The intermediate value theorem can fail for a function that is not continuous. For example, f(x) = −1 for x < 0 and f(x) = 1 for x ≥ 0, on the interval [−1, 1]:",
+    "options": [
+      "takes the value 0 at the point x = 0 on the interval",
+      "takes every value between −1 and 1 on [−1, 1]",
+      "has a root at the left end point x = −1 of it",
+      "never takes the value 0, though it goes from −1 to 1"
+    ],
+    "ans": 3,
+    "solution": "The function jumps from −1 to 1 at x = 0, and skips all the values in between. The theorem needs the function to be continuous on the whole interval.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-m19",
+    "ch": "mth-11-10",
+    "type": "mcq",
+    "diff": 3,
+    "q": "The intermediate value theorem proves that:",
+    "options": [
+      "a root exists in the interval, but it does not give its value",
+      "the function is increasing on the interval",
+      "there is exactly one root in the interval",
+      "the root is the mid-point of the interval"
+    ],
+    "ans": 0,
+    "solution": "To find the value of the root, we need other methods, such as bisection, which repeatedly halves the interval and keeps the half in which the signs change.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation"
+    ]
+  },
+  {
+    "id": "mth-11-10-n01",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The function f(x) = kx² for x ≤ 2, and f(x) = 3x − 2 for x > 2, is continuous at x = 2. Find k, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 1.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "At x = 2, the value from the left is f(2) = 4k, and the limit from the right is 3(2) − 2 = 4. Continuity needs 4k = 4, so k = 1.000. Check: searching for the k that closes the gap between the left value and the right limit also gives 1.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n02",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The function f(x) = (x² − 4)/(x − 2) for x not equal to 2 is made continuous at x = 2 by defining f(2) = L. Find L, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 4,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "For x not equal to 2, (x² − 4)/(x − 2) = x + 2, whose limit at x = 2 is 4. So L = 4.000 makes the function continuous. Check: evaluating the expression at x = 2.000001 and at x = 1.999999, the average of the values is 4.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n03",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The function f(x) = (sin 5x)/x for x not equal to 0 is made continuous at x = 0 by defining f(0) = L. Find L, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 5.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "The limit of (sin 5x)/x as x tends to 0 is 5, since (sin 5x)/x = 5 × (sin 5x)/(5x), and the second factor tends to 1. So L = 5.000. Check: at x = ±0.0000001, the value of the expression is 5.000.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n04",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The function f(x) = (1 − cos x)/x² for x not equal to 0 is made continuous at x = 0 by defining f(0) = L. Find L, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 0.5,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "1 − cos x = 2 sin²(x/2), so (1 − cos x)/x² = (1/2)(sin(x/2)/(x/2))², which tends to 1/2. So L = 0.500. Check: at x = ±0.001, the value is 0.500 to six places.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n05",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The function is f(x) = 2 for x ≤ 1, f(x) = ax + b for 1 < x < 3, and f(x) = 8 for x ≥ 3. It is continuous everywhere. Find a, to 3 decimal places. Give your answer to 3 decimal places.",
+    "ans": 3.0,
+    "decimalPlaces": 3,
+    "tol": 0.0005,
+    "solution": "At x = 1, continuity needs a + b = 2. At x = 3, it needs 3a + b = 8. Subtracting the first from the second, 2a = 6, so a = 3.000, and b = −1. Check: by Cramer's rule, a = (2 × 1 − 1 × 8)/(1 × 1 − 1 × 3) = (−6)/(−2) = 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n06",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 2,
+    "q": "How many points of discontinuity does the function f(x) = 1/(x² − 5x + 6) have in the interval [0, 10]? Give your answer as a whole number.",
+    "ans": 2,
+    "decimalPlaces": 0,
+    "tol": 0.5,
+    "solution": "The function is discontinuous where the denominator is zero. x² − 5x + 6 = (x − 2)(x − 3), which is zero at x = 2 and x = 3, and both are in [0, 10]. So there are 2 points. Check: testing the points of the interval in steps of 0.5, the denominator is zero only at 2 and 3.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n07",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The equation x³ − x − 1 = 0 has a root between 1 and 2 (by the intermediate value theorem). Find it, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 1.3247,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "The function changes sign on [1, 2], since f(1) = −1 and f(2) = 5. Halving the interval again and again, always keeping the half in which the sign changes, leads to x = 1.3247. Check: Newton's method, x → x − f(x)/f′(x), from x = 1.5, gives the same root, 1.3247.",
+    "sample": false,
+    "verifiedBy": [
+      "derivation",
+      "script"
+    ]
+  },
+  {
+    "id": "mth-11-10-n08",
+    "ch": "mth-11-10",
+    "type": "num",
+    "diff": 3,
+    "q": "The equation cos x = x has a root between 0 and 1 (x in radians). Find it, to 4 decimal places. Give your answer to 4 decimal places.",
+    "ans": 0.7391,
+    "decimalPlaces": 4,
+    "tol": 5e-05,
+    "solution": "Let f(x) = cos x − x. Then f(0) = 1 is positive and f(1) = −0.46 is negative, and f is continuous, so there is a root in (0, 1). Bisection gives x = 0.7391. Check: repeating x → cos x, starting from 0.5, settles at the same value, 0.7391.",
     "sample": false,
     "verifiedBy": [
       "derivation",
