@@ -6,8 +6,8 @@
 <title>Study OS</title>
 <meta name="robots" content="noindex">
 <meta name="description" content="Offline study operating system for MHT-CET, JEE Main and Maharashtra HSC 2027.">
-<meta name="theme-color" content="#F5F4FB" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#12111F" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FEF7FF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141218" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -77,24 +77,7 @@
 
 <aside class="sidebar" id="sidebar" aria-label="Main navigation">
   <a class="sb-brand" href="#/home"><svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><g fill="none" stroke-width="4.5" stroke-linecap="round"><path d="M16 4.5a11.5 11.5 0 0 1 11.2 8.6" stroke="var(--phy)"/><path d="M27.5 18.4A11.5 11.5 0 0 1 19 27.2" stroke="var(--chem)"/><path d="M13 27.2A11.5 11.5 0 0 1 4.6 18.4" stroke="var(--mth)"/><path d="M4.8 13.1A11.5 11.5 0 0 1 13 4.8" stroke="var(--cs)"/></g></svg><span>Study OS</span></a>
-  <nav class="sb-nav" aria-label="Sections">
-    <p class="sb-label">Study</p>
-    <button class="sb-item rip" data-act="tab" data-tab="home" data-nav="home"><svg class="i" aria-hidden="true"><use href="#i-home"/></svg><span>Home</span></button>
-    <button class="sb-item rip" data-act="tab" data-tab="subjects" data-nav="subjects"><svg class="i" aria-hidden="true"><use href="#i-book"/></svg><span>Subjects</span></button>
-    <button class="sb-item rip" data-act="tab" data-tab="continue" data-nav="continue"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg><span>Continue</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/flashcards" data-nav="flashcards"><svg class="i" aria-hidden="true"><use href="#i-cards"/></svg><span>Flashcards</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/formulas" data-nav="formulas"><svg class="i" aria-hidden="true"><use href="#i-sigma"/></svg><span>Formula vault</span></button>
-    <p class="sb-label">Practice</p>
-    <button class="sb-item rip" data-act="tab" data-tab="tests" data-nav="tests"><svg class="i" aria-hidden="true"><use href="#i-clipboard"/></svg><span>Tests</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/pyq" data-nav="pyq"><svg class="i" aria-hidden="true"><use href="#i-note"/></svg><span>Past papers</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/errors" data-nav="errors"><svg class="i" aria-hidden="true"><use href="#i-notebook"/></svg><span>My mistakes</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/revision" data-nav="revision"><svg class="i" aria-hidden="true"><use href="#i-refresh"/></svg><span>Revision</span></button>
-    <p class="sb-label">Track</p>
-    <button class="sb-item rip" data-act="go" data-to="#/planner" data-nav="planner"><svg class="i" aria-hidden="true"><use href="#i-calendar"/></svg><span>Planner</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/focus" data-nav="focus"><svg class="i" aria-hidden="true"><use href="#i-timer"/></svg><span>Focus timer</span></button>
-    <button class="sb-item rip" data-act="go" data-to="#/analytics" data-nav="analytics"><svg class="i" aria-hidden="true"><use href="#i-chart"/></svg><span>Progress</span></button>
-    <button class="sb-item rip" data-act="tab" data-tab="more" data-nav="more"><svg class="i" aria-hidden="true"><use href="#i-grid"/></svg><span>More</span></button>
-  </nav>
+  <nav class="sb-nav" id="sb-nav" aria-label="Sections"></nav>
 </aside>
 
 <header class="appbar" id="appbar">
@@ -106,8 +89,8 @@
   </span>
   <div class="bar-ttl"><small class="bar-kick" id="bar-kick" hidden></small><h1 class="bar-title" id="bar-title">Study OS</h1></div>
   <button class="pill rip" id="timer-chip" data-act="go" data-to="#/focus" hidden aria-label="Open running timer"></button>
-  <button class="pill streak rip" id="streak" data-act="go" data-to="#/badges" aria-label="Study streak"><svg class="i" aria-hidden="true"><use href="#i-flame"/></svg><b id="streak-n">0</b></button>
-  <button class="icon-btn rip" id="theme-btn" data-act="theme" aria-label="Switch light or dark theme"><svg class="i" aria-hidden="true"><use href="#i-moon"/></svg></button>
+  <button class="pill streak rip" id="streak" data-act="go" data-to="#/badges" aria-label="Study streak" hidden><svg class="i" aria-hidden="true"><use href="#i-flame"/></svg><b id="streak-n">0</b></button>
+  <button class="icon-btn rip" id="quick-btn" data-act="fab" aria-label="Quick add: log study time, questions, a mock or a mistake" hidden><svg class="i" aria-hidden="true"><use href="#i-plus"/></svg></button>
 </header>
 
 <div class="coach-banner" id="coach-banner" role="status" hidden></div>
@@ -117,14 +100,12 @@
   <noscript><p class="page">Study OS needs JavaScript. Turn it on in your browser settings.</p></noscript>
 </main>
 
-<button class="fab rip" id="fab" data-act="fab" aria-label="Quick add"><svg class="i" aria-hidden="true"><use href="#i-plus"/></svg></button>
-
 <nav class="tabbar" aria-label="Main">
   <button class="tab rip" data-act="tab" data-tab="home"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-home"/></svg></span><span class="tab-l">Home</span></button>
-  <button class="tab rip" data-act="tab" data-tab="subjects"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-book"/></svg></span><span class="tab-l">Subjects</span></button>
-  <button class="tab rip" data-act="tab" data-tab="continue"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg></span><span class="tab-l">Continue</span></button>
-  <button class="tab rip" data-act="tab" data-tab="tests"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-clipboard"/></svg></span><span class="tab-l">Tests</span></button>
-  <button class="tab rip" data-act="tab" data-tab="more"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-grid"/></svg></span><span class="tab-l">More</span></button>
+  <button class="tab rip" data-act="tab" data-tab="study"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-book"/></svg></span><span class="tab-l">Study</span></button>
+  <button class="tab rip" data-act="tab" data-tab="practice"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-clipboard"/></svg></span><span class="tab-l">Practice</span></button>
+  <button class="tab rip" data-act="tab" data-tab="plan"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-calendar"/></svg></span><span class="tab-l">Plan</span></button>
+  <button class="tab rip" data-act="tab" data-tab="me"><span class="tab-i"><svg class="i" aria-hidden="true"><use href="#i-user"/></svg></span><span class="tab-l">Me</span></button>
 </nav>
 
 <div class="sheet-wrap" id="sheet" hidden>
@@ -147,7 +128,10 @@
 <script src="js/data-pyq.js"></script>
 <script src="data/learn.js"></script>
 <script src="js/data.js"></script>
+<script src="js/data-formulas-add.js"></script>
 <script src="js/data-formulas.js"></script>
+<script src="js/data-detail-index.js"></script>
+<script src="js/detail.js"></script>
 <script src="js/data-cards.js"></script>
 <script src="js/migrate.js"></script>
 <script src="js/engine.js"></script>
@@ -175,6 +159,7 @@
 <script src="js/views-cards.js"></script>
 <script src="js/views-focus.js"></script>
 <script src="js/views-revision.js"></script>
+<script src="js/views-revise.js"></script>
 <script src="js/views-me.js"></script>
 <script src="js/views-more.js"></script>
 <script src="js/views-plan.js"></script>

@@ -6,17 +6,37 @@
   const store = S.store;
   const E = S.engine;
 
-  // Bottom bar: Home, Subjects, Continue (opens the last video), Tests, More. `planner` and `me` stay as keys for views that
-  // still name them in `tab` (Back falls back to that screen's own root).
-  const ROOT_HASH = { home: '#/home', subjects: '#/subjects', continue: '#/subjects', tests: '#/tests', more: '#/more', planner: '#/planner', me: '#/me' };
-  // Which sidebar item a route lights up; any route not listed belongs to More.
-  const NAV_OF = {
-    home: 'home', subjects: 'subjects', learn: 'subjects', watch: 'subjects', 'pyq-tracker': 'subjects',
-    tests: 'tests', testcenter: 'tests', exam: 'tests', result: 'tests', practice: 'tests', q: 'tests', omr: 'tests',
-    pyq: 'pyq', errors: 'errors', revision: 'revision', flashcards: 'flashcards', formulas: 'formulas', cheatsheet: 'formulas',
-    planner: 'planner', focus: 'focus', analytics: 'analytics',
+  // Five tabs: Home, Study, Practice, Plan, Me. Every route belongs to exactly one tab, so the highlight is predictable.
+  // `tabs` are the pages shown as a text-tab strip at the top of that group (4 at most, so they never scroll off screen);
+  // `pages` are what the laptop drawer lists under the active group.
+  const GROUPS = [
+    { id: 'home', label: 'Home', icon: 'home', hash: '#/home', tabs: [], pages: [] },
+    { id: 'study', label: 'Study', icon: 'book', hash: '#/subjects',
+      tabs: [['subjects', 'Subjects'], ['revise', 'Revise'], ['formulas', 'Formulas'], ['flashcards', 'Cards']],
+      pages: [['subjects', 'Subjects', 'book'], ['revise', 'Quick revise', 'note'], ['formulas', 'Formula vault', 'sigma'], ['flashcards', 'Flashcards', 'cards']] },
+    { id: 'practice', label: 'Practice', icon: 'clipboard', hash: '#/tests',
+      tabs: [['tests', 'Tests'], ['practice', 'Practice'], ['flags', 'Saved'], ['errors', 'Mistakes']],
+      pages: [['tests', 'Mock tests', 'clipboard'], ['practice', 'Practice', 'target'], ['flags', 'Saved questions', 'star'], ['errors', 'My mistakes', 'notebook'], ['revision', 'Due today', 'refresh'], ['pyq', 'Past papers', 'note']] },
+    { id: 'plan', label: 'Plan', icon: 'calendar', hash: '#/planner',
+      tabs: [['planner', 'Planner'], ['plan', 'Exam plan'], ['focus', 'Focus']],
+      pages: [['planner', 'Planner', 'calendar'], ['plan', 'Exam plan', 'target'], ['focus', 'Focus timer', 'timer']] },
+    { id: 'me', label: 'Me', icon: 'user', hash: '#/me',
+      tabs: [['me', 'Profile'], ['analytics', 'Progress'], ['badges', 'Badges']],
+      pages: [['me', 'Profile and settings', 'user'], ['analytics', 'Progress', 'chart'], ['badges', 'Badges', 'trophy'], ['saved', 'Bookmarks', 'star']] },
+  ];
+  const TAB_OF = {
+    home: 'home',
+    subjects: 'study', learn: 'study', watch: 'study', 'pyq-tracker': 'study', cheatsheet: 'study', formulas: 'study', flashcards: 'study', revise: 'study',
+    tests: 'practice', testcenter: 'practice', exam: 'practice', result: 'practice', practice: 'practice', q: 'practice', omr: 'practice', pyq: 'practice', errors: 'practice', flags: 'practice', revision: 'practice',
+    planner: 'plan', plan: 'plan', focus: 'plan',
+    me: 'me', analytics: 'me', badges: 'me', saved: 'me',
   };
-  const BOTTOM_OF = { home: 'home', subjects: 'subjects', tests: 'tests', pyq: 'tests', errors: 'tests' }; // the rest: more
+  // Old tab names that views still carry in `tab` (Back falls back to that tab's root), and old hashes that now redirect.
+  const LEGACY_TAB = { subjects: 'study', continue: 'study', tests: 'practice', planner: 'plan', more: 'me' };
+  const ROOT_HASH = { home: '#/home', study: '#/subjects', practice: '#/tests', plan: '#/planner', me: '#/me' };
+  const REDIRECT = { more: 'me' };
+  const groupOf = (name) => GROUPS.filter((g) => g.id === (TAB_OF[name] || 'me'))[0];
+  const hasTabs = (name) => { const g = groupOf(name); return !!g && g.tabs.some((t) => t[0] === name && S.views[name]); };
   const scrollMemo = {};
   let current = { name: 'home', params: [], query: {}, hash: '#/home' };
   let installEvent = null;
@@ -36,40 +56,72 @@
       });
     const parts = path.split('/').filter(Boolean);
     let name = parts[0] || 'home';
+    if (REDIRECT[name]) { name = REDIRECT[name]; parts[0] = name; }
     if (!S.views[name]) name = 'home';
-    return { name: name, params: parts.slice(1), query: query, hash: '#/' + (path || 'home') + (qi >= 0 ? '?' + h.slice(qi + 1) : '') };
+    return { name: name, params: parts.slice(1), query: query, hash: '#/' + (parts.length ? parts.join('/') : 'home') + (qi >= 0 ? '?' + h.slice(qi + 1) : '') };
+  }
+
+  function sidebarHtml(active) {
+    return GROUPS.map((g) => {
+      const on = g.id === active;
+      let h = '<button class="sb-item rip" data-act="tab" data-tab="' + g.id + '" data-nav="' + g.id + '"' + (on ? ' aria-current="page"' : '') + '>' + u.icon(g.icon) + '<span>' + g.label + '</span></button>';
+      if (on && g.pages.length)
+        h += '<div class="sb-sub">' + g.pages.filter((p) => S.views[p[0]]).map((p) =>
+          '<button class="sb-page rip" data-act="go" data-to="#/' + p[0] + '" data-nav-page="' + p[0] + '"' + (p[0] === current.name ? ' aria-current="page"' : '') + '>' + u.icon(p[2]) + '<span>' + p[1] + '</span></button>').join('') + '</div>';
+      return h;
+    }).join('');
   }
 
   function chrome() {
     const v = S.views[current.name];
-    const pushed = v.isPushed ? v.isPushed(current) : !!v.pushed;
+    const tabbed = hasTabs(current.name);
+    const pushed = !tabbed && (v.isPushed ? v.isPushed(current) : !!v.pushed);
     const title = v.pageTitle ? v.pageTitle(current) : v.title;
+    const group = groupOf(current.name);
     const bar = u.$('#appbar');
     bar.classList.toggle('is-pushed', pushed);
-    u.$('#bar-title').textContent = pushed ? title : 'Study OS';
+    u.$('#bar-title').textContent = pushed ? title : group.id === 'home' ? 'Study OS' : group.label;
     const kick = pushed && v.pageKicker ? v.pageKicker(current) : '';
     u.$('#bar-kick').textContent = kick;
     u.$('#bar-kick').hidden = !kick;
     u.$('#bar-back').hidden = !pushed;
     u.$('#bar-brand').hidden = pushed;
-    document.title = (pushed ? title + ' · ' : '') + 'Study OS';
-    const nav = NAV_OF[current.name] || 'more';
-    const tab = BOTTOM_OF[nav] || 'more';
+    document.title = (pushed ? title + ' · ' : group.id === 'home' ? '' : group.label + ' · ') + 'Study OS';
+    const tab = group.id;
     u.$$('.tab').forEach((t) => {
       const on = t.dataset.tab === tab;
       t.setAttribute('aria-current', on ? 'page' : 'false');
     });
-    u.$$('.sb-item').forEach((t) => {
-      const on = t.dataset.nav === nav || (nav === 'more' && t.dataset.nav === 'more');
-      if (on) t.setAttribute('aria-current', 'page');
-      else t.removeAttribute('aria-current');
-    });
-    u.$('#fab').hidden = v.fab === false;
+    u.$('#sb-nav').innerHTML = sidebarHtml(tab);
+    // Quick add sits in the bar on Home and Plan only; the floating button is gone because it covered content.
+    u.$('#quick-btn').hidden = !(v.quick !== false && (tab === 'home' || tab === 'plan')) || !!examOn();
+    // A running timed test is full screen: no tab bar, no drawer, no chips (CSS keys off body.is-exam).
+    document.body.classList.toggle('is-exam', !!examOn());
+    if (examOn()) u.$('#toast').classList.remove('show'); // a message from before the test started must not sit over it
     const sk = E.streak();
     u.$('#streak-n').textContent = sk.current;
+    u.$('#streak').hidden = !(sk.current > 0) || !!examOn();
     u.$('#streak').classList.toggle('is-on', sk.activeToday);
+    u.$('#streak').setAttribute('aria-label', 'Study streak: ' + sk.current + (sk.current === 1 ? ' day' : ' days'));
     timerChip();
     coachBanner();
+  }
+
+  // The text-tab strip at the top of Plan, Me, Study and Practice pages (one tab per page of the group).
+  function pageTabs(main) {
+    const g = groupOf(current.name);
+    if (!hasTabs(current.name)) return;
+    const tabs = g.tabs.filter((t) => S.views[t[0]]);
+    const html = '<nav class="ptabs" aria-label="' + g.label + ' pages">' + tabs.map((t) =>
+      '<button class="ptab rip" data-act="go" data-to="#/' + t[0] + '"' + (t[0] === current.name ? ' aria-current="page"' : '') + '>' + t[1] + '</button>').join('') + '</nav>';
+    const page = main.querySelector('.page');
+    if (page) page.insertAdjacentHTML('afterbegin', html);
+    else main.insertAdjacentHTML('afterbegin', html);
+  }
+
+  // A timed (not PYQ-keyed) test is on screen right now.
+  function examOn() {
+    return current.name === 'exam' && S.tc && S.tc.active() ? S.tc.active() : null;
   }
 
   // Coach view (Phase 5): persistent banner on every route while browsing a file she sent,
@@ -107,6 +159,7 @@
     const main = u.$('#main');
     const top = window.scrollY;
     v.render(main, { params: current.params, query: current.query, first: !!first });
+    pageTabs(main);
     S.charts.animate(main);
     chrome();
     if (first) {
@@ -174,7 +227,9 @@
     const prevView = S.views[prevName];
     if (prevView && prevView.leave && lastRenderedHash && lastRenderedHash !== next.hash) prevView.leave();
     current = next;
+    if (/^#\/(more)(\/|\?|$)/.test(location.hash)) history.replaceState(null, '', current.hash); // an old address shows its new one
     examRouteLeft(prevName, current.name);
+    if (prevName === 'exam' && current.name !== 'exam') checkBadges();
     lastRenderedHash = current.hash;
     render(true);
     u.$('#main').focus({ preventScroll: true });
@@ -234,7 +289,7 @@
   ui.actions.back = () => {
     const v = S.views[current.name];
     if (history.length > 1) history.back();
-    else S.app.go(v.backHash ? v.backHash(current) : ROOT_HASH[v.tab || 'home']); // a screen opened directly has no history to go back to
+    else S.app.go(v.backHash ? v.backHash(current) : ROOT_HASH[v.tab] || ROOT_HASH[LEGACY_TAB[v.tab]] || '#/home'); // a screen opened directly has no history to go back to
   };
   // The hash the Continue button opens: the last lecture at its saved position (the player resumes by itself), else
   // the next lecture, else the Subjects list.
@@ -243,7 +298,7 @@
     return t ? '#/watch/' + t.ch + '/' + t.v.id : '#/subjects';
   };
   ui.actions.tab = (el) => {
-    const h = el.dataset.tab === 'continue' ? S.app.continueHash() : ROOT_HASH[el.dataset.tab];
+    const h = ROOT_HASH[el.dataset.tab] || ROOT_HASH[LEGACY_TAB[el.dataset.tab]] || '#/home';
     if (location.hash === h) window.scrollTo({ top: 0, behavior: u.reducedMotion() ? 'auto' : 'smooth' });
     else S.app.go(h);
   };
@@ -313,18 +368,17 @@
 
   /* ---------- achievements ---------- */
   const checkBadges = u.debounce(() => {
+    if (examOn()) return; // never during a timed test; the check runs again when she leaves it
     const fresh = E.checkBadges();
     if (!fresh.length) return;
-    const gold = fresh.some((b) => b.tier === 'gold');
     u.haptic('ok');
-    ui.confetti(gold ? 160 : 90);
     ui.toast(fresh.length === 1 ? 'Badge unlocked: ' + fresh[0].title : fresh.length + ' badges unlocked', { action: 'View', fn: () => S.app.go('#/badges'), ms: 6000 });
   }, 500);
 
   /* ---------- store listener ---------- */
   store.on((keys) => {
     if (keys[0] === '__error__') {
-      ui.toast(store.status.error + '. Your last change may not be saved. Export a backup.', { ms: 7000 });
+      ui.toast(store.status.error + '. Your last change may not be saved. Export a backup.', { ms: 7000, force: true });
       return;
     }
     if (keys.indexOf('profile') >= 0) S.app.applyPrefs();

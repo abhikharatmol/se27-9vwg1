@@ -53,6 +53,7 @@
     opt = opt || {};
     const root = u.$('#toast');
     if (!root) return;
+    if (document.body.classList.contains('is-exam') && !opt.force) return; // nothing pops up over a timed test
     root.innerHTML = '<span class="toast-t">' + u.esc(text) + '</span>' + (opt.action ? '<button class="toast-a" data-act="toast-action">' + u.esc(opt.action) + '</button>' : '');
     root.classList.add('show');
     ui._toastFn = opt.fn || null;

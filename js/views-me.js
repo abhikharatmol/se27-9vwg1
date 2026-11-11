@@ -53,12 +53,13 @@
         '<section class="card profile"><span class="avatar" aria-hidden="true">' + u.esc((p.name.trim()[0] || 'S').toUpperCase()) + '</span>' +
         '<div class="grow"><h1 class="h2">' + u.esc(p.name) + '</h1><p class="muted small">Class 12 · MHT-CET · JEE Main · HSC</p></div>' +
         '<button class="icon-btn rip" aria-label="Change name" data-act="pf-name">' + u.icon('edit') + '</button></section>' +
+        S.moreUI.sendTile() +
         '<section class="card"><div class="stats4">' +
         '<div><b class="num">' + st.streak + '</b><small>Streak</small></div><div><b class="num">' + u.fmtHours(st.totalMin) + '</b><small>Studied</small></div>' +
         '<div><b class="num">' + st.totalMcq + '</b><small>Questions</small></div><div><b class="num">' + st.chaptersDone + '</b><small>Chapters</small></div></div>' +
         '<div class="goals"><span>CET ' + u.esc(p.goals.cet) + '</span><span>JEE ' + u.esc(p.goals.jee) + '</span><span>HSC ' + u.esc(p.goals.hsc) + '</span></div></section>' +
         '<section class="card list-card"><ul class="tools">' +
-        [['analytics', 'chart', 'Analytics', 'Hours, heatmap, weak chapters, forecast'], ['badges', 'trophy', 'Achievements', badges + ' of ' + E.BADGES.length + ' earned'], ['saved', 'star', 'Saved', 'Bookmarked chapters, formulas, errors, mocks'], ['flags', 'note', 'Flagged questions (' + S.practice.flags().length + ')', 'Questions you marked to check']]
+        [['saved', 'star', 'Bookmarks', 'Chapters, formulas, mistakes and mock results you starred'], ['flags', 'note', 'Saved questions (' + S.practice.flags().length + ')', 'Questions you saved to look at again'], ['pyq', 'note', 'Past papers', 'Links and an answer sheet'], ['revision', 'refresh', 'Due today', 'Spaced revision of chapters and mistakes']]
           .map((t) => '<li><button class="rec rip" data-act="go" data-to="#/' + t[0] + '">' + u.icon(t[1]) + '<span><b>' + t[2] + '</b><small>' + t[3] + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>').join('') +
         '</ul></section>' +
         '<section class="card stack"><h2 class="h3">Appearance</h2>' +

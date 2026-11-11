@@ -24,17 +24,17 @@
       const e = Object.assign({}, raw, { id: u.esc(raw.id), status: u.esc(raw.status) }); // already cleaned; escaped again for the attributes
       const c = X.countdown(e, t);
       const label = e.name.replace(/\s*2027.*$/, '') || e.name;
-      const tag = '<span class="cd-s ' + e.status + '">' + X.STATUS_LABEL[e.status] + '</span>';
+      const tag = X.STATUS_LABEL[e.status];
       if (c.kind === 'window' || c.kind === 'none') {
-        const full = c.kind === 'window' ? c.text : 'No date set. Add it in Profile when the exam body publishes it.';
+        const full = c.kind === 'window' ? c.text : 'No date set. Add it in Me when the exam body publishes it.';
         const short = c.kind === 'window' ? c.text.replace(/\s*\(.*$/, '').replace(/^Expected\s+/i, '').replace(MON, (m) => m.slice(0, 3)).replace(/\s+to\s+/, '–') : 'No date yet';
-        return '<div class="cd is-window" data-testid="cd-' + e.id + '" title="' + u.esc(e.name + ': ' + full) + '"><span class="cd-n">' + u.esc(short) + '</span><span class="cd-l">' + u.esc(label) + '</span><span class="cd-d">' + tag + '</span></div>';
+        return '<div class="cd is-window" data-testid="cd-' + e.id + '" title="' + u.esc(e.name + ': ' + full) + '"><span class="cd-n">' + u.esc(short) + '</span><span class="cd-l">' + u.esc(label) + '</span><span class="cd-d">' + u.esc(tag) + '</span></div>';
       }
       const big = c.kind === 'done' ? 'Done' : c.kind === 'today' ? 'Today' : c.n;
       return '<div class="cd" data-testid="cd-' + e.id + '"><span class="cd-n">' + big + (c.kind === 'days' ? '<small>' + (c.n === 1 ? 'day' : 'days') + '</small>' : '') + '</span>' +
-        '<span class="cd-l">' + u.esc(label) + '</span><span class="cd-d">' + u.esc(u.dateShort(e.date)) + ' ' + tag + '</span></div>';
+        '<span class="cd-l">' + u.esc(label) + '</span><span class="cd-d">' + u.esc(u.dateShort(e.date)) + ' · ' + u.esc(tag) + '</span></div>';
     }).join('');
-    return out ? '<section class="cds" aria-label="Exam countdowns">' + out + '</section><button class="link" data-act="go" data-to="#/plan" data-testid="home-plan">Exam plan and targets</button>' : '';
+    return out ? '<button class="cds card rip" data-act="go" data-to="#/plan" aria-label="Exam countdown, open Exam plan" data-testid="home-plan">' + out + '</button>' : '';
   }
 
   // Her own syllabus goal (a date in Profile), shown on the Planner.
@@ -48,39 +48,42 @@
 
   const SUBJ_UP = { phy: 'PHYSICS', chem: 'CHEMISTRY', mth: 'MATHS', cs: 'COMPUTER SCIENCE' };
 
-  // The big violet card: the lecture to carry on with (L.continueTarget): where she stopped, the next lecture, or a first one.
+  // The next-up card: the lecture to carry on with (L.continueTarget): where she stopped, the next lecture, or a first one.
+  const SUBJ_ICON = { phy: 'atom', chem: 'flask', mth: 'sigma', cs: 'code' };
   function continueCard() {
     const L = S.learn;
     const t = L.continueTarget();
     if (!t) {
-      return '<article class="cont is-empty" data-testid="continue-card"><div class="cont-body"><p class="cont-k">Start learning</p><h2 class="cont-t">Pick a chapter to watch</h2>' +
-        '<button class="btn cont-btn rip" data-act="go" data-to="#/subjects">' + u.icon('play') + 'Open Subjects</button></div></article>';
+      return '<article class="cont is-empty" data-testid="continue-card"><div class="cont-body"><div class="cont-text"><p class="cont-k">Start learning</p><h2 class="cont-t">Pick a chapter to watch</h2></div></div>' +
+        '<button class="btn primary cont-btn rip" data-act="go" data-to="#/subjects">' + u.icon('play') + 'Open Subjects</button></article>';
     }
     const c = D.CH[t.ch];
     const p = L.progress(t.v.id) || {};
     const pct = p.dur > 0 ? Math.max(0, Math.min(1, (p.pos || 0) / p.dur)) : 0;
-    const why = { resume: 'Carry on where you stopped', next: 'Your next lecture', pick: 'Her pick for this chapter', first: 'Start here', 'next-chapter': 'Start here' }[t.why] || 'Start here';
-    const kick = SUBJ_UP[c.subj] + ' ' + c.std + (c.tb ? ' · CH ' + c.tb : '');
+    const why = { resume: 'Next up', next: 'Next up', pick: 'Next up', first: 'Start here', 'next-chapter': 'Start here' }[t.why] || 'Next up';
+    const kick = why + ' · ' + SUBJ[c.subj] + ' ' + c.std + (c.tb ? ' · Ch ' + c.tb : '');
     const fmt = S.learnUI ? S.learnUI.fmtDur : (x) => Math.round(x / 60) + ' min';
     const left = p.dur > 0 ? fmt(Math.max(0, p.dur - (p.pos || 0))) + ' left' : t.v.d ? fmt(t.v.d) : '';
+    const verb = pct > 0.02 ? 'Resume lecture' : 'Start lecture';
     return (
       '<article class="cont" data-testid="continue-card" data-s="' + c.subj + '"><div class="cont-body">' +
-      '<div class="cont-thumb" aria-hidden="true">' + u.icon('play') + (navigator.onLine === false ? '' : '<img data-thumb alt="" loading="lazy" src="https://i.ytimg.com/vi/' + encodeURIComponent(t.v.id) + '/mqdefault.jpg">') + '</div>' +
-      '<div class="cont-text"><p class="cont-k">' + u.esc(kick) + '</p><h2 class="cont-t">' + u.esc(c.name) + '</h2>' +
-      '<p class="cont-s">' + (t.v.n ? 'Lecture ' + t.v.n + ' · ' : '') + u.esc(L.shortTitle(t.v.t)) + '</p></div></div>' +
-      '<div class="cont-bar" role="progressbar" aria-label="Lecture progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + Math.round(pct * 100) + '"><i style="width:' + Math.round(pct * 100) + '%"></i></div>' +
-      '<div class="cont-foot"><span class="cont-why">' + why + (left ? ' · ' + left : '') + '</span>' +
-      '<button class="btn cont-btn rip" data-act="go" data-to="#/watch/' + t.ch + '/' + t.v.id + '" data-testid="continue-watch">' + u.icon('play') + 'Watch now</button></div></article>'
+      '<div class="cont-thumb" aria-hidden="true">' + u.icon(SUBJ_ICON[c.subj] || 'play') + (navigator.onLine === false ? '' : '<img data-thumb alt="" loading="lazy" src="https://i.ytimg.com/vi/' + encodeURIComponent(t.v.id) + '/mqdefault.jpg">') + '</div>' +
+      '<div class="cont-text"><p class="cont-k">' + u.esc(kick) + '</p><h2 class="cont-t">' + u.esc(L.shortTitle(t.v.t)) + '</h2>' +
+      '<p class="cont-s">' + u.esc(c.name) + (t.v.n ? ' · Lecture ' + t.v.n : '') + '</p></div></div>' +
+      (pct > 0 ? '<div><div class="cont-bar" role="progressbar" aria-label="Lecture progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + Math.round(pct * 100) + '"><i style="width:' + Math.round(pct * 100) + '%"></i></div>' +
+        '<p class="cont-why tn"><span>' + Math.round(pct * 100) + '% watched</span><span>' + u.esc(left) + '</span></p></div>' : (left ? '<p class="cont-why tn"><span>' + u.esc(left) + '</span></p>' : '')) +
+      '<button class="btn primary cont-btn rip" data-act="go" data-to="#/watch/' + t.ch + '/' + t.v.id + '" data-testid="continue-watch">' + u.icon('play', 'f') + verb + '</button></article>'
     );
   }
 
-  // One small row: streak and today's study time.
+  // Streak and today's study time as a quiet line (the streak is hidden until she has one).
   function statRow(tp) {
     const sk = E.streak();
+    if (!(sk.current > 0) && !(tp.minutes > 0)) return ''; // nothing to show yet: keep the first screen for the Next-up card
     return (
-      '<section class="statrow" aria-label="Streak and study time" data-testid="home-stats">' +
-      '<div class="stat"><span class="stat-i">' + u.icon('flame') + '</span><span><b>' + sk.current + '</b><small>day streak</small></span></div>' +
-      '<div class="stat"><span class="stat-i">' + u.icon('clock') + '</span><span><b>' + u.fmtHours(tp.minutes) + '</b><small>studied today</small></span></div></section>'
+      '<p class="stats-line" aria-label="Streak and study time" data-testid="home-stats">' +
+      (sk.current > 0 ? '<button class="stat rip" data-act="go" data-to="#/analytics">' + u.icon('flame', 's') + '<span class="tn">' + sk.current + '-day streak</span></button>' : '') +
+      '<button class="stat rip" data-act="go" data-to="#/analytics">' + u.icon('clock', 's') + '<span class="tn">' + u.fmtHours(tp.minutes) + ' today</span></button></p>'
     );
   }
 
@@ -89,25 +92,26 @@
   function todayPlanCard() {
     if (!S.today) return '';
     const t = S.today.card();
-    const row = (to, act, icon, title, sub, testid) =>
-      '<li><button class="rec rip" ' + (act ? 'data-act="' + act + '"' : 'data-act="go" data-to="' + u.esc(to) + '"') + ' data-testid="' + testid + '">' + u.icon(icon) +
-      '<span><b>' + u.esc(title) + '</b><small>' + u.esc(sub) + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>';
+    const row = (to, act, icon, title, sub, testid, subj) =>
+      '<li><button class="lrow rip" ' + (act ? 'data-act="' + act + '"' : 'data-act="go" data-to="' + u.esc(to) + '"') + ' data-testid="' + testid + '"><span class="ric"' + (subj ? ' data-s="' + subj + '"' : '') + '>' + u.icon(icon) + '</span>' +
+      '<span class="grow"><b class="rt">' + u.esc(title) + '</b><small class="rs">' + u.esc(sub) + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>';
     const V = t.video;
-    const vurl = V && V.v ? '#/watch/' + V.ch + '/' + V.v.id : '#/subjects';
-    let vid;
+    // The lecture itself is the Next-up card above; here only what comes after it.
+    let vid = '';
     if (V && (V.kind === 'next' || V.kind === 'next-chapter')) {
-      vid = row(vurl, '', 'play', 'Next: ' + S.learn.shortTitle(V.v.t), (V.kind === 'next-chapter' ? 'Next chapter · ' : V.from.n ? 'After lecture ' + V.from.n + ' · ' : '') + D.CH[V.ch].name, 'today-video');
-    } else if (V) vid = row('#/subjects', '', 'play', 'That is the last lecture here', 'Pick your next chapter in Subjects', 'today-video');
-    else vid = row('#/subjects', '', 'play', 'No video yet', 'Open Subjects to pick a chapter', 'today-video');
+      vid = row('#/watch/' + V.ch + '/' + V.v.id, '', 'play', 'Then: ' + S.learn.shortTitle(V.v.t), (V.kind === 'next-chapter' ? 'Next chapter · ' : V.from.n ? 'After lecture ' + V.from.n + ' · ' : '') + D.CH[V.ch].name, 'today-video', D.CH[V.ch].subj);
+    } else if (!V) vid = row('#/subjects', '', 'book', 'No video yet', 'Open Study to pick a chapter', 'today-video');
     const rev = t.revision
       ? row('#/revision', '', 'refresh', u.plural(t.revision.count, 'revision') + ' due' + (t.revision.overdue ? ' (' + t.revision.overdue + ' overdue)' : ''), t.revision.titles.join(' · '), 'today-revision')
-      : row('#/revision', '', 'refresh', 'Nothing due for revision today', 'Your revision schedule is up to date', 'today-revision');
+      : '';
     const why = { due: 'Due for revision', plan: 'In today’s plan', done: 'A done chapter' };
     const pr = t.practice
-      ? '<li><button class="rec rip" data-act="today-practice" data-ch="' + t.practice.ch + '" data-testid="today-practice">' + u.icon('target') +
-        '<span><b>Practice ' + t.practice.n + ' Qs · ' + u.esc(D.CH[t.practice.ch].name) + '</b><small>' + why[t.practice.reason] + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>'
+      ? row('', 'today-practice', 'target', 'Practice ' + t.practice.n + ' questions', D.CH[t.practice.ch].name + ' · ' + why[t.practice.reason], 'today-practice', D.CH[t.practice.ch].subj).replace('data-act="today-practice"', 'data-act="today-practice" data-ch="' + t.practice.ch + '"')
       : row('#/practice', '', 'target', 'No practice set yet', 'Mark a chapter with questions Done', 'today-practice');
-    return '<section class="card list-card" aria-label="Today" data-testid="today-card"><h2 class="h3">Today</h2><ul class="recs">' + vid + rev + pr + '</ul></section>';
+    const d = E.dueCounts();
+    const cards = d.overdue + d.today ? row('#/flashcards', '', 'cards', u.plural(d.overdue + d.today, 'flashcard') + ' due', 'Revision', 'today-cards') : '';
+    const rows = vid + rev + pr + cards;
+    return '<section aria-label="Today" data-testid="today-card" class="today"><p class="lbl">Today</p><ul class="list">' + rows + '</ul></section>';
   }
 
   function todayCard(p, tp) {
@@ -213,7 +217,6 @@
   S.views.home = {
     title: 'Home',
     tab: 'home',
-    fab: false, // the quick-add button covers the Today list here; it stays on the Planner and the other screens
     render(root) {
       const p = store.get('profile');
       const t = u.today();
@@ -223,8 +226,8 @@
       const tp = E.todayProgress();
       root.innerHTML =
         '<div class="page home">' + S.app.updateBannerHtml() +
-        '<header class="greet"><h1 class="h1">' + u.greeting() + ', ' + u.esc(p.name) + '</h1><p class="muted">' + u.esc(u.dateLong(t)) + ' · ' + dayLine + '</p></header>' +
-        countdowns(p) + continueCard() + todayPlanCard() + statRow(tp) +
+        '<header class="greet"><p class="lbl">' + u.esc(u.dateLong(t)) + ' · ' + dayLine + '</p><h1 class="h1">' + u.greeting() + ', ' + u.esc(p.name) + '</h1></header>' +
+        statRow(tp) + countdowns(p) + continueCard() + todayPlanCard() +
         '</div>';
       u.$$('img[data-thumb]', root).forEach((img) => img.addEventListener('error', () => img.remove()));
     },

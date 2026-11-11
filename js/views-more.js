@@ -1,43 +1,9 @@
-/* views/more.js — #/more: everything that is not Home, Subjects, Continue or Tests, as big tiles and a short list. */
+/* views/more.js — "Send progress" (summary + backup, shared with the Web Share API). The old #/more page is gone: #/more redirects to #/me. */
 (function (S) {
   'use strict';
   const u = S.u;
   const E = S.engine;
   const ui = S.ui;
-
-  const TILES = [
-    ['plan', 'target', 'v', 'Exam plan', 'Dates, targets, study order'],
-    ['planner', 'calendar', 'v', 'Planner', 'Timetable, habits, targets'],
-    ['pyq', 'note', 'b', 'Past papers', 'Links and an answer sheet'],
-    ['formulas', 'sigma', 'o', 'Formula vault', 'Search every formula'],
-    ['flashcards', 'cards', 'p', 'Flashcards', 'Flip, quiz, review'],
-    ['errors', 'notebook', 'r', 'My mistakes', 'Error notebook'],
-    ['focus', 'timer', 'g', 'Focus timer', 'Study in short sessions'],
-  ];
-  const LIST = [
-    ['analytics', 'chart', 'Progress and habits', 'Study time, accuracy, streak'],
-    ['me', 'user', 'Exam dates and profile', 'Name, exam dates, target'],
-    ['me', 'settings', 'Settings and backup', 'Theme, text size, export and restore'],
-    ['revision', 'refresh', 'Revision scheduler', 'What to revise today'],
-    ['pyq-tracker', 'target', 'PYQ tracker', 'Solved and accuracy per chapter'],
-    ['cheatsheet', 'note', 'Exam cheat sheets', 'One page per subject'],
-    ['badges', 'trophy', 'Badges and streak', 'What you have earned'],
-    ['saved', 'star', 'Saved questions', 'Questions you starred'],
-    ['flags', 'bolt', 'Flagged questions', 'Questions to look at again'],
-  ];
-
-  function badge(id) {
-    if (id === 'flashcards') {
-      const d = E.dueCounts();
-      const n = d.overdue + d.today;
-      return n ? '<b class="mt-n">' + n + ' due</b>' : '';
-    }
-    if (id === 'errors') {
-      const n = (S.store.get('errors').items || []).filter((x) => !x.resolved).length;
-      return n ? '<b class="mt-n">' + n + '</b>' : '';
-    }
-    return '';
-  }
 
   // "Send progress": a short text summary plus the JSON backup, shared with the Web Share API. A dot says it was not sent for a week.
   function sendTile() {
@@ -87,23 +53,5 @@
     }
   };
 
-  S.views.more = {
-    title: 'More',
-    tab: 'more',
-    render(root) {
-      root.innerHTML =
-        '<div class="page more"><header class="page-h"><div><h1 class="h1">More</h1><p class="muted">Everything else in one place</p></div></header>' +
-        sendTile() +
-        '<div class="mt-grid">' +
-        TILES.map((t) =>
-          '<button class="mt-tile rip" data-c="' + t[2] + '" data-act="go" data-to="#/' + t[0] + '" data-testid="more-' + t[0] + '">' +
-          '<span class="mt-chip">' + u.icon(t[1]) + '</span>' + badge(t[0]) + '<b>' + t[3] + '</b><small>' + t[4] + '</small></button>'
-        ).join('') + '</div>' +
-        '<section class="card list-card"><ul class="recs">' +
-        LIST.map((t) =>
-          '<li><button class="rec rip" data-act="go" data-to="#/' + t[0] + '" data-testid="more-' + t[0] + '-' + t[1] + '">' + u.icon(t[1]) +
-          '<span><b>' + t[2] + '</b><small>' + t[3] + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>'
-        ).join('') + '</ul></section></div>';
-    },
-  };
+  S.moreUI = { sendTile: sendTile };
 })((window.SOS = window.SOS || {}));

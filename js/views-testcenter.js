@@ -257,6 +257,7 @@
     );
   }
 
+  const saved = (qid) => !!(S.practice && S.practice.flagOf(qid));
   function questionHtml(a) {
     const i = a.pos.qi;
     const r = a.questions[i];
@@ -265,9 +266,12 @@
     const head = '<p class="small muted">Question ' + (i + 1) + ' · ' + NAMES[r.subj] + ' · ' + u.esc(D.CH[r.ch].name) + ' · ' + (r.type === 'mcq' ? 'MCQ' : 'Numerical') + '</p>';
     const body = r.type === 'mcq'
       ? '<div class="opts" role="radiogroup" aria-label="Options">' + TC.shownOptions(r, q).map((o, k) =>
-          '<button class="opt rip' + (r.sel === k ? ' is-sel' : '') + '" role="radio" aria-checked="' + (r.sel === k) + '" data-act="tc-opt" data-i="' + i + '" data-v="' + k + '"><b>' + 'ABCD'[k] + '.</b> ' + u.esc(o) + '</button>').join('') + '</div>'
+          '<button class="opt rip' + (r.sel === k ? ' is-sel' : '') + '" role="radio" aria-checked="' + (r.sel === k) + '" data-act="tc-opt" data-i="' + i + '" data-v="' + k + '"><span class="let">' + 'ABCD'[k] + '</span><span class="ot">' + u.esc(o) + '</span></button>').join('') + '</div>'
       : '<label class="field"><span class="field-l">Your answer (a number)</span><input id="tc-num" type="number" inputmode="decimal" step="any" value="' + (r.sel != null ? r.sel : '') + '" data-change="tc-num" data-i="' + i + '"></label>';
-    return head + '<p class="tc-stem">' + u.esc(q.q) + '</p>' + body;
+    return head + '<p class="tc-stem">' + u.esc(q.q) + '</p>' + body +
+      '<div class="tc-acts"><button class="chip rip" data-act="tc-clear">Clear</button>' +
+      '<button class="chip rip" data-act="tc-mark" aria-pressed="' + r.mk + '">' + (r.mk ? 'Marked for review' : 'Mark for review') + '</button>' +
+      '<button class="chip rip" data-act="tc-save" data-id="' + u.esc(r.qid) + '" aria-pressed="' + saved(r.qid) + '" data-testid="tc-save">' + u.icon(saved(r.qid) ? 'star-f' : 'star', 's') + (saved(r.qid) ? 'Saved' : 'Save to revisit') + '</button></div>';
   }
 
   function examHtml(a) {
@@ -288,17 +292,15 @@
       : '';
     return (
       '<div class="page tc-exam">' + (TC.usesSample(a) ? sampleBanner(true) : '') +
-      '<header class="tc-head card pad-sm"><div><b>' + (a.sections.length > 1 ? 'Section ' + (a.pos.sec + 1) + ' of ' + a.sections.length + ': ' + u.esc(s.label) : u.plural(idx.length, 'question')) + '</b>' +
+      '<header class="tc-head"><div><b>' + (a.sections.length > 1 ? 'Section ' + (a.pos.sec + 1) + ' of ' + a.sections.length + ': ' + u.esc(s.label) : u.plural(idx.length, 'question')) + '</b>' +
       '<small class="muted">' + s.subjects.map((x) => NAMES[x]).join(' · ') + '</small></div>' +
-      '<div class="tc-clock" role="timer" aria-live="off"><small>Time left</small><b data-tc-left>' + fmtClock(TC.timeLeft(a, Date.now())) + '</b></div></header>' +
-      '<section class="card stack">' + questionHtml(a) + '</section>' +
-      '<div class="tc-nav"><button class="btn tonal sm rip" data-act="tc-prev"' + (at <= 0 ? ' disabled' : '') + '>' + u.icon('chev-l') + 'Previous</button>' +
-      '<button class="btn tonal sm rip" data-act="tc-clear">Clear</button>' +
-      '<button class="btn tonal sm rip" data-act="tc-mark" aria-pressed="' + r.mk + '">' + (r.mk ? 'Unmark' : 'Mark for review') + '</button>' +
-      '<button class="btn primary sm rip" data-act="tc-next">' + (at < idx.length - 1 ? 'Save & next' : 'Save') + u.icon('chev-r') + '</button></div>' +
-      '<section class="card"><div class="row-between"><h2 class="h3">Questions</h2><span class="small muted">' + counts.a + ' answered · ' + counts.m + ' marked · ' + counts.un + ' left</span></div>' + palette(a) + '</section>' +
-      nextSecNote +
-      (last ? '<button class="btn danger block rip" data-act="tc-submit">Submit test</button>' : '') +
+      '<div class="tc-clock" role="timer" aria-live="off"><small>Time left</small><b data-tc-left>' + fmtClock(TC.timeLeft(a, Date.now())) + '</b></div>' +
+      (last ? '<button class="btn tonal sm rip" data-act="tc-submit" data-testid="tc-submit-top">Submit</button>' : '') + '</header>' +
+      '<div class="tc-grid"><div class="tc-main"><section class="card stack tc-qcard">' + questionHtml(a) + '</section>' + nextSecNote + '</div>' +
+      '<aside class="tc-side card tc-palcard" aria-label="Question palette"><div class="row-between"><h2 class="h3">Questions</h2><span class="small muted">' + counts.a + ' answered · ' + counts.m + ' marked · ' + counts.un + ' left</span></div>' + palette(a) + '</aside></div>' +
+      '<div class="tc-bar"><button class="btn tonal sm rip" data-act="tc-prev" aria-label="Previous question"' + (at <= 0 ? ' disabled' : '') + '>' + u.icon('chev-l') + '</button>' +
+      '<button class="btn outline sm rip tc-qbtn" data-act="tc-pal-open" data-testid="tc-pal-open">' + u.icon('grid') + '<span>' + (at + 1) + ' of ' + idx.length + ' · ' + counts.a + ' answered</span></button>' +
+      '<button class="btn primary sm rip" data-act="tc-next" data-testid="tc-next">' + (at < idx.length - 1 ? 'Save & next' : 'Save') + u.icon('chev-r') + '</button></div>' +
       '</div>'
     );
   }
@@ -327,7 +329,7 @@
           (lastDone ? '<button class="btn primary rip" data-act="go" data-to="#/result/' + lastDone.id + '">See result</button> ' : '') + '<button class="btn tonal rip" data-act="go" data-to="#/testcenter">Test Center</button>') + '</div>';
         return;
       }
-      if (shownSec != null && shownSec !== a.pos.sec) ui.toast(a.sections[shownSec].label + ' is locked. ' + TC.section(a).label + ' has started.', { ms: 6000 });
+      if (shownSec != null && shownSec !== a.pos.sec) ui.toast(a.sections[shownSec].label + ' is locked. ' + TC.section(a).label + ' has started.', { ms: 6000, force: true });
       shownSec = a.pos.sec;
       // Make sure the question on screen is marked visited and its stopwatch is running.
       if (a.pos.since == null || !a.questions[a.pos.qi].vis) TC.withActive((x) => TC.resumeQ(x, Date.now()));
@@ -364,7 +366,21 @@
       S.app.refresh(true);
     }
   }
-  ui.actions['tc-go'] = (el) => go(Number(el.dataset.i));
+  ui.actions['tc-go'] = (el) => {
+    if (ui.sheet.isOpen()) ui.sheet.close();
+    go(Number(el.dataset.i));
+  };
+  ui.actions['tc-pal-open'] = () => {
+    saveTyped();
+    const a = TC.active();
+    if (a) ui.sheet.open({ title: 'Questions', html: palette(a) });
+  };
+  ui.actions['tc-save'] = (el) => {
+    const id = el.dataset.id;
+    if (S.practice.flagOf(id)) { S.practice.unflag(id); ui.toast('Removed from Saved questions.'); } else { S.practice.flag(id, ''); ui.toast('Saved. Find it under Practice > Saved.'); }
+    saveTyped();
+    S.app.refresh(true);
+  };
   ui.actions['tc-next'] = () => step(1);
   ui.actions['tc-prev'] = () => step(-1);
   ui.actions['tc-opt'] = (el) => {
@@ -420,14 +436,14 @@
     if (!q) body = '<p class="muted small">This question is no longer in the question bank (' + u.esc(r.qid) + '). Your answer: ' + u.esc(r.sel == null ? '—' : r.sel) + ' · Correct: ' + u.esc(r.ans) + '</p>';
     else if (r.type === 'mcq')
       body = '<p class="tc-stem">' + u.esc(q.q) + '</p><div class="opts">' + TC.shownOptions(r, q).map((o, k) =>
-        '<div class="opt' + (k === r.ans ? ' right' : k === r.sel ? ' wrong' : '') + '"><b>' + 'ABCD'[k] + '.</b> ' + u.esc(o) + (k === r.sel ? ' <small>(your answer)</small>' : '') + (k === r.ans ? ' <small>(correct)</small>' : '') + '</div>').join('') + '</div>';
+        '<div class="opt' + (k === r.ans ? ' right' : k === r.sel ? ' wrong' : '') + '"><span class="let">' + 'ABCD'[k] + '</span><span class="ot">' + u.esc(o) + (k === r.sel ? ' <small>(your answer)</small>' : '') + (k === r.ans ? ' <small>(correct)</small>' : '') + '</span></div>').join('') + '</div>';
     else
       body = '<p class="tc-stem">' + u.esc(q.q) + '</p><p>Your answer: <b>' + (r.sel == null ? '—' : u.esc(r.sel)) + '</b> · Correct: <b>' + u.esc(r.ans) + '</b></p>';
     return (
       '<li class="card stack tc-key"><div class="row-between"><b>Q' + (i + 1) + '</b><span class="chips-s"><span class="chip-s ' + cls + '">' + verdict + '</span><span class="chip-s">' + (r.marks > 0 ? '+' : '') + r.marks + '</span><span class="chip-s">' + fmtDur(r.tMs) + '</span></span></div>' +
       '<p class="small muted">' + NAMES[r.subj] + ' · ' + u.esc(D.CH[r.ch].name) + ' · ' + DIFF[r.diff] + '</p>' + body +
-      (q ? '<div class="tc-sol"><b class="small">Solution</b><p>' + u.esc(q.solution) + '</p></div>' : '') +
-      (q ? '<div class="row gap"><button class="btn tonal sm rip" data-act="flag-open" data-id="' + r.qid + '">' + u.icon('star') + 'Flag this question</button><button class="btn tonal sm rip" data-act="go" data-to="#/q/' + r.qid + '">' + u.icon('eye') + 'View question</button></div>' : '') +
+      (q ? S.detail.html(q) : '') +
+      (q ? '<div class="tc-acts"><button class="chip rip" data-act="q-save" data-id="' + r.qid + '" aria-pressed="' + saved(r.qid) + '">' + u.icon(saved(r.qid) ? 'star-f' : 'star', 's') + (saved(r.qid) ? 'Saved' : 'Save to revisit') + '</button><button class="chip rip" data-act="go" data-to="#/q/' + r.qid + '">' + u.icon('eye', 's') + 'View question</button></div>' : '') +
       (r.ok === false ? (logged ? '<p class="small muted">In your Error Notebook.</p>' : '<button class="btn tonal sm rip" data-act="tc-err" data-id="' + a.id + '" data-i="' + i + '">' + u.icon('notebook') + 'Add to Error Notebook</button>') : '') +
       '</li>'
     );
@@ -440,19 +456,26 @@
     const subj = TC.breakdown(a, 'subj').map((x) => Object.assign(x, { name: NAMES[x.key] }));
     const ch = TC.breakdown(a, 'ch').map((x) => Object.assign(x, { name: D.CH[x.key] ? D.CH[x.key].name : x.key }));
     const diff = TC.breakdown(a, 'diff').sort((x, y) => x.key - y.key).map((x) => Object.assign(x, { name: DIFF[x.key] }));
+    const n = a.questions.length || 1;
+    const w = (v) => Math.max(0, Math.round((v / n) * 1000) / 10);
+    const weak = ch.filter((x) => x.total >= 1 && x.acc != null).sort((x, y) => x.acc - y.acc)[0];
+    const wrongRows = a.questions.map((r, i) => ({ r: r, i: i })).filter((x) => x.r.ok === false);
+    const notLogged = wrongRows.filter((x) => !store.get('errors').items.some((e) => e.src && e.src.qid === x.r.qid && (e.src.ch || e.chId) === x.r.ch));
     return (
-      '<div class="page">' + (TC.usesSample(a) ? sampleBanner(false) : '') +
+      '<div class="page tc-result">' + (TC.usesSample(a) ? sampleBanner(false) : '') +
       '<header class="page-h"><div><h1 class="h1">' + u.esc(a.title) + '</h1><p class="muted">' + u.esc(u.dateLong(a.date)) + ' · ' + (a.submitReason === 'time' ? 'Submitted when time ran out' : 'Submitted by you') + '</p></div></header>' +
-      '<section class="card"><div class="stats3"><div><b class="num">' + a.score + '<small>/' + a.maxScore + '</small></b><small>Score (' + pct + '%)</small></div>' +
-      '<div><b class="num">' + a.correct + ' / ' + a.wrong + '</b><small>Correct / wrong</small></div>' +
-      '<div><b class="num">' + a.unanswered + '</b><small>Not answered</small></div></div>' +
-      '<p class="small muted" style="margin-top:10px">Time used ' + fmtDur(used) + ' · average ' + fmtDur(avg) + ' per question</p></section>' +
-      '<section class="card"><h2 class="h3">By subject</h2>' + accTable(subj, 'Subject') + '</section>' +
-      '<section class="card"><h2 class="h3">By chapter</h2>' + accTable(ch, 'Chapter') + '</section>' +
-      '<section class="card"><h2 class="h3">By difficulty</h2>' + accTable(diff, 'Difficulty') + '</section>' +
-      '<div class="row gap">' + (a.wrong > 0 ? '<button class="btn primary grow rip" data-act="tc-retry" data-id="' + a.id + '">' + u.icon('refresh') + 'Retry — wrong questions only</button>' : '') +
-      '<button class="btn tonal grow rip" data-act="go" data-to="#/testcenter">Test Center</button></div>' +
-      '<h2 class="h3">Answer key</h2><ol class="tc-keys">' + a.questions.map((r, i) => keyItem(a, r, i)).join('') + '</ol></div>'
+      '<section class="score-card" data-testid="result-score"><p class="lbl">Your score</p><p class="score-big tn"><b>' + a.score + '</b><span> / ' + a.maxScore + ' marks</span></p><p class="score-pct tn">' + pct + '%</p>' +
+      '<div class="score-bar" role="img" aria-label="' + a.correct + ' correct, ' + a.wrong + ' wrong, ' + a.unanswered + ' not answered"><i class="sb-ok" style="width:' + w(a.correct) + '%"></i><i class="sb-bad" style="width:' + w(a.wrong) + '%"></i><i class="sb-skip" style="width:' + w(a.unanswered) + '%"></i></div>' +
+      '<ul class="score-key tn"><li><i class="sb-ok"></i><b>' + a.correct + '</b> correct</li><li><i class="sb-bad"></i><b>' + a.wrong + '</b> wrong</li><li><i class="sb-skip"></i><b>' + a.unanswered + '</b> not answered</li></ul>' +
+      '<p class="small tn">Time used ' + fmtDur(used) + ' · average ' + fmtDur(avg) + ' per question</p></section>' +
+      (weak && weak.acc < 1 ? '<p class="weak-line"><b>Weakest chapter:</b> ' + u.esc(weak.name) + ' (' + weak.correct + ' of ' + weak.total + ' right)</p>' : '') +
+      '<div class="stack"><a class="btn primary block rip" href="#tc-key-list" data-act="tc-review" data-testid="tc-review">' + u.icon('eye') + 'Review answers</a>' +
+      (notLogged.length ? '<button class="btn outline block rip" data-act="tc-err-all" data-id="' + a.id + '" data-testid="tc-err-all">' + u.icon('notebook') + 'Add the ' + notLogged.length + ' wrong to My mistakes</button>' : '') +
+      (a.wrong > 0 ? '<button class="btn outline block rip" data-act="tc-retry" data-id="' + a.id + '">' + u.icon('refresh') + 'Retry the wrong ones only</button>' : '') + '</div>' +
+      '<details class="card stack res-det"><summary class="h3">By subject</summary>' + accTable(subj, 'Subject') + '</details>' +
+      '<details class="card stack res-det"><summary class="h3">By chapter</summary>' + accTable(ch, 'Chapter') + '</details>' +
+      '<details class="card stack res-det"><summary class="h3">By difficulty</summary>' + accTable(diff, 'Difficulty') + '</details>' +
+      '<h2 class="h2" id="tc-key-list">Answer key</h2><ol class="tc-keys">' + a.questions.map((r, i) => keyItem(a, r, i)).join('') + '</ol></div>'
     );
   }
 
@@ -485,6 +508,18 @@
     S.app.refresh(true);
   };
   ui.actions['tc-retry'] = (el) => launch(() => TC.retry(el.dataset.id));
+  ui.actions['tc-review'] = (el) => {
+    const t = document.getElementById('tc-key-list');
+    if (t) t.scrollIntoView({ behavior: u.reducedMotion() ? 'auto' : 'smooth', block: 'start' });
+  };
+  ui.actions['tc-err-all'] = (el) => {
+    const a = TC.get(el.dataset.id);
+    if (!a) return;
+    let added = 0;
+    a.questions.forEach((r, i) => { if (r.ok === false && TC.logError(a.id, i).ok) added++; });
+    ui.toast(added ? 'Added ' + added + ' to My mistakes. They will come back for revision.' : 'They are all in My mistakes already.');
+    S.app.refresh(true);
+  };
 
   // Starts the standard chapter test (CET marking, default length) for one chapter; used by the
   // chapter sheet. Also preselects that chapter in the Test Center form.

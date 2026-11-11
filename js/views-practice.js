@@ -14,42 +14,76 @@
 
   const NAMES = { phy: 'Physics', chem: 'Chemistry', mth: 'Maths' };
   const DIFF = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
-  const form = { scope: 'chapter', ch: '', diff: 'all', len: '10', num: false };
+  // Picker state. scope: chapter (hand-picked chapters) | subject | cat (CET category A/B/C) | all | done
+  const form = { scope: 'chapter', sel: new Set(), list: 'all', subj: new Set(['phy', 'chem', 'mth']), std: 'all', cat: new Set(['A', 'B', 'C']), diff: 'all', type: 'mcq', only: 'all', len: '10' };
   const view = { showing: null, summary: null, added: {} }; // showing = row index awaiting "Next"; summary = finished item id
+  const CAT_HELP = { A: 'A: must do for the CET', B: 'B: important', C: 'C: if time allows' };
 
   const bank = () => TC.bankById();
-  const optsOf = () => ({
-    chapters: form.scope === 'done' ? P.doneChapters() : [form.ch],
-    diff: form.diff,
-    len: Number(form.len),
-    includeNum: form.num,
-  });
+  const withQ = () => TC.chaptersWithQuestions().filter((id) => D.CH[id]);
+  const stdOk = (id) => form.std === 'all' || String(D.CH[id].std) === form.std;
+  // The chapters the current scope covers.
+  function scopeChapters() {
+    const all = withQ();
+    if (form.scope === 'chapter') return all.filter((id) => form.sel.has(id));
+    if (form.scope === 'subject') return all.filter((id) => form.subj.has(D.CH[id].subj) && stdOk(id));
+    if (form.scope === 'cat') return all.filter((id) => form.subj.has(D.CH[id].subj) && form.cat.has(D.CH[id].cetTier) && stdOk(id));
+    if (form.scope === 'done') return P.doneChapters().filter(stdOk);
+    return all.filter(stdOk);
+  }
+  const optsOf = () => ({ chapters: scopeChapters(), diff: form.diff, len: Number(form.len), type: form.type, only: form.only });
 
   /* ================= picker ================= */
+  const chips = (act, items, isOn) => '<div class="chips">' + items.map((x) => '<button type="button" class="chip rip" aria-pressed="' + isOn(x.v) + '" data-act="' + act + '" data-v="' + x.v + '">' + x.t + '</button>').join('') + '</div>';
+
+  function chapterPicker() {
+    const all = withQ().filter((id) => (form.list === 'all' || D.CH[id].subj === form.list) && stdOk(id));
+    return (
+      '<div class="chips">' + [['all', 'All'], ['phy', 'Physics'], ['chem', 'Chemistry'], ['mth', 'Maths']].map((x) =>
+        '<button type="button" class="chip rip" aria-pressed="' + (form.list === x[0]) + '" data-act="pr-list" data-v="' + x[0] + '">' + x[1] + '</button>').join('') + '</div>' +
+      '<ul class="tcb-list">' + all.map((id) => {
+        const on = form.sel.has(id);
+        const n = S.practice.counts({ chapters: [id], type: form.type, diff: form.diff, only: form.only }).total;
+        return '<li><button class="tcb-ch rip" aria-pressed="' + on + '" data-act="pr-pick" data-id="' + id + '"><span class="tcb-tick">' + (on ? u.icon('check') : '') + '</span>' +
+          '<span class="tcb-name"><b>' + u.esc(D.CH[id].name) + '</b><small>' + NAMES[D.CH[id].subj] + ' · Class ' + D.CH[id].std + '</small></span><span class="tcb-n">' + n + ' Q</span></button></li>';
+      }).join('') + '</ul>' +
+      (form.sel.size ? '<button class="link" data-act="pr-clear">Clear ' + form.sel.size + ' chosen</button>' : '')
+    );
+  }
+
   function picker() {
-    const all = TC.chaptersWithQuestions();
-    const done = P.doneChapters();
-    if (!form.ch || all.indexOf(form.ch) < 0) form.ch = (done[0] || all[0] || '');
+    const chs = scopeChapters();
     const c = P.counts(optsOf());
-    const chapterOpts = all.map((id) => ({ v: id, t: D.CH[id].name }));
     const a = P.active();
     const resume = a
-      ? '<section class="card stack"><h2 class="h3">Practice in progress</h2><p class="small muted">' + u.esc(a.chapters.map((id) => D.CH[id].name).join(', ')) + ' · ' +
+      ? '<section class="card stack"><h2 class="h3">Practice in progress</h2><p class="small muted">' + u.esc(a.chapters.slice(0, 3).map((id) => D.CH[id].name).join(', ')) + (a.chapters.length > 3 ? ' and ' + (a.chapters.length - 3) + ' more' : '') + ' · ' +
         a.questions.filter((r) => r.done).length + ' of ' + a.questions.length + ' done</p>' +
         '<div class="row gap"><button class="btn primary grow rip" data-act="pr-resume">' + u.icon('play') + 'Resume</button><button class="btn danger grow rip" data-act="pr-discard">Discard</button></div></section>'
       : '';
+    const scope = form.scope;
+    const subjChips = chips('pr-subj', [{ v: 'phy', t: 'Physics' }, { v: 'chem', t: 'Chemistry' }, { v: 'mth', t: 'Maths' }], (v) => form.subj.has(v));
+    const stdSeg = ui.seg('pr-std', [{ v: 'all', t: 'Both classes' }, { v: '11', t: 'Class 11' }, { v: '12', t: 'Class 12' }], form.std);
+    const scopeBody =
+      scope === 'chapter' ? chapterPicker()
+      : scope === 'subject' ? '<div><span class="field-l">Subjects</span>' + subjChips + '</div><div><span class="field-l">Class</span>' + stdSeg + '</div>'
+      : scope === 'cat'
+        ? '<div><span class="field-l">CET priority (A = most marks)</span>' + chips('pr-cat', ['A', 'B', 'C'].map((v) => ({ v: v, t: CAT_HELP[v] })), (v) => form.cat.has(v)) + '</div><div><span class="field-l">Subjects</span>' + subjChips + '</div><div><span class="field-l">Class</span>' + stdSeg + '</div>'
+      : scope === 'done' ? '<p class="small muted">' + (P.doneChapters().length ? 'Every chapter you marked Done that has questions.' : 'None of your chapters is marked Done yet. Mark one in Study.') + '</p>'
+      : '<div><span class="field-l">Class</span>' + stdSeg + '</div>';
     return (
-      '<div class="page"><header class="page-h"><div><h1 class="h1">Practice</h1><p class="muted">Untimed. One question at a time, with the answer and solution straight away.</p></div></header>' + resume +
-      '<section class="card stack"><h2 class="h3">What to practise</h2>' +
-      ui.seg('pr-scope', [{ v: 'chapter', t: 'One chapter' }, { v: 'done', t: 'My done chapters' }], form.scope) +
-      (form.scope === 'chapter'
-        ? ui.field('Chapter', ui.select('pr-ch', chapterOpts, form.ch).replace('<select ', '<select data-change="pr-ch" '))
-        : '<p class="small muted">' + (done.length ? u.plural(done.length, 'done chapter') + ' with questions.' : 'None of your chapters is marked Done yet, or none has questions.') + '</p>') +
+      '<div class="page"><header class="page-h"><div><h1 class="h1">Practice</h1><p class="muted">No timer. One question at a time, with the full answer straight away.</p></div></header>' + resume +
+      '<section class="card stack"><h2 class="h3">What do you want to practise?</h2>' +
+      '<div class="chips pr-scope" role="group" aria-label="Practise by">' + [['chapter', 'Chapters'], ['subject', 'Subject'], ['cat', 'CET wise'], ['all', 'Everything'], ['done', 'My done chapters']].map((x) =>
+        '<button type="button" class="chip rip" aria-pressed="' + (scope === x[0]) + '" data-act="pr-scope" data-v="' + x[0] + '">' + x[1] + '</button>').join('') + '</div>' +
+      scopeBody + '</section>' +
+      '<section class="card stack"><h2 class="h3">Narrow it down</h2>' +
       '<div><span class="field-l">Difficulty</span>' + ui.seg('pr-diff', [{ v: 'all', t: 'All' }, { v: '1', t: 'Easy' }, { v: '2', t: 'Medium' }, { v: '3', t: 'Hard' }], form.diff) + '</div>' +
-      '<div><span class="field-l">Questions</span>' + ui.seg('pr-len', [{ v: '10', t: '10' }, { v: '20', t: '20' }, { v: '0', t: 'All' }], form.len) + '</div>' +
-      '<div class="chips"><button type="button" class="chip sm rip" role="switch" aria-checked="' + form.num + '" aria-pressed="' + form.num + '" data-act="pr-num">Include numerical (JEE style)</button></div>' +
-      '<p class="small muted" data-testid="pr-counts">' + (c.total ? c.fresh + ' new · ' + c.missed + ' missed before · ' + c.seen + ' seen' + ' (of ' + c.total + ')' : 'No questions match these choices.') + '</p>' +
-      '<button class="btn primary block rip" data-act="pr-start"' + (c.total ? '' : ' disabled') + ' data-testid="pr-start">' + u.icon('play') + 'Start practice</button></section>' +
+      '<div><span class="field-l">Question type</span>' + ui.seg('pr-type', [{ v: 'mcq', t: 'MCQ' }, { v: 'num', t: 'Numerical' }, { v: 'both', t: 'Both' }], form.type) + '</div>' +
+      '<div><span class="field-l">Show</span>' + ui.seg('pr-only', [{ v: 'all', t: 'All' }, { v: 'new', t: 'New only' }, { v: 'missed', t: 'Missed before' }], form.only) + '</div>' +
+      '<div><span class="field-l">How many</span>' + ui.seg('pr-len', [{ v: '10', t: '10' }, { v: '20', t: '20' }, { v: '30', t: '30' }, { v: '50', t: '50' }, { v: '0', t: 'All' }], form.len) + '</div></section>' +
+      '<section class="card stack"><p class="small" data-testid="pr-counts">' + (c.total ? '<b>' + c.total + '</b> questions in ' + u.plural(chs.length, 'chapter') + ': ' + c.fresh + ' new · ' + c.missed + ' missed before · ' + (c.seen - c.missed) + ' answered right before' :
+        scope === 'chapter' && !form.sel.size ? 'Pick at least one chapter above.' : 'No questions match these choices. Try other filters.') + '</p>' +
+      '<button class="btn primary block rip" data-act="pr-start"' + (c.total ? '' : ' disabled') + ' data-testid="pr-start">' + u.icon('play') + 'Start practice' + (c.total ? ' (' + (Number(form.len) ? Math.min(Number(form.len), c.total) : c.total) + ')' : '') + '</button></section>' +
       lastSessions() + '</div>'
     );
   }
@@ -82,8 +116,8 @@
     if (r.type === 'mcq') {
       body = '<div class="opts" role="radiogroup" aria-label="Options">' + TC.shownOptions(r, q).map((o, k) => {
         const cls = locked ? (k === r.ans ? ' right' : k === r.sel ? ' wrong' : '') : '';
-        return '<button class="opt rip' + cls + '" role="radio" aria-checked="' + (r.sel === k) + '" data-act="pr-opt" data-i="' + i + '" data-v="' + k + '"' + (locked ? ' disabled' : '') + '><b>' + 'ABCD'[k] + '.</b> ' + u.esc(o) +
-          (locked && k === r.sel ? ' <small>(your answer)</small>' : '') + (locked && k === r.ans ? ' <small>(correct)</small>' : '') + '</button>';
+        return '<button class="opt rip' + cls + '" role="radio" aria-checked="' + (r.sel === k) + '" data-act="pr-opt" data-i="' + i + '" data-v="' + k + '"' + (locked ? ' disabled' : '') + '><span class="let">' + 'ABCD'[k] + '</span><span class="ot">' + u.esc(o) +
+          (locked && k === r.sel ? ' <small>(your answer)</small>' : '') + (locked && k === r.ans ? ' <small>(correct)</small>' : '') + '</span></button>';
       }).join('') + '</div>';
     } else if (locked) {
       body = '<p>Your answer: <b>' + u.esc(r.sel) + '</b> · Correct: <b>' + u.esc(r.ans) + '</b></p>';
@@ -94,13 +128,13 @@
     let after = '';
     if (locked) {
       const added = view.added[a.id + ':' + r.qid];
+      const sv = !!P.flagOf(r.qid);
       after =
-        '<div class="tc-sol" data-testid="pr-solution"><b class="' + (r.ok ? 'tc-ok' : 'tc-bad') + '">' + (r.ok ? 'Correct' : 'Incorrect') + '</b><p>' + u.esc(q.solution) + '</p></div>' +
-        '<div class="row gap">' +
-        '<button class="btn tonal grow rip" data-act="flag-open" data-id="' + r.qid + '" data-testid="pr-flag">' + u.icon('star') + (P.flagOf(r.qid) ? 'Flagged (edit)' : 'Flag this question') + '</button>' +
-        '<button class="btn tonal grow rip" data-act="go" data-to="#/q/' + r.qid + '">' + u.icon('eye') + 'View question</button></div><div class="row gap">' +
-        (!r.ok ? '<button class="btn tonal grow rip" data-act="pr-err" data-i="' + i + '"' + (added ? ' disabled' : '') + '>' + u.icon('notebook') + (added ? 'In Error Notebook' : 'Add to Error Notebook') + '</button>' : '') +
-        '</div>' +
+        '<p class="verdict ' + (r.ok ? 'is-ok' : 'is-bad') + '" data-testid="pr-verdict"><b class="' + (r.ok ? 'tc-ok' : 'tc-bad') + '">' + (r.ok ? 'Correct' : 'Incorrect') + '</b></p>' +
+        S.detail.html(q) +
+        '<div class="tc-acts">' +
+        '<button class="chip rip" data-act="q-save" data-id="' + r.qid + '" aria-pressed="' + sv + '" data-testid="pr-flag">' + u.icon(sv ? 'star-f' : 'star', 's') + (sv ? 'Saved' : 'Save to revisit') + '</button>' +
+        (!r.ok ? '<button class="chip rip" data-act="pr-err" data-i="' + i + '"' + (added ? ' disabled' : '') + '>' + u.icon('notebook', 's') + (added ? 'In My mistakes' : 'Add to My mistakes') + '</button>' : '') + '</div>' +
         '<button class="btn primary block rip" data-act="pr-next" data-testid="pr-next">' + (P.allDone(a) ? 'Finish' : 'Next') + '</button>';
     } else {
       after = '<button class="btn tonal block rip" data-act="pr-skip" data-i="' + i + '">Skip</button>';
@@ -139,7 +173,7 @@
     render(root, ctx) {
       if (ctx && ctx.first && ctx.query && ctx.query.ch && D.CH[ctx.query.ch]) {
         form.scope = 'chapter';
-        form.ch = ctx.query.ch;
+        form.sel = new Set([ctx.query.ch]);
         view.summary = null;
         view.showing = null;
         view.running = false; // the picker (with a Resume card if a session is open) comes first
@@ -183,11 +217,19 @@
     begin(opts);
   }
 
-  ui.actions['pr-scope'] = (el) => { form.scope = el.dataset.v; S.app.refresh(true); };
-  ui.actions['pr-diff'] = (el) => { form.diff = el.dataset.v; S.app.refresh(true); };
-  ui.actions['pr-len'] = (el) => { form.len = el.dataset.v; S.app.refresh(true); };
-  ui.actions['pr-num'] = () => { form.num = !form.num; S.app.refresh(true); };
-  ui.changes['pr-ch'] = (el) => { form.ch = el.value; S.app.refresh(true); };
+  const redo = () => S.app.refresh(true);
+  const flip = (set, v, min) => { if (set.has(v)) { if (set.size > min) set.delete(v); } else set.add(v); };
+  ui.actions['pr-scope'] = (el) => { form.scope = el.dataset.v; redo(); };
+  ui.actions['pr-list'] = (el) => { form.list = el.dataset.v; redo(); };
+  ui.actions['pr-pick'] = (el) => { flip(form.sel, el.dataset.id, 0); redo(); };
+  ui.actions['pr-clear'] = () => { form.sel.clear(); redo(); };
+  ui.actions['pr-subj'] = (el) => { flip(form.subj, el.dataset.v, 1); redo(); };
+  ui.actions['pr-cat'] = (el) => { flip(form.cat, el.dataset.v, 1); redo(); };
+  ui.actions['pr-std'] = (el) => { form.std = el.dataset.v; redo(); };
+  ui.actions['pr-diff'] = (el) => { form.diff = el.dataset.v; redo(); };
+  ui.actions['pr-type'] = (el) => { form.type = el.dataset.v; redo(); };
+  ui.actions['pr-only'] = (el) => { form.only = el.dataset.v; redo(); };
+  ui.actions['pr-len'] = (el) => { form.len = el.dataset.v; redo(); };
   ui.actions['pr-start'] = () => begin(optsOf());
   ui.actions['pr-resume'] = () => { view.running = true; view.showing = null; view.summary = null; S.app.refresh(true); };
   ui.actions['pr-discard'] = async () => {
@@ -272,60 +314,72 @@
       }
       const f = P.flagOf(qid);
       const body = q.type === 'mcq'
-        ? '<div class="opts">' + q.options.map((o, k) => '<div class="opt' + (k === q.ans ? ' right' : '') + '"><b>' + 'ABCD'[k] + '.</b> ' + u.esc(o) + (k === q.ans ? ' <small>(correct)</small>' : '') + '</div>').join('') + '</div>'
+        ? '<div class="opts">' + q.options.map((o, k) => '<div class="opt' + (k === q.ans ? ' right' : '') + '"><span class="let">' + 'ABCD'[k] + '</span><span class="ot">' + u.esc(o) + (k === q.ans ? ' <small>(correct)</small>' : '') + '</span></div>').join('') + '</div>'
         : '<p>Answer: <b>' + u.esc(q.ans) + '</b> <small class="muted">(accepted within ±' + u.esc(q.tol) + ')</small></p>';
       root.innerHTML =
         '<div class="page tc-exam"><p class="small muted" data-testid="q-head">' + NAMES[D.CH[q.ch].subj] + ' · ' + u.esc(D.CH[q.ch].name) + ' · ' + DIFF[q.diff] + ' · ' + (q.type === 'mcq' ? 'MCQ' : 'Numerical') + '</p>' +
         '<p class="tc-stem">' + u.esc(q.q) + '</p>' + body +
-        '<div class="tc-sol"><b class="small">Solution</b><p>' + u.esc(q.solution) + '</p></div>' +
-        (f ? '<p class="small muted">Flagged ' + u.esc(u.dateShort(f.date)) + (f.note ? ': ' + u.esc(f.note) : '') + '</p>' : '') +
-        '<button class="btn tonal block rip" data-act="flag-open" data-id="' + qid + '" data-testid="q-flag">' + u.icon('star') + (f ? 'Flagged (edit)' : 'Flag this question') + '</button></div>';
+        S.detail.html(q) +
+        (f && f.note ? '<p class="small muted">Your note: ' + u.esc(f.note) + '</p>' : '') +
+        '<div class="tc-acts"><button class="chip rip" data-act="q-save" data-id="' + qid + '" aria-pressed="' + !!f + '" data-testid="q-flag">' + u.icon(f ? 'star-f' : 'star', 's') + (f ? 'Saved' : 'Save to revisit') + '</button>' +
+        (f ? '<button class="chip rip" data-act="flag-open" data-id="' + qid + '">' + u.icon('edit', 's') + 'Add a note</button>' : '') + '</div></div>';
     },
   };
 
-  /* ================= #/flags: every flagged question ================= */
+  /* ================= #/flags: Saved questions ================= */
   S.views.flags = {
-    title: 'Flagged questions',
-    tab: 'me',
-    pushed: true,
+    title: 'Saved questions',
+    tab: 'practice',
     fab: false,
     render(root) {
       const list = P.flags().slice().reverse();
       root.innerHTML =
-        '<div class="page"><header class="page-h"><div><h1 class="h1">Flagged questions</h1><p class="muted">' + u.plural(list.length, 'question') + ' you marked to check.</p></div></header>' +
+        '<div class="page"><header class="page-h"><div><h1 class="h1">Saved questions</h1><p class="muted">' + u.plural(list.length, 'question') + ' you saved to look at again.</p></div></header>' +
         (list.length
-          ? '<ul class="tc-keys">' + list.map((f) => {
+          ? '<button class="btn primary block rip" data-act="pr-saved" data-testid="pr-saved">' + u.icon('target') + 'Practise these ' + list.length + '</button>' +
+            '<ul class="tc-keys">' + list.map((f) => {
               const q = bank()[f.qid];
-              return '<li class="card stack tc-key" data-testid="flag-row"><p class="small muted">' + (q ? NAMES[D.CH[q.ch].subj] + ' · ' + u.esc(D.CH[q.ch].name) : u.esc(f.qid)) + ' · ' + u.esc(u.dateShort(f.date)) + '</p>' +
-                '<p class="tc-stem">' + (q ? u.esc(q.q.slice(0, 160) + (q.q.length > 160 ? '…' : '')) : 'This question is no longer in the bank.') + '</p>' +
-                (f.note ? '<p class="small"><b>Note:</b> ' + u.esc(f.note) + '</p>' : '') +
-                '<div class="row gap"><button class="btn tonal grow rip" data-act="go" data-to="#/q/' + f.qid + '">View</button><button class="btn danger grow rip" data-act="flag-remove" data-id="' + f.qid + '">Remove</button></div></li>';
+              return '<li class="card stack tc-key" data-testid="flag-row"><p class="small muted">' + (q ? NAMES[D.CH[q.ch].subj] + ' · ' + u.esc(D.CH[q.ch].name) : u.esc(f.qid)) + ' · saved ' + u.esc(u.dateShort(f.date)) + '</p>' +
+                '<p class="tc-stem">' + (q ? u.esc(q.q.slice(0, 200) + (q.q.length > 200 ? '…' : '')) : 'This question is no longer in the bank.') + '</p>' +
+                (f.note ? '<p class="small"><b>Your note:</b> ' + u.esc(f.note) + '</p>' : '') +
+                '<div class="row gap"><button class="btn tonal grow rip" data-act="go" data-to="#/q/' + f.qid + '">View answer</button><button class="btn outline grow rip" data-act="flag-remove" data-id="' + f.qid + '">Remove</button></div></li>';
             }).join('') + '</ul>'
-          : ui.empty('star', 'Nothing flagged', 'Tap "Flag this question" on a question that looks wrong or confusing. It travels with Send to coach.')) + '</div>';
+          : ui.empty('star', 'Nothing saved yet', 'In a test or in practice, tap "Save to revisit" on a question you are unsure about. It will wait for you here.')) + '</div>';
     },
+  };
+  ui.actions['pr-saved'] = () => {
+    const ids = P.flags().map((f) => f.qid).filter((id) => bank()[id]);
+    if (!ids.length) return;
+    begin({ qids: ids, chapters: Array.from(new Set(ids.map((id) => bank()[id].ch))), diff: 'all', len: 0, includeNum: ids.some((id) => bank()[id].type === 'num') });
+    S.app.go('#/practice');
+  };
+  ui.actions['q-save'] = (el) => {
+    const id = el.dataset.id;
+    if (P.flagOf(id)) { P.unflag(id); ui.toast('Removed from Saved questions.'); } else { P.flag(id, ''); ui.toast('Saved. Find it in Practice > Saved.'); }
+    S.app.refresh(true);
   };
 
   ui.actions['flag-open'] = (el) => {
     const id = el.dataset.id;
     const f = P.flagOf(id);
     ui.sheet.open({
-      title: f ? 'Edit flag' : 'Flag this question',
-      html: '<form class="stack" onsubmit="return false" data-form="flag">' + ui.field('Note (optional)', '<textarea name="note" rows="3" maxlength="300" placeholder="What looks wrong or confusing?">' + u.esc(f ? f.note : '') + '</textarea>') +
-        '<button class="btn primary block rip" data-act="flag-save" data-id="' + id + '">' + (f ? 'Save' : 'Flag it') + '</button>' +
-        (f ? '<button class="btn danger block rip" data-act="flag-remove" data-id="' + id + '">Remove flag</button>' : '') + '</form>',
+      title: f ? 'Your note' : 'Save this question',
+      html: '<form class="stack" onsubmit="return false" data-form="flag">' + ui.field('Note (optional)', '<textarea name="note" rows="3" maxlength="300" placeholder="Why did you save it? (optional)">' + u.esc(f ? f.note : '') + '</textarea>') +
+        '<button class="btn primary block rip" data-act="flag-save" data-id="' + id + '">Save note</button>' +
+        (f ? '<button class="btn danger block rip" data-act="flag-remove" data-id="' + id + '">Remove from Saved</button>' : '') + '</form>',
     });
   };
   ui.actions['flag-save'] = (el) => {
     const v = ui.values(u.$('[data-form="flag"]'));
     P.flag(el.dataset.id, v.note);
     ui.sheet.close();
-    ui.toast('Flagged.');
+    ui.toast('Saved.');
     S.app.refresh(true);
   };
   ui.actions['flag-remove'] = (el) => {
     P.unflag(el.dataset.id);
     if (ui.sheet.isOpen()) ui.sheet.close();
-    ui.toast('Flag removed.');
+    ui.toast('Removed from Saved questions.');
     S.app.refresh(true);
   };
 

@@ -556,6 +556,9 @@
     ],
   };
 
+  // Extra formulas from data/formulas-add (generated into js/data-formulas-add.js): appended after each chapter's own list, so older ids do not move.
+  Object.keys(S.FORMULAS_ADD || {}).forEach((chId) => { F[chId] = (F[chId] || []).concat(S.FORMULAS_ADD[chId]); });
+
   S.FORMULAS = [];
   S.FORMULA_BY_ID = {};
   Object.keys(F).forEach((chId) => {

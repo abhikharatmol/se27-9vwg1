@@ -61,8 +61,12 @@
     const bank = TC.bankById();
     if (opts.qids) return opts.qids.map((id) => bank[id]).filter(Boolean);
     const set = new Set(opts.chapters || []);
+    const hist = opts.only && opts.only !== 'all' ? history() : null;
+    // type: 'mcq' | 'num' | 'both' (the older includeNum flag still means MCQ, or MCQ + numerical)
+    const type = opts.type || (opts.includeNum ? 'both' : 'mcq');
     return (S.QUESTIONS || []).filter(
-      (q) => set.has(q.ch) && (!opts.diff || opts.diff === 'all' || q.diff === Number(opts.diff)) && (opts.includeNum || q.type === 'mcq')
+      (q) => set.has(q.ch) && (!opts.diff || opts.diff === 'all' || q.diff === Number(opts.diff)) && (type === 'both' || q.type === type) &&
+        (!hist || kindOf(hist[q.id]) === opts.only)
     );
   }
   // For the picker: "N new, M missed before, K seen" over everything the filters allow.

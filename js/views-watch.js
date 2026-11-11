@@ -133,17 +133,26 @@
     return hit || topics.filter((t) => t.h)[0] || topics[0];
   }
 
+  function topicRows(chId, v) {
+    const cd = L.chData(chId);
+    const cur = currentTopic(chId);
+    return '<ul class="list lw-topic-list" role="group" aria-label="Topics of this chapter" data-testid="lw-chips">' + cd.topics.map((t) => {
+      const st = v && boxMode(v) === 'player' ? L.stampFor(v, t) : null; // nothing jumps when there is no player
+      const on = !!(cur && cur.no === t.no);
+      return '<li><button class="lrow rip lv-chip' + (on ? ' is-on' : '') + '" aria-pressed="' + on + '" data-act="lw-topic" data-no="' + u.esc(t.no) + '"' +
+        (st ? ' data-t="' + st.t + '" title="Jumps to ' + X.fmtDur(st.t) + ' in the video"' : '') + '><span class="grow"><b class="rt">' + u.esc((cd.lst ? '' : t.no + ' ') + t.t) + '</b>' +
+        (st ? '<small class="rs">Jumps to ' + X.fmtDur(st.t) + ' in the video</small>' : '') + '</span>' + (on ? u.icon('check') : '') + '</button></li>';
+    }).join('') + '</ul>';
+  }
+
   function chipsHtml(chId, v) {
     const cd = L.chData(chId);
     const cur = currentTopic(chId);
     if (!cd.topics) return '<p class="small muted" data-testid="lw-topics-coming"><b>Topics coming.</b> Use your textbook for this chapter.</p>';
+    const i = cur ? cd.topics.indexOf(cur) : 0;
     return (
       (cd.src ? '<p class="small"><span class="chip-s warn" data-draft="1" data-testid="lw-draft-topics">Draft topics, check with your book</span></p>' : '') +
-      '<div class="chips lw-chips" role="group" aria-label="Topics of this chapter" data-testid="lw-chips">' + cd.topics.map((t) => {
-        const st = v && boxMode(v) === 'player' ? L.stampFor(v, t) : null; // nothing jumps when there is no player
-        return '<button class="chip rip lv-chip' + (cur && cur.no === t.no ? ' is-on' : '') + '" aria-pressed="' + !!(cur && cur.no === t.no) + '" data-act="lw-topic" data-no="' + u.esc(t.no) + '"' +
-          (st ? ' data-t="' + st.t + '" title="Jumps to ' + X.fmtDur(st.t) + ' in the video"' : '') + '>' + u.esc(t.t) + (st ? ' <span class="lw-jump">' + u.icon('play') + '</span>' : '') + '</button>';
-      }).join('') + '</div>'
+      '<button class="topic-field" data-act="lw-topics" aria-haspopup="dialog" data-testid="lw-topic-field"><span class="topic-fl">Topic ' + (i + 1) + ' of ' + cd.topics.length + '</span><span class="topic-v">' + u.esc(cur ? (cd.lst ? '' : cur.no + ' ') + cur.t : 'Choose a topic') + '</span>' + u.icon('chev-d') + '</button>'
     );
   }
 
@@ -204,7 +213,7 @@
   }
 
   /* ---------- the tabs under the player (run 7): Notes, Lectures, Cards, Practice, Test ---------- */
-  const TABS = [['notes', 'Notes'], ['lectures', 'Lectures'], ['cards', 'Cards'], ['practice', 'Practice'], ['test', 'Test']];
+  const TABS = [['notes', 'Notes'], ['lectures', 'Videos'], ['cards', 'Cards'], ['practice', 'Practice'], ['test', 'Test']];
   const tabOf = {}; // chapter id -> the tab she last used there (kept while the app runs)
   const tabsHtml = (cur) =>
     '<div class="lw-tabs" role="tablist" aria-label="Chapter sections" data-testid="lw-tabs">' + TABS.map((t) =>
@@ -598,18 +607,20 @@
   };
   // A topic chip: show that topic's notes; if the video has a timestamp named after it, jump there. The chips
   // stay in place (only which one is on changes), so the row keeps its scroll position and the tapped chip its focus.
+  ui.actions['lw-topics'] = () => {
+    const at = here();
+    if (!at) return;
+    const v = find(at.ch, at.vid);
+    ui.sheet.open({ title: 'Topics', html: topicRows(at.ch, v) });
+  };
   ui.actions['lw-topic'] = (el) => {
     const at = here();
     if (!at) return;
     picked[at.ch] = el.dataset.no;
     const v = find(at.ch, at.vid);
     const root = u.$('#main');
-    u.$$('#lw-chips-box .chip', root).forEach((c) => {
-      const on = c.dataset.no === el.dataset.no;
-      c.classList.toggle('is-on', on);
-      c.setAttribute('aria-pressed', String(on));
-    });
-    remember(root, 'lw-chips-box', chipsHtml(at.ch, v)); // the same selection, so the next refresh leaves the row alone
+    if (ui.sheet.isOpen()) ui.sheet.close();
+    put(root, 'lw-chips-box', chipsHtml(at.ch, v));
     put(root, 'lw-sum', summaryHtml(at.ch));
     put(root, 'lw-fx', formulasHtml(at.ch));
     if (el.dataset.t !== undefined && P && P.ready && P.player) {

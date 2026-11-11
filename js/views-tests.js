@@ -79,7 +79,7 @@
     const a = TC && TC.active();
     return (
       (a ? S.tcUI.activeCard(a) : '') + S.tcUI.starterHtml() +
-      '<button class="btn tonal block rip" data-act="go" data-to="#/practice" data-testid="tests-practice">' + u.icon('target') + 'Practice without a timer</button>'
+      '<button class="btn outline block rip" data-act="go" data-to="#/practice" data-testid="tests-practice">' + u.icon('target') + 'Practice without a timer'+ '</button>'
     );
   }
 
@@ -105,7 +105,7 @@
       const recent = list.slice().reverse();
       root.innerHTML =
         '<div class="page"><header class="page-h"><div><h1 class="h1">Tests</h1><p class="muted">' + items().length + ' logged · ' + u.plural(E.dueCounts().overdue + E.dueCounts().today, 'revision') + ' due</p></div>' +
-        '<div class="row gap"><button class="btn tonal sm rip" data-act="go" data-to="#/errors">' + u.icon('notebook') + 'Errors</button></div></header>' +
+        '</header>' +
         startCard() +
         (S.tcUI.attemptsHtml ? S.tcUI.attemptsHtml() : '') +
         '<details class="card stack tcb-log"' + (view.logOpen ? ' open' : '') + ' data-testid="tests-log"><summary class="h3">Log a score from a book or outside test</summary>' +
