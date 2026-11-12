@@ -84,9 +84,10 @@
       '<header class="rv-head"><span class="ric rv-ic" data-s="' + c.subj + '">' + u.icon(ICON[c.subj]) + '</span><div><p class="lbl">' + NAMES[c.subj] + ' · Class ' + c.std + (c.tb ? ' · Chapter ' + c.tb : '') + '</p><h1 class="h1">' + u.esc(c.name) + '</h1>' +
       '<p class="small muted">' + (topics.length ? topics.length + ' topics · ' : '') + vault.length + ' formulas · about ' + readMin(topics, vault.length) + ' min to read</p></div></header>' +
       (loading && !topics.some((t) => t.s) ? '<div class="skel" style="height:8rem"></div>' : '') +
+      '<div class="rv-body"><aside class="rv-rail">' +
       (nut ? '<section class="rv-nut"><h2 class="h3">In a nutshell</h2><ul>' + nut + '</ul></section>' : '') +
-      topics.map((t, i) => topicHtml(chId, t, i, cd)).join('') +
-      (vault.length
+      '</aside><div class="rv-main">' + topics.map((t, i) => topicHtml(chId, t, i, cd)).join('') + '</div>' +
+      '<div class="rv-rail2">' + (vault.length
         ? '<section class="card rv-all"><div class="row-between"><h2 class="h3">All formulas of this chapter</h2><span class="small muted">' + vault.length + '</span></div><ul class="rv-flist">' +
           vault.map((f) => '<li><span class="rv-fn">' + u.esc(f.name) + '</span><span class="rv-ff">' + u.esc(f.f) + '</span>' + (f.note ? '<small>' + u.esc(f.note) + '</small>' : '') + '</li>').join('') + '</ul>' +
           '<button class="btn tonal block rip" data-act="go" data-to="#/formulas?ch=' + chId + '">' + u.icon('sigma') + 'Open in the Formula vault</button></section>'
@@ -94,7 +95,7 @@
       '<section class="card stack rv-next"><h2 class="h3">Now check yourself</h2>' +
       (nq ? '<button class="btn primary block rip" data-act="go" data-to="#/practice?ch=' + chId + '">' + u.icon('target') + 'Practise this chapter (' + nq + ')</button>' : '') +
       '<div class="row gap"><button class="btn tonal grow rip" data-act="go" data-to="#/watch/' + chId + '">' + u.icon('play') + 'Watch</button>' +
-      '<button class="btn tonal grow rip" data-act="go" data-to="#/flashcards">' + u.icon('cards') + 'Cards</button></div></section></div>'
+      '<button class="btn tonal grow rip" data-act="go" data-to="#/flashcards">' + u.icon('cards') + 'Cards</button></div></section></div></div></div>'
     );
   }
 

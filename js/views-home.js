@@ -111,7 +111,7 @@
     const d = E.dueCounts();
     const cards = d.overdue + d.today ? row('#/flashcards', '', 'cards', u.plural(d.overdue + d.today, 'flashcard') + ' due', 'Revision', 'today-cards') : '';
     const rows = vid + rev + pr + cards;
-    return '<section aria-label="Today" data-testid="today-card" class="today"><p class="lbl">Today</p><ul class="list">' + rows + '</ul></section>';
+    return '<section aria-label="Today" data-testid="today-card" class="today"><h2 class="h3 sec-t">Today</h2><ul class="list">' + rows + '</ul></section>';
   }
 
   function todayCard(p, tp) {
@@ -227,7 +227,8 @@
       root.innerHTML =
         '<div class="page home">' + S.app.updateBannerHtml() +
         '<header class="greet"><p class="lbl">' + u.esc(u.dateLong(t)) + ' · ' + dayLine + '</p><h1 class="h1">' + u.greeting() + ', ' + u.esc(p.name) + '</h1></header>' +
-        statRow(tp) + countdowns(p) + continueCard() + todayPlanCard() +
+        statRow(tp) + '<div class="home-grid"><div class="home-main">' + countdowns(p) + continueCard() + todayPlanCard() + '</div>' +
+        '<aside class="home-rail" aria-label="This week">' + weekCard() + recs() + mockCard() + habits(p) + '</aside></div>' +
         '</div>';
       u.$$('img[data-thumb]', root).forEach((img) => img.addEventListener('error', () => img.remove()));
     },

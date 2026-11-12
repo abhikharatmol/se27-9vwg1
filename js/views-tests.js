@@ -104,7 +104,7 @@
       }
       const recent = list.slice().reverse();
       root.innerHTML =
-        '<div class="page"><header class="page-h"><div><h1 class="h1">Tests</h1><p class="muted">' + items().length + ' logged · ' + u.plural(E.dueCounts().overdue + E.dueCounts().today, 'revision') + ' due</p></div>' +
+        '<div class="page tests-page"><header class="page-h"><div><h1 class="h1">Mock tests</h1><p class="muted">' + items().length + ' logged · ' + u.plural(E.dueCounts().overdue + E.dueCounts().today, 'revision') + ' due</p></div>' +
         '</header>' +
         startCard() +
         (S.tcUI.attemptsHtml ? S.tcUI.attemptsHtml() : '') +

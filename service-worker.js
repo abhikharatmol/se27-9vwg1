@@ -6,7 +6,7 @@
  * when this file changes (`py tools/build.py` stamps VERSION with a hash of every asset) and takes over at
  * once: install calls skipWaiting, and app.js reloads the page when the new worker takes control.
  */
-const VERSION = 'sos-ff2898d9d7';
+const VERSION = 'sos-6ceeac7a8e';
 const CACHE = 'study-os-' + VERSION;
 const ASSETS = [
   './',

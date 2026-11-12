@@ -189,12 +189,15 @@
   function formulasHtml(chId) {
     const t = currentTopic(chId);
     const list = (t && t.f) || [];
+    let n = 0;
     return (
       '<section class="card stack" data-testid="lw-formulas"><h2 class="h3">Formulas</h2>' +
       (t && t.h && !t.s
         ? '<p class="small muted" data-testid="lw-fx-waiting">' + (L.notesState(chId) === 'failed' ? 'Not loaded.' : 'Loading notes…') + '</p>'
         : list.length
         ? '<ul class="lw-fx-list">' + list.map((f) => '<li><span class="fx" role="math" aria-label="' + u.esc(F.plain(f.x)) + '">' + F.render(f.x) + '</span>' + (f.n ? '<small>' + F.render(f.n) + '</small>' : '') + (f.r ? '<small class="tiny muted">' + u.esc(f.r) + '</small>' : '') + '</li>').join('') + '</ul>'
+        : (n = (S.FORMULAS || []).filter((f) => f.ch === chId).length)
+        ? '<p class="small muted" data-testid="lw-formulas-empty">No formula is tied to this topic. The chapter has ' + n + ' formulas.</p><button class="btn tonal sm rip" data-act="go" data-to="#/revise/' + u.esc(chId) + '">' + u.icon('book') + 'All formulas of this chapter</button>'
         : '<p class="small muted" data-testid="lw-formulas-empty">Formulas coming</p>') + '</section>'
     );
   }

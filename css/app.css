@@ -1441,3 +1441,98 @@ a.btn { text-decoration: none; }
 .btn.lw-sm { min-height: 2.75rem; }
 .btn.lw-big { min-height: 3.5rem; }
 .tc-acts .chip, .sol-link { min-height: 2.75rem; }
+
+/* --- 8w. desktop canvas: a wider page, two columns, no scroll box inside a scrolling page --- */
+.tcb-list { max-height: none; overflow: visible; }
+.home-grid, .home-main { display: contents; }
+.home-rail { display: none; }
+
+@media (min-width: 1100px) {
+  .page:not(.tc-exam):not(.focus):not(.om):not(.tc-result) { max-width: 80rem; }
+  .appbar { min-height: 3.5rem; }
+  .ptabs { justify-content: flex-start; gap: .25rem; padding-left: var(--s4); }
+  .ptab { flex: 0 0 auto; min-width: 7rem; padding: 0 1.25rem; }
+
+  /* Home: the day on the left, the week and the extras on the right */
+  .home-grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: var(--s4); align-items: start; }
+  .home-main, .home-rail { display: flex; flex-direction: column; gap: var(--s4); min-width: 0; }
+
+  /* Study: chapter rows in two columns */
+  .cr-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s3); align-items: start; }
+  .subjects .sj-grid, .page.subjects > .sj-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  /* Me: cards flow in two columns */
+  .me-page { display: block; columns: 2; column-gap: var(--s4); }
+  .me-page > * { break-inside: avoid; margin: 0 0 var(--s4); }
+  .me-page > .ptabs { column-span: all; }
+
+  /* Plan: calendar on the left, the week on the right; the day blocks below in two columns */
+  .pl-grid { display: grid; grid-template-columns: minmax(0, 24rem) minmax(0, 1fr); gap: var(--s4); align-items: start; }
+  .pl-left, .pl-right { display: flex; flex-direction: column; gap: var(--s3); min-width: 0; }
+  .pl-left { position: sticky; top: var(--s3); }
+  .extras { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4); align-items: start; }
+  .extras > h2 { grid-column: 1 / -1; }
+
+  /* Practice picker and Mock tests: set-up on the left, the rest on the right */
+  .pr-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: var(--s4); align-items: start; }
+  .pr-col { display: flex; flex-direction: column; gap: var(--s4); min-width: 0; }
+  .tests-page { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4); align-items: start; }
+  .tests-page > .ptabs, .tests-page > .page-h, .tests-page > .tcb { grid-column: 1 / -1; }
+  .tests-page .tcb-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tcb-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px var(--s3); }
+
+  /* Watch: the player stays on the left, the notes scroll on the right */
+  .lv-page.lw-page { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(24rem, 1fr); grid-template-rows: auto auto 1fr; column-gap: var(--s5); row-gap: var(--s2); align-items: start; }
+  .lv-page.lw-page > .lw-stick { grid-column: 1; grid-row: 1 / span 3; position: sticky; top: calc(var(--s3) + var(--safe-t)); margin: 0; padding: 0; z-index: 2; }
+  .lv-page.lw-page > .lw-stick.is-card { position: static; }
+  .lv-page.lw-page > .lw-info { grid-column: 2; grid-row: 1; order: 0; }
+  .lv-page.lw-page > .lw-tabs { grid-column: 2; grid-row: 2; order: 0; margin: 0; }
+  .lv-page.lw-page > .lw-panel { grid-column: 2; grid-row: 3; order: 0; }
+}
+
+/* a player never takes more than about three quarters of the screen height */
+#lw-box { max-width: calc((100dvh - 12rem) * 16 / 9); margin-inline: auto; width: 100%; }
+@media (min-width: 1100px) { #lw-box { max-width: none; } }
+@media (min-width: 1100px) { .pr-side { position: sticky; top: var(--s3); } }
+.rv-body, .rv-main, .rv-rail, .rv-rail2 { display: flex; flex-direction: column; gap: var(--s4); min-width: 0; }
+.rv-rail:empty { display: none; }
+@media (min-width: 1100px) {
+  .rv-body { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); grid-template-rows: auto 1fr; align-items: start; }
+  .rv-main { grid-column: 1; grid-row: 1 / span 2; }
+  .rv-rail { grid-column: 2; grid-row: 1; }
+  .rv-rail2 { grid-column: 2; grid-row: 2; }
+  .rv-flist { column-count: 1; }
+}
+@media (min-width: 1100px) {
+  .appbar:not(.is-pushed) { min-height: 0; height: 0; padding-top: .75rem; padding-bottom: 0; align-items: flex-start; box-sizing: content-box; overflow: visible; }
+  main { padding-top: .75rem; }
+}
+@media (min-width: 1100px) { .ptabs { top: 0; } }
+
+/* --- 8x. critic round 1: header rhythm, sticky Start, one-row filters, calmer tags and outlines --- */
+.sj-extra { display: none; }
+@media (min-width: 1100px) { .sj-extra { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4); align-items: start; } }
+.sec-t { margin: var(--s2) 0 0; font-size: 1rem; font-weight: 700; color: var(--text); }
+.today .sec-t { padding: 0 .25rem var(--s2); }
+.me-h { margin-bottom: var(--s1); }
+.cd.is-window .cd-n { font-size: 1rem; white-space: normal; line-height: 1.3; }
+/* the filters are one row you can swipe, not three rows of chips */
+.pr-scope, .tcb .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.pr-scope::-webkit-scrollbar, .tcb .chips::-webkit-scrollbar { display: none; }
+.pr-scope .chip, .tcb .chips .chip { flex: none; }
+/* Start stays in view while the long chapter list scrolls */
+.pr-startbtn, .tcb [data-testid="tcb-start"] { position: sticky; bottom: calc(5.25rem + env(safe-area-inset-bottom, 0px)); z-index: 5; box-shadow: 0 6px 18px rgba(28, 20, 60, .22); }
+@media (min-width: 900px) { .pr-startbtn, .tcb [data-testid="tcb-start"] { bottom: 1rem; } }
+.pr-startbtn:disabled, .tcb [data-testid="tcb-start"]:disabled { box-shadow: none; }
+/* CET tier tags: one calm tone instead of red against the subject colour */
+.cr-tier, .cr-tier.t-A, .cr-tier.t-B, .cr-tier.t-C { background: var(--st); color: var(--text-2); border-radius: var(--r-tag); font-weight: 600; }
+.cr-tier.t-A { color: var(--on-sel); background: var(--sel); }
+/* outlines belong to the tonal system */
+.chip, .seg { --b-outline: var(--outline-v, rgba(120, 112, 150, .45)); }
+.chip { border-color: var(--outline-v, rgba(120, 112, 150, .45)); }
+@media (max-width: 1099.98px) {
+  .pr-grid, .pr-col { display: contents; }
+  .pr-startcard { position: sticky; bottom: calc(5.25rem + env(safe-area-inset-bottom, 0px)); z-index: 5; box-shadow: 0 6px 18px rgba(28, 20, 60, .22); background: var(--surface-solid); }
+}
+@media (min-width: 900px) and (max-width: 1099.98px) { .pr-startcard { bottom: 1rem; } }
+.pr-startbtn { position: static; box-shadow: none; }

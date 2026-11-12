@@ -7,16 +7,16 @@
   const E = S.engine;
 
   // Five tabs: Home, Study, Practice, Plan, Me. Every route belongs to exactly one tab, so the highlight is predictable.
-  // `tabs` are the pages shown as a text-tab strip at the top of that group (4 at most, so they never scroll off screen);
+  // `tabs` are the pages shown as a text-tab strip at the top of that group (5 short names at most, so they never scroll off screen);
   // `pages` are what the laptop drawer lists under the active group.
   const GROUPS = [
     { id: 'home', label: 'Home', icon: 'home', hash: '#/home', tabs: [], pages: [] },
     { id: 'study', label: 'Study', icon: 'book', hash: '#/subjects',
       tabs: [['subjects', 'Subjects'], ['revise', 'Revise'], ['formulas', 'Formulas'], ['flashcards', 'Cards']],
       pages: [['subjects', 'Subjects', 'book'], ['revise', 'Quick revise', 'note'], ['formulas', 'Formula vault', 'sigma'], ['flashcards', 'Flashcards', 'cards']] },
-    { id: 'practice', label: 'Practice', icon: 'clipboard', hash: '#/tests',
-      tabs: [['tests', 'Tests'], ['practice', 'Practice'], ['flags', 'Saved'], ['errors', 'Mistakes']],
-      pages: [['tests', 'Mock tests', 'clipboard'], ['practice', 'Practice', 'target'], ['flags', 'Saved questions', 'star'], ['errors', 'My mistakes', 'notebook'], ['revision', 'Due today', 'refresh'], ['pyq', 'Past papers', 'note']] },
+    { id: 'practice', label: 'Exams', icon: 'clipboard', hash: '#/tests',
+      tabs: [['tests', 'Tests'], ['practice', 'Practice'], ['pyq', 'Papers'], ['flags', 'Saved'], ['errors', 'Mistakes']],
+      pages: [['tests', 'Mock tests', 'clipboard'], ['practice', 'Practice by topic', 'target'], ['pyq', 'Past papers', 'note'], ['flags', 'Saved questions', 'star'], ['errors', 'My mistakes', 'notebook'], ['revision', 'Due today', 'refresh']] },
     { id: 'plan', label: 'Plan', icon: 'calendar', hash: '#/planner',
       tabs: [['planner', 'Planner'], ['plan', 'Exam plan'], ['focus', 'Focus']],
       pages: [['planner', 'Planner', 'calendar'], ['plan', 'Exam plan', 'target'], ['focus', 'Focus timer', 'timer']] },

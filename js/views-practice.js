@@ -71,20 +71,20 @@
       : scope === 'done' ? '<p class="small muted">' + (P.doneChapters().length ? 'Every chapter you marked Done that has questions.' : 'None of your chapters is marked Done yet. Mark one in Study.') + '</p>'
       : '<div><span class="field-l">Class</span>' + stdSeg + '</div>';
     return (
-      '<div class="page"><header class="page-h"><div><h1 class="h1">Practice</h1><p class="muted">No timer. One question at a time, with the full answer straight away.</p></div></header>' + resume +
-      '<section class="card stack"><h2 class="h3">What do you want to practise?</h2>' +
+      '<div class="page"><header class="page-h"><div><h1 class="h1">Practice by topic</h1><p class="muted">No timer. One question at a time, with the full answer straight away.</p></div></header>' + resume +
+      '<div class="pr-grid"><div class="pr-col"><section class="card stack"><h2 class="h3">What do you want to practise?</h2>' +
       '<div class="chips pr-scope" role="group" aria-label="Practise by">' + [['chapter', 'Chapters'], ['subject', 'Subject'], ['cat', 'CET wise'], ['all', 'Everything'], ['done', 'My done chapters']].map((x) =>
         '<button type="button" class="chip rip" aria-pressed="' + (scope === x[0]) + '" data-act="pr-scope" data-v="' + x[0] + '">' + x[1] + '</button>').join('') + '</div>' +
-      scopeBody + '</section>' +
+      scopeBody + '</section></div><div class="pr-col pr-side">' +
       '<section class="card stack"><h2 class="h3">Narrow it down</h2>' +
       '<div><span class="field-l">Difficulty</span>' + ui.seg('pr-diff', [{ v: 'all', t: 'All' }, { v: '1', t: 'Easy' }, { v: '2', t: 'Medium' }, { v: '3', t: 'Hard' }], form.diff) + '</div>' +
       '<div><span class="field-l">Question type</span>' + ui.seg('pr-type', [{ v: 'mcq', t: 'MCQ' }, { v: 'num', t: 'Numerical' }, { v: 'both', t: 'Both' }], form.type) + '</div>' +
       '<div><span class="field-l">Show</span>' + ui.seg('pr-only', [{ v: 'all', t: 'All' }, { v: 'new', t: 'New only' }, { v: 'missed', t: 'Missed before' }], form.only) + '</div>' +
       '<div><span class="field-l">How many</span>' + ui.seg('pr-len', [{ v: '10', t: '10' }, { v: '20', t: '20' }, { v: '30', t: '30' }, { v: '50', t: '50' }, { v: '0', t: 'All' }], form.len) + '</div></section>' +
-      '<section class="card stack"><p class="small" data-testid="pr-counts">' + (c.total ? '<b>' + c.total + '</b> questions in ' + u.plural(chs.length, 'chapter') + ': ' + c.fresh + ' new · ' + c.missed + ' missed before · ' + (c.seen - c.missed) + ' answered right before' :
+      '<section class="card stack pr-startcard"><p class="small" data-testid="pr-counts">' + (c.total ? '<b>' + c.total + '</b> questions in ' + u.plural(chs.length, 'chapter') + ': ' + c.fresh + ' new · ' + c.missed + ' missed before · ' + (c.seen - c.missed) + ' answered right before' :
         scope === 'chapter' && !form.sel.size ? 'Pick at least one chapter above.' : 'No questions match these choices. Try other filters.') + '</p>' +
       '<button class="btn primary block rip" data-act="pr-start"' + (c.total ? '' : ' disabled') + ' data-testid="pr-start">' + u.icon('play') + 'Start practice' + (c.total ? ' (' + (Number(form.len) ? Math.min(Number(form.len), c.total) : c.total) + ')' : '') + '</button></section>' +
-      lastSessions() + '</div>'
+      lastSessions() + '</div></div></div>'
     );
   }
 

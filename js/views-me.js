@@ -48,9 +48,9 @@
       const openEx = u.$$('.ex-edit[open]', root).map((d) => d.id);
       const ex = examsHtml();
       root.innerHTML =
-        '<div class="page">' + app.updateBannerHtml() +
+        '<div class="page me-page">' + app.updateBannerHtml() +
         (!store.status.persistent ? '<div class="banner warn" role="alert">Your progress cannot be saved in this browser mode. Open the app in normal (not private) mode.</div>' : '') +
-        '<section class="card profile"><span class="avatar" aria-hidden="true">' + u.esc((p.name.trim()[0] || 'S').toUpperCase()) + '</span>' +
+        '<header class="page-h me-h"><div><h1 class="h1">Profile</h1><p class="muted">Your details, targets and settings</p></div></header><section class="card profile"><span class="avatar" aria-hidden="true">' + u.esc((p.name.trim()[0] || 'S').toUpperCase()) + '</span>' +
         '<div class="grow"><h1 class="h2">' + u.esc(p.name) + '</h1><p class="muted small">Class 12 · MHT-CET · JEE Main · HSC</p></div>' +
         '<button class="icon-btn rip" aria-label="Change name" data-act="pf-name">' + u.icon('edit') + '</button></section>' +
         S.moreUI.sendTile() +

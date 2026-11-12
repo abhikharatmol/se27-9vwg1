@@ -71,7 +71,8 @@
     return (
       '<div class="page subjects"><header class="page-h"><div><h1 class="h1">Subjects</h1><p class="muted">' + done + ' of ' + all.length + ' chapters done in Class ' + std + '</p></div></header>' +
       '<div class="sj-switch" role="group" aria-label="Class">' + sw + '</div>' +
-      '<div class="sj-grid">' + cards + '</div></div>'
+      '<div class="sj-grid">' + cards + '</div>' +
+      (S.homeBlocks ? '<div class="sj-extra"><div>' + S.homeBlocks.recs() + '</div><div>' + S.homeBlocks.week() + '</div></div>' : '') + '</div>'
     );
   }
 
