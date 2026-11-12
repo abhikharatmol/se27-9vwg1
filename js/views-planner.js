@@ -146,7 +146,7 @@
         CH.ring(doneDays / D.PLAN.length, { size: 56, stroke: 6, center: '<b class="small">' + Math.round((doneDays / D.PLAN.length) * 100) + '%</b>' }) + '</header>' +
         '<div class="legend-s"><span data-s="phy"><i class="dot"></i>Physics</span><span data-s="chem"><i class="dot"></i>Chemistry</span><span data-s="mth"><i class="dot"></i>Maths</span><span data-s="cs"><i class="dot"></i>CS</span></div>' +
         '<div class="pl-grid"><div class="pl-left"><div class="seg" role="tablist" aria-label="Month">' + ms.map((k) => '<button role="tab" class="rip" aria-selected="' + (k === state.month) + '" data-act="pl-month" data-v="' + k + '">' + mName(k) + '</button>').join('') + '</div>' +
-        '<section class="card">' + monthGrid() + '</section></div><div class="pl-right">' +
+        '<section class="card">' + monthGrid() + '</section>' + extras() + '</div><div class="pl-right">' +
         '<div class="weeknav"><button class="icon-btn rip" aria-label="Previous week" data-act="pl-week" data-v="-1"' + (state.week === 0 ? ' disabled' : '') + '>' + u.icon('chev-l') + '</button>' +
         '<div class="grow center wk"><b>Week ' + (state.week + 1) + '</b><small class="muted">' + u.esc(u.dateShort(days[0].date)) + ' to ' + u.esc(u.dateShort(wEnd)) + '</small></div>' +
         '<button class="btn tonal sm" data-act="pl-today">Today</button>' +
@@ -155,7 +155,6 @@
         (D.UNPLANNED.length
           ? '<p class="muted small note-line">Not in the planner: ' + D.UNPLANNED.map((id) => u.esc(D.CH[id].name)).join(', ') + '. Study next still suggests them.</p>'
           : '') +
-        extras() +
         '</div>';
     },
   };

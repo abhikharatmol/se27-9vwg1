@@ -251,7 +251,7 @@
   // redraws only the ones whose HTML changed since we last wrote them.
   const regions = (chId, v) => ({
     'lw-ctl-box': controlsHtml(chId, v), 'lw-meta': metaHtml(v), 'lw-prog': progressHtml(v), 'lw-btns': buttonsHtml(chId, v),
-    'lw-chips-box': chipsHtml(chId, v), 'lw-sum': summaryHtml(chId), 'lw-fx': formulasHtml(chId), 'lw-list': listHtml(chId, v), 'lw-doubt': X.doubtHtml(chId),
+    'lw-chips-box': chipsHtml(chId, v), 'lw-sum': summaryHtml(chId), 'lw-fx': formulasHtml(chId), 'lw-list': listHtml(chId, v), 'lw-dmeta': (metaHtml(v) + progressHtml(v)).replace(/ data-testid="[a-z-]+"/g, '').replace(/ id="[a-z-]+"/g, ''), 'lw-doubt': X.doubtHtml(chId),
     'lw-cards': cardsHtml(chId), 'lw-practice': practiceHtml(chId), 'lw-test': testHtml(chId),
   });
   const written = new WeakMap(); // element -> the HTML we last put in it
@@ -430,7 +430,7 @@
     const tab = tabOf[chId] || 'notes';
     root.innerHTML =
       '<div class="page lv-page lw-page" data-ch="' + u.esc(chId) + '" data-vid="' + u.esc(v.id) + '" data-mode="' + mode + '" data-tab="' + tab + '">' +
-      '<div class="lw-stick' + (mode === 'player' ? '' : ' is-card') + '" id="lw-stick" data-testid="lw-stick"><div id="lw-box">' + boxHtml(chId, v) + '</div><div id="lw-ctl-box">' + R['lw-ctl-box'] + '</div></div>' +
+      '<div class="lw-stick' + (mode === 'player' ? '' : ' is-card') + '" id="lw-stick" data-testid="lw-stick"><div id="lw-box">' + boxHtml(chId, v) + '</div><div id="lw-ctl-box">' + R['lw-ctl-box'] + '</div><div id="lw-dmeta" class="lw-dmeta">' + R['lw-dmeta'] + '</div></div>' +
       '<section class="lw-info" id="lw-info"><div id="lw-meta">' + R['lw-meta'] + '</div><div id="lw-prog">' + R['lw-prog'] + '</div><div id="lw-btns">' + R['lw-btns'] + '</div></section>' +
       tabsHtml(tab) +
       '<div class="lw-panel lw-p-notes"><div id="lw-notes" class="lw-notes"><div id="lw-chips-box">' + R['lw-chips-box'] + '</div><div id="lw-sum">' + R['lw-sum'] + '</div><div id="lw-fx">' + R['lw-fx'] + '</div></div>' +

@@ -1536,3 +1536,24 @@ a.btn { text-decoration: none; }
 }
 @media (min-width: 900px) and (max-width: 1099.98px) { .pr-startcard { bottom: 1rem; } }
 .pr-startbtn { position: static; box-shadow: none; }
+
+/* --- 8y. critic round 1, open items: one header rhythm, tidy chapter rows, Plan columns, Watch left column --- */
+.page-h, .greet { padding-top: var(--s2); }
+.page-h .h1, .greet .h1 { font-size: 1.75rem; line-height: 1.2; }
+.cr-tier { display: block; width: fit-content; margin: .25rem 0 0; }
+.cr-hy { display: block; width: fit-content; margin: .25rem 0 0; }
+@media (max-width: 480px) { .cr-chev { display: none; } }
+/* Plan: the calendar column holds the month and the day blocks; the week sits on the right */
+.pl-grid { display: flex; flex-direction: column; gap: var(--s4); }
+.pl-left, .pl-right { display: contents; }
+.pl-left > .seg { order: 1; } .pl-left > .card { order: 2; } .pl-right > .weeknav { order: 3; } .pl-right > .days { order: 4; } .pl-left > .extras { order: 5; }
+.lw-dmeta { display: none; }
+@media (min-width: 1100px) {
+  .pl-grid { display: grid; grid-template-columns: minmax(0, 24rem) minmax(0, 1fr); gap: var(--s4); align-items: start; }
+  .pl-left, .pl-right { display: flex; flex-direction: column; gap: var(--s3); min-width: 0; }
+  .pl-left > *, .pl-right > * { order: 0; }
+  .pl-left { position: static; }
+  .extras { grid-template-columns: minmax(0, 1fr); }
+  .lw-dmeta { display: flex; flex-direction: column; gap: var(--s1); padding: var(--s3) var(--s1) 0; }
+  #lw-meta, #lw-prog { display: none; }
+}
