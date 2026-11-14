@@ -2,6 +2,8 @@
  *   8085 lab: write a program, press Run, see the registers, flags and a memory window. Pick a board task: "Check my program" runs it on the
  *   task's test cases (data/cs items with `checks`, the same ones the tests run on the model program) and says which cases pass.
  *   HTML lab: write a page and see it at once in a sandboxed frame (no scripts run in it).
+ *   C++ lab (#/code/cpp): write or load a board program, give it input, press Run. This is the ONE place that uses the network: the code and the
+ *   input go to the free online compiler wandbox.org (g++), and the output comes back. Nothing else is sent. Offline it says so.
  * The CPU is js/sim8085.js. Nothing is saved except what she types into the page (kept in memory while the page is open). */
 (function (S) {
   'use strict';
@@ -29,16 +31,17 @@
     return (t || []).filter((q) => q.checks && q.checks.length);
   };
   const taskOf = (id) => tasks().filter((q) => q.id === id)[0];
-  function ensureTasks() {
-    if (window.CS_C && window.CS_C['cs-12-06']) return;
-    if (st.loading) return;
-    st.loading = true;
+  const loading = {};
+  function loadCh(ch) {
+    if ((window.CS_C && window.CS_C[ch]) || loading[ch]) return;
+    loading[ch] = true;
     const s = document.createElement('script');
-    s.src = 'data/cs-c/cs-12-06.js';
-    s.onload = () => { st.loading = false; S.app.refresh(false); };
-    s.onerror = () => { st.loading = false; s.remove(); };
+    s.src = 'data/cs-c/' + ch + '.js';
+    s.onload = () => { loading[ch] = false; S.app.refresh(false); };
+    s.onerror = () => { loading[ch] = false; s.remove(); };
     document.head.appendChild(s);
   }
+  const ensureTasks = () => loadCh('cs-12-06');
 
   /* ---------- 8085 ---------- */
   function memWindow(cpu, from) {
@@ -101,14 +104,44 @@
     );
   }
 
+  /* ---------- C++ (online) ---------- */
+  const WANDBOX = 'https://wandbox.org/api/compile.json';
+  const cpp = { src: '#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cout << "Enter a number: ";\n    cin >> n;\n    cout << "Square = " << n * n << endl;\n    return 0;\n}\n', cin: '7', pick: '', busy: false, out: null };
+  const cppTasks = () => ((window.CS_C && window.CS_C['cs-12-03']) || []).filter((q) => q.code && q.code.indexOf('#include') >= 0);
+  const clip = (t) => (String(t || '').length > 20000 ? String(t).slice(0, 20000) + '\n... (cut)' : String(t || ''));
+  function cppOut() {
+    const o = cpp.out;
+    if (cpp.busy) return '<section class="card"><p class="muted" data-testid="cd-cpp-busy">Compiling and running...</p></section>';
+    if (!o) return '<p class="muted small">Press Run. The program is compiled by g++ and run with the input you typed.</p>';
+    if (o.fail) return '<div class="banner warn" role="alert" data-testid="cd-cpp-fail">' + u.esc(o.fail) + '</div>';
+    return '<section class="card stack" data-testid="cd-cpp-out"><h2 class="h3">' + (o.compile ? 'It did not compile' : o.status === '0' ? 'Output' : 'The program ended with an error (code ' + u.esc(o.status) + ')') + '</h2>' +
+      (o.compile ? '<pre class="cs-code" data-testid="cd-cpp-err">' + u.esc(clip(o.compile)) + '</pre>' : '<pre class="cs-code" data-testid="cd-cpp-text">' + u.esc(clip(o.out) || '(no output)') + '</pre>') +
+      (o.err ? '<h3 class="sol-h">Error output</h3><pre class="cs-code">' + u.esc(clip(o.err)) + '</pre>' : '') + '</section>';
+  }
+  function cppLab() {
+    loadCh('cs-12-03');
+    const ts = cppTasks();
+    return (
+      '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">C++ lab</h1><p class="muted">Write a C++ program, give it input and run it with a real g++ compiler.</p></div></header>' +
+      '<div class="banner" data-testid="cd-cpp-net"><b>Needs internet.</b> When you press Run, your code and input are sent to wandbox.org, a free online compiler. Nothing else is sent. The rest of the app works offline.</div>' +
+      '<section class="card stack"><h2 class="h3">Board program (optional)</h2><select class="input" id="cd-cpp-pick" data-change="cd-cpp-pick" aria-label="Board program"><option value="">My own program</option>' +
+      ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === cpp.pick ? ' selected' : '') + '>' + u.esc(q.q.replace(/\s+/g, ' ').slice(0, 70)) + '</option>').join('') + '</select>' +
+      '<p class="small muted">Choosing one loads its model program. Edit it, break it, run it.</p></section>' +
+      '<section class="card stack"><label class="field-l" for="cd-cpp">Program</label><textarea id="cd-cpp" class="input cd-src" data-testid="cd-cpp" spellcheck="false" rows="16" autocapitalize="off" autocomplete="off">' + u.esc(cpp.src) + '</textarea>' +
+      '<label class="field-l" for="cd-cin">Input (what the user types, one line per Enter)</label><textarea id="cd-cin" class="input cd-src" data-testid="cd-cin" spellcheck="false" rows="3" autocapitalize="off">' + u.esc(cpp.cin) + '</textarea>' +
+      '<button class="btn primary block rip" data-act="cd-cpp-run" data-testid="cd-cpp-run"' + (cpp.busy ? ' disabled' : '') + '>' + u.icon('play') + 'Run</button></section>' + cppOut() + '</div>'
+    );
+  }
+
   /* ---------- index ---------- */
   function indexHtml() {
     const row = (to, icon, t, s, id) => '<li><button class="lrow rip" data-act="go" data-to="' + to + '" data-testid="' + id + '"><span class="ric" data-s="cs">' + u.icon(icon) + '</span><span class="grow"><b class="rt">' + t + '</b><small class="rs">' + s + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>';
     return (
-      '<div class="page"><header class="page-h"><div><h1 class="h1">Code</h1><p class="muted">Learn by doing. Every lab runs in your browser and works without internet.</p></div></header>' +
+      '<div class="page"><header class="page-h"><div><h1 class="h1">Code</h1><p class="muted">Learn by doing. The 8085 and HTML labs run in your browser and work without internet. The C++ lab needs internet.</p></div></header>' +
       '<ul class="list">' + row('#/code/8085', 'code', '8085 assembly lab', 'Write programs and watch the registers, flags and memory. Board tasks with automatic checks.', 'cd-8085') +
-      row('#/code/html', 'note', 'HTML lab', 'Write a page and see it at once. For the HTML questions of the board paper.', 'cd-html-link') + '</ul>' +
-      '<section class="card"><h2 class="h3">C++</h2><p class="small muted">The C++ programs of the board syllabus (classes, constructors, inheritance, files) need a full compiler, which is too big to put in the app. The model programs are in the HSC board questions, chapter C++, and you can run them in any online C++ compiler.</p>' +
+      row('#/code/html', 'note', 'HTML lab', 'Write a page and see it at once. For the HTML questions of the board paper.', 'cd-html-link') +
+      row('#/code/cpp', 'code', 'C++ lab (needs internet)', 'Write a C++ program with classes, files and more, and run it with a real compiler online.', 'cd-cpp-link') + '</ul>' +
+      '<section class="card"><h2 class="h3">C++ board questions</h2><p class="small muted">The questions and model answers of the C++ chapter.</p>' +
       '<button class="btn tonal block rip" data-act="go" data-to="#/csboard/cs-12-03">' + u.icon('clipboard') + 'C++ board questions</button></section></div>'
     );
   }
@@ -117,13 +150,13 @@
     title: 'Code',
     tab: 'study',
     isPushed: (ctx) => !!ctx.params[0],
-    pageTitle: (ctx) => (ctx.params[0] === 'html' ? 'HTML lab' : ctx.params[0] === '8085' ? '8085 lab' : 'Code'),
+    pageTitle: (ctx) => (ctx.params[0] === 'cpp' ? 'C++ lab' : ctx.params[0] === 'html' ? 'HTML lab' : ctx.params[0] === '8085' ? '8085 lab' : 'Code'),
     backHash: () => '#/code',
     render(root, ctx) {
       const w = ctx.params[0];
       const keep = document.activeElement;
-      if (keep && /^cd-(src|mem|html|from)$/.test(keep.id) && !ctx.first) return; // keep the cursor while she types
-      root.innerHTML = w === '8085' ? html8085() : w === 'html' ? htmlLab() : indexHtml();
+      if (keep && /^cd-(src|mem|html|from|cpp|cin)$/.test(keep.id) && !ctx.first) return; // keep the cursor while she types
+      root.innerHTML = w === '8085' ? html8085() : w === 'html' ? htmlLab() : w === 'cpp' ? cppLab() : indexHtml();
     },
   };
 
@@ -171,7 +204,36 @@
     st.check = { ok: true, rows: rows, pass: rows.filter((x) => x.ok).length };
     S.app.refresh(true);
   };
+  const grabCpp = () => {
+    const a = document.getElementById('cd-cpp'); if (a) cpp.src = a.value;
+    const b = document.getElementById('cd-cin'); if (b) cpp.cin = b.value;
+  };
+  ui.changes['cd-cpp-pick'] = (el) => {
+    grabCpp();
+    cpp.pick = el.value;
+    const q = cppTasks().filter((x) => x.id === cpp.pick)[0];
+    if (q) { cpp.src = q.code; cpp.cin = ''; cpp.out = null; }
+    S.app.refresh(true);
+  };
+  ui.actions['cd-cpp-run'] = () => {
+    grabCpp();
+    if (cpp.busy) return;
+    if (!cpp.src.trim()) { cpp.out = { fail: 'Write a program first.' }; S.app.refresh(true); return; }
+    if (navigator.onLine === false) { cpp.out = { fail: 'You are offline. The C++ lab needs internet to compile your program. Try again when you are online.' }; S.app.refresh(true); return; }
+    cpp.busy = true;
+    cpp.out = null;
+    S.app.refresh(true);
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), 25000);
+    fetch(WANDBOX, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code: cpp.src, compiler: 'gcc-head', stdin: cpp.cin, options: 'warning' }), signal: ctl.signal })
+      .then((r) => { if (!r.ok) throw new Error('The compiler service answered ' + r.status + '.'); return r.json(); })
+      .then((j) => { cpp.out = { status: String(j.status || '0'), compile: !('program_output' in j) ? String(j.compiler_error || j.compiler_message || 'The compiler gave no output.') : '', out: j.program_output, err: j.program_error }; })
+      .catch((e) => { cpp.out = { fail: e && e.name === 'AbortError' ? 'The compiler service took too long. Try again.' : 'Could not reach the online compiler (' + (e && e.message ? e.message : 'network error') + '). Check your connection and try again.' }; })
+      .then(() => { clearTimeout(timer); cpp.busy = false; S.app.refresh(true); });
+  };
   document.addEventListener('input', (e) => {
+    if (e.target && e.target.id === 'cd-cpp') { cpp.src = e.target.value; return; }
+    if (e.target && e.target.id === 'cd-cin') { cpp.cin = e.target.value; return; }
     if (e.target && e.target.id === 'cd-html') {
       st.html = e.target.value;
       const f = document.querySelector('[data-testid="cd-frame"]');
