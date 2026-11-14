@@ -102,7 +102,8 @@
       const t = String(a).toUpperCase();
       let v = num(a, it.line, errors);
       if (v === null && labels[t] !== undefined) v = labels[t];
-      if (v === null) { errors.push({ line: it.line, msg: it.name + ': I cannot read "' + a + '" as a number or a label. Hex numbers end with H and start with a digit, like 0FFH.' }); return null; }
+      if (v === null && /^[0-9A-F]+H$/.test(t)) v = parseInt(t.slice(0, -1), 16); // board style C101H, FFH (a label of that name wins)
+      if (v === null) { errors.push({ line: it.line, msg: it.name + ': I cannot read "' + a + '" as a number or a label. Hex numbers end with H, like 25FFH.' }); return null; }
       if (v < 0 || v > (bits === 8 ? 0xFF : 0xFFFF)) { errors.push({ line: it.line, msg: it.name + ': ' + a + ' does not fit in ' + bits + ' bits.' }); return null; }
       return v;
     };

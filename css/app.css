@@ -1592,3 +1592,8 @@ a.btn { text-decoration: none; }
 .warn-t { color: var(--warn, #b4570a); }
 
 @media (max-width: 380px) { .greet .h1 { font-size: 1.375rem; } }
+
+.cs-papers-card { display: flex; flex-direction: column; gap: var(--s2); }
+.cs-part { margin-top: var(--s4); }
+.cs-part .h3 { margin-bottom: var(--s2); }
+.cs-paper .card b { font-size: 1.25rem; }

@@ -77,7 +77,7 @@
     const ts = tasks();
     const t = taskOf(st.task);
     return (
-      '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">8085 lab</h1><p class="muted">Write an 8085 program, run it, and look inside the microprocessor. Hex numbers end with H and start with a digit, like 0FFH.</p></div></header>' +
+      '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">8085 lab</h1><p class="muted">Write an 8085 program, run it, and look inside the microprocessor. Hex numbers end with H, like 25FFH or 0FFH.</p></div></header>' +
       '<section class="card stack"><h2 class="h3">Board task (optional)</h2><select class="input" id="cd-task" data-change="cd-task" aria-label="Board task"><option value="">Free program (no task)</option>' +
       ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === st.task ? ' selected' : '') + '>' + u.esc(q.q.slice(0, 70)) + '</option>').join('') + '</select>' +
       (t ? '<p class="cd-task" data-testid="cd-task-q">' + u.esc(t.q) + '</p><p class="small muted">Your program is tested with ' + t.checks.length + ' sets of numbers in memory. Put your answer where the task says (see the marking points).</p>' +
