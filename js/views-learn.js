@@ -162,7 +162,7 @@
       body =
         (cd.src
           ? '<p class="small">Read in your book: <b>' + u.esc(c.pages ? 'pp.' + c.pages[0] + '–' + c.pages[1] + (c.book ? ' (' + c.book + ')' : '') : 'your textbook') + '</b></p>' +
-            '<p class="small" data-testid="lv-src"><span class="chip-s warn" data-draft="1">Draft topics, check with your book</span> Titles only. Source: ' + u.esc(cd.src) + '. Your book’s contents page is the full list.</p>'
+            '<p class="small" data-testid="lv-src"><span class="chip-s ok">Topics from the printed syllabus</span> Titles only. Source: ' + u.esc(cd.src) + '.</p>'
           : '<p class="small">Read in your book: <b>' + u.esc(L.bookRef(chId)) + '</b></p>' +
             '<p class="small"><span class="chip-s warn" data-draft="1">Draft, check with your book</span> Summaries are short and in simple words. Formulas and full explanations are in the book.</p>') +
         '<div class="lv-topics" data-testid="lv-topics">' + cd.topics.map((t) =>

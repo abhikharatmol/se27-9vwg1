@@ -12,11 +12,11 @@
   const GROUPS = [
     { id: 'home', label: 'Home', icon: 'home', hash: '#/home', tabs: [], pages: [] },
     { id: 'study', label: 'Study', icon: 'book', hash: '#/subjects',
-      tabs: [['subjects', 'Subjects'], ['revise', 'Revise'], ['formulas', 'Formulas'], ['flashcards', 'Cards']],
-      pages: [['subjects', 'Subjects', 'book'], ['revise', 'Quick revise', 'note'], ['formulas', 'Formula vault', 'sigma'], ['flashcards', 'Flashcards', 'cards']] },
+      tabs: [['subjects', 'Subjects'], ['revise', 'Revise'], ['formulas', 'Formulas'], ['flashcards', 'Cards'], ['code', 'Code']],
+      pages: [['subjects', 'Subjects', 'book'], ['revise', 'Quick revise', 'note'], ['formulas', 'Formula vault', 'sigma'], ['flashcards', 'Flashcards', 'cards'], ['code', 'Code labs', 'code']] },
     { id: 'practice', label: 'Exams', icon: 'clipboard', hash: '#/tests',
       tabs: [['tests', 'Tests'], ['practice', 'Practice'], ['pyq', 'Papers'], ['flags', 'Saved'], ['errors', 'Mistakes']],
-      pages: [['tests', 'Mock tests', 'clipboard'], ['practice', 'Practice by topic', 'target'], ['pyq', 'Past papers', 'note'], ['flags', 'Saved questions', 'star'], ['errors', 'My mistakes', 'notebook'], ['revision', 'Due today', 'refresh']] },
+      pages: [['tests', 'Mock tests', 'clipboard'], ['practice', 'Practice by topic', 'target'], ['pyq', 'Past papers', 'note'], ['csboard', 'HSC CS board', 'code'], ['flags', 'Saved questions', 'star'], ['errors', 'My mistakes', 'notebook'], ['revision', 'Due today', 'refresh']] },
     { id: 'plan', label: 'Plan', icon: 'calendar', hash: '#/planner',
       tabs: [['planner', 'Planner'], ['plan', 'Exam plan'], ['focus', 'Focus']],
       pages: [['planner', 'Planner', 'calendar'], ['plan', 'Exam plan', 'target'], ['focus', 'Focus timer', 'timer']] },
@@ -26,8 +26,8 @@
   ];
   const TAB_OF = {
     home: 'home',
-    subjects: 'study', learn: 'study', watch: 'study', 'pyq-tracker': 'study', cheatsheet: 'study', formulas: 'study', flashcards: 'study', revise: 'study',
-    tests: 'practice', testcenter: 'practice', exam: 'practice', result: 'practice', practice: 'practice', q: 'practice', omr: 'practice', pyq: 'practice', errors: 'practice', flags: 'practice', revision: 'practice',
+    subjects: 'study', learn: 'study', watch: 'study', 'pyq-tracker': 'study', cheatsheet: 'study', formulas: 'study', flashcards: 'study', revise: 'study', code: 'study',
+    tests: 'practice', testcenter: 'practice', exam: 'practice', result: 'practice', practice: 'practice', q: 'practice', omr: 'practice', pyq: 'practice', errors: 'practice', flags: 'practice', revision: 'practice', csboard: 'practice',
     planner: 'plan', plan: 'plan', focus: 'plan',
     me: 'me', analytics: 'me', badges: 'me', saved: 'me',
   };

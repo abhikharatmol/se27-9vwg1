@@ -17,9 +17,8 @@
     cs: { id: 'cs', name: 'Computer Science', short: 'CS', legacy: 'cs' },
   };
   D.SUBJECT_ORDER = ['phy', 'chem', 'mth', 'cs'];
-  // v1: Computer Science is "Coming soon". Its topic lists are unverified drafts, so Subjects shows no chapter list for it and
-  // Continue, Today and Practice never pick a CS item. The CS data stays in the repo untouched.
-  D.COMING_SOON = { cs: true };
+  // Computer Science (HSC, Nikita guide D9 syllabus) is live since 2026-11-14. Set a subject to true here to show it as "Coming soon" again.
+  D.COMING_SOON = { cs: false };
 
   D.CHAPTERS = [];
   D.CH = {};

@@ -137,7 +137,7 @@
     return (
       '<div class="page subj-detail" data-s="' + s + '"><section class="sj-band"><p class="sj-k">Class ' + std + '</p><h1 class="sj-t">' + NAMES[s] + '</h1>' +
       '<p class="sj-s">' + done + ' of ' + list.length + ' chapters done</p><span class="sj-bar on-band" aria-hidden="true"><i style="width:' + Math.round((done / list.length) * 100) + '%"></i></span>' + sw + '</section>' +
-      '<ul class="cr-list">' + rows + '</ul>' +
+      (s === 'cs' ? '<button class="btn tonal block rip" data-act="go" data-to="#/csboard" data-testid="cs-board-link">' + u.icon('clipboard') + 'HSC board questions with model answers</button>' : '') + '<ul class="cr-list">' + rows + '</ul>' +
       '<p class="muted small note-line">Tap a chapter to watch its lectures. Weightage is a planning estimate from typical CET and JEE papers.</p></div>'
     );
   }

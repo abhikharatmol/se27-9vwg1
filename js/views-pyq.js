@@ -123,7 +123,9 @@
         '<div class="page pq"><header class="page-h"><div><h1 class="h1">Past papers</h1><p class="muted">Solve a real paper on paper, mark your answers on a timed sheet, then score it with the key.</p></div></header>' +
         runningHtml() + startHtml() + pastHtml() +
         '<section class="card list-card"><ul class="recs"><li><button class="rec rip" data-act="go" data-to="#/pyq-tracker" data-testid="pq-tracker">' + u.icon('target') +
-        '<span><b>Chapter PYQ tracker</b><small>Solved, accuracy and remaining per chapter</small></span>' + u.icon('chev-r', 'chev') + '</button></li></ul></section>' +
+        '<span><b>Chapter PYQ tracker</b><small>Solved, accuracy and remaining per chapter</small></span>' + u.icon('chev-r', 'chev') + '</button></li>' +
+        '<li><button class="rec rip" data-act="go" data-to="#/csboard" data-testid="pq-csboard">' + u.icon('code') +
+        '<span><b>HSC Computer Science board questions</b><small>The board\'s own questions with model answers, by chapter</small></span>' + u.icon('chev-r', 'chev') + '</button></li></ul></section>' +
         libraryHtml() + '</div>';
     },
     tick() {
