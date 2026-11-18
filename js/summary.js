@@ -90,6 +90,16 @@
     if (att.length) att.forEach((l) => lines.push('- ' + l));
     else lines.push('- none yet');
     lines.push('');
+    const csDone = (store.get('cs') || { done: {} }).done || {};
+    const csIds = Object.keys(csDone);
+    if (csIds.length) { // HSC Computer Science board practice: counts only
+      const total = Object.keys(S.CS_INDEX || {}).reduce((n, k) => n + S.CS_INDEX[k].n, 0);
+      const got = csIds.reduce((n, k) => n + (csDone[k].got || 0), 0);
+      const max = csIds.reduce((n, k) => n + (csDone[k].max || 0), 0);
+      lines.push('HSC CS board practice');
+      lines.push('- ' + csIds.length + (total ? ' of ' + total : '') + ' questions done, ' + Math.round(got * 10) / 10 + ' of ' + max + ' marks');
+      lines.push('');
+    }
     lines.push('Weakest chapters');
     if (weak.length) weak.forEach((l) => lines.push('- ' + l));
     else lines.push('- none yet');

@@ -151,7 +151,7 @@
     if (!cd.topics) return '<p class="small muted" data-testid="lw-topics-coming"><b>Topics coming.</b> Use your textbook for this chapter.</p>';
     const i = cur ? cd.topics.indexOf(cur) : 0;
     return (
-      (cd.src ? '<p class="small"><span class="chip-s warn" data-draft="1" data-testid="lw-draft-topics">Draft topics, check with your book</span></p>' : '') +
+      (cd.src ? '<p class="small lw-draft"><span class="chip-s warn" data-draft="1" data-testid="lw-draft-topics">Draft topics, check with your book</span></p>' : '') +
       '<button class="topic-field" data-act="lw-topics" aria-haspopup="dialog" data-testid="lw-topic-field"><span class="topic-fl">Topic ' + (i + 1) + ' of ' + cd.topics.length + '</span><span class="topic-v">' + u.esc(cur ? (cd.lst ? '' : cur.no + ' ') + cur.t : 'Choose a topic') + '</span>' + u.icon('chev-d') + '</button>'
     );
   }

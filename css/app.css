@@ -1597,3 +1597,27 @@ a.btn { text-decoration: none; }
 .cs-part { margin-top: var(--s4); }
 .cs-part .h3 { margin-bottom: var(--s2); }
 .cs-paper .card b { font-size: 1.25rem; }
+
+/* --- 8p. Computer Science polish: one voice with the rest of the app (round 2) --- */
+.lw-draft { margin: .5rem 0 .75rem; }
+.cs-src { font-size: .8125rem; line-height: 1.4; color: var(--text-2); }
+.cs-meta { align-items: baseline; }
+.cs-paper .card b { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; letter-spacing: -.01em; }
+.cs-part .h3 { font-weight: 600; }
+.cd-net { background: var(--st); color: var(--text); border-radius: var(--r-md); font-size: .9375rem; line-height: 1.45; }
+.cd-page select, .cs-index select { appearance: none; -webkit-appearance: none; border-radius: 12px; padding-right: 2.75rem; background: no-repeat right .9rem center / 1.1rem url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2349454f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); }
+.cd-page textarea, .cd-page input { border-radius: 12px; }
+.cd-more { margin-top: var(--s3); }
+@media (min-width: 900px) { .cs-q .btn.block, .cs-q .btn.grow { max-width: 26rem; } .cs-q .row.gap { max-width: 26rem; } }
+
+/* --- 8q. Computer Science polish round 2 (critic: question card, tonal badges, desktop width) --- */
+.cs-qcard { display: flex; flex-direction: column; gap: var(--s3); padding: var(--s4); }
+.cs-qcard .cs-meta { margin: 0; }
+.cs-stem { font-family: var(--font-display); font-weight: 600; font-size: 1.25rem; line-height: 1.45; margin: 0; }
+.cs-q .tc-acts { margin-top: var(--s2); }
+.cs-no { background: var(--sel); color: var(--on-sel); }
+.cs-row { padding-top: .875rem; padding-bottom: .875rem; }
+.cs-qt { font-weight: 500; font-size: 1rem; }
+.cs-papers-card .h3 { font-size: 1.25rem; }
+.cs-papers-card { gap: var(--s3); }
+@media (min-width: 900px) { .cs-paper, .cs-q, .cs-list, .cs-index { max-width: 48rem; } }

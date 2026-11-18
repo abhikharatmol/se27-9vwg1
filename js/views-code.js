@@ -123,7 +123,7 @@
     const ts = cppTasks();
     return (
       '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">C++ lab</h1><p class="muted">Write a C++ program, give it input and run it with a real g++ compiler.</p></div></header>' +
-      '<div class="banner" data-testid="cd-cpp-net"><b>Needs internet.</b> When you press Run, your code and input are sent to wandbox.org, a free online compiler. Nothing else is sent. The rest of the app works offline.</div>' +
+      '<div class="banner cd-net" data-testid="cd-cpp-net"><b>Needs internet.</b> When you press Run, your code and input are sent to wandbox.org, a free online compiler. Nothing else is sent. The rest of the app works offline.</div>' +
       '<section class="card stack"><h2 class="h3">Board program (optional)</h2><select class="input" id="cd-cpp-pick" data-change="cd-cpp-pick" aria-label="Board program"><option value="">My own program</option>' +
       ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === cpp.pick ? ' selected' : '') + '>' + u.esc(q.q.replace(/\s+/g, ' ').slice(0, 70)) + '</option>').join('') + '</select>' +
       '<p class="small muted">Choosing one loads its model program. Edit it, break it, run it.</p></section>' +
@@ -140,9 +140,9 @@
       '<div class="page"><header class="page-h"><div><h1 class="h1">Code</h1><p class="muted">Learn by doing. The 8085 and HTML labs run in your browser and work without internet. The C++ lab needs internet.</p></div></header>' +
       '<ul class="list">' + row('#/code/8085', 'code', '8085 assembly lab', 'Write programs and watch the registers, flags and memory. Board tasks with automatic checks.', 'cd-8085') +
       row('#/code/html', 'note', 'HTML lab', 'Write a page and see it at once. For the HTML questions of the board paper.', 'cd-html-link') +
-      row('#/code/cpp', 'code', 'C++ lab (needs internet)', 'Write a C++ program with classes, files and more, and run it with a real compiler online.', 'cd-cpp-link') + '</ul>' +
-      '<section class="card"><h2 class="h3">C++ board questions</h2><p class="small muted">The questions and model answers of the C++ chapter.</p>' +
-      '<button class="btn tonal block rip" data-act="go" data-to="#/csboard/cs-12-03">' + u.icon('clipboard') + 'C++ board questions</button></section></div>'
+      row('#/code/cpp', 'code', 'C++ lab (needs internet)', 'Write a C++ program with classes, files and more, and run it with a real compiler online.', 'cd-cpp-link')  +
+      row('#/csboard/cs-12-03', 'clipboard', 'C++ board questions', 'The questions and model answers of the C++ chapter.', 'cd-cppq-link')+ '</ul>' +
+      '</div>'
     );
   }
 

@@ -51,7 +51,7 @@
   }
 
   const marksChip = (q) => '<span class="cs-m" data-m="' + q.marks + '">' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '</span>';
-  const srcChips = (q) => (q.src || []).map((x) => '<span class="chip-s">' + u.esc(x) + '</span>').join(' ');
+  const srcChips = (q) => ((q.src || []).length ? '<span class="cs-src">' + (q.src || []).map((x) => u.esc(x)).join(' · ') + '</span>' : '');
 
   /* ---------- index: the nine chapters ---------- */
   function indexHtml() {
@@ -97,7 +97,7 @@
     const n = papers().length;
     if (!n) return '';
     return '<section class="card cs-papers-card"><h2 class="h3">Board papers</h2><p class="muted small">The full papers of March 2022, 2023 and 2024, Paper I and Paper II, exactly as printed. Attempt them like the exam: all the compulsory questions, and the "any two" and "any one" choices.</p>' +
-      '<button class="btn primary block rip" data-act="go" data-to="#/csboard/papers" data-testid="cs-papers">Open the ' + n + ' papers</button></section>';
+      '<button class="btn tonal block rip" data-act="go" data-to="#/csboard/papers" data-testid="cs-papers">Open the ' + n + ' papers</button></section>';
   }
   function papersHtml() {
     const rows = papers().map((p) => {
@@ -180,8 +180,8 @@
     const sv = saved().indexOf(q.id) >= 0;
     return (
       '<div class="page tc-exam cs-q" data-id="' + u.esc(q.id) + '"><p class="small muted">' + (from ? u.esc(from.title) + ' · ' : '') + u.esc(D.CH[ch].name) + ' · question ' + n + ' of ' + all.length + '</p>' +
-      '<p class="cs-meta">' + marksChip(q) + ' ' + srcChips(q) + '</p>' +
-      '<p class="tc-stem cs-stem" data-testid="cs-stem">' + u.esc(q.q).replace(/\n/g, '<br>') + '</p>' +
+      '<section class="card cs-qcard"><p class="cs-meta">' + marksChip(q) + ' ' + srcChips(q) + '</p>' +
+      '<p class="tc-stem cs-stem" data-testid="cs-stem">' + u.esc(q.q).replace(/\n/g, '<br>') + '</p></section>' +
       (q.kind === 'mcq' ? mcqHtml(q, d) : writtenHtml(q, d)) +
       '<div class="tc-acts"><button class="chip rip" data-act="cs-save" data-id="' + u.esc(q.id) + '" aria-pressed="' + sv + '" data-testid="cs-flag">' + u.icon(sv ? 'star-f' : 'star', 's') + (sv ? 'Saved' : 'Save to revisit') + '</button></div>' +
       '<div class="row gap"><button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n - 1) + (pid ? '?p=' + pid : '') + '"' + (n > 1 ? '' : ' disabled') + '>' + u.icon('chev-l') + 'Previous</button>' +
@@ -193,7 +193,7 @@
     title: 'HSC CS',
     tab: 'practice',
     isPushed: (ctx) => !!ctx.params[0],
-    pageTitle: (ctx) => (ctx.params[0] === 'papers' ? 'Board papers' : D.CH[ctx.params[0]] ? D.CH[ctx.params[0]].name : 'HSC Computer Science'),
+    pageTitle: (ctx) => (ctx.params[0] === 'papers' ? 'Board papers' : D.CH[ctx.params[0]] ? (Number(ctx.params[1]) ? 'Question ' + ctx.params[1] : D.CH[ctx.params[0]].name) : 'HSC Computer Science'),
     pageKicker: (ctx) => (D.CH[ctx.params[0]] ? 'HSC COMPUTER SCIENCE · PAPER ' + PAPER[ctx.params[0]] : ''),
     backHash: (cur) => (cur && cur.query && cur.query.p ? '#/csboard/papers/' + cur.query.p : cur && cur.params && cur.params[0] === 'papers' ? (cur.params[1] ? '#/csboard/papers' : '#/csboard') : cur && cur.params && cur.params[1] ? '#/csboard/' + cur.params[0] : '#/csboard'),
     render(root, ctx) {
