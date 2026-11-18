@@ -69,10 +69,14 @@
     }).join('');
     const sw = [11, 12].map((n) => '<button class="sj-pill rip" aria-pressed="' + (std === n) + '" data-act="go" data-to="#/subjects?c=' + n + '" data-testid="std-' + n + '">Class ' + n + '</button>').join('');
     return (
-      '<div class="page subjects"><header class="page-h"><div><h1 class="h1">Subjects</h1><p class="muted">' + done + ' of ' + all.length + ' chapters done in Class ' + std + '</p></div></header>' +
+      '<div class="page subjects"><header class="paper-h"><div class="ph-t"><p class="ph-k">Study</p><h1 class="h1">Subjects</h1><p class="ph-s">Videos, notes and questions for every chapter of Class 11 and 12.</p></div>' +
+      '<div class="ph-f"><div><small>Done in Class ' + std + '</small><b>' + done + '/' + all.length + '</b></div></div></header>' +
       '<div class="sj-switch" role="group" aria-label="Class">' + sw + '</div>' +
       '<div class="sj-grid">' + cards + '</div>' +
-      (S.homeBlocks ? '<div class="sj-extra"><div>' + S.homeBlocks.recs() + '</div><div>' + S.homeBlocks.week() + '</div></div>' : '') + '</div>'
+      '<h2 class="h3 cs-sec">Also in Study</h2><div class="sheet-cols sj-more">' +
+      (S.codeCourse ? S.codeCourse.card('subj-code', true) : '') +
+      (!D.COMING_SOON.cs ? '<section class="card cl-hero is-plain" data-testid="subj-csboard"><div class="grow"><p class="ph-k">HSC Computer Science</p><h2 class="h3">Board questions with model answers</h2><p class="small muted">Today\'s set of three, the most-asked topics and the full board papers with a 3-hour timer.</p></div><button class="btn tonal rip" data-act="go" data-to="#/csboard">' + u.icon('chev-r') + 'Open CS board</button></section>' : '') +
+      '</div></div>'
     );
   }
 

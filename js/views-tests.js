@@ -78,8 +78,7 @@
     const TC = S.tc;
     const a = TC && TC.active();
     return (
-      (a ? S.tcUI.activeCard(a) : '') + S.tcUI.starterHtml() +
-      '<button class="btn outline block rip" data-act="go" data-to="#/practice" data-testid="tests-practice">' + u.icon('target') + 'Practice without a timer'+ '</button>'
+      (a ? S.tcUI.activeCard(a) : '') + S.tcUI.starterHtml(true)
     );
   }
 
@@ -87,6 +86,13 @@
   document.addEventListener('toggle', (e) => {
     if (e.target && e.target.classList && e.target.classList.contains('tcb-log')) view.logOpen = e.target.open;
   }, true);
+
+  // boxed fields of the paper header: tests taken in the app, the best one, scores logged by hand
+  function headFields() {
+    const sub = S.tc ? S.tc.all().items.filter((a) => a.status === 'submitted') : [];
+    const best = sub.reduce((m, a) => Math.max(m, a.maxScore > 0 ? Math.round((100 * a.score) / a.maxScore) : 0), 0);
+    return '<div class="ph-f"><div><small>Taken</small><b>' + sub.length + '</b></div><div><small>Best</small><b>' + (sub.length ? best + '%' : '–') + '</b></div><div><small>Logged</small><b>' + items().length + '</b></div></div>';
+  }
 
   S.views.tests = {
     title: 'Tests',
@@ -104,10 +110,12 @@
       }
       const recent = list.slice().reverse();
       root.innerHTML =
-        '<div class="page tests-page"><header class="page-h"><div><h1 class="h1">Mock tests</h1><p class="muted">' + items().length + ' logged · ' + u.plural(E.dueCounts().overdue + E.dueCounts().today, 'revision') + ' due</p></div>' +
-        '</header>' +
-        startCard() +
-        (S.tcUI.attemptsHtml ? S.tcUI.attemptsHtml() : '') +
+        '<div class="page tests-page"><header class="paper-h"><div class="ph-t"><p class="ph-k">Exams</p><h1 class="h1">Tests</h1><p class="ph-s">Timed tests from your chapters, full CET and JEE papers, and your scores.</p></div>' + headFields() + '</header>' +
+        '<div class="with-rail"><div>' + startCard() + '</div><aside class="rail">' + S.tcUI.builderDock() +
+        '<section class="card stack"><h2 class="h3">Other ways to test</h2><ul class="asheet">' +
+        '<li><button class="srow rip" data-act="go" data-to="#/practice" data-testid="tests-practice"><span class="sx-m">' + u.icon('target') + '</span><span class="sx-b"><b class="sx-t">Practice without a timer</b><small class="sx-s">One question at a time, answer straight away</small></span><span class="sx-e">' + u.icon('chev-r', 'chev') + '</span></button></li>' +
+        '<li><button class="srow rip" data-act="go" data-to="#/pyq" data-testid="tests-pyq"><span class="sx-m">' + u.icon('clipboard') + '</span><span class="sx-b"><b class="sx-t">Past papers</b><small class="sx-s">Timed answer sheet for a printed paper</small></span><span class="sx-e">' + u.icon('chev-r', 'chev') + '</span></button></li></ul></section>' +
+        (S.tcUI.attemptsHtml ? S.tcUI.attemptsHtml() : '') + '</aside></div>' +
         '<details class="card stack tcb-log"' + (view.logOpen ? ' open' : '') + ' data-testid="tests-log"><summary class="h3">Log a score from a book or outside test</summary>' +
         '<p class="small muted">Type in your score after a test taken outside the app. Tests taken in the app are saved by themselves.</p>' +
         ui.seg('mk-seg', [{ v: 'cet', t: 'CET (12)' }, { v: 'jee', t: 'JEE (8)' }, { v: 'sub', t: 'Subjects' }], view.seg) +

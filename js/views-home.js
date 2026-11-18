@@ -58,6 +58,7 @@
         '<button class="btn primary cont-btn rip" data-act="go" data-to="#/subjects">' + u.icon('play') + 'Open Subjects</button></article>';
     }
     const c = D.CH[t.ch];
+    S.homeHero = 'open=' + c.id; // Suggested leaves this chapter out
     const p = L.progress(t.v.id) || {};
     const pct = p.dur > 0 ? Math.max(0, Math.min(1, (p.pos || 0) / p.dur)) : 0;
     const why = { resume: 'Next up', next: 'Next up', pick: 'Next up', first: 'Start here', 'next-chapter': 'Start here' }[t.why] || 'Next up';
@@ -125,9 +126,15 @@
       const set = c.today && c.today.date === tday ? c.today.ids : null;
       const n = set ? set.filter((id) => c.done[id] && c.done[id].at === tday).length : 0;
       const r = S.csstudy.readiness(S.CS_HOT, c.done);
-      csRow = row('#/csboard', '', 'code', set && n >= set.length ? 'HSC CS: today\'s set done' : 'HSC CS: today\'s set', (set ? n + ' of ' + set.length + ' done' : '3 questions, about 15 minutes') + ' · board readiness ' + r.pct + '%', 'today-cs', 'cs');
+      csRow = row('#/csboard', '', 'code', set && n >= set.length ? 'HSC CS: today\'s set done' : 'HSC CS: today\'s set', (set ? n + ' of ' + set.length + ' done' : 'a short set, about 15 minutes') + ' · board readiness ' + r.pct + '%', 'today-cs', 'cs');
     }
-    const rows = vid + rev + pr + cards + csRow;
+    let codeRow = '';
+    if (S.codeCourse && !(D.COMING_SOON && D.COMING_SOON.cs)) {
+      const st = S.codeCourse.stats();
+      const nx = S.codeCourse.next();
+      if (nx) codeRow = row('#/code/learn/' + nx.id, '', 'play', 'Coding from zero: lesson ' + S.codeCourse.no(nx), nx.t + ' · ' + st.done + ' of ' + st.n + ' done · about 15 minutes', 'today-code', 'cs');
+    }
+    const rows = vid + rev + pr + cards + csRow + codeRow;
     return '<section aria-label="Today" data-testid="today-card" class="today"><h2 class="h3 sec-t">Today</h2><ul class="list">' + rows + '</ul></section>';
   }
 
@@ -206,7 +213,8 @@
   }
 
   function recs() {
-    const r = E.dailyRecs();
+    const hero = (S.homeHero || '');
+    const r = E.dailyRecs().filter((x) => !hero || String(x.go || '').indexOf(hero) < 0);
     if (!r.length) return '';
     return (
       '<section class="card"><h2 class="h3">Suggested for today</h2><ul class="recs">' +

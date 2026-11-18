@@ -322,6 +322,10 @@
     // and `today` (the CS questions picked for today: {date, ids}). Answers and saved questions are kept as they are.
     // v11 -> v12: additive only. A day in analytics.log may carry `cs` (HSC CS board questions answered that day; 3 make a streak day).
     // Older days simply have no `cs`, which counts as 0, so there is nothing to convert.
+    // v12 -> v13: additive only. Adds the `code` domain: progress in "Coding from zero" ({lessons: {id: {quiz: [bool], task: bool, at}}}).
+    13: (all) => {
+      if (!isObj(all.code)) all.code = { lessons: {} };
+    },
     12: (all) => {
       if (!isObj(all.analytics)) return;
       if (!isObj(all.analytics.log)) all.analytics.log = {};

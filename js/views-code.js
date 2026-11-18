@@ -147,7 +147,14 @@
   const STARTER = '#include <iostream>\nusing namespace std;\n\nint main() {\n    \n    return 0;\n}\n';
   const cpp = { src: '#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cout << "Enter a number: ";\n    cin >> n;\n    cout << "Square = " << n * n << endl;\n    return 0;\n}\n', cin: '7', pick: '', busy: false, out: null, check: null, model: false, lastQ: '' };
   const cppTasks = () => ((window.CS_C && window.CS_C['cs-12-03']) || []).filter((q) => q.code && q.code.indexOf('#include') >= 0);
-  const cppTask = () => cppTasks().filter((x) => x.id === cpp.pick)[0];
+  const lessonOf = (id) => ((S.CODE_COURSE || {}).lessons || []).filter((l) => l.id === id)[0];
+  const cppTask = () => {
+    if (/^L:/.test(cpp.pick)) {
+      const l = lessonOf(cpp.pick.slice(2));
+      return l ? { id: cpp.pick, q: l.task.q, code: l.task.solution, cases: l.task.cases, lesson: l.id, hint: l.task.hint } : null;
+    }
+    return cppTasks().filter((x) => x.id === cpp.pick)[0];
+  };
   const clip = (t) => (String(t || '').length > 20000 ? String(t).slice(0, 20000) + '\n... (cut)' : String(t || ''));
   // the same rule as tools/check_cpp.py: tokens (numbers or words, lower case); the `has` tokens in order, none of the `no` tokens
   const TOKEN = /-?\d+(?:\.\d+)?|[a-z]+/g;
@@ -187,9 +194,10 @@
     return (
       '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">C++ lab</h1><p class="muted">Write a C++ program, give it input and run it with a real g++ compiler. Pick a board program to practise it with automatic checks.</p></div></header>' +
       '<div class="banner cd-net" data-testid="cd-cpp-net"><b>Needs internet.</b> When you press Run or Check, your code and input are sent to wandbox.org, a free online compiler. Nothing else is sent. The rest of the app works offline.</div>' +
-      '<section class="card stack"><h2 class="h3">Board program (optional)</h2><select class="input" id="cd-cpp-pick" data-change="cd-cpp-pick" aria-label="Board program"><option value="">My own program</option>' +
-      ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === cpp.pick ? ' selected' : '') + '>' + (q.cases ? '' : '(no checks) ') + u.esc(q.q.replace(/\s+/g, ' ').slice(0, 70)) + '</option>').join('') + '</select>' +
-      (t ? '<p class="cd-task" data-testid="cd-cpp-task">' + u.esc(t.q) + '</p><p class="small muted">' + (t.cases ? 'Write it yourself, then press Check: it runs your program with ' + t.cases.length + (t.cases.length === 1 ? ' test input' : ' test inputs') + '.' : 'This one has no automatic check; compare with the model program.') + '</p>' +
+      '<section class="card stack"><h2 class="h3">What to write (optional)</h2><select class="input" id="cd-cpp-pick" data-change="cd-cpp-pick" aria-label="Task"><option value="">My own program</option>' +
+      '<optgroup label="Coding from zero">' + course().map((l, k) => '<option value="L:' + l.id + '"' + ('L:' + l.id === cpp.pick ? ' selected' : '') + '>Lesson ' + (k + 1) + ': ' + u.esc(l.t) + '</option>').join('') + '</optgroup>' +
+      '<optgroup label="Board programs">' + ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === cpp.pick ? ' selected' : '') + '>' + (q.cases ? '' : '(no checks) ') + u.esc(q.q.replace(/\s+/g, ' ').slice(0, 70)) + '</option>').join('') + '</optgroup></select>' +
+      (t && t.lesson ? '<p class="small"><b>Lesson task</b> · <a class="link" href="#/code/learn/' + t.lesson + '">back to the lesson</a></p>' : '') + (t ? '<p class="cd-task" data-testid="cd-cpp-task">' + u.esc(t.q).replace(/\n/g, '<br>') + '</p><p class="small muted">' + (t.cases ? 'Write it yourself, then press Check: it runs your program with ' + t.cases.length + (t.cases.length === 1 ? ' test input' : ' test inputs') + '.' : 'This one has no automatic check; compare with the model program.') + '</p>' +
         '<button class="link" data-act="cd-cpp-model" data-testid="cd-cpp-modelbtn">' + (cpp.model ? 'Hide' : 'Show') + ' the model program</button>' +
         (cpp.model ? '<pre class="cs-code" data-testid="cd-cpp-model">' + u.esc(t.code) + '</pre><button class="link" data-act="cd-cpp-load" data-testid="cd-cpp-load">Copy it into the editor</button>' : '') : '<p class="small muted">Choosing one gives you an empty program to write, its test inputs, and the model program if you get stuck.</p>') + '</section>' +
       '<section class="card stack"><label class="field-l" for="cd-cpp">Program</label><textarea id="cd-cpp" class="input cd-src" data-testid="cd-cpp" spellcheck="false" rows="16" autocapitalize="off" autocomplete="off">' + u.esc(cpp.src) + '</textarea>' + keyRow('cd-cpp', 'cpp') +
@@ -200,15 +208,109 @@
   }
 
   /* ---------- index ---------- */
+  /* ---------- Coding from zero (data/code-course.json -> S.CODE_COURSE; progress in store domain `code`) ---------- */
+  const course = () => (S.CODE_COURSE || { lessons: [] }).lessons;
+  const prog = (id) => ((S.store.get('code') || { lessons: {} }).lessons || {})[id] || {};
+  const lessonDone = (l) => { const p = prog(l.id); return !!p.task && (p.quiz || []).filter(Boolean).length === l.quiz.length; };
+  const quizRight = (l) => (prog(l.id).quiz || []).filter(Boolean).length;
+  const courseStats = () => {
+    const ls = course();
+    return { n: ls.length, done: ls.filter(lessonDone).length, tasks: ls.filter((l) => prog(l.id).task).length, quiz: ls.reduce((t, l) => t + quizRight(l), 0), quizAll: ls.reduce((t, l) => t + l.quiz.length, 0) };
+  };
+  const nextLesson = () => course().filter((l) => !lessonDone(l))[0] || null;
+  // lesson prose: `code` becomes a monospace chip
+  const prose = (t) => u.esc(t).replace(/`([^`]+)`/g, '<code class="ic">$1</code>');
+  const pf = (items) => '<div class="ph-f">' + items.map((x) => '<div><small>' + x[0] + '</small><b>' + x[1] + '</b></div>').join('') + '</div>';
+
+  function courseHtml() {
+    const ls = course();
+    const cs = courseStats();
+    const nx = nextLesson();
+    const rows = ls.map((l, i) => {
+      const done = lessonDone(l);
+      const p = prog(l.id);
+      const state = done ? 'Done' : p.task || quizRight(l) ? 'Started' : '';
+      return '<li><button class="srow rip" data-act="go" data-to="#/code/learn/' + l.id + '" data-testid="cl-row"><span class="sx-m">' + (done ? '<i class="ink-mark" aria-label="done"></i>' : i + 1) + '</span>' +
+        '<span class="sx-b"><b class="sx-t">' + u.esc(l.t) + '</b><small class="sx-s">' + u.esc(l.why) + '</small></span><span class="sx-e">' + (state ? '<span class="chip-s' + (done ? ' ok' : '') + '">' + state + '</span>' : '') + u.icon('chev-r', 'chev') + '</span></button></li>';
+    }).join('');
+    return '<div class="page cl-page"><header class="paper-h"><div class="ph-t"><p class="ph-k">Code · beginner course</p><h1 class="h1">Coding from zero</h1><p class="ph-s">C++ from the very first line to classes. Read the idea, see an example line by line, check yourself, then write the program.</p></div>' +
+      pf([['Lessons', cs.done + '/' + cs.n], ['Quiz', cs.quiz + '/' + cs.quizAll], ['Programs', cs.tasks + '/' + cs.n]]) + '</header>' +
+      '<div class="with-rail"><div><ol class="asheet" data-testid="cl-list">' + rows + '</ol></div>' +
+      '<aside class="rail"><section class="card stack"><h2 class="h3">' + (nx ? (cs.done ? 'Next lesson' : 'Start here') : 'Course done') + '</h2>' +
+      (nx ? '<p class="small muted">Lesson ' + (ls.indexOf(nx) + 1) + ': ' + u.esc(nx.t.replace(/[.?!]$/, '')) + '. About 15 minutes.</p><button class="btn primary block rip" data-act="go" data-to="#/code/learn/' + nx.id + '" data-testid="cl-next">' + u.icon('play') + (cs.done ? 'Continue' : 'Start lesson 1') + '</button>'
+        : '<p class="small muted">Every lesson is done. Practise with the C++ board programs next.</p><button class="btn primary block rip" data-act="go" data-to="#/code/cpp">Open the C++ lab</button>') +
+      '<p class="small muted">The ideas and quizzes work offline. Running a program needs internet (the online compiler).</p></section></aside></div></div>';
+  }
+
+  const qsel = {}; // lesson id -> [picked option index per question] while she answers
+  function lessonHtml(id) {
+    const ls = course();
+    const i = ls.findIndex((l) => l.id === id);
+    const l = ls[i];
+    if (!l) return '<div class="page">' + ui.empty('code', 'Lesson not found', 'Go back to the course.', '<button class="btn tonal rip" data-act="go" data-to="#/code/learn">All lessons</button>') + '</div>';
+    const p = prog(l.id);
+    const saved = p.quiz || [];
+    const picks = qsel[l.id] || (qsel[l.id] = l.quiz.map(() => null));
+    const lines = l.code.replace(/\s+$/, '').split('\n');
+    const quiz = l.quiz.map((q, k) => {
+      const pick = picks[k];
+      const locked = pick !== null || saved[k];
+      const shown = pick !== null ? pick : saved[k] ? q.ans : null;
+      return '<li class="cl-q"><p class="cl-qt"><b>' + (k + 1) + '.</b> ' + u.esc(q.q) + '</p><div class="opts">' + q.options.map((o, j) => {
+        const cls = locked && shown !== null ? (j === q.ans ? ' right' : j === shown ? ' wrong' : '') : '';
+        return '<button class="opt rip' + cls + '" data-act="cl-quiz" data-l="' + l.id + '" data-k="' + k + '" data-v="' + j + '"' + (locked && shown !== null ? ' disabled' : '') + '><span class="let">' + 'ABCD'[j] + '</span><span class="ot">' + u.esc(o) + '</span></button>';
+      }).join('') + '</div>' + (locked && shown !== null ? '<p class="small cl-why">' + u.esc(q.why) + '</p>' : '') + '</li>';
+    }).join('');
+    const qr = quizRight(l);
+    return '<div class="page cl-page cl-lesson"><header class="paper-h"><div class="ph-t"><p class="ph-k">Coding from zero · lesson ' + (i + 1) + ' of ' + ls.length + '</p><h1 class="h1">' + u.esc(l.t) + '</h1><p class="ph-s">' + u.esc(l.why) + '</p></div>' +
+      pf([['Quiz', qr + '/' + l.quiz.length], ['Program', p.task ? '<i class="ink-mark inline" aria-label="done"></i>' : '–']]) + '</header>' +
+      '<section class="card cl-idea"><h2 class="h3">The idea</h2>' + l.idea.map((t) => '<p>' + prose(t) + '</p>').join('') + '</section>' +
+      '<section class="card stack"><h2 class="h3">Example</h2><ol class="cl-code" data-testid="cl-code">' + lines.map((t, k) => '<li><span class="cl-ln">' + (k + 1) + '</span><code>' + (u.esc(t) || ' ') + '</code></li>').join('') + '</ol>' +
+      '<h3 class="sol-h">Line by line</h3><ol class="asheet cl-lines">' + l.lines.map((x) => '<li class="srow is-static"><span class="sx-m">' + x[0] + '</span><span class="sx-b"><span class="cl-lt">' + u.esc(x[1]) + '</span></span><span></span></li>').join('') + '</ol>' +
+      '<button class="btn tonal block rip" data-act="go" data-to="#/code/cpp?ex=' + l.id + '" data-testid="cl-run-ex">' + u.icon('play') + 'Run this example (needs internet)</button></section>' +
+      '<section class="card stack"><h2 class="h3">Check yourself</h2><ol class="cl-quiz" data-testid="cl-quiz">' + quiz + '</ol></section>' +
+      '<section class="card stack cl-task"><h2 class="h3">Your turn</h2><p class="cd-task" data-testid="cl-task">' + u.esc(l.task.q).replace(/\n/g, '<br>') + '</p>' +
+      '<details class="cl-hint"><summary>Show a hint</summary><p class="small">' + u.esc(l.task.hint) + '</p></details>' +
+      (p.task ? '<p class="cs-win">' + u.icon('check-c') + 'You wrote this program and it passed the checks.</p>' : '') +
+      '<button class="btn primary block rip" data-act="go" data-to="#/code/cpp?lesson=' + l.id + '" data-testid="cl-open-lab">' + u.icon('code') + 'Write it in the C++ lab</button>' +
+      '<p class="small muted">The lab checks your program with ' + l.task.cases.length + (l.task.cases.length === 1 ? ' test input' : ' test inputs') + ' and marks this lesson done when they pass.</p></section>' +
+      '<div class="row gap cl-nav"><button class="btn tonal grow rip" data-act="go" data-to="#/code/learn/' + (ls[i - 1] ? ls[i - 1].id : '') + '"' + (i > 0 ? '' : ' disabled') + '>' + u.icon('chev-l') + 'Previous</button>' +
+      '<button class="btn tonal grow rip" data-act="go" data-to="#/code/learn/' + (ls[i + 1] ? ls[i + 1].id : '') + '"' + (i < ls.length - 1 ? '' : ' disabled') + '>Next' + u.icon('chev-r') + '</button></div></div>';
+  }
+
+  S.codeCourse = {
+    stats: courseStats,
+    next: nextLesson,
+    no: (l) => course().indexOf(l) + 1,
+    // the card the other pages show: where she is in the course and one button to go on
+    card: (testid, tonal) => {
+      const st = courseStats();
+      if (!st.n) return '';
+      const nx = nextLesson();
+      return '<section class="card cl-hero" data-testid="' + testid + '"><div class="grow"><p class="ph-k">Coding from zero · C++ for beginners</p><h2 class="h3">' + (nx ? (st.done ? 'Lesson ' + (course().indexOf(nx) + 1) + ': ' + u.esc(nx.t) : 'Learn to code from the first line') : 'All 12 lessons done') + '</h2>' +
+        '<p class="small muted">' + (nx ? st.done + ' of ' + st.n + ' lessons done. Each lesson: the idea, an example line by line, a quiz and a program you write.' : 'Practise the C++ board programs next.') + '</p></div>' +
+        '<button class="btn ' + (tonal ? 'tonal' : 'primary') + ' rip" data-act="go" data-to="' + (nx ? '#/code/learn/' + nx.id : '#/code/cpp') + '">' + u.icon('play') + (nx ? (st.done ? 'Continue' : 'Start') : 'C++ lab') + '</button></section>';
+    },
+  };
+
   function indexHtml() {
-    const row = (to, icon, t, s, id) => '<li><button class="lrow rip" data-act="go" data-to="' + to + '" data-testid="' + id + '"><span class="ric" data-s="cs">' + u.icon(icon) + '</span><span class="grow"><b class="rt">' + t + '</b><small class="rs">' + s + '</small></span>' + u.icon('chev-r', 'chev') + '</button></li>';
+    const cs = courseStats();
+    const nx = nextLesson();
+    const lab = (to, mark, t, s, id) => '<li><button class="srow rip" data-act="go" data-to="' + to + '" data-testid="' + id + '"><span class="sx-m">' + mark + '</span><span class="sx-b"><b class="sx-t">' + t + '</b><small class="sx-s">' + s + '</small></span><span class="sx-e">' + u.icon('chev-r', 'chev') + '</span></button></li>';
     return (
-      '<div class="page"><header class="page-h"><div><h1 class="h1">Code</h1><p class="muted">Learn by doing. The 8085 and HTML labs run in your browser and work without internet. The C++ lab needs internet.</p></div></header>' +
-      '<ul class="list">' + row('#/code/8085', 'code', '8085 assembly lab', 'Write programs and watch the registers, flags and memory. Board tasks with automatic checks.', 'cd-8085') +
-      row('#/code/html', 'note', 'HTML lab', 'Write a page and see it at once. For the HTML questions of the board paper.', 'cd-html-link') +
-      row('#/code/cpp', 'code', 'C++ lab (needs internet)', 'Write a C++ program with classes, files and more, and run it with a real compiler online.', 'cd-cpp-link')  +
-      row('#/csboard/cs-12-03', 'clipboard', 'C++ board questions', 'The questions and model answers of the C++ chapter.', 'cd-cppq-link')+ '</ul>' +
-      '</div>'
+      '<div class="page"><header class="paper-h"><div class="ph-t"><p class="ph-k">Study</p><h1 class="h1">Coding</h1><p class="ph-s">Start from zero, then practise the board programs. 8085 and HTML work offline; running C++ needs internet.</p></div>' +
+      pf([['Lessons', cs.done + '/' + cs.n], ['Programs', cs.tasks + '/' + cs.n]]) + '</header>' +
+      '<div class="with-rail"><div>' +
+      '<section class="card cl-hero" data-testid="cd-course"><div class="grow"><p class="ph-k">Beginner course</p><h2 class="h2">Coding from zero</h2><p class="small muted">12 short lessons: what a program is, printing, variables, input, decisions, loops, arrays, functions and classes. Each ends with a program you write and the app checks.</p>' +
+      '<p class="small"><b>' + cs.done + ' of ' + cs.n + '</b> lessons done</p></div>' +
+      '<div class="row gap"><button class="btn primary grow rip" data-act="go" data-to="' + (nx ? '#/code/learn/' + nx.id : '#/code/learn') + '" data-testid="cd-course-go">' + u.icon('play') + (nx ? (cs.done ? 'Continue: lesson ' + (course().indexOf(nx) + 1) : 'Start lesson 1') : 'Review the lessons') + '</button>' +
+      '<button class="btn tonal rip" data-act="go" data-to="#/code/learn" data-testid="cd-course-all">All lessons</button></div></section>' +
+      '<h2 class="h3 cs-sec cd-labs-h">Labs</h2><ul class="asheet cd-labs">' +
+      lab('#/code/cpp', 'C++', 'C++ lab', 'Write and run C++ with a real compiler (online). Board programs with automatic checks.', 'cd-cpp-link') +
+      lab('#/code/8085', '85', '8085 assembly lab', 'Write programs and watch the registers, flags and memory. Board tasks with automatic checks.', 'cd-8085') +
+      lab('#/code/html', '&lt;/&gt;', 'HTML lab', 'Write a page and see it at once. For the HTML questions of the board paper.', 'cd-html-link') +
+      lab('#/csboard/cs-12-03', 'Q', 'C++ board questions', 'The questions and model answers of the C++ chapter.', 'cd-cppq-link') + '</ul></div>' +
+      '<aside class="rail"><section class="card stack"><h2 class="h3">How to learn coding here</h2><ol class="cs-how"><li>Read the idea and the example, line by line.</li><li>Answer the quiz: it shows why each answer is right.</li><li>Write the program in the lab and press Check.</li><li>Then do the board programs of the C++ chapter.</li></ol></section></aside></div></div>'
     );
   }
 
@@ -216,16 +318,18 @@
     title: 'Code',
     tab: 'study',
     isPushed: (ctx) => !!ctx.params[0],
-    pageTitle: (ctx) => (ctx.params[0] === 'cpp' ? 'C++ lab' : ctx.params[0] === 'html' ? 'HTML lab' : ctx.params[0] === '8085' ? '8085 lab' : 'Code'),
-    backHash: () => '#/code',
+    pageTitle: (ctx) => (ctx.params[0] === 'learn' ? (ctx.params[1] ? 'Lesson' : 'Coding from zero') : ctx.params[0] === 'cpp' ? 'C++ lab' : ctx.params[0] === 'html' ? 'HTML lab' : ctx.params[0] === '8085' ? '8085 lab' : 'Coding'),
+    backHash: (cur) => (cur && cur.query && cur.query.lesson && lessonOf(cur.query.lesson) ? '#/code/learn/' + cur.query.lesson : cur && cur.query && cur.query.ex && lessonOf(cur.query.ex) ? '#/code/learn/' + cur.query.ex : cur && cur.params && cur.params[0] === 'learn' && cur.params[1] ? '#/code/learn' : '#/code'),
     render(root, ctx) {
       const w = ctx.params[0];
       const keep = document.activeElement;
       if (keep && /^cd-(src|mem|html|from|cpp|cin)$/.test(keep.id) && !ctx.first) return; // keep the cursor while she types (actions blur first, see grab)
       const q = ctx.query || {};
       if (w === 'cpp' && q.q && ctx.first) { cpp.pick = q.q; cpp.src = STARTER; cpp.cin = ''; cpp.out = null; cpp.check = null; cpp.model = false; }
+      if (w === 'cpp' && q.lesson && ctx.first && lessonOf(q.lesson)) { const l = lessonOf(q.lesson); cpp.pick = 'L:' + l.id; cpp.src = l.task.starter; cpp.cin = (l.task.cases[0] || {}).in || ''; cpp.out = null; cpp.check = null; cpp.model = false; }
+      if (w === 'cpp' && q.ex && ctx.first && lessonOf(q.ex)) { const l = lessonOf(q.ex); cpp.pick = ''; cpp.src = l.code; cpp.cin = (l.task.cases[0] || {}).in || ''; cpp.out = null; cpp.check = null; cpp.model = false; }
       if (w === '8085' && q.task && ctx.first) { st.task = q.task; st.check = null; st.model = false; st.mem = ''; }
-      root.innerHTML = w === '8085' ? html8085() : w === 'html' ? htmlLab() : w === 'cpp' ? cppLab() : indexHtml();
+      root.innerHTML = w === 'learn' ? (ctx.params[1] ? lessonHtml(ctx.params[1]) : courseHtml()) : w === '8085' ? html8085() : w === 'html' ? htmlLab() : w === 'cpp' ? cppLab() : indexHtml();
     },
   };
 
@@ -280,11 +384,29 @@
     const a = document.getElementById('cd-cpp'); if (a) cpp.src = a.value;
     const b = document.getElementById('cd-cin'); if (b) cpp.cin = b.value;
   };
+  ui.actions['cl-quiz'] = (el) => {
+    const l = lessonOf(el.dataset.l);
+    if (!l) return;
+    const k = Number(el.dataset.k);
+    const v = Number(el.dataset.v);
+    (qsel[l.id] = qsel[l.id] || l.quiz.map(() => null))[k] = v;
+    const right = v === l.quiz[k].ans;
+    S.store.mutate('code', (c) => {
+      c.lessons = c.lessons || {};
+      const p = c.lessons[l.id] || (c.lessons[l.id] = { quiz: [], task: false });
+      p.quiz = p.quiz || [];
+      if (right) p.quiz[k] = true;
+      p.at = u.today();
+    });
+    if (!right) setTimeout(() => { qsel[l.id][k] = null; S.app.refresh(true); }, 2600); // she can try again after reading why
+    S.app.refresh(true);
+  };
   ui.changes['cd-cpp-pick'] = (el) => {
     grabCpp();
     cpp.pick = el.value;
     cpp.out = null; cpp.check = null; cpp.model = false;
-    if (cppTask()) { cpp.src = STARTER; cpp.cin = ''; }
+    const t = cppTask();
+    if (t && t.lesson) { const l = lessonOf(t.lesson); cpp.src = l.task.starter; cpp.cin = (l.task.cases[0] || {}).in || ''; } else if (t) { cpp.src = STARTER; cpp.cin = ''; }
     S.app.refresh(true);
   };
   ui.actions['cd-cpp-model'] = () => { grabCpp(); cpp.model = !cpp.model; S.app.refresh(true); };
@@ -333,7 +455,13 @@
         });
       });
     });
-    chain.then((stop) => { cpp.check = stop || { rows: rows, pass: rows.filter((x) => x.ok).length }; })
+    chain.then((stop) => {
+      cpp.check = stop || { rows: rows, pass: rows.filter((x) => x.ok).length };
+      if (!stop && t.lesson && rows.length && rows.every((x) => x.ok)) {
+        S.store.mutate('code', (c) => { c.lessons = c.lessons || {}; const p = c.lessons[t.lesson] || (c.lessons[t.lesson] = { quiz: [], task: false }); p.task = true; p.at = u.today(); });
+        ui.toast('Lesson program done. Well written!');
+      }
+    })
       .catch((e) => { cpp.check = { fail: netFail(e) }; })
       .then(() => { clearTimeout(timer); cpp.busy = false; S.app.refresh(true); });
   };

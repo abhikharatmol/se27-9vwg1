@@ -279,6 +279,43 @@
     '<div class="seg" role="tablist"' + (extra || '') + '>' +
     opts.map((o) => '<button role="tab" class="rip" aria-selected="' + (o.v === value) + '" data-act="' + act + '" data-v="' + u.esc(o.v) + '">' + u.esc(o.t) + '</button>').join('') +
     '</div>';
+  // The chapter picker of Tests and Practice: an answer sheet grouped by subject and class, a "Select all" per group,
+  // one-line rows with a tick box in the margin and the question count at the end.
+  // o = { ids: chapter ids (any order), sel: Set, count: (id) => questions, act, allAct, testid }
+  ui.chapterSheet = (o) => {
+    const D = S.data;
+    const NM = { phy: 'Physics', chem: 'Chemistry', mth: 'Maths', cs: 'Computer Science' };
+    const groups = [];
+    D.SUBJECT_ORDER.forEach((s) => [11, 12].forEach((std) => {
+      const ids = o.ids.filter((id) => D.CH[id] && D.CH[id].subj === s && D.CH[id].std === std).sort((a, b) => D.CH[a].idx - D.CH[b].idx);
+      if (ids.length) groups.push({ g: s + '-' + std, s: s, std: std, ids: ids });
+    }));
+    if (!groups.length) return '<p class="small muted">No chapters here.</p>';
+    return '<ul class="asheet chp-sheet"' + (o.testid ? ' data-testid="' + o.testid + '"' : '') + '>' + groups.map((g) => {
+      const live = g.ids.filter((id) => o.count(id) > 0);
+      const nOn = g.ids.filter((id) => o.sel.has(id)).length;
+      const allOn = live.length && live.every((id) => o.sel.has(id));
+      return '<li class="sheet-h" data-s="' + g.s + '"><span class="sx-m">' + (nOn ? '<span class="sh-n" title="chosen">' + nOn + '</span>' : '') + '</span><b>' + NM[g.s] + ' · Class ' + g.std + '</b>' +
+        (live.length ? '<button type="button" class="link" data-act="' + o.allAct + '" data-g="' + g.g + '">' + (allOn ? 'Clear' : 'Select all') + '</button>' : '<span></span>') + '</li>' +
+        g.ids.map((id) => {
+          const n = o.count(id);
+          const on = o.sel.has(id);
+          return '<li><button type="button" class="srow tcb-ch rip" aria-pressed="' + on + '" data-act="' + o.act + '" data-id="' + id + '"' + (n ? '' : ' disabled') + ' data-testid="tcb-ch">' +
+            '<span class="sx-m">' + (on ? '<i class="ink-mark" aria-hidden="true"></i>' : '<span class="pick-box" aria-hidden="true"></span>') + '</span>' +
+            '<span class="sx-b"><b class="sx-t">' + u.esc(D.CH[id].name) + '</b></span><span class="sx-e">' + (n ? n + ' Q' : 'Coming') + '</span></button></li>';
+        }).join('');
+    }).join('') + '</ul>';
+  };
+  // ids of one picker group ("phy-11") that have questions: Select all / Clear
+  ui.groupIds = (g, ids, count) => {
+    const D = S.data;
+    const p = g.split('-');
+    return ids.filter((id) => D.CH[id] && D.CH[id].subj === p[0] && String(D.CH[id].std) === p[1] && count(id) > 0);
+  };
+  ui.toggleGroup = (set, ids) => {
+    if (ids.length && ids.every((id) => set.has(id))) ids.forEach((id) => set.delete(id));
+    else ids.forEach((id) => set.add(id));
+  };
   ui.empty = (icon, title, text, cta) =>
     '<div class="empty">' + u.icon(icon, 'empty-i') + '<h3>' + u.esc(title) + '</h3><p>' + u.esc(text) + '</p>' + (cta || '') + '</div>';
   ui.skeleton = (n) => {

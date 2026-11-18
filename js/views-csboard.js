@@ -146,30 +146,33 @@
     const due = R.due(done(), u.today()).length;
     const pace = paceLine();
     return '<button class="card cs-ready rip" data-act="go" data-to="#/csboard/hot" data-testid="cs-ready"><span class="grow"><small class="muted">Board readiness</small>' +
-      '<b class="cs-pct" data-testid="cs-pct">' + r.pct + '%</b>' + bar(r.pct, 'Board readiness') +
+      '<b class="cs-pct' + (r.pct > 0 ? ' ink-ring' : '') + '" data-testid="cs-pct">' + r.pct + '%</b>' + bar(r.pct, 'Board readiness') +
       '<small class="rs">' + r.covered + ' of ' + r.total + ' most-asked topics covered' + (due ? ' · ' + due + ' to revise' : '') + '</small>' + (pace ? '<small class="rs cs-pace" data-testid="cs-pace">' + u.esc(pace) + '</small>' : '') + '</span>' + u.icon('chev-r', 'chev') + '</button>';
   }
   function indexHtml() {
     const ready = ensureAll();
     const due = ready ? R.due(done(), u.today()).filter((x) => find(x.id)) : [];
-    const rows = chapters().map((c) => {
-      const ix = idx(c.id);
-      const tot = ix.n;
+    const row = (c) => {
+      const tot = idx(c.id).n;
       const dn = doneCount(c.id);
-      const pct = tot ? Math.round((100 * dn) / tot) : 0;
-      return '<li><button class="lrow rip" data-act="go" data-to="#/csboard/' + c.id + '" data-testid="cs-' + c.id + '"' + (tot ? '' : ' aria-disabled="true"') + '>' +
-        '<span class="rv-no" data-s="cs">' + (c.tb || '') + '</span><span class="grow"><b class="rt">' + u.esc(c.name) + '</b><small class="rs">Paper ' + PAPER[c.id] + ' · about ' + WEIGHT[c.id] + ' marks with choices · ' +
-        (tot ? tot + ' questions' + (dn ? ' · ' + dn + ' done' : '') : 'Questions coming') + '</small>' + (dn ? bar(pct, c.name + ' done') : '') + '</span>' + u.icon('chev-r', 'chev') + '</button></li>';
-    }).join('');
+      const full = tot && dn >= tot;
+      return '<li><button class="srow rip" data-act="go" data-to="#/csboard/' + c.id + '" data-testid="cs-' + c.id + '"' + (tot ? '' : ' aria-disabled="true"') + '>' +
+        '<span class="sx-m">' + (full ? '<i class="ink-mark" aria-label="all done"></i>' : c.tb || '') + '</span><span class="sx-b"><b class="sx-t">' + u.esc(c.name) + '</b><small class="sx-s">about ' + WEIGHT[c.id] + ' marks · ' +
+        (tot ? tot + ' questions' : 'questions coming') + '</small>' + (dn && !full ? bar(Math.round((100 * dn) / tot), c.name + ' done') : '') + '</span><span class="sx-e">' + (dn ? dn + '/' + tot : '') + u.icon('chev-r', 'chev') + '</span></button></li>';
+    };
+    const group = (p, label) => '<li class="sheet-h"><span class="sx-m">' + p + '</span><b>' + label + '</b><span class="small muted">50 marks · 3 h</span></li>' + chapters().filter((c) => PAPER[c.id] === p).map(row).join('');
     const all = chapters().reduce((n, c) => n + idx(c.id).n, 0);
+    const dn = Object.keys(done()).length;
+    const r = R.readiness(hot(), done());
     return (
-      '<div class="page cs-index"><header class="page-h"><div><h1 class="h1">HSC Computer Science</h1><p class="muted">The board\'s own questions, exactly as they were set, with model answers. ' + all + ' questions.</p></div></header>' +
-      todayCard(ready) + readinessCard() +
+      '<div class="page cs-index"><header class="paper-h"><div class="ph-t"><p class="ph-k">Exams · HSC board</p><h1 class="h1">HSC Computer Science</h1><p class="ph-s">The board\'s own questions, exactly as they were set, with model answers.</p></div>' +
+      '<div class="ph-f"><div><small>Questions</small><b>' + all + '</b></div><div><small>Done</small><b>' + dn + '</b></div><div><small>Ready</small><b>' + r.pct + '%</b></div></div></header>' +
+      '<div class="with-rail"><div>' + todayCard(ready) +
       (due.length ? '<button class="card cs-revise rip" data-act="go" data-to="#/csboard/revise" data-testid="cs-revise-link">' + u.icon('refresh') + '<span class="grow"><b>Revise again</b><small class="rs">' + due.length + (due.length === 1 ? ' question is' : ' questions are') + ' due: low marks come back until you get them right.</small></span>' + u.icon('chev-r', 'chev') + '</button>' : '') +
-      papersCard() +
-      '<h2 class="h3 cs-sec">Chapters</h2><p class="small muted cs-sec-s">Big chapters first if time is short: C++ and 8085 programming carry the most marks.</p><ul class="list">' + rows + '</ul>' +
-      '<details class="card cs-howto"><summary><b>How it works</b></summary><ol class="cs-how"><li>Do today\'s set: three questions, about 15 minutes.</li><li>Write each answer on paper, like in the exam, then open the model answer and tick what you wrote.</li><li>Weak answers come back in Revise again. Once a week, do one board paper with the 3-hour timer.</li></ol>' +
-      '<p class="small muted">Both papers are 50 marks, 3 hours. Paper I: OS, Data Structure, C++, HTML. Paper II: 8085, 8051, x86 and Networking.</p></details></div>'
+      '<h2 class="h3 cs-sec">Chapters</h2><p class="small muted cs-sec-s">Big chapters first if time is short: C++ and 8085 programming carry the most marks.</p>' +
+      '<ul class="asheet cs-chs">' + group('I', 'Paper I · OS, Data Structure, C++, HTML') + group('II', 'Paper II · 8085, 8051, x86, Networking') + '</ul></div>' +
+      '<aside class="rail">' + readinessCard() + papersCard() + (S.codeCourse ? S.codeCourse.card('cs-code', true) : '') +
+      '<details class="card cs-howto"><summary><b>How it works</b></summary><ol class="cs-how"><li>Do today\'s set: three questions, about 15 minutes.</li><li>Write each answer on paper, like in the exam, then open the model answer and tick what you wrote.</li><li>Weak answers come back in Revise again. Once a week, do one board paper with the 3-hour timer.</li></ol></details></aside></div></div>'
     );
   }
 

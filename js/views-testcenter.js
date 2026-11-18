@@ -61,21 +61,26 @@
   }
   const markingText = (jee) => (jee ? 'JEE marking: +4 for a correct answer, −1 for a wrong one.' : 'CET marking: +1 Physics and Chemistry, +2 Maths, no negative marks.');
 
-  function chaptersPanel() {
+  // Tests tab: the dock goes in the rail (S.tcUI.builderDock); #/testcenter keeps it under the list.
+  function chaptersPanel(railDock) {
     const jee = form.jee;
     const counts = countsFor(jee);
     Array.from(form.sel).forEach((id) => !counts[id] && form.sel.delete(id));
-    const list = builderChapters(counts);
-    const pill = (act, on, label, data) => '<button type="button" class="chip sm rip" aria-pressed="' + on + '" data-act="' + act + '" ' + data + '>' + label + '</button>';
-    const rows = list.map((c) => {
-      const n = counts[c.id] || 0;
-      const on = form.sel.has(c.id);
-      return '<li><button type="button" class="tcb-ch rip" aria-pressed="' + on + '" data-act="tc-pick" data-id="' + c.id + '"' + (n ? '' : ' disabled') + ' data-testid="tcb-ch">' +
-        '<span class="tcb-tick" aria-hidden="true">' + (on ? u.icon('check') : '') + '</span>' +
-        '<span class="tcb-name"><b>' + u.esc(c.name) + '</b><small>' + NAMES[c.subj] + ' · Class ' + c.std + '</small></span>' +
-        '<span class="tcb-n">' + (n ? n + ' Q' : 'Questions coming') + '</span></button></li>';
-    }).join('');
-    const ids = Array.from(form.sel);
+    const list = builderChapters(counts).map((c) => c.id);
+    return (
+      '<div class="ctl-row"><div class="ctl-g"><span class="field-l">Subject</span>' + ui.seg('tc-subj', SUBJ_PILLS.map((p) => ({ v: p[0], t: p[1] })), form.subj, ' aria-label="Subject"') + '</div>' +
+      '<div class="ctl-g"><span class="field-l">Marking</span>' + ui.seg('tc-marking', [{ v: 'cet', t: 'CET' }, { v: 'jee', t: 'JEE' }], jee ? 'jee' : 'cet', ' aria-label="Marking"') + '</div>' +
+      '<div class="ctl-g"><span class="field-l">Questions</span>' + ui.seg('tc-n', COUNT_CHIPS.map((k) => ({ v: String(k), t: String(k) })), String(form.n), ' aria-label="How many questions"') + '</div></div>' +
+      '<p class="small muted tcb-mark"><span class="mk-t">' + markingText(jee) + '</span> <button class="link" data-act="tc-start" data-mode="quick">Or a quick 10: random, 10 min</button></p>' +
+      ui.chapterSheet({ ids: list, sel: form.sel, count: (id) => counts[id] || 0, act: 'tc-pick', allAct: 'tc-all', testid: 'tcb-list' }) +
+      (railDock ? '' : builderDock())
+    );
+  }
+  function builderDock() {
+    if (form.kind !== 'chapters') return '';
+    const jee = form.jee;
+    const counts = countsFor(jee);
+    const ids = Array.from(form.sel).filter((id) => counts[id]);
     const avail = ids.reduce((t, id) => t + (counts[id] || 0), 0);
     const n = Math.min(form.n, avail);
     let mins = 0;
@@ -84,17 +89,13 @@
       mins = Math.max(1, Math.round(n * pace));
     }
     const summary = ids.length
-      ? '<p class="tcb-sum" data-testid="tcb-sum"><b>' + u.plural(n, 'question') + ' · ' + mins + ' min</b> from ' + u.plural(ids.length, 'chapter') + (n < form.n ? ' (all that are available)' : '') + '. ' + markingText(jee) + '</p>'
-      : '<p class="tcb-sum muted" data-testid="tcb-sum">Tap one chapter, or several, to build your test.</p>';
+      ? '<p class="dock-sum tcb-sum" data-testid="tcb-sum"><b>' + u.plural(n, 'question') + ' · ' + mins + ' min</b> from ' + (ids.length === 1 ? u.esc(D.CH[ids[0]].name) : u.plural(ids.length, 'chapter')) + (n < form.n ? ' (all there are)' : '') + '</p>'
+      : '<p class="dock-sum tcb-sum" data-testid="tcb-sum">Tick one chapter, or several.</p>';
     return (
-      '<div class="chips tcb-pills" role="group" aria-label="Subject">' + SUBJ_PILLS.map((p) => pill('tc-subj', form.subj === p[0], p[1], 'data-subj="' + p[0] + '"')).join('') + '</div>' +
-      '<div class="chips tcb-pills" role="group" aria-label="Marking">' + pill('tc-marking', !jee, 'CET marking', 'data-m="cet"') + pill('tc-marking', jee, 'JEE marking', 'data-m="jee"') + '</div>' +
-      '<ul class="tcb-list" data-testid="tcb-list">' + (rows || '<li class="muted small">No chapters here.</li>') + '</ul>' +
-      '<div class="chips tcb-pills" role="group" aria-label="How many questions"><span class="small muted">Questions</span>' + COUNT_CHIPS.map((k) => pill('tc-n', form.n === k, String(k), 'data-n="' + k + '"')).join('') + '</div>' +
-      summary +
+      '<div class="dock card" data-testid="tcb-dock">' + summary +
       '<button class="btn primary block rip" data-act="tc-start" data-mode="builder" data-testid="tcb-start"' + (ids.length ? '' : ' disabled') + '>' + u.icon('timer') + 'Start test</button>' +
-      '<div class="row gap tcb-extra">' + (ids.length ? '<button class="link" data-act="tc-clear">Clear selection</button>' : '') +
-      '<button class="link" data-act="tc-start" data-mode="quick" data-testid="tcb-quick"' + (Object.keys(counts).length ? '' : ' disabled') + '>Quick 10: random, 10 minutes</button></div>'
+      '<div class="row gap tcb-extra">' + (ids.length ? '<button class="link" data-act="tc-clear">Clear ' + ids.length + '</button>' : '') +
+      '<button class="link" data-act="tc-start" data-mode="quick" data-testid="tcb-quick"' + (Object.keys(counts).length ? '' : ' disabled') + '>Quick 10: random, 10 min</button></div></div>'
     );
   }
 
@@ -125,14 +126,13 @@
   }
 
   // The one place a test is started: three choices, then one button. Used on the Tests tab and on #/testcenter.
-  function starterHtml() {
+  function starterHtml(railDock) {
     const kinds = [['chapters', 'Chapters', 'One or many'], ['cet', 'CET paper', '150 Q · 200 marks'], ['jee', 'JEE paper', '75 Q · 300 marks']];
     return (
       '<section class="card stack tcb" data-testid="tc-builder"><h2 class="h3">Take a test</h2>' +
       '<div class="tcb-kinds" role="group" aria-label="Kind of test">' + kinds.map((k) =>
         '<button type="button" class="tcb-kind rip" aria-pressed="' + (form.kind === k[0]) + '" data-act="tc-kind" data-kind="' + k[0] + '" data-testid="tcb-kind-' + k[0] + '"><b>' + k[1] + '</b><small>' + k[2] + '</small></button>').join('') + '</div>' +
-      (form.kind === 'chapters' ? chaptersPanel() : paperPanel(form.kind)) +
-      '<button class="btn tonal block rip" data-act="go" data-to="#/pyq" data-testid="tests-pyq">' + u.icon('clipboard') + 'Past papers: timed answer sheet</button>' +
+      (form.kind === 'chapters' ? chaptersPanel(railDock) : paperPanel(form.kind)) +
       '</section>'
     );
   }
@@ -211,9 +211,10 @@
   ui.actions['tc-start'] = (el) => startMode(el.dataset.mode);
   const redraw = () => S.app.refresh(true);
   ui.actions['tc-kind'] = (el) => { form.kind = el.dataset.kind; redraw(); };
-  ui.actions['tc-subj'] = (el) => { form.subj = el.dataset.subj; redraw(); };
-  ui.actions['tc-marking'] = (el) => { form.jee = el.dataset.m === 'jee'; redraw(); };
-  ui.actions['tc-n'] = (el) => { form.n = Number(el.dataset.n) || 20; redraw(); };
+  ui.actions['tc-subj'] = (el) => { form.subj = el.dataset.v || el.dataset.subj; redraw(); };
+  ui.actions['tc-marking'] = (el) => { form.jee = (el.dataset.v || el.dataset.m) === 'jee'; redraw(); };
+  ui.actions['tc-n'] = (el) => { form.n = Number(el.dataset.v || el.dataset.n) || 20; redraw(); };
+  ui.actions['tc-all'] = (el) => { const c = countsFor(form.jee); ui.toggleGroup(form.sel, ui.groupIds(el.dataset.g, Object.keys(c), (id) => c[id] || 0)); redraw(); };
   ui.actions['tc-pick'] = (el) => {
     const id = el.dataset.id;
     if (form.sel.has(id)) form.sel.delete(id);
@@ -532,5 +533,5 @@
   function startCheckpoint(id) {
     return launch(() => TC.start('chapter', { chapters: [id], marking: 'cet', n: 10, checkpoint: true }));
   }
-  S.tcUI = { goAfterSheet: goAfterSheet, startChapterTest: startChapterTest, startCheckpoint: startCheckpoint, starterHtml: starterHtml, activeCard: activeCard, attemptsHtml: attemptsHtml };
+  S.tcUI = { goAfterSheet: goAfterSheet, startChapterTest: startChapterTest, startCheckpoint: startCheckpoint, starterHtml: starterHtml, builderDock: builderDock, activeCard: activeCard, attemptsHtml: attemptsHtml };
 })((window.SOS = window.SOS || {}));

@@ -18,7 +18,7 @@
   'use strict';
   const PREFIX = 'sos.v2.';
   const META_KEY = 'sos.meta';
-  const VERSION = 12;
+  const VERSION = 13;
 
   const DEFAULTS = {
     profile: () => ({
@@ -63,6 +63,7 @@
     // HSC Computer Science board practice (js/views-csboard.js), v10. done[qid] = { at: ISO date, got: marks she gave herself,
     // max: marks of the question, pts: [indexes of the model-answer points she ticked], pick: chosen option (mcq) }; saved = [qid].
     cs: () => ({ done: {}, saved: [], papers: {}, today: null }),
+    code: () => ({ lessons: {} }),
     // Exam dates (js/exams.js), v8. target = her own goal date for finishing the syllabus. list[] = { id, name, date,
     // windowText, status ('expected' | 'official'), note }. No MHT-CET date is fixed: the CET Cell has not published
     // one (news of 9 Oct 2026: not official). JEE Main dates come from the NTA bulletin of 24 Oct 2026 (v9); the HSC date is the one the app already had.

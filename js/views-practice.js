@@ -38,16 +38,10 @@
 
   function chapterPicker() {
     const all = withQ().filter((id) => (form.list === 'all' || D.CH[id].subj === form.list) && stdOk(id));
+    const n = (id) => S.practice.counts({ chapters: [id], type: form.type, diff: form.diff, only: form.only }).total;
     return (
-      '<div class="chips">' + [['all', 'All'], ['phy', 'Physics'], ['chem', 'Chemistry'], ['mth', 'Maths']].map((x) =>
-        '<button type="button" class="chip rip" aria-pressed="' + (form.list === x[0]) + '" data-act="pr-list" data-v="' + x[0] + '">' + x[1] + '</button>').join('') + '</div>' +
-      '<ul class="tcb-list">' + all.map((id) => {
-        const on = form.sel.has(id);
-        const n = S.practice.counts({ chapters: [id], type: form.type, diff: form.diff, only: form.only }).total;
-        return '<li><button class="tcb-ch rip" aria-pressed="' + on + '" data-act="pr-pick" data-id="' + id + '"><span class="tcb-tick">' + (on ? u.icon('check') : '') + '</span>' +
-          '<span class="tcb-name"><b>' + u.esc(D.CH[id].name) + '</b><small>' + NAMES[D.CH[id].subj] + ' · Class ' + D.CH[id].std + '</small></span><span class="tcb-n">' + n + ' Q</span></button></li>';
-      }).join('') + '</ul>' +
-      (form.sel.size ? '<button class="link" data-act="pr-clear">Clear ' + form.sel.size + ' chosen</button>' : '')
+      '<div class="ctl-row"><div class="ctl-g"><span class="field-l">Subject</span>' + ui.seg('pr-list', [{ v: 'all', t: 'All' }, { v: 'phy', t: 'Physics' }, { v: 'chem', t: 'Chemistry' }, { v: 'mth', t: 'Maths' }], form.list, ' aria-label="Subject"') + '</div></div>' +
+      ui.chapterSheet({ ids: all, sel: form.sel, count: n, act: 'pr-pick', allAct: 'pr-all', testid: 'pr-list' })
     );
   }
 
@@ -70,21 +64,27 @@
         ? '<div><span class="field-l">CET priority (A = most marks)</span>' + chips('pr-cat', ['A', 'B', 'C'].map((v) => ({ v: v, t: CAT_HELP[v] })), (v) => form.cat.has(v)) + '</div><div><span class="field-l">Subjects</span>' + subjChips + '</div><div><span class="field-l">Class</span>' + stdSeg + '</div>'
       : scope === 'done' ? '<p class="small muted">' + (P.doneChapters().length ? 'Every chapter you marked Done that has questions.' : 'None of your chapters is marked Done yet. Mark one in Study.') + '</p>'
       : '<div><span class="field-l">Class</span>' + stdSeg + '</div>';
+    const done = store.get('practice').items;
+    const right = done.reduce((t, it) => t + it.correct, 0);
+    const answered = done.reduce((t, it) => t + it.answered, 0);
     return (
-      '<div class="page"><header class="page-h"><div><h1 class="h1">Practice by topic</h1><p class="muted">No timer. One question at a time, with the full answer straight away.</p></div></header>' + resume +
-      '<div class="pr-grid"><div class="pr-col"><section class="card stack"><h2 class="h3">What do you want to practise?</h2>' +
-      '<div class="chips pr-scope" role="group" aria-label="Practise by">' + [['chapter', 'Chapters'], ['subject', 'Subject'], ['cat', 'CET wise'], ['all', 'Everything'], ['done', 'My done chapters']].map((x) =>
-        '<button type="button" class="chip rip" aria-pressed="' + (scope === x[0]) + '" data-act="pr-scope" data-v="' + x[0] + '">' + x[1] + '</button>').join('') + '</div>' +
-      scopeBody + '</section></div><div class="pr-col pr-side">' +
+      '<div class="page pr-page"><header class="paper-h"><div class="ph-t"><p class="ph-k">Exams · no timer</p><h1 class="h1">Practice by topic</h1><p class="ph-s">No timer. One question at a time, with the full answer straight away.</p></div>' +
+      '<div class="ph-f"><div><small>Sessions</small><b>' + done.length + '</b></div><div><small>Answered</small><b>' + answered + '</b></div><div><small>Right</small><b>' + (answered ? Math.round((100 * right) / answered) + '%' : '–') + '</b></div></div></header>' + resume +
+      '<div class="with-rail"><div class="stack">' +
+      '<section class="card stack tcb"><h2 class="h3">What to practise</h2>' +
+      '<div class="ctl-g"><span class="field-l">Practise by</span>' + ui.seg('pr-scope', [{ v: 'chapter', t: 'Chapters' }, { v: 'subject', t: 'Subject' }, { v: 'cat', t: 'Tier' }, { v: 'all', t: 'All' }, { v: 'done', t: 'Done' }], scope, ' aria-label="Practise by"') + '</div>' +
+      scopeBody + '</section></div>' +
+      '<aside class="rail">' +
+      '<div class="dock card pr-startcard"><p class="dock-sum" data-testid="pr-counts">' + (c.total ? '<b>' + c.total + ' questions</b> from ' + (chs.length === 1 ? u.esc(D.CH[chs[0]].name) : u.plural(chs.length, 'chapter')) + ' · ' + c.fresh + ' new · ' + c.missed + ' missed before' :
+        scope === 'chapter' && !form.sel.size ? 'Tick at least one chapter.' : 'No questions match. Try other filters.') + '</p>' +
+      '<button class="btn primary block rip" data-act="pr-start"' + (c.total ? '' : ' disabled') + ' data-testid="pr-start">' + u.icon('play') + 'Start practice' + (c.total ? ' (' + (Number(form.len) ? Math.min(Number(form.len), c.total) : c.total) + ')' : '') + '</button>' +
+      (form.sel.size && scope === 'chapter' ? '<button class="link" data-act="pr-clear">Clear ' + form.sel.size + ' chosen</button>' : '') + '</div>' +
       '<section class="card stack"><h2 class="h3">Narrow it down</h2>' +
-      '<div><span class="field-l">Difficulty</span>' + ui.seg('pr-diff', [{ v: 'all', t: 'All' }, { v: '1', t: 'Easy' }, { v: '2', t: 'Medium' }, { v: '3', t: 'Hard' }], form.diff) + '</div>' +
-      '<div><span class="field-l">Question type</span>' + ui.seg('pr-type', [{ v: 'mcq', t: 'MCQ' }, { v: 'num', t: 'Numerical' }, { v: 'both', t: 'Both' }], form.type) + '</div>' +
-      '<div><span class="field-l">Show</span>' + ui.seg('pr-only', [{ v: 'all', t: 'All' }, { v: 'new', t: 'New only' }, { v: 'missed', t: 'Missed before' }], form.only) + '</div>' +
-      '<div><span class="field-l">How many</span>' + ui.seg('pr-len', [{ v: '10', t: '10' }, { v: '20', t: '20' }, { v: '30', t: '30' }, { v: '50', t: '50' }, { v: '0', t: 'All' }], form.len) + '</div></section>' +
-      '<section class="card stack pr-startcard"><p class="small" data-testid="pr-counts">' + (c.total ? '<b>' + c.total + '</b> questions in ' + u.plural(chs.length, 'chapter') + ': ' + c.fresh + ' new · ' + c.missed + ' missed before · ' + (c.seen - c.missed) + ' answered right before' :
-        scope === 'chapter' && !form.sel.size ? 'Pick at least one chapter above.' : 'No questions match these choices. Try other filters.') + '</p>' +
-      '<button class="btn primary block rip" data-act="pr-start"' + (c.total ? '' : ' disabled') + ' data-testid="pr-start">' + u.icon('play') + 'Start practice' + (c.total ? ' (' + (Number(form.len) ? Math.min(Number(form.len), c.total) : c.total) + ')' : '') + '</button></section>' +
-      lastSessions() + '</div></div></div>'
+      '<div class="ctl-g"><span class="field-l">Difficulty</span>' + ui.seg('pr-diff', [{ v: 'all', t: 'All' }, { v: '1', t: 'Easy' }, { v: '2', t: 'Medium' }, { v: '3', t: 'Hard' }], form.diff) + '</div>' +
+      '<div class="ctl-g"><span class="field-l">Question type</span>' + ui.seg('pr-type', [{ v: 'mcq', t: 'MCQ' }, { v: 'num', t: 'Numerical' }, { v: 'both', t: 'Both' }], form.type) + '</div>' +
+      '<div class="ctl-g"><span class="field-l">Show</span>' + ui.seg('pr-only', [{ v: 'all', t: 'All' }, { v: 'new', t: 'New only' }, { v: 'missed', t: 'Missed' }], form.only) + '</div>' +
+      '<div class="ctl-g"><span class="field-l">How many</span>' + ui.seg('pr-len', [{ v: '10', t: '10' }, { v: '20', t: '20' }, { v: '30', t: '30' }, { v: '50', t: '50' }, { v: '0', t: 'All' }], form.len) + '</div></section>' +
+      lastSessions() + '</aside></div></div>'
     );
   }
 
@@ -223,6 +223,7 @@
   ui.actions['pr-list'] = (el) => { form.list = el.dataset.v; redo(); };
   ui.actions['pr-pick'] = (el) => { flip(form.sel, el.dataset.id, 0); redo(); };
   ui.actions['pr-clear'] = () => { form.sel.clear(); redo(); };
+  ui.actions['pr-all'] = (el) => { const n = (id) => S.practice.counts({ chapters: [id], type: form.type, diff: form.diff, only: form.only }).total; ui.toggleGroup(form.sel, ui.groupIds(el.dataset.g, withQ().filter(stdOk), n)); redo(); };
   ui.actions['pr-subj'] = (el) => { flip(form.subj, el.dataset.v, 1); redo(); };
   ui.actions['pr-cat'] = (el) => { flip(form.cat, el.dataset.v, 1); redo(); };
   ui.actions['pr-std'] = (el) => { form.std = el.dataset.v; redo(); };
