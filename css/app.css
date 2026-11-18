@@ -1621,3 +1621,12 @@ a.btn { text-decoration: none; }
 .cs-papers-card .h3 { font-size: 1.25rem; }
 .cs-papers-card { gap: var(--s3); }
 @media (min-width: 900px) { .cs-paper, .cs-q, .cs-list, .cs-index { max-width: 48rem; } }
+
+/* --- 8r. paper timer, sticky Previous/Next on a question, one draft chip on desktop --- */
+.cs-timer { display: flex; align-items: center; gap: var(--s3); flex-wrap: wrap; }
+.cs-clock { display: block; font-family: var(--font-display); font-weight: 600; font-size: 1.75rem; letter-spacing: .01em; font-variant-numeric: tabular-nums; }
+.cs-qclock { margin: 0; padding: .35rem .75rem; border-radius: 999px; align-self: flex-start; background: var(--sel); color: var(--on-sel); }
+.cs-qclock b { font-variant-numeric: tabular-nums; }
+.cs-q { display: flex; flex-direction: column; min-height: calc(100dvh - var(--bar-h) - var(--nav-h) - 4rem); }
+.cs-nav { position: sticky; bottom: calc(var(--nav-h) + 22px + var(--safe-b)); z-index: 5; margin-top: auto; padding: .5rem; border-radius: 22px; background: color-mix(in srgb, var(--bg, #fff) 90%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+@media (min-width: 900px) { .lw-draft { display: none; } }

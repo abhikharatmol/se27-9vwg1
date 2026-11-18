@@ -1,6 +1,9 @@
 /* views/csboard.js — HSC Computer Science board practice: #/csboard (the 9 chapters), #/csboard/<chapter> (its questions) and
  * #/csboard/<chapter>/<n> (one question, n = position in the chapter, from 1), #/csboard/papers (the printed board papers of March 2022 to 2024)
  * and #/csboard/papers/<id> (one paper: its parts with the choose-N rule; each question opens the model answer, ?p=<id> brings Back to the paper).
+ * A paper has an optional 3-hour exam timer (like the real paper). It is kept as an absolute end time in localStorage `sos.v2.csTimer`
+ * ({id, start, end}, outside the store like sos.v2.lastSent), so a locked screen or a closed app cannot make it drift; the time left is always
+ * worked out from the clock. The question screens of that paper show the time left too.
  * The questions are the board's own, kept as they were set (they come back year after year); each one says where it appeared.
  * The model answers and marking points are our own words. A 1-mark question is a multiple choice with a short reason. A 3, 4 or
  * 5-mark question is written on paper first; then she opens the model answer, ticks the points she wrote, and the marks are added.
@@ -72,6 +75,42 @@
     );
   }
 
+  /* ---------- 3-hour paper timer ---------- */
+  const TKEY = 'sos.v2.csTimer';
+  const PAPER_MS = 3 * 60 * 60 * 1000;
+  const timerGet = () => {
+    try { const t = JSON.parse(localStorage.getItem(TKEY) || 'null'); return t && typeof t.id === 'string' && t.end > 0 ? t : null; } catch (e) { return null; }
+  };
+  const timerSet = (t) => {
+    try { if (t) localStorage.setItem(TKEY, JSON.stringify(t)); else localStorage.removeItem(TKEY); } catch (e) { /* private mode: the timer then lives only in this page */ }
+    timerMem = t;
+  };
+  let timerMem = null;
+  const timer = () => timerGet() || timerMem;
+  const two = (n) => String(n).padStart(2, '0');
+  const clockText = (ms) => {
+    const s = Math.max(0, Math.ceil(ms / 1000));
+    return two(Math.floor(s / 3600)) + ':' + two(Math.floor((s % 3600) / 60)) + ':' + two(s % 60);
+  };
+  const usedText = (ms) => { const m = Math.round(Math.max(0, ms) / 60000); return Math.floor(m / 60) + ' h ' + two(m % 60) + ' min'; };
+  function timerCard(p) {
+    const t = timer();
+    const mine = t && t.id === p.id;
+    if (mine && Date.now() < t.end) {
+      return '<section class="card cs-timer" data-testid="cs-timer"><div class="grow"><small class="muted">Time left</small><b class="cs-clock" data-cs-clock="' + t.end + '" data-testid="cs-clock">' + clockText(t.end - Date.now()) + '</b></div>' +
+        '<button class="btn tonal rip" data-act="cs-timer-stop" data-testid="cs-tstop">Stop timer</button></section>';
+    }
+    return '<section class="card cs-timer" data-testid="cs-timer">' +
+      '<div class="grow"><b class="h3">' + (mine ? 'Time is up' : '3-hour timer') + '</b><p class="small muted">' + (mine ? 'The 3 hours are over. Mark yourself honestly, then start again if you want another try.' : 'Like the real paper: 3 hours for 50 marks. The clock keeps running if you close the app.') + '</p>' +
+      (t && !mine ? '<p class="small muted">Starting this stops the timer of another paper.</p>' : '') + '</div>' +
+      '<button class="btn tonal rip" data-act="cs-timer-start" data-id="' + u.esc(p.id) + '" data-testid="cs-tstart">' + (mine ? 'Start again' : 'Start the timer') + '</button></section>';
+  }
+  const clockChip = (pid) => {
+    const t = timer();
+    if (!t || t.id !== pid || Date.now() >= t.end) return '';
+    return '<p class="cs-qclock small" data-testid="cs-qclock">Time left <b data-cs-clock="' + t.end + '">' + clockText(t.end - Date.now()) + '</b></p>';
+  };
+
   /* ---------- board papers ---------- */
   const papers = () => S.CS_PAPERS || [];
   const paperQs = (p) => p.parts.reduce((a, pt) => a.concat(pt.qs), []);
@@ -120,7 +159,7 @@
       return '<section class="cs-part"><h2 class="h3">' + u.esc(pt.label) + '</h2>' + (pt.id === '5or' ? '<p class="small muted">This set is the alternative of Q.5: in the exam you answer one of the two sets.</p>' : '') + (pt.note ? '<p class="small muted">' + u.esc(pt.note) + '</p>' : '') + '<ul class="list">' + qs + '</ul></section>';
     }).join('');
     return '<div class="page cs-paper"><header class="page-h"><div><h1 class="h1">' + u.esc(p.title) + '</h1><p class="muted">' + u.esc(p.sub) + ' · ' + p.marks + ' marks · 3 hours</p></div></header>' +
-      '<section class="card"><b data-testid="cs-pscore">' + sc.got + ' of ' + p.marks + ' marks</b><p class="small muted">From the questions you have answered here (' + sc.tried + ' of ' + sc.total + '). In each "any" part, your best answers count.</p></section>' + parts + '</div>';
+      timerCard(p) + '<section class="card"><b data-testid="cs-pscore">' + sc.got + ' of ' + p.marks + ' marks</b><p class="small muted">From the questions you have answered here (' + sc.tried + ' of ' + sc.total + '). In each "any" part, your best answers count.</p></section>' + parts + '</div>';
   }
 
   /* ---------- one chapter: the list ---------- */
@@ -179,12 +218,12 @@
     const d = done()[q.id];
     const sv = saved().indexOf(q.id) >= 0;
     return (
-      '<div class="page tc-exam cs-q" data-id="' + u.esc(q.id) + '"><p class="small muted">' + (from ? u.esc(from.title) + ' · ' : '') + u.esc(D.CH[ch].name) + ' · question ' + n + ' of ' + all.length + '</p>' +
+      '<div class="page tc-exam cs-q" data-id="' + u.esc(q.id) + '"><p class="small muted">' + (from ? u.esc(from.title) + ' · ' : '') + u.esc(D.CH[ch].name) + ' · question ' + n + ' of ' + all.length + '</p>' + (from ? clockChip(from.id) : '') +
       '<section class="card cs-qcard"><p class="cs-meta">' + marksChip(q) + ' ' + srcChips(q) + '</p>' +
       '<p class="tc-stem cs-stem" data-testid="cs-stem">' + u.esc(q.q).replace(/\n/g, '<br>') + '</p></section>' +
       (q.kind === 'mcq' ? mcqHtml(q, d) : writtenHtml(q, d)) +
       '<div class="tc-acts"><button class="chip rip" data-act="cs-save" data-id="' + u.esc(q.id) + '" aria-pressed="' + sv + '" data-testid="cs-flag">' + u.icon(sv ? 'star-f' : 'star', 's') + (sv ? 'Saved' : 'Save to revisit') + '</button></div>' +
-      '<div class="row gap"><button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n - 1) + (pid ? '?p=' + pid : '') + '"' + (n > 1 ? '' : ' disabled') + '>' + u.icon('chev-l') + 'Previous</button>' +
+      '<div class="row gap cs-nav"><button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n - 1) + (pid ? '?p=' + pid : '') + '"' + (n > 1 ? '' : ' disabled') + '>' + u.icon('chev-l') + 'Previous</button>' +
       '<button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n + 1) + (pid ? '?p=' + pid : '') + '"' + (n < all.length ? '' : ' disabled') + '>Next' + u.icon('chev-r') + '</button></div></div>'
     );
   }
@@ -196,6 +235,13 @@
     pageTitle: (ctx) => (ctx.params[0] === 'papers' ? 'Board papers' : D.CH[ctx.params[0]] ? (Number(ctx.params[1]) ? 'Question ' + ctx.params[1] : D.CH[ctx.params[0]].name) : 'HSC Computer Science'),
     pageKicker: (ctx) => (D.CH[ctx.params[0]] ? 'HSC COMPUTER SCIENCE · PAPER ' + PAPER[ctx.params[0]] : ''),
     backHash: (cur) => (cur && cur.query && cur.query.p ? '#/csboard/papers/' + cur.query.p : cur && cur.params && cur.params[0] === 'papers' ? (cur.params[1] ? '#/csboard/papers' : '#/csboard') : cur && cur.params && cur.params[1] ? '#/csboard/' + cur.params[0] : '#/csboard'),
+    tick() {
+      document.querySelectorAll('[data-cs-clock]').forEach((el) => {
+        const left = Number(el.dataset.csClock) - Date.now();
+        el.textContent = clockText(left);
+        if (left <= 0 && !el.dataset.csDone) { el.dataset.csDone = '1'; ui.toast('Time is up'); S.app.refresh(true); }
+      });
+    },
     render(root, ctx) {
       const ch = ctx.params[0];
       if (!ch) {
@@ -266,5 +312,17 @@
     S.app.refresh(true);
   };
 
-  S.csboard = { chapters: chapters, doneCount: doneCount };
+  ui.actions['cs-timer-start'] = (el) => {
+    timerSet({ id: el.dataset.id, start: Date.now(), end: Date.now() + PAPER_MS });
+    ui.toast('Timer started: 3 hours');
+    S.app.refresh(true);
+  };
+  ui.actions['cs-timer-stop'] = () => {
+    const t = timer();
+    timerSet(null);
+    ui.toast(t ? 'Stopped. Time used: ' + usedText(Date.now() - t.start) : 'Stopped');
+    S.app.refresh(true);
+  };
+
+  S.csboard = { chapters: chapters, doneCount: doneCount, clockText: clockText, PAPER_MS: PAPER_MS };
 })((window.SOS = window.SOS || {}));
