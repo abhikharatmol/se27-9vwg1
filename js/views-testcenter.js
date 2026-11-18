@@ -299,7 +299,7 @@
       '<div class="tc-grid"><div class="tc-main"><section class="card stack tc-qcard">' + questionHtml(a) + '</section>' + nextSecNote + '</div>' +
       '<aside class="tc-side card tc-palcard" aria-label="Question palette"><div class="row-between"><h2 class="h3">Questions</h2><span class="small muted">' + counts.a + ' answered · ' + counts.m + ' marked · ' + counts.un + ' left</span></div>' + palette(a) + '</aside></div>' +
       '<div class="tc-bar"><button class="btn tonal sm rip" data-act="tc-prev" aria-label="Previous question"' + (at <= 0 ? ' disabled' : '') + '>' + u.icon('chev-l') + '</button>' +
-      '<button class="btn outline sm rip tc-qbtn" data-act="tc-pal-open" data-testid="tc-pal-open">' + u.icon('grid') + '<span>' + (at + 1) + ' of ' + idx.length + ' · ' + counts.a + ' answered</span></button>' +
+      '<button class="btn outline sm rip tc-qbtn" data-act="tc-pal-open" data-testid="tc-pal-open">' + u.icon('grid') + '<span>' + (at + 1) + '/' + idx.length + ' · ' + counts.a + ' done</span></button>' +
       '<button class="btn primary sm rip" data-act="tc-next" data-testid="tc-next">' + (at < idx.length - 1 ? 'Save & next' : 'Save') + u.icon('chev-r') + '</button></div>' +
       '</div>'
     );

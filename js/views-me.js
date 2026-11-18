@@ -71,7 +71,7 @@
         '<section class="card stack"><h2 class="h3">Daily targets</h2><div class="row gap">' +
         ui.field('Study hours', '<input type="number" inputmode="decimal" min="1" max="16" step="0.5" value="' + p.hours + '" data-change="pf-hours">') +
         ui.field('Questions', '<input type="number" inputmode="numeric" min="10" max="500" step="10" value="' + p.mcq + '" data-change="pf-mcq">') + '</div>' +
-        '<p class="small muted">A day counts for your streak when you log 1 hour, solve 30 questions, or complete the planner day.</p></section>' +
+        '<p class="small muted">A day counts for your streak when you log 1 hour, solve 30 questions, answer 3 HSC CS board questions (today\'s set), or complete the planner day.</p></section>' +
         ex +
         (store.coach.active
           ? '<section class="card stack"><h2 class="h3">Your data</h2><p class="small muted">You are viewing ' + u.esc(store.coach.name) + '&rsquo;s results (read-only). This phone&rsquo;s own data is untouched. Use Exit at the top to go back.</p></section>'

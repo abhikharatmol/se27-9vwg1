@@ -96,6 +96,7 @@
   u.haptic = (kind) => {
     const p = S.store && S.store.get('profile');
     if (!p || !p.haptics || !navigator.vibrate) return;
+    if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return; // before the first tap the browser blocks it and logs an error
     try {
       navigator.vibrate(kind === 'ok' ? [12, 40, 12] : kind === 'warn' ? [30] : 8);
     } catch (e) {

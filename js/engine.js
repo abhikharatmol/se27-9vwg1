@@ -86,6 +86,7 @@
         d.subj[k] = Math.max(0, (d.subj[k] || 0) + o.min);
       }
       if (o.mcq) d.mcq = Math.max(0, d.mcq + o.mcq);
+      if (o.cs) d.cs = Math.max(0, (d.cs || 0) + o.cs); // HSC CS board questions answered that day
     });
   };
   E.day = (iso) => store.get('analytics').log[iso] || { min: 0, mcq: 0, subj: {} };
@@ -157,12 +158,14 @@
   };
 
   /* ---------- streaks & totals ---------- */
+  const CS_DAY = 3; // HSC CS board questions that make a study day (the size of today's set)
+  E.CS_DAY = CS_DAY;
   function activeDays() {
     const a = store.get('analytics').log;
     const p = store.get('planner').days;
     const set = {};
     Object.keys(a).forEach((d) => {
-      if (a[d].min >= 60 || a[d].mcq >= 30) set[d] = 1;
+      if (a[d].min >= 60 || a[d].mcq >= 30 || (a[d].cs || 0) >= CS_DAY) set[d] = 1;
     });
     Object.keys(p).forEach((d) => {
       if (p[d].done) set[d] = 1;

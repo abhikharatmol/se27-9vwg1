@@ -34,7 +34,7 @@
       return '<div class="cd" data-testid="cd-' + e.id + '"><span class="cd-n">' + big + (c.kind === 'days' ? '<small>' + (c.n === 1 ? 'day' : 'days') + '</small>' : '') + '</span>' +
         '<span class="cd-l">' + u.esc(label) + '</span><span class="cd-d">' + u.esc(u.dateShort(e.date)) + ' · ' + u.esc(tag) + '</span></div>';
     }).join('');
-    return out ? '<button class="cds card rip" data-act="go" data-to="#/plan" aria-label="Exam countdown, open Exam plan" data-testid="home-plan">' + out + '</button>' : '';
+    return out ? '<button class="cds card rip" data-act="go" data-to="#/plan" data-testid="home-plan">' + out + '<span class="sr-only">Open Exam plan</span></button>' : '';
   }
 
   // Her own syllabus goal (a date in Profile), shown on the Planner.
@@ -77,13 +77,20 @@
   }
 
   // Streak and today's study time as a quiet line (the streak is hidden until she has one).
+  function lastTest() {
+    const items = (store.get('attempts').items || []).filter((a) => a.status === 'submitted' && a.maxScore > 0);
+    items.sort((a, b) => (b.submittedAt || 0) - (a.submittedAt || 0));
+    return items[0] || null;
+  }
   function statRow(tp) {
     const sk = E.streak();
-    if (!(sk.current > 0) && !(tp.minutes > 0)) return ''; // nothing to show yet: keep the first screen for the Next-up card
+    const lt = lastTest();
+    if (!(sk.current > 0) && !(tp.minutes > 0) && !lt) return ''; // nothing to show yet: keep the first screen for the Next-up card
     return (
       '<p class="stats-line" aria-label="Streak and study time" data-testid="home-stats">' +
       (sk.current > 0 ? '<button class="stat rip" data-act="go" data-to="#/analytics">' + u.icon('flame', 's') + '<span class="tn">' + sk.current + '-day streak</span></button>' : '') +
-      '<button class="stat rip" data-act="go" data-to="#/analytics">' + u.icon('clock', 's') + '<span class="tn">' + u.fmtHours(tp.minutes) + ' today</span></button></p>'
+      '<button class="stat rip" data-act="go" data-to="#/analytics">' + u.icon('clock', 's') + '<span class="tn">' + u.fmtHours(tp.minutes) + ' today</span></button>' +
+      (lt ? '<button class="stat stat-ink rip" data-act="go" data-to="#/result/' + u.esc(lt.id) + '" data-testid="home-last-test"><span class="muted">Last test</span><b class="ink-ring tn">' + lt.score + '/' + lt.maxScore + '</b></button>' : '') + '</p>'
     );
   }
 
@@ -232,7 +239,7 @@
       const t = u.today();
       const day = D.PLAN_BY_DATE[t];
       const before = t < D.PLAN_START;
-      const dayLine = day ? 'Day ' + day.n + ' of ' + D.PLAN.length : before ? 'Plan starts in ' + u.plural(u.diffDays(D.PLAN_START, t), 'day') : 'Your 90-day plan is complete';
+      const dayLine = day ? '<span class="ink-under">Day ' + day.n + '</span> of ' + D.PLAN.length : before ? 'Plan starts in ' + u.plural(u.diffDays(D.PLAN_START, t), 'day') : 'Your 90-day plan is complete';
       const tp = E.todayProgress();
       root.innerHTML =
         '<div class="page home">' + S.app.updateBannerHtml() +

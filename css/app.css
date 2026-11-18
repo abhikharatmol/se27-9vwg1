@@ -1714,3 +1714,92 @@ a.btn { text-decoration: none; }
 .cd-page select { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 .cs-paper .card b.h3 { font-size: 1.0625rem; }
 .cs-paper .card.cs-untimed b { font-family: var(--font-body); font-size: 1rem; font-weight: 600; }
+
+/* --- 9. Signature: examiner's ink (design/DESIGN.md, round 2026-11-18). The purple tokens are unchanged; everything here is built
+   from them, so light and dark both work. A question card looks like a board answer sheet (red margin rule, faint ruled lines),
+   and marks are shown the way a teacher marks a paper: a hand-drawn tick or cross, and the score circled in ink. --- */
+:root { --paper: var(--surface-solid); --rule: color-mix(in srgb, var(--pri) 9%, transparent); --margin: color-mix(in srgb, var(--bad) 45%, transparent);
+  --ink-tick: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3.5 13.2c2 1.3 3.6 3.2 5 5.6C11.7 12.3 15.6 7.3 20.8 3.6' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); --ink-cross: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 5.5c4.4 3.9 9 8.6 13.6 13.3M18.6 4.6C14 8.7 9.4 13.6 5.2 19' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.cs-qcard, .tc-exam .tc-stem:not(.cs-stem) {
+  position: relative; background-color: var(--paper); border-radius: var(--r-md);
+  padding: .75rem var(--s4) .75rem 2.6rem;
+  background-image: linear-gradient(var(--margin), var(--margin)), repeating-linear-gradient(to bottom, transparent 0, transparent calc(1.75rem - 1px), var(--rule) calc(1.75rem - 1px), var(--rule) 1.75rem);
+  background-repeat: no-repeat, repeat; background-size: 2px 100%, 100% 1.75rem; background-position: 1.9rem 0, 0 .75rem;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.tc-exam .tc-stem:not(.cs-stem) { line-height: 1.75rem; margin: 0; }
+.cs-qcard .cs-stem { line-height: 1.75rem; }
+/* ink marks: drawn with a mask so they take the status colour of the theme */
+.opt.right::after, .opt.wrong::after, .ink-tick, .ink-cross { content: ""; flex: none; width: 1.75rem; height: 1.75rem; margin-left: auto; background: var(--ok); -webkit-mask: var(--ink-tick) center / contain no-repeat; mask: var(--ink-tick) center / contain no-repeat; animation: ink-draw .28s ease-out both; }
+.opt.wrong::after, .ink-cross { background: var(--bad); -webkit-mask-image: var(--ink-cross); mask-image: var(--ink-cross); }
+.verdict.is-ok b::before, .verdict.is-bad b::before, .cs-why-ok::before, .cs-why-bad::before { content: ""; display: inline-block; width: 1.35em; height: 1.35em; margin-right: .35rem; vertical-align: -.3em; background: var(--ok); -webkit-mask: var(--ink-tick) center / contain no-repeat; mask: var(--ink-tick) center / contain no-repeat; animation: ink-draw .28s ease-out both; }
+.verdict.is-bad b::before, .cs-why-bad::before { background: var(--bad); -webkit-mask-image: var(--ink-cross); mask-image: var(--ink-cross); }
+.cs-pt input:checked + span::after { content: ""; display: inline-block; width: 1.15em; height: 1.15em; margin-left: .3rem; vertical-align: -.2em; background: var(--ok); -webkit-mask: var(--ink-tick) center / contain no-repeat; mask: var(--ink-tick) center / contain no-repeat; animation: ink-draw .28s ease-out both; }
+.cs-pt input[type="checkbox"] { accent-color: var(--ok); }
+/* the score circled in examiner's ink */
+.score-big b, .cs-got b, .cs-best .cs-clock { position: relative; display: inline-block; font-variant-numeric: tabular-nums; }
+.score-big b::after, .cs-got b::after, .cs-best .cs-clock::after { content: ""; position: absolute; inset: -.22em -.5em -.18em -.45em; border: 2.5px solid var(--bad); border-radius: 48% 52% 44% 56% / 58% 42% 58% 42%; transform: rotate(-4deg); opacity: .85; pointer-events: none; animation: ink-ring .4s ease-out both; }
+.cs-got { padding-left: .5rem; }
+.cs-best .cs-clock { margin-left: .45rem; align-self: flex-start; }
+@keyframes ink-draw { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes ink-ring { from { clip-path: circle(0 at 0 50%); } to { clip-path: circle(150% at 0 50%); } }
+[data-motion="reduce"] .opt.right::after, [data-motion="reduce"] .opt.wrong::after, [data-motion="reduce"] .verdict b::before, [data-motion="reduce"] .cs-pt input:checked + span::after,
+[data-motion="reduce"] .score-big b::after, [data-motion="reduce"] .cs-got b::after, [data-motion="reduce"] .cs-best .cs-clock::after { animation: none; }
+@media (prefers-reduced-motion: reduce) { .opt.right::after, .opt.wrong::after, .verdict b::before, .cs-pt input:checked + span::after, .score-big b::after, .cs-got b::after, .cs-best .cs-clock::after { animation: none; } }
+@media print { .cs-qcard, .tc-exam .tc-stem:not(.cs-stem) { background-image: none; } }
+
+/* screen-reader-only text */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+/* hover response on devices with a pointer (Material state layer in the primary colour) */
+@media (hover: hover) and (pointer: fine) {
+  .lrow:hover, .opt:not(:disabled):hover, .chip:hover, .cd-key:hover, .ptab:hover, .seg button:hover, .cs-topic > summary:hover, .cs-ready:hover, .cs-revise:hover, .cds:hover, .sb-item:hover, .sb-page:hover, .tab:hover {
+    background-image: linear-gradient(color-mix(in srgb, var(--pri) 8%, transparent), color-mix(in srgb, var(--pri) 8%, transparent));
+  }
+  .btn:not(:disabled):hover { filter: brightness(1.04); box-shadow: 0 1px 3px color-mix(in srgb, var(--pri) 30%, transparent); }
+  .link:hover { text-decoration: underline; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .cds:hover, .lrow:hover, .cs-ready:hover, .cs-revise:hover, .cs-topic > summary:hover { box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--pri) 28%, transparent); }
+  .sb-item:hover, .sb-page:hover, .tab:hover, .ptab:hover, .chip:hover, .cd-key:hover { color: var(--pri); }
+}
+@media (hover: hover) and (pointer: fine) { .rec:hover { box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--pri) 28%, transparent); } }
+
+/* --- 9b. examiner's ink, round 2 (critic): pen-stroke marks in the margin, a hand-drawn score ring, sheet holds only the question --- */
+:root { --ink-tick: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2 12.6l2.6-1.7c1.9 1.6 3.4 3.5 4.7 5.8C12.2 10 16 5.4 21.3 1.8l1.2 1.4c-4.8 4.2-8.6 9.6-11.6 17.5l-2.4.3C7.1 17.4 5 15 2 12.6z'/%3E%3C/svg%3E"); --ink-cross: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3.6 4.2l1.9-1.6c4.6 4.2 9.4 8.9 14.9 15.6l-1.8 1.9C13.1 13.6 8.4 8.6 3.6 4.2zM19.6 2.9l1.8 1.5C16.9 9.3 12.3 14.9 6.1 21.6l-2-1.5C9.9 13.8 14.8 8.2 19.6 2.9z'/%3E%3C/svg%3E"); --ink-ring: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 60' preserveAspectRatio='none'%3E%3Cpath d='M30 9C55 1 98 3 112 19c10 12-2 30-31 35C52 59 17 55 8 41 0 28 13 13 39 7c9-2 20-3 28-2' fill='none' stroke='%23000' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.cs-qhead { display: flex; flex-direction: column; gap: .4rem; }
+.cs-qhead .cs-meta, .cs-qhead .cs-topicline { margin: 0; }
+.tc-qcard .tc-stem:not(.cs-stem) { box-shadow: none; }
+/* the mark sits in the margin of the option, like an examiner's tick beside an answer */
+.opt.right, .opt.wrong { overflow: visible; }
+.opt.right::after, .opt.wrong::after { position: absolute; left: -.7rem; top: 50%; width: 2.1rem; height: 2.1rem; margin: 0; transform: translateY(-55%) rotate(-6deg); -webkit-mask-size: contain; mask-size: contain; }
+.opt.wrong::after { transform: translateY(-50%) rotate(4deg); width: 1.9rem; height: 1.9rem; }
+.opt.right .let, .opt.wrong .let { margin-left: .6rem; }
+/* the self-marking tick stays with its "(1 mark)" */
+.cs-pt input:checked + span::after { content: none; }
+.cs-pt small { white-space: nowrap; }
+.cs-pt input:checked + span small::after { content: ""; display: inline-block; width: 1.2em; height: 1.2em; margin-left: .3rem; vertical-align: -.25em; background: var(--ok); -webkit-mask: var(--ink-tick) center / contain no-repeat; mask: var(--ink-tick) center / contain no-repeat; animation: ink-draw .28s ease-out both; }
+/* the score ring: an open pen stroke with an overlap, drawn round a padded number so it never touches the digits */
+.score-big b, .cs-got b, .cs-best .cs-clock, .ink-ring { position: relative; display: inline-block; padding: .08em .38em; font-variant-numeric: tabular-nums; }
+.score-big b::after, .cs-got b::after, .cs-best .cs-clock::after, .ink-ring::after { content: ""; position: absolute; inset: -.28em -.42em -.3em -.4em; border: 0; border-radius: 0; background: var(--bad); -webkit-mask: var(--ink-ring) center / 100% 100% no-repeat; mask: var(--ink-ring) center / 100% 100% no-repeat; transform: rotate(-3deg); opacity: .9; pointer-events: none; animation: ink-ring .45s ease-out both; }
+.score-big { gap: .7rem; }
+.cs-got { padding-left: .35rem; }
+.cs-best .cs-clock { margin: .2rem 0 .1rem .3rem; }
+.stat-ink { gap: .4rem; }
+.stat-ink .ink-ring { font-weight: 700; color: var(--text); margin: 0 .25rem; }
+[data-motion="reduce"] .ink-ring::after, [data-motion="reduce"] .cs-pt input:checked + span small::after { animation: none; }
+@media (prefers-reduced-motion: reduce) { .ink-ring::after, .cs-pt input:checked + span small::after { animation: none; } }
+/* Previous / Next: static once the answer is shown; toasts sit above the floating row */
+.cs-nav.is-static { position: static; background: none; backdrop-filter: none; -webkit-backdrop-filter: none; padding: 0; margin-top: var(--s4); }
+body:has(.cs-nav:not(.is-static)) .toast { bottom: calc(10px + var(--nav-h) + 5.5rem + var(--safe-b)); }
+
+/* --- 9c. examiner's ink, round 3 (critic) --- */
+:root { --ink-under: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6.5C20 3.8 45 3 70 4.2c10 .5 19 1.4 27 2.6' fill='none' stroke='%23000' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.ink-under { position: relative; display: inline-block; color: var(--text); font-weight: 700; }
+.ink-under::after { content: ""; position: absolute; left: -.1em; right: -.15em; bottom: -.32em; height: .45em; background: var(--bad); -webkit-mask: var(--ink-under) center / 100% 100% no-repeat; mask: var(--ink-under) center / 100% 100% no-repeat; opacity: .85; animation: ink-draw .4s ease-out both; }
+[data-motion="reduce"] .ink-under::after { animation: none; }
+@media (prefers-reduced-motion: reduce) { .ink-under::after { animation: none; } }
+.cs-got b { padding: .14em .55em; margin-right: .4em; }
+.cs-got b::after { inset: -.32em -.5em -.34em -.48em; }
+.cs-yr { box-shadow: none; padding: 0 .15rem; font-weight: 500; color: var(--text-3); background: none; border-radius: 0; }
+.cs-yr.on { background: none; color: var(--text); font-weight: 700; box-shadow: inset 0 -2px 0 color-mix(in srgb, var(--bad) 75%, transparent); }
+.ink-under::after { bottom: -.24em; height: .34em; right: -.05em; }

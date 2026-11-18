@@ -123,6 +123,10 @@
   function examOn() {
     return current.name === 'exam' && S.tc && S.tc.active() ? S.tc.active() : null;
   }
+  // A question is being answered (a CS board question, a practice question): toasts would cover the answer, so badges wait.
+  function questionOn() {
+    return (current.name === 'csboard' && !!Number(current.params[1])) || (current.name === 'practice' && !!(store.get('practice') || {}).active);
+  }
 
   // Coach view (Phase 5): persistent banner on every route while browsing a file she sent,
   // so it is never mistaken for this device's own data. Runs every render (see chrome()
@@ -229,7 +233,7 @@
     current = next;
     if (/^#\/(more)(\/|\?|$)/.test(location.hash)) history.replaceState(null, '', current.hash); // an old address shows its new one
     examRouteLeft(prevName, current.name);
-    if (prevName === 'exam' && current.name !== 'exam') checkBadges();
+    if ((prevName === 'exam' && current.name !== 'exam') || prevName === 'csboard' || prevName === 'practice') checkBadges();
     lastRenderedHash = current.hash;
     render(true);
     u.$('#main').focus({ preventScroll: true });
@@ -368,7 +372,7 @@
 
   /* ---------- achievements ---------- */
   const checkBadges = u.debounce(() => {
-    if (examOn()) return; // never during a timed test; the check runs again when she leaves it
+    if (examOn() || questionOn()) return; // never over a test or a question; the check runs again when she leaves it
     const fresh = E.checkBadges();
     if (!fresh.length) return;
     u.haptic('ok');

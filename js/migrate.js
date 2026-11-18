@@ -320,6 +320,12 @@
     },
     // v10 -> v11: additive only. The `cs` domain gets `papers` (timed paper attempts: {paperId: [{start, used, got, tried}]})
     // and `today` (the CS questions picked for today: {date, ids}). Answers and saved questions are kept as they are.
+    // v11 -> v12: additive only. A day in analytics.log may carry `cs` (HSC CS board questions answered that day; 3 make a streak day).
+    // Older days simply have no `cs`, which counts as 0, so there is nothing to convert.
+    12: (all) => {
+      if (!isObj(all.analytics)) return;
+      if (!isObj(all.analytics.log)) all.analytics.log = {};
+    },
     11: (all) => {
       if (!isObj(all.cs)) all.cs = { done: {}, saved: [] };
       if (!isObj(all.cs.papers)) all.cs.papers = {};

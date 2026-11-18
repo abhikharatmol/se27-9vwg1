@@ -18,7 +18,7 @@
   'use strict';
   const PREFIX = 'sos.v2.';
   const META_KEY = 'sos.meta';
-  const VERSION = 11;
+  const VERSION = 12;
 
   const DEFAULTS = {
     profile: () => ({

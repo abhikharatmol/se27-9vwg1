@@ -123,7 +123,7 @@
     const n = ids.filter((id) => done()[id] && done()[id].at === t).length;
     const all = n >= ids.length;
     return '<section class="card cs-today" data-testid="cs-today"><div class="cs-today-h"><h2 class="h3">Today\'s set</h2><span class="cs-count" data-testid="cs-today-n">' + n + ' of ' + ids.length + ' done</span></div>' +
-      (all ? '<p class="cs-win" data-testid="cs-today-done">' + u.icon('check-c') + 'Done for today. That is real progress: come back tomorrow for the next set.</p>' : '<p class="small muted">About 15 minutes. Write the answers on paper, then mark yourself.</p>') +
+      (all ? '<p class="cs-win" data-testid="cs-today-done">' + u.icon('check-c') + 'Done for today: this counts as a study day for your streak. Come back tomorrow for the next set.</p>' : '<p class="small muted">About 15 minutes. Write the answers on paper, then mark yourself.</p>') +
       '<ul class="list">' + rows + '</ul>' +
       (nf ? '<button class="btn primary block rip" data-act="go" data-to="#/csboard/' + nf.ch + '/' + nf.n + '" data-testid="cs-today-go">' + u.icon('play') + (n ? 'Next: question ' + (n + 1) + ' of ' + ids.length : 'Start today\'s set') + '</button>' : '') + '</section>';
   }
@@ -339,7 +339,7 @@
       return '<button class="opt rip' + cls + '" role="radio" aria-checked="' + (locked && d.pick === k) + '" data-act="cs-opt" data-v="' + k + '"' + (locked ? ' disabled' : '') + '><span class="let">' + 'ABCD'[k] + '</span><span class="ot">' + u.esc(o) + '</span></button>';
     }).join('') + '</div>' +
       (again ? '<p class="small muted" data-testid="cs-again">' + (timed ? 'Timed attempt: answer it again.' : 'Revise again: last time this was wrong. Pick your answer.') + '</p>' : '') +
-      (locked ? '<div class="tc-sol sol" data-testid="cs-why"><b class="small">' + (d.pick === q.ans ? 'Correct' : 'Not quite') + '</b><p>' + u.esc(q.why) + '</p>' +
+      (locked ? '<div class="tc-sol sol" data-testid="cs-why"><b class="small ' + (d.pick === q.ans ? 'cs-why-ok' : 'cs-why-bad') + '">' + (d.pick === q.ans ? 'Correct' : 'Not quite') + '</b><p>' + u.esc(q.why) + '</p>' +
         (d.pick !== q.ans ? '<p class="small muted">It will come back in Revise again in 2 days.</p>' : '') + '</div>' : '');
   }
   function writtenHtml(q, d) {
@@ -373,12 +373,12 @@
     const t = topicOf(q.id);
     return (
       '<div class="page tc-exam cs-q" data-id="' + u.esc(q.id) + '"><p class="small muted">' + (from ? u.esc(from.title) + ' · ' : '') + u.esc(D.CH[ch].name) + ' · question ' + n + ' of ' + all.length + '</p>' + (from ? clockChip(from.id) : '') +
-      '<section class="card cs-qcard"><p class="cs-meta">' + marksChip(q) + ' ' + srcChips(q) + '</p>' +
-      (t && t.yrs.length ? '<p class="cs-topicline small">' + yearsChips(t) + '<span>' + u.esc(t.t) + ' (filled year = asked in that paper)</span></p>' : '') +
-      '<p class="tc-stem cs-stem" data-testid="cs-stem">' + u.esc(q.q).replace(/\n/g, '<br>') + '</p></section>' +
+      '<div class="cs-qhead"><p class="cs-meta">' + marksChip(q) + ' ' + srcChips(q) + '</p>' +
+      (t && t.yrs.length ? '<p class="cs-topicline small">' + yearsChips(t) + '<span>' + u.esc(t.t) + ' (underlined year = asked in that paper)</span></p>' : '') + '</div>' +
+      '<section class="cs-qcard"><p class="tc-stem cs-stem" data-testid="cs-stem">' + u.esc(q.q).replace(/\n/g, '<br>') + '</p></section>' +
       (q.kind === 'mcq' ? mcqHtml(q, d) : writtenHtml(q, d)) +
       '<div class="tc-acts"><button class="chip rip" data-act="cs-save" data-id="' + u.esc(q.id) + '" aria-pressed="' + sv + '" data-testid="cs-flag">' + u.icon(sv ? 'star-f' : 'star', 's') + (sv ? 'Saved' : 'Save to revisit') + '</button></div>' +
-      '<div class="row gap cs-nav"><button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n - 1) + (pid ? '?p=' + pid : '') + '"' + (n > 1 ? '' : ' disabled') + '>' + u.icon('chev-l') + 'Previous</button>' +
+      '<div class="row gap cs-nav' + ((q.kind === 'mcq' ? !!d && !isDue(q.id) && !timedOpen(q) : !!(draft[q.id] && draft[q.id].shown)) ? ' is-static' : '') + '"><button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n - 1) + (pid ? '?p=' + pid : '') + '"' + (n > 1 ? '' : ' disabled') + '>' + u.icon('chev-l') + 'Previous</button>' +
       '<button class="btn tonal grow rip" data-act="go" data-to="#/csboard/' + ch + '/' + (n + 1) + (pid ? '?p=' + pid : '') + '"' + (n < all.length ? '' : ' disabled') + '>Next' + u.icon('chev-r') + '</button></div></div>'
     );
   }
@@ -390,6 +390,7 @@
     isPushed: (ctx) => !!ctx.params[0],
     pageTitle: (ctx) => (SPECIAL[ctx.params[0]] || (D.CH[ctx.params[0]] ? (Number(ctx.params[1]) ? 'Question ' + ctx.params[1] : D.CH[ctx.params[0]].name) : 'HSC Computer Science')),
     pageKicker: (ctx) => (D.CH[ctx.params[0]] ? 'HSC COMPUTER SCIENCE · PAPER ' + PAPER[ctx.params[0]] : ''),
+    leave() { if (badgesLater && S.engine && S.engine.checkBadges) { badgesLater = false; setTimeout(() => S.engine.checkBadges(), 300); } },
     backHash: (cur) => (cur && cur.query && cur.query.p && papers().some((x) => x.id === cur.query.p) ? '#/csboard/papers/' + cur.query.p : cur && cur.params && cur.params[0] === 'papers' ? (cur.params[1] ? '#/csboard/papers' : '#/csboard') : cur && cur.params && cur.params[1] ? '#/csboard/' + cur.params[0] : '#/csboard'),
     tick() {
       document.querySelectorAll('[data-cs-clock]').forEach((el) => {
@@ -424,13 +425,18 @@
     return items(h.ch)[h.n - 1];
   };
   // save an answer; the first answer to a question also counts as study for the day (streak, study time, badges)
+  let badgesLater = false;
   function record(q, rec) {
-    const first = !done()[q.id];
+    const prev = done()[q.id];
+    const first = !prev;
+    const newToday = !prev || prev.at !== u.today(); // counts once a day per question, for the streak
     store.mutate('cs', (c) => { c.done[q.id] = Object.assign({ at: u.today(), t: Date.now(), max: q.marks }, rec); });
-    if (first && S.engine) {
-      if (q.kind === 'mcq') S.engine.logStudy({ mcq: 1 });
-      else S.engine.logStudy({ min: R.minutesFor(q.marks), subj: 'cs' });
-      if (S.engine.checkBadges) S.engine.checkBadges();
+    if (S.engine && newToday) {
+      const o = { cs: 1 };
+      if (first && q.kind === 'mcq') o.mcq = 1;
+      if (first && q.kind !== 'mcq') { o.min = R.minutesFor(q.marks); o.subj = 'cs'; }
+      S.engine.logStudy(o);
+      badgesLater = true; // shown when she leaves the question, not over it
     }
   }
   function cheer(q) {
@@ -454,7 +460,8 @@
     if (prev && !isDue(q.id) && !timedOpen(q)) return;
     const k = Number(el.dataset.v);
     record(q, { got: k === q.ans ? 1 : 0, pick: k });
-    ui.toast(cheer(q));
+    const tod = cs().today;
+    if (tod && tod.date === u.today() && tod.ids.indexOf(q.id) >= 0) ui.toast(cheer(q).replace(/^(Correct|Saved, it will come back)\. /, ''));
     S.app.refresh(true);
   };
   ui.actions['cs-show'] = () => {
