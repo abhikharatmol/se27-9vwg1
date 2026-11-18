@@ -230,6 +230,10 @@
     st.streak = sk.current;
     st.bestStreak = sk.best;
     st.thermo = chapters['phy-12-04'] && isDone(chapters['phy-12-04'].s) ? 1 : 0;
+    const cs = store.get('cs') || {};
+    st.csDone = Object.keys(cs.done || {}).length; // HSC CS board questions answered
+    st.csTimed = Object.keys(cs.papers || {}).reduce((n, k) => n + (cs.papers[k] || []).length, 0); // timed board papers finished
+    st.csTimedPapers = Object.keys(cs.papers || {}).filter((k) => (cs.papers[k] || []).length).length;
     return st;
   };
 
@@ -463,6 +467,10 @@
     { id: 'chem', title: 'Completed Chemistry', desc: 'Finish every Chemistry chapter', tier: 'gold', icon: 'flask', val: allDone('chem'), target: D.BY_SUBJECT.chem.length },
     { id: 'maths', title: 'Completed Maths', desc: 'Finish every Maths chapter', tier: 'gold', icon: 'sigma', val: allDone('mth'), target: D.BY_SUBJECT.mth.length },
     { id: 'cs', title: 'Completed CS', desc: 'Finish every CS chapter', tier: 'gold', icon: 'code', val: allDone('cs'), target: D.BY_SUBJECT.cs.length },
+    { id: 'cs25', title: '25 board questions', desc: 'Answer 25 HSC Computer Science board questions', tier: 'bronze', icon: 'code', val: (s) => s.csDone || 0, target: 25 },
+    { id: 'cs150', title: '150 board questions', desc: 'Answer 150 HSC Computer Science board questions', tier: 'silver', icon: 'code', val: (s) => s.csDone || 0, target: 150 },
+    { id: 'cspaper1', title: 'First timed paper', desc: 'Finish a CS board paper with the 3-hour timer', tier: 'bronze', icon: 'timer', val: (s) => s.csTimed || 0, target: 1 },
+    { id: 'cspaper6', title: 'All six papers', desc: 'Finish all six CS board papers with the timer', tier: 'gold', icon: 'trophy', val: (s) => s.csTimedPapers || 0, target: 6 },
     { id: 'focus10', title: '10 focus hours', desc: 'Focus for 10 hours with the timer', tier: 'bronze', icon: 'timer', val: (s) => Math.floor(s.focusMin / 60), target: 10 },
     { id: 'focus100', title: '100 focus hours', desc: 'Focus for 100 hours with the timer', tier: 'gold', icon: 'timer', val: (s) => Math.floor(s.focusMin / 60), target: 100 },
     { id: 'err1', title: 'First mistake logged', desc: 'Add a question to the Error Notebook', tier: 'bronze', icon: 'notebook', val: (s) => s.errors, target: 1 },

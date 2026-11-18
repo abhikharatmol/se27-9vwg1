@@ -318,6 +318,13 @@
     10: (all) => {
       if (!isObj(all.cs)) all.cs = { done: {}, saved: [] };
     },
+    // v10 -> v11: additive only. The `cs` domain gets `papers` (timed paper attempts: {paperId: [{start, used, got, tried}]})
+    // and `today` (the CS questions picked for today: {date, ids}). Answers and saved questions are kept as they are.
+    11: (all) => {
+      if (!isObj(all.cs)) all.cs = { done: {}, saved: [] };
+      if (!isObj(all.cs.papers)) all.cs.papers = {};
+      if (all.cs.today === undefined) all.cs.today = null;
+    },
     3: migrateToV3,
     // v3 -> v4: additive only. Adds the new, empty `attempts` domain (Test Center) and
     // leaves every other domain untouched. Also runs on v3 backups being restored, so a

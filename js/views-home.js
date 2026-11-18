@@ -110,7 +110,17 @@
       : row('#/practice', '', 'target', 'No practice set yet', 'Mark a chapter with questions Done', 'today-practice');
     const d = E.dueCounts();
     const cards = d.overdue + d.today ? row('#/flashcards', '', 'cards', u.plural(d.overdue + d.today, 'flashcard') + ' due', 'Revision', 'today-cards') : '';
-    const rows = vid + rev + pr + cards;
+    // HSC Computer Science: today's set (picked on the CS page) and board readiness
+    let csRow = '';
+    if (S.csstudy && S.CS_HOT && !(D.COMING_SOON && D.COMING_SOON.cs)) {
+      const c = store.get('cs');
+      const tday = u.today();
+      const set = c.today && c.today.date === tday ? c.today.ids : null;
+      const n = set ? set.filter((id) => c.done[id] && c.done[id].at === tday).length : 0;
+      const r = S.csstudy.readiness(S.CS_HOT, c.done);
+      csRow = row('#/csboard', '', 'code', set && n >= set.length ? 'HSC CS: today\'s set done' : 'HSC CS: today\'s set', (set ? n + ' of ' + set.length + ' done' : '3 questions, about 15 minutes') + ' · board readiness ' + r.pct + '%', 'today-cs', 'cs');
+    }
+    const rows = vid + rev + pr + cards + csRow;
     return '<section aria-label="Today" data-testid="today-card" class="today"><h2 class="h3 sec-t">Today</h2><ul class="list">' + rows + '</ul></section>';
   }
 

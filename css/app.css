@@ -1630,3 +1630,87 @@ a.btn { text-decoration: none; }
 .cs-q { display: flex; flex-direction: column; min-height: calc(100dvh - var(--bar-h) - var(--nav-h) - 4rem); }
 .cs-nav { position: sticky; bottom: calc(var(--nav-h) + 22px + var(--safe-b)); z-index: 5; margin-top: auto; padding: .5rem; border-radius: 22px; background: color-mix(in srgb, var(--bg, #fff) 90%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 @media (min-width: 900px) { .lw-draft { display: none; } }
+
+/* --- 8s. Computer Science study loop: readiness, today's set, most asked, revise again --- */
+.cs-ready { display: flex; align-items: center; gap: var(--s3); width: 100%; text-align: left; border: 0; cursor: pointer; font: inherit; color: inherit; }
+.cs-ready .grow, .cs-ready-s { display: flex; flex-direction: column; gap: .35rem; }
+.cs-pct { font-family: var(--font-display); font-weight: 600; font-size: 2rem; line-height: 1.05; color: var(--pri); font-variant-numeric: tabular-nums; }
+.cs-bar { display: block; height: .5rem; border-radius: 999px; background: var(--st); overflow: hidden; margin: .25rem 0; }
+.cs-bar > span { display: block; height: 100%; border-radius: inherit; background: var(--pri); transition: width .4s ease; }
+@media (prefers-reduced-motion: reduce) { .cs-bar > span { transition: none; } }
+.cs-today-h { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s2); }
+.cs-count { font-weight: 600; font-size: .875rem; color: var(--on-sel); background: var(--sel); padding: .15rem .6rem; border-radius: 999px; font-variant-numeric: tabular-nums; }
+.cs-win { display: flex; gap: .5rem; align-items: center; margin: .25rem 0 0; font-weight: 600; color: var(--ok, #0b7a52); }
+.cs-tag { flex: none; align-self: flex-start; margin-top: .15rem; font-size: .6875rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: .15rem .45rem; border-radius: 6px; background: var(--st); color: var(--text-2); }
+.cs-revise { display: flex; align-items: center; gap: var(--s3); width: 100%; text-align: left; border: 0; cursor: pointer; font: inherit; color: inherit; }
+.cs-revise .grow { display: flex; flex-direction: column; }
+.cs-sec { margin-top: var(--s5, 1.5rem); }
+.cs-sec-s { margin: .15rem 0 var(--s2); }
+.cs-yrs { display: inline-flex; gap: .25rem; margin-top: .25rem; }
+.cs-yr { font-size: .6875rem; font-weight: 600; padding: .05rem .4rem; border-radius: 6px; color: var(--text-3); box-shadow: inset 0 0 0 1px var(--b-outline, var(--line)); font-variant-numeric: tabular-nums; }
+.cs-yr.on { background: var(--pri); color: #fff; box-shadow: none; }
+.cs-hot { display: inline-block; font-size: .75rem; font-weight: 600; padding: .05rem .45rem; border-radius: 6px; background: var(--warn-t, rgba(180, 87, 10, .14)); color: var(--warn); }
+.cs-topic { padding: 0; overflow: hidden; }
+.cs-topic > summary { display: flex; align-items: center; gap: var(--s3); padding: var(--s3) var(--s4); cursor: pointer; list-style: none; }
+.cs-topic > summary::-webkit-details-marker { display: none; }
+.cs-topic > summary .grow { display: flex; flex-direction: column; }
+.cs-topic[open] > summary .chev { transform: rotate(180deg); }
+.cs-topic .list { margin: 0; border-radius: 0; }
+.cs-hotp .card + .card { margin-top: var(--s2); }
+.cs-topicline { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 0; color: var(--text-2); }
+.cs-topicline .cs-yrs { margin: 0; }
+.cs-fig { margin: var(--s3) 0; padding: var(--s3); border-radius: var(--r-md); background: #fff; }
+.cs-fig img { display: block; width: 100%; height: auto; }
+.cs-fig figcaption { margin-top: .4rem; }
+.cs-today .grow { display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; }
+.cs-today .cs-tag { margin: 0; }
+
+/* --- 8t. code keyboard row --- */
+.cd-keys { display: flex; gap: .375rem; overflow-x: auto; padding: .25rem 0 .5rem; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.cd-keys::-webkit-scrollbar { display: none; }
+.cd-key { flex: none; min-width: 2.75rem; height: 2.5rem; padding: 0 .65rem; border: 0; border-radius: 10px; background: var(--st); color: var(--text); font-family: ui-monospace, Consolas, monospace; font-size: .95rem; font-weight: 600; cursor: pointer; touch-action: manipulation; user-select: none; -webkit-user-select: none; }
+.cd-key:active { background: var(--sel); color: var(--on-sel); }
+.cd-cases code { font-family: ui-monospace, Consolas, monospace; font-size: .875rem; white-space: pre-wrap; }
+.cs-pace { color: var(--text); font-weight: 500; }
+.cs-list .page-h .link { margin-top: .25rem; }
+.cs-pt input[type="checkbox"] { min-height: 0; padding: 0; box-shadow: none; border: 0; border-radius: 4px; background: none; -webkit-appearance: auto; appearance: auto; }
+
+/* --- 8u. CS final review: coloured set tags, stacked timer, readable diagrams, how-it-works fold --- */
+.cs-tag[data-why="revise"] { background: var(--warn-t, rgba(180, 87, 10, .14)); color: var(--warn); }
+.cs-tag[data-why="hot"] { background: var(--sel); color: var(--on-sel); }
+.cs-tag[data-why="mcq"] { background: var(--ok-t, rgba(11, 122, 82, .14)); color: var(--ok, #0b7a52); }
+.cs-today .btn.primary { margin-top: var(--s3); }
+.cs-timer { flex-direction: column; align-items: stretch; }
+.cs-timer .btn { width: 100%; }
+.cs-paper .card small.muted { display: block; }
+.cs-howto > summary { cursor: pointer; list-style: none; padding: .25rem 0; }
+.cs-howto > summary::-webkit-details-marker { display: none; }
+.cs-howto > summary::after { content: " +"; color: var(--text-2); }
+.cs-howto[open] > summary::after { content: " -"; }
+@media (max-width: 600px) { .cs-fig { padding: var(--s2); } .cs-fig a { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; } .cs-fig img { min-width: 540px; } }
+.cs-q .tc-sol, .cs-q .cs-qcard { width: 100%; box-sizing: border-box; }
+
+/* --- 8v. CS critic round 2 --- */
+.cs-best { display: flex; flex-direction: column; gap: .1rem; padding-bottom: var(--s3); margin-bottom: var(--s2); box-shadow: inset 0 -1px 0 var(--line); }
+.cs-untimed b { font-size: 1.125rem; font-family: var(--font-body); font-weight: 700; }
+.cs-hot { background: var(--sel); color: var(--on-sel); }
+.cs-fighint { display: none; margin: .25rem 0 0; }
+@media (max-width: 600px) { .cs-fighint { display: block; } }
+.cs-today .h3, .cs-papers-card .h3, .cs-revise b, .cs-timer .h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.125rem; }
+.cs-papers-card { gap: var(--s2); }
+.cs-papers-card .h3 { margin: 0; }
+.cs-today .cs-qt { -webkit-line-clamp: 3; line-clamp: 3; }
+@media (min-width: 900px) { .cs-q .tc-sol .btn.block { max-width: none; } .cs-q .tc-sol, .cs-q .cs-qcard { margin-left: 0; margin-right: 0; } }
+.page.cs-q .tc-sol.sol { max-width: none; width: 100%; box-sizing: border-box; }
+
+/* --- 8w. CS critic round 3 --- */
+.cs-timer .h3 { font-size: 1.0625rem; }
+.cs-untimed b { font-size: 1rem; font-weight: 600; }
+.cs-hot { background: none; box-shadow: inset 0 0 0 1px var(--pri); color: var(--pri); }
+.cs-papers-card p { margin: 0; }
+.cs-figbtn { margin-top: var(--s2); align-self: flex-start; display: inline-flex; gap: .4rem; align-items: center; text-decoration: none; }
+@media (max-width: 600px) { .cs-fig > a:first-child { -webkit-mask-image: linear-gradient(to right, #000 86%, transparent); mask-image: linear-gradient(to right, #000 86%, transparent); } }
+@media (min-width: 900px) { .cs-paper, .cs-q, .cs-list, .cs-index, .cs-hotp { max-width: 48rem; margin-inline: auto; } }
+.cd-page select { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.cs-paper .card b.h3 { font-size: 1.0625rem; }
+.cs-paper .card.cs-untimed b { font-family: var(--font-body); font-size: 1rem; font-weight: 600; }

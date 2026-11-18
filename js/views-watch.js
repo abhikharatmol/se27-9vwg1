@@ -229,13 +229,24 @@
       '<li><details><summary>' + u.esc(c.q) + '</summary><p class="small">' + u.esc(c.a) + '</p></details></li>').join('') + '</ul>' +
       '<button class="btn tonal block rip" data-act="go" data-to="#/flashcards">' + u.icon('cards') + 'Review in Flashcards</button></section>';
   }
+  function csPracticeHtml(chId) {
+    const n = ((S.CS_INDEX || {})[chId] || {}).n || 0;
+    const dn = Object.keys(store.get('cs').done || {}).filter((k) => k.indexOf(chId + '-') === 0).length;
+    return '<section class="card stack" data-testid="lw-practice-cs"><h2 class="h3">Board questions</h2><p class="small muted">' + n + ' HSC board questions of this chapter with model answers' + (dn ? ', ' + dn + ' done' : '') + '. Write the answer, then mark yourself.</p>' +
+      '<button class="btn primary block rip" data-act="go" data-to="#/csboard/' + u.esc(chId) + '" data-testid="lw-cs-board">' + u.icon('clipboard') + 'Practise board questions</button></section>';
+  }
   function practiceHtml(chId) {
+    if (D.CH[chId] && D.CH[chId].subj === 'cs') return csPracticeHtml(chId);
     const n = L.mcqCount(chId);
     if (!n) return '<section class="card" data-testid="lw-practice-empty"><h2 class="h3">Practice</h2><p class="small muted">No questions yet for this chapter.</p></section>';
     return '<section class="card stack" data-testid="lw-practice"><h2 class="h3">Practice</h2><p class="small muted">' + u.plural(n, 'question') + ' in the bank for this chapter. No timer; you see the answer after each one.</p>' +
       '<button class="btn primary block rip" data-act="lv-practice" data-id="' + u.esc(chId) + '" data-testid="lw-practice-start">' + u.icon('target') + 'Practise this chapter</button></section>';
   }
   function testHtml(chId) {
+    if (D.CH[chId] && D.CH[chId].subj === 'cs') {
+      return '<section class="card stack" data-testid="lw-test-cs"><h2 class="h3">Board papers</h2><p class="small muted">Test yourself the way the board does: a full paper, 50 marks, with the 3-hour timer.</p>' +
+        '<button class="btn tonal block rip" data-act="go" data-to="#/csboard/papers" data-testid="lw-cs-papers">' + u.icon('timer') + 'Open the board papers</button></section>';
+    }
     const bank = S.tc ? S.tc.bankCount(chId) : 0;
     if (!bank) return '<section class="card" data-testid="lw-test-empty"><h2 class="h3">Test</h2><p class="small muted">No questions yet for this chapter.</p></section>';
     const cp = L.steps(chId).filter((x) => x.key === 'checkpoint')[0];

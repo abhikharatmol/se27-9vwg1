@@ -2,8 +2,10 @@
  *   8085 lab: write a program, press Run, see the registers, flags and a memory window. Pick a board task: "Check my program" runs it on the
  *   task's test cases (data/cs items with `checks`, the same ones the tests run on the model program) and says which cases pass.
  *   HTML lab: write a page and see it at once in a sandboxed frame (no scripts run in it).
+ *   Every editor has a row of keys for symbols that are slow to type on a phone ({ } ; << ...); a key keeps the focus in the editor.
  *   C++ lab (#/code/cpp): write or load a board program, give it input, press Run. This is the ONE place that uses the network: the code and the
  *   input go to the free online compiler wandbox.org (g++), and the output comes back. Nothing else is sent. Offline it says so.
+ *   A board program (?q=<id> or the picker) starts from an empty main(); Check runs it with the test cases of data/cs-cpp-cases.json.
  * The CPU is js/sim8085.js. Nothing is saved except what she types into the page (kept in memory while the page is open). */
 (function (S) {
   'use strict';
@@ -85,7 +87,7 @@
       ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === st.task ? ' selected' : '') + '>' + u.esc(q.q.slice(0, 70)) + '</option>').join('') + '</select>' +
       (t ? '<p class="cd-task" data-testid="cd-task-q">' + u.esc(t.q) + '</p><p class="small muted">Your program is tested with ' + t.checks.length + ' sets of numbers in memory. Put your answer where the task says (see the marking points).</p>' +
         '<ul class="cs-pts">' + t.model.map((p) => '<li class="small">' + u.esc(p.t) + '</li>').join('') + '</ul>' : '') + '</section>' +
-      '<section class="card stack"><label class="field-l" for="cd-src">Program</label><textarea id="cd-src" class="input cd-src" data-testid="cd-src" spellcheck="false" rows="12" autocapitalize="off" autocomplete="off">' + u.esc(st.src8085) + '</textarea>' +
+      '<section class="card stack"><label class="field-l" for="cd-src">Program</label><textarea id="cd-src" class="input cd-src" data-testid="cd-src" spellcheck="false" rows="12" autocapitalize="off" autocomplete="off">' + u.esc(st.src8085) + '</textarea>' + keyRow('cd-src', 'asm') +
       '<label class="field-l" for="cd-mem">Memory before the run (hex address: bytes)</label><textarea id="cd-mem" class="input cd-src" data-testid="cd-mem" spellcheck="false" rows="3" autocapitalize="off">' + u.esc(st.mem) + '</textarea>' +
       '<div class="row gap"><button class="btn primary grow rip" data-act="cd-run" data-testid="cd-run">' + u.icon('play') + 'Run</button>' +
       (t ? '<button class="btn tonal grow rip" data-act="cd-check" data-testid="cd-checkbtn">Check my program</button>' : '') + '</div></section>' +
@@ -99,19 +101,79 @@
   function htmlLab() {
     return (
       '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">HTML lab</h1><p class="muted">Write HTML on the left and see the page at once. Try the tags of the syllabus: lists, tables, links, images and font styles.</p></div></header>' +
-      '<div class="cd-split"><section class="card stack"><label class="field-l" for="cd-html">HTML code</label><textarea id="cd-html" class="input cd-src" data-testid="cd-html" spellcheck="false" rows="14" autocapitalize="off" autocomplete="off">' + u.esc(st.html) + '</textarea></section>' +
+      '<div class="cd-split"><section class="card stack"><label class="field-l" for="cd-html">HTML code</label><textarea id="cd-html" class="input cd-src" data-testid="cd-html" spellcheck="false" rows="14" autocapitalize="off" autocomplete="off">' + u.esc(st.html) + '</textarea>' + keyRow('cd-html', 'html') + '</section>' +
       '<section class="card stack"><h2 class="h3">Your page</h2><iframe class="cd-frame" title="Preview of your page" sandbox="" data-testid="cd-frame" srcdoc="' + u.esc(st.html) + '"></iframe></section></div></div>'
     );
   }
 
+  /* ---------- keyboard row: symbols that are slow to type on a phone ---------- */
+  const KEYS = {
+    cpp: [['Tab', '    '], ['{', '{'], ['}', '}'], ['(', '('], [')', ')'], [';', ';'], ['<<', ' << '], ['>>', ' >> '], ['"', '"'], ['=', ' = '], ['<', '<'], ['>', '>'], ['[', '['], [']', ']'], ['+', '+'], ['-', '-'], ['*', '*'], ['/', '/'], ['%', '%'], ['&', '&'], ['!', '!'], ['#', '#'], ['cout', 'cout << '], ['cin', 'cin >> '], ['endl', 'endl']],
+    asm: [['Tab', '    '], [',', ', '], [':', ': '], [';', '; '], ['H', 'H'], ['MVI', 'MVI '], ['MOV', 'MOV '], ['LXI', 'LXI '], ['LDA', 'LDA '], ['STA', 'STA '], ['INX H', 'INX H'], ['DCR C', 'DCR C'], ['JNZ', 'JNZ '], ['HLT', 'HLT']],
+    html: [['Tab', '    '], ['<', '<'], ['>', '>'], ['/', '/'], ['"', '"'], ['=', '='], ['</', '</'], ['<br>', '<br>'], ['<p>', '<p>'], ['<li>', '<li>']],
+  };
+  const keyRow = (forId, set) => '<div class="cd-keys" role="toolbar" aria-label="Insert symbols" data-testid="cd-keys">' +
+    KEYS[set].map((k) => '<button type="button" class="cd-key" data-ins="' + u.esc(k[1]) + '" data-for="' + forId + '" aria-label="Insert ' + u.esc(k[0]) + '">' + u.esc(k[0]) + '</button>').join('') + '</div>';
+  function insertAt(el, text) {
+    const a = el.selectionStart == null ? el.value.length : el.selectionStart;
+    const b = el.selectionEnd == null ? a : el.selectionEnd;
+    el.value = el.value.slice(0, a) + text + el.value.slice(b);
+    el.selectionStart = el.selectionEnd = a + text.length;
+    el.dispatchEvent(new Event('input', { bubbles: true }));
+  }
+  // pointerdown keeps the focus (and the phone keyboard) in the editor; click covers the keyboard and screen readers
+  document.addEventListener('pointerdown', (e) => {
+    const k = e.target && e.target.closest && e.target.closest('.cd-key');
+    if (!k) return;
+    e.preventDefault();
+    const el = document.getElementById(k.dataset.for);
+    if (!el) return;
+    if (document.activeElement !== el) el.focus();
+    insertAt(el, k.dataset.ins);
+    k.dataset.p = '1';
+    setTimeout(() => { delete k.dataset.p; }, 1500); // a scroll gesture sends no click
+  });
+  document.addEventListener('pointercancel', (e) => { const k = e.target && e.target.closest && e.target.closest('.cd-key'); if (k) delete k.dataset.p; });
+  document.addEventListener('click', (e) => {
+    const k = e.target && e.target.closest && e.target.closest('.cd-key');
+    if (!k) return;
+    if (k.dataset.p) { delete k.dataset.p; return; }
+    const el = document.getElementById(k.dataset.for);
+    if (el) { el.focus(); insertAt(el, k.dataset.ins); }
+  });
+
   /* ---------- C++ (online) ---------- */
   const WANDBOX = 'https://wandbox.org/api/compile.json';
-  const cpp = { src: '#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cout << "Enter a number: ";\n    cin >> n;\n    cout << "Square = " << n * n << endl;\n    return 0;\n}\n', cin: '7', pick: '', busy: false, out: null };
+  const STARTER = '#include <iostream>\nusing namespace std;\n\nint main() {\n    \n    return 0;\n}\n';
+  const cpp = { src: '#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cout << "Enter a number: ";\n    cin >> n;\n    cout << "Square = " << n * n << endl;\n    return 0;\n}\n', cin: '7', pick: '', busy: false, out: null, check: null, model: false, lastQ: '' };
   const cppTasks = () => ((window.CS_C && window.CS_C['cs-12-03']) || []).filter((q) => q.code && q.code.indexOf('#include') >= 0);
+  const cppTask = () => cppTasks().filter((x) => x.id === cpp.pick)[0];
   const clip = (t) => (String(t || '').length > 20000 ? String(t).slice(0, 20000) + '\n... (cut)' : String(t || ''));
+  // the same rule as tools/check_cpp.py: tokens (numbers or words, lower case); the `has` tokens in order, none of the `no` tokens
+  const TOKEN = /-?\d+(?:\.\d+)?|[a-z]+/g;
+  const caseOk = (out, c) => {
+    const toks = String(out || '').toLowerCase().match(TOKEN) || [];
+    let i = 0;
+    for (const w of c.has) {
+      const want = String(w).toLowerCase();
+      while (i < toks.length && toks[i] !== want) i++;
+      if (i === toks.length) return false;
+      i++;
+    }
+    return !(c.no || []).some((n) => toks.indexOf(String(n).toLowerCase()) >= 0);
+  };
   function cppOut() {
     const o = cpp.out;
-    if (cpp.busy) return '<section class="card"><p class="muted" data-testid="cd-cpp-busy">Compiling and running...</p></section>';
+    if (cpp.busy) return '<section class="card"><p class="muted" data-testid="cd-cpp-busy">' + (cpp.busy === 'check' ? 'Checking your program with the test inputs...' : 'Compiling and running...') + '</p></section>';
+    const ck = cpp.check;
+    if (ck) {
+      if (ck.fail) return '<div class="banner warn" role="alert" data-testid="cd-cpp-fail">' + u.esc(ck.fail) + '</div>';
+      if (ck.compile) return '<section class="card stack" data-testid="cd-cpp-check"><h2 class="h3">It did not compile</h2><pre class="cs-code" data-testid="cd-cpp-err">' + u.esc(clip(ck.compile)) + '</pre></section>';
+      return '<section class="card stack" data-testid="cd-cpp-check"><h2 class="h3">' + ck.pass + ' of ' + ck.rows.length + ' tests pass</h2>' +
+        (ck.pass === ck.rows.length ? '<p class="cs-win">' + u.icon('check-c') + 'Your program gives the right results.</p>' : '<p class="small muted">Look at what your program printed for the failing input.</p>') +
+        '<ul class="cd-cases">' + ck.rows.map((x) => '<li class="' + (x.ok ? 'is-ok' : 'is-bad') + '">' + u.icon(x.ok ? 'check-c' : 'x') + '<span>Input: <code>' + u.esc(x.in || '(none)') + '</code>. It must show: ' + u.esc(x.has.join(', ')) + (x.no && x.no.length ? ' (and not: ' + u.esc(x.no.join(', ')) + ')' : '') +
+          (x.ok ? '' : '<br>Your program printed: <code>' + u.esc(clip(x.got).slice(-240) || '(nothing)') + '</code>') + '</span></li>').join('') + '</ul></section>';
+    }
     if (!o) return '<p class="muted small">Press Run. The program is compiled by g++ and run with the input you typed.</p>';
     if (o.fail) return '<div class="banner warn" role="alert" data-testid="cd-cpp-fail">' + u.esc(o.fail) + '</div>';
     return '<section class="card stack" data-testid="cd-cpp-out"><h2 class="h3">' + (o.compile ? 'It did not compile' : o.status === '0' ? 'Output' : 'The program ended with an error (code ' + u.esc(o.status) + ')') + '</h2>' +
@@ -121,15 +183,19 @@
   function cppLab() {
     loadCh('cs-12-03');
     const ts = cppTasks();
+    const t = cppTask();
     return (
-      '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">C++ lab</h1><p class="muted">Write a C++ program, give it input and run it with a real g++ compiler.</p></div></header>' +
-      '<div class="banner cd-net" data-testid="cd-cpp-net"><b>Needs internet.</b> When you press Run, your code and input are sent to wandbox.org, a free online compiler. Nothing else is sent. The rest of the app works offline.</div>' +
+      '<div class="page cd-page"><header class="page-h"><div><h1 class="h1">C++ lab</h1><p class="muted">Write a C++ program, give it input and run it with a real g++ compiler. Pick a board program to practise it with automatic checks.</p></div></header>' +
+      '<div class="banner cd-net" data-testid="cd-cpp-net"><b>Needs internet.</b> When you press Run or Check, your code and input are sent to wandbox.org, a free online compiler. Nothing else is sent. The rest of the app works offline.</div>' +
       '<section class="card stack"><h2 class="h3">Board program (optional)</h2><select class="input" id="cd-cpp-pick" data-change="cd-cpp-pick" aria-label="Board program"><option value="">My own program</option>' +
-      ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === cpp.pick ? ' selected' : '') + '>' + u.esc(q.q.replace(/\s+/g, ' ').slice(0, 70)) + '</option>').join('') + '</select>' +
-      '<p class="small muted">Choosing one loads its model program. Edit it, break it, run it.</p></section>' +
-      '<section class="card stack"><label class="field-l" for="cd-cpp">Program</label><textarea id="cd-cpp" class="input cd-src" data-testid="cd-cpp" spellcheck="false" rows="16" autocapitalize="off" autocomplete="off">' + u.esc(cpp.src) + '</textarea>' +
+      ts.map((q) => '<option value="' + u.esc(q.id) + '"' + (q.id === cpp.pick ? ' selected' : '') + '>' + (q.cases ? '' : '(no checks) ') + u.esc(q.q.replace(/\s+/g, ' ').slice(0, 70)) + '</option>').join('') + '</select>' +
+      (t ? '<p class="cd-task" data-testid="cd-cpp-task">' + u.esc(t.q) + '</p><p class="small muted">' + (t.cases ? 'Write it yourself, then press Check: it runs your program with ' + t.cases.length + (t.cases.length === 1 ? ' test input' : ' test inputs') + '.' : 'This one has no automatic check; compare with the model program.') + '</p>' +
+        '<button class="link" data-act="cd-cpp-model" data-testid="cd-cpp-modelbtn">' + (cpp.model ? 'Hide' : 'Show') + ' the model program</button>' +
+        (cpp.model ? '<pre class="cs-code" data-testid="cd-cpp-model">' + u.esc(t.code) + '</pre><button class="link" data-act="cd-cpp-load" data-testid="cd-cpp-load">Copy it into the editor</button>' : '') : '<p class="small muted">Choosing one gives you an empty program to write, its test inputs, and the model program if you get stuck.</p>') + '</section>' +
+      '<section class="card stack"><label class="field-l" for="cd-cpp">Program</label><textarea id="cd-cpp" class="input cd-src" data-testid="cd-cpp" spellcheck="false" rows="16" autocapitalize="off" autocomplete="off">' + u.esc(cpp.src) + '</textarea>' + keyRow('cd-cpp', 'cpp') +
       '<label class="field-l" for="cd-cin">Input (what the user types, one line per Enter)</label><textarea id="cd-cin" class="input cd-src" data-testid="cd-cin" spellcheck="false" rows="3" autocapitalize="off">' + u.esc(cpp.cin) + '</textarea>' +
-      '<button class="btn primary block rip" data-act="cd-cpp-run" data-testid="cd-cpp-run"' + (cpp.busy ? ' disabled' : '') + '>' + u.icon('play') + 'Run</button></section>' + cppOut() + '</div>'
+      '<div class="row gap"><button class="btn primary grow rip" data-act="cd-cpp-run" data-testid="cd-cpp-run"' + (cpp.busy ? ' disabled' : '') + '>' + u.icon('play') + 'Run</button>' +
+      (t && t.cases ? '<button class="btn tonal grow rip" data-act="cd-cpp-check" data-testid="cd-cpp-checkbtn"' + (cpp.busy ? ' disabled' : '') + '>Check my program</button>' : '') + '</div></section>' + cppOut() + '</div>'
     );
   }
 
@@ -155,12 +221,17 @@
     render(root, ctx) {
       const w = ctx.params[0];
       const keep = document.activeElement;
-      if (keep && /^cd-(src|mem|html|from|cpp|cin)$/.test(keep.id) && !ctx.first) return; // keep the cursor while she types
+      if (keep && /^cd-(src|mem|html|from|cpp|cin)$/.test(keep.id) && !ctx.first) return; // keep the cursor while she types (actions blur first, see grab)
+      const q = ctx.query || {};
+      if (w === 'cpp' && q.q && ctx.first) { cpp.pick = q.q; cpp.src = STARTER; cpp.cin = ''; cpp.out = null; cpp.check = null; cpp.model = false; }
+      if (w === '8085' && q.task && ctx.first) { st.task = q.task; st.check = null; st.model = false; st.mem = ''; }
       root.innerHTML = w === '8085' ? html8085() : w === 'html' ? htmlLab() : w === 'cpp' ? cppLab() : indexHtml();
     },
   };
 
+  const blurEditor = () => { const a = document.activeElement; if (a && /^cd-/.test(a.id || '') && a.blur) a.blur(); };
   const grab = () => {
+    blurEditor();
     const a = document.getElementById('cd-src'); if (a) st.src8085 = a.value;
     const b = document.getElementById('cd-mem'); if (b) st.mem = b.value;
     const c = document.getElementById('cd-html'); if (c) st.html = c.value;
@@ -205,30 +276,65 @@
     S.app.refresh(true);
   };
   const grabCpp = () => {
+    blurEditor();
     const a = document.getElementById('cd-cpp'); if (a) cpp.src = a.value;
     const b = document.getElementById('cd-cin'); if (b) cpp.cin = b.value;
   };
   ui.changes['cd-cpp-pick'] = (el) => {
     grabCpp();
     cpp.pick = el.value;
-    const q = cppTasks().filter((x) => x.id === cpp.pick)[0];
-    if (q) { cpp.src = q.code; cpp.cin = ''; cpp.out = null; }
+    cpp.out = null; cpp.check = null; cpp.model = false;
+    if (cppTask()) { cpp.src = STARTER; cpp.cin = ''; }
     S.app.refresh(true);
   };
+  ui.actions['cd-cpp-model'] = () => { grabCpp(); cpp.model = !cpp.model; S.app.refresh(true); };
+  ui.actions['cd-cpp-load'] = () => { const t = cppTask(); if (t) { cpp.src = t.code; cpp.model = false; } S.app.refresh(true); };
+  const compile = (code, stdin, signal) => fetch(WANDBOX, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code: code, compiler: 'gcc-head', stdin: stdin, options: 'warning' }), signal: signal })
+    .then((r) => { if (!r.ok) throw new Error('The compiler service answered ' + r.status + '.'); return r.json(); });
+  const netFail = (e) => (e && e.name === 'AbortError' ? 'The compiler service took too long. Try again.' : 'Could not reach the online compiler (' + (e && e.message ? e.message : 'network error') + '). Check your connection and try again.');
+  const offline = () => navigator.onLine === false;
   ui.actions['cd-cpp-run'] = () => {
     grabCpp();
     if (cpp.busy) return;
+    cpp.check = null;
     if (!cpp.src.trim()) { cpp.out = { fail: 'Write a program first.' }; S.app.refresh(true); return; }
-    if (navigator.onLine === false) { cpp.out = { fail: 'You are offline. The C++ lab needs internet to compile your program. Try again when you are online.' }; S.app.refresh(true); return; }
-    cpp.busy = true;
+    if (offline()) { cpp.out = { fail: 'You are offline. The C++ lab needs internet to compile your program. Try again when you are online.' }; S.app.refresh(true); return; }
+    cpp.busy = 'run';
     cpp.out = null;
     S.app.refresh(true);
     const ctl = new AbortController();
     const timer = setTimeout(() => ctl.abort(), 25000);
-    fetch(WANDBOX, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code: cpp.src, compiler: 'gcc-head', stdin: cpp.cin, options: 'warning' }), signal: ctl.signal })
-      .then((r) => { if (!r.ok) throw new Error('The compiler service answered ' + r.status + '.'); return r.json(); })
+    compile(cpp.src, cpp.cin, ctl.signal)
       .then((j) => { cpp.out = { status: String(j.status || '0'), compile: !('program_output' in j) ? String(j.compiler_error || j.compiler_message || 'The compiler gave no output.') : '', out: j.program_output, err: j.program_error }; })
-      .catch((e) => { cpp.out = { fail: e && e.name === 'AbortError' ? 'The compiler service took too long. Try again.' : 'Could not reach the online compiler (' + (e && e.message ? e.message : 'network error') + '). Check your connection and try again.' }; })
+      .catch((e) => { cpp.out = { fail: netFail(e) }; })
+      .then(() => { clearTimeout(timer); cpp.busy = false; S.app.refresh(true); });
+  };
+  // Check: run her program once per test input, one after another, and compare the output with the case rule
+  ui.actions['cd-cpp-check'] = () => {
+    grabCpp();
+    const t = cppTask();
+    if (!t || !t.cases || cpp.busy) return;
+    cpp.out = null;
+    if (offline()) { cpp.check = { fail: 'You are offline. Checking needs internet. Try again when you are online.' }; S.app.refresh(true); return; }
+    cpp.busy = 'check';
+    cpp.check = null;
+    S.app.refresh(true);
+    const rows = [];
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), 60000);
+    let chain = Promise.resolve(null);
+    t.cases.forEach((c) => {
+      chain = chain.then((stop) => {
+        if (stop) return stop;
+        return compile(cpp.src, c.in + '\n', ctl.signal).then((j) => {
+          if (!('program_output' in j)) return { compile: String(j.compiler_error || j.compiler_message || 'The compiler gave no output.') };
+          rows.push({ in: c.in, has: c.has, no: c.no, got: j.program_output || '', ok: caseOk(j.program_output, c) });
+          return null;
+        });
+      });
+    });
+    chain.then((stop) => { cpp.check = stop || { rows: rows, pass: rows.filter((x) => x.ok).length }; })
+      .catch((e) => { cpp.check = { fail: netFail(e) }; })
       .then(() => { clearTimeout(timer); cpp.busy = false; S.app.refresh(true); });
   };
   document.addEventListener('input', (e) => {
